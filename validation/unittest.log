@@ -1,0 +1,20 @@
+test_all_variants_and_rank_gradient (test_protocol.ProtocolTests.test_all_variants_and_rank_gradient) ... ok
+test_axis_and_cluster_equivalence_are_distinct (test_protocol.ProtocolTests.test_axis_and_cluster_equivalence_are_distinct) ... ok
+test_covariance_floor_detects_duplicated_dimensions (test_protocol.ProtocolTests.test_covariance_floor_detects_duplicated_dimensions) ... ok
+test_data_roundtrip_and_independent_splits (test_protocol.ProtocolTests.test_data_roundtrip_and_independent_splits) ... ok
+test_direct_matches_high_path_capacity (test_protocol.ProtocolTests.test_direct_matches_high_path_capacity) ... ok
+test_expected_pseudosolution_attribution (test_protocol.ProtocolTests.test_expected_pseudosolution_attribution) ... ok
+test_formal_profile_never_silently_falls_back_to_cpu (test_protocol.ProtocolTests.test_formal_profile_never_silently_falls_back_to_cpu) ... ok
+test_heldout_evaluation_and_frozen_transfer_monitor (test_protocol.ProtocolTests.test_heldout_evaluation_and_frozen_transfer_monitor) ... ok
+test_observation_inverse_and_normal_state_linearization (test_protocol.ProtocolTests.test_observation_inverse_and_normal_state_linearization) ... ok
+test_resume_exact_sequence_and_parity_bundle (test_protocol.ProtocolTests.test_resume_exact_sequence_and_parity_bundle) ... ok
+test_selector_has_no_truth_label_access (test_protocol.ProtocolTests.test_selector_has_no_truth_label_access) ... ok
+test_all_experiment_shell_manifests_match_canonical_budgets (test_scripts.ScriptTests.test_all_experiment_shell_manifests_match_canonical_budgets) ... ok
+test_formal_acceptance_failure_never_launches_other_tasks (test_scripts.ScriptTests.test_formal_acceptance_failure_never_launches_other_tasks) ... ok
+test_frozen_launch_rejects_changed_selection (test_scripts.ScriptTests.test_frozen_launch_rejects_changed_selection) ... ok
+test_reuse_dependencies_are_present_and_ordered (test_scripts.ScriptTests.test_reuse_dependencies_are_present_and_ordered) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 8.977s
+
+OK

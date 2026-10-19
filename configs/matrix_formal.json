@@ -1,0 +1,243 @@
+{
+  "base": "base_formal.json",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "purpose": "frozen proposal-aligned formal mechanism matrix; engineer-chosen budgets, Linux CUDA only",
+  "jobs": [
+    {
+      "name": "e1_baseline",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p008",
+      "system": {
+        "family": "near_repeated",
+        "eigenvalues": [
+          0.92,
+          0.912,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p002",
+      "system": {
+        "family": "near_repeated",
+        "eigenvalues": [
+          0.92,
+          0.918,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p012",
+      "system": {
+        "family": "near_repeated",
+        "eigenvalues": [
+          0.92,
+          0.908,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_outside_0p75",
+      "system": {
+        "family": "real",
+        "eigenvalues": [
+          0.92,
+          0.9,
+          0.75,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_outside_0p88",
+      "system": {
+        "family": "real",
+        "eigenvalues": [
+          0.92,
+          0.9,
+          0.88,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_outside_0p892",
+      "system": {
+        "family": "real",
+        "eigenvalues": [
+          0.92,
+          0.9,
+          0.892,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_noise_0p005",
+      "system": {
+        "family": "real",
+        "noise_std": 0.005
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_noise_0p02",
+      "system": {
+        "family": "real",
+        "noise_std": 0.02
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_noise_0p05",
+      "system": {
+        "family": "real",
+        "noise_std": 0.05
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_rotation",
+      "system": {
+        "family": "oscillatory"
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_repeated_unresolved",
+      "system": {
+        "family": "real",
+        "eigenvalues": [
+          0.92,
+          0.92,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_uncertified_access",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      },
+      "selection": {
+        "query_noise_bound": 0.002
+      }
+    },
+    {
+      "name": "e2_hierarchical",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "hierarchical"
+      }
+    },
+    {
+      "name": "e2_block_only",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "block_only"
+      }
+    },
+    {
+      "name": "e2_full",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      },
+      "reuse_from": "e1_baseline"
+    },
+    {
+      "name": "e3_direct",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "direct"
+      },
+      "transfer": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "e3_no_fine",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "no_fine"
+      },
+      "transfer": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "e3_full",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "full"
+      },
+      "transfer": {
+        "enabled": true
+      }
+    }
+  ]
+}

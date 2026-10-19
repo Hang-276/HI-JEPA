@@ -1,0 +1,187 @@
+[
+  {
+    "experiment": "e1",
+    "profile": "formal",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e1",
+    "profile": "formal",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "doctor",
+      "parity-check",
+      "run",
+      "run",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e2",
+    "profile": "formal",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e2",
+    "profile": "formal",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "doctor",
+      "parity-check",
+      "run",
+      "run",
+      "audit-pseudosolutions",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e3",
+    "profile": "formal",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e3",
+    "profile": "formal",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "doctor",
+      "parity-check",
+      "run",
+      "run",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "all",
+    "profile": "formal",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "all",
+    "profile": "formal",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "doctor",
+      "parity-check",
+      "run",
+      "run",
+      "audit-pseudosolutions",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e1",
+    "profile": "local",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e1",
+    "profile": "local",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e2",
+    "profile": "local",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e2",
+    "profile": "local",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "audit-pseudosolutions",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e3",
+    "profile": "local",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "e3",
+    "profile": "local",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "all",
+    "profile": "local",
+    "manifest_only": true,
+    "failed_gate": false,
+    "calls": [
+      "manifest"
+    ]
+  },
+  {
+    "experiment": "all",
+    "profile": "local",
+    "manifest_only": false,
+    "failed_gate": false,
+    "calls": [
+      "manifest",
+      "audit-pseudosolutions",
+      "matrix"
+    ]
+  },
+  {
+    "experiment": "e2",
+    "profile": "formal",
+    "manifest_only": false,
+    "failed_gate": true,
+    "calls": [
+      "manifest",
+      "doctor",
+      "parity-check",
+      "run",
+      "run"
+    ]
+  }
+]

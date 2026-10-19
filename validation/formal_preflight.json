@@ -1,0 +1,3424 @@
+{
+  "scope": "CPU float64 mathematical/preflight checks only; no formal training and no CUDA execution",
+  "source_sha256": "71c3b4560f6bc4ef6d5f1b1a1a7098f6d021dd76e4d29bee810f788928490c4d",
+  "planned_records": 57,
+  "unique_settings": 19,
+  "rows": [
+    {
+      "name": "e1_baseline",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p008",
+      "status": "unresolved",
+      "m": 0,
+      "clusters": [],
+      "reasons": [
+        "An isolated block contour lacks sufficient resolvent margin.",
+        "An isolated block contour lacks sufficient resolvent margin."
+      ],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [],
+        "block_scaling": [],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 0.0,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": false,
+        "trajectory_floor_compatible": false,
+        "local_state_jacobian_sigma_min": 0.0,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": false,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.912,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9261428410722414,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": -0.8606381546887697,
+        "inverse_contraction_compatible": false,
+        "reference_in_allowed_K_domain": false,
+        "reference_K_domain_checks": [],
+        "reference_regularizer_comparison": {
+          "rank": 0.010000000000000002,
+          "scale": null,
+          "floor": null,
+          "weighted_higher_regularizer_cost": null,
+          "coarse_prediction_cost_clean_observations": null,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3620000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p002",
+      "status": "unresolved",
+      "m": 0,
+      "clusters": [],
+      "reasons": [
+        "A real eigenvalue multiplicity/type cannot be resolved into a certified real block.",
+        "A real eigenvalue multiplicity/type cannot be resolved into a certified real block."
+      ],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [],
+        "block_scaling": [],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 0.0,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": false,
+        "trajectory_floor_compatible": false,
+        "local_state_jacobian_sigma_min": 0.0,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": false,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.918,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.926169902046127,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": -0.8606882812355947,
+        "inverse_contraction_compatible": false,
+        "reference_in_allowed_K_domain": false,
+        "reference_K_domain_checks": [],
+        "reference_regularizer_comparison": {
+          "rank": 0.010000000000000002,
+          "scale": null,
+          "floor": null,
+          "weighted_higher_regularizer_cost": null,
+          "coarse_prediction_cost_clean_observations": null,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3680000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      }
+    },
+    {
+      "name": "e1_inner_gap_0p012",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          10.957582984308184
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.008328570441967291,
+            "fixed_scalar": 10.957582984308184,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.908,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9261248004229844,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.0473952604610961,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9166499996948012,
+              0.9233500003052002
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 6.661338147750939e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.908,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.904649998604803,
+              0.911349999215202
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0899975366740478e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3580000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.9079999923706055,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.101321595156847,
+        "reference_contraction_upper_bound": 0.9261248004229844,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9446114021644557,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9166499972343445,
+            0.9233499765396118
+          ],
+          [
+            0.9046499729156494,
+            0.9113500118255615
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.0033500003051994964,
+            "contour_radius": 0.004200000381499374,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.0033500003051994964,
+            "contour_radius": 0.004200000381499374,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_outside_0p75",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.75,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9274417678187504,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.03695417391692668,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911184,
+              0.9055899992637545
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.022563589359038e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.6500000000001136,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9274417678187504,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9557202838676847,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_outside_0p88",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.88,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9280280889196051,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.03586627294619993,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136831,
+              0.9255900002863194
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.2212453270876722e-15,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099991662298,
+              0.9055899987886429
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225637003813404e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.7800000000001137,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9280280889196051,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9569290629319346,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318175,
+            "contour_radius": 0.007000000357897728,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.0055899998112065585,
+            "contour_radius": 0.006999999764008196,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_outside_0p892",
+      "status": "unresolved",
+      "m": 0,
+      "clusters": [],
+      "reasons": [
+        "An isolated block contour lacks sufficient resolvent margin."
+      ],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [],
+        "block_scaling": [],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 0.0,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": false,
+        "trajectory_floor_compatible": false,
+        "local_state_jacobian_sigma_min": 0.0,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": false,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.892,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9280822108673762,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": -0.8642341820509098,
+        "inverse_contraction_compatible": false,
+        "reference_in_allowed_K_domain": false,
+        "reference_K_domain_checks": [],
+        "reference_regularizer_comparison": {
+          "rank": 0.010000000000000002,
+          "scale": null,
+          "floor": null,
+          "weighted_higher_regularizer_cost": null,
+          "coarse_prediction_cost_clean_observations": null,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.7920000000001137,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      }
+    },
+    {
+      "name": "e1_noise_0p005",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_noise_0p02",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_noise_0p05",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_rotation",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          14.496221682528255,
+          14.496221682528255
+        ],
+        "block_scaling": [
+          {
+            "kind": "rotation",
+            "coordinates": [
+              0,
+              1
+            ],
+            "population_mean": [
+              0.0,
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 14.496221682528255,
+            "target_total_variance": 2,
+            "scaled_total_variance": 2.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.755851794541757,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.9999999999999994,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299188,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.8913994279737932,
+            -0.2276116425141611,
+            0.0,
+            0.0
+          ],
+          [
+            0.2276116425141611,
+            0.8913994279737932,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 8.738791691820322e-18,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9375312700159609,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.036435672652166184,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "rotation",
+            "reference_eigenvalue": {
+              "real": 0.891399427973793,
+              "imag": 0.22761164251416116
+            },
+            "actual_inner_modulus_bounds": [
+              0.9154105549099067,
+              0.9245894476179255
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 3.5257011754552536e-09,
+            "actual_inner_angle_halfwidth": 0.004499463069431082,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 3.481194894010291e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_euclidean_ball",
+          "radius": 1.0204081632653061,
+          "image_radius_upper_bound": 0.9770928779676247,
+          "invariance_proof": "global Euclidean Lipschitz <1 and f(0)=0, when certified"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.4487421229374136,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.9200000166893005,
+        "maximum_modulus": 0.9200000166893005,
+        "inverse_operator_norm": 1.086956502021148,
+        "reference_contraction_upper_bound": 0.9375312700159609,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.955396593818304,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.915410578250885,
+            0.9245894551277161
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.00872894889169902,
+            "contour_radius": 0.018397785416037208,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e1_repeated_unresolved",
+      "status": "unresolved",
+      "m": 0,
+      "clusters": [],
+      "reasons": [
+        "A real eigenvalue multiplicity/type cannot be resolved into a certified real block.",
+        "A real eigenvalue multiplicity/type cannot be resolved into a certified real block."
+      ],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [],
+        "block_scaling": [],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 0.0,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": false,
+        "trajectory_floor_compatible": false,
+        "local_state_jacobian_sigma_min": 0.0,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": false,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.92,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9261789223707555,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": -0.8655017384486439,
+        "inverse_contraction_compatible": false,
+        "reference_in_allowed_K_domain": false,
+        "reference_K_domain_checks": [],
+        "reference_regularizer_comparison": {
+          "rank": 0.010000000000000002,
+          "scale": null,
+          "floor": null,
+          "weighted_higher_regularizer_cost": null,
+          "coarse_prediction_cost_clean_observations": null,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3700000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      }
+    },
+    {
+      "name": "e1_uncertified_access",
+      "status": "unresolved",
+      "m": 0,
+      "clusters": [],
+      "reasons": [
+        "A spectral uncertainty disk crosses the slow-mode threshold.",
+        "A spectral uncertainty disk crosses the slow-mode threshold.",
+        "A spectral uncertainty disk crosses the slow-mode threshold.",
+        "A spectral uncertainty disk crosses the slow-mode threshold."
+      ],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [],
+        "block_scaling": [],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 0.0,
+        "covariance_min_eigenvalue_trajectory_mixture": 0.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": false,
+        "trajectory_floor_compatible": false,
+        "local_state_jacobian_sigma_min": 0.0,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": false,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": -30.531481108887267,
+        "inverse_contraction_compatible": false,
+        "reference_in_allowed_K_domain": false,
+        "reference_K_domain_checks": [],
+        "reference_regularizer_comparison": {
+          "rank": 0.010000000000000002,
+          "scale": null,
+          "floor": null,
+          "weighted_higher_regularizer_cost": null,
+          "coarse_prediction_cost_clean_observations": null,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      }
+    },
+    {
+      "name": "e2_hierarchical",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 17154,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 84294,
+        "trainable": 84292
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e2_block_only",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e2_full",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9575510204082721,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.039462090900823865,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136825,
+              0.9255900002863187
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 5.551115123125783e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911181,
+              0.9055899992637543
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225638114036428e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5102040816326531,
+          "image_radius_upper_bound": 0.4885464389837568,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9260887191244702,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9529337093436799,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897534,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e3_direct",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9769072164949565,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.03288845905107951,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136826,
+              0.9255900002863188
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 6.661338147750939e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911185,
+              0.9055899992637546
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225634783367354e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5154639175257733,
+          "image_radius_upper_bound": 0.5035604208736317,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 0,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": true,
+        "direct_internal_z_tap": true,
+        "total": 42276,
+        "trainable": 42276
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9597364312912471,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e3_no_fine",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9769072164949565,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.03288845905107951,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136826,
+              0.9255900002863188
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 6.661338147750939e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911185,
+              0.9055899992637546
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225634783367354e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5154639175257733,
+          "image_radius_upper_bound": 0.5035604208736317,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9597364312912471,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "e3_full",
+      "status": "certified",
+      "m": 2,
+      "clusters": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "reasons": [],
+      "compatibility": {
+        "scope": "truth compatibility only; not learned-model certification",
+        "initial_distribution": "independent uniform linear-mode coordinates",
+        "coarse_scaling": [
+          10.250376653299192,
+          11.400034635615595
+        ],
+        "block_scaling": [
+          {
+            "kind": "real",
+            "coordinates": [
+              0
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.009517444480419576,
+            "fixed_scalar": 10.250376653299192,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          },
+          {
+            "kind": "real",
+            "coordinates": [
+              1
+            ],
+            "population_mean": [
+              0.0
+            ],
+            "raw_total_variance": 0.007694628528808121,
+            "fixed_scalar": 11.400034635615595,
+            "target_total_variance": 1,
+            "scaled_total_variance": 1.0
+          }
+        ],
+        "scaling_rule": "population zero means; each real variance one; each rotation total variance two; no floor-driven rescaling",
+        "source_training_time_indices": [
+          0,
+          56
+        ],
+        "covariance_min_eigenvalue_initial": 8.75585179454176,
+        "covariance_min_eigenvalue_trajectory_mixture": 1.0,
+        "floor_standard_deviation": 0.2,
+        "initial_floor_compatible": true,
+        "trajectory_floor_compatible": true,
+        "local_state_jacobian_sigma_min": 10.250376653299192,
+        "rank_kappa": 0.1,
+        "local_rank_compatible": true,
+        "linear_mode_operator_norm": 0.9200000000001046,
+        "linear_mode_contraction_certified": true,
+        "state_jacobian_at_zero": [
+          [
+            0.92,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.45,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.3
+          ]
+        ],
+        "state_jacobian_normal_by_construction": true,
+        "state_jacobian_normality_residual_fro": 0.0,
+        "normality_residual_evidence": "floating-point diagnostic; main normality claim follows from block construction and Dphi(0)=I",
+        "coarse_mechanism_preserved_when_coupling_changes": true,
+        "coupling_change_scope": "only indices >=2 nonlinear conjugacy; first two physical/coarse coordinates identical",
+        "global_state_lipschitz_upper_bound": 0.9769072164949565,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_margin": 0.03288845905107951,
+        "inverse_contraction_compatible": true,
+        "reference_in_allowed_K_domain": true,
+        "reference_K_domain_checks": [
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.92,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.9144099997136826,
+              0.9255900002863188
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 6.661338147750939e-16,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          },
+          {
+            "kind": "real",
+            "reference_eigenvalue": {
+              "real": 0.9,
+              "imag": 0.0
+            },
+            "actual_inner_modulus_bounds": [
+              0.8944099986911185,
+              0.9055899992637546
+            ],
+            "parameterization_margin": 1e-05,
+            "reference_angle_distance": 0.0,
+            "actual_inner_angle_halfwidth": 0.0,
+            "in_actual_polar_parameter_domain": true,
+            "reference_cartesian_disk_distance": 1.0225634783367354e-09,
+            "in_certified_cartesian_disk": true,
+            "reference_in_allowed_K_domain": true
+          }
+        ],
+        "reference_regularizer_comparison": {
+          "rank": 0.0,
+          "scale": 0.0,
+          "floor": 0.0,
+          "weighted_higher_regularizer_cost": 0.0,
+          "coarse_prediction_cost_clean_observations": 0.0,
+          "lower_SIGReg": null,
+          "full_joint_comparison_cost": null,
+          "reason_full_cost_unavailable": "No complete finite-network E/F/G comparison solution with declared norm budgets and lower SIGReg has been certified.",
+          "population_moment_scope": "uniform source initial modes, equally weighted source training times; minibatch scale/floor costs need not equal population costs",
+          "all_losses_zero_claim": false
+        },
+        "state_euclidean_global_contraction_certified": true,
+        "contraction_domain": {
+          "kind": "convex_state_box",
+          "radius": 0.5154639175257733,
+          "image_radius_upper_bound": 0.5035604208736317,
+          "invariance_proof": "global induced-infinity Lipschitz <1 and f(0)=0"
+        },
+        "domain_invariant": true,
+        "detail_interaction_norm_upper_bound": 1.3500000000001138,
+        "contraction_note": "Analytic Jacobian upper bound on the declared convex invariant state domain; no scan-based global assertion.",
+        "contraction_bound_formula": "||A||2 + |c|/(1-|c|)*min(2||A||2,||A Ldetail||2+||Ldetail A||2)*tanh(S)^2",
+        "covariance_scope": "population covariance of uniform initial modes, mixed equally over source training times t=0..length-2k; finite-sample values are diagnostics",
+        "rank_scope": "at state fixed point only",
+        "truth_used": true
+      },
+      "parameter_counts": {
+        "E": 21280,
+        "G": 20994,
+        "F": 24864,
+        "K": 2,
+        "nonlinear_coarse_predictor": 0,
+        "high_path": 42274,
+        "full_high_path_reference": 42274,
+        "high_path_linear_layers": 6,
+        "direct_high_path_exactly_matched": false,
+        "direct_internal_z_tap": false,
+        "total": 67140,
+        "trainable": 67140
+      },
+      "K_constraints": {
+        "minimum_modulus": 0.8999999761581421,
+        "maximum_modulus": 0.9199999570846558,
+        "inverse_operator_norm": 1.1111111405455043,
+        "reference_contraction_upper_bound": 0.9293883823677929,
+        "spectral_spread_order": 2,
+        "inverse_contraction_factor": 0.9597364312912471,
+        "inverse_contraction_certified": true,
+        "inverse_contraction_status": "bound_enforced",
+        "stable": true,
+        "modulus_bounds": [
+          [
+            0.9144099950790405,
+            0.9255899786949158
+          ],
+          [
+            0.8944100141525269,
+            0.9055899977684021
+          ]
+        ],
+        "spectral_disk_containment": [
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          },
+          {
+            "distance_upper_bound": 0.005590000286318064,
+            "contour_radius": 0.007000000357897457,
+            "verified": true
+          }
+        ]
+      }
+    }
+  ]
+}

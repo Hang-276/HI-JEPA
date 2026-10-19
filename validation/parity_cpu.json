@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "rtol": 0.0001,
+  "atol": 1e-06,
+  "tolerances_are": "engineering numerical comparison thresholds; not scientific recovery thresholds",
+  "device": "cpu",
+  "environment": {
+    "python": "3.13.15 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 17:19:34) [Clang 20.1.8 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "cuda_build": null,
+    "cuda_available": false,
+    "mps_available": false,
+    "device": "cpu",
+    "device_name": "arm",
+    "cpu_threads": 2,
+    "source_sha256": "71c3b4560f6bc4ef6d5f1b1a1a7098f6d021dd76e4d29bee810f788928490c4d",
+    "pid": 37488
+  },
+  "comparisons": [
+    {
+      "name": "K",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "coarse",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.0.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.0.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.2.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.2.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.4.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.E.4.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.0.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.0.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.2.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.2.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.4.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.F.4.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.0.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.0.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.2.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.2.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.4.bias",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.G.4.weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.K.blocks.0.raw_modulus",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "gradient.K.blocks.1.raw_modulus",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.coarse",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.fine",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.fine_weight",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.floor",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.rank",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.scale",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.sigma_min",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.sigreg",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    {
+      "name": "loss.total",
+      "passed": true,
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    }
+  ],
+  "full_training_equivalence_claim": false
+}
