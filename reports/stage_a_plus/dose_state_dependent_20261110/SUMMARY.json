@@ -1,0 +1,423 @@
+{
+  "utc": "2026-11-10T06:43:56.180805+00:00",
+  "forecast": "593fce93102ceebee3d7542a20ec85f6ed45072e4070176d24b22e933ad01ec2",
+  "windows": 3072,
+  "groups": 24,
+  "runs": {
+    "identity": {
+      "response_span": [
+        4.440892098500626e-16,
+        8.881784197001252e-16
+      ],
+      "scenarios": {
+        "4040": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.07161458333333333,
+          "gain_ci": [
+            0.06412760416666667,
+            0.07930501302083333
+          ],
+          "exact_minus_cell_ci": [
+            0.3604736328125,
+            0.3955078125
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1448,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "16160": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.22526041666666666,
+          "gain_ci": [
+            0.21223958333333334,
+            0.23958333333333334
+          ],
+          "exact_minus_cell_ci": [
+            0.20585123697916666,
+            0.2421875
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1231,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1920,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "exact_grid": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.4495442708333333,
+          "gain_ci": [
+            0.43359375,
+            0.4653727213541667
+          ],
+          "exact_minus_cell_ci": [
+            0.0,
+            0.0
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1236,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1231,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 2609,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        }
+      }
+    },
+    "tanh": {
+      "response_span": [
+        0.03191267311167564,
+        0.06359109584078482
+      ],
+      "scenarios": {
+        "4040": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.08528645833333333,
+          "gain_ci": [
+            0.076171875,
+            0.09505208333333333
+          ],
+          "exact_minus_cell_ci": [
+            0.3157552083333333,
+            0.3455810546875
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1279,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1256,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1490,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "16160": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.20182291666666666,
+          "gain_ci": [
+            0.189453125,
+            0.21516927083333334
+          ],
+          "exact_minus_cell_ci": [
+            0.19921875,
+            0.2283935546875
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1349,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1296,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1848,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "exact_grid": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.416015625,
+          "gain_ci": [
+            0.4008382161458333,
+            0.4296875
+          ],
+          "exact_minus_cell_ci": [
+            0.0,
+            0.0
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1469,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1373,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 2506,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        }
+      }
+    },
+    "sin": {
+      "response_span": [
+        0.08517717780350917,
+        0.16943020134546172
+      ],
+      "scenarios": {
+        "4040": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.0908203125,
+          "gain_ci": [
+            0.08040364583333333,
+            0.1014404296875
+          ],
+          "exact_minus_cell_ci": [
+            0.322265625,
+            0.3515625
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1274,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1256,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1507,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "16160": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.20963541666666666,
+          "gain_ci": [
+            0.19856770833333334,
+            0.22200520833333334
+          ],
+          "exact_minus_cell_ci": [
+            0.2041015625,
+            0.23111979166666666
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1355,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1300,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 1872,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        },
+        "exact_grid": {
+          "diagnostics": {
+            "ci_miss_panels": 0,
+            "infeasible_panels": 0,
+            "outside_scores": 0,
+            "outside_reference_panels": 0
+          },
+          "gain": 0.427734375,
+          "gain_ci": [
+            0.4127604166666667,
+            0.4412841796875
+          ],
+          "exact_minus_cell_ci": [
+            0.0,
+            0.0
+          ],
+          "rules": {
+            "prior": {
+              "accepted": 1228,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "numerator": {
+              "accepted": 1492,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "variance": {
+              "accepted": 1379,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "joint": {
+              "accepted": 2542,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "gates": {
+    "nonconstant_gain": true,
+    "confidence_event_sound": true
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "utc": "2026-11-09T10:30:43.539632+00:00",
+  "lock": "ba609f17715b92aedc3f2a3f9032ca0eb1b89c7b4cdd978edcb0993feb689832",
+  "cutoffs": {
+    "0_0_0": {
+      "task": {
+        "value": 0.5,
+        "equality_probability": 0.14075601374570448
+      },
+      "side": {
+        "value": 0.5,
+        "equality_probability": 0.07
+      }
+    },
+    "0_0_1": {
+      "task": {
+        "value": 0.5,
+        "equality_probability": 0.14075601374570448
+      },
+      "side": {
+        "value": 0.5,
+        "equality_probability": 0.07
+      }
+    },
+    "0_1_0": {
+      "task": {
+        "value": 0.37966236472882425,
+        "equality_probability": 0.1377143801569071
+      },
+      "side": {
+        "value": 0.3501374113135885,
+        "equality_probability": 0.40711971283555076
+      }
+    },
+    "0_1_1": {
+      "task": {
+        "value": 0.36268267625293665,
+        "equality_probability": 0.85588530178179
+      },
+      "side": {
+        "value": 0.20144013033598857,
+        "equality_probability": 0.5899667553324116
+      }
+    },
+    "0_2_0": {
+      "task": {
+        "value": 0.33764990430706704,
+        "equality_probability": 0.7924130658630175
+      },
+      "side": {
+        "value": 0.18230960246013847,
+        "equality_probability": 0.15144712286135956
+      }
+    },
+    "0_2_1": {
+      "task": {
+        "value": 1.0,
+        "equality_probability": 1.0
+      },
+      "side": {
+        "value": 1.0,
+        "equality_probability": 1.0
+      }
+    },
+    "1_0_0": {
+      "task": {
+        "value": 0.5,
+        "equality_probability": 0.07993309172010037
+      },
+      "side": {
+        "value": 0.5,
+        "equality_probability": 0.07
+      }
+    },
+    "1_0_1": {
+      "task": {
+        "value": 0.5,
+        "equality_probability": 0.07993309172010037
+      },
+      "side": {
+        "value": 0.5,
+        "equality_probability": 0.07
+      }
+    },
+    "1_1_0": {
+      "task": {
+        "value": 0.3572992727216722,
+        "equality_probability": 0.28130275536804356
+      },
+      "side": {
+        "value": 0.3518336993269143,
+        "equality_probability": 0.7213548307137821
+      }
+    },
+    "1_1_1": {
+      "task": {
+        "value": 0.2233051422671785,
+        "equality_probability": 0.029400049405617714
+      },
+      "side": {
+        "value": 0.2017410940889991,
+        "equality_probability": 0.07314159410107733
+      }
+    },
+    "1_2_0": {
+      "task": {
+        "value": 0.21091074059903234,
+        "equality_probability": 0.2629543236342845
+      },
+      "side": {
+        "value": 0.1886765000465606,
+        "equality_probability": 0.8186692696096206
+      }
+    },
+    "1_2_1": {
+      "task": {
+        "value": 1.0,
+        "equality_probability": 1.0
+      },
+      "side": {
+        "value": 1.0,
+        "equality_probability": 1.0
+      }
+    }
+  }
+}

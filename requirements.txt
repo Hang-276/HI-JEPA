@@ -1,2 +1,4 @@
-numpy==2.5.3
-torch==2.14.0
+# Numerical tools only, not a historical experiment environment lock.
+# FourRoom uses scripts/fourroom_hjepa/setup.sh in its own environment.
+numpy
+scipy

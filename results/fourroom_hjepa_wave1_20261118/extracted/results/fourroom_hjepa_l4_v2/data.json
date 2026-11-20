@@ -1,0 +1,24 @@
+{
+  "dataset_name": "fourroom_v2",
+  "stage": "formal",
+  "collection_seed": 2026111801,
+  "split_seed": 20261118,
+  "episodes": {
+    "train": 400,
+    "val": 100,
+    "audit": 128,
+    "ref": 256,
+    "cal": 1024,
+    "test": 2048
+  },
+  "h5_path": "assets/data/fourroom_v2/fourroom.h5",
+  "h5_bytes": 10930356224,
+  "h5_sha256": "433f743b6d006fb19751fd65413b14102d6b96c9050d7e0e884e8e90503276c0",
+  "splits_path": "assets/data/fourroom_v2/splits_v2.json",
+  "splits_sha256": "a3f5d768564f0d49f8f99217bfc59ac30d0bff7672d4ba4c7093f05b708fbdb3",
+  "collection_yaml_sha256": "b3f3a9fa8e7fbf7f7facb36aa7470bada0dd56469db104e9f7c6327616910baa",
+  "small_subsets": [
+    "train_small_8k",
+    "val_small_2k"
+  ]
+}

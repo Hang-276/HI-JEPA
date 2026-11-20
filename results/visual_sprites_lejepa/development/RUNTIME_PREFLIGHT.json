@@ -1,0 +1,30 @@
+{
+  "evidence_tier": "development_compute_profile",
+  "recorded_utc": "2026-11-17T04:47:55.538857+00:00",
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.12.0",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "base_interpreter": "/opt/miniconda3/envs/evg-agent",
+    "venv": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/.venv_visual_cpu",
+    "device": "cpu",
+    "mps_available": false,
+    "cpu_threads": 4
+  },
+  "method": "models.profile_pretraining: fixed synthetic image pairs, actual encoder, SIGReg, optimizer and both training objectives. 12 measured steps per arm at batch 256.",
+  "arm_seconds_per_step": {
+    "visual_lejepa": 0.22525704167007157,
+    "long_horizon_pred": 0.19304577773436904
+  },
+  "planned_steps_per_cell": 6000,
+  "cells_per_arm": 3,
+  "projected_encoder_training_seconds": 7529.45074927993,
+  "projected_encoder_training_minutes": 125.49084582133217,
+  "scope": "Compute-only extrapolation from a short run. Excludes rendering, feature extraction, downstream probe fitting, scoring, I/O and changes in sustained throughput.",
+  "sources_sha256": {
+    "scripts/visual_sprites_lejepa/models.py": "dc867eb77ef6e414c94ce0247481eedb6d561f9beb6f733afb3735d779ea9a5a",
+    "configs/visual_sprites_lejepa/default.json": "f379a15e734109ab49fadc8f5a5343f6d583415e6506f215ac262cd5f177a29b"
+  },
+  "online_install": "No package candidate returned; the ignored venv reuses existing local packages."
+}

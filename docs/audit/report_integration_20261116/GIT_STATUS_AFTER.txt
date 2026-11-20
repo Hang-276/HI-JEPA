@@ -1,0 +1,67 @@
+ D .dockerignore
+ M .gitignore
+ D Dockerfile
+ M README.md
+ D SHA256SUMS
+ T configs/base_formal.json
+ T configs/base_local.json
+ T configs/evidence_policy.json
+ T configs/matrix_formal.json
+ T configs/matrix_local.json
+ T docs/PROTOCOL.md
+ M pyproject.toml
+ M requirements.txt
+ M scripts/_experiment.py
+ M src/hijepa/config.py
+ M src/hijepa/losses.py
+ D validation/doctor_cpu.json
+ D validation/formal_manifest.json
+ D validation/formal_preflight.json
+ D validation/launcher_dispatch.json
+ D validation/local/SUMMARY.md
+ D validation/local/summary.json
+ D validation/parity_bundle/bundle.pt
+ D validation/parity_bundle/manifest.json
+ D validation/parity_cpu.json
+ D validation/unittest.log
+ D validation/verification_summary.json
+ D "\345\256\236\347\216\260\344\270\216\346\234\254\346\234\272\351\252\214\350\257\201\346\212\245\345\221\212.md"
+?? PROGRESS_SYNC_JEPA.md
+?? archive/
+?? configs/README.md
+?? configs/base_formal_v2.json
+?? configs/base_formal_v3.json
+?? configs/base_formal_v3_modal.json
+?? configs/fourroom_hjepa/
+?? configs/legacy_hijepa/
+?? configs/low_dim_ar1/
+?? configs/matrix_baseline_v2.json
+?? configs/matrix_formal_v2.json
+?? docs/EXPLORATORY_MECHANISM_PROBES_20261116.md
+?? docs/FOURROOM_HJEPA.md
+?? docs/ICML_RESEARCH_TODO.md
+?? docs/LITERATURE_GAPS_AND_POSITIONING_20261116.md
+?? docs/LOW_DIM_REPRODUCTION.md
+?? docs/PROGRESS_SYNC_JEPA.md
+?? docs/README.md
+?? docs/RESEARCH_RECORD.md
+?? docs/THEORY_FORMALIZATION_20261116.md
+?? docs/V2_REVISION_PLAN.md
+?? docs/V3_RECOVERY_PLAN.md
+?? docs/audit/
+?? reports/
+?? results/
+?? scripts/check_repository.py
+?? scripts/exploratory_20261116/
+?? scripts/fourroom_hjepa/
+?? scripts/low_dim_ar1/
+?? scripts/make_v2_parity_bundle.py
+?? scripts/report_baseline_v2.py
+?? scripts/run_baseline_v2.sh
+?? scripts/run_formal_v2.sh
+?? scripts/run_v3_spectral.sh
+?? src/slowrepr/
+?? tests/test_fourroom_metrics.py
+?? tests/test_v2_barrier.py
+?? tests/test_v3_spectral.py
+?? work/

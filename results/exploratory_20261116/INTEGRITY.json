@@ -1,0 +1,67 @@
+{
+  "evidence_tier": "exploratory_numerical_sandbox",
+  "status": "passed",
+  "baseline_sha256": "d76173a9f81a6a5a3db549f3be65dea1c7b955097382ca14816f6702300e9db4",
+  "protected_folders": [
+    "reports",
+    "work/hcf_stable_id_20261027",
+    "archive",
+    "src/slowrepr",
+    "results/theory_checks_20261116"
+  ],
+  "protected_files": 47786,
+  "protected_bytes": 33787529235,
+  "changed": [],
+  "missing": [],
+  "added": [],
+  "hash_scan_seconds": 26.48421683302149,
+  "repository_check": {
+    "command": "python3 scripts/check_repository.py",
+    "python3_directory": "/opt/miniconda3/bin",
+    "seconds": 0.18781862501055002,
+    "returncode": 0,
+    "result": {
+      "checks": {
+        "python": 38,
+        "shell": 11,
+        "json": 26,
+        "links": 35
+      },
+      "sealed_sources": 232,
+      "unchanged_science_files": {
+        "src/slowrepr/metrics.py": true,
+        "configs/fourroom_hjepa/default.json": true
+      },
+      "failures": [],
+      "model_or_metric_execution": false
+    }
+  },
+  "python311_syntax_checked": [
+    "scripts/exploratory_20261116/anchors_and_stress.py",
+    "scripts/exploratory_20261116/build_report.py",
+    "scripts/exploratory_20261116/export_tables.py",
+    "scripts/exploratory_20261116/phase_core.py",
+    "scripts/exploratory_20261116/probe1_harmonic_and_subspace.py",
+    "scripts/exploratory_20261116/probe2_phase_diagram_alignment.py",
+    "scripts/exploratory_20261116/render_figures.py",
+    "scripts/exploratory_20261116/verify_integrity.py",
+    "scripts/exploratory_20261116/verify_sandbox_alignment.py"
+  ],
+  "evidence_tier_checked": [
+    "results/exploratory_20261116/ANCHOR_COMPARISON.md",
+    "results/exploratory_20261116/DESIGN.json",
+    "results/exploratory_20261116/TMIN_FULL.md",
+    "results/exploratory_20261116/figures/MANIFEST.json",
+    "results/exploratory_20261116/probe1_summary.json",
+    "results/exploratory_20261116/probe2_summary.json",
+    "results/exploratory_20261116/protected_after.json",
+    "results/exploratory_20261116/protected_before.json",
+    "results/exploratory_20261116/reproducibility_rerun/probe1_summary.json",
+    "results/exploratory_20261116/reproducibility_rerun/probe2_summary.json",
+    "results/exploratory_20261116/validation.json",
+    "results/exploratory_20261116/verified_reproduction_xeu925rw/probe1_summary.json",
+    "results/exploratory_20261116/verified_reproduction_xeu925rw/probe2_summary.json",
+    "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md"
+  ],
+  "scope": "Pre-existing worktree changes are not reset. Zero hash changes applies to the enumerated protected baseline, including predecessor theory document and theory checks."
+}

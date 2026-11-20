@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-11T05:25:49.159576+00:00",
+  "sources": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/finite_reference_20261111/run.py": "afe059e61ee81ca5a366f28173b2c6b78064336da58ce6aed01157c1638796fb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/finite_reference_20261111/cert.py": "9509fc0ce8d53998063d7eccc484af152bd51352ac483f0f277506433fa9b1be",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/finite_reference_20261111/PROTOCOL.md": "86133bd0478eea1c6bfd0984a9b94aadc37a7e4b6cc04b9e34d0ca6e096dbe38",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/finite_reference_20261111/THEORY.md": "f3ccafa1b7da83dbea1b34d6a85884ffe6b27ec6748b3fcbaf0e08484697ec6a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/dose_joint_window_20261110/run.py": "18dca8ce71464edb40a6b838323a24f2c618b9bfa4102d0fb5e881114b0160e7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521"
+  },
+  "lengths": [
+    1025,
+    16385
+  ],
+  "budgets": [
+    64,
+    1024,
+    16384,
+    65536
+  ],
+  "panels": 32,
+  "paths_per_panel": 64
+}

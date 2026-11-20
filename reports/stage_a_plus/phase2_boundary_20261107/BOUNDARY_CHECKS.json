@@ -1,0 +1,120 @@
+{
+  "kind": "exact-moment numerical check, no draws",
+  "lags": [
+    4,
+    16,
+    32
+  ],
+  "rho": 0.97,
+  "angle_degrees": {
+    "psi": 11.25,
+    "observed": 43.0,
+    "rotation": 9.0
+  },
+  "fine": {
+    "scores": [
+      1.7406330355891566,
+      1.2792931565437318,
+      1.2101038695421296,
+      0.7487639904967052
+    ],
+    "top2": [
+      3,
+      4
+    ],
+    "boundary_gap": 0.0691892870016022
+  },
+  "p": {
+    "scores": [
+      1.7406330355891566,
+      1.4304788550913194,
+      1.0589181709945428,
+      0.7487639904967052
+    ],
+    "top2": [
+      3,
+      4
+    ],
+    "boundary_gap": 0.37156068409677667
+  },
+  "q": {
+    "scores": [
+      1.7406330355891566,
+      1.1247210932552318,
+      1.36467593283063,
+      0.7487639904967052
+    ],
+    "top2": [
+      2,
+      4
+    ],
+    "boundary_gap": 0.2399548395753981
+  },
+  "boundary_axis_r2": 0.9755282581475768,
+  "minimum_transition_budgets_are_not_inferred": true,
+  "checks": [
+    {
+      "tau": 0.05,
+      "natural_parameter_rank": 8,
+      "one_transition_kl": 5.513811984851309e-05,
+      "n_at_most_for_tv_upper_quarter": 2267,
+      "n_sufficient_for_sign_test_error_at_most_05": 524434,
+      "active_count_sufficient_for_95pct_ci_to_exclude_zero_with_95pct_probability": 794796
+    },
+    {
+      "tau": 0.1,
+      "natural_parameter_rank": 8,
+      "one_transition_kl": 0.00021737260917052502,
+      "n_at_most_for_tv_upper_quarter": 575,
+      "n_sufficient_for_sign_test_error_at_most_05": 131111,
+      "active_count_sufficient_for_95pct_ci_to_exclude_zero_with_95pct_probability": 198699
+    },
+    {
+      "tau": 0.25,
+      "natural_parameter_rank": 8,
+      "one_transition_kl": 0.0013084958512952255,
+      "n_at_most_for_tv_upper_quarter": 95,
+      "n_sufficient_for_sign_test_error_at_most_05": 20981,
+      "active_count_sufficient_for_95pct_ci_to_exclude_zero_with_95pct_probability": 31792
+    },
+    {
+      "tau": 0.5,
+      "natural_parameter_rank": 8,
+      "one_transition_kl": 0.004989133397969296,
+      "n_at_most_for_tv_upper_quarter": 25,
+      "n_sufficient_for_sign_test_error_at_most_05": 5248,
+      "active_count_sufficient_for_95pct_ci_to_exclude_zero_with_95pct_probability": 7948
+    },
+    {
+      "tau": 1.0,
+      "natural_parameter_rank": 8,
+      "one_transition_kl": 0.018732283555819157,
+      "n_at_most_for_tv_upper_quarter": 6,
+      "n_sufficient_for_sign_test_error_at_most_05": 1315,
+      "active_count_sufficient_for_95pct_ci_to_exclude_zero_with_95pct_probability": 1987
+    }
+  ],
+  "equal_gap_checks": [
+    {
+      "distance_degrees": 1,
+      "tau": 0.1,
+      "shared_physical_gap": 0.03461573046851679,
+      "kl": 2.7261090811654995e-06
+    },
+    {
+      "distance_degrees": 4,
+      "tau": 0.1,
+      "shared_physical_gap": 0.13804149075181543,
+      "kl": 4.3489265432119714e-05
+    },
+    {
+      "distance_degrees": 7,
+      "tau": 0.1,
+      "shared_physical_gap": 0.23995483957539815,
+      "kl": 0.0001323251803889175
+    }
+  ],
+  "generated_trajectories": 0,
+  "model_forwards": 0,
+  "training_runs": 0
+}

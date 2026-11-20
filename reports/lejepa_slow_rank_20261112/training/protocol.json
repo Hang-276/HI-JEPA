@@ -1,0 +1,24 @@
+{
+  "cases": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "crossed_wide": [0.93, 0.918, 0.892, 0.76],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88],
+    "crossed_narrow": [0.93, 0.906, 0.904, 0.76]
+  },
+  "seeds": [1942, 3749, 5817, 7811],
+  "batch": 256,
+  "steps": 3200,
+  "hidden": 64,
+  "layers": 3,
+  "lr": 0.003,
+  "sigreg_weight": 0.001,
+  "sigreg_slices": 24,
+  "cal_trajectories": 128,
+  "ref_trajectories": 128,
+  "test_trajectories": 384,
+  "trajectory_length": 193,
+  "named_anchor_bases": 16,
+  "named_anchor_dose": 0.15,
+  "lags": [4, 16, 32],
+  "margin_bins": [0.01, 0.03]
+}

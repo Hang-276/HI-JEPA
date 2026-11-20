@@ -1,0 +1,11 @@
+{
+  "forecast_receipt_sha256": "3d4b3efa62dbc345725d50d3d220006769e4273212f22a52116d12cbcd3cc87a",
+  "reveal_sha256": "51719da692fa15f8bc59bd942e4cc3168a2da871def3b8efba7287389b618b19",
+  "design_sha256": "e4a350f06980b04e39c242fde1d1839e8c21e3124f483d7b73bb18dd185a5e03",
+  "label_keys": [
+    "primary__separated_narrow",
+    "primary__separated_wide",
+    "replication__separated_narrow",
+    "replication__separated_wide"
+  ]
+}

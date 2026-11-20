@@ -1,0 +1,65 @@
+{
+  "cells": {
+    "cls_8k_small_seed42_level1": 0.28877688561000675,
+    "cls_160k_official_seed42_level1": 0.3931390137172126,
+    "grid4x4_160k_official_seed42_level1": 0.34194809429705436,
+    "grid4x4_160k_ridge_seed42_level1": 0.3277864568383969,
+    "cls_8k_small_seed42_level2": 0.2659740731252128,
+    "cls_160k_official_seed42_level2": 0.32092720394334673,
+    "cls_8k_small_seed43_level1": 0.4409275333062729,
+    "cls_160k_official_seed43_level1": 0.567948592015214,
+    "grid4x4_160k_official_seed43_level1": 0.3400593024495071,
+    "grid4x4_160k_ridge_seed43_level1": 0.32705911722440534,
+    "cls_8k_small_seed43_level2": 0.13275072154940012,
+    "cls_160k_official_seed43_level2": 0.5338740919987566,
+    "cls_8k_small_seed44_level1": 0.10830459907533323,
+    "cls_160k_official_seed44_level1": 0.6343150611252694,
+    "grid4x4_160k_official_seed44_level1": 0.33816625069975703,
+    "grid4x4_160k_ridge_seed44_level1": 0.32615056650649993,
+    "cls_8k_small_seed44_level2": 0.10549693601433183,
+    "cls_160k_official_seed44_level2": 0.5920184419352168
+  },
+  "level1_cal": {
+    "cls_8k_small/seed42": 0.28877688561000675,
+    "cls_8k_small/seed43": 0.4409275333062729,
+    "cls_8k_small/seed44": 0.10830459907533323,
+    "grid4x4_160k_official/seed42": 0.34194809429705436,
+    "grid4x4_160k_official/seed43": 0.3400593024495071,
+    "grid4x4_160k_official/seed44": 0.33816625069975703,
+    "grid4x4_160k_ridge/seed42": 0.3277864568383969,
+    "grid4x4_160k_ridge/seed43": 0.32705911722440534,
+    "grid4x4_160k_ridge/seed44": 0.32615056650649993,
+    "cls_160k_official/seed42": 0.3931390137172126,
+    "cls_160k_official/seed43": 0.567948592015214,
+    "cls_160k_official/seed44": 0.6343150611252694
+  },
+  "grid_level1_cal": {
+    "seed42": 0.34194809429705436,
+    "seed43": 0.3400593024495071,
+    "seed44": 0.33816625069975703
+  },
+  "rule_policy": {
+    "level_1": [
+      "own_cal"
+    ],
+    "level_ge_2": [
+      "own_cal",
+      "level1_cal"
+    ],
+    "level1_cal_source": "same readout at Level 1"
+  },
+  "family_alpha": 0.05,
+  "family_size": 24,
+  "per_claim_alpha": 0.0020833333333333333,
+  "diagnostic_family_sizes": [],
+  "audit_min_r2": 0.85,
+  "cal_gap_quantile": 0.5,
+  "minimum_coverage": 0.35,
+  "maximum_selective_error": 0.01,
+  "lags": [
+    4,
+    16,
+    32
+  ],
+  "frozen_before_test_encoding": true
+}

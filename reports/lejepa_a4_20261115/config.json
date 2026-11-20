@@ -1,0 +1,28 @@
+{
+  "seeds": [20151, 20152, 20153, 20154],
+  "training_cases": ["separated_wide", "crossed_wide"],
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "lags": [4, 16, 32],
+  "length": 193,
+  "n_reference": 32768,
+  "n_cal": 2048,
+  "n_test": 2048,
+  "reference_role": 401,
+  "cal_role": 402,
+  "test_role": 406,
+  "old_master": 2026111551,
+  "new_master_base": 2026120000,
+  "coverage": 0.2,
+  "quantile": 0.9,
+  "minimum_pair_cal": 64,
+  "minimum_audit_r2": 0.85,
+  "bootstrap_draws": 4096,
+  "bootstrap_seed": 2026111561,
+  "minimum_gain": 0.01,
+  "minimum_eligible_models": 4,
+  "minimum_eligible_seeds": 3,
+  "minimum_positive_seed_fraction": 0.75
+}

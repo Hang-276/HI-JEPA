@@ -1,0 +1,902 @@
+{
+  "forecast_receipt_sha256": "c1519b1de63f86a07ea4ade637c87abd2773f149b0179a3c5f4d7af9127d8656",
+  "label_sha256": "7d7a0101daab34ae887e52856c761596dd1949a551c5258f3127e7a3674f716b",
+  "components_sha256": "0c50b15a76e5a9295f36a6e0984a92bde7cd5394ccf8782822bea010d9379a09",
+  "mechanism_passes_both_rounds": false,
+  "usability_passes_both_rounds": false,
+  "results": {
+    "smoke": {
+      "overall": {
+        "arm_summary": {
+          "base": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "cross_mean": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "cross_diag": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "cross_full": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "cross_full_reverse": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "total_full": {
+            "accuracy": 0.9375,
+            "repairs": 2,
+            "new_errors": 1,
+            "net_correct": 1,
+            "wrong_cross_boundary_pairs": 1,
+            "cross_boundary_pairs_repaired": 2,
+            "new_wrong_cross_boundary_pairs": 1,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0625,
+              "interval_95": [
+                -0.125,
+                0.25
+              ]
+            }
+          },
+          "oracle_cross": {
+            "accuracy": 0.8125,
+            "repairs": 0,
+            "new_errors": 1,
+            "net_correct": -1,
+            "wrong_cross_boundary_pairs": 3,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 1,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": -0.0625,
+              "interval_95": [
+                -0.1875,
+                0.0
+              ]
+            }
+          },
+          "oracle_energy": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "oracle_reference": {
+            "accuracy": 0.9375,
+            "repairs": 2,
+            "new_errors": 1,
+            "net_correct": 1,
+            "wrong_cross_boundary_pairs": 1,
+            "cross_boundary_pairs_repaired": 2,
+            "new_wrong_cross_boundary_pairs": 1,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0625,
+              "interval_95": [
+                -0.125,
+                0.25
+              ]
+            }
+          },
+          "oracle_cross_energy": {
+            "accuracy": 0.8125,
+            "repairs": 0,
+            "new_errors": 1,
+            "net_correct": -1,
+            "wrong_cross_boundary_pairs": 3,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 1,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": -0.0625,
+              "interval_95": [
+                -0.1875,
+                0.0
+              ]
+            }
+          },
+          "oracle_cross_abs": {
+            "accuracy": 0.875,
+            "repairs": 0,
+            "new_errors": 0,
+            "net_correct": 0,
+            "wrong_cross_boundary_pairs": 2,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 0,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "oracle_cross_reverse": {
+            "accuracy": 0.8125,
+            "repairs": 0,
+            "new_errors": 1,
+            "net_correct": -1,
+            "wrong_cross_boundary_pairs": 3,
+            "cross_boundary_pairs_repaired": 0,
+            "new_wrong_cross_boundary_pairs": 1,
+            "cross_boundary_ties": 0,
+            "versus_base": {
+              "gain": -0.0625,
+              "interval_95": [
+                -0.1875,
+                0.0
+              ]
+            }
+          }
+        },
+        "contrasts": {
+          "oracle_cross_minus_oracle_energy": {
+            "gain": -0.0625,
+            "interval_95": [
+              -0.1875,
+              0.0
+            ]
+          },
+          "cross_full_minus_cross_mean": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "cross_full_minus_cross_diag": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "cross_full_minus_cross_full_reverse": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "cross_full_minus_total_full": {
+            "gain": -0.0625,
+            "interval_95": [
+              -0.25,
+              0.125
+            ]
+          }
+        },
+        "fixed_2_3_cross_prediction": {
+          "cross_mean": {
+            "mse": 0.0012174224636581545,
+            "r2_relative_to_calmean": 0.0,
+            "r2_interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "cross_diag": {
+            "mse": 0.0012189574808905354,
+            "r2_relative_to_calmean": -0.0012608747400375542,
+            "r2_interval_95": [
+              -0.002667788373588914,
+              0.0014045079559593665
+            ]
+          },
+          "cross_full": {
+            "mse": 0.001200161637558036,
+            "r2_relative_to_calmean": 0.014178172832668534,
+            "r2_interval_95": [
+              -0.016573118017786936,
+              0.05594384667424232
+            ]
+          }
+        },
+        "true_top2_boundary_ties": 0,
+        "mechanism_gate": false,
+        "usability_gate": false
+      },
+      "process_descriptive": {
+        "separated_wide": {
+          "arm_summary": {
+            "base": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "cross_mean": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "cross_diag": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "cross_full": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "cross_full_reverse": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "total_full": {
+              "accuracy": 0.9375,
+              "repairs": 2,
+              "new_errors": 1,
+              "net_correct": 1,
+              "wrong_cross_boundary_pairs": 1,
+              "cross_boundary_pairs_repaired": 2,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0625,
+                "interval_95": [
+                  -0.125,
+                  0.25
+                ]
+              }
+            },
+            "oracle_cross": {
+              "accuracy": 0.8125,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": -0.0625,
+                "interval_95": [
+                  -0.1875,
+                  0.0
+                ]
+              }
+            },
+            "oracle_energy": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "oracle_reference": {
+              "accuracy": 0.9375,
+              "repairs": 2,
+              "new_errors": 1,
+              "net_correct": 1,
+              "wrong_cross_boundary_pairs": 1,
+              "cross_boundary_pairs_repaired": 2,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0625,
+                "interval_95": [
+                  -0.125,
+                  0.25
+                ]
+              }
+            },
+            "oracle_cross_energy": {
+              "accuracy": 0.8125,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": -0.0625,
+                "interval_95": [
+                  -0.1875,
+                  0.0
+                ]
+              }
+            },
+            "oracle_cross_abs": {
+              "accuracy": 0.875,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": 0.0,
+                "interval_95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "oracle_cross_reverse": {
+              "accuracy": 0.8125,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "versus_base": {
+                "gain": -0.0625,
+                "interval_95": [
+                  -0.1875,
+                  0.0
+                ]
+              }
+            }
+          },
+          "contrasts": {
+            "oracle_cross_minus_oracle_energy": {
+              "gain": -0.0625,
+              "interval_95": [
+                -0.1875,
+                0.0
+              ]
+            },
+            "cross_full_minus_cross_mean": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "cross_full_minus_cross_diag": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "cross_full_minus_cross_full_reverse": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "cross_full_minus_total_full": {
+              "gain": -0.0625,
+              "interval_95": [
+                -0.25,
+                0.125
+              ]
+            }
+          },
+          "fixed_2_3_cross_prediction": {
+            "cross_mean": {
+              "mse": 0.0012174224636581545,
+              "r2_relative_to_calmean": 0.0,
+              "r2_interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "cross_diag": {
+              "mse": 0.0012189574808905354,
+              "r2_relative_to_calmean": -0.0012608747400375542,
+              "r2_interval_95": [
+                -0.002667788373588914,
+                0.0014045079559593665
+              ]
+            },
+            "cross_full": {
+              "mse": 0.001200161637558036,
+              "r2_relative_to_calmean": 0.014178172832668534,
+              "r2_interval_95": [
+                -0.016573118017786936,
+                0.05594384667424232
+              ]
+            }
+          },
+          "true_top2_boundary_ties": 0,
+          "mechanism_gate": false,
+          "usability_gate": false
+        }
+      },
+      "cells": [
+        {
+          "cell": {
+            "name": "separated_wide_1942",
+            "layer": "mlp",
+            "process": "separated_wide",
+            "provenance": {
+              "reports/lejepa_slow_rank_20261112/training/runs/separated_wide_1942.pt": "2a6d8fd603a91719647dff5a08412dcad45cfef043722424c567095917ffb98b",
+              "reports/lejepa_mechanisms_20261113/readout/runs/separated_wide_1942_readouts.pt": "d1c5cc2c4dc6250611433731d90105a327cdda32bcb7c48108386dc3b2929628"
+            }
+          },
+          "reference_variance": [
+            1.0092558054413219,
+            0.9734792782145953,
+            1.0835394600026773,
+            0.9387868346240371
+          ],
+          "calibration_validation": {
+            "base": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "cross_mean": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "cross_diag": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "cross_full": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "cross_full_reverse": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "total_full": {
+              "accuracy": 1.0,
+              "gain": 0.1875
+            },
+            "oracle_cross": {
+              "accuracy": 0.71875,
+              "gain": -0.09375
+            },
+            "oracle_energy": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            },
+            "oracle_reference": {
+              "accuracy": 0.96875,
+              "gain": 0.15625
+            },
+            "oracle_cross_energy": {
+              "accuracy": 0.71875,
+              "gain": -0.09375
+            },
+            "oracle_cross_abs": {
+              "accuracy": 0.78125,
+              "gain": -0.03125
+            },
+            "oracle_cross_reverse": {
+              "accuracy": 0.8125,
+              "gain": 0.0
+            }
+          },
+          "by_arm": {
+            "base": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010577594064159215,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "cross_mean": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010799874797265935,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "cross_diag": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010802843995691619,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "cross_full": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010692182466804714,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "cross_full_reverse": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010463005661513716,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "total_full": {
+              "accuracy": 0.9375,
+              "correct": 15,
+              "repairs": 2,
+              "new_errors": 1,
+              "net_correct": 1,
+              "wrong_cross_boundary_pairs": 1,
+              "cross_boundary_pairs_repaired": 2,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.0018971613890278183,
+              "example_repair_row": 9,
+              "example_new_error_row": 1
+            },
+            "oracle_cross": {
+              "accuracy": 0.8125,
+              "correct": 13,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.009843785222394694,
+              "example_repair_row": null,
+              "example_new_error_row": 7
+            },
+            "oracle_energy": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010862702329806961,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "oracle_reference": {
+              "accuracy": 0.9375,
+              "correct": 15,
+              "repairs": 2,
+              "new_errors": 1,
+              "net_correct": 1,
+              "wrong_cross_boundary_pairs": 1,
+              "cross_boundary_pairs_repaired": 2,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.0022978453508997743,
+              "example_repair_row": 9,
+              "example_new_error_row": 1
+            },
+            "oracle_cross_energy": {
+              "accuracy": 0.8125,
+              "correct": 13,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.010088100840390371,
+              "example_repair_row": null,
+              "example_new_error_row": 7
+            },
+            "oracle_cross_abs": {
+              "accuracy": 0.875,
+              "correct": 14,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_correct": 0,
+              "wrong_cross_boundary_pairs": 2,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 0,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.012107223972520093,
+              "example_repair_row": null,
+              "example_new_error_row": null
+            },
+            "oracle_cross_reverse": {
+              "accuracy": 0.8125,
+              "correct": 13,
+              "repairs": 0,
+              "new_errors": 1,
+              "net_correct": -1,
+              "wrong_cross_boundary_pairs": 3,
+              "cross_boundary_pairs_repaired": 0,
+              "new_wrong_cross_boundary_pairs": 1,
+              "cross_boundary_ties": 0,
+              "pair_flip_with_no_set_repair_windows": 0,
+              "mean_negative_cross_boundary_margin": 0.014141555959045704,
+              "example_repair_row": null,
+              "example_new_error_row": 6
+            }
+          },
+          "fixed_2_3_cross_prediction": {
+            "cross_mean": {
+              "fixed_pair_mse": 0.0012174224636581545,
+              "fixed_pair_sign_accuracy": 0.3125,
+              "component_mse_by_axis": [
+                0.0009658173045426259,
+                0.0007716580382731757,
+                0.001061175491865324,
+                0.0005022354663858886
+              ]
+            },
+            "cross_diag": {
+              "fixed_pair_mse": 0.0012189574808905354,
+              "fixed_pair_sign_accuracy": 0.3125,
+              "component_mse_by_axis": [
+                0.0009653494647788047,
+                0.0007713923974432542,
+                0.0010625679760693364,
+                0.0005031837509920684
+              ]
+            },
+            "cross_full": {
+              "fixed_pair_mse": 0.001200161637558036,
+              "fixed_pair_sign_accuracy": 0.4375,
+              "component_mse_by_axis": [
+                0.0009595312855626603,
+                0.0007499868195802509,
+                0.0010757584061507068,
+                0.0005190112445859807
+              ]
+            }
+          },
+          "cross_boundary_accounting": {
+            "target_pair_mean_margin": 0.5072055404910283,
+            "mean_component_bias": {
+              "cross": -0.011414031720788614,
+              "energy": -0.000727245930113817,
+              "reference": 0.0330786541973279
+            },
+            "mean_component_absolute_size": {
+              "cross": 0.02662882928672285,
+              "energy": 0.003476212982546157,
+              "reference": 0.1131754184537391
+            },
+            "cross_induced_wrong": 0,
+            "cross_cancellation_dependent_correct": 1,
+            "still_wrong_without_cross": 2,
+            "still_correct_without_cross": 61
+          },
+          "true_top2_boundary_ties": 0,
+          "component_mean_by_axis": {
+            "cross": [
+              -0.003627860772719751,
+              0.0011665294139847951,
+              0.008817949814799114,
+              0.0021216613362426097
+            ],
+            "energy": [
+              0.006752608867843183,
+              0.004856366927598875,
+              0.004464320948659161,
+              0.0023434472373362247
+            ],
+            "reference": [
+              -0.011212749106278615,
+              0.03933574734595336,
+              -0.10845362780734005,
+              0.10373638467091342
+            ]
+          },
+          "component_absolute_mean_by_axis": {
+            "cross": [
+              0.024741703520624627,
+              0.019200776080472718,
+              0.021507708938650748,
+              0.017292965814384456
+            ],
+            "energy": [
+              0.006752608867843183,
+              0.004856366927598875,
+              0.004464320948659161,
+              0.0023434472373362247
+            ],
+            "reference": [
+              0.011212749106278615,
+              0.03933574734595336,
+              0.10845362780734005,
+              0.10373638467091342
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

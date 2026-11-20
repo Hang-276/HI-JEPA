@@ -1,0 +1,164 @@
+{
+  "gate": "HARD_STOP_DISTRACTOR_R2_BELOW_0.50",
+  "level1_min_audit_r2": {
+    "42": 0.706914793530816,
+    "43": 0.425386316939647
+  },
+  "level1_distractor_r2_min": {
+    "42": 0.706914793530816,
+    "43": 0.425386316939647
+  },
+  "level2_min_audit_r2": {
+    "42": 0.48768758860981976,
+    "43": 0.12733835756296707
+  },
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "levels": {
+        "1": {
+          "audit_r2": {
+            "agent_x": 0.9999545870926774,
+            "agent_y": 0.9999316532482367,
+            "distractor_x": 0.7650051726633257,
+            "distractor_y": 0.706914793530816
+          },
+          "minimum_audit_r2": 0.706914793530816,
+          "distractor_r2_min": 0.706914793530816,
+          "eligible_at_0.85": false
+        },
+        "2": {
+          "audit_r2": {
+            "agent_x": 0.9999291344502784,
+            "agent_y": 0.9998989294502889,
+            "distractor_x": 0.5871991230674751,
+            "distractor_y": 0.48768758860981976
+          },
+          "minimum_audit_r2": 0.48768758860981976,
+          "distractor_r2_min": 0.48768758860981976,
+          "eligible_at_0.85": false
+        }
+      },
+      "roles": {
+        "train": 160400,
+        "val": 40100,
+        "audit": 12352
+      },
+      "data_receipt": {
+        "dataset_name": "dev_preflight",
+        "stage": "preflight",
+        "collection_seed": 2026111800,
+        "split_seed": 20261117,
+        "episodes": {
+          "train": 400,
+          "val": 100,
+          "audit": 64
+        },
+        "h5_path": "assets/data/dev_preflight/fourroom.h5",
+        "h5_bytes": 1564475392,
+        "h5_sha256": "e7158fcd2dd3c39f883f08beee99538a258e9265cc22bb262690b7dd1eaddbc7",
+        "splits_path": "assets/data/dev_preflight/splits_v2.json",
+        "splits_sha256": "c1536f89028bea8a695c819143a18fb1fd4f3d226116e211e5b1ec913d1e5e53",
+        "collection_yaml_sha256": "b3c626ea84d64f1f3c0b47c04fa4928d080f9972c334448fb1a01f96aff1a736",
+        "small_subsets": [
+          "train_small_8k",
+          "val_small_2k"
+        ]
+      },
+      "probe": {
+        "hidden": 512,
+        "epochs": 60,
+        "batch_size": 128,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "drop_last": true,
+        "train_role": "train",
+        "val_role": "val",
+        "target_columns": {
+          "agent_xy": [
+            0,
+            2
+          ],
+          "distractor_xy": [
+            2,
+            4
+          ]
+        }
+      }
+    },
+    "43": {
+      "seed": 43,
+      "levels": {
+        "1": {
+          "audit_r2": {
+            "agent_x": 0.999932951888358,
+            "agent_y": 0.9999424784736568,
+            "distractor_x": 0.425386316939647,
+            "distractor_y": 0.4817689876173915
+          },
+          "minimum_audit_r2": 0.425386316939647,
+          "distractor_r2_min": 0.425386316939647,
+          "eligible_at_0.85": false
+        },
+        "2": {
+          "audit_r2": {
+            "agent_x": 0.9999359682772695,
+            "agent_y": 0.9998842407765928,
+            "distractor_x": 0.12733835756296707,
+            "distractor_y": 0.2665055679386441
+          },
+          "minimum_audit_r2": 0.12733835756296707,
+          "distractor_r2_min": 0.12733835756296707,
+          "eligible_at_0.85": false
+        }
+      },
+      "roles": {
+        "train": 160400,
+        "val": 40100,
+        "audit": 12352
+      },
+      "data_receipt": {
+        "dataset_name": "dev_preflight",
+        "stage": "preflight",
+        "collection_seed": 2026111800,
+        "split_seed": 20261117,
+        "episodes": {
+          "train": 400,
+          "val": 100,
+          "audit": 64
+        },
+        "h5_path": "assets/data/dev_preflight/fourroom.h5",
+        "h5_bytes": 1564475392,
+        "h5_sha256": "e7158fcd2dd3c39f883f08beee99538a258e9265cc22bb262690b7dd1eaddbc7",
+        "splits_path": "assets/data/dev_preflight/splits_v2.json",
+        "splits_sha256": "c1536f89028bea8a695c819143a18fb1fd4f3d226116e211e5b1ec913d1e5e53",
+        "collection_yaml_sha256": "b3c626ea84d64f1f3c0b47c04fa4928d080f9972c334448fb1a01f96aff1a736",
+        "small_subsets": [
+          "train_small_8k",
+          "val_small_2k"
+        ]
+      },
+      "probe": {
+        "hidden": 512,
+        "epochs": 60,
+        "batch_size": 128,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "drop_last": true,
+        "train_role": "train",
+        "val_role": "val",
+        "target_columns": {
+          "agent_xy": [
+            0,
+            2
+          ],
+          "distractor_xy": [
+            2,
+            4
+          ]
+        }
+      }
+    }
+  },
+  "note": "Preflight only. No TEST split exists in dev_preflight. AUTO_PROCEED follows the Stage-1 gate in the Wave-1 protocol."
+}

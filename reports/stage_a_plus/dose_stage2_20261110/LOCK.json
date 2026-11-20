@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-10T07:33:22.864110+00:00",
+  "sources": {
+    "run.py": "824593df5976a3a4e457f3dfb2d934da9dd533815816a8b5851755315ad6328d",
+    "acquisition.py": "aba3151f1e44f031e58ac8da6a35cc2ba5094ba5a857073a579c0383425d503e",
+    "layout_constraints.py": "4de99d8417bec3923ce9ee2ffb64ea3054da759c584106b77b7a3dd95f889277",
+    "PROTOCOL.md": "5a73dadfe066111992d40065a41ecde5f0c017a2937066786dd9b2b33266d374",
+    "../dose_stage1_20261110/run.py": "781b85dce9ae24d4bfd84d77e60e4caa12624ca95a933d51c99702bdfbc3bbf1",
+    "../dose_stage1_20261110/knot_model.py": "ff2d4d200e30d21f4bba2955d85bba8b43fd58a1c73621b86785b3c4e3989062",
+    "../dose_stage1_20261110/linear_cert.py": "9407777a8375ea45537e3243b911819905140c8ec830371570d7c01de250fb31",
+    "../dose_state_dependent_20261110/run.py": "fe804dcd00630de2f03e77decc5df3ed58107708f5b0d410e18c927a30e39d97",
+    "../dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521"
+  },
+  "pilot": 2026288201,
+  "formal": 2026288202,
+  "bootstrap": 2026288203
+}

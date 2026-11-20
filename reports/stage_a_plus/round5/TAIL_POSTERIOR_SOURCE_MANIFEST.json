@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-04",
+  "local_reference_sources": [
+    {
+      "path": "reports/stage_a_plus/round4/APPROXIMATE_POSTERIOR_BRIDGE.md",
+      "bytes": 10185,
+      "sha256": "d890e45441df36a2e9d53726c9f0b75a046510d8a4af5f24bbd85467d1132c0c"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/PRIMARY_NEIGHBORS.md",
+      "bytes": 12433,
+      "sha256": "25be9274a35cad170fd9145e2d564e3f8fd95507d6a3cd6691402ef157a5e84c"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/QUANTITATIVE_CLOSURE.md",
+      "bytes": 14710,
+      "sha256": "b79299efa9b22e49488565dcfb96e279a10ed07d6e88b941d185f69c6aad7027"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/TRANSPORT_AND_SELECTION.md",
+      "bytes": 6413,
+      "sha256": "b031a58354c690e87813d1e50d4b9913ee34e014fa3a3e7cded2cce83bf1f3e8"
+    }
+  ],
+  "owned_deliverables": [
+    {
+      "path": "reports/stage_a_plus/round5/TAIL_POSTERIOR_SCOPE.md",
+      "bytes": 2376,
+      "sha256": "8f44acc8315e0c633f417bd5f13990db28db34db85358a9c0ebc7e1d901e1b36"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/TAIL_POSTERIOR_BOUND.md",
+      "bytes": 13298,
+      "sha256": "cddb68b8ef69dcce7d065022c911cf8ae15f156afd5124decabddfaebb0f365c"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/tail_posterior_checks.py",
+      "bytes": 10793,
+      "sha256": "0eadc7f2ccbd3383a5686fe9bc3b2687e54036bf43442234470c2db178257025"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/TAIL_POSTERIOR_CHECKS.json",
+      "bytes": 9508,
+      "sha256": "105ea66c3dc8ad3d80558f12c6435014d73a4c32cc0b9d6f632c78ca8f9987aa"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/TAIL_CLOSURE_INDEPENDENT_REVIEW.md",
+      "bytes": 3201,
+      "sha256": "c0dfa104ac3a9bb9c701d4bfcc3c22038e81a1dab3fd10e819e0ef0a9ea2ef1c"
+    }
+  ],
+  "web_primary_read_records": [
+    {
+      "title": "Analysis of Boolean Functions",
+      "author": "Ryan O Donnell",
+      "edition": "May 2021 author arXiv edition; originally Cambridge 2014",
+      "url": "https://www.cs.cmu.edu/~odonnell/papers/Analysis-of-Boolean-Functions-by-Ryan-ODonnell.pdf",
+      "read_location": "Theorem 11.23 Gaussian hypercontractivity; Gaussian polynomial implication; author edition metadata",
+      "local_snapshot_hash": null
+    },
+    {
+      "title": "Small Covers for Near-Zero Sets of Polynomials and Learning Latent Variable Models",
+      "authors": "Ilias Diakonikolas; Daniel M. Kane",
+      "version": "December 2020 author manuscript, arXiv2012.07774v1",
+      "url": "https://cseweb.ucsd.edu/~dakane/CoversPolynomials.pdf",
+      "read_location": "Section 2.2, Theorem 12 degree-d Gaussian polynomial Lq/L2 bound",
+      "local_snapshot_hash": null
+    }
+  ],
+  "finite_nonlinear_ICA_reference_status": "Lyu/Fu2022 reference and scope inherited from Round4 PRIMARY_NEIGHBORS; not newly re-reviewed in Round5.",
+  "deterministic_checks": {
+    "script_runs": 1,
+    "scalar_alpha_constants": 4,
+    "weighted_constants": 4,
+    "fixed_probability_vectors": 4,
+    "analytic_rare_event_parameters": 3,
+    "analytic_full_rank_Gaussian_cases": 3,
+    "all_checks_pass": true,
+    "Gaussian_span_bounds": [
+      3.4013022683894523,
+      0.026689461301448104,
+      4.500149527143732e-05
+    ]
+  },
+  "execution_counts": {
+    "random_draws": 0,
+    "physical_trajectories_generated": 0,
+    "scientific_array_files_read": 0,
+    "model_loads": 0,
+    "model_forwards": 0,
+    "training_jobs": 0,
+    "server_connections": 0,
+    "gpu_jobs": 0
+  },
+  "important_boundary": "Nonempty analytic Gaussian tail example uses known true parameters for A; not current-Fine validation. CE-only plug saturates this absorption route. Quantitative closure is proved conditionally in the final same-round companion; actual-input certification remains unestablished.",
+  "independent_review": {
+    "closure": "A9/A12/A14/A15, C4/K3, A18 constants, noncollapse and O(delta) verified; no substantive mathematical error; witness boundedness applies to tilted coordinates.",
+    "transport": "S1-S5 constants and scope verified; no substantive formula error; asymptotic nonempty claim needs vanishing transfer tail budgets with W*E.",
+    "tail_corrections": "Added Kq^2*d -> 0 to asymptotic conditions and handled Q(Omega)=0 separately.",
+    "checks_rerun": false
+  },
+  "final_editorial_update": "Root corrected stale initial closure-unproved wording after independent closure review; historical read-source hashes are preserved and checked separately at delivery."
+}

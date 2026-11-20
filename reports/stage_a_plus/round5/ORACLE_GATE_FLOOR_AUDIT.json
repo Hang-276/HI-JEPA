@@ -1,0 +1,765 @@
+{
+  "scope": "oracle lower-bound veto of the common-axis-L2 and axis-specific versions of one norm sufficient bound on the same finite TRAIN support; NOT unlabeled evidence of correctness or model failure",
+  "proof": "Each normalized signed-permuted physical coordinate is in the full physical affine span. Exact OLS minimum residual MSE lower-bounds its squared discrepancy. Numerical fitted MSE is corrected by g.T Gram^-1 g <= 5*g_inf^2/lambda_min(Gram), plus an explicit 1e-10 MSE sensitivity allowance; stored inputs are FP64 and not interval certified.",
+  "scope_sha256": "bc5291c61d0563ae3d6aa8e0b68ee3520f4f6c327ad7c433edcd8c92fda4996c",
+  "script_sha256": "b7c968e101dd6479bf083ee4ad36093186935d239475fcb49c63eb88f33e8967",
+  "inputs": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/round5/G0_ERROR_BUDGET_AUDIT.json",
+      "sha256": "a1d152ec4b356f9a3f9ec9c194dbc4ede5267376db0337dcdeed78891a14566a"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/round2/NONLINEAR_REMAINDER_AUDIT.json",
+      "sha256": "1f0a1079388494c106c4e372d6c5da3d1b8bdedfd97945505212c2e5b5577881"
+    }
+  ],
+  "rows": [
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 0,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        0.00010802781500898832,
+        0.00021808332727181622,
+        0.0012343787809466703,
+        0.0008146299100316115
+      ],
+      "normal_equation_MSE_correction": 6.251060269774161e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        0.00010802771500898832,
+        0.0002180832272718162,
+        0.0012343786809466703,
+        0.0008146298100316114
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.03513372569123107,
+      "strict_common_eta_sufficient_gate": 0.04809775300971767,
+      "floor_over_threshold": 0.730465011206088,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.03513372569123107,
+        0.028541720516318064,
+        0.01476764122234205,
+        0.010393638198868975
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 2,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2982881700690157,
+          "finite_gap": 0.5652044797626412,
+          "numeric_veto": false
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2560381867458055,
+          "finite_gap": 0.5661573606518822,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2664903158465613,
+          "finite_gap": 0.988119044480263,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.22424033252335107,
+          "finite_gap": 0.989071925369504,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 1,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        7.263838504878377e-05,
+        0.000287524367786214,
+        0.0011744413350315763,
+        0.0007052033446306333
+      ],
+      "normal_equation_MSE_correction": 4.2713431389739834e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        7.263828504878378e-05,
+        0.00028752426778621404,
+        0.0011744412350315763,
+        0.0007052032446306333
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.03427012160806518,
+      "strict_common_eta_sufficient_gate": 0.04815824275116382,
+      "floor_over_threshold": 0.7116148690296011,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.016956540560686725,
+        0.026555663136714047,
+        0.03427012160806518,
+        0.00852280969216043
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 0,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2550670512991545,
+          "finite_gap": 0.5666316871882215,
+          "numeric_veto": false
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.30444196201073376,
+          "finite_gap": 0.5660101540482274,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.20329059943576339,
+          "finite_gap": 0.9892065940242327,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2526655101473426,
+          "finite_gap": 0.9885850608842386,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 2,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        7.072730856722051e-05,
+        0.00017657320344853202,
+        0.0011332837324985144,
+        0.0006318411780111034
+      ],
+      "normal_equation_MSE_correction": 7.380051101880867e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        7.072720856722052e-05,
+        0.000176573103448532,
+        0.0011332836324985144,
+        0.0006318410780111034
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.033664278285721716,
+      "strict_common_eta_sufficient_gate": 0.04825637932201666,
+      "floor_over_threshold": 0.6976130152881695,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.033664278285721716,
+        0.025136449192578958,
+        0.013288081255340516,
+        0.008409947001451349
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 2,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2810007410069425,
+          "finite_gap": 0.5671522786818588,
+          "numeric_veto": false
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2264796931500336,
+          "finite_gap": 0.5674238018561757,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.24825389715777724,
+          "finite_gap": 0.9902645053096222,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19373284930086834,
+          "finite_gap": 0.9905360284839391,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 0,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        0.00020128140843298347,
+        0.0001398001249985219,
+        0.0011723601056399648,
+        0.0009355794729558818
+      ],
+      "normal_equation_MSE_correction": 3.7858064912110816e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        0.00020128130843298346,
+        0.0001398000249985219,
+        0.0011723600056399647,
+        0.0009355793729558817
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.03423974307204954,
+      "strict_common_eta_sufficient_gate": 0.05194267712843924,
+      "floor_over_threshold": 0.6591832567155625,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.014187364393465879,
+        0.030587241996556044,
+        0.03423974307204954,
+        0.011823706060221638
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 0,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.25325552624198455,
+          "finite_gap": 1.0272833393792111,
+          "numeric_veto": false
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2763339067923354,
+          "finite_gap": 1.0198236291514446,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2525771168249827,
+          "finite_gap": 0.614924385048097,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.27565549737533346,
+          "finite_gap": 0.6074646748203305,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 1,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        8.571000031315828e-05,
+        0.0001635506917865454,
+        0.0012902050979120643,
+        0.0006834099450063862
+      ],
+      "normal_equation_MSE_correction": 5.3396564546162186e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        8.570990031315828e-05,
+        0.0001635505917865454,
+        0.0012902049979120643,
+        0.0006834098450063862
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.03591942368568939,
+      "strict_common_eta_sufficient_gate": 0.051778317646374854,
+      "floor_over_threshold": 0.6937155419186203,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.00925796415596638,
+        0.012788689994934798,
+        0.03591942368568939,
+        0.02614210865646431
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 0,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.26547372925697565,
+          "finite_gap": 1.0181398351925077,
+          "numeric_veto": false
+        },
+        {
+          "a": 0,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2032262750243948,
+          "finite_gap": 1.0261451013094796,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2914569225613556,
+          "finite_gap": 0.6054499746285968,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2292094683287747,
+          "finite_gap": 0.6134552407455685,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 2,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        6.108776404423663e-05,
+        0.00016928593487432143,
+        0.0009771675598481682,
+        0.0007070181434201499
+      ],
+      "normal_equation_MSE_correction": 3.0083160215846158e-30,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        6.108766404423664e-05,
+        0.00016928583487432143,
+        0.0009771674598481681,
+        0.0007070180434201499
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.031259677858995416,
+      "strict_common_eta_sufficient_gate": 0.0518735554999411,
+      "floor_over_threshold": 0.602612979922514,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": false,
+      "axis_specific_floor_by_native_axis": [
+        0.00781585977639291,
+        0.013010989004465472,
+        0.031259677858995416,
+        0.026589810894779787
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 0,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.22930252774185017,
+          "finite_gap": 1.0191848106085328,
+          "numeric_veto": false
+        },
+        {
+          "a": 0,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19979561856913608,
+          "finite_gap": 1.0263590897425772,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2627256544991985,
+          "finite_gap": 0.6066583058496098,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2332187453264844,
+          "finite_gap": 0.6138325849836543,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 0,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        7.022583075083793e-05,
+        0.001569119103283963,
+        8.274285373005128e-05,
+        0.000907913645537058
+      ],
+      "normal_equation_MSE_correction": 2.6145826800121564e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        7.022573075083793e-05,
+        0.001569119003283963,
+        8.274275373005129e-05,
+        0.000907913545537058
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.039612106776640434,
+      "strict_common_eta_sufficient_gate": 0.025683891428349703,
+      "floor_over_threshold": 1.5422938103887507,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.009096304399592798,
+        0.030131603766428663,
+        0.008380079400031836,
+        0.039612106776640434
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 1,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.15572491555839224,
+          "finite_gap": 0.23372924320462196,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.15288065572149814,
+          "finite_gap": 0.24864496357819343,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19606778233526742,
+          "finite_gap": 0.21240895079488753,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19322352249837332,
+          "finite_gap": 0.227324671168459,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 1,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        8.121912889363331e-05,
+        0.00142788533894311,
+        5.9652415937959514e-05,
+        0.0010739001273102784
+      ],
+      "normal_equation_MSE_correction": 3.061082255940699e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        8.121902889363332e-05,
+        0.00142788523894311,
+        5.9652315937959514e-05,
+        0.0010739000273102784
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.03778736877506966,
+      "strict_common_eta_sufficient_gate": 0.02582844762266421,
+      "floor_over_threshold": 1.463013547198695,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.007723491175495672,
+        0.03277041390202874,
+        0.0090121600570359,
+        0.03778736877506966
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 1,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.16050812601742437,
+          "finite_gap": 0.23228418039137344,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.16635568277670698,
+          "finite_gap": 0.24671458206790053,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.18250284873028186,
+          "finite_gap": 0.21358652558255387,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.18835040548956447,
+          "finite_gap": 0.22801692725908096,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 2,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        0.00010183381991550405,
+        0.0014791563264695898,
+        6.67673276483887e-05,
+        0.0008925464545379686
+      ],
+      "normal_equation_MSE_correction": 3.192888284102512e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        0.00010183371991550405,
+        0.0014791562264695897,
+        6.676722764838871e-05,
+        0.0008925463545379686
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.0384598001355908,
+      "strict_common_eta_sufficient_gate": 0.02583409779587969,
+      "floor_over_threshold": 1.4887224024415049,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.008171121566124734,
+        0.02987551429746388,
+        0.010091269489786905,
+        0.0384598001355908
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 1,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.1506900557141464,
+          "finite_gap": 0.23165028259398313,
+          "numeric_veto": false
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.15938717882759357,
+          "finite_gap": 0.2498306481590281,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.1870246149957815,
+          "finite_gap": 0.2134296804136675,
+          "numeric_veto": false
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19572173810922863,
+          "finite_gap": 0.2316100459787125,
+          "numeric_veto": false
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": false,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 0,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        8.220568832869617e-05,
+        0.00012730911580639132,
+        0.00044102765192073184,
+        0.0004983373185928132
+      ],
+      "normal_equation_MSE_correction": 2.1002454758047425e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        8.220558832869617e-05,
+        0.0001273090158063913,
+        0.00044102755192073186,
+        0.0004983372185928132
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.022323467889035817,
+      "strict_common_eta_sufficient_gate": 0.0019674693970355324,
+      "floor_over_threshold": 11.34628468563298,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.009066729748299338,
+        0.022323467889035817,
+        0.011283129699085768,
+        0.021000655987866948
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 1,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.18163929567311393,
+          "finite_gap": 0.05630839160633805,
+          "numeric_veto": true
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.2517962886572419,
+          "finite_gap": 0.04868498437033897,
+          "numeric_veto": true
+        },
+        {
+          "a": 2,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.11775057421726552,
+          "finite_gap": 0.030234511085472704,
+          "numeric_veto": true
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.18790756720139346,
+          "finite_gap": 0.022611103849473624,
+          "numeric_veto": true
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": true,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 1,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        8.58144977775079e-05,
+        0.00017106836130181127,
+        0.0002412002261735116,
+        0.0005890147181792699
+      ],
+      "normal_equation_MSE_correction": 2.6874081025692934e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        8.58143977775079e-05,
+        0.00017106826130181127,
+        0.0002412001261735116,
+        0.0005890146181792698
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.02426962336294632,
+      "strict_common_eta_sufficient_gate": 0.0021475733626886064,
+      "floor_over_threshold": 11.300951941666154,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.009263606089288766,
+        0.015530618988743224,
+        0.013079306606307968,
+        0.02426962336294632
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 2,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.12934390809252883,
+          "finite_gap": 0.031064158755463867,
+          "numeric_veto": true
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.1660150443765337,
+          "finite_gap": 0.024684026772663348,
+          "numeric_veto": true
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19426568466372562,
+          "finite_gap": 0.055397469301299296,
+          "numeric_veto": true
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.23093682094773046,
+          "finite_gap": 0.04901733731849878,
+          "numeric_veto": true
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": true,
+      "actual_model_failure_inferred": false
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 2,
+      "existing_truth_assisted_OLS_MSE_by_aligned_axis": [
+        9.042027862941122e-05,
+        0.00016363549600104577,
+        0.00014845986823682834,
+        0.00047417255070410496
+      ],
+      "normal_equation_MSE_correction": 2.2349934592756618e-29,
+      "additional_MSE_sensitivity_allowance": 1e-10,
+      "corrected_MSE_floor_by_aligned_axis": [
+        9.042017862941122e-05,
+        0.00016363539600104576,
+        0.00014845976823682833,
+        0.000474172450704105
+      ],
+      "is_interval_arithmetic_certificate": false,
+      "common_axis_RMS_error_lower_bound": 0.021775501158506204,
+      "strict_common_eta_sufficient_gate": 0.0019133850803454513,
+      "floor_over_threshold": 11.380616156249507,
+      "this_uniform_error_sufficient_gate_has_numeric_oracle_veto": true,
+      "axis_specific_floor_by_native_axis": [
+        0.01218440676589666,
+        0.009508952551643699,
+        0.012792005159514506,
+        0.021775501158506204
+      ],
+      "axis_specific_pair_vetoes": [
+        {
+          "a": 2,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.14467353451905363,
+          "finite_gap": 0.021989045515211858,
+          "numeric_veto": true
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.12914591523230035,
+          "finite_gap": 0.030545678282649646,
+          "numeric_veto": true
+        },
+        {
+          "a": 3,
+          "b": 0,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.19657013754424701,
+          "finite_gap": 0.04768334984400835,
+          "numeric_veto": true
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "minimum_possible_axis_specific_bound_from_numeric_floor": 0.18104251825749373,
+          "finite_gap": 0.05623998261144614,
+          "numeric_veto": true
+        }
+      ],
+      "axis_specific_same_bound_has_numeric_oracle_veto": true,
+      "actual_model_failure_inferred": false
+    }
+  ],
+  "summary": {
+    "parents": 12,
+    "common_eta_gate_numeric_oracle_veto_count": 6,
+    "axis_specific_same_bound_numeric_oracle_veto_count": 3,
+    "not_ruled_out_is_not_pass": true,
+    "does_not_rule_out_other_sharper_axis_specific_or_signed_pair_bounds": true
+  },
+  "cost": {
+    "existing_summary_JSON_reads": 2,
+    "new_physical_labels_or_arrays": 0,
+    "new_fits": 0,
+    "model_forward": 0,
+    "training": 0,
+    "server_GPU": 0
+  }
+}

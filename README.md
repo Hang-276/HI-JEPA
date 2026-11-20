@@ -1,149 +1,86 @@
-# HI-JEPA 代码与实验配置
+# Reliable Slow Representations / JEPA
 
-本项目实现 proposal 的三组低维机制实验：目标模态恢复与扰动稳定性、联合约束与伪解、部分模态恢复与分层价值。代码在 Mac CPU 完成集成验证；正式主结果、对照和多种子实验统一留在 Linux＋CUDA 执行。
+研究问题：**因素已经可以辨识或恢复以后，还需要什么条件，才能可靠地选出有限轨迹中的物理慢因素？**
 
-本机集成结果仅说明代码路径可以执行，不构成模态恢复成功、分层有收益或完整学习定理的验证。CUDA 可迁移接口已经实现，实际 CUDA 执行与跨设备数值对齐须在目标机器完成。
+当前主线是低维 LeJEPA 受控实验与官方 FourRoom 两层 H-JEPA 视觉扩展。低维 A／B 阶段已有完成的结果和停止边界；**FourRoom 正式结果已于 2026-11-16 回包归档，运行 COMPLETE，但 12 项均为 RECOVERY_NOT_VERIFIED（0 PASS）**。完整性核验、逐轴恢复与原标准判定见[回包报告](docs/FOURROOM_HJEPA_RETURN_20261116.md)。
 
-## 安装和入口
+- [理论与机制报告统一入口](docs/README.md)：两份报告、配套脚本、结果表、相图与核验收据。
+- [严格数学形式化与证明](docs/THEORY_FORMALIZATION_20261116.md)：同窗目标、REF 分解、排序稳定性及统计保证的条件。
+- [纯 NumPy 机制沙盒](docs/EXPLORATORY_MECHANISM_PROBES_20261116.md)：800 格扫描、128 个封存锚点对照与快轴退化压力测试；探索性合成证据。
+- [进展同步：数值、证据等级、差异与交接](docs/PROGRESS_SYNC_JEPA.md)
+- [完整研究记录及回包分析方案](docs/RESEARCH_RECORD.md)
+- [研究 TODO](docs/ICML_RESEARCH_TODO.md)
+- [文献与成果归属](docs/LITERATURE_GAPS_AND_POSITIONING_20261116.md)
 
-```bash
-git clone https://github.com/Hang-276/HI-JEPA.git
-cd HI-JEPA
-```
+## 结构
 
-目标 Python 版本为 3.13。开发环境实测为 Python 3.13.15、PyTorch 2.14.0、NumPy 2.5.3。运行时仅依赖 NumPy 与 PyTorch，JSON 配置由标准库读取，测试使用 unittest。
+| 目录 | 用途 |
+|---|---|
+| `src/slowrepr/` | 当前图像实验、物理读出、评分与统计 |
+| `src/hijepa/` | 早期 HI-JEPA 实现，保留兼容；不是官方 H-JEPA |
+| `configs/fourroom_hjepa/` | 当前图像配置 |
+| `configs/low_dim_ar1/` | 低维封存配置的只读链接 |
+| `configs/legacy_hijepa/` | 历史配置，原路径保留链接 |
+| `scripts/fourroom_hjepa/` | 图像输入准备与运行入口 |
+| `scripts/low_dim_ar1/` | 在新目录准备低维复现，不覆盖原结果 |
+| `scripts/low_dim_ar1/verify_theory_moments.py` | 确定性解析矩与封存汇总核对，不采样或运行模型 |
+| `scripts/exploratory_20261116/` | 纯 NumPy 合成机制探针、图表导出与核验 |
+| `scripts/check_repository.py` | 只读语法、路径、配置与来源检查 |
+| `tests/` | 数值单测与历史测试，须按名称选择 |
+| `docs/` | 研究记录、协议入口和本次审计 |
+| `results/low_dim_ar1/` | 低维结果统一导航 |
+| `results/theory_checks_20261116/` | 数学形式化的解析核对与完整性收据 |
+| `results/exploratory_20261116/` | 合成沙盒数据、相图、锚点对照与复现收据 |
+| `results/fourroom_hjepa/` | `fourroom_01/` 保留服务器原始结果；独立 analysis 目录保存回包核验 |
+| `results/legacy_fine/` | 早期 Fine 理论与实验入口 |
+| `reports/` | 原低维封存实目录，必须保留原位 |
+| `archive/` | 历史输出、快照、原交付和备份 |
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python run.py doctor --device cpu --output doctor_cpu.json
-```
+`reports/` 和 `work/hcf_stable_id_20261027/` 是封存兼容目录：回执还校验 `Path.resolve()` 后的来源路径键，改名可能破坏校验。`results/` 因而使用链接导航，原内容不改。其他旧根目录链接主要保障历史查阅；旧脚本若依赖固定祖先目录，重演前须恢复原布局。
 
-也可安装为命令行包：`python -m pip install -e .`，随后使用 `hijepa` 替代 `python run.py`。`run.py` 直接支持完整源码目录，代码没有硬编码开发机路径。
+## 环境与最小命令
 
-## 各实验启动脚本
+以下训练与服务器命令是未来使用说明；目录整理没有安装依赖、运行模型或重算旧结果。其后完成的确定性理论核对与 NumPy 合成沙盒已单独归档，复现范围及命令见[报告统一入口](docs/README.md)。
 
-各实验脚本都从同一份 canonical matrix 选择任务，自动补齐基准验收和结果复用的依赖，不改方法、训练预算或验收阈值。实验一、二、三和 `run_all.sh` 默认使用 **formal** profile；在 Mac 上需要显式传 `local`。
-
-| 脚本 | 用途 | 调用示例 |
-| --- | --- | --- |
-| `scripts/run_experiment1.sh` | 实验一：谱间隔、观测扰动、轴／簇恢复与稳定性 | `bash scripts/run_experiment1.sh formal runs/e1` |
-| `scripts/run_experiment2.sh` | 实验二：候选伪解审计、普通分层／块结构／完整模型对照 | `bash scripts/run_experiment2.sh formal runs/e2` |
-| `scripts/run_experiment3.sh` | 实验三：direct／no_fine／full、细节保留与冻结 G/K 迁移 | `bash scripts/run_experiment3.sh formal runs/e3` |
-| `scripts/run_all.sh` | 三组实验的完整矩阵 | `bash scripts/run_all.sh formal runs/formal` |
-| `scripts/run_formal.sh` | 正式全量入口，固定 Linux CUDA | `bash scripts/run_formal.sh runs/formal` |
-| `scripts/run_local.sh` | 本机完整集成入口，固定 CPU | `bash scripts/run_local.sh runs/local` |
-
-单组实验的通用语法为 `bash scripts/run_experimentN.sh [formal|local] [OUTPUT] [--manifest-only]`，其中 N 为 1、2 或 3。`run_all.sh` 使用相同参数格式；`run_formal.sh` 和 `run_local.sh` 已固定 profile，只接受 `[OUTPUT] [--manifest-only]`。省略 OUTPUT 时使用项目 `runs/` 下的对应目录。脚本可从任意工作目录调用；显式相对 OUTPUT 按调用者的当前目录解析。
-
-先查看任务清单、不训练：
-
-```bash
-bash scripts/run_experiment1.sh formal runs/e1 --manifest-only
-bash scripts/run_experiment2.sh formal runs/e2 --manifest-only
-bash scripts/run_experiment3.sh formal runs/e3 --manifest-only
-```
-
-清单位于 OUTPUT 下的 `planned_manifest.json`，`launch/selection.json` 说明包含的依赖、复用关系和验收阶段。正式 e1/e2/e3/all 分别包含 39/12/12/57 条计划记录；e2/e3 包含必要的 e1_baseline 依赖。不可认证条件仍保留，不会被过滤成“成功任务”。本机 e1/e2/e3/all 分别为 12/8/6/24 条记录。
-
-实际 formal 运行依次完成 CUDA doctor、固定 checkpoint 的 CPU→CUDA 对齐、既有基准 seed 0/1 验收，再接续所选矩阵；已完成任务通过 `--resume` 复用。e2 和 all 还会保存 `pseudo_solution_audit.json`。任一前置检查失败即停止。`--manifest-only` 不调用设备检查、审计或训练。
-
-整套实验推荐使用一次 `run_formal.sh`，由全局矩阵共享基准结果，避免分开启动三个独立输出目录时重复训练依赖。不同入口不要复用同一输出目录的不同矩阵；源码或协议改变时保留旧目录并使用新目录。
-
-可用 `HIJEPA_PYTHON=/path/to/python` 指定解释器，用 `HIJEPA_PARITY_BUNDLE=/path/to/bundle.pt` 指定跨设备对齐包。默认对齐包随仓库提供，不需要先在服务器重做一轮本机实验。
-
-## 本机集成
+只读结构检查使用 Python 3.11+ 标准库，不导入研究模块：
 
 ```bash
-python -m unittest discover -s tests -v
-bash scripts/run_local.sh runs/local
+python scripts/check_repository.py
 ```
 
-这是一套固定集成矩阵，覆盖 5 种模型、实模态、振荡、近重簇、观测扰动、不可认证的局部访问、两个种子及 full/no_fine 的完整迁移路径。完全相同的 e2_full 源训练复用 e1_real 产物，明确标记为复用，不计作独立重复实验。
+根 `requirements.txt` 只列 NumPy／SciPy 数值工具，**不是历史实验环境锁**。当前包可用 `pip install -e .` 安装；视觉 GPU 环境由独立安装脚本准备。旧 Python3.13 环境声明保存在 `archive/legacy_metadata_20261116/`。
 
-矩阵会保留预设的 `unresolved` 条件。它们表示当前访问／误差预算不足以认证目标，不是应该调到通过为止的工程错误。实现故障记为 `failed` 并返回非零退出码。
-
-## Linux CUDA 正式运行
-
-在目标 Linux 机器安装相同版本的 NumPy 与 **带 CUDA 支持的 PyTorch 2.14.0**，并使用相容 NVIDIA 驱动。不同发行渠道的 PyTorch wheel 可能不同，先执行 doctor 验证实际 CUDA 构建；不能仅凭包版本推断 GPU 可用。
-
-也可使用附带 Dockerfile：在 Linux NVIDIA 宿主机构建镜像，以 `docker run --gpus all` 运行并挂载结果目录；构建参数 `TORCH_INDEX_URL` 可指定官方 PyTorch CUDA wheel 源。Docker 构建及 GPU 容器运行尚未在本机验证，宿主驱动与 NVIDIA Container Toolkit 需在目标机器配置。
+低维 A4 的最小复现准备命令：
 
 ```bash
-python run.py doctor --device cuda --output doctor_cuda.json
-python -m pip freeze > environment-linux.lock.txt
-python run.py manifest --config configs/matrix_formal.json --output formal_manifest.json
-python run.py matrix --config configs/matrix_formal.json --output runs/formal --resume
+python scripts/low_dim_ar1/prepare_a4.py --destination /absolute/path/to/new-a4-reproduction
 ```
 
-推荐直接执行上面的 `bash scripts/run_formal.sh runs/formal`，自动完成所有前置检查与双种子验收。此处逐条 Python 命令保留供手动检查使用。容器运行时需把本机对齐包挂载进去。
+准备器只核对并复制13个封存输入，目标必须全新且位于仓库外；随后打印该目录内的训练命令。详见 [低维复现说明](docs/LOW_DIM_REPRODUCTION.md)。它只覆盖 A4 训练和状态审计准备，不含后续 TEST 评分；原种子重复不是独立验证。不得直接在原 `reports/` 上执行训练、forecast、score 或重分析脚本。
 
-正式 profile 强制 Linux＋CUDA；CUDA 不可用时明确失败，不回退 CPU。所有模型、对照和种子沿用同一环境。主配置使用 FP32，无 AMP／TF32；谱选择与证书数值部分始终在 CPU float64 上生成。随机投影由 CPU RNG 生成后移至训练设备。
-
-正式矩阵先对 e1_baseline 的 seed 0、1 记录仅基于 train 的防坍塌验收；失败时保留结果并停止余下正式矩阵。有效秩、coarse floor 裕量和动态信息的工程阈值在 `anticollapse` 中明示，属于实施选择，不是 proposal 的原文数值。本机短程集成只记录此诊断，不据此宣布正式验收通过，也不反复调参使其通过。
-
-`base_formal.json` 明确列出正式执行预算，`matrix_formal.json` 列出所有因素和对照。正式预算是本次实施选定的配置，并非 proposal 原文规定的数值。
-
-## 跨设备对齐
-
-从本机一个有效 checkpoint 导出固定输入、权重和投影 RNG：
+官方 FourRoom 分支使用 Python3.11、PyTorch2.7.1+cu128。正式服务器已将依赖修为 transformers 5.9.0 / huggingface-hub 1.5.0；本地安装脚本仍保留旧版本范围，不能原样作为已验证环境。以后另行允许启动计算时，须先按[已核实环境差异](docs/FOURROOM_HJEPA.md)准备独立环境并使用新运行名：
 
 ```bash
-python run.py parity-export --checkpoint runs/local/e1_real_seed0/checkpoint.pt --output parity_bundle
+bash scripts/fourroom_hjepa/setup.sh
+.venv-fourroom/bin/python scripts/fourroom_hjepa/run.py --name fourroom_02 --device cuda
 ```
 
-将源码目录和 `parity_bundle/` 一起迁移到 Linux：
+正式原始结果保存在 `results/fourroom_hjepa/fourroom_01/`，原包保存在 `archive/server_results/20261116/`。本次实际运行以回包内 `scripts/` 为准，不用重构后的入口替代；旧交付仍保存在 `archive/releases/hjepa_slow_selection_20261115/`。正式运行已证明服务器流程完成，但 `stable_worldmodel` 的运行时模块路径/独立版本未单独封存。详见 [图像实验说明](docs/FOURROOM_HJEPA.md)。
+
+仅固定数组数值单测，不读取实验结果或运行模型：
 
 ```bash
-python run.py parity-check --bundle parity_bundle/bundle.pt --device cuda --output parity_cuda.json
+PYTHONPATH=src python -m unittest discover -s tests -p 'test_fourroom_metrics.py' -v
 ```
 
-检查同一 checkpoint 与固定 batch 的高层输出、K、每项损失和参数梯度。默认 rtol=1e-4、atol=1e-6 是工程比较阈值，可通过命令行显式调整并记录；不能将其当作科研恢复阈值。CPU 自对齐通过不代表 CUDA 对齐已经通过。完整训练轨迹与最终权重不要求逐位一致。
+需要 NumPy、SciPy。**不要无筛选执行全仓测试**：旧 `test_protocol.py` 和 `test_v3_spectral.py` 包含训练、模型前向或优化。静态检查通过不等于服务器流程或科学假设通过。
 
-## 实现与 proposal 的对应
+## 证据管理
 
-| 模块 | 职责 |
-| --- | --- |
-| `systems.py` / `data.py` | 光滑收缩系统、可逆非线性观测、独立轨迹划分、NPZ 与数据 hash |
-| `spectral.py` | 声明的局部查询、完整 Jacobian 误差预算、轮廓与重数、目标维数与谱域 |
-| `models.py` | E/G/F、实块与二维旋转缩放 K、5 种对照、固定参数与光滑性预算 |
-| `losses.py` | 两层预测、状态复合 rank、逐模态／逐块定标、0.1 SIGReg 与固定 covariance floor |
-| `evaluation.py` | calibration 冻结匹配、轴与簇评价、共同原始空间预测、细节探针、迁移 monitor |
-| `diagnostics.py` | u³／重复编码／共振审计、局部导数残差、动态信息与跨种子统计 |
-| `runner.py` | 冻结协议、数据缓存、断点恢复、源训练、冻结 G/K 的迁移与矩阵汇总 |
-| `parity.py` | 一次固定输入的跨设备前向／损失／梯度对齐 |
+TEST／AUDIT／REF／CAL预测与真值、回执、provenance、最优checkpoint、封存配置和服务器原包均保留。`.gitignore` 排除大文件与历史数据，忽略不等于删除；新克隆不会自动包含全部本地证据，缺少输入时须取得原结果包。
 
-`full` 使用所有约束；`block_only` 去掉 rank；`hierarchical` 用一般非线性高层预测器且无 rank，保留相同目标选择、定标和防坍塌配置。`direct` 是相同 E→G 深度及参数预算的直接 m 维输出网络，保留内部 z 的共同 SIGReg，去掉细粒度预测支路。`no_fine` 保留与 full 相同 E/G/F 参数，只在源预训练去掉细粒度预测损失。
+整理前的48,449项非Git文件／链接清单、原工作树改动、逐文件删除记录及前后哈希核查均在 [docs/audit/20261116](docs/audit/20261116)。旧根README、环境声明、提示词和校验清单已归档。根Git历史及嵌套Git元数据未清理；本轮没有提交或推送。
 
-迁移阶段 full/no_fine 使用相同任务损失，冻结 G、K，只更新 E、F。源→目标仅改变细节机制，粗尺度规律与观测接口保持一致。共同达标阈值使用 step-zero 冻结的匹配与 decoder，在目标 calibration 的独立 monitor 轨迹上检查；test 不决定首达标时间。预算内未达标报告 `not_reached_within_budget`，不计作同精度成本。
+两份后续报告按现有 `docs/`—`scripts/`—`results/` 结构接入，保持报告、结果与原回执的字节和路径不变。导航整合记录另存于 [report_integration_20261116](docs/audit/report_integration_20261116/README.md)，不覆盖目录治理的历史审计。
 
-## 数据和证据边界
-
-模态选择采用预先声明、所有对照共享的局部模拟器映射查询。当前实现不是“只凭被动轨迹就完成目标认证”。selector 不读取真模态或真实谱标签；真值仅用于独立兼容性审计和评价。状态观测映射的可微访问用于 rank，所有对照享有相同访问权限。
-
-默认系统的局部状态 Jacobian 为正规实／旋转块矩阵。非线性状态变换在平衡点导数为 I，只作用于细节维；显式 `nonnormal_extension` 被标记为主理论之外，主运行器不将其接纳为默认理论设定。
-
-局部谱证书在声明的 C3 与 IEEE／tanh 误差模型下给出 J(0) 误差及谱轮廓重数；没有使用 directed-rounding 区间算术。它不等于全域谱证书或学习恢复证书。当前参数和固定参数预算的解析光滑性界保守且可能很松；完整有限样本恢复证书、完整比较解 joint cost 和优化误差界没有由训练自动获得。
-
-真解审计分别报告 rank、scale、floor、谱域和逆收缩的兼容性；有限 batch 的正则代价与总体矩的代价可能不同。共振混合审计明确区分“谱域／floor／rank 接受”与严格逆收缩条件；canonical 共振例位于严格条件之外。
-
-## 产物与恢复
-
-每个训练任务保存 config、environment、data_reference、selection、compatibility、initial checkpoint、带 RNG／optimizer 的恢复 checkpoint、训练日志、评价和 seed 输出。源训练与迁移分别保存。
-
-GitHub 仓库包含源码、配置、脚本、验证汇总和必需的 parity bundle。完整本机轨迹、优化器 checkpoint、缓存及新生成的 `runs/` 不入 Git，继续保留在本地；克隆后可直接启动正式流程。
-
-`SHA256SUMS` 校验入库文件；本地轨迹缓存由各自的数据 manifest 单独校验。
-
-数据缓存身份包含生成代码、配置与 NumPy 版本，读取时校验 NPZ hash。源码或协议改变时禁止混用已有矩阵和结果；选择新的输出目录保留旧记录。相同源码与协议的 `--resume` 可跳过已完成任务、接续中断任务。不同设备恢复仍不保证相同后续训练轨迹。
-
-汇总位于 `summary.json` 与 `SUMMARY.md`，包括每种配置的种子均值／标准差和 calibration 冻结的跨种子表示一致性。缺测为 null／N/A，绝不填零。
-
-## 来源
-
-方法依据：[HI-JEPA Proposal](https://bcnpo29t80vs.feishu.cn/wiki/WPJCwzObTiURfbkSzjFcMt5Unzc)，本次核对的页面修改日期为 2026-10-18。
-
-SIGReg 按官方 [LeJEPA Epps–Pulley](https://github.com/galilai-group/lejepa/blob/main/lejepa/univariate/epps_pulley.py) 与 [随机投影切片](https://github.com/galilai-group/lejepa/blob/main/lejepa/multivariate/slicing.py) 算法独立实现；保留有限样本 N 缩放、Gaussian 特征函数目标、对称梯形积分及单位 Gaussian 投影。17 个积分点、64 个投影的配置固定用于所有对照，没有替换为方差正则。
-
-跨设备复现遵循 PyTorch 的[复现边界](https://docs.pytorch.org/docs/2.14/notes/randomness.html)和[数值精度说明](https://docs.pytorch.org/docs/2.14/notes/numerical_accuracy.html)。
+采用 LeJEPA／H-JEPA 不代表其已有模型或理论是本项目原创。当前贡献与尚未排除的解释以进展同步和文献归属记录为准。

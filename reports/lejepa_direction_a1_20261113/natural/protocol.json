@@ -1,0 +1,22 @@
+{
+  "master_primary": 2026111306,
+  "master_replication": 2026111307,
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "n_axes": 128,
+  "n_fit": 256,
+  "n_validation": 128,
+  "n_conformal": 256,
+  "n_reference": 32768,
+  "n_test": 2048,
+  "length": 193,
+  "lags": [4, 16, 32],
+  "ridge_alphas": [0, 0.000001, 0.001, 0.1],
+  "conformal_alpha": 0.05,
+  "bootstrap_seed": 1320261113,
+  "bootstrap_repetitions": 4096,
+  "primary_minimum_gain": 0.01,
+  "diagnostic_coverages": [0.2, 0.5]
+}

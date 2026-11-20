@@ -1,0 +1,37 @@
+{
+  "extends": "base_formal_v2.json",
+  "name": "formal_v3_constrained_readout",
+  "spectral_readout": {
+    "source_run_pattern": "e1_baseline_seed{seed}",
+    "device": "cuda",
+    "run_cpu_cuda_parity": true,
+    "seeds": [
+      0,
+      1
+    ],
+    "trajectory_residual_horizons": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "save_diagnostic_invalid_endpoint": true,
+    "c00_relative_eigenvalue_threshold": 1e-08,
+    "time_support": "source_training_times",
+    "trajectory_weighting": "equal_per_trajectory",
+    "rms_scaling": "none_original_soft_block_scale",
+    "subtract_mean": false,
+    "cross_mode_whitening": false,
+    "weight_budget": "joint_frobenius_of_Wz_and_Wu",
+    "rank_check": "local_state_composite_sigma_min_against_losses_kappa",
+    "method": "post_training_constrained_readout",
+    "solver": "constrained_readout",
+    "selection_rule": "final_iterate",
+    "fit_budget": "inherit_source_steps_learning_rate_batch_size_seed",
+    "fit_device": "cpu",
+    "fit_dtype": "float64",
+    "legacy_edmd_cutoff_only": true
+  }
+}

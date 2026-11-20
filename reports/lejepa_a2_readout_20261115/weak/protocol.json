@@ -1,0 +1,7 @@
+{
+  "n_calibration": 64,
+  "n_validation": 4096,
+  "n_audit": 16384,
+  "audit_role": 721,
+  "cpu_threads": 2
+}

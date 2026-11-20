@@ -1,0 +1,12 @@
+{
+  "arm": "long_horizon_pred",
+  "seed": 1901,
+  "r2": {
+    "agent_x": 0.013185732004568962,
+    "agent_y": 0.1143225565239323,
+    "distractor_x": -0.010261115585554093,
+    "distractor_y": 0.004300565363223874
+  },
+  "minimum_r2": -0.010261115585554093,
+  "eligible": false
+}

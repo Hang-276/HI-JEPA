@@ -1,0 +1,42 @@
+{
+  "evidence_tier": "repository_integration_only",
+  "status": "captured_before_navigation_edits",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "84bceebc9e7ee40cde3c34e4a15dfb715c20defe5de128d79d416af8c848a521",
+      "bytes": 4895,
+      "backup": "docs/audit/report_integration_20261116/before/README.md"
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "ad08722941a3b3b8b97bbb3424f9758a4d1feb8cc819b2955b2bee8da5c3c14e",
+      "bytes": 578,
+      "backup": "docs/audit/report_integration_20261116/before/results/README.md"
+    },
+    {
+      "path": "results/low_dim_ar1/README.md",
+      "sha256": "38293369283e3c8423088d655e9320e4ddd51b8e5439d816cdca506349d64fc7",
+      "bytes": 1179,
+      "backup": "docs/audit/report_integration_20261116/before/results/low_dim_ar1/README.md"
+    },
+    {
+      "path": "docs/PROGRESS_SYNC_JEPA.md",
+      "sha256": "0ea76ca3daf0626fdde572f4d08ca998cb20b3ee037711956439af84e1f30a59",
+      "bytes": 43989,
+      "backup": "docs/audit/report_integration_20261116/before/docs/PROGRESS_SYNC_JEPA.md"
+    },
+    {
+      "path": "docs/RESEARCH_RECORD.md",
+      "sha256": "847032f179ed18efa61f97353162bc99d2c481363aaa4778a46a15d0b298d8ee",
+      "bytes": 77346,
+      "backup": "docs/audit/report_integration_20261116/before/docs/RESEARCH_RECORD.md"
+    },
+    {
+      "path": "docs/ICML_RESEARCH_TODO.md",
+      "sha256": "980671062d178d30b22613ed8fb35a6cb6717a7b4a3c57a31cae108ed7858e56",
+      "bytes": 25034,
+      "backup": "docs/audit/report_integration_20261116/before/docs/ICML_RESEARCH_TODO.md"
+    }
+  ]
+}

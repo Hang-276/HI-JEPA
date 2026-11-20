@@ -1,0 +1,95 @@
+{
+  "cell": "predictor_lag4_wsig0.0005_seed202",
+  "audit_r2": {
+    "z0": 0.7468839883804321,
+    "z1": 0.7134063243865967,
+    "z2": 0.5751625299453735,
+    "z3": 0.506392240524292
+  },
+  "test_r2": {
+    "z0": 0.7526594400405884,
+    "z1": 0.7048462629318237,
+    "z2": 0.5655330419540405,
+    "z3": 0.49107450246810913
+  },
+  "predicted_ref_variance": [
+    0.6942746043205261,
+    0.6974802613258362,
+    0.5639097094535828,
+    0.45901671051979065
+  ],
+  "physical_ref_variance": [
+    1.0052129030227661,
+    1.0171624422073364,
+    1.010008454322815,
+    0.9995209574699402
+  ],
+  "predicted_over_physical_variance": [
+    0.6906741857528687,
+    0.6857118010520935,
+    0.5583217740058899,
+    0.4592367112636566
+  ],
+  "decomposition": {
+    "axes": {
+      "2": {
+        "pred_over_phys_ref_var": 0.5583214097792458,
+        "true_fast_frac": 0.5714080989078594,
+        "linear_slow_frac": 0.16097244886376205,
+        "harmonic_slow_frac": 0.03359715101600435,
+        "total_slow_frac": 0.1945695998797664,
+        "residual_frac": 0.23402230121237422,
+        "mean_score_shift": -0.1013221022539632,
+        "residual_lag1_autocorr": 0.41143634358273373
+      },
+      "3": {
+        "pred_over_phys_ref_var": 0.45923731550434654,
+        "true_fast_frac": 0.5013025781800177,
+        "linear_slow_frac": 0.24212679633315118,
+        "harmonic_slow_frac": 0.06110095382175577,
+        "total_slow_frac": 0.30322775015490694,
+        "residual_frac": 0.19546967166507542,
+        "mean_score_shift": -0.20759193732185077,
+        "residual_lag1_autocorr": 0.43309293302179286
+      }
+    },
+    "mean_pred_over_phys_ref_var": 0.5087793626417962,
+    "mean_true_fast_frac": 0.5363553385439386,
+    "mean_linear_slow_frac": 0.2015496225984566,
+    "mean_harmonic_slow_frac": 0.04734905241888006,
+    "mean_total_slow_frac": 0.24889867501733667,
+    "mean_residual_frac": 0.21474598643872483,
+    "mean_mean_score_shift": -0.154457019787907,
+    "mean_residual_lag1_autocorr": 0.4222646383022633
+  },
+  "regime": "Mixed",
+  "window_groups": {
+    "regular_agent_slow": {
+      "windows": 1859,
+      "full_accuracy": 0.7283485745024206,
+      "accepted": 967,
+      "errors": 150,
+      "selective_error": 0.15511892450879008
+    },
+    "local_flip": {
+      "windows": 189,
+      "full_accuracy": 0.39682539682539686,
+      "accepted": 98,
+      "errors": 49,
+      "selective_error": 0.5
+    }
+  },
+  "threshold": 0.214734961890454,
+  "risk": {
+    "windows": 2048,
+    "accepted": 1065,
+    "errors": 199,
+    "coverage": 0.52001953125,
+    "selective_error": 0.18685446009389672,
+    "error_upper": 0.22616775301144762,
+    "passes_coverage": true,
+    "passes_error_bound": false,
+    "passes": false
+  },
+  "meta": {}
+}

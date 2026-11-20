@@ -1,0 +1,80 @@
+{
+  "model_tag": "fourroom_hjepa_l4",
+  "seed": 44,
+  "dataset": "dev_preflight",
+  "levels": {
+    "1": {
+      "audit_r2": {
+        "agent_x": 0.9998930316477214,
+        "agent_y": 0.9998978026343847,
+        "distractor_x": 0.970780533010413,
+        "distractor_y": 0.9438868486505945
+      },
+      "minimum_audit_r2": 0.9438868486505945,
+      "distractor_r2_min": 0.9438868486505945
+    },
+    "2": {
+      "audit_r2": {
+        "agent_x": 0.9998916797810408,
+        "agent_y": 0.9998354358891023,
+        "distractor_x": 0.9060751869350143,
+        "distractor_y": 0.7761846927443526
+      },
+      "minimum_audit_r2": 0.7761846927443526,
+      "distractor_r2_min": 0.7761846927443526
+    },
+    "3": {
+      "audit_r2": {
+        "agent_x": 0.9998374266137197,
+        "agent_y": 0.999849801833462,
+        "distractor_x": 0.7936383658000454,
+        "distractor_y": 0.6275171291125896
+      },
+      "minimum_audit_r2": 0.6275171291125896,
+      "distractor_r2_min": 0.6275171291125896
+    },
+    "4": {
+      "audit_r2": {
+        "agent_x": 0.9997748307297701,
+        "agent_y": 0.9998265697438431,
+        "distractor_x": 0.5364570880998061,
+        "distractor_y": 0.3379551612283518
+      },
+      "minimum_audit_r2": 0.3379551612283518,
+      "distractor_r2_min": 0.3379551612283518
+    }
+  },
+  "grid_mlp": {
+    "audit_r2": {
+      "agent_x": 0.999474603487032,
+      "agent_y": 0.9992006976537896,
+      "distractor_x": 0.9901295872305915,
+      "distractor_y": 0.994248112329031
+    },
+    "minimum_audit_r2": 0.9901295872305915,
+    "distractor_r2_min": 0.9901295872305915
+  },
+  "grid_ridge": {
+    "audit_r2": {
+      "agent_x": 0.9992503795620357,
+      "agent_y": 0.999230335677884,
+      "distractor_x": 0.997083603236512,
+      "distractor_y": 0.9969202244501397
+    },
+    "minimum_audit_r2": 0.9969202244501397,
+    "distractor_r2_min": 0.9969202244501397,
+    "selected_lambdas": {
+      "agent_xy": 10.0,
+      "distractor_xy": 10.0
+    },
+    "validation_mse": {
+      "agent_xy": 0.0008552172221243382,
+      "distractor_xy": 0.004175188951194286
+    }
+  },
+  "skipped": {
+    "cls": false,
+    "grid_mlp": false,
+    "ridge": false
+  }
+}

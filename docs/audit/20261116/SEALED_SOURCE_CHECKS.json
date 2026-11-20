@@ -1,0 +1,83 @@
+{
+  "unique_sources": 232,
+  "records": [
+    {
+      "receipt": "reports/lejepa_a1_joint_20261115/local/DESIGN_LOCK.json",
+      "checked": 156,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a2_readout_20261115/DESIGN_LOCK.json",
+      "checked": 74,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a2_readout_20261115/FORECAST.json",
+      "checked": 76,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a2_readout_20261115/weak/DESIGN_LOCK.json",
+      "checked": 42,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a2_readout_20261115/weak/RECEIPT.json",
+      "checked": 42,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a3_gap_20261115/DESIGN_LOCK.json",
+      "checked": 50,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a3_gap_20261115/FORECAST.json",
+      "checked": 53,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a4_20261115/FORECAST_LOCK.json",
+      "checked": 44,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a4_20261115/NEW_FORECAST.json",
+      "checked": 45,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a4_20261115/panel/DESIGN_LOCK.json",
+      "checked": 13,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_a4_20261115/panel/RECEIPT.json",
+      "checked": 13,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_b_transfer_20261115/DESIGN_LOCK.json",
+      "checked": 46,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "receipt": "reports/lejepa_b2_lag_20261115/DESIGN_LOCK.json",
+      "checked": 42,
+      "missing": [],
+      "mismatches": []
+    }
+  ]
+}

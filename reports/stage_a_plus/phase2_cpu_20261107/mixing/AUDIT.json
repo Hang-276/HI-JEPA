@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-07T11:03:41.906247+00:00",
+  "passed": true,
+  "source": "Independent standard-library recomputation from saved JSON; no simulation rerun",
+  "paired_contrasts": {
+    "plus": {
+      "n": 96,
+      "mean": 0.14977143584557698,
+      "interval": [
+        0.1385310039532033,
+        0.16101186773795065
+      ]
+    },
+    "minus": {
+      "n": 32,
+      "mean": -0.4603578014604947,
+      "interval": [
+        -0.5073220559901037,
+        -0.41339354693088576
+      ]
+    }
+  },
+  "fixed_target_decisions_correct": {
+    "fixed": {
+      "full": 121,
+      "diag_anchor": 121
+    },
+    "variable": {
+      "full": 80,
+      "diag_anchor": 84,
+      "known_context_inverse": 128
+    }
+  },
+  "fixed_target_physical_correct": 87,
+  "fixed_target_physical_wrong": 41,
+  "ordered_stage_mtimes_ns": {
+    "METHOD_LOCK.json": 1794049203390205916,
+    "PILOT_PREDICTIONS.json": 1794049209820556911,
+    "PILOT.json": 1794049209826357398,
+    "VALIDATION_PREDICTIONS.json": 1794049221257130530,
+    "RESULTS.json": 1794049221281772150
+  },
+  "checks": [
+    "Code/protocol/method/pilot/prediction hashes verified",
+    "Shared frozen calibrator identical in pilot and validation predictions",
+    "Finite TRAIN matching below 1e-10",
+    "128 distinct held-out episode pairs, with predeclared 96/32 context counts",
+    "Saved predictions unchanged in scored records",
+    "Primary paired intervals and fixed-target classifications independently reproduced",
+    "TRAIN/pilot/validation seed phases distinct"
+  ],
+  "artifacts_sha256": {
+    "PROTOCOL.md": "82fb4a9962481a548eafdf768d38a3b9399fadcd6a86fa9b65f185c0fa6f5627",
+    "run.py": "a972c1e6c6f90c2c50e55e4335c49cc86f47d8645cc2a7696af31476017acd9b",
+    "METHOD_LOCK.json": "60b886be0232e4cfc575a94765f6f503c5a5b01a8af65e96c6ea2ac17a25bb85",
+    "PILOT.json": "ad377df150e0c7a567d9092842ab80b06177e3d8b377ebb2b00557bbed3a18ef",
+    "PILOT_PREDICTIONS.json": "032f55e07a7284b0849581e9760022f907f6506febb5430beb1fb6c8439bf507",
+    "VALIDATION_PREDICTIONS.json": "2d9108b936cbd6f79a500ae3291b0be4d67ba14fbc1b90e88c286a80cda84ce6",
+    "RESULTS.json": "96d489b6e8be72866d6e5f91639ebc1c8745d1f8402f24df0fb1955cbfd905a3",
+    "RESULTS.md": "415293c2d44dde75a6950fc7cbdb387d83349231040314c485785c639f99b9d9"
+  }
+}

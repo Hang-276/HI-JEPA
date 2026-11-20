@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "axes": [
+    "agent_x",
+    "agent_y",
+    "distractor_x",
+    "distractor_y"
+  ],
+  "rho": [
+    0.964,
+    0.961,
+    0.78,
+    0.76
+  ],
+  "lags": [
+    4,
+    16,
+    32
+  ],
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "data_seed": 2026111601,
+  "development_seed": 2026111701,
+  "development_model_seed": 1901,
+  "development_min_r2": 0.9,
+  "roles": {
+    "pretrain": {
+      "episodes": 1024,
+      "frames": 128
+    },
+    "train": {
+      "episodes": 256,
+      "frames": 193,
+      "sample_frames": 32
+    },
+    "val": {
+      "episodes": 64,
+      "frames": 193,
+      "sample_frames": 32
+    },
+    "audit": {
+      "episodes": 128,
+      "frames": 193
+    },
+    "ref": {
+      "episodes": 256,
+      "frames": 193
+    },
+    "cal": {
+      "episodes": 1024,
+      "frames": 193
+    },
+    "test": {
+      "episodes": 2048,
+      "frames": 193
+    }
+  },
+  "renderer": {
+    "image_size": 32,
+    "coordinate_bounds": [
+      5.0,
+      27.0
+    ],
+    "tanh_scale": 0.45,
+    "sprite_sigma": 2.2,
+    "sprite_amplitude": 0.86,
+    "pixel_noise_sigma": 0.01
+  },
+  "encoder": {
+    "latent_dim": 8,
+    "steps": 6000,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "short_lag": 1,
+    "long_lag": 10,
+    "lejepa_sigreg_weight": 0.05,
+    "predictor_sigreg_weight": 0.004,
+    "log_every": 100
+  },
+  "probe": {
+    "steps": 3000,
+    "batch_size": 256,
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "log_every": 100
+  },
+  "runtime": {
+    "cpu_threads": 4,
+    "encode_batch_size": 512
+  },
+  "audit_min_r2": 0.85,
+  "cal_gap_quantile": 0.5,
+  "family_alpha": 0.05,
+  "minimum_coverage": 0.35,
+  "maximum_selective_error": 0.01,
+  "development_flip_rate_range": [
+    0.08,
+    0.12
+  ],
+  "development_flip_check_windows": 16384
+}

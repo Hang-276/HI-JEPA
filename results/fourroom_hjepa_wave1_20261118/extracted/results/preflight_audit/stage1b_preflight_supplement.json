@@ -1,0 +1,626 @@
+{
+  "gate_rule": "seed44 L1 grid4x4 (MLP and/or ridge) four-axis minimum >= 0.85 for all three model families",
+  "seed44": {
+    "fourroom_lewm": {
+      "grid_mlp_min": 0.992575956269817,
+      "grid_ridge_min": 0.9909025612159127
+    },
+    "fourroom_hjepa_l2": {
+      "grid_mlp_min": 0.9742899105951277,
+      "grid_ridge_min": 0.9952660357178169
+    },
+    "fourroom_hjepa_l4": {
+      "grid_mlp_min": 0.9901295872305915,
+      "grid_ridge_min": 0.9969202244501397
+    }
+  },
+  "seed44_pass": {
+    "fourroom_lewm": true,
+    "fourroom_hjepa_l2": true,
+    "fourroom_hjepa_l4": true
+  },
+  "gate": "PASS_AUTO_PROCEED",
+  "reused_prior_sources": {
+    "fourroom_lewm/seed42": {
+      "grid_mlp": "grid_readout_preflight_fourroom_lewm_seed42.json"
+    },
+    "fourroom_lewm/seed43": {
+      "grid_mlp": "grid_readout_preflight_fourroom_lewm_seed43.json"
+    },
+    "fourroom_lewm/seed44": {},
+    "fourroom_hjepa_l2/seed42": {
+      "grid_mlp": "grid_readout_preflight_seed42.json",
+      "cls": "dev_preflight_seed42.json"
+    },
+    "fourroom_hjepa_l2/seed43": {
+      "grid_mlp": "grid_readout_preflight_seed43.json",
+      "cls": "dev_preflight_seed43.json"
+    },
+    "fourroom_hjepa_l2/seed44": {},
+    "fourroom_hjepa_l4/seed42": {
+      "grid_mlp": "grid_readout_preflight_fourroom_hjepa_l4_seed42.json"
+    },
+    "fourroom_hjepa_l4/seed43": {
+      "grid_mlp": "grid_readout_preflight_fourroom_hjepa_l4_seed43.json"
+    },
+    "fourroom_hjepa_l4/seed44": {}
+  },
+  "all": {
+    "fourroom_lewm": {
+      "42": {
+        "model_tag": "fourroom_lewm",
+        "seed": 42,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9999026230685869,
+              "agent_y": 0.9999012299632813,
+              "distractor_x": 0.9794719631080081,
+              "distractor_y": 0.982805363425878
+            },
+            "minimum_audit_r2": 0.9794719631080081,
+            "distractor_r2_min": 0.9794719631080081
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.999829368271458,
+            "agent_y": 0.9998086653794439,
+            "distractor_x": 0.9957543322502678,
+            "distractor_y": 0.9957052247391431
+          },
+          "minimum_audit_r2": 0.9957052247391431,
+          "distractor_r2_min": 0.9957052247391431
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.998391949817385,
+            "agent_y": 0.9983839078198915,
+            "distractor_x": 0.9931459730304268,
+            "distractor_y": 0.9935830612090666
+          },
+          "minimum_audit_r2": 0.9931459730304268,
+          "distractor_r2_min": 0.9931459730304268,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0018128156661987305,
+            "distractor_xy": 0.009761765599250793
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "43": {
+        "model_tag": "fourroom_lewm",
+        "seed": 43,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9998550142392852,
+              "agent_y": 0.9998524145051316,
+              "distractor_x": 0.9771475374192169,
+              "distractor_y": 0.9825009373594714
+            },
+            "minimum_audit_r2": 0.9771475374192169,
+            "distractor_r2_min": 0.9771475374192169
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9997943418222458,
+            "agent_y": 0.9997685549214154,
+            "distractor_x": 0.9878647384310518,
+            "distractor_y": 0.9930203950564294
+          },
+          "minimum_audit_r2": 0.9878647384310518,
+          "distractor_r2_min": 0.9878647384310518
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9992912289647329,
+            "agent_y": 0.9992483939735934,
+            "distractor_x": 0.9959921413991618,
+            "distractor_y": 0.9960392240632411
+          },
+          "minimum_audit_r2": 0.9959921413991618,
+          "distractor_r2_min": 0.9959921413991618,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0007919222116470337,
+            "distractor_xy": 0.005692076403647661
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "44": {
+        "model_tag": "fourroom_lewm",
+        "seed": 44,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9998952438320652,
+              "agent_y": 0.9999145936391086,
+              "distractor_x": 0.9830150866824071,
+              "distractor_y": 0.9732980888243145
+            },
+            "minimum_audit_r2": 0.9732980888243145,
+            "distractor_r2_min": 0.9732980888243145
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9994246228455488,
+            "agent_y": 0.9996831756831224,
+            "distractor_x": 0.9941701423217042,
+            "distractor_y": 0.992575956269817
+          },
+          "minimum_audit_r2": 0.992575956269817,
+          "distractor_r2_min": 0.992575956269817
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.997816729557488,
+            "agent_y": 0.9982050222495079,
+            "distractor_x": 0.9909124542337351,
+            "distractor_y": 0.9909025612159127
+          },
+          "minimum_audit_r2": 0.9909025612159127,
+          "distractor_r2_min": 0.9909025612159127,
+          "selected_lambdas": {
+            "agent_xy": 100.0,
+            "distractor_xy": 100.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.002179117174819112,
+            "distractor_xy": 0.014093542471528053
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": false,
+          "ridge": false
+        }
+      }
+    },
+    "fourroom_hjepa_l2": {
+      "42": {
+        "model_tag": "fourroom_hjepa_l2",
+        "seed": 42,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9999545870926774,
+              "agent_y": 0.9999316532482367,
+              "distractor_x": 0.7650051726633257,
+              "distractor_y": 0.706914793530816
+            },
+            "minimum_audit_r2": 0.706914793530816,
+            "distractor_r2_min": 0.706914793530816
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9999291344502784,
+              "agent_y": 0.9998989294502889,
+              "distractor_x": 0.5871991230674751,
+              "distractor_y": 0.48768758860981976
+            },
+            "minimum_audit_r2": 0.48768758860981976,
+            "distractor_r2_min": 0.48768758860981976
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9998040670496768,
+            "agent_y": 0.9998121486338813,
+            "distractor_x": 0.9744219358369927,
+            "distractor_y": 0.9793273790680129
+          },
+          "minimum_audit_r2": 0.9744219358369927,
+          "distractor_r2_min": 0.9744219358369927
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9995624932030741,
+            "agent_y": 0.9994710349180705,
+            "distractor_x": 0.9968846178619243,
+            "distractor_y": 0.9966400832472037
+          },
+          "minimum_audit_r2": 0.9966400832472037,
+          "distractor_r2_min": 0.9966400832472037,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0005262084305286407,
+            "distractor_xy": 0.005019852425903082
+          }
+        },
+        "skipped": {
+          "cls": true,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "43": {
+        "model_tag": "fourroom_hjepa_l2",
+        "seed": 43,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.999932951888358,
+              "agent_y": 0.9999424784736568,
+              "distractor_x": 0.425386316939647,
+              "distractor_y": 0.4817689876173915
+            },
+            "minimum_audit_r2": 0.425386316939647,
+            "distractor_r2_min": 0.425386316939647
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9999359682772695,
+              "agent_y": 0.9998842407765928,
+              "distractor_x": 0.12733835756296707,
+              "distractor_y": 0.2665055679386441
+            },
+            "minimum_audit_r2": 0.12733835756296707,
+            "distractor_r2_min": 0.12733835756296707
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9998297479093228,
+            "agent_y": 0.9996674677887842,
+            "distractor_x": 0.9239830656391833,
+            "distractor_y": 0.9793542261752952
+          },
+          "minimum_audit_r2": 0.9239830656391833,
+          "distractor_r2_min": 0.9239830656391833
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9995410919553798,
+            "agent_y": 0.9995662769473038,
+            "distractor_x": 0.99643471952889,
+            "distractor_y": 0.9964666592225998
+          },
+          "minimum_audit_r2": 0.99643471952889,
+          "distractor_r2_min": 0.99643471952889,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.00045694701839238405,
+            "distractor_xy": 0.005088497884571552
+          }
+        },
+        "skipped": {
+          "cls": true,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "44": {
+        "model_tag": "fourroom_hjepa_l2",
+        "seed": 44,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9999285399547775,
+              "agent_y": 0.999944802109097,
+              "distractor_x": 0.23962942390094943,
+              "distractor_y": 0.4068967873068906
+            },
+            "minimum_audit_r2": 0.23962942390094943,
+            "distractor_r2_min": 0.23962942390094943
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9999189741410653,
+              "agent_y": 0.9998909769904146,
+              "distractor_x": -0.03810065503391402,
+              "distractor_y": 0.131306324272926
+            },
+            "minimum_audit_r2": -0.03810065503391402,
+            "distractor_r2_min": -0.03810065503391402
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.999921089349874,
+            "agent_y": 0.9998661928531581,
+            "distractor_x": 0.9819198720348425,
+            "distractor_y": 0.9742899105951277
+          },
+          "minimum_audit_r2": 0.9742899105951277,
+          "distractor_r2_min": 0.9742899105951277
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9997970847974242,
+            "agent_y": 0.9998201017712256,
+            "distractor_x": 0.9959023340363117,
+            "distractor_y": 0.9952660357178169
+          },
+          "minimum_audit_r2": 0.9952660357178169,
+          "distractor_r2_min": 0.9952660357178169,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.00023221988521981984,
+            "distractor_xy": 0.005376430694013834
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": false,
+          "ridge": false
+        }
+      }
+    },
+    "fourroom_hjepa_l4": {
+      "42": {
+        "model_tag": "fourroom_hjepa_l4",
+        "seed": 42,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9998762935027513,
+              "agent_y": 0.9998599732847535,
+              "distractor_x": 0.9219419942502132,
+              "distractor_y": 0.9280356045396104
+            },
+            "minimum_audit_r2": 0.9219419942502132,
+            "distractor_r2_min": 0.9219419942502132
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9998284476217323,
+              "agent_y": 0.9997774209785605,
+              "distractor_x": 0.7176367744731347,
+              "distractor_y": 0.7562070729141371
+            },
+            "minimum_audit_r2": 0.7176367744731347,
+            "distractor_r2_min": 0.7176367744731347
+          },
+          "3": {
+            "audit_r2": {
+              "agent_x": 0.99975263622365,
+              "agent_y": 0.9996981485435772,
+              "distractor_x": 0.461331873566039,
+              "distractor_y": 0.4335911920953677
+            },
+            "minimum_audit_r2": 0.4335911920953677,
+            "distractor_r2_min": 0.4335911920953677
+          },
+          "4": {
+            "audit_r2": {
+              "agent_x": 0.999746528907919,
+              "agent_y": 0.9996666660331988,
+              "distractor_x": 0.20238572595556903,
+              "distractor_y": 0.21064818909629235
+            },
+            "minimum_audit_r2": 0.20238572595556903,
+            "distractor_r2_min": 0.20238572595556903
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9998666754066223,
+            "agent_y": 0.9997252715451881,
+            "distractor_x": 0.9740865409429706,
+            "distractor_y": 0.9618560116778496
+          },
+          "minimum_audit_r2": 0.9618560116778496,
+          "distractor_r2_min": 0.9618560116778496
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9992829217911902,
+            "agent_y": 0.999270505480105,
+            "distractor_x": 0.9917649078170326,
+            "distractor_y": 0.9912756644801262
+          },
+          "minimum_audit_r2": 0.9912756644801262,
+          "distractor_r2_min": 0.9912756644801262,
+          "selected_lambdas": {
+            "agent_xy": 100.0,
+            "distractor_xy": 100.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0008001187234185636,
+            "distractor_xy": 0.012553408741950989
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "43": {
+        "model_tag": "fourroom_hjepa_l4",
+        "seed": 43,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9999143906322004,
+              "agent_y": 0.9998635835331653,
+              "distractor_x": 0.8734224473449979,
+              "distractor_y": 0.8039484083013685
+            },
+            "minimum_audit_r2": 0.8039484083013685,
+            "distractor_r2_min": 0.8039484083013685
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9998962546325268,
+              "agent_y": 0.999825784750165,
+              "distractor_x": 0.703732969247697,
+              "distractor_y": 0.5262974186500957
+            },
+            "minimum_audit_r2": 0.5262974186500957,
+            "distractor_r2_min": 0.5262974186500957
+          },
+          "3": {
+            "audit_r2": {
+              "agent_x": 0.9998663118899693,
+              "agent_y": 0.9997940533371525,
+              "distractor_x": 0.48348765181397824,
+              "distractor_y": 0.1910389210639728
+            },
+            "minimum_audit_r2": 0.1910389210639728,
+            "distractor_r2_min": 0.1910389210639728
+          },
+          "4": {
+            "audit_r2": {
+              "agent_x": 0.9998615030016924,
+              "agent_y": 0.9996481869715088,
+              "distractor_x": 0.2591754192941581,
+              "distractor_y": 0.11381470084020961
+            },
+            "minimum_audit_r2": 0.11381470084020961,
+            "distractor_r2_min": 0.11381470084020961
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.9997559471340551,
+            "agent_y": 0.9998088052015344,
+            "distractor_x": 0.9732217541363242,
+            "distractor_y": 0.9835634855155602
+          },
+          "minimum_audit_r2": 0.9732217541363242,
+          "distractor_r2_min": 0.9732217541363242
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9997201949957835,
+            "agent_y": 0.9997379654113622,
+            "distractor_x": 0.9974276301047025,
+            "distractor_y": 0.9971267325830948
+          },
+          "minimum_audit_r2": 0.9971267325830948,
+          "distractor_r2_min": 0.9971267325830948,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0003303475969005376,
+            "distractor_xy": 0.004399451427161694
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": true,
+          "ridge": false
+        }
+      },
+      "44": {
+        "model_tag": "fourroom_hjepa_l4",
+        "seed": 44,
+        "dataset": "dev_preflight",
+        "levels": {
+          "1": {
+            "audit_r2": {
+              "agent_x": 0.9998930316477214,
+              "agent_y": 0.9998978026343847,
+              "distractor_x": 0.970780533010413,
+              "distractor_y": 0.9438868486505945
+            },
+            "minimum_audit_r2": 0.9438868486505945,
+            "distractor_r2_min": 0.9438868486505945
+          },
+          "2": {
+            "audit_r2": {
+              "agent_x": 0.9998916797810408,
+              "agent_y": 0.9998354358891023,
+              "distractor_x": 0.9060751869350143,
+              "distractor_y": 0.7761846927443526
+            },
+            "minimum_audit_r2": 0.7761846927443526,
+            "distractor_r2_min": 0.7761846927443526
+          },
+          "3": {
+            "audit_r2": {
+              "agent_x": 0.9998374266137197,
+              "agent_y": 0.999849801833462,
+              "distractor_x": 0.7936383658000454,
+              "distractor_y": 0.6275171291125896
+            },
+            "minimum_audit_r2": 0.6275171291125896,
+            "distractor_r2_min": 0.6275171291125896
+          },
+          "4": {
+            "audit_r2": {
+              "agent_x": 0.9997748307297701,
+              "agent_y": 0.9998265697438431,
+              "distractor_x": 0.5364570880998061,
+              "distractor_y": 0.3379551612283518
+            },
+            "minimum_audit_r2": 0.3379551612283518,
+            "distractor_r2_min": 0.3379551612283518
+          }
+        },
+        "grid_mlp": {
+          "audit_r2": {
+            "agent_x": 0.999474603487032,
+            "agent_y": 0.9992006976537896,
+            "distractor_x": 0.9901295872305915,
+            "distractor_y": 0.994248112329031
+          },
+          "minimum_audit_r2": 0.9901295872305915,
+          "distractor_r2_min": 0.9901295872305915
+        },
+        "grid_ridge": {
+          "audit_r2": {
+            "agent_x": 0.9992503795620357,
+            "agent_y": 0.999230335677884,
+            "distractor_x": 0.997083603236512,
+            "distractor_y": 0.9969202244501397
+          },
+          "minimum_audit_r2": 0.9969202244501397,
+          "distractor_r2_min": 0.9969202244501397,
+          "selected_lambdas": {
+            "agent_xy": 10.0,
+            "distractor_xy": 10.0
+          },
+          "validation_mse": {
+            "agent_xy": 0.0008552172221243382,
+            "distractor_xy": 0.004175188951194286
+          }
+        },
+        "skipped": {
+          "cls": false,
+          "grid_mlp": false,
+          "ridge": false
+        }
+      }
+    }
+  }
+}

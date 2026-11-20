@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+*.egg-info/
+# Keep the repository portable; full local trajectories/checkpoints stay local.
+validation/local/*/
+validation/local/data/
+validation/local/matrix_manifest.json
+validation/local/progress.json
+validation/parity_bundle/fixed_data/
+# Ad-hoc command outputs belong in an explicit runs directory.
+/doctor_cpu.json
+/doctor_cuda.json
+/environment-linux.lock.txt
+/formal_manifest.json

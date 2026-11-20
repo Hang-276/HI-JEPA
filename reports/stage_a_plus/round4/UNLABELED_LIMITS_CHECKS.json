@@ -1,0 +1,190 @@
+{
+  "kind": "deterministic_gaussian_distribution_and_series_checks",
+  "no_random_samples_or_physical_trajectories": true,
+  "no_trained_model_load_forward_or_training": true,
+  "no_existing_scientific_arrays_read": true,
+  "fullrank_rotation_models": [
+    {
+      "tau": 0.2,
+      "natural_parameter_rank": 8,
+      "natural_parameter_min_singular_value": 0.08333333333333331,
+      "innovation_variance_range": [
+        1.0,
+        1.2
+      ],
+      "rotation_direct_kl": 0.004455347130193654,
+      "rotation_analytic_kl": 0.004455347130193651,
+      "rotation_kl_error": 2.6020852139652106e-18,
+      "reference_direct_kl": 0.012817431823565694,
+      "reference_analytic_kl": 0.012817431823565636,
+      "reference_kl_error": 5.724587470723463e-17,
+      "reference_kl_upper": 0.013333333333333336,
+      "unconditional_covariance_formula_error": 1.0842021724855044e-19,
+      "wrong_identity_encoder_best_affine_axis_r2": [
+        0.500240615976901,
+        0.4997593840230992,
+        1.0,
+        1.0
+      ],
+      "wrong_identity_encoder_axis_mean_r2": 0.75
+    },
+    {
+      "tau": 0.03,
+      "natural_parameter_rank": 8,
+      "natural_parameter_min_singular_value": 0.014563106796116498,
+      "innovation_variance_range": [
+        1.0,
+        1.03
+      ],
+      "rotation_direct_kl": 0.00010712233308297401,
+      "rotation_analytic_kl": 0.00010712233308307883,
+      "rotation_kl_error": 1.0481524502503614e-16,
+      "reference_direct_kl": 0.00029804394632344415,
+      "reference_analytic_kl": 0.0002980439463234665,
+      "reference_kl_error": 2.233456475320139e-17,
+      "reference_kl_upper": 0.0003,
+      "unconditional_covariance_formula_error": 2.220446049250313e-16,
+      "wrong_identity_encoder_best_affine_axis_r2": [
+        0.5000055366080525,
+        0.49999446339194764,
+        1.0,
+        1.0
+      ],
+      "wrong_identity_encoder_axis_mean_r2": 0.75
+    },
+    {
+      "tau": 0.003,
+      "natural_parameter_rank": 8,
+      "natural_parameter_min_singular_value": 0.0014955134596210673,
+      "innovation_variance_range": [
+        1.0,
+        1.003
+      ],
+      "rotation_direct_kl": 1.0842909241375582e-06,
+      "rotation_analytic_kl": 1.0842909241672838e-06,
+      "rotation_kl_error": 2.97255624927056e-17,
+      "reference_direct_kl": 2.9980044893583504e-06,
+      "reference_analytic_kl": 2.9980044892268964e-06,
+      "reference_kl_error": 1.3145400769971026e-16,
+      "reference_kl_upper": 3e-06,
+      "unconditional_covariance_formula_error": 0.0,
+      "wrong_identity_encoder_best_affine_axis_r2": [
+        0.5000000555369939,
+        0.4999999444630062,
+        1.0,
+        1.0
+      ],
+      "wrong_identity_encoder_axis_mean_r2": 0.75
+    },
+    {
+      "tau": 0.0003,
+      "natural_parameter_rank": 8,
+      "natural_parameter_min_singular_value": 0.00014995501349596152,
+      "innovation_variance_range": [
+        1.0,
+        1.0003
+      ],
+      "rotation_direct_kl": 1.0856364825551869e-08,
+      "rotation_analytic_kl": 1.0856364826134087e-08,
+      "rotation_kl_error": 5.82217691590349e-19,
+      "reference_direct_kl": 2.999800057505931e-08,
+      "reference_analytic_kl": 2.999800044989419e-08,
+      "reference_kl_error": 1.251651189385921e-16,
+      "reference_kl_upper": 3e-08,
+      "unconditional_covariance_formula_error": 0.0,
+      "wrong_identity_encoder_best_affine_axis_r2": [
+        0.5000000005555371,
+        0.4999999994444629,
+        1.0,
+        1.0
+      ],
+      "wrong_identity_encoder_axis_mean_r2": 0.75
+    }
+  ],
+  "nonlinear_twist_best_affine_remainder": {
+    "alpha": 1.0,
+    "projection_complex_mean_real": 0.9805062702118175,
+    "projection_complex_mean_imag": 0.10777774684256267,
+    "best_affine_residual_energy_limit": 0.05398282272170185
+  },
+  "analytic_jacobian_fixtures": [
+    {
+      "analytic_radius_squared": 0.0,
+      "determinant": 1.0,
+      "operator_norm": 1.0,
+      "inverse_operator_norm": 1.0,
+      "uniform_norm_limit": 1.7357588823428847
+    },
+    {
+      "analytic_radius_squared": 0.20000000000000004,
+      "determinant": 0.9999999999999999,
+      "operator_norm": 1.177063870702157,
+      "inverse_operator_norm": 1.1770638707021572,
+      "uniform_norm_limit": 1.7357588823428847
+    },
+    {
+      "analytic_radius_squared": 1.09,
+      "determinant": 1.0000000000000002,
+      "operator_norm": 1.4315133683543724,
+      "inverse_operator_norm": 1.4315133683543724,
+      "uniform_norm_limit": 1.7357588823428847
+    },
+    {
+      "analytic_radius_squared": 4.25,
+      "determinant": 1.0000000000000002,
+      "operator_norm": 1.0624588825776473,
+      "inverse_operator_norm": 1.062458882577647,
+      "uniform_norm_limit": 1.7357588823428847
+    }
+  ],
+  "finite_data_distance_bounds": [
+    {
+      "independent_observation_count_in_construction": 16,
+      "tau": 0.027063293868263706,
+      "nonlinear_twist_tv_upper": 0.12463104425930889,
+      "soundness_error_plus_lack_of_power_lower": 0.8753689557406911,
+      "maximum_binary_error_lower": 0.43768447787034553,
+      "scope": "distance_bound_only; positive residual threshold also requires sufficiently small tau"
+    },
+    {
+      "independent_observation_count_in_construction": 256,
+      "tau": 0.0067658234670659265,
+      "nonlinear_twist_tv_upper": 0.1249064695084821,
+      "soundness_error_plus_lack_of_power_lower": 0.875093530491518,
+      "maximum_binary_error_lower": 0.437546765245759,
+      "scope": "distance_bound_only; positive residual threshold also requires sufficiently small tau"
+    },
+    {
+      "independent_observation_count_in_construction": 4096,
+      "tau": 0.0016914558667664816,
+      "nonlinear_twist_tv_upper": 0.12497653511705355,
+      "soundness_error_plus_lack_of_power_lower": 0.8750234648829465,
+      "maximum_binary_error_lower": 0.43751173244147323,
+      "scope": "distance_bound_only; positive residual threshold also requires sufficiently small tau"
+    },
+    {
+      "independent_observation_count_in_construction": 65536,
+      "tau": 0.0004228639666916204,
+      "nonlinear_twist_tv_upper": 0.1249941286134767,
+      "soundness_error_plus_lack_of_power_lower": 0.8750058713865233,
+      "maximum_binary_error_lower": 0.43750293569326165,
+      "scope": "distance_bound_only; positive residual threshold also requires sufficiently small tau"
+    }
+  ],
+  "checks": {
+    "all_positive_tau_models_rank8": true,
+    "innovation_variances_uniformly_nondegenerate": true,
+    "rotation_kl_formula": true,
+    "reference_kl_formula": true,
+    "reference_kl_quadratic_bound": true,
+    "latent_covariance_formula": true,
+    "identity_encoder_not_axis_recovered_in_rotated_model": true,
+    "twist_series_converged": true,
+    "twist_positive_best_affine_remainder": true,
+    "twist_projection_energy_formula": true,
+    "analytic_twist_determinant_one": true,
+    "analytic_twist_jacobian_uniform_bound": true,
+    "finite_data_nontrivial_lower_bounds": true
+  },
+  "passed": true
+}

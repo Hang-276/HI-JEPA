@@ -1,0 +1,58 @@
+{
+  "rates": [
+    0.9,
+    0.88,
+    0.85,
+    0.8
+  ],
+  "lags": [
+    4,
+    16,
+    32
+  ],
+  "calibration_size_per_length": 32768,
+  "calibration_failure_per_length": 0.01,
+  "conditional_answer_risk_given_calibration_event": 0.05,
+  "rows": [
+    {
+      "length": 64,
+      "evaluation_windows": 8192,
+      "hidden_enters": 2945,
+      "forced_decision_errors": 2038,
+      "accepted": 510,
+      "include_answers": 32,
+      "exclude_answers": 478,
+      "incorrect_answers": 9
+    },
+    {
+      "length": 192,
+      "evaluation_windows": 8192,
+      "hidden_enters": 2541,
+      "forced_decision_errors": 1931,
+      "accepted": 860,
+      "include_answers": 17,
+      "exclude_answers": 843,
+      "incorrect_answers": 18
+    },
+    {
+      "length": 512,
+      "evaluation_windows": 8192,
+      "hidden_enters": 1799,
+      "forced_decision_errors": 1551,
+      "accepted": 1611,
+      "include_answers": 4,
+      "exclude_answers": 1607,
+      "incorrect_answers": 29
+    },
+    {
+      "length": 1024,
+      "evaluation_windows": 8192,
+      "hidden_enters": 1105,
+      "forced_decision_errors": 1002,
+      "accepted": 2976,
+      "include_answers": 1,
+      "exclude_answers": 2975,
+      "incorrect_answers": 39
+    }
+  ]
+}

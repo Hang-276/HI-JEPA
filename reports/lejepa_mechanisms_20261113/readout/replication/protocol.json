@@ -1,0 +1,10 @@
+{
+  "master": 2026111303,
+  "n_reference": 32768,
+  "n_test": 1024,
+  "trajectory_length": 193,
+  "lags": [4, 16, 32],
+  "strong_recovery_seeds": [1942, 5817],
+  "strong_recovery_r2_threshold": 0.85,
+  "secondary_seed": 7811
+}

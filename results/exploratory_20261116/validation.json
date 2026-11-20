@@ -1,0 +1,80 @@
+{
+  "evidence_tier": "exploratory_numerical_sandbox",
+  "status": "passed",
+  "runtime": {
+    "python": "3.13.11",
+    "numpy": "2.4.4",
+    "compatibility": "Python 3.11 syntax parsed below; actual numerical execution used available 3.13.11"
+  },
+  "checks": {
+    "observation_max_absolute_error": 0.0,
+    "observation_check_scope": "archived expression AST translated torch.sin/stack/square into NumPy; no torch import; float64 check, not bitwise float32 training parity",
+    "stream_scores_and_gaps_max_absolute_error": 1.7763568394002505e-15,
+    "stream_top2_exact_match": true,
+    "stable_tie_exact_match": true,
+    "gram_scores_max_absolute_error": 3.552713678800501e-14,
+    "analytic_variance_vs_dense_trace_max_absolute_error": 1.6653345369377348e-16,
+    "function_metric_identity_sin_theta": 2.9802322387695312e-08,
+    "perfect_readout_matched_reference_all_100_cells_exact_zero": true
+  },
+  "reproducibility": [
+    {
+      "script": "scripts/exploratory_20261116/probe1_harmonic_and_subspace.py",
+      "wall_seconds_including_startup_and_write": 2.4971976671367884,
+      "help_seconds": 0.05061937542632222,
+      "numeric_payload_exactly_reproduced": true,
+      "script_receipt": {
+        "evidence_tier": "exploratory_numerical_sandbox",
+        "runtime_seconds": 2.426925915759057,
+        "harmonic_cells": 162,
+        "phase_replicate_cells": 1260,
+        "output": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/results/exploratory_20261116/verified_reproduction_xeu925rw/probe1_summary.json"
+      }
+    },
+    {
+      "script": "scripts/exploratory_20261116/probe2_phase_diagram_alignment.py",
+      "wall_seconds_including_startup_and_write": 5.991130750160664,
+      "help_seconds": 0.01965945865958929,
+      "numeric_payload_exactly_reproduced": true,
+      "script_receipt": {
+        "evidence_tier": "exploratory_numerical_sandbox",
+        "output": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/results/exploratory_20261116/verified_reproduction_xeu925rw/probe2_summary.json",
+        "elapsed_seconds": 5.9416077909991145,
+        "runtime_below_60_seconds": true
+      }
+    }
+  ],
+  "repository_check": {
+    "command": "python3 scripts/check_repository.py",
+    "returncode": 0,
+    "wall_seconds_including_initial_version_retry": 0.26963816676288843,
+    "stdout": {
+      "checks": {
+        "python": 34,
+        "shell": 11,
+        "json": 26,
+        "links": 35
+      },
+      "sealed_sources": 232,
+      "unchanged_science_files": {
+        "src/slowrepr/metrics.py": true,
+        "configs/fourroom_hjepa/default.json": true
+      },
+      "failures": [],
+      "model_or_metric_execution": false
+    },
+    "stderr": "",
+    "initial_environment_failure": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/yuzihang/Documents/ChatGPT/HI-JEPA/scripts/check_repository.py\", line 86, in <module>\n    sys.exit(main())\n  File \"/Users/yuzihang/Documents/ChatGPT/HI-JEPA/scripts/check_repository.py\", line 75, in main\n    actual = hashlib.file_digest(stream, \"sha256\").hexdigest()\nAttributeError: module 'hashlib' has no attribute 'file_digest'\n",
+      "explanation": "Default python3 is older than 3.11; unchanged checker requires hashlib.file_digest. Rerun same command with available NumPy interpreter directory first in PATH."
+    },
+    "successful_python3_directory": "/opt/miniconda3/bin"
+  },
+  "protected_source_sha256": {
+    "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+    "reports/lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783"
+  },
+  "python311_syntax_files_passed": 5,
+  "elapsed_seconds": 8.977746416814625
+}

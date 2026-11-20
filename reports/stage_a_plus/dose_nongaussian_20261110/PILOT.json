@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-10T08:33:45.228969+00:00",
+  "lock": "7472dc1f97035112dc2e6a33687f46a870f8d2acfc578e330afeca1f74ac2602",
+  "windows": 64,
+  "inverse": true,
+  "weights": true,
+  "expansion": true,
+  "dose_pair_maximum_absolute_residual": 1.429412144204889e-15
+}

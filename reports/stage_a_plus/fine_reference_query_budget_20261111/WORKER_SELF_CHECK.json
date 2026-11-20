@@ -1,0 +1,15 @@
+{
+  "check": {
+    "full_budget_exact_dense_equivalence": true,
+    "one_anchor_exact_affine_equivalence": true,
+    "affine_sd_maximum_error": 9.391598609909124e-12,
+    "invalid_ids_rejected": true,
+    "relative_edge_rms": 2.5813046184970515e-10
+  },
+  "runtime": {
+    "executable": "/opt/miniconda3/envs/evg-agent/bin/python",
+    "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:59:26) [Clang 19.1.7 ]",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  }
+}

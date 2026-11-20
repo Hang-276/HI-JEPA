@@ -1,0 +1,16 @@
+{
+  "labels_sha256": "85b931876ec7b81a77a8cec52ac1b071c096ed6bd799658bb9da293ee7217bee",
+  "forecast_receipt_sha256": "82026bc2de6b3dd8e110b2dea30750166492e245764b860e3b6843176dfb9eee",
+  "test_truth_keys": [
+    "separated_wide",
+    "crossed_wide",
+    "separated_narrow",
+    "crossed_narrow"
+  ],
+  "test_truth_shape": [
+    1024,
+    513,
+    4
+  ],
+  "test_truth_dtype": "float64"
+}

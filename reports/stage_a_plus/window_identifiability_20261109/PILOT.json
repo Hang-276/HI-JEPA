@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-09T10:26:01.678858+00:00",
+  "lock": "b530f3c0363e3c6a577d7f5b59bd9088762399981111260669ed1a443b821809",
+  "exact_null_equal": true,
+  "direct_score_max_error": 8.881784197001252e-16,
+  "trig_extrema_grid_checked": true,
+  "signed_innovation_identity": true,
+  "panels_per_dynamics": 64
+}

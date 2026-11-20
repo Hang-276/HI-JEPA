@@ -1,0 +1,12 @@
+{
+  "extends": "base_formal_v3.json",
+  "name": "formal_v3_local_modal_readout",
+  "spectral_readout": {
+    "method": "post_training_local_modal_readout",
+    "solver_revision": "feasible_block_sqp_v1",
+    "local_modal": {
+      "enabled": true,
+      "method": "block_local_dynamics_v1"
+    }
+  }
+}

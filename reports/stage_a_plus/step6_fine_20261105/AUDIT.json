@@ -1,0 +1,30 @@
+{
+  "protocol_sha": "f087d80a7d2f1587c5a344fa272aaf882eeeb745b9dda5bab2002cefcf3e7bba",
+  "lock_sha": "98b95e5da30ed4dee3e3644088fdd8aae171592b65260cf818f9c394a4dee547",
+  "lock_utc": "2026-11-05T04:37:48.834246+00:00",
+  "reveal_utc": "2026-11-05T04:38:24.984005+00:00",
+  "all_forecasts_sealed_before_current_physical_CAL_reveal": true,
+  "previous_CAL_checkpoint_selection_and_prior_aggregate_exposure": true,
+  "checked_existing_checkpoints": 12,
+  "train_only_assignments_match_original_cal_maps": 12,
+  "existing_physical_instances": 4,
+  "cal_episodes": 112,
+  "existing_parent_episode_rows": 336,
+  "wrong_parent_episode_rows": 12,
+  "unique_episodes_with_error": 6,
+  "prelabel_wrong_detection": {
+    "size": 0,
+    "direction": 1,
+    "identity": 0,
+    "persistence": 4
+  },
+  "matched_very_close_discordant_pairs": 8,
+  "unique_discordant_episodes": 4,
+  "strict_paired_verdicts_identical": true,
+  "max_same_support_reconstruction_error": 1.5543122344752192e-15,
+  "new_samples": 0,
+  "parameter_updates": 0,
+  "model_forwards": 0,
+  "server_connections": 0,
+  "GPU_jobs": 0
+}

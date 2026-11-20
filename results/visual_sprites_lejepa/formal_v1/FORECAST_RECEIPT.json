@@ -1,0 +1,50 @@
+{
+  "evidence_tier": "formal_visual_sprites",
+  "sealed_utc": "2026-11-17T08:40:38.892171+00:00",
+  "test_image_inference_started_utc": "2026-11-17T08:29:46.322546+00:00",
+  "design_lock_sha256": "01f1b378afd52c94e0a1a179df52efc2bb3cc7800be888323ea8ce4650cd593e",
+  "test_image_stream": {
+    "frames": 395264,
+    "shape_chw": [
+      3,
+      32,
+      32
+    ],
+    "dtype": "float32",
+    "sha256_contiguous_chw_stream": "7cb7cb22e3cbe6c1dad7ebbfe92baa6a4cb72da7d78b4cf784cf66496fb7c1df"
+  },
+  "files_sha256": {
+    "thresholds.json": "9f66921aa2430054a40b14fcd9d02ec039413b8cd0aac6e21a183838a5f97a75",
+    "reference_truth.npz": "daad6df410172dc860fb240bca8e2ac72b43e838eef0ee1b86b4d7b1efc88d27",
+    "visual_lejepa_seed101/thresholds.json": "125e03c42790946b2632df41770f9be495a859db28796bb6ccc925c81965726c",
+    "visual_lejepa_seed101/test_prediction.npz": "927acbe9aefc0a7746771aec5a3bb27343b5f8b50600a3471f5b83aafad6e614",
+    "visual_lejepa_seed101/reference.npz": "229081a18016036c87a9704ba8816accefac1fb0f45f5cef03342ef07eef7fdd",
+    "visual_lejepa_seed101/calibration.npz": "c0f2da014d0b22b522dfd601cdbc352e38b87cbc09e8d3d80283201190f1b009",
+    "visual_lejepa_seed101/audit.json": "c6f53259e1fefcc53b827035ebd202d777dc724110b523361dd34700e0da6aff",
+    "visual_lejepa_seed102/thresholds.json": "41799e2067b76658ccc8ce3e0890cf5b6904f5d2e45a6d5e6914b149b827b117",
+    "visual_lejepa_seed102/test_prediction.npz": "0b81c27d183abb978ea7cb7b597e559651ac4d3f799a8efa3cc1f5de6bc16a11",
+    "visual_lejepa_seed102/reference.npz": "9f1ca4eb9c968bb724cf6dcce02445133d6924de37cda310a3db9197b2acaf75",
+    "visual_lejepa_seed102/calibration.npz": "0e82ce7d61ce2fa9ceaea5315b5e54a3490ac1823c916d5326cb083e12b1cac8",
+    "visual_lejepa_seed102/audit.json": "1852afcf8c526227703466d44bca75e401e4da446f6ebbac35a7f789f5a8f8ee",
+    "visual_lejepa_seed103/thresholds.json": "3d02aac73e7912597ff05ce8bf7d7f7c55ec38ac786f262e3e4fccc9d193fc05",
+    "visual_lejepa_seed103/test_prediction.npz": "0bccfca7572e15b02d2be049366d7d6e6f4df5a8211a450f373c9cf718e0e764",
+    "visual_lejepa_seed103/reference.npz": "0392bea87768ddc3ca989c58a10939280eabc25138b6841e5a7147a1b1768105",
+    "visual_lejepa_seed103/calibration.npz": "84b6c6519bbf75823b6bbcea7df4bf119a72a9e2a94a27a4e52ed702bf2c0b57",
+    "visual_lejepa_seed103/audit.json": "bef6a61ceaa488f63f873e6df4d791173b2f29909db31b8a6ee6ded25717edeb",
+    "long_horizon_pred_seed101/thresholds.json": "746a7754af72acf519eb825e0c2300aa031054fb1925acfb7fdbda1a9975ab6e",
+    "long_horizon_pred_seed101/test_prediction.npz": "017076bf35590c4f1d6bf7e99089cac078cdf04bda66cde5c5856e161969f58c",
+    "long_horizon_pred_seed101/reference.npz": "4ab88bfc0f270aac680ce3470c63c56cafc0e7982abd05e874b094efe54f0cad",
+    "long_horizon_pred_seed101/calibration.npz": "cd8110a0031956156c7dc8774aac4a2d65a2943afe08294b7fb7822d7e8c66b8",
+    "long_horizon_pred_seed101/audit.json": "373b59b29121a6eb2ec9b67f74fefc00d692a755e8cd153ddc5f7c8d1d5b8edb",
+    "long_horizon_pred_seed102/thresholds.json": "548731982c89a12490d6a097593a1753e2dc577c507f51092f8485a8b95b0338",
+    "long_horizon_pred_seed102/test_prediction.npz": "faf726671fd1fac590a9fd1e2d0dbbde188f1c92bb02ad909887c9c441d56b89",
+    "long_horizon_pred_seed102/reference.npz": "24bb2abe225129a4be6a43b9c3b7eaee9595dcfc3e13116ec20a7e14338cbafb",
+    "long_horizon_pred_seed102/calibration.npz": "2fc54dd42b1f947e1fbc56ec3d78bd8b3f47cfac7e307e5be8a95491b059105b",
+    "long_horizon_pred_seed102/audit.json": "addd57b6ec144be6118e2de6ce6f9eb81a4a252d7820334097054db4795d25d0",
+    "long_horizon_pred_seed103/thresholds.json": "ce2b38b90b835861062eb4e75621b961b40b03dc1baf7177f73fac806adecdff",
+    "long_horizon_pred_seed103/test_prediction.npz": "4393d92c3641eb60e1907aeda3db4a2c8587f12355fd803bb08b62902ac5a84a",
+    "long_horizon_pred_seed103/reference.npz": "eb03c5105f1e9aef80c533a5e7a4b730f0a42ac737f6fa4da5f49641821c326e",
+    "long_horizon_pred_seed103/calibration.npz": "7538449d382282b0188f0352a66d1358b89cfd5f50ab948a71b76a751cf1e8ae",
+    "long_horizon_pred_seed103/audit.json": "30d9d2358d21266b46c8b65bfc75e689887babc14d3aaeacaeadf6b9dbf76885"
+  }
+}

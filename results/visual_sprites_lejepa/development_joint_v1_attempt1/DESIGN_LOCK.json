@@ -1,0 +1,174 @@
+{
+  "mode": "dual_development",
+  "evidence_tier": "dual_arm_development",
+  "created_utc": "2026-11-17T04:57:27.246417+00:00",
+  "device": "cpu",
+  "config": {
+    "schema_version": 1,
+    "axes": [
+      "agent_x",
+      "agent_y",
+      "distractor_x",
+      "distractor_y"
+    ],
+    "rho": [
+      0.964,
+      0.961,
+      0.78,
+      0.76
+    ],
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "seeds": [
+      101,
+      102,
+      103
+    ],
+    "data_seed": 2026111601,
+    "development_seed": 2026111701,
+    "development_model_seed": 1901,
+    "development_min_r2": 0.9,
+    "roles": {
+      "pretrain": {
+        "episodes": 1024,
+        "frames": 128
+      },
+      "train": {
+        "episodes": 256,
+        "frames": 193,
+        "sample_frames": 32
+      },
+      "val": {
+        "episodes": 64,
+        "frames": 193,
+        "sample_frames": 32
+      },
+      "audit": {
+        "episodes": 128,
+        "frames": 193
+      },
+      "ref": {
+        "episodes": 256,
+        "frames": 193
+      },
+      "cal": {
+        "episodes": 1024,
+        "frames": 193
+      },
+      "test": {
+        "episodes": 2048,
+        "frames": 193
+      }
+    },
+    "renderer": {
+      "image_size": 32,
+      "coordinate_bounds": [
+        5.0,
+        27.0
+      ],
+      "tanh_scale": 0.45,
+      "sprite_sigma": 2.2,
+      "sprite_amplitude": 0.86,
+      "pixel_noise_sigma": 0.01
+    },
+    "encoder": {
+      "latent_dim": 8,
+      "steps": 6000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "short_lag": 1,
+      "long_lag": 15,
+      "lejepa_sigreg_weight": 0.05,
+      "predictor_sigreg_weight": 0.001,
+      "log_every": 100
+    },
+    "probe": {
+      "steps": 3000,
+      "batch_size": 256,
+      "hidden_dim": 128,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "log_every": 100
+    },
+    "runtime": {
+      "cpu_threads": 4,
+      "encode_batch_size": 512
+    },
+    "audit_min_r2": 0.85,
+    "cal_gap_quantile": 0.5,
+    "family_alpha": 0.05,
+    "minimum_coverage": 0.35,
+    "maximum_selective_error": 0.01,
+    "development_flip_rate_range": [
+      0.08,
+      0.12
+    ],
+    "development_flip_check_windows": 16384
+  },
+  "config_path": "configs/visual_sprites_lejepa/joint_v1.json",
+  "source_sha256": {
+    "configs/visual_sprites_lejepa/joint_v1.json": "43c0709818ef8c4877d52967d4e5b39e20ec2adb91885b035b896e6f64a574bc",
+    "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "scripts/visual_sprites_lejepa/models.py": "dc867eb77ef6e414c94ce0247481eedb6d561f9beb6f733afb3735d779ea9a5a",
+    "scripts/visual_sprites_lejepa/render.py": "2e0970e081f72bff5e9e9f730c7b02abf6e0f66e84e43ddc60d43d316ec498ff",
+    "scripts/visual_sprites_lejepa/run.py": "57084f17194ec44f686a168d7c81aee215e264bddec213be170c6d7896e4451f",
+    "scripts/visual_sprites_lejepa/run_joint.py": "966deb93a4a72b5d9ef0754d89067ad8e97c2179b7d2923a842cc506ad62fba0"
+  },
+  "development_preflight": {
+    "development_seed": 2026111701,
+    "rho": [
+      0.964,
+      0.961,
+      0.78,
+      0.76
+    ],
+    "windows": 16384,
+    "reference_episodes": 256,
+    "reference_variance": [
+      0.9756764774318131,
+      1.0120183344508342,
+      1.0197632226246163,
+      0.9995207401721852
+    ],
+    "population_scores": [
+      0.8472308597782533,
+      0.8919805136775482,
+      1.7404832754011894,
+      1.7692242010462902
+    ],
+    "mean_window_scores": [
+      0.8678220421883924,
+      0.8843137635433355,
+      1.7019030352061426,
+      1.7696871548843593
+    ],
+    "flip_windows": 1682,
+    "flip_rate": 0.1026611328125,
+    "pass": true
+  },
+  "attempt": 1,
+  "adjustment": null,
+  "correlation_times": {
+    "pred_lag": 15,
+    "slow_correlation_times": [
+      27.27472251419665,
+      25.137710655957346
+    ],
+    "fast_correlation_times": [
+      4.024770704078003,
+      3.643825585602064
+    ],
+    "lag_over_longest_fast_time": 3.726920389477494,
+    "rho_to_pred_lag": [
+      0.576973024092004,
+      0.5506185203459105,
+      0.02406683831733906,
+      0.01630061102743347
+    ]
+  }
+}

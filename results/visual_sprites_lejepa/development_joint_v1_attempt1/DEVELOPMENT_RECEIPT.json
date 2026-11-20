@@ -1,0 +1,59 @@
+{
+  "status": "DEVELOPMENT_GATE_FAILED",
+  "evidence_tier": "dual_arm_development",
+  "passes": false,
+  "criteria": {
+    "visual_lejepa_all_r2_ge_0_90": true,
+    "long_horizon_pred_agent_r2_ge_0_90": false,
+    "long_horizon_pred_distractor_r2_lt_0_60": true
+  },
+  "audit": {
+    "visual_lejepa_seed1901": {
+      "arm": "visual_lejepa",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.9966911200084219,
+        "agent_y": 0.9963451969203828,
+        "distractor_x": 0.9824829096301596,
+        "distractor_y": 0.9814597106249726
+      },
+      "minimum_r2": 0.9814597106249726,
+      "eligible": true
+    },
+    "long_horizon_pred_seed1901": {
+      "arm": "long_horizon_pred",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.5503748989225874,
+        "agent_y": 0.57965356668501,
+        "distractor_x": 0.5423536238894855,
+        "distractor_y": 0.5331006657098587
+      },
+      "minimum_r2": 0.5331006657098587,
+      "eligible": false
+    }
+  },
+  "audit_sha256": {
+    "visual_lejepa_seed1901": "736c286ea9c587870c82f80165542d31d6965152cd8724be70623922afbb8003",
+    "long_horizon_pred_seed1901": "d3d76156a050b5fdbc12a5e166fbbaa1d0ca60baf8a7e129c59418b4e639bd81"
+  },
+  "design_lock_sha256": "19e0666d3e316f8bba73b360954a6b1b17708d455027506ecb8465f038be4540",
+  "source_sha256": {
+    "configs/visual_sprites_lejepa/joint_v1.json": "43c0709818ef8c4877d52967d4e5b39e20ec2adb91885b035b896e6f64a574bc",
+    "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "scripts/visual_sprites_lejepa/models.py": "dc867eb77ef6e414c94ce0247481eedb6d561f9beb6f733afb3735d779ea9a5a",
+    "scripts/visual_sprites_lejepa/render.py": "2e0970e081f72bff5e9e9f730c7b02abf6e0f66e84e43ddc60d43d316ec498ff",
+    "scripts/visual_sprites_lejepa/run.py": "57084f17194ec44f686a168d7c81aee215e264bddec213be170c6d7896e4451f",
+    "scripts/visual_sprites_lejepa/run_joint.py": "966deb93a4a72b5d9ef0754d89067ad8e97c2179b7d2923a842cc506ad62fba0"
+  },
+  "device": "cpu",
+  "data_roles": [
+    "pretrain",
+    "train",
+    "val",
+    "audit"
+  ],
+  "elapsed_seconds": 2257.7752255839296,
+  "finished_utc": "2026-11-17T05:35:04.970274+00:00"
+}

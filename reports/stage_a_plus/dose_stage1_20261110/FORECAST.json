@@ -1,0 +1,488 @@
+{
+  "utc": "2026-11-10T07:17:44.966927+00:00",
+  "lock": "5fdd30e4acb614182059e38a7aafa88ab1176b06ab0d8037dea36b8a1faadcf3",
+  "pilot": "dc10a9490f80c288ff32829a820a4a9936c3158b3548ed0ed6a7c8a18534dd56",
+  "public": {
+    "g0_tanh_noisy": {
+      "path": "436dd5cf5ccff724f9955db5c24d7db2d5e698c670b3aa92c52a4dd99e0edec9",
+      "calibration": "437df83c6fb1cf53e2c9c99fe19f59a4bfb8eb97394a9c02de356afb4c56f257",
+      "interval": "c8fbe70ba18733e9ba6d1b6221be75e3333e2e545bfceb3ca18f24ebef18bce0"
+    },
+    "g0_tanh_exact": {
+      "path": "436dd5cf5ccff724f9955db5c24d7db2d5e698c670b3aa92c52a4dd99e0edec9",
+      "calibration": "437df83c6fb1cf53e2c9c99fe19f59a4bfb8eb97394a9c02de356afb4c56f257",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g0_sin_noisy": {
+      "path": "436dd5cf5ccff724f9955db5c24d7db2d5e698c670b3aa92c52a4dd99e0edec9",
+      "calibration": "0c2f52c74676cb324415e5104d84f78081b98396bee0f21f5908e27fe9948f68",
+      "interval": "c218e40120e201653e4b02c95c516e4376a5ee594cdfc54e0dea72f3ade9daab"
+    },
+    "g0_sin_exact": {
+      "path": "436dd5cf5ccff724f9955db5c24d7db2d5e698c670b3aa92c52a4dd99e0edec9",
+      "calibration": "0c2f52c74676cb324415e5104d84f78081b98396bee0f21f5908e27fe9948f68",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g1_tanh_noisy": {
+      "path": "1654f11660113e3ef4ae54e388fe821a2899b94e2a77452afa14525f0bfedddb",
+      "calibration": "869e84d7d15b7ba52f4b871ffcfb4ab38e4924eb3e6e5159361ca7204f6d1a70",
+      "interval": "73d231598830094f668a8fd71b75e3f82771445cc097970b149969fbaa3173b0"
+    },
+    "g1_tanh_exact": {
+      "path": "1654f11660113e3ef4ae54e388fe821a2899b94e2a77452afa14525f0bfedddb",
+      "calibration": "869e84d7d15b7ba52f4b871ffcfb4ab38e4924eb3e6e5159361ca7204f6d1a70",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g1_sin_noisy": {
+      "path": "1654f11660113e3ef4ae54e388fe821a2899b94e2a77452afa14525f0bfedddb",
+      "calibration": "6ee8a89fbbd59b6e0d30f705d0bc408809451ec1a13daa6fe2a00e0c771a264e",
+      "interval": "14c47c9ace9150d9504dc865cc73838a72c3b7f2a37665f438c4b6219103d99c"
+    },
+    "g1_sin_exact": {
+      "path": "1654f11660113e3ef4ae54e388fe821a2899b94e2a77452afa14525f0bfedddb",
+      "calibration": "6ee8a89fbbd59b6e0d30f705d0bc408809451ec1a13daa6fe2a00e0c771a264e",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g2_tanh_noisy": {
+      "path": "30b170f7b7751ea8185f54b555e4f9f0f2ad8c8cbd9c9adbb9570bbd54252d32",
+      "calibration": "58e56d5acb4eb698192ebf4def13a51481e03963dcb428046ba88a6ec0187027",
+      "interval": "d823f762832c0b7f5c5dc63b7768c6ece37447a03d043ce39bdb927da3d6b4f9"
+    },
+    "g2_tanh_exact": {
+      "path": "30b170f7b7751ea8185f54b555e4f9f0f2ad8c8cbd9c9adbb9570bbd54252d32",
+      "calibration": "58e56d5acb4eb698192ebf4def13a51481e03963dcb428046ba88a6ec0187027",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g2_sin_noisy": {
+      "path": "30b170f7b7751ea8185f54b555e4f9f0f2ad8c8cbd9c9adbb9570bbd54252d32",
+      "calibration": "d5881a11a044de203a09c0f5877528ffc62ce8da966f946fe32285fc40c780ff",
+      "interval": "94e84aed8bc3cdf55ab323a4cdfff891a48e9000562c6c3d4aa77531b6f008c9"
+    },
+    "g2_sin_exact": {
+      "path": "30b170f7b7751ea8185f54b555e4f9f0f2ad8c8cbd9c9adbb9570bbd54252d32",
+      "calibration": "d5881a11a044de203a09c0f5877528ffc62ce8da966f946fe32285fc40c780ff",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g3_tanh_noisy": {
+      "path": "bad87568b493a55ad9f065492d3f711161ecc2d82dc2831a9620ac968519189f",
+      "calibration": "20bfb4a65694926a8c505be0082f434e9bd582dd13b2c485928d2c0eaa135c06",
+      "interval": "3af8c04c2cd3c28a44c9928ec8e45a738965679affd8fe5cd046b64971f9260a"
+    },
+    "g3_tanh_exact": {
+      "path": "bad87568b493a55ad9f065492d3f711161ecc2d82dc2831a9620ac968519189f",
+      "calibration": "20bfb4a65694926a8c505be0082f434e9bd582dd13b2c485928d2c0eaa135c06",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g3_sin_noisy": {
+      "path": "bad87568b493a55ad9f065492d3f711161ecc2d82dc2831a9620ac968519189f",
+      "calibration": "d3d3bdd9bfd4e2b5409ba2f401e5a4801f872a8ea884087101366fcefff3dfbd",
+      "interval": "ecc58ad227e649af09e06e52057094053f2486b2b55bf695631d2aa3eef7f9a9"
+    },
+    "g3_sin_exact": {
+      "path": "bad87568b493a55ad9f065492d3f711161ecc2d82dc2831a9620ac968519189f",
+      "calibration": "d3d3bdd9bfd4e2b5409ba2f401e5a4801f872a8ea884087101366fcefff3dfbd",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g4_tanh_noisy": {
+      "path": "8321ccc55330d6611b456f337d4b4c104fcd4d2c4d9c3f1cba012e20f3d30319",
+      "calibration": "2ee14a68891ad1daa681a49fa0bc7803bb5b49ac1f0024ebb32fa67e4f96a45a",
+      "interval": "54f36efeda25404fe6c3828b7236b1c3a4ed280a9733ffab5d35d7e877f1dad3"
+    },
+    "g4_tanh_exact": {
+      "path": "8321ccc55330d6611b456f337d4b4c104fcd4d2c4d9c3f1cba012e20f3d30319",
+      "calibration": "2ee14a68891ad1daa681a49fa0bc7803bb5b49ac1f0024ebb32fa67e4f96a45a",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g4_sin_noisy": {
+      "path": "8321ccc55330d6611b456f337d4b4c104fcd4d2c4d9c3f1cba012e20f3d30319",
+      "calibration": "6734d9a925d805889524a61b0a6984c9f17839c8a564693f3e617416d5d39790",
+      "interval": "af30b426dfb786df7b2b7a350dd65092bbbe974731b6957eecfc743136e085f6"
+    },
+    "g4_sin_exact": {
+      "path": "8321ccc55330d6611b456f337d4b4c104fcd4d2c4d9c3f1cba012e20f3d30319",
+      "calibration": "6734d9a925d805889524a61b0a6984c9f17839c8a564693f3e617416d5d39790",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g5_tanh_noisy": {
+      "path": "acd1142c4f8a07d0e3755569484a2df2250ee94c26ceed826076cbb42c26af8e",
+      "calibration": "26b9d45aa112b2f200c9e5e886918324e9de1d03e47666554a935c36ac0d213c",
+      "interval": "4a20e3c56f192056fb21f46bd644d767bf35119c56d15caa6591a03d074aafd1"
+    },
+    "g5_tanh_exact": {
+      "path": "acd1142c4f8a07d0e3755569484a2df2250ee94c26ceed826076cbb42c26af8e",
+      "calibration": "26b9d45aa112b2f200c9e5e886918324e9de1d03e47666554a935c36ac0d213c",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g5_sin_noisy": {
+      "path": "acd1142c4f8a07d0e3755569484a2df2250ee94c26ceed826076cbb42c26af8e",
+      "calibration": "ef9450a54b35622c86552ed82c27167f809e8fb7d310e7f92e4c4373cf2b8cdd",
+      "interval": "30c2846158aa8af634199310f847be503e5d2553be418a7587e209722526f776"
+    },
+    "g5_sin_exact": {
+      "path": "acd1142c4f8a07d0e3755569484a2df2250ee94c26ceed826076cbb42c26af8e",
+      "calibration": "ef9450a54b35622c86552ed82c27167f809e8fb7d310e7f92e4c4373cf2b8cdd",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g6_tanh_noisy": {
+      "path": "d10a691adc44cc752f79ae00d8142638452c81747f61647721baf4a2adf579d2",
+      "calibration": "a7d4b7d3115eb2ea4d4600925f416bd853fc6f4da96d80e113ce1ea6de91e87b",
+      "interval": "8838d9dc9314d6b17e2ac304878b86641079626eeaf17eeede7c042ab87a8594"
+    },
+    "g6_tanh_exact": {
+      "path": "d10a691adc44cc752f79ae00d8142638452c81747f61647721baf4a2adf579d2",
+      "calibration": "a7d4b7d3115eb2ea4d4600925f416bd853fc6f4da96d80e113ce1ea6de91e87b",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g6_sin_noisy": {
+      "path": "d10a691adc44cc752f79ae00d8142638452c81747f61647721baf4a2adf579d2",
+      "calibration": "9b7cc5b1ace827d51af98d60bf128e42883252fee1d6b454529553181f16a688",
+      "interval": "cd1f23fd97d58d895561bc55fb119236742cd078e733027c883165b0d356ded4"
+    },
+    "g6_sin_exact": {
+      "path": "d10a691adc44cc752f79ae00d8142638452c81747f61647721baf4a2adf579d2",
+      "calibration": "9b7cc5b1ace827d51af98d60bf128e42883252fee1d6b454529553181f16a688",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g7_tanh_noisy": {
+      "path": "9994dc1da08fdd9d82e8ec41bc7771aaf20ec28a826ee84aea38304c267590c5",
+      "calibration": "e89df9387d1c2021069da4a4747720a498828ec272e7485cfdb8a0ad50da9c33",
+      "interval": "c22fa35584ee6c1d2381f88d303008e1770ed8ec1628ca9023b5192bb72e686b"
+    },
+    "g7_tanh_exact": {
+      "path": "9994dc1da08fdd9d82e8ec41bc7771aaf20ec28a826ee84aea38304c267590c5",
+      "calibration": "e89df9387d1c2021069da4a4747720a498828ec272e7485cfdb8a0ad50da9c33",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g7_sin_noisy": {
+      "path": "9994dc1da08fdd9d82e8ec41bc7771aaf20ec28a826ee84aea38304c267590c5",
+      "calibration": "513006dd9f90431a3d859d9a0abca5a0b0daf05ed996bc820713aaa3cc84d91e",
+      "interval": "2eec379bc92efadfa024e26c532d50238af06cd1b89d77accd71c0c7ee0ed512"
+    },
+    "g7_sin_exact": {
+      "path": "9994dc1da08fdd9d82e8ec41bc7771aaf20ec28a826ee84aea38304c267590c5",
+      "calibration": "513006dd9f90431a3d859d9a0abca5a0b0daf05ed996bc820713aaa3cc84d91e",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g8_tanh_noisy": {
+      "path": "463278bc248cad1df3ad14854b467fe3816b86e14f8db7885d5d81ca9e16766c",
+      "calibration": "4e7ba4b4fd3ba8067313cdb411b19173bc1300c2584b87e89be1791f96c68579",
+      "interval": "12a9cd25ffa3e531a534258ad517fb1019ae1e8c2533e1a8eb32b91ab778ba89"
+    },
+    "g8_tanh_exact": {
+      "path": "463278bc248cad1df3ad14854b467fe3816b86e14f8db7885d5d81ca9e16766c",
+      "calibration": "4e7ba4b4fd3ba8067313cdb411b19173bc1300c2584b87e89be1791f96c68579",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g8_sin_noisy": {
+      "path": "463278bc248cad1df3ad14854b467fe3816b86e14f8db7885d5d81ca9e16766c",
+      "calibration": "197e95299329607a21a8fc9409c348f463f417c033688ad68102b90bedfb2bf4",
+      "interval": "7c37bb64b62f671dfe2ec2cb1e6f673a593b34909bae8d8673b4c3c9b8c07d04"
+    },
+    "g8_sin_exact": {
+      "path": "463278bc248cad1df3ad14854b467fe3816b86e14f8db7885d5d81ca9e16766c",
+      "calibration": "197e95299329607a21a8fc9409c348f463f417c033688ad68102b90bedfb2bf4",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g9_tanh_noisy": {
+      "path": "6ad0703a34d58a645debf95b6d576f60d94d0a469b760b0294ae5edd2950b29d",
+      "calibration": "628c0be7268556a7a61418a89362960229e54a7eaf28d0db82c67af307300dea",
+      "interval": "eb714b78980daa8e1aa1810a75bcf5a4bdcd58706e1d451bba1b72367f75d87e"
+    },
+    "g9_tanh_exact": {
+      "path": "6ad0703a34d58a645debf95b6d576f60d94d0a469b760b0294ae5edd2950b29d",
+      "calibration": "628c0be7268556a7a61418a89362960229e54a7eaf28d0db82c67af307300dea",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g9_sin_noisy": {
+      "path": "6ad0703a34d58a645debf95b6d576f60d94d0a469b760b0294ae5edd2950b29d",
+      "calibration": "feac0c4661d07febee0dbc921f9b7a703fec45f58c7637faccbd846c00ad2960",
+      "interval": "12424f9d936d9eb9055dedb3875d51507bf977dda50dc9d31381388a43c465f7"
+    },
+    "g9_sin_exact": {
+      "path": "6ad0703a34d58a645debf95b6d576f60d94d0a469b760b0294ae5edd2950b29d",
+      "calibration": "feac0c4661d07febee0dbc921f9b7a703fec45f58c7637faccbd846c00ad2960",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g10_tanh_noisy": {
+      "path": "1963cb39dfae0a8fa1fe4715f330500c26ccf76f0f02593597a17e2f2bf126dc",
+      "calibration": "16d020b5c4ec26613354b9c3f917059df0ff1048f64030022df258fc259c1509",
+      "interval": "5d094ee5ff20aaf678b218f190ede9a0edb389f778986f736abf4fd6c3a1c2b3"
+    },
+    "g10_tanh_exact": {
+      "path": "1963cb39dfae0a8fa1fe4715f330500c26ccf76f0f02593597a17e2f2bf126dc",
+      "calibration": "16d020b5c4ec26613354b9c3f917059df0ff1048f64030022df258fc259c1509",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g10_sin_noisy": {
+      "path": "1963cb39dfae0a8fa1fe4715f330500c26ccf76f0f02593597a17e2f2bf126dc",
+      "calibration": "5b07cb41556c8d8069f90dd15b8017e27a7b80f2ac3bffd687c9ad75543b95e5",
+      "interval": "3b176ee07d95581209c1b9e6ffc5ac45dcf363fdbe8390991185d960895649ca"
+    },
+    "g10_sin_exact": {
+      "path": "1963cb39dfae0a8fa1fe4715f330500c26ccf76f0f02593597a17e2f2bf126dc",
+      "calibration": "5b07cb41556c8d8069f90dd15b8017e27a7b80f2ac3bffd687c9ad75543b95e5",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g11_tanh_noisy": {
+      "path": "f27113728914a2d681e0a6748c48b35be47a2dcdefbc0e2775cbb61fa3231e5c",
+      "calibration": "6d81f5f001070328a667ecd76707471df496b266cffd3663890d9fa6b9202102",
+      "interval": "3dc1ed07b10c6af9f1625d803746f9a989270a6b3695a2efa4e4c3ef30b5b3f1"
+    },
+    "g11_tanh_exact": {
+      "path": "f27113728914a2d681e0a6748c48b35be47a2dcdefbc0e2775cbb61fa3231e5c",
+      "calibration": "6d81f5f001070328a667ecd76707471df496b266cffd3663890d9fa6b9202102",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g11_sin_noisy": {
+      "path": "f27113728914a2d681e0a6748c48b35be47a2dcdefbc0e2775cbb61fa3231e5c",
+      "calibration": "5eb87a28f36c13afa442344bb525b7bad7f6f0937ee8fe50224f013b4f446aa9",
+      "interval": "c3fec388e68689b4625b100eef1623735bfc223cc050200871215879a43ccbe4"
+    },
+    "g11_sin_exact": {
+      "path": "f27113728914a2d681e0a6748c48b35be47a2dcdefbc0e2775cbb61fa3231e5c",
+      "calibration": "5eb87a28f36c13afa442344bb525b7bad7f6f0937ee8fe50224f013b4f446aa9",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g12_tanh_noisy": {
+      "path": "9b06f192eb5efc00de2fcf0d375993125fac5270dd7845e00a97828c8794fbbe",
+      "calibration": "681bdca8b23167110c56c157d896b0aa457cbffd457014e0862862fb8bafb67e",
+      "interval": "2a389371dbafa274b41797fc2b627f9191a8e3405f29778da4ffbd4878bfcb1e"
+    },
+    "g12_tanh_exact": {
+      "path": "9b06f192eb5efc00de2fcf0d375993125fac5270dd7845e00a97828c8794fbbe",
+      "calibration": "681bdca8b23167110c56c157d896b0aa457cbffd457014e0862862fb8bafb67e",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g12_sin_noisy": {
+      "path": "9b06f192eb5efc00de2fcf0d375993125fac5270dd7845e00a97828c8794fbbe",
+      "calibration": "36b741f0cbaf4852e1948f3288ae5dc4b3e3945aec495d383c93fb0174259067",
+      "interval": "038643ddb42a9059792ba209c614eb55261b4c1f6a75694ce0e2dabead8854f3"
+    },
+    "g12_sin_exact": {
+      "path": "9b06f192eb5efc00de2fcf0d375993125fac5270dd7845e00a97828c8794fbbe",
+      "calibration": "36b741f0cbaf4852e1948f3288ae5dc4b3e3945aec495d383c93fb0174259067",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g13_tanh_noisy": {
+      "path": "e31b8617061cf316c6ba3183475a1083f988e13e2c8cd0ea03d1c6b4c927c1e7",
+      "calibration": "6a5c6a5e92b061a1b68b55c33ccddf01f07e29df9067dcf9fa55a13a335dedf5",
+      "interval": "76e3dfdd44559b9c9590aa67e6b2488d364fb87bf5c44697bb4fc6bb196bbeb1"
+    },
+    "g13_tanh_exact": {
+      "path": "e31b8617061cf316c6ba3183475a1083f988e13e2c8cd0ea03d1c6b4c927c1e7",
+      "calibration": "6a5c6a5e92b061a1b68b55c33ccddf01f07e29df9067dcf9fa55a13a335dedf5",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g13_sin_noisy": {
+      "path": "e31b8617061cf316c6ba3183475a1083f988e13e2c8cd0ea03d1c6b4c927c1e7",
+      "calibration": "0fa525ccca77332eb0452c65e1053bae567cfc853726a69fe96712a1249b32ec",
+      "interval": "23839801c72f9a6426fa23df4418db9b84d89409ebcdaaaf7fafc10cf162642e"
+    },
+    "g13_sin_exact": {
+      "path": "e31b8617061cf316c6ba3183475a1083f988e13e2c8cd0ea03d1c6b4c927c1e7",
+      "calibration": "0fa525ccca77332eb0452c65e1053bae567cfc853726a69fe96712a1249b32ec",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g14_tanh_noisy": {
+      "path": "1604313fdd62f04be0c30f29f44476e4a31c68d10a61b665706346dbf01b0be3",
+      "calibration": "36ad122e4a2d8e8cf913a10596dfa11e26b9c10857a4661d9facee6029e922c1",
+      "interval": "81796919f7bbcc518b8fb9f114ca466f658aa9791ac58feebe285001097ff69e"
+    },
+    "g14_tanh_exact": {
+      "path": "1604313fdd62f04be0c30f29f44476e4a31c68d10a61b665706346dbf01b0be3",
+      "calibration": "36ad122e4a2d8e8cf913a10596dfa11e26b9c10857a4661d9facee6029e922c1",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g14_sin_noisy": {
+      "path": "1604313fdd62f04be0c30f29f44476e4a31c68d10a61b665706346dbf01b0be3",
+      "calibration": "1edbe313136de3b088d064a335fe315b32756b2061ff1364d4daf52615458f48",
+      "interval": "47af201d8f692a8535288f92657304124a24c4f9af9701919f8bbe78134c2473"
+    },
+    "g14_sin_exact": {
+      "path": "1604313fdd62f04be0c30f29f44476e4a31c68d10a61b665706346dbf01b0be3",
+      "calibration": "1edbe313136de3b088d064a335fe315b32756b2061ff1364d4daf52615458f48",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g15_tanh_noisy": {
+      "path": "5382537f0777118e1d231a99860f4c805525cb4894379bb0d56a7a38cfad8c59",
+      "calibration": "75fa2f7c8e5fafda7afac5bde4a2cc28471c65359e8714536843fee81d213aa6",
+      "interval": "5b95bab97fc08a30a346398f888504a12027a89bf7ed3ce31141378a44690d78"
+    },
+    "g15_tanh_exact": {
+      "path": "5382537f0777118e1d231a99860f4c805525cb4894379bb0d56a7a38cfad8c59",
+      "calibration": "75fa2f7c8e5fafda7afac5bde4a2cc28471c65359e8714536843fee81d213aa6",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g15_sin_noisy": {
+      "path": "5382537f0777118e1d231a99860f4c805525cb4894379bb0d56a7a38cfad8c59",
+      "calibration": "edd1431d3ad398242e0ea90f73a8a33c668d04dbc2dc45a858c7de0e8949efba",
+      "interval": "7abbe75b541116279735cfcb3dd2ff8ecc9d6f909a697b4948ad3348c37e6c00"
+    },
+    "g15_sin_exact": {
+      "path": "5382537f0777118e1d231a99860f4c805525cb4894379bb0d56a7a38cfad8c59",
+      "calibration": "edd1431d3ad398242e0ea90f73a8a33c668d04dbc2dc45a858c7de0e8949efba",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g16_tanh_noisy": {
+      "path": "2933eee37490a481768a45ed8be7eff2187ebe68c17ee4de33c3bcc5655291be",
+      "calibration": "9cc7237dbe2bba692f97c2b1cc0bc2a361caf2b5b9c8ee639c20fc768a6524d1",
+      "interval": "230634ba18b4e66b18c48781acc20fe961c5cee45ac67df80f71fa316f6927b2"
+    },
+    "g16_tanh_exact": {
+      "path": "2933eee37490a481768a45ed8be7eff2187ebe68c17ee4de33c3bcc5655291be",
+      "calibration": "9cc7237dbe2bba692f97c2b1cc0bc2a361caf2b5b9c8ee639c20fc768a6524d1",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g16_sin_noisy": {
+      "path": "2933eee37490a481768a45ed8be7eff2187ebe68c17ee4de33c3bcc5655291be",
+      "calibration": "1d8c5114bc8d65b43d5102069b4f89164e3efeec274b86db6b8343b3a09b0d5b",
+      "interval": "eee5773df2d4c26fc2d109213e4a94695fcb58af8d0c6a3e7cf332b20d251e66"
+    },
+    "g16_sin_exact": {
+      "path": "2933eee37490a481768a45ed8be7eff2187ebe68c17ee4de33c3bcc5655291be",
+      "calibration": "1d8c5114bc8d65b43d5102069b4f89164e3efeec274b86db6b8343b3a09b0d5b",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g17_tanh_noisy": {
+      "path": "ec561197e426494c4a6b6493f2d8e53405e8ce6d90ff8b6caaf8396f7055ae08",
+      "calibration": "cdd174cd7df601da9cf33496786163713a37ae5da9ac16e5ce26b23895487203",
+      "interval": "2611100f1b69269c2b2f5f8a921c42d626caa2691154bd435321d846ca2cad11"
+    },
+    "g17_tanh_exact": {
+      "path": "ec561197e426494c4a6b6493f2d8e53405e8ce6d90ff8b6caaf8396f7055ae08",
+      "calibration": "cdd174cd7df601da9cf33496786163713a37ae5da9ac16e5ce26b23895487203",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g17_sin_noisy": {
+      "path": "ec561197e426494c4a6b6493f2d8e53405e8ce6d90ff8b6caaf8396f7055ae08",
+      "calibration": "3b29c18a4a9058b8262de7b4b0601c452770181e41c0ac083465dbbcdf309eed",
+      "interval": "10af599c23ec36dc5df94daa5befcbd59b56e57b66d93779d1f434f3bc775600"
+    },
+    "g17_sin_exact": {
+      "path": "ec561197e426494c4a6b6493f2d8e53405e8ce6d90ff8b6caaf8396f7055ae08",
+      "calibration": "3b29c18a4a9058b8262de7b4b0601c452770181e41c0ac083465dbbcdf309eed",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g18_tanh_noisy": {
+      "path": "b3538423efcd854717269f5a13717904480ee6a1b459412365630c8c9abc46c8",
+      "calibration": "cd134ebf01949687f243ed1fdf8189a08f18e4330294b45eb5b268072e4eaa27",
+      "interval": "0804192a8481d175276f61da3243a73040103b24d4ef48376f1f4d36f3d989e6"
+    },
+    "g18_tanh_exact": {
+      "path": "b3538423efcd854717269f5a13717904480ee6a1b459412365630c8c9abc46c8",
+      "calibration": "cd134ebf01949687f243ed1fdf8189a08f18e4330294b45eb5b268072e4eaa27",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g18_sin_noisy": {
+      "path": "b3538423efcd854717269f5a13717904480ee6a1b459412365630c8c9abc46c8",
+      "calibration": "cc71cd6b99772b71734fc24083ca097d7d5852a780e1e940f58e8b0c0c5038f0",
+      "interval": "b6d53d50aade7d9d5084d76342d4aa6edbacd6ecdbcf411c2c94d8504744453e"
+    },
+    "g18_sin_exact": {
+      "path": "b3538423efcd854717269f5a13717904480ee6a1b459412365630c8c9abc46c8",
+      "calibration": "cc71cd6b99772b71734fc24083ca097d7d5852a780e1e940f58e8b0c0c5038f0",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g19_tanh_noisy": {
+      "path": "c85f3612557f0f5a2eac2dc4f89f2e96a4e5e717d76de81d4b19452a57e90593",
+      "calibration": "81b0cdc815acbfc83c397070df2e017d01c4312b89b790954f931f473a4e24d4",
+      "interval": "d5aad39db27fc46c1f7c0a7437aecd02ccb677b2e4fc7bbdea58b916b5d51b73"
+    },
+    "g19_tanh_exact": {
+      "path": "c85f3612557f0f5a2eac2dc4f89f2e96a4e5e717d76de81d4b19452a57e90593",
+      "calibration": "81b0cdc815acbfc83c397070df2e017d01c4312b89b790954f931f473a4e24d4",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g19_sin_noisy": {
+      "path": "c85f3612557f0f5a2eac2dc4f89f2e96a4e5e717d76de81d4b19452a57e90593",
+      "calibration": "e0b41e6d8a657d5c381874ff1a7f378d60ee38bc93f53ad015e3db764818bc24",
+      "interval": "abd494fdf54af3a8b6c03fd8eb87c0addc805c3710f73b5d88924417f019edd5"
+    },
+    "g19_sin_exact": {
+      "path": "c85f3612557f0f5a2eac2dc4f89f2e96a4e5e717d76de81d4b19452a57e90593",
+      "calibration": "e0b41e6d8a657d5c381874ff1a7f378d60ee38bc93f53ad015e3db764818bc24",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g20_tanh_noisy": {
+      "path": "e01209d5c30d38fa3066ee4bb269b5b2f33eb7de6cfe81612aeb55bb5fbb3c12",
+      "calibration": "55a8216c709f74ca0e6a0697cf7e714e19d9aecc43e3d5a0cbc6448b51a30252",
+      "interval": "6f1f49fe11ecd25a134de0264cae822418967f6f19cc34404765f58adf53b7d6"
+    },
+    "g20_tanh_exact": {
+      "path": "e01209d5c30d38fa3066ee4bb269b5b2f33eb7de6cfe81612aeb55bb5fbb3c12",
+      "calibration": "55a8216c709f74ca0e6a0697cf7e714e19d9aecc43e3d5a0cbc6448b51a30252",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g20_sin_noisy": {
+      "path": "e01209d5c30d38fa3066ee4bb269b5b2f33eb7de6cfe81612aeb55bb5fbb3c12",
+      "calibration": "1922a7a42b16a81bbcd56a016142ec2e7c90beb6cc52b48943dd938868871602",
+      "interval": "abe47225b03d3c345fe92ca57c043299eb8059dac5c24534c951f8ee1e5fd389"
+    },
+    "g20_sin_exact": {
+      "path": "e01209d5c30d38fa3066ee4bb269b5b2f33eb7de6cfe81612aeb55bb5fbb3c12",
+      "calibration": "1922a7a42b16a81bbcd56a016142ec2e7c90beb6cc52b48943dd938868871602",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g21_tanh_noisy": {
+      "path": "0ab8b4b8694439b5a18c8eaf853ad6716349d5e32dd433fa4dec666cd87d2049",
+      "calibration": "1ecf0231eb9b5a74902e874ce9e14d07cb231efc4c4f2b26ebd32b0999ce5c37",
+      "interval": "7c3bb8f6408269f25357c5710c585c12f4d24cf7c427f15c8bdeed9bc3ec4f98"
+    },
+    "g21_tanh_exact": {
+      "path": "0ab8b4b8694439b5a18c8eaf853ad6716349d5e32dd433fa4dec666cd87d2049",
+      "calibration": "1ecf0231eb9b5a74902e874ce9e14d07cb231efc4c4f2b26ebd32b0999ce5c37",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g21_sin_noisy": {
+      "path": "0ab8b4b8694439b5a18c8eaf853ad6716349d5e32dd433fa4dec666cd87d2049",
+      "calibration": "a004a5e3e4e21e12cbb8e7612e79f5779c35670acb4cf60103370766b53cc629",
+      "interval": "e32aa153647cc30bac4d66a4bbf21d54cce894bed575a6a4325ea0f45d1c72ec"
+    },
+    "g21_sin_exact": {
+      "path": "0ab8b4b8694439b5a18c8eaf853ad6716349d5e32dd433fa4dec666cd87d2049",
+      "calibration": "a004a5e3e4e21e12cbb8e7612e79f5779c35670acb4cf60103370766b53cc629",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g22_tanh_noisy": {
+      "path": "7b09cae32387088111be6ddc67418d0e6cb913254ab9e892c00a59a488327c36",
+      "calibration": "9881d318e6ca60cc486512b4315fb7cb413b1c034fe0eb831cf2a55d10d53d64",
+      "interval": "e643cdc94a6f01942810039519223a78de623dd4e65065fd77b1c9a120d0fb24"
+    },
+    "g22_tanh_exact": {
+      "path": "7b09cae32387088111be6ddc67418d0e6cb913254ab9e892c00a59a488327c36",
+      "calibration": "9881d318e6ca60cc486512b4315fb7cb413b1c034fe0eb831cf2a55d10d53d64",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g22_sin_noisy": {
+      "path": "7b09cae32387088111be6ddc67418d0e6cb913254ab9e892c00a59a488327c36",
+      "calibration": "ccca079b289d44ebf86f6dc2442d7b40a4315c7a8c5ec7c06c4680385c262789",
+      "interval": "3077d6330e4088415dffb5bdbc4fae4f56ea553532b05388a708af9455991666"
+    },
+    "g22_sin_exact": {
+      "path": "7b09cae32387088111be6ddc67418d0e6cb913254ab9e892c00a59a488327c36",
+      "calibration": "ccca079b289d44ebf86f6dc2442d7b40a4315c7a8c5ec7c06c4680385c262789",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    },
+    "g23_tanh_noisy": {
+      "path": "0b67d4d8dba93809ced492f39aa065fe9dce3912ff4f4f1caebd42f445d52dbf",
+      "calibration": "03468344c5821037043e9d47103f003170ab26355db1eaebbc1e678e61efb27c",
+      "interval": "d74d8b82321a508ef0991f04bc4fa262ce5688793fb4e52569128454b35d0df2"
+    },
+    "g23_tanh_exact": {
+      "path": "0b67d4d8dba93809ced492f39aa065fe9dce3912ff4f4f1caebd42f445d52dbf",
+      "calibration": "03468344c5821037043e9d47103f003170ab26355db1eaebbc1e678e61efb27c",
+      "interval": "b9dd4910b717da7b459edf74603936e7dbf91a37c05f2da05d61edcfc7a92e14"
+    },
+    "g23_sin_noisy": {
+      "path": "0b67d4d8dba93809ced492f39aa065fe9dce3912ff4f4f1caebd42f445d52dbf",
+      "calibration": "792bdc7ed719bc12199da812196e56d3e38723a8955c896164f7052d0c8af084",
+      "interval": "269a61b23ea1a093845a8fe52d43fa0267b502cdff0531a4b60c1ba521eeda3b"
+    },
+    "g23_sin_exact": {
+      "path": "0b67d4d8dba93809ced492f39aa065fe9dce3912ff4f4f1caebd42f445d52dbf",
+      "calibration": "792bdc7ed719bc12199da812196e56d3e38723a8955c896164f7052d0c8af084",
+      "interval": "4660c23fba3d5468bf8de1dc037525b38b9f9f87633b29778a89e5ca557479e4"
+    }
+  },
+  "predictions": "90593a103ecb78aabc51a65e8ef01bc4d1b8731e31aee61b72477ec05511baca"
+}

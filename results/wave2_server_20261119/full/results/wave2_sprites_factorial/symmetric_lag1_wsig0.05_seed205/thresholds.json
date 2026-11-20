@@ -1,0 +1,7 @@
+{
+  "cell": "symmetric_lag1_wsig0.05_seed205",
+  "own_cal": 0.5775015654652638,
+  "family_alpha": 0.05,
+  "per_claim_alpha": 0.001,
+  "frozen_before_test_encoding": true
+}

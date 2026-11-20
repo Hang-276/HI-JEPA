@@ -1,0 +1,49 @@
+{
+  "protocol_sha256": "3821a7a6e6f09461b26b49ff9dfdaba85d8a3b3d1c1c948f186408821edc83bb",
+  "protocol_notes_sha256": "446953c72d78adae02b7bc4b52ea94c5cbcd9c496f642e0f60a1f5d99adf01e8",
+  "runner_sha256": "203f5642e1aae4594b7cd9765e213b441d1ca7b27d1c796ebb4fa17d8e65e667",
+  "score_sha256": "834adb714ec905e1bb551e80a3e15dbbc9bcf25fbb9441966395cc3ad97bd683",
+  "training_runner_sha256": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+  "training_protocol_sha256": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+  "prior_pipeline_sha256": "728f694d48d318d2713e02cf8a2c94068fd170195bd9ce752934fc62a23c566c",
+  "checkpoint_sha256": {
+    "separated_wide_1942": "2a6d8fd603a91719647dff5a08412dcad45cfef043722424c567095917ffb98b",
+    "separated_wide_3749": "f68705eee3f787eed6eb0d34aac580bf39e9aebbeb0d2fe35342de69d432ae25",
+    "separated_wide_5817": "f9375697ac5ddd183ceff96db8027a0f94d8baa4aa405f914d6e892d643bf971",
+    "separated_wide_7811": "4dc14f979dc03b385268dbc3cb3d16cdc227fb0cceb757100a15dda92a982bb9",
+    "crossed_wide_1942": "384dc005911f5f4c2157b9709a62284d00903e616df0624790d2516e5965af73",
+    "crossed_wide_3749": "16c15758dbd291e195c4283d6b23779d4af419bb6a56aa0151333600b18e0b5c",
+    "crossed_wide_5817": "0a69abbfa6e1fe16dc72615eef3b09322460905d292c6a17d826fba9d7995aa4",
+    "crossed_wide_7811": "585bae9388a2242627e18885d2b7f160b209e6fa87321bd6d928aab9f9f652b2",
+    "separated_narrow_1942": "6f56d9f24e758e2dbe7948216de1c37c5edf71ca2c97599663e4bb9fd82093cb",
+    "separated_narrow_3749": "96a672fd6173fd75568fb395e8158479002e1df8d21d117ae9b999001c0ad9d4",
+    "separated_narrow_5817": "ea59b1e159225c16b6b7ea5f4232070c16fdfa8418f81eb12979bfb911456833",
+    "separated_narrow_7811": "56ee61d379eb9b7da365f0cc51e151e42af04060183515f12c0d1642a094a856",
+    "crossed_narrow_1942": "ce413f6db2f5b5dabe38e8290e1ff8d412bbbf0a9eccf331df70bfa13ec1d5c9",
+    "crossed_narrow_3749": "b15c3a984d79d0ecb3bee008f5dce98a9e2001bb57b414e980ccb93a35320c75",
+    "crossed_narrow_5817": "a82e1f8d32c23fc4b7393493781cbd4d0a4854054ec403c69ecf58f76a5ebee7",
+    "crossed_narrow_7811": "a62a13d96707310b9fa8e54d496977368ee72f02765ad11f85c165f850745b1e"
+  },
+  "author_source": {
+    "repository": "https://github.com/klindtlab/lejepa-identifiability",
+    "commit": "de7503f1b2291ba1e9fc03d9c433180794803440",
+    "sha256": {
+      "experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+      "experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb"
+    }
+  },
+  "forecast_sha256": "37fcd5e77f96af8b60b9235f4d64b18c4243ac92d87c771877ff68c8b93f8411",
+  "environment": {
+    "python": "3.13.15",
+    "python_executable": "/private/tmp/sevlm-internvl-smoke-env/bin/python",
+    "machine": "arm64",
+    "os": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.4",
+    "torch": "2.15.0",
+    "torch_num_threads": 1,
+    "torch_num_interop_threads": 1,
+    "mps_available": false,
+    "device": "cpu"
+  },
+  "seconds": 7.984239500015974
+}

@@ -1,0 +1,74 @@
+{
+  "source_hashes": {
+    "lejepa_dynamic_transfer_20261113/experiment/run.py": "8f5d6aaea084be9b21b95ddb7d1bafe1de1f591bfc74f70aadd61c3fbba9ec95",
+    "lejepa_dynamic_transfer_20261113/experiment/protocol.json": "4296123152d6ecbe188e20f67efde7e001fc82c12e50bd181154d47e59e6db23",
+    "lejepa_dynamic_transfer_20261113/experiment/PROTOCOL.md": "ab9b54f62759201347302089443eaa07de30fc4dda3014ec86541b2a79099af3",
+    "lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "lejepa_slow_rank_20261112/prospective/pipeline_forecast_receipt.json": "a3a46b47092dc0359587f17d62bb1559f78be1987dc6316809575596ca7702ad"
+  },
+  "config": {
+    "master": 2026121304,
+    "probe_seeds": [
+      13041,
+      13042
+    ],
+    "n_calibration_trajectories": 128,
+    "n_validation_trajectories": 64,
+    "calibration_length": 193,
+    "n_reference_banks": 8,
+    "n_reference_states_per_bank": 32768,
+    "n_test_trajectories": 1024,
+    "test_lengths": [
+      65,
+      193,
+      513
+    ],
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "validation_match_max_abs_r2_gap": 0.005,
+    "mlp_width": 128,
+    "steps": 500,
+    "batch_pairs": 256,
+    "val_interval": 250,
+    "adamw_lr": 0.001,
+    "adamw_weight_decay": 0.0001,
+    "arms": {
+      "state": {
+        "lambda": 0,
+        "shuffle": false
+      },
+      "temporal_0p1": {
+        "lambda": 0.1,
+        "shuffle": false
+      },
+      "temporal_1": {
+        "lambda": 1,
+        "shuffle": false
+      },
+      "shuffled_1": {
+        "lambda": 1,
+        "shuffle": true
+      }
+    }
+  },
+  "fit_records_sha256": {
+    "separated_wide_1942_13041_state.json": "05396b6460fcd5e8ec3afe75280b66a62bd39c8efba6748ea36a3fc751168f75",
+    "separated_wide_1942_13041_temporal_0p1.json": "66a90092c381d58aaaefde0a2e1fa3caea864b37b582e66ceeb4fc7108fc0c88",
+    "separated_wide_1942_13041_temporal_1.json": "a0b04bd9b14b45dc533213e0527412e5cbfbc17aa45bdee7c152f800abf7492f",
+    "separated_wide_1942_13041_shuffled_1.json": "74751dd78e29aff095d912d559a1adb061fb003add93f54a9381699bb2c20ef2"
+  },
+  "fitted_readouts_sha256": {
+    "separated_wide_1942_13041_state.pt": "2029c2bb80c5954ebe3c41c86cd5718536fbe8ba9a5c5ef8ae0c6d0c8919a17c",
+    "separated_wide_1942_13041_temporal_0p1.pt": "b0dabc2e39aefeb6bb89a34284ace6afcdedf998dae79c6a40a7768efe6b9956",
+    "separated_wide_1942_13041_temporal_1.pt": "68ee95304e9e623a0e837dcce540774dd1905c4662aa08fc27c732b226ffb45f",
+    "separated_wide_1942_13041_shuffled_1.pt": "7b818632ae510e02cfa99ae885b38193852f156298a8a39fc23c6c0e065f9480"
+  },
+  "fit_seconds_elapsed": 1.4737089173868299,
+  "architecture": "arm64",
+  "torch": "2.15.0",
+  "numpy": "2.5.4"
+}

@@ -1,0 +1,186 @@
+2026-11-17 12:57:27,246 INFO Starting dual-arm development attempt 1; physical flip rate 10.2661%
+2026-11-17 12:57:30,099 INFO visual_lejepa seed 1901 step 1/6000: loss 20.137886, elapsed 0.3s
+2026-11-17 12:57:49,905 INFO visual_lejepa seed 1901 step 100/6000: loss 1.580919, elapsed 20.1s
+2026-11-17 12:58:10,674 INFO visual_lejepa seed 1901 step 200/6000: loss 0.825645, elapsed 40.9s
+2026-11-17 12:58:30,608 INFO visual_lejepa seed 1901 step 300/6000: loss 0.642940, elapsed 60.8s
+2026-11-17 12:58:51,371 INFO visual_lejepa seed 1901 step 400/6000: loss 0.486643, elapsed 81.6s
+2026-11-17 12:59:11,855 INFO visual_lejepa seed 1901 step 500/6000: loss 0.501086, elapsed 102.1s
+2026-11-17 12:59:31,551 INFO visual_lejepa seed 1901 step 600/6000: loss 0.470383, elapsed 121.8s
+2026-11-17 12:59:50,786 INFO visual_lejepa seed 1901 step 700/6000: loss 0.520881, elapsed 141.0s
+2026-11-17 13:00:09,950 INFO visual_lejepa seed 1901 step 800/6000: loss 0.429045, elapsed 160.2s
+2026-11-17 13:00:28,968 INFO visual_lejepa seed 1901 step 900/6000: loss 0.426009, elapsed 179.2s
+2026-11-17 13:00:48,020 INFO visual_lejepa seed 1901 step 1000/6000: loss 0.495039, elapsed 198.3s
+2026-11-17 13:01:07,067 INFO visual_lejepa seed 1901 step 1100/6000: loss 0.453116, elapsed 217.3s
+2026-11-17 13:01:29,407 INFO visual_lejepa seed 1901 step 1200/6000: loss 0.485577, elapsed 239.6s
+2026-11-17 13:01:49,083 INFO visual_lejepa seed 1901 step 1300/6000: loss 0.457585, elapsed 259.3s
+2026-11-17 13:02:08,302 INFO visual_lejepa seed 1901 step 1400/6000: loss 0.468986, elapsed 278.5s
+2026-11-17 13:02:27,447 INFO visual_lejepa seed 1901 step 1500/6000: loss 0.518111, elapsed 297.7s
+2026-11-17 13:02:47,990 INFO visual_lejepa seed 1901 step 1600/6000: loss 0.418604, elapsed 318.2s
+2026-11-17 13:03:09,099 INFO visual_lejepa seed 1901 step 1700/6000: loss 0.469664, elapsed 339.3s
+2026-11-17 13:03:28,918 INFO visual_lejepa seed 1901 step 1800/6000: loss 0.416077, elapsed 359.2s
+2026-11-17 13:03:49,282 INFO visual_lejepa seed 1901 step 1900/6000: loss 0.443830, elapsed 379.5s
+2026-11-17 13:04:09,226 INFO visual_lejepa seed 1901 step 2000/6000: loss 0.463999, elapsed 399.5s
+2026-11-17 13:04:28,534 INFO visual_lejepa seed 1901 step 2100/6000: loss 0.493367, elapsed 418.8s
+2026-11-17 13:04:48,835 INFO visual_lejepa seed 1901 step 2200/6000: loss 0.379679, elapsed 439.1s
+2026-11-17 13:05:09,373 INFO visual_lejepa seed 1901 step 2300/6000: loss 0.445065, elapsed 459.6s
+2026-11-17 13:05:29,040 INFO visual_lejepa seed 1901 step 2400/6000: loss 0.453307, elapsed 479.3s
+2026-11-17 13:05:49,049 INFO visual_lejepa seed 1901 step 2500/6000: loss 0.367754, elapsed 499.3s
+2026-11-17 13:06:08,890 INFO visual_lejepa seed 1901 step 2600/6000: loss 0.384534, elapsed 519.1s
+2026-11-17 13:06:28,262 INFO visual_lejepa seed 1901 step 2700/6000: loss 0.427893, elapsed 538.5s
+2026-11-17 13:06:47,745 INFO visual_lejepa seed 1901 step 2800/6000: loss 0.408174, elapsed 558.0s
+2026-11-17 13:07:07,707 INFO visual_lejepa seed 1901 step 2900/6000: loss 0.445075, elapsed 577.9s
+2026-11-17 13:07:26,941 INFO visual_lejepa seed 1901 step 3000/6000: loss 0.383564, elapsed 597.2s
+2026-11-17 13:07:47,448 INFO visual_lejepa seed 1901 step 3100/6000: loss 0.406122, elapsed 617.7s
+2026-11-17 13:08:08,818 INFO visual_lejepa seed 1901 step 3200/6000: loss 0.404588, elapsed 639.1s
+2026-11-17 13:08:29,436 INFO visual_lejepa seed 1901 step 3300/6000: loss 0.352616, elapsed 659.7s
+2026-11-17 13:08:49,101 INFO visual_lejepa seed 1901 step 3400/6000: loss 0.355754, elapsed 679.3s
+2026-11-17 13:09:09,731 INFO visual_lejepa seed 1901 step 3500/6000: loss 0.397467, elapsed 699.9s
+2026-11-17 13:09:29,503 INFO visual_lejepa seed 1901 step 3600/6000: loss 0.421332, elapsed 719.7s
+2026-11-17 13:09:50,936 INFO visual_lejepa seed 1901 step 3700/6000: loss 0.464868, elapsed 741.1s
+2026-11-17 13:10:14,141 INFO visual_lejepa seed 1901 step 3800/6000: loss 0.405895, elapsed 764.4s
+2026-11-17 13:10:33,762 INFO visual_lejepa seed 1901 step 3900/6000: loss 0.388360, elapsed 784.0s
+2026-11-17 13:10:53,344 INFO visual_lejepa seed 1901 step 4000/6000: loss 0.428914, elapsed 803.6s
+2026-11-17 13:11:12,370 INFO visual_lejepa seed 1901 step 4100/6000: loss 0.466947, elapsed 822.6s
+2026-11-17 13:11:32,080 INFO visual_lejepa seed 1901 step 4200/6000: loss 0.426738, elapsed 842.3s
+2026-11-17 13:11:52,822 INFO visual_lejepa seed 1901 step 4300/6000: loss 0.393493, elapsed 863.0s
+2026-11-17 13:12:12,998 INFO visual_lejepa seed 1901 step 4400/6000: loss 0.414058, elapsed 883.2s
+2026-11-17 13:12:32,119 INFO visual_lejepa seed 1901 step 4500/6000: loss 0.422394, elapsed 902.3s
+2026-11-17 13:12:51,209 INFO visual_lejepa seed 1901 step 4600/6000: loss 0.410627, elapsed 921.4s
+2026-11-17 13:13:10,474 INFO visual_lejepa seed 1901 step 4700/6000: loss 0.453619, elapsed 940.7s
+2026-11-17 13:13:29,762 INFO visual_lejepa seed 1901 step 4800/6000: loss 0.468319, elapsed 960.0s
+2026-11-17 13:13:56,258 INFO visual_lejepa seed 1901 step 4900/6000: loss 0.428307, elapsed 986.5s
+2026-11-17 13:14:19,000 INFO visual_lejepa seed 1901 step 5000/6000: loss 0.413086, elapsed 1009.2s
+2026-11-17 13:14:39,109 INFO visual_lejepa seed 1901 step 5100/6000: loss 0.536558, elapsed 1029.3s
+2026-11-17 13:15:00,097 INFO visual_lejepa seed 1901 step 5200/6000: loss 0.413241, elapsed 1050.3s
+2026-11-17 13:15:21,215 INFO visual_lejepa seed 1901 step 5300/6000: loss 0.393069, elapsed 1071.4s
+2026-11-17 13:15:41,651 INFO visual_lejepa seed 1901 step 5400/6000: loss 0.412925, elapsed 1091.9s
+2026-11-17 13:16:01,896 INFO visual_lejepa seed 1901 step 5500/6000: loss 0.392068, elapsed 1112.1s
+2026-11-17 13:16:21,155 INFO visual_lejepa seed 1901 step 5600/6000: loss 0.372069, elapsed 1131.4s
+2026-11-17 13:16:40,431 INFO visual_lejepa seed 1901 step 5700/6000: loss 0.490804, elapsed 1150.6s
+2026-11-17 13:16:59,644 INFO visual_lejepa seed 1901 step 5800/6000: loss 0.365630, elapsed 1169.9s
+2026-11-17 13:17:18,817 INFO visual_lejepa seed 1901 step 5900/6000: loss 0.385902, elapsed 1189.0s
+2026-11-17 13:17:37,997 INFO visual_lejepa seed 1901 step 6000/6000: loss 0.392356, elapsed 1208.2s
+Pretraining complete: visual_lejepa_seed1901
+2026-11-17 13:17:38,169 INFO long_horizon_pred seed 1901 step 1/6000: loss 0.818962, elapsed 0.2s
+2026-11-17 13:17:53,998 INFO long_horizon_pred seed 1901 step 100/6000: loss 1.008517, elapsed 16.0s
+2026-11-17 13:18:09,822 INFO long_horizon_pred seed 1901 step 200/6000: loss 1.410519, elapsed 31.8s
+2026-11-17 13:18:25,821 INFO long_horizon_pred seed 1901 step 300/6000: loss 0.750190, elapsed 47.8s
+2026-11-17 13:18:41,573 INFO long_horizon_pred seed 1901 step 400/6000: loss 0.617316, elapsed 63.6s
+2026-11-17 13:18:57,305 INFO long_horizon_pred seed 1901 step 500/6000: loss 0.392786, elapsed 79.3s
+2026-11-17 13:19:13,749 INFO long_horizon_pred seed 1901 step 600/6000: loss 0.150604, elapsed 95.7s
+2026-11-17 13:19:31,183 INFO long_horizon_pred seed 1901 step 700/6000: loss 0.116615, elapsed 113.2s
+2026-11-17 13:19:48,042 INFO long_horizon_pred seed 1901 step 800/6000: loss 0.109794, elapsed 130.0s
+2026-11-17 13:20:03,778 INFO long_horizon_pred seed 1901 step 900/6000: loss 0.105707, elapsed 145.8s
+2026-11-17 13:20:19,811 INFO long_horizon_pred seed 1901 step 1000/6000: loss 0.104450, elapsed 161.8s
+2026-11-17 13:20:35,791 INFO long_horizon_pred seed 1901 step 1100/6000: loss 0.103610, elapsed 177.8s
+2026-11-17 13:20:51,841 INFO long_horizon_pred seed 1901 step 1200/6000: loss 0.103244, elapsed 193.8s
+2026-11-17 13:21:07,573 INFO long_horizon_pred seed 1901 step 1300/6000: loss 0.103032, elapsed 209.6s
+2026-11-17 13:21:23,611 INFO long_horizon_pred seed 1901 step 1400/6000: loss 0.102962, elapsed 225.6s
+2026-11-17 13:21:39,841 INFO long_horizon_pred seed 1901 step 1500/6000: loss 0.102945, elapsed 241.8s
+2026-11-17 13:21:55,634 INFO long_horizon_pred seed 1901 step 1600/6000: loss 0.102936, elapsed 257.6s
+2026-11-17 13:22:12,389 INFO long_horizon_pred seed 1901 step 1700/6000: loss 0.102932, elapsed 274.4s
+2026-11-17 13:22:28,953 INFO long_horizon_pred seed 1901 step 1800/6000: loss 0.102929, elapsed 290.9s
+2026-11-17 13:22:47,202 INFO long_horizon_pred seed 1901 step 1900/6000: loss 0.102927, elapsed 309.2s
+2026-11-17 13:23:09,290 INFO long_horizon_pred seed 1901 step 2000/6000: loss 0.102927, elapsed 331.3s
+2026-11-17 13:23:28,085 INFO long_horizon_pred seed 1901 step 2100/6000: loss 0.102927, elapsed 350.1s
+2026-11-17 13:23:44,083 INFO long_horizon_pred seed 1901 step 2200/6000: loss 0.102926, elapsed 366.1s
+2026-11-17 13:24:00,160 INFO long_horizon_pred seed 1901 step 2300/6000: loss 0.102926, elapsed 382.1s
+2026-11-17 13:24:16,300 INFO long_horizon_pred seed 1901 step 2400/6000: loss 0.102926, elapsed 398.3s
+2026-11-17 13:24:32,424 INFO long_horizon_pred seed 1901 step 2500/6000: loss 0.102927, elapsed 414.5s
+2026-11-17 13:24:48,382 INFO long_horizon_pred seed 1901 step 2600/6000: loss 0.102927, elapsed 430.4s
+2026-11-17 13:25:04,406 INFO long_horizon_pred seed 1901 step 2700/6000: loss 0.102926, elapsed 446.5s
+2026-11-17 13:25:20,188 INFO long_horizon_pred seed 1901 step 2800/6000: loss 0.102927, elapsed 462.2s
+2026-11-17 13:25:35,986 INFO long_horizon_pred seed 1901 step 2900/6000: loss 0.102927, elapsed 478.0s
+2026-11-17 13:25:51,903 INFO long_horizon_pred seed 1901 step 3000/6000: loss 0.102927, elapsed 494.0s
+2026-11-17 13:26:07,797 INFO long_horizon_pred seed 1901 step 3100/6000: loss 0.102927, elapsed 509.9s
+2026-11-17 13:26:25,707 INFO long_horizon_pred seed 1901 step 3200/6000: loss 0.102928, elapsed 527.8s
+2026-11-17 13:26:55,212 INFO long_horizon_pred seed 1901 step 3300/6000: loss 0.102930, elapsed 557.3s
+2026-11-17 13:27:11,065 INFO long_horizon_pred seed 1901 step 3400/6000: loss 0.102938, elapsed 573.1s
+2026-11-17 13:27:33,332 INFO long_horizon_pred seed 1901 step 3500/6000: loss 0.103021, elapsed 595.4s
+2026-11-17 13:27:52,937 INFO long_horizon_pred seed 1901 step 3600/6000: loss 0.103696, elapsed 615.0s
+2026-11-17 13:28:09,962 INFO long_horizon_pred seed 1901 step 3700/6000: loss 0.108855, elapsed 632.0s
+2026-11-17 13:28:25,735 INFO long_horizon_pred seed 1901 step 3800/6000: loss 0.113708, elapsed 647.8s
+2026-11-17 13:28:42,988 INFO long_horizon_pred seed 1901 step 3900/6000: loss 0.103623, elapsed 665.0s
+2026-11-17 13:29:00,947 INFO long_horizon_pred seed 1901 step 4000/6000: loss 0.102954, elapsed 683.0s
+2026-11-17 13:29:18,055 INFO long_horizon_pred seed 1901 step 4100/6000: loss 0.102934, elapsed 700.1s
+2026-11-17 13:29:35,925 INFO long_horizon_pred seed 1901 step 4200/6000: loss 0.102928, elapsed 718.0s
+2026-11-17 13:29:53,002 INFO long_horizon_pred seed 1901 step 4300/6000: loss 0.102927, elapsed 735.1s
+2026-11-17 13:30:11,176 INFO long_horizon_pred seed 1901 step 4400/6000: loss 0.102927, elapsed 753.2s
+2026-11-17 13:30:36,370 INFO long_horizon_pred seed 1901 step 4500/6000: loss 0.102927, elapsed 778.4s
+2026-11-17 13:30:58,137 INFO long_horizon_pred seed 1901 step 4600/6000: loss 0.102928, elapsed 800.2s
+2026-11-17 13:31:15,541 INFO long_horizon_pred seed 1901 step 4700/6000: loss 0.102929, elapsed 817.6s
+2026-11-17 13:31:32,223 INFO long_horizon_pred seed 1901 step 4800/6000: loss 0.102928, elapsed 834.3s
+2026-11-17 13:31:48,176 INFO long_horizon_pred seed 1901 step 4900/6000: loss 0.102929, elapsed 850.2s
+2026-11-17 13:32:04,315 INFO long_horizon_pred seed 1901 step 5000/6000: loss 0.102930, elapsed 866.4s
+2026-11-17 13:32:20,178 INFO long_horizon_pred seed 1901 step 5100/6000: loss 0.102929, elapsed 882.2s
+2026-11-17 13:32:36,039 INFO long_horizon_pred seed 1901 step 5200/6000: loss 0.102931, elapsed 898.1s
+2026-11-17 13:32:52,125 INFO long_horizon_pred seed 1901 step 5300/6000: loss 0.102933, elapsed 914.2s
+2026-11-17 13:33:08,096 INFO long_horizon_pred seed 1901 step 5400/6000: loss 0.102933, elapsed 930.2s
+2026-11-17 13:33:24,776 INFO long_horizon_pred seed 1901 step 5500/6000: loss 0.102934, elapsed 946.8s
+2026-11-17 13:33:40,779 INFO long_horizon_pred seed 1901 step 5600/6000: loss 0.102941, elapsed 962.8s
+2026-11-17 13:33:56,640 INFO long_horizon_pred seed 1901 step 5700/6000: loss 0.102950, elapsed 978.7s
+2026-11-17 13:34:12,833 INFO long_horizon_pred seed 1901 step 5800/6000: loss 0.102956, elapsed 994.9s
+2026-11-17 13:34:28,683 INFO long_horizon_pred seed 1901 step 5900/6000: loss 0.103069, elapsed 1010.7s
+2026-11-17 13:34:45,442 INFO long_horizon_pred seed 1901 step 6000/6000: loss 0.103564, elapsed 1027.5s
+Pretraining complete: long_horizon_pred_seed1901
+AUDIT complete (2257.8 s)
+{
+  "status": "DEVELOPMENT_GATE_FAILED",
+  "evidence_tier": "dual_arm_development",
+  "passes": false,
+  "criteria": {
+    "visual_lejepa_all_r2_ge_0_90": true,
+    "long_horizon_pred_agent_r2_ge_0_90": false,
+    "long_horizon_pred_distractor_r2_lt_0_60": true
+  },
+  "audit": {
+    "visual_lejepa_seed1901": {
+      "arm": "visual_lejepa",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.9966911200084219,
+        "agent_y": 0.9963451969203828,
+        "distractor_x": 0.9824829096301596,
+        "distractor_y": 0.9814597106249726
+      },
+      "minimum_r2": 0.9814597106249726,
+      "eligible": true
+    },
+    "long_horizon_pred_seed1901": {
+      "arm": "long_horizon_pred",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.5503748989225874,
+        "agent_y": 0.57965356668501,
+        "distractor_x": 0.5423536238894855,
+        "distractor_y": 0.5331006657098587
+      },
+      "minimum_r2": 0.5331006657098587,
+      "eligible": false
+    }
+  },
+  "audit_sha256": {
+    "visual_lejepa_seed1901": "736c286ea9c587870c82f80165542d31d6965152cd8724be70623922afbb8003",
+    "long_horizon_pred_seed1901": "d3d76156a050b5fdbc12a5e166fbbaa1d0ca60baf8a7e129c59418b4e639bd81"
+  },
+  "design_lock_sha256": "19e0666d3e316f8bba73b360954a6b1b17708d455027506ecb8465f038be4540",
+  "source_sha256": {
+    "configs/visual_sprites_lejepa/joint_v1.json": "43c0709818ef8c4877d52967d4e5b39e20ec2adb91885b035b896e6f64a574bc",
+    "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "scripts/visual_sprites_lejepa/models.py": "dc867eb77ef6e414c94ce0247481eedb6d561f9beb6f733afb3735d779ea9a5a",
+    "scripts/visual_sprites_lejepa/render.py": "2e0970e081f72bff5e9e9f730c7b02abf6e0f66e84e43ddc60d43d316ec498ff",
+    "scripts/visual_sprites_lejepa/run.py": "57084f17194ec44f686a168d7c81aee215e264bddec213be170c6d7896e4451f",
+    "scripts/visual_sprites_lejepa/run_joint.py": "966deb93a4a72b5d9ef0754d89067ad8e97c2179b7d2923a842cc506ad62fba0"
+  },
+  "device": "cpu",
+  "data_roles": [
+    "pretrain",
+    "train",
+    "val",
+    "audit"
+  ],
+  "elapsed_seconds": 2257.7752255839296,
+  "finished_utc": "2026-11-17T05:35:04.970274+00:00"
+}
+2026-11-17 13:35:04,970 INFO Stopped at development recovery gate after attempt 1

@@ -1,0 +1,194 @@
+2026-11-18 01:11:22,595 Model seed 42: loading fourroom_hjepa_l4
+2026-11-18 01:11:52,278 Encoded 51200 / 160400 frames (1853 frames/s)
+2026-11-18 01:12:19,650 Encoded 102400 / 160400 frames (1862 frames/s)
+2026-11-18 01:12:46,915 Encoded 153600 / 160400 frames (1867 frames/s)
+2026-11-18 01:14:19,226 Encoded 51200 / 197632 frames (1891 frames/s)
+2026-11-18 01:14:46,264 Encoded 102400 / 197632 frames (1892 frames/s)
+2026-11-18 01:15:13,852 Encoded 153600 / 197632 frames (1880 frames/s)
+2026-11-18 01:16:02,772 cls_160k_official_seed42_level1: fitting cls_160k_official (cls/official)
+2026-11-18 01:16:07,765 official probe epoch 1/60 train=0.259825 val={'agent_xy': 0.000745, 'distractor_xy': 0.21405}
+2026-11-18 01:16:51,568 official probe epoch 10/60 train=0.073579 val={'agent_xy': 0.000235, 'distractor_xy': 0.123945}
+2026-11-18 01:17:40,172 official probe epoch 20/60 train=0.056696 val={'agent_xy': 0.00019, 'distractor_xy': 0.111297}
+2026-11-18 01:18:28,767 official probe epoch 30/60 train=0.048440 val={'agent_xy': 0.00016, 'distractor_xy': 0.100879}
+2026-11-18 01:19:17,376 official probe epoch 40/60 train=0.043361 val={'agent_xy': 0.000122, 'distractor_xy': 0.090888}
+2026-11-18 01:20:05,992 official probe epoch 50/60 train=0.039871 val={'agent_xy': 0.000134, 'distractor_xy': 0.087455}
+2026-11-18 01:20:54,618 official probe epoch 60/60 train=0.036874 val={'agent_xy': 0.000132, 'distractor_xy': 0.086402}
+2026-11-18 01:20:55,037 cls_160k_official_seed42_level1 AUDIT min R2=0.9109 CAL threshold=0.367497
+2026-11-18 01:20:55,038 grid4x4_160k_official_seed42_level1: fitting grid4x4_160k_official (grid/official)
+2026-11-18 01:21:00,246 official probe epoch 1/60 train=0.741202 val={'agent_xy': 0.005839, 'distractor_xy': 0.219219}
+2026-11-18 01:21:44,703 official probe epoch 10/60 train=0.065310 val={'agent_xy': 0.001215, 'distractor_xy': 0.049737}
+2026-11-18 01:22:34,170 official probe epoch 20/60 train=0.045093 val={'agent_xy': 0.000318, 'distractor_xy': 0.038394}
+2026-11-18 01:23:23,658 official probe epoch 30/60 train=0.034188 val={'agent_xy': 0.000205, 'distractor_xy': 0.04057}
+2026-11-18 01:24:13,015 official probe epoch 40/60 train=0.029774 val={'agent_xy': 0.000313, 'distractor_xy': 0.036044}
+2026-11-18 01:25:02,430 official probe epoch 50/60 train=0.025526 val={'agent_xy': 0.000189, 'distractor_xy': 0.037946}
+2026-11-18 01:25:51,914 official probe epoch 60/60 train=0.022015 val={'agent_xy': 0.000221, 'distractor_xy': 0.03245}
+2026-11-18 01:25:53,100 grid4x4_160k_official_seed42_level1 AUDIT min R2=0.9538 CAL threshold=0.347371
+2026-11-18 01:25:53,100 grid4x4_160k_ridge_seed42_level1: fitting grid4x4_160k_ridge (grid/ridge)
+2026-11-18 01:25:53,507 ridge agent_xy selected lambda=10 val_mse=0.000510209
+2026-11-18 01:25:53,564 ridge distractor_xy selected lambda=10 val_mse=0.00688824
+2026-11-18 01:25:54,642 grid4x4_160k_ridge_seed42_level1 AUDIT min R2=0.9922 CAL threshold=0.333648
+2026-11-18 01:25:54,642 cls_160k_official_seed42_level2: fitting cls_160k_official (cls/official)
+2026-11-18 01:26:00,055 official probe epoch 1/60 train=0.590771 val={'agent_xy': 0.00091, 'distractor_xy': 0.570574}
+2026-11-18 01:26:48,593 official probe epoch 10/60 train=0.263576 val={'agent_xy': 0.00035, 'distractor_xy': 0.369174}
+2026-11-18 01:27:42,560 official probe epoch 20/60 train=0.205600 val={'agent_xy': 0.000313, 'distractor_xy': 0.3302}
+2026-11-18 01:28:36,520 official probe epoch 30/60 train=0.178672 val={'agent_xy': 0.000202, 'distractor_xy': 0.305486}
+2026-11-18 01:29:30,453 official probe epoch 40/60 train=0.160540 val={'agent_xy': 0.000174, 'distractor_xy': 0.28801}
+2026-11-18 01:30:24,498 official probe epoch 50/60 train=0.148013 val={'agent_xy': 0.000178, 'distractor_xy': 0.289517}
+2026-11-18 01:31:18,465 official probe epoch 60/60 train=0.137956 val={'agent_xy': 0.000172, 'distractor_xy': 0.283476}
+2026-11-18 01:31:18,887 cls_160k_official_seed42_level2 AUDIT min R2=0.7302 CAL threshold=0.359479
+2026-11-18 01:31:18,887 cls_160k_official_seed42_level3: fitting cls_160k_official (cls/official)
+2026-11-18 01:31:24,344 official probe epoch 1/60 train=0.934025 val={'agent_xy': 0.000969, 'distractor_xy': 0.939619}
+2026-11-18 01:32:13,283 official probe epoch 10/60 train=0.573170 val={'agent_xy': 0.00034, 'distractor_xy': 0.684396}
+2026-11-18 01:33:07,462 official probe epoch 20/60 train=0.493608 val={'agent_xy': 0.000335, 'distractor_xy': 0.656763}
+2026-11-18 01:34:01,505 official probe epoch 30/60 train=0.445693 val={'agent_xy': 0.00022, 'distractor_xy': 0.594568}
+2026-11-18 01:34:55,624 official probe epoch 40/60 train=0.413668 val={'agent_xy': 0.000219, 'distractor_xy': 0.554912}
+2026-11-18 01:35:49,607 official probe epoch 50/60 train=0.393251 val={'agent_xy': 0.000229, 'distractor_xy': 0.546045}
+2026-11-18 01:36:43,435 official probe epoch 60/60 train=0.370782 val={'agent_xy': 0.000211, 'distractor_xy': 0.521225}
+2026-11-18 01:36:43,842 cls_160k_official_seed42_level3 AUDIT min R2=0.4874 CAL threshold=0.303792
+2026-11-18 01:36:43,843 cls_160k_official_seed42_level4: fitting cls_160k_official (cls/official)
+2026-11-18 01:36:49,270 official probe epoch 1/60 train=0.993062 val={'agent_xy': 0.001053, 'distractor_xy': 1.039675}
+2026-11-18 01:37:37,794 official probe epoch 10/60 train=0.770325 val={'agent_xy': 0.000397, 'distractor_xy': 0.911626}
+2026-11-18 01:38:31,794 official probe epoch 20/60 train=0.705149 val={'agent_xy': 0.000341, 'distractor_xy': 0.881496}
+2026-11-18 01:39:25,791 official probe epoch 30/60 train=0.665620 val={'agent_xy': 0.000286, 'distractor_xy': 0.843285}
+2026-11-18 01:40:19,775 official probe epoch 40/60 train=0.634085 val={'agent_xy': 0.00026, 'distractor_xy': 0.832213}
+2026-11-18 01:41:14,184 official probe epoch 50/60 train=0.612384 val={'agent_xy': 0.000269, 'distractor_xy': 0.828904}
+2026-11-18 01:42:08,155 official probe epoch 60/60 train=0.592596 val={'agent_xy': 0.00024, 'distractor_xy': 0.826}
+2026-11-18 01:42:08,540 cls_160k_official_seed42_level4 AUDIT min R2=0.2163 CAL threshold=0.265018
+2026-11-18 01:42:08,554 Model seed 43: loading fourroom_hjepa_l4
+2026-11-18 01:42:28,307 Encoded 51200 / 160400 frames (2605 frames/s)
+2026-11-18 01:42:47,687 Encoded 102400 / 160400 frames (2623 frames/s)
+2026-11-18 01:43:07,179 Encoded 153600 / 160400 frames (2624 frames/s)
+2026-11-18 01:44:35,063 Encoded 51200 / 197632 frames (1959 frames/s)
+2026-11-18 01:45:01,220 Encoded 102400 / 197632 frames (1958 frames/s)
+2026-11-18 01:45:28,254 Encoded 153600 / 197632 frames (1936 frames/s)
+2026-11-18 01:48:38,221 cls_160k_official_seed43_level1: fitting cls_160k_official (cls/official)
+2026-11-18 01:48:43,645 official probe epoch 1/60 train=0.393441 val={'agent_xy': 0.000645, 'distractor_xy': 0.367901}
+2026-11-18 01:49:32,467 official probe epoch 10/60 train=0.144172 val={'agent_xy': 0.000199, 'distractor_xy': 0.227705}
+2026-11-18 01:50:26,697 official probe epoch 20/60 train=0.112036 val={'agent_xy': 0.000129, 'distractor_xy': 0.200565}
+2026-11-18 01:51:20,760 official probe epoch 30/60 train=0.097101 val={'agent_xy': 0.000103, 'distractor_xy': 0.174943}
+2026-11-18 01:52:14,950 official probe epoch 40/60 train=0.086878 val={'agent_xy': 0.0001, 'distractor_xy': 0.163878}
+2026-11-18 01:53:09,179 official probe epoch 50/60 train=0.080297 val={'agent_xy': 8.9e-05, 'distractor_xy': 0.153632}
+2026-11-18 01:54:03,542 official probe epoch 60/60 train=0.074827 val={'agent_xy': 9.3e-05, 'distractor_xy': 0.153329}
+2026-11-18 01:54:03,963 cls_160k_official_seed43_level1 AUDIT min R2=0.8343 CAL threshold=0.378125
+2026-11-18 01:54:03,964 grid4x4_160k_official_seed43_level1: fitting grid4x4_160k_official (grid/official)
+2026-11-18 01:54:09,699 official probe epoch 1/60 train=0.790217 val={'agent_xy': 0.007054, 'distractor_xy': 0.253292}
+2026-11-18 01:54:59,132 official probe epoch 10/60 train=0.060871 val={'agent_xy': 0.000876, 'distractor_xy': 0.050026}
+2026-11-18 01:55:53,971 official probe epoch 20/60 train=0.044151 val={'agent_xy': 0.000472, 'distractor_xy': 0.07587}
+2026-11-18 01:56:48,708 official probe epoch 30/60 train=0.033174 val={'agent_xy': 0.000542, 'distractor_xy': 0.035519}
+2026-11-18 01:57:43,434 official probe epoch 40/60 train=0.026892 val={'agent_xy': 0.000289, 'distractor_xy': 0.083997}
+2026-11-18 01:58:38,174 official probe epoch 50/60 train=0.023545 val={'agent_xy': 0.000216, 'distractor_xy': 0.019221}
+2026-11-18 01:59:32,916 official probe epoch 60/60 train=0.020963 val={'agent_xy': 0.000193, 'distractor_xy': 0.026798}
+2026-11-18 01:59:34,120 grid4x4_160k_official_seed43_level1 AUDIT min R2=0.9670 CAL threshold=0.338200
+2026-11-18 01:59:34,120 grid4x4_160k_ridge_seed43_level1: fitting grid4x4_160k_ridge (grid/ridge)
+2026-11-18 01:59:34,475 ridge agent_xy selected lambda=10 val_mse=0.000276625
+2026-11-18 01:59:34,533 ridge distractor_xy selected lambda=10 val_mse=0.00308224
+2026-11-18 01:59:35,619 grid4x4_160k_ridge_seed43_level1 AUDIT min R2=0.9961 CAL threshold=0.328609
+2026-11-18 01:59:35,619 cls_160k_official_seed43_level2: fitting cls_160k_official (cls/official)
+2026-11-18 01:59:41,030 official probe epoch 1/60 train=0.634343 val={'agent_xy': 0.000712, 'distractor_xy': 0.61996}
+2026-11-18 02:00:29,736 official probe epoch 10/60 train=0.377756 val={'agent_xy': 0.000289, 'distractor_xy': 0.475055}
+2026-11-18 02:01:23,905 official probe epoch 20/60 train=0.312899 val={'agent_xy': 0.000185, 'distractor_xy': 0.443039}
+2026-11-18 02:02:18,043 official probe epoch 30/60 train=0.276803 val={'agent_xy': 0.000164, 'distractor_xy': 0.416748}
+2026-11-18 02:03:12,237 official probe epoch 40/60 train=0.251536 val={'agent_xy': 0.000139, 'distractor_xy': 0.415706}
+2026-11-18 02:04:06,370 official probe epoch 50/60 train=0.237047 val={'agent_xy': 0.000122, 'distractor_xy': 0.388297}
+2026-11-18 02:05:00,494 official probe epoch 60/60 train=0.223765 val={'agent_xy': 0.000131, 'distractor_xy': 0.38545}
+2026-11-18 02:05:00,878 cls_160k_official_seed43_level2 AUDIT min R2=0.5889 CAL threshold=0.378255
+2026-11-18 02:05:00,878 cls_160k_official_seed43_level3: fitting cls_160k_official (cls/official)
+2026-11-18 02:05:06,301 official probe epoch 1/60 train=0.884886 val={'agent_xy': 0.000708, 'distractor_xy': 0.879802}
+2026-11-18 02:05:55,795 official probe epoch 10/60 train=0.581191 val={'agent_xy': 0.000303, 'distractor_xy': 0.692823}
+2026-11-18 02:06:50,268 official probe epoch 20/60 train=0.528409 val={'agent_xy': 0.000191, 'distractor_xy': 0.673483}
+2026-11-18 02:07:44,602 official probe epoch 30/60 train=0.498597 val={'agent_xy': 0.000183, 'distractor_xy': 0.616174}
+2026-11-18 02:08:39,013 official probe epoch 40/60 train=0.476440 val={'agent_xy': 0.000185, 'distractor_xy': 0.611295}
+2026-11-18 02:09:33,392 official probe epoch 50/60 train=0.463914 val={'agent_xy': 0.00017, 'distractor_xy': 0.60223}
+2026-11-18 02:10:27,669 official probe epoch 60/60 train=0.449406 val={'agent_xy': 0.000152, 'distractor_xy': 0.60292}
+2026-11-18 02:10:28,056 cls_160k_official_seed43_level3 AUDIT min R2=0.3473 CAL threshold=0.292018
+2026-11-18 02:10:28,056 cls_160k_official_seed43_level4: fitting cls_160k_official (cls/official)
+2026-11-18 02:10:33,482 official probe epoch 1/60 train=0.982533 val={'agent_xy': 0.000955, 'distractor_xy': 1.021581}
+2026-11-18 02:11:23,522 official probe epoch 10/60 train=0.751360 val={'agent_xy': 0.000367, 'distractor_xy': 0.862161}
+2026-11-18 02:12:19,669 official probe epoch 20/60 train=0.691104 val={'agent_xy': 0.000266, 'distractor_xy': 0.850909}
+2026-11-18 02:13:15,909 official probe epoch 30/60 train=0.658531 val={'agent_xy': 0.000295, 'distractor_xy': 0.80607}
+2026-11-18 02:14:11,514 official probe epoch 40/60 train=0.635450 val={'agent_xy': 0.000202, 'distractor_xy': 0.792466}
+2026-11-18 02:15:07,662 official probe epoch 50/60 train=0.618736 val={'agent_xy': 0.000182, 'distractor_xy': 0.804209}
+2026-11-18 02:16:03,494 official probe epoch 60/60 train=0.601809 val={'agent_xy': 0.000193, 'distractor_xy': 0.800628}
+2026-11-18 02:16:03,929 cls_160k_official_seed43_level4 AUDIT min R2=0.1881 CAL threshold=0.270161
+2026-11-18 02:16:03,953 Model seed 44: loading fourroom_hjepa_l4
+2026-11-18 02:16:25,547 Encoded 51200 / 160400 frames (2386 frames/s)
+2026-11-18 02:16:47,311 Encoded 102400 / 160400 frames (2369 frames/s)
+2026-11-18 02:17:07,943 Encoded 153600 / 160400 frames (2406 frames/s)
+2026-11-18 02:18:38,776 Encoded 51200 / 197632 frames (1833 frames/s)
+2026-11-18 02:19:07,507 Encoded 102400 / 197632 frames (1807 frames/s)
+2026-11-18 02:19:36,145 Encoded 153600 / 197632 frames (1801 frames/s)
+2026-11-18 02:20:26,638 cls_160k_official_seed44_level1: fitting cls_160k_official (cls/official)
+2026-11-18 02:20:32,129 official probe epoch 1/60 train=0.159009 val={'agent_xy': 0.000656, 'distractor_xy': 0.113957}
+2026-11-18 02:21:21,413 official probe epoch 10/60 train=0.040983 val={'agent_xy': 0.000185, 'distractor_xy': 0.061773}
+2026-11-18 02:22:16,056 official probe epoch 20/60 train=0.030598 val={'agent_xy': 0.00014, 'distractor_xy': 0.051426}
+2026-11-18 02:23:10,653 official probe epoch 30/60 train=0.026037 val={'agent_xy': 0.00013, 'distractor_xy': 0.046665}
+2026-11-18 02:24:05,468 official probe epoch 40/60 train=0.023204 val={'agent_xy': 9.9e-05, 'distractor_xy': 0.044099}
+2026-11-18 02:25:00,326 official probe epoch 50/60 train=0.021239 val={'agent_xy': 8.9e-05, 'distractor_xy': 0.040843}
+2026-11-18 02:25:55,059 official probe epoch 60/60 train=0.019876 val={'agent_xy': 8.6e-05, 'distractor_xy': 0.040688}
+2026-11-18 02:25:55,449 cls_160k_official_seed44_level1 AUDIT min R2=0.9576 CAL threshold=0.331604
+2026-11-18 02:25:55,449 grid4x4_160k_official_seed44_level1: fitting grid4x4_160k_official (grid/official)
+2026-11-18 02:26:01,276 official probe epoch 1/60 train=0.560671 val={'agent_xy': 0.02186, 'distractor_xy': 0.1125}
+2026-11-18 02:26:50,972 official probe epoch 10/60 train=0.033520 val={'agent_xy': 0.002466, 'distractor_xy': 0.023821}
+2026-11-18 02:27:46,061 official probe epoch 20/60 train=0.019152 val={'agent_xy': 0.001709, 'distractor_xy': 0.031086}
+2026-11-18 02:28:41,077 official probe epoch 30/60 train=0.014400 val={'agent_xy': 0.000688, 'distractor_xy': 0.015828}
+2026-11-18 02:29:36,148 official probe epoch 40/60 train=0.010742 val={'agent_xy': 0.000508, 'distractor_xy': 0.014769}
+2026-11-18 02:30:31,298 official probe epoch 50/60 train=0.008716 val={'agent_xy': 0.000547, 'distractor_xy': 0.007378}
+2026-11-18 02:31:26,353 official probe epoch 60/60 train=0.007026 val={'agent_xy': 0.000425, 'distractor_xy': 0.006347}
+2026-11-18 02:31:27,538 grid4x4_160k_official_seed44_level1 AUDIT min R2=0.9923 CAL threshold=0.332448
+2026-11-18 02:31:27,539 grid4x4_160k_ridge_seed44_level1: fitting grid4x4_160k_ridge (grid/ridge)
+2026-11-18 02:31:27,992 ridge agent_xy selected lambda=10 val_mse=0.000718751
+2026-11-18 02:31:28,054 ridge distractor_xy selected lambda=10 val_mse=0.00344832
+2026-11-18 02:31:29,128 grid4x4_160k_ridge_seed44_level1 AUDIT min R2=0.9958 CAL threshold=0.330779
+2026-11-18 02:31:29,128 cls_160k_official_seed44_level2: fitting cls_160k_official (cls/official)
+2026-11-18 02:31:34,650 official probe epoch 1/60 train=0.354223 val={'agent_xy': 0.000706, 'distractor_xy': 0.287147}
+2026-11-18 02:32:23,706 official probe epoch 10/60 train=0.131185 val={'agent_xy': 0.000262, 'distractor_xy': 0.173411}
+2026-11-18 02:33:18,364 official probe epoch 20/60 train=0.106051 val={'agent_xy': 0.000193, 'distractor_xy': 0.157362}
+2026-11-18 02:34:12,963 official probe epoch 30/60 train=0.093727 val={'agent_xy': 0.000164, 'distractor_xy': 0.138498}
+2026-11-18 02:35:07,551 official probe epoch 40/60 train=0.084238 val={'agent_xy': 0.000129, 'distractor_xy': 0.132993}
+2026-11-18 02:36:02,085 official probe epoch 50/60 train=0.078927 val={'agent_xy': 0.000119, 'distractor_xy': 0.126935}
+2026-11-18 02:36:56,790 official probe epoch 60/60 train=0.073736 val={'agent_xy': 0.00012, 'distractor_xy': 0.133249}
+2026-11-18 02:36:57,182 cls_160k_official_seed44_level2 AUDIT min R2=0.8276 CAL threshold=0.313470
+2026-11-18 02:36:57,182 cls_160k_official_seed44_level3: fitting cls_160k_official (cls/official)
+2026-11-18 02:37:02,740 official probe epoch 1/60 train=0.677678 val={'agent_xy': 0.000808, 'distractor_xy': 0.639074}
+2026-11-18 02:37:53,032 official probe epoch 10/60 train=0.325322 val={'agent_xy': 0.000316, 'distractor_xy': 0.388861}
+2026-11-18 02:38:48,343 official probe epoch 20/60 train=0.263534 val={'agent_xy': 0.000217, 'distractor_xy': 0.339408}
+2026-11-18 02:39:44,116 official probe epoch 30/60 train=0.234797 val={'agent_xy': 0.000181, 'distractor_xy': 0.301464}
+2026-11-18 02:40:39,349 official probe epoch 40/60 train=0.215620 val={'agent_xy': 0.000158, 'distractor_xy': 0.287997}
+2026-11-18 02:41:34,920 official probe epoch 50/60 train=0.202860 val={'agent_xy': 0.000145, 'distractor_xy': 0.287622}
+2026-11-18 02:42:30,453 official probe epoch 60/60 train=0.192649 val={'agent_xy': 0.000139, 'distractor_xy': 0.300682}
+2026-11-18 02:42:30,849 cls_160k_official_seed44_level3 AUDIT min R2=0.6490 CAL threshold=0.245579
+2026-11-18 02:42:30,849 cls_160k_official_seed44_level4: fitting cls_160k_official (cls/official)
+2026-11-18 02:42:36,426 official probe epoch 1/60 train=0.880214 val={'agent_xy': 0.000746, 'distractor_xy': 0.899727}
+2026-11-18 02:43:26,332 official probe epoch 10/60 train=0.574530 val={'agent_xy': 0.000383, 'distractor_xy': 0.69268}
+2026-11-18 02:44:21,425 official probe epoch 20/60 train=0.502209 val={'agent_xy': 0.00027, 'distractor_xy': 0.646242}
+2026-11-18 02:45:16,877 official probe epoch 30/60 train=0.462976 val={'agent_xy': 0.000216, 'distractor_xy': 0.606223}
+2026-11-18 02:46:12,197 official probe epoch 40/60 train=0.433193 val={'agent_xy': 0.000189, 'distractor_xy': 0.560979}
+2026-11-18 02:47:07,810 official probe epoch 50/60 train=0.415624 val={'agent_xy': 0.000169, 'distractor_xy': 0.551237}
+2026-11-18 02:48:03,344 official probe epoch 60/60 train=0.397435 val={'agent_xy': 0.000157, 'distractor_xy': 0.534287}
+2026-11-18 02:48:03,762 cls_160k_official_seed44_level4 AUDIT min R2=0.4244 CAL threshold=0.258670
+2026-11-18 02:48:03,793 Model seed 42: encoding sealed TEST pixels
+2026-11-18 02:48:25,054 Encoded 51200 / 395264 frames (2420 frames/s)
+2026-11-18 02:48:46,034 Encoded 102400 / 395264 frames (2430 frames/s)
+2026-11-18 02:49:06,900 Encoded 153600 / 395264 frames (2438 frames/s)
+2026-11-18 02:49:27,476 Encoded 204800 / 395264 frames (2450 frames/s)
+2026-11-18 02:49:51,861 Encoded 256000 / 395264 frames (2371 frames/s)
+2026-11-18 02:50:19,412 Encoded 307200 / 395264 frames (2267 frames/s)
+2026-11-18 02:50:47,358 Encoded 358400 / 395264 frames (2193 frames/s)
+2026-11-18 02:51:16,776 Model seed 43: encoding sealed TEST pixels
+2026-11-18 02:51:36,980 Encoded 51200 / 395264 frames (2546 frames/s)
+2026-11-18 02:51:57,031 Encoded 102400 / 395264 frames (2550 frames/s)
+2026-11-18 02:52:17,144 Encoded 153600 / 395264 frames (2548 frames/s)
+2026-11-18 02:52:37,332 Encoded 204800 / 395264 frames (2545 frames/s)
+2026-11-18 02:52:57,568 Encoded 256000 / 395264 frames (2542 frames/s)
+2026-11-18 02:53:17,788 Encoded 307200 / 395264 frames (2541 frames/s)
+2026-11-18 02:53:39,522 Encoded 358400 / 395264 frames (2512 frames/s)
+2026-11-18 02:54:07,645 Model seed 44: encoding sealed TEST pixels
+2026-11-18 02:54:27,724 Encoded 51200 / 395264 frames (2561 frames/s)
+2026-11-18 02:54:47,787 Encoded 102400 / 395264 frames (2557 frames/s)
+2026-11-18 02:55:07,837 Encoded 153600 / 395264 frames (2556 frames/s)
+2026-11-18 02:55:27,961 Encoded 204800 / 395264 frames (2553 frames/s)
+2026-11-18 02:55:48,106 Encoded 256000 / 395264 frames (2551 frames/s)
+2026-11-18 02:56:08,239 Encoded 307200 / 395264 frames (2549 frames/s)
+2026-11-18 02:56:31,551 Encoded 358400 / 395264 frames (2492 frames/s)
+2026-11-18 02:56:59,928 Forecast receipt sealed. TEST truth may now be read.
+2026-11-18 02:57:04,277 Complete: /home/kemove/yuzihang/hjepa-slow-selection/results/fourroom_hjepa_l4_v2

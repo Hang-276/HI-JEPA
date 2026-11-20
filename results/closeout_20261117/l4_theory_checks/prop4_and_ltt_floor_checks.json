@@ -1,0 +1,69 @@
+{
+  "evidence_tier": "deterministic_algebraic_and_real_anchor_check",
+  "status": "PASSED",
+  "visual_sprites_population_slowness": {
+    "rho": [
+      0.964,
+      0.961,
+      0.78,
+      0.76
+    ],
+    "mu": [
+      0.8472308597782533,
+      0.8919805136775482,
+      1.7404832754011894,
+      1.7692242010462902
+    ],
+    "mu_slow_max": 0.8919805136775482,
+    "mu_fast_min": 1.7404832754011894,
+    "alpha_slow_population_inversion_threshold_at_s0_white_residual": 0.9611807322577294
+  },
+  "real_long_horizon_pred_regime_verification": {
+    "long_horizon_pred_seed101": {
+      "distractor_y_true_mean_score": 1.790207357798887,
+      "distractor_y_predicted_mean_score": 1.874723484626865,
+      "score_shift_pred_minus_true": 0.08451612682797793,
+      "slow_leakage_share_ref": 0.06237258087036303,
+      "fast_signal_share_ref": 0.33632789603917307,
+      "regime": "II-A_upward_noise_attenuation"
+    },
+    "long_horizon_pred_seed102": {
+      "distractor_y_true_mean_score": 1.790207357798887,
+      "distractor_y_predicted_mean_score": 1.3685922003285538,
+      "score_shift_pred_minus_true": -0.4216151574703333,
+      "slow_leakage_share_ref": 0.6552129345418506,
+      "fast_signal_share_ref": 0.0011440623654560837,
+      "regime": "II-B_pseudo_slow_hijack"
+    },
+    "long_horizon_pred_seed103": {
+      "distractor_y_true_mean_score": 1.790207357798887,
+      "distractor_y_predicted_mean_score": 1.8907681156235303,
+      "score_shift_pred_minus_true": 0.10056075782464324,
+      "slow_leakage_share_ref": 0.02076749051273622,
+      "fast_signal_share_ref": 0.4234600567016874,
+      "regime": "II-A_upward_noise_attenuation"
+    }
+  },
+  "binomial_1pct_certification_sample_floors": {
+    "single_005": {
+      "alpha": 0.05,
+      "min_zero_error_accepted_windows": 299,
+      "cp_upper_at_n_min": 0.009969146792899286
+    },
+    "sprites_bonf6": {
+      "alpha": 0.008333333333333333,
+      "min_zero_error_accepted_windows": 477,
+      "cp_upper_at_n_min": 0.009986471029688304
+    },
+    "fourroom_bonf12": {
+      "alpha": 0.004166666666666667,
+      "min_zero_error_accepted_windows": 546,
+      "cp_upper_at_n_min": 0.009987589650890083
+    },
+    "lowdim_bonf128": {
+      "alpha": 0.000390625,
+      "min_zero_error_accepted_windows": 781,
+      "cp_upper_at_n_min": 0.00999803550833267
+    }
+  }
+}

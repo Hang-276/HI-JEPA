@@ -1,0 +1,112 @@
+{
+  "fine_quadrature_nodes": 20,
+  "fine_flow_steps": 8,
+  "coarse": {
+    "0.6": {
+      "predicted_coefficient": 0.06000000000000005,
+      "observations": [
+        {
+          "t": 0.04,
+          "correlation_gain": 9.463939169851443e-05,
+          "gain_over_t_squared": 0.05914961981157152,
+          "marginal_mean_max_abs": 9.136565642391781e-11,
+          "marginal_second_moment_max_error": 3.238354029377888e-11
+        },
+        {
+          "t": 0.02,
+          "correlation_gain": 2.391484056185611e-05,
+          "gain_over_t_squared": 0.059787101404640275,
+          "marginal_mean_max_abs": 2.86184800613349e-12,
+          "marginal_second_moment_max_error": 5.075939668586216e-13
+        },
+        {
+          "t": 0.01,
+          "correlation_gain": 5.994675633447244e-06,
+          "gain_over_t_squared": 0.05994675633447244,
+          "marginal_mean_max_abs": 8.850130759578047e-14,
+          "marginal_second_moment_max_error": 1.5210055437364645e-14
+        }
+      ]
+    },
+    "0.76": {
+      "predicted_coefficient": -0.11599999999999999,
+      "observations": [
+        {
+          "t": 0.04,
+          "correlation_gain": -0.00018633448548910359,
+          "gain_over_t_squared": -0.11645905343068974,
+          "marginal_mean_max_abs": 9.136565642391781e-11,
+          "marginal_second_moment_max_error": 3.238354029377888e-11
+        },
+        {
+          "t": 0.02,
+          "correlation_gain": -4.644596190672701e-05,
+          "gain_over_t_squared": -0.11611490476681752,
+          "marginal_mean_max_abs": 2.86184800613349e-12,
+          "marginal_second_moment_max_error": 5.075939668586216e-13
+        },
+        {
+          "t": 0.01,
+          "correlation_gain": -1.160287350554512e-05,
+          "gain_over_t_squared": -0.1160287350554512,
+          "marginal_mean_max_abs": 8.850130759578047e-14,
+          "marginal_second_moment_max_error": 1.5210055437364645e-14
+        }
+      ]
+    }
+  },
+  "fine": {
+    "0.6": {
+      "predicted_coefficient": 0.06000000000000005,
+      "observations": [
+        {
+          "t": 0.04,
+          "correlation_gain": 9.463940259069048e-05,
+          "gain_over_t_squared": 0.05914962661918155,
+          "marginal_mean_max_abs": 5.707020044716048e-12,
+          "marginal_second_moment_max_error": 1.9561019470870633e-12
+        },
+        {
+          "t": 0.02,
+          "correlation_gain": 2.3914840734162723e-05,
+          "gain_over_t_squared": 0.05978710183540681,
+          "marginal_mean_max_abs": 1.7968125599536478e-13,
+          "marginal_second_moment_max_error": 1.1368683772161603e-13
+        },
+        {
+          "t": 0.01,
+          "correlation_gain": 5.9946756376660915e-06,
+          "gain_over_t_squared": 0.059946756376660915,
+          "marginal_mean_max_abs": 5.196828363104628e-15,
+          "marginal_second_moment_max_error": 9.203748874142548e-14
+        }
+      ]
+    },
+    "0.76": {
+      "predicted_coefficient": -0.11599999999999999,
+      "observations": [
+        {
+          "t": 0.04,
+          "correlation_gain": -0.00018633447835059158,
+          "gain_over_t_squared": -0.11645904896911974,
+          "marginal_mean_max_abs": 5.707020044716048e-12,
+          "marginal_second_moment_max_error": 1.9561019470870633e-12
+        },
+        {
+          "t": 0.02,
+          "correlation_gain": -4.644596179348426e-05,
+          "gain_over_t_squared": -0.11611490448371065,
+          "marginal_mean_max_abs": 1.7968125599536478e-13,
+          "marginal_second_moment_max_error": 1.1368683772161603e-13
+        },
+        {
+          "t": 0.01,
+          "correlation_gain": -1.1602873502436495e-05,
+          "gain_over_t_squared": -0.11602873502436495,
+          "marginal_mean_max_abs": 5.196828363104628e-15,
+          "marginal_second_moment_max_error": 9.203748874142548e-14
+        }
+      ]
+    }
+  }
+}

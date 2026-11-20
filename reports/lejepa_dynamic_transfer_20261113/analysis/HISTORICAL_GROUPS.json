@@ -1,0 +1,43 @@
+{
+  "source_relative_to_repository": "reports/lejepa_mechanisms_20261113/readout/replication/RESULTS.json",
+  "source_sha256": "2b829aeb505db5b84634281c4ea71e35722263e055ff212917109e43fa7c08ed",
+  "criterion": "min MLP R\u00b2 >= 0.85 over four physical axes and both evaluation processes",
+  "min_r2": {
+    "separated_wide_1942": 0.9960129485214978,
+    "separated_wide_3749": 0.9960329279979782,
+    "separated_wide_5817": 0.996012091642966,
+    "separated_wide_7811": 0.9962883560055101,
+    "crossed_wide_1942": 0.9012899105028896,
+    "crossed_wide_3749": 0.996098509943142,
+    "crossed_wide_5817": 0.9670260092436402,
+    "crossed_wide_7811": 0.16436410360859244,
+    "separated_narrow_1942": 0.9959803337745541,
+    "separated_narrow_3749": 0.9956533211492624,
+    "separated_narrow_5817": 0.9957122111811425,
+    "separated_narrow_7811": 0.9962971258976023,
+    "crossed_narrow_1942": 0.916248935403758,
+    "crossed_narrow_3749": 0.9960228937505206,
+    "crossed_narrow_5817": 0.9946999597731802,
+    "crossed_narrow_7811": 0.29971739456636315
+  },
+  "strong": [
+    "separated_wide_1942",
+    "separated_wide_3749",
+    "separated_wide_5817",
+    "separated_wide_7811",
+    "crossed_wide_1942",
+    "crossed_wide_3749",
+    "crossed_wide_5817",
+    "separated_narrow_1942",
+    "separated_narrow_3749",
+    "separated_narrow_5817",
+    "separated_narrow_7811",
+    "crossed_narrow_1942",
+    "crossed_narrow_3749",
+    "crossed_narrow_5817"
+  ],
+  "weak": [
+    "crossed_wide_7811",
+    "crossed_narrow_7811"
+  ]
+}

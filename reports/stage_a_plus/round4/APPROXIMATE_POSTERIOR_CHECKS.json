@@ -1,0 +1,313 @@
+{
+  "kind": "deterministic fixed-probability-vector checks; not physical or model data",
+  "m": 9,
+  "natural_log": true,
+  "case_count": 6,
+  "cases": [
+    {
+      "name": "identical_uniform",
+      "m": 9,
+      "epsilon": 0.1,
+      "p": [
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111
+      ],
+      "q": [
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111
+      ],
+      "kl_p_q": 0.0,
+      "log_odds_error_squared": 0.0,
+      "requested_log_odds_bound_squared": 0.0,
+      "requested_bound_ratio": null,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 0.0,
+      "requested_span_bound_squared": 0.0,
+      "all_arithmetic_checks_pass": true
+    },
+    {
+      "name": "small_pivot_transfer",
+      "m": 9,
+      "epsilon": 0.1,
+      "p": [
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111
+      ],
+      "q": [
+        0.1121111111111111,
+        0.1101111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111
+      ],
+      "kl_p_q": 9.000364519683862e-06,
+      "log_odds_error_squared": 0.0008859562551922677,
+      "requested_log_odds_bound_squared": 0.028801166462988352,
+      "requested_bound_ratio": 0.030761124079151016,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 0.006139122077866861,
+      "requested_span_bound_squared": 0.46081866340781363,
+      "all_arithmetic_checks_pass": true
+    },
+    {
+      "name": "boundary_pivot",
+      "m": 9,
+      "epsilon": 0.01,
+      "p": [
+        0.01,
+        0.12375,
+        0.12375,
+        0.12375,
+        0.12375,
+        0.12375,
+        0.12375,
+        0.12375,
+        0.12375
+      ],
+      "q": [
+        0.02,
+        0.1225,
+        0.1225,
+        0.1225,
+        0.1225,
+        0.1225,
+        0.1225,
+        0.1225,
+        0.1225
+      ],
+      "kl_p_q": 0.003119375943778275,
+      "log_odds_error_squared": 3.957042079016855,
+      "requested_log_odds_bound_squared": 998.200302009048,
+      "requested_bound_ratio": 0.003964176399318488,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 13.797388360723593,
+      "requested_span_bound_squared": 15971.204832144767,
+      "all_arithmetic_checks_pass": true
+    },
+    {
+      "name": "peaked_opposite",
+      "m": 9,
+      "epsilon": 0.05,
+      "p": [
+        0.6,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "q": [
+        0.05,
+        0.6,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "kl_p_q": 1.3666986573834001,
+      "log_odds_error_squared": 67.92237163976684,
+      "requested_log_odds_bound_squared": 17493.742814507517,
+      "requested_bound_ratio": 0.00388266664029375,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 468.629461573587,
+      "requested_span_bound_squared": 279899.8850321203,
+      "all_arithmetic_checks_pass": true
+    },
+    {
+      "name": "alternating",
+      "m": 9,
+      "epsilon": 0.06,
+      "p": [
+        0.16,
+        0.06,
+        0.16,
+        0.06,
+        0.16,
+        0.06,
+        0.16,
+        0.06,
+        0.12
+      ],
+      "q": [
+        0.06,
+        0.16,
+        0.06,
+        0.16,
+        0.06,
+        0.16,
+        0.06,
+        0.16,
+        0.12
+      ],
+      "kl_p_q": 0.39233170120469063,
+      "log_odds_error_squared": 16.354442400580194,
+      "requested_log_odds_bound_squared": 3487.39289959725,
+      "requested_bound_ratio": 0.004689589865962314,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 76.50801266918643,
+      "requested_span_bound_squared": 55798.286393556,
+      "all_arithmetic_checks_pass": true
+    },
+    {
+      "name": "rare_class",
+      "m": 9,
+      "epsilon": 0.001,
+      "p": [
+        0.001,
+        0.199,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143
+      ],
+      "q": [
+        0.005,
+        0.195,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143,
+        0.1142857142857143
+      ],
+      "kl_p_q": 0.002431310053554259,
+      "log_odds_error_squared": 20.788095586038082,
+      "requested_log_odds_bound_squared": 77801.92171373629,
+      "requested_bound_ratio": 0.0002671925722159617,
+      "head_contrast_diagonal": [
+        0.25,
+        0.4,
+        0.6,
+        0.9,
+        1.1,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "sigma_min": 0.25,
+      "statistic_span_residual_squared": 73.30681936303972,
+      "requested_span_bound_squared": 1244830.7474197806,
+      "all_arithmetic_checks_pass": true
+    }
+  ],
+  "averaged_context_check": {
+    "weights": [
+      0.3,
+      0.7
+    ],
+    "shared_epsilon": 0.06,
+    "shared_sigma_min": 0.25,
+    "average_kl": 0.2746348909526393,
+    "average_odds_error_squared": 11.448375467282693,
+    "odds_error_bound_squared": 2441.1990306901275,
+    "average_span_error_squared": 53.55745060505386,
+    "span_error_bound_squared": 39059.18449104204
+  },
+  "omega_normalization_check": {
+    "omega_mass": 0.3,
+    "unnormalized_restricted_kl": 2.7001093559051584e-06,
+    "unnormalized_span_error_squared": 0.001841736623360058,
+    "unnormalized_span_bound_squared": 0.1382455990223441,
+    "conditional_span_bound_squared": 0.4608186634078137,
+    "conditional_rhs_requires_dividing_unnormalized_rhs_squared_by_omega_mass": true
+  },
+  "all_checks_pass": true,
+  "script_sha256": "6a7bb7f391ec80d58931834ec94e54c5080348995c7e3c9ee4c081084fd7a561",
+  "execution_counts": {
+    "random_draws": 0,
+    "physical_samples_generated": 0,
+    "model_loads": 0,
+    "data_array_files_read": 0,
+    "training_jobs": 0
+  },
+  "limitations": [
+    "Does not check Gaussian/global epsilon compatibility",
+    "Does not establish posterior estimation",
+    "Does not establish approximate polynomial closure or axis-affine error"
+  ]
+}

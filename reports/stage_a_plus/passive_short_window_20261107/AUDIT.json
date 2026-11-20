@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source_hashes_verified": true,
+  "all_thresholds_and_predictions_sealed_before_scoring": true,
+  "independent_design_and_validation_seeds": true,
+  "calibration_and_evaluation_side_stream_roles": [
+    5,
+    7
+  ],
+  "scored_panels": 16384,
+  "calibration_paths_per_panel": 96,
+  "calibration_transitions_per_panel": 18432,
+  "independently_recounted_all_decisions_and_errors": true,
+  "exact_error_upper_rechecked": true,
+  "by_dynamics": {
+    "11.25": {
+      "passed": true,
+      "coverage": 0.47900390625,
+      "error_upper": 0.03999387375651977
+    },
+    "30.0": {
+      "passed": true,
+      "coverage": 0.47802734375,
+      "error_upper": 0.0390723855197492
+    }
+  },
+  "cpu_threads": 1,
+  "fine_training": 0,
+  "real_cache_reads": 0,
+  "server_connections": 0,
+  "gpu_jobs": 0
+}

@@ -1,0 +1,212 @@
+{
+  "evidence_tier": "formal_result_integrity_verification",
+  "status": "passed",
+  "verified_at_utc": "2026-11-16T14:43:55.492210+00:00",
+  "archive": {
+    "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/archive/server_results/20261116/fourroom_01_results.tar.gz",
+    "bytes": 128349975,
+    "sha256": "0db3353e6dfe75c66c5627c7d8888eb5f04c475bf02dcb48b5192c33b0b82f84",
+    "server_before_after_local_match_at_transfer": true
+  },
+  "original_return": {
+    "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/results/fourroom_hjepa/fourroom_01",
+    "files": 76,
+    "all_original_hashes_unchanged": true,
+    "file_set_exact": true,
+    "failures": []
+  },
+  "protected_historical_evidence": {
+    "baseline": "results/exploratory_20261116/protected_after.json",
+    "baseline_sha256": "6f46dcca75d116d1b7374056e3d788abab15b204897a7e1628db63cdd222623d",
+    "files": 47786,
+    "bytes": 33787529235,
+    "folders": [
+      "reports",
+      "work/hcf_stable_id_20261027",
+      "archive",
+      "src/slowrepr",
+      "results/theory_checks_20261116"
+    ],
+    "missing": [],
+    "changed": [],
+    "authorized_new_archive_files": [
+      "archive/server_results/20261116/fourroom_01_results.tar.gz",
+      "archive/server_results/20261116/fourroom_01_results.transfer.json"
+    ],
+    "unexpected_new_files": [],
+    "hash_scan_seconds": 23.970500333234668
+  },
+  "prior_report_deliveries": [
+    {
+      "receipt": "results/theory_checks_20261116/DELIVERY.json",
+      "receipt_sha256": "e0c0f3f0816a3a57326dc303f4dd84be8ddb7cb1b2cb51103d26d45d531dba60",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "receipt": "results/exploratory_20261116/DELIVERY.json",
+      "receipt_sha256": "573c8a063bb93d0241576e560006dd699f83a0c995b61967d482fe30ccc2ac59",
+      "files": 32,
+      "mismatches": []
+    }
+  ],
+  "document_backups": {
+    "files": 7,
+    "mismatches": [],
+    "research_record_lines_563_to_579_unchanged": true
+  },
+  "local_markdown_links": {
+    "documents": 9,
+    "checked": 210,
+    "failures": []
+  },
+  "python311_syntax": [
+    "scripts/fourroom_hjepa/verify_return_20261116.py",
+    "scripts/fourroom_hjepa/analyze_return_20261116.py",
+    "scripts/fourroom_hjepa/check_return_provenance_20261116.py"
+  ],
+  "repository_static_check": {
+    "checks": {
+      "python": 41,
+      "shell": 12,
+      "json": 26,
+      "links": 35
+    },
+    "sealed_sources": 232,
+    "unchanged_science_files": {
+      "src/slowrepr/metrics.py": true,
+      "configs/fourroom_hjepa/default.json": true
+    },
+    "failures": [],
+    "model_or_metric_execution": false
+  },
+  "preexisting_git_status_entries_removed": [],
+  "independent_review": "Three verification scripts and all central report tables independently reviewed; CP assumptions and formal-versus-oracle REF wording clarified.",
+  "manifest": [
+    {
+      "path": "README.md",
+      "bytes": 6709,
+      "sha256": "a566d7abd913a9f60096c72acc5aa5dfb7cbeec346d0db34c79fb5e819af1dba"
+    },
+    {
+      "path": "archive/server_results/20261116/fourroom_01_results.transfer.json",
+      "bytes": 813,
+      "sha256": "fa8aa3c38e8779135f95ebc586507b1e1dd3ba80457685fe11bd60943b3b0aa2"
+    },
+    {
+      "path": "docs/FOURROOM_HJEPA.md",
+      "bytes": 8932,
+      "sha256": "01675a33a03fbc49b9540a710e7ca92e06211ace0d32934d8db25b9f3a518161"
+    },
+    {
+      "path": "docs/FOURROOM_HJEPA_RETURN_20261116.md",
+      "bytes": 13482,
+      "sha256": "05d7b3b1167ada2cd7d0c2163551f73627df5335cba545b576dfb53d3688079a"
+    },
+    {
+      "path": "docs/ICML_RESEARCH_TODO.md",
+      "bytes": 27016,
+      "sha256": "037f8caf43736ebe6a6c4235c6b7228f6ce2eb0036a95397a6a595a3ee3fdab2"
+    },
+    {
+      "path": "docs/PROGRESS_SYNC_JEPA.md",
+      "bytes": 48681,
+      "sha256": "6922a552a3c21409ee7ffa6e2cf63548e0720c868ae93a5fed91b620a25e3822"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 5957,
+      "sha256": "572975a309430544d464f7c6009e2641bc158c83daa0da33ff8e7fc7a2d69928"
+    },
+    {
+      "path": "docs/RESEARCH_RECORD.md",
+      "bytes": 84310,
+      "sha256": "a35f297ab423e127956622dd03e63258547f41250d0dc8c30e3b55840db5e641"
+    },
+    {
+      "path": "docs/audit/fourroom_return_20261116/BEFORE.json",
+      "bytes": 1746,
+      "sha256": "22cb382ef3e6eedce4611fcd4f70b5da2aba01a3d9cf62899a0e2418aa743cad"
+    },
+    {
+      "path": "docs/audit/fourroom_return_20261116/GIT_STATUS_BEFORE.txt",
+      "bytes": 1937,
+      "sha256": "12ef7e3cf1bebc3b25a59cf5ddc7493e5532872fa3d02550c0efbcac7cb2f7fe"
+    },
+    {
+      "path": "docs/audit/fourroom_return_20261116/README.md",
+      "bytes": 1937,
+      "sha256": "bc99b52dce86396ee76133c007062eade3de35e4ea4ad660be1f4177155c5019"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1760,
+      "sha256": "949b001b29e95894681a1819d7ccc1368fbe0afa5165827af8e1b87767189a93"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/DIAGNOSTICS.json",
+      "bytes": 267331,
+      "sha256": "d5851ae4524878de92098a2c634e2e193f29ef543ec4b7c05862b626210ce883"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/DIAGNOSTICS_initial.json",
+      "bytes": 263963,
+      "sha256": "de5555db1df9217dcfee917a28a7f9a24e4a84a4f52a8f195b8d622c4ee72b0d"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/IMPORT.json",
+      "bytes": 28233,
+      "sha256": "fb61185a74fa32643151b05eeff87799622e4e83e33b63caa3fa2295cbca4438"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/OFFICIAL_SOURCE_TREE_METADATA.json",
+      "bytes": 51072,
+      "sha256": "561787bdf1df1133e9da7087ef62ffdae87a86a7dca5739049e8c40dbf29cbb8"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/OFFICIAL_WEIGHT_METADATA.json",
+      "bytes": 45632,
+      "sha256": "585f4d05a77f2335b6aca556eb384d93cc7be9b9c807f87680752ebabdebed85"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/PROVENANCE_CHECK.json",
+      "bytes": 14216,
+      "sha256": "11dd440cfa87bcb33677b847f3bda7d6c051b1e4ad008dff8f45bd1855d53080"
+    },
+    {
+      "path": "results/fourroom_hjepa/fourroom_01_analysis_20261116/VERIFICATION.json",
+      "bytes": 56405,
+      "sha256": "05a498c55f1564b2a4d9fc23bab7cc47c8e1517a6d1b7dda7bdbce0443f38e5d"
+    },
+    {
+      "path": "scripts/fourroom_hjepa/analyze_return_20261116.py",
+      "bytes": 17193,
+      "sha256": "125564cd59d48e55b1f0ffaa09d7f7b2f7ae113eb366efb1df2e1715da29927a"
+    },
+    {
+      "path": "scripts/fourroom_hjepa/check_return_provenance_20261116.py",
+      "bytes": 12328,
+      "sha256": "772f1f1399d17300e6a488a3bc2239403cc99a6f71417b44d30345b1191f1f46"
+    },
+    {
+      "path": "scripts/fourroom_hjepa/fetch_results_20261116.sh",
+      "bytes": 4157,
+      "sha256": "ab084e353c74345dd75d9bd45e37d31565b103677132dc96278a175ff30d9982"
+    },
+    {
+      "path": "scripts/fourroom_hjepa/verify_return_20261116.py",
+      "bytes": 20572,
+      "sha256": "7287283df842be91a1ed37b2fb04f6b33252136676db6e363dd6749387fa8d77"
+    }
+  ],
+  "scope": {
+    "new_experiments": false,
+    "model_loading": false,
+    "threshold_changes": false,
+    "server_data_deleted": false,
+    "git_commit_or_push": false,
+    "final_checks": "Hashes, static parsing and local document links only; original formal arrays already verified separately."
+  },
+  "failures": [],
+  "elapsed_seconds": 24.317478167358786
+}

@@ -1,0 +1,17 @@
+{
+  "scope": [
+    "reports/",
+    "work/hcf_stable_id_20261027/",
+    "archive/"
+  ],
+  "files_before": 47772,
+  "files_after": 47772,
+  "bytes_before": 33775461684,
+  "changed": [],
+  "missing": [],
+  "added": [],
+  "all_sealed_file_bytes_unchanged": true,
+  "manifest_sha256": "5812da112d5424c0d01e1b5e2fea793a2094b10a21fa21d0b09a88c1cd81841b",
+  "git_status_before_equals_after_coarse_view": false,
+  "note": "git status defaults collapse preexisting untracked directories; newly added task files are listed separately in DELIVERY.json"
+}

@@ -1,0 +1,156 @@
+{
+  "kind": "deterministic_formula_checks_only",
+  "no_random_data_or_physical_trajectories_generated": true,
+  "no_model_training_or_fitting": true,
+  "does_not_verify_actual_fine_population_assumptions": true,
+  "score_checks": {
+    "exact_discrepancy_max_error": 1.6740081543176188e-16,
+    "polar_nonorthogonal_max_error": 1.5265566588595902e-16,
+    "telescope_max_error": 3.191891195797325e-16,
+    "actual_discrepancies": [
+      -0.0015348793749463407,
+      -0.004863112915275858
+    ],
+    "q_orthogonality_error": 3.194906681775283e-16
+  },
+  "conditional_covariance_checks": [
+    {
+      "innovation_diagonal": [
+        0.08,
+        0.12
+      ],
+      "scale": 0.05,
+      "nu": 0.01558212920412034,
+      "beta_exact": 0.01954142321498648,
+      "contrast_difference": 0.0005797283777280171,
+      "relative_nu_bound": 0.062333562063274874,
+      "relative_beta_bound": 0.039087822389437955,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    },
+    {
+      "innovation_diagonal": [
+        0.08,
+        0.12
+      ],
+      "scale": 0.15,
+      "nu": 0.046746387612361016,
+      "beta_exact": 0.05960029774142855,
+      "contrast_difference": 0.0016180514734811524,
+      "relative_nu_bound": 0.18712193112548617,
+      "relative_beta_bound": 0.11934203833765865,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    },
+    {
+      "innovation_diagonal": [
+        0.002,
+        0.07
+      ],
+      "scale": 0.05,
+      "nu": 0.05492175577056267,
+      "beta_exact": 0.06503923053316303,
+      "contrast_difference": 0.02407380204572096,
+      "relative_nu_bound": 0.21990831164170882,
+      "relative_beta_bound": 0.13026234302750866,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    },
+    {
+      "innovation_diagonal": [
+        0.002,
+        0.07
+      ],
+      "scale": 0.15,
+      "nu": 0.16476526731168797,
+      "beta_exact": 0.20675138358448153,
+      "contrast_difference": 0.07040274233806709,
+      "relative_nu_bound": 0.6651241121510756,
+      "relative_beta_bound": 0.4195505348132204,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    },
+    {
+      "innovation_diagonal": [
+        0.7,
+        1.3
+      ],
+      "scale": 0.05,
+      "nu": 0.01575545707343619,
+      "beta_exact": 0.021182623579208703,
+      "contrast_difference": 0.0009266559090031559,
+      "relative_nu_bound": 0.06302704379972505,
+      "relative_beta_bound": 0.042371585343699794,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    },
+    {
+      "innovation_diagonal": [
+        0.7,
+        1.3
+      ],
+      "scale": 0.15,
+      "nu": 0.047266371220308565,
+      "beta_exact": 0.06460294155932433,
+      "contrast_difference": 0.0025864987901625808,
+      "relative_nu_bound": 0.18920647160469048,
+      "relative_beta_bound": 0.12938608322072812,
+      "loewner_bounds_hold": true,
+      "contrast_bounds_hold": true
+    }
+  ],
+  "high_frequency_gaussian_analytic_checks": [
+    {
+      "n": 1,
+      "remainder_l2": 0.5260158831863196,
+      "variance": 2.2471417649044976,
+      "expected_log_jacobian": 0.35046860059756174,
+      "profiled_risk": 0.05436094038157302
+    },
+    {
+      "n": 2,
+      "remainder_l2": 0.2827952669154274,
+      "variance": 1.296509616168348,
+      "expected_log_jacobian": -0.08789213246540817,
+      "profiled_risk": 0.2177300039606859
+    },
+    {
+      "n": 4,
+      "remainder_l2": 0.14142135623730862,
+      "variance": 1.020536740204644,
+      "expected_log_jacobian": -0.2228080886863105,
+      "profiled_risk": 0.2329724410763389
+    },
+    {
+      "n": 8,
+      "remainder_l2": 0.07071067811865477,
+      "variance": 1.00500000000002,
+      "expected_log_jacobian": -0.2231435513141972,
+      "profiled_risk": 0.22563732206972673
+    },
+    {
+      "n": 16,
+      "remainder_l2": 0.03535533905932738,
+      "variance": 1.00125,
+      "expected_log_jacobian": -0.22314355131420985,
+      "profiled_risk": 0.2237681610144258
+    },
+    {
+      "n": 32,
+      "remainder_l2": 0.01767766952966369,
+      "variance": 1.0003125,
+      "expected_log_jacobian": -0.22314355131420985,
+      "profiled_risk": 0.2232997769052324
+    }
+  ],
+  "high_frequency_positive_risk_limit": 0.22314355131420985,
+  "checks": {
+    "score_identity": true,
+    "polar_identity": true,
+    "telescope_identity": true,
+    "all_covariance_bounds": true,
+    "oscillatory_remainder_decreases": true,
+    "oscillatory_nonzero_risk_limit": true
+  },
+  "passed": true
+}

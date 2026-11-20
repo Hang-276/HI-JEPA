@@ -1,0 +1,33 @@
+## main...origin/main
+ M README.md
+ M SHA256SUMS
+ M scripts/_experiment.py
+ M src/hijepa/config.py
+ M src/hijepa/losses.py
+?? .DS_Store
+?? DEEPSEEK_PROMPT.md
+?? DEEPSEEK_START_HERE.md
+?? HCF-JEPA-Next/
+?? configs/base_formal_v2.json
+?? configs/base_formal_v3.json
+?? configs/base_formal_v3_modal.json
+?? configs/matrix_baseline_v2.json
+?? configs/matrix_formal_v2.json
+?? diagnostics/
+?? docs/ICML_RESEARCH_TODO.md
+?? docs/LITERATURE_GAPS_AND_POSITIONING_20261116.md
+?? docs/RESEARCH_RECORD.md
+?? docs/V2_REVISION_PLAN.md
+?? docs/V3_RECOVERY_PLAN.md
+?? experiments/
+?? outputs/
+?? reports/
+?? scripts/make_v2_parity_bundle.py
+?? scripts/report_baseline_v2.py
+?? scripts/run_baseline_v2.sh
+?? scripts/run_formal_v2.sh
+?? scripts/run_v3_spectral.sh
+?? smoke/
+?? tests/test_v2_barrier.py
+?? tests/test_v3_spectral.py
+?? work/

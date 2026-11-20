@@ -1,0 +1,82 @@
+{
+  "scope": "analytic tail examples followed by conditional Gaussian closure and independent fixed score-moment fixtures; no actual Fine claim",
+  "source_path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/round5/TAIL_POSTERIOR_CHECKS.json",
+  "source_sha256": "105ea66c3dc8ad3d80558f12c6435014d73a4c32cc0b9d6f632c78ca8f9987aa",
+  "script_sha256": "fc3d2498d5cf85d85615f455a42bcedfbe8dbeb48194bce700e07bfd295a9189",
+  "rows": [
+    {
+      "cube_radius": 4.0,
+      "known_generative_joint_KL_bound": 2.222222222222222e-09,
+      "span_delta_bound": 3.4013022683894523,
+      "closure_L": -92.20011156229809,
+      "closure_E": null,
+      "hypothetical_anchor_covariance_lower_bound": 1.0,
+      "closure_gate_pass": false,
+      "same_anchor_normalized_axis_error_bound": null,
+      "separate_fixed_score_moments": [
+        0.3,
+        0.5,
+        1.4,
+        1.8
+      ],
+      "stationary_endpoint_K_assumed": 4,
+      "score_gap_after_error_budget": null,
+      "conditional_numeric_chain_nonempty": false,
+      "is_current_Fine_or_complete_joint_process_validation": false
+    },
+    {
+      "cube_radius": 6.0,
+      "known_generative_joint_KL_bound": 2.222222222222222e-15,
+      "span_delta_bound": 0.026689461301448104,
+      "closure_L": 0.358740601420684,
+      "closure_E": 2.752521073425525,
+      "hypothetical_anchor_covariance_lower_bound": 1.0,
+      "closure_gate_pass": false,
+      "same_anchor_normalized_axis_error_bound": null,
+      "separate_fixed_score_moments": [
+        0.3,
+        0.5,
+        1.4,
+        1.8
+      ],
+      "stationary_endpoint_K_assumed": 4,
+      "score_gap_after_error_budget": null,
+      "conditional_numeric_chain_nonempty": false,
+      "is_current_Fine_or_complete_joint_process_validation": false
+    },
+    {
+      "cube_radius": 8.0,
+      "known_generative_joint_KL_bound": 2.222222222222223e-21,
+      "span_delta_bound": 4.500149527143732e-05,
+      "closure_L": 0.9989199620883509,
+      "closure_E": 2.8116113216086285e-06,
+      "hypothetical_anchor_covariance_lower_bound": 1.0,
+      "closure_gate_pass": true,
+      "same_anchor_normalized_axis_error_bound": 0.001676786598795733,
+      "separate_fixed_score_moments": [
+        0.3,
+        0.5,
+        1.4,
+        1.8
+      ],
+      "stationary_endpoint_K_assumed": 4,
+      "score_gap_after_error_budget": 0.8872988357570057,
+      "conditional_numeric_chain_nonempty": true,
+      "is_current_Fine_or_complete_joint_process_validation": false
+    }
+  ],
+  "all_checks_pass": true,
+  "limitations": [
+    "A supplied by known analytic generative parameters, not an actual estimated posterior excess",
+    "Q0 equals anchor and K=4 only in this budget illustration",
+    "Score moments not asserted to arise from the likelihood example or any real data",
+    "Nonempty arithmetic does not establish network learning, current inputs or novelty"
+  ],
+  "cost": {
+    "scientific_array_reads": 0,
+    "model_execution": 0,
+    "new_physical_samples": 0,
+    "PRNG": 0,
+    "training_GPU_server": 0
+  }
+}

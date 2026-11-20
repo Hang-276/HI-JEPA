@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source_hashes_verified": true,
+  "chronological_lock_pilot_predict_score": true,
+  "distinct_calibration_datasets": 2048,
+  "calibration_pairs_per_dataset": 16384,
+  "calibration_pairs_total": 33554432,
+  "evaluation_trajectories": 6144,
+  "evaluation_transitions": 33554432,
+  "valid_interval_candidate_oracle_subset_checked": 2923,
+  "beta_coverage_counts": [
+    1020,
+    1023
+  ],
+  "accepted": {
+    "estimated": 2931,
+    "oracle": 3570
+  },
+  "wrong": {
+    "estimated": 0,
+    "oracle": 0
+  },
+  "max_simultaneous_unconditional_wrong_upper": 0.011985767510404222,
+  "cpu_threads": 1,
+  "fine_training": 0,
+  "real_fine_cache_reads": 0,
+  "compute_server_connections": 0,
+  "gpu_jobs": 0
+}

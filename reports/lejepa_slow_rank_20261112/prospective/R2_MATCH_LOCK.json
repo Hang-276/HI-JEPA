@@ -1,0 +1,42 @@
+{
+  "rule": "Compare separated wide/narrow with identical seeds. Include only prior weakest axis linear R² absolute difference at most 0.002.",
+  "scorer_sha256": "cea493ebe34954364badd51c7ee98b7d87d99307600566b62502004d7756bcf6",
+  "pairs": [
+    {
+      "seed": 1942,
+      "historical_min_axis_r2_wide": 0.9829187079840205,
+      "historical_min_axis_r2_narrow": 0.9831172495043232,
+      "absolute_r2_distance": 0.00019854152030274186,
+      "included": true,
+      "prior_wide_record_sha256": "b7154dcae95cc9bf1c7c16189157ed12e4a6bf3214a8ec1649a2e09fd68bd140",
+      "prior_narrow_record_sha256": "414c81842823e373aa4f1acc46f9bf3b31fcb9d248348f5fc6ced12b28a48023"
+    },
+    {
+      "seed": 3749,
+      "historical_min_axis_r2_wide": 0.9826589077475512,
+      "historical_min_axis_r2_narrow": 0.9827168299848211,
+      "absolute_r2_distance": 5.792223726996948e-05,
+      "included": true,
+      "prior_wide_record_sha256": "462c6e25d3963cc9d229c3e1927feabf5fd8ead2ba7561562ff04f62ecc1848a",
+      "prior_narrow_record_sha256": "144c30d2f02751b9454aac19ba4bcb20917b6e6341ddc243f393f7df88cf8579"
+    },
+    {
+      "seed": 5817,
+      "historical_min_axis_r2_wide": 0.9836131769026875,
+      "historical_min_axis_r2_narrow": 0.9833762070843185,
+      "absolute_r2_distance": 0.00023696981836895947,
+      "included": true,
+      "prior_wide_record_sha256": "9ba1304466fa3e0937d01b86ebbf55149c02787cdb8c4bb392d4d85375b67ff3",
+      "prior_narrow_record_sha256": "25ad73ada0ef59b1400ed2856cfbae49901d96b55e566ccb878d2cef8ebbcccc"
+    },
+    {
+      "seed": 7811,
+      "historical_min_axis_r2_wide": 0.9826530899213692,
+      "historical_min_axis_r2_narrow": 0.9829635684452344,
+      "absolute_r2_distance": 0.00031047852386512087,
+      "included": true,
+      "prior_wide_record_sha256": "dec17302b160a4d64416acdbc9575029e3da51aa83314d6af4d1689d0094885a",
+      "prior_narrow_record_sha256": "d4473cdc0502c5b485409fccbbce7c897c9ae6369ef49c25a5f79dea29c04ab7"
+    }
+  ]
+}

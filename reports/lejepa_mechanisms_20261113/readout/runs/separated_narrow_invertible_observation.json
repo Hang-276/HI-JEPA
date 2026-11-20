@@ -1,0 +1,396 @@
+{
+  "case": "separated_narrow",
+  "rates": [
+    0.93,
+    0.906,
+    0.904,
+    0.88
+  ],
+  "mode": "invertible_observation",
+  "seed": null,
+  "encoder_sha256": null,
+  "zero_variance_control": {
+    "reference_variance": [
+      0.9802294608327173,
+      0.9818873192718254,
+      0.9990763148376356,
+      0.0
+    ],
+    "status": "undefined_constant_reference_coordinate",
+    "zero_variance_axes": [
+      3
+    ],
+    "windows": 1024,
+    "top2_accuracy": null
+  },
+  "heldout_h2_slowest_linear_r2": {
+    "separated_narrow": -0.002014259272602237,
+    "crossed_narrow": -0.0020071923802158498
+  },
+  "readouts": {
+    "linear": {
+      "selection": {
+        "ridge_alpha_by_target": [
+          0.001,
+          1e-06,
+          0.001,
+          1e-06
+        ],
+        "validation_mse_by_target": [
+          0.08534658311956167,
+          0.2301798445480655,
+          0.06979354965295466,
+          1.3076115281320182e-12
+        ]
+      },
+      "evaluation": {
+        "separated_narrow": {
+          "heldout_physical_r2": [
+            0.9119641360994716,
+            0.7635938834708602,
+            0.9280385228931549,
+            0.9999999999987002
+          ],
+          "task": {
+            "reference_variance": [
+              0.9010331298754701,
+              0.7519246528648501,
+              0.9339871772115328,
+              1.0128514791942471
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 685,
+            "top2_accuracy": 0.6689453125,
+            "state_increment_mse_by_axis": [
+              0.1539315720970236,
+              0.3835100386894628,
+              0.13371084609067604,
+              1.955834292745009e-12
+            ],
+            "increment_score_mae_by_axis": [
+              0.11797259096707415,
+              0.35628624688857335,
+              0.11042569513452243,
+              3.4224106866518906e-06
+            ],
+            "normalized_score_mae_by_axis": [
+              0.1309638776914152,
+              0.26161085529987393,
+              0.09833881544058697,
+              0.019086249098770446
+            ],
+            "physical_cross_boundary_margin_mae": 0.2131770092266862,
+            "predicted_cross_boundary_margin_negative_fraction": 0.3310546875,
+            "fastest_inside_true_top2_windows": 379,
+            "fastest_inside_true_top2_accuracy": 0.7335092348284961
+          }
+        },
+        "crossed_narrow": {
+          "heldout_physical_r2": [
+            0.9119567336923491,
+            0.7635907027232026,
+            0.9280540450412893,
+            0.9999999999987006
+          ],
+          "task": {
+            "reference_variance": [
+              0.9010331298754701,
+              0.7519246528648501,
+              0.9339871772115328,
+              1.0128514791942471
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 707,
+            "top2_accuracy": 0.6904296875,
+            "state_increment_mse_by_axis": [
+              0.15394365336722501,
+              0.38352567135751053,
+              0.14048076459004807,
+              2.300072199604453e-12
+            ],
+            "increment_score_mae_by_axis": [
+              0.11797286447177402,
+              0.3563168068175159,
+              0.0902284030459748,
+              4.028116477080906e-06
+            ],
+            "normalized_score_mae_by_axis": [
+              0.13099337511156414,
+              0.2614077433964401,
+              0.08611958207206477,
+              0.02246755121857573
+            ],
+            "physical_cross_boundary_margin_mae": 0.2238293612732384,
+            "predicted_cross_boundary_margin_negative_fraction": 0.3095703125,
+            "fastest_inside_true_top2_windows": 151,
+            "fastest_inside_true_top2_accuracy": 0.7284768211920529
+          }
+        }
+      },
+      "seconds": 0.05718487501144409
+    },
+    "cubic": {
+      "selection": {
+        "ridge_alpha_by_target": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06
+        ],
+        "validation_mse_by_target": [
+          0.06110804852871139,
+          0.04179276146152359,
+          0.018176516821312206,
+          5.565929388889473e-12
+        ]
+      },
+      "evaluation": {
+        "separated_narrow": {
+          "heldout_physical_r2": [
+            0.938288403901789,
+            0.958815118299433,
+            0.983411629509295,
+            0.9999999999944814
+          ],
+          "task": {
+            "reference_variance": [
+              0.9297002969523228,
+              0.9393426458843468,
+              0.9842448339181625,
+              1.012851603310487
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 870,
+            "top2_accuracy": 0.849609375,
+            "state_increment_mse_by_axis": [
+              0.11267844009806116,
+              0.07823173622565631,
+              0.031849197199378905,
+              9.725229562027396e-12
+            ],
+            "increment_score_mae_by_axis": [
+              0.09486301331455042,
+              0.08188379912303594,
+              0.05016022740602617,
+              3.5622487462831512e-06
+            ],
+            "normalized_score_mae_by_axis": [
+              0.1057674942907764,
+              0.0780276255822647,
+              0.04436289984487927,
+              0.019086274920779002
+            ],
+            "physical_cross_boundary_margin_mae": 0.09525137890851607,
+            "predicted_cross_boundary_margin_negative_fraction": 0.150390625,
+            "fastest_inside_true_top2_windows": 379,
+            "fastest_inside_true_top2_accuracy": 0.8865435356200527
+          },
+          "paired_top2_vs_linear": {
+            "fixes": 222,
+            "new_errors": 37
+          }
+        },
+        "crossed_narrow": {
+          "heldout_physical_r2": [
+            0.938460168150091,
+            0.958377936706458,
+            0.9829394871967744,
+            0.9999999999944613
+          ],
+          "task": {
+            "reference_variance": [
+              0.9297002969523228,
+              0.9393426458843468,
+              0.9842448339181625,
+              1.012851603310487
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 893,
+            "top2_accuracy": 0.8720703125,
+            "state_increment_mse_by_axis": [
+              0.1126648806176559,
+              0.08165667435233197,
+              0.03408673222953964,
+              1.0503904610511168e-11
+            ],
+            "increment_score_mae_by_axis": [
+              0.09362834662141706,
+              0.07395888964712206,
+              0.04384633262386228,
+              4.019804257017175e-06
+            ],
+            "normalized_score_mae_by_axis": [
+              0.10511255972321784,
+              0.07414739194038236,
+              0.038439790105977346,
+              0.0224675689571698
+            ],
+            "physical_cross_boundary_margin_mae": 0.09196888807410497,
+            "predicted_cross_boundary_margin_negative_fraction": 0.1279296875,
+            "fastest_inside_true_top2_windows": 151,
+            "fastest_inside_true_top2_accuracy": 0.8940397350993378
+          },
+          "paired_top2_vs_linear": {
+            "fixes": 219,
+            "new_errors": 33
+          }
+        }
+      },
+      "seconds": 0.1891359589062631
+    },
+    "mlp": {
+      "selection": {
+        "selected_step": 3000,
+        "validation_trace": [
+          {
+            "step": 250,
+            "physical_mse": 0.024902233853936195
+          },
+          {
+            "step": 500,
+            "physical_mse": 0.01232523750513792
+          },
+          {
+            "step": 750,
+            "physical_mse": 0.006823846139013767
+          },
+          {
+            "step": 1000,
+            "physical_mse": 0.00423502316698432
+          },
+          {
+            "step": 1250,
+            "physical_mse": 0.003644827287644148
+          },
+          {
+            "step": 1500,
+            "physical_mse": 0.003140880959108472
+          },
+          {
+            "step": 1750,
+            "physical_mse": 0.0027513247914612293
+          },
+          {
+            "step": 2000,
+            "physical_mse": 0.0025645107962191105
+          },
+          {
+            "step": 2250,
+            "physical_mse": 0.00271236221306026
+          },
+          {
+            "step": 2500,
+            "physical_mse": 0.0021620672196149826
+          },
+          {
+            "step": 2750,
+            "physical_mse": 0.0024893006775528193
+          },
+          {
+            "step": 3000,
+            "physical_mse": 0.0019657209049910307
+          }
+        ]
+      },
+      "evaluation": {
+        "separated_narrow": {
+          "heldout_physical_r2": [
+            0.9933041373083294,
+            0.9990458367521531,
+            0.9992431945455894,
+            0.9999725451054845
+          ],
+          "task": {
+            "reference_variance": [
+              0.9935018665726948,
+              0.998475378393748,
+              0.9968651186345989,
+              1.0162123601627264
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 965,
+            "top2_accuracy": 0.9423828125,
+            "state_increment_mse_by_axis": [
+              0.01268297405714318,
+              0.0018125214844523525,
+              0.001322161269359641,
+              5.013840196483404e-05
+            ],
+            "increment_score_mae_by_axis": [
+              0.030718545163515586,
+              0.02442352230166817,
+              0.009693344384933016,
+              0.005339156991068395
+            ],
+            "normalized_score_mae_by_axis": [
+              0.035655529265196856,
+              0.026443938297131365,
+              0.009757438457080395,
+              0.01917092325673245
+            ],
+            "physical_cross_boundary_margin_mae": 0.033247232911670595,
+            "predicted_cross_boundary_margin_negative_fraction": 0.0576171875,
+            "fastest_inside_true_top2_windows": 379,
+            "fastest_inside_true_top2_accuracy": 0.9815303430079155
+          },
+          "paired_top2_vs_linear": {
+            "fixes": 295,
+            "new_errors": 15
+          }
+        },
+        "crossed_narrow": {
+          "heldout_physical_r2": [
+            0.9933034750992563,
+            0.9990424330703713,
+            0.9992468953498734,
+            0.999972277876845
+          ],
+          "task": {
+            "reference_variance": [
+              0.9935018665726948,
+              0.998475378393748,
+              0.9968651186345989,
+              1.0162123601627264
+            ],
+            "status": "scored",
+            "windows": 1024,
+            "top2_correct": 981,
+            "top2_accuracy": 0.9580078125,
+            "state_increment_mse_by_axis": [
+              0.01279219453250933,
+              0.0018548344814900465,
+              0.0013953304406434247,
+              5.2243008637232464e-05
+            ],
+            "increment_score_mae_by_axis": [
+              0.02970690772712115,
+              0.02419658130453212,
+              0.008739960680583464,
+              0.006070868502595506
+            ],
+            "normalized_score_mae_by_axis": [
+              0.03486869723766218,
+              0.026241480081328032,
+              0.008838233525016876,
+              0.022519802116081015
+            ],
+            "physical_cross_boundary_margin_mae": 0.032259868416761525,
+            "predicted_cross_boundary_margin_negative_fraction": 0.0419921875,
+            "fastest_inside_true_top2_windows": 151,
+            "fastest_inside_true_top2_accuracy": 1.0
+          },
+          "paired_top2_vs_linear": {
+            "fixes": 290,
+            "new_errors": 16
+          }
+        }
+      },
+      "seconds": 1.1352762500755489
+    }
+  }
+}

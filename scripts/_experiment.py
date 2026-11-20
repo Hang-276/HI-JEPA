@@ -42,7 +42,9 @@ def cli(*arguments, log: Path | None = None):
 
 
 def select_matrix(experiment: str, profile: str):
-    source = REPO_ROOT / "configs" / f"matrix_{profile}.json"
+    override = os.environ.get("HIJEPA_MATRIX")
+    source = (Path(override).expanduser().resolve() if override
+              else REPO_ROOT / "configs" / f"matrix_{profile}.json")
     canonical = read_json(source)
     by_name = {job["name"]: job for job in canonical["jobs"]}
     requested = [job["name"] for job in canonical["jobs"]

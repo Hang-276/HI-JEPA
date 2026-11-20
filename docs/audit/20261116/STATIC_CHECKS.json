@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "python": 28,
+    "shell": 11,
+    "json": 26,
+    "links": 35
+  },
+  "sealed_sources": 232,
+  "unchanged_science_files": {
+    "src/slowrepr/metrics.py": true,
+    "configs/fourroom_hjepa/default.json": true
+  },
+  "failures": [],
+  "model_or_metric_execution": false
+}

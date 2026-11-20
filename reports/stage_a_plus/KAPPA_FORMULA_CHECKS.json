@@ -1,0 +1,68 @@
+{
+  "activity": "deterministic_formula_checks_only",
+  "new_physical_data": 0,
+  "training": 0,
+  "model_inference": 0,
+  "PRNG_draws": 0,
+  "historical_result_modified": false,
+  "current_nominal_law_formula_rows": [
+    {
+      "law": "rich",
+      "tau": 1.0,
+      "std_multiplier": 3.0,
+      "kappa_curvature": 1.5802469135802468,
+      "barrier_45_degrees": 0.11351680528133125,
+      "fixed_formula_theta_radians": 0.39269908169872414,
+      "profiled_risk": 0.07066541852444407,
+      "inverse_z_error": 5.551115123125783e-17,
+      "hessian_relative_error": 4.888890403620394e-10
+    },
+    {
+      "law": "weak",
+      "tau": 0.01,
+      "std_multiplier": 1.02,
+      "kappa_curvature": 0.00034861805288564213,
+      "barrier_45_degrees": 4.35687134465365e-05,
+      "fixed_formula_theta_radians": 0.39269908169872414,
+      "profiled_risk": 2.1786492235144874e-05,
+      "inverse_z_error": 0.0,
+      "hessian_relative_error": 1.334118371332238e-10
+    }
+  ],
+  "fixed_three_dimensional_matrix_fixture": {
+    "variances": [
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.3,
+        0.9,
+        1.1
+      ],
+      [
+        0.8,
+        1.5,
+        0.95
+      ]
+    ],
+    "weights": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "kappas": {
+      "01": 0.24519230769230763,
+      "02": 0.02319423997055574,
+      "12": 0.11826156299840514
+    },
+    "global_variance_ratio": 1.875,
+    "profiled_risk": 0.01246735457133588,
+    "quotient_distance_sq": 0.29348968255137997,
+    "global_bound_lower": 0.0001210181355729588,
+    "mixing_mass": 0.25902864926588776,
+    "mathematical_inequalities_verified": true
+  },
+  "limits": "Matrix fixtures verify algebra only, not scientific validity of any trained representation."
+}

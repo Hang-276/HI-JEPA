@@ -1,0 +1,309 @@
+{
+  "utc": "2026-11-09T12:52:38.347832+00:00",
+  "forecast": "aa2063998fa64adf3b238d37a540366b4c7a03550fcfa4ad5f51a778c8596854",
+  "runs": {
+    "65": {
+      "cells": [
+        {
+          "ell": 0.16,
+          "n": 16384,
+          "rms": 0.005258666933249338,
+          "rms_per_ell": 0.032866668332808366,
+          "predicted_small_period_rms": 0.005259391172244646,
+          "population": 0.00020031832679754793,
+          "different": 39,
+          "negative_changes": 7859,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 15460,
+            "global": 10358,
+            "population": 16212
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 6
+          }
+        },
+        {
+          "ell": 0.08,
+          "n": 16384,
+          "rms": 0.002635458355555614,
+          "rms_per_ell": 0.03294322944444517,
+          "predicted_small_period_rms": 0.002629695586122323,
+          "population": 5.008737514724154e-05,
+          "different": 24,
+          "negative_changes": 7954,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 15988,
+            "global": 13379,
+            "population": 16341
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 5
+          }
+        },
+        {
+          "ell": 0.04,
+          "n": 16384,
+          "rms": 0.001311576136919733,
+          "rms_per_ell": 0.03278940342299332,
+          "predicted_small_period_rms": 0.0013148477930611615,
+          "population": 1.252233097205703e-05,
+          "different": 8,
+          "negative_changes": 8212,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 16211,
+            "global": 14910,
+            "population": 16371
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 3
+          }
+        },
+        {
+          "ell": 0.02,
+          "n": 16384,
+          "rms": 0.0006617728090493975,
+          "rms_per_ell": 0.03308864045246988,
+          "predicted_small_period_rms": 0.0006574238965305808,
+          "population": 3.130613193573033e-06,
+          "different": 5,
+          "negative_changes": 8164,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 16313,
+            "global": 15635,
+            "population": 16381
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 3
+          }
+        }
+      ],
+      "empirical_slope": 0.9977619947970242,
+      "population_slope": 1.9999059893703983,
+      "slope_ci": [
+        0.9879627017206791,
+        1.0072014162491054
+      ],
+      "phase_gain_at_016": 0.3114013671875,
+      "phase_gain_ci": [
+        0.3057861328125,
+        0.31658935546875
+      ]
+    },
+    "193": {
+      "cells": [
+        {
+          "ell": 0.16,
+          "n": 65536,
+          "rms": 0.00288793322335768,
+          "rms_per_ell": 0.0180495826459855,
+          "predicted_small_period_rms": 0.002884365150643539,
+          "population": 0.00020031832679754793,
+          "different": 116,
+          "negative_changes": 31020,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 61478,
+            "global": 30211,
+            "population": 64642
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 0
+          }
+        },
+        {
+          "ell": 0.08,
+          "n": 65536,
+          "rms": 0.0014460685284063367,
+          "rms_per_ell": 0.018075856605079207,
+          "predicted_small_period_rms": 0.0014421825753217696,
+          "population": 5.008737514724154e-05,
+          "different": 53,
+          "negative_changes": 31923,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 63942,
+            "global": 47201,
+            "population": 65333
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 7
+          }
+        },
+        {
+          "ell": 0.04,
+          "n": 65536,
+          "rms": 0.0007227928264661173,
+          "rms_per_ell": 0.018069820661652934,
+          "predicted_small_period_rms": 0.0007210912876608848,
+          "population": 1.252233097205703e-05,
+          "different": 29,
+          "negative_changes": 32527,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 64863,
+            "global": 56297,
+            "population": 65499
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 17
+          }
+        },
+        {
+          "ell": 0.02,
+          "n": 65536,
+          "rms": 0.0003593599840652463,
+          "rms_per_ell": 0.017967999203262315,
+          "predicted_small_period_rms": 0.0003605456438304424,
+          "population": 3.130613193573033e-06,
+          "different": 17,
+          "negative_changes": 32506,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 65242,
+            "global": 60842,
+            "population": 65524
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 9
+          }
+        }
+      ],
+      "empirical_slope": 1.0020088958540325,
+      "population_slope": 1.9999059893703983,
+      "slope_ci": [
+        0.9987928167770614,
+        1.0053037663229671
+      ],
+      "phase_gain_at_016": 0.4770965576171875,
+      "phase_gain_ci": [
+        0.473236083984375,
+        0.4809913635253906
+      ]
+    },
+    "769": {
+      "cells": [
+        {
+          "ell": 0.16,
+          "n": 16384,
+          "rms": 0.0014212794085241211,
+          "rms_per_ell": 0.008882996303275758,
+          "predicted_small_period_rms": 0.001409880780632619,
+          "population": 0.00020031832679754793,
+          "different": 33,
+          "negative_changes": 7363,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 14952,
+            "global": 2478,
+            "population": 15997
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 0
+          }
+        },
+        {
+          "ell": 0.08,
+          "n": 16384,
+          "rms": 0.0007044162218781014,
+          "rms_per_ell": 0.008805202773476267,
+          "predicted_small_period_rms": 0.0007049403903163095,
+          "population": 5.008737514724154e-05,
+          "different": 22,
+          "negative_changes": 7762,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 15925,
+            "global": 7880,
+            "population": 16299
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 0
+          }
+        },
+        {
+          "ell": 0.04,
+          "n": 16384,
+          "rms": 0.0003535099747794872,
+          "rms_per_ell": 0.008837749369487181,
+          "predicted_small_period_rms": 0.00035247019515815474,
+          "population": 1.252233097205703e-05,
+          "different": 13,
+          "negative_changes": 7956,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 16202,
+            "global": 11927,
+            "population": 16362
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 4
+          }
+        },
+        {
+          "ell": 0.02,
+          "n": 16384,
+          "rms": 0.00017504622716882763,
+          "rms_per_ell": 0.008752311358441381,
+          "predicted_small_period_rms": 0.00017623509757907737,
+          "population": 3.130613193573033e-06,
+          "different": 3,
+          "negative_changes": 8031,
+          "outside_phase_band": 0,
+          "accepted": {
+            "phase": 16305,
+            "global": 14151,
+            "population": 16377
+          },
+          "wrong": {
+            "phase": 0,
+            "global": 0,
+            "population": 1
+          }
+        }
+      ],
+      "empirical_slope": 1.0058824196129086,
+      "population_slope": 1.9999059893703983,
+      "slope_ci": [
+        1.0005035431648133,
+        1.0107672259885332
+      ],
+      "phase_gain_at_016": 0.7613525390625,
+      "phase_gain_ci": [
+        0.7545394897460938,
+        0.7679443359375
+      ]
+    }
+  },
+  "gates": {
+    "scale": true,
+    "coverage": true,
+    "sound_bounds": true,
+    "population_misuse": true
+  }
+}

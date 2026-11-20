@@ -1,0 +1,12 @@
+{
+  "master": 2026111305,
+  "replication_changes": ["new independent reference and TEST simulator streams"],
+  "fit_policy": "all original 128 readouts frozen; no fit, reselection or calibration change",
+  "primary_window": 193,
+  "primary_group": "strong",
+  "primary_score": "eight_ref_mean",
+  "primary_minimum_accuracy_gain": 0.01,
+  "primary_contrasts": ["temporal_1_minus_state", "temporal_1_minus_shuffled_1"],
+  "secondary_weak_group": "historical crossed 7811 wide and narrow, each with both original probe seeds",
+  "secondary_weak_diagnostic": "primary-window sign of paired increment MSE and top-2 differences against both comparators; full panel results retained"
+}

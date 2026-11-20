@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-10T07:16:13.364042+00:00",
+  "sources": {
+    "PROTOCOL.md": "48af35bb712e7082462514c845e6cb7786c954aa5d270611d171e4468fc3e796",
+    "METHOD.md": "4cb1aecca2e590da5ec8afbc564a70189e30e0dc8da121907c720019cf10769b",
+    "run.py": "781b85dce9ae24d4bfd84d77e60e4caa12624ca95a933d51c99702bdfbc3bbf1",
+    "knot_model.py": "ff2d4d200e30d21f4bba2955d85bba8b43fd58a1c73621b86785b3c4e3989062",
+    "linear_cert.py": "9407777a8375ea45537e3243b911819905140c8ec830371570d7c01de250fb31",
+    "../dose_state_dependent_20261110/run.py": "fe804dcd00630de2f03e77decc5df3ed58107708f5b0d410e18c927a30e39d97",
+    "../dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521"
+  },
+  "formal": 2026287102,
+  "bootstrap": 2026287103
+}

@@ -1,0 +1,18 @@
+{
+  "check": {
+    "affine_sd_maximum_error": 9.391598609909124e-12,
+    "relative_edge_rms": 2.5813046184970515e-10,
+    "iterations": [
+      21,
+      21,
+      20,
+      21
+    ],
+    "component_count": 1
+  },
+  "runtime": {
+    "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:59:26) [Clang 19.1.7 ]",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  }
+}

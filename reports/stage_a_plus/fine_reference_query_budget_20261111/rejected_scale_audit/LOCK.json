@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-11T06:03:12.450021+00:00",
+  "original_lock_sha": "7525195be023f86b810b6fd64eea90ec313ea7840ea87aafd3661b2aa07db651",
+  "sources": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/rejected_scale_audit/PROTOCOL.md": "a96dd23069a9d3ed202a3a623449539c655856fc71b5ccd835e623ee971673a2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/rejected_scale_audit/run.py": "d25981b02b9cfb32f735759febe7cfeb401e17364a81162d15a0d1eb857be35c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/rejected_scale_audit/capture_worker.py": "9b68568dca3da6245dc8a6e4d7a24a510e45efdb0956d96a10787b786ad936d4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/rejected_scale_audit/SELF_CHECK.json": "3e64ae1f890569ed6578e0c493a2eb79eecc73971f7e561551408205e4040f6f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/LOCK.json": "7525195be023f86b810b6fd64eea90ec313ea7840ea87aafd3661b2aa07db651",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/FORECAST.json": "6cc22dc51f978f4d08a4fd96bf57e9a00a22f77fe7ecf71fb76cb2984c09fc26",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_reference_query_budget_20261111/SUMMARY.json": "91ab5754566fe2c75f648725a3f5be2181da55b9d05638e0131043b106091b17"
+  },
+  "post_hoc": true,
+  "new_samples": 0,
+  "new_query_information": 0
+}

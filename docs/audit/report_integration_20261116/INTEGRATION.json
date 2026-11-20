@@ -1,0 +1,1223 @@
+{
+  "evidence_tier": "repository_integration_only",
+  "status": "completed",
+  "repository": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA",
+  "scope": "navigation and research-progress integration; no report or numerical artifact modifications",
+  "modified_navigation_documents": [
+    "README.md",
+    "results/README.md",
+    "results/low_dim_ar1/README.md",
+    "docs/PROGRESS_SYNC_JEPA.md",
+    "docs/RESEARCH_RECORD.md",
+    "docs/ICML_RESEARCH_TODO.md"
+  ],
+  "new_navigation_documents": [
+    "docs/README.md",
+    "docs/audit/report_integration_20261116/README.md"
+  ],
+  "reports_and_deliveries_preserved": [
+    {
+      "receipt": "results/theory_checks_20261116/DELIVERY.json",
+      "receipt_sha256": "e0c0f3f0816a3a57326dc303f4dd84be8ddb7cb1b2cb51103d26d45d531dba60",
+      "entries": 10,
+      "mismatches": []
+    },
+    {
+      "receipt": "results/exploratory_20261116/DELIVERY.json",
+      "receipt_sha256": "573c8a063bb93d0241576e560006dd699f83a0c995b61967d482fe30ccc2ac59",
+      "entries": 32,
+      "mismatches": []
+    }
+  ],
+  "protected_files": {
+    "baseline": "results/exploratory_20261116/protected_after.json",
+    "baseline_sha256": "6f46dcca75d116d1b7374056e3d788abab15b204897a7e1628db63cdd222623d",
+    "files": 47786,
+    "bytes": 33787529235,
+    "changed": [],
+    "missing": [],
+    "added": [],
+    "hash_seconds": 27.32931016618386
+  },
+  "backups_verified": 6,
+  "research_record_lines_563_579_unchanged": true,
+  "links": {
+    "checked": 219,
+    "broken": [],
+    "both_reports_reachable_from_root": true,
+    "details": [
+      {
+        "source": "README.md",
+        "target": "docs/README.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/PROGRESS_SYNC_JEPA.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/RESEARCH_RECORD.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/ICML_RESEARCH_TODO.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/LITERATURE_GAPS_AND_POSITIONING_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/README.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/LOW_DIM_REPRODUCTION.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/FOURROOM_HJEPA.md",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/audit/20261116",
+        "exists": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/audit/report_integration_20261116/README.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "low_dim_ar1/README.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "theory_checks_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "../docs/THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "theory_checks_20261116/DELIVERY.json",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "../docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "exploratory_20261116/probe1_summary.json",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "exploratory_20261116/probe2_summary.json",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "exploratory_20261116/ANCHOR_COMPARISON.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "exploratory_20261116/TMIN_FULL.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "../reports/stage_a_plus/LEARNING_GUIDE.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "../docs/PROGRESS_SYNC_JEPA.md",
+        "exists": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "../docs/README.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_natural_direction_repair_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_a1_joint_20261115/local/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_a1_joint_20261115/reference/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_a4_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_a3_gap_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_a2_readout_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_b2_lag_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../reports/lejepa_local_closeout_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../docs/LOW_DIM_REPRODUCTION.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../docs/THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../theory_checks_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../exploratory_20261116/probe1_summary.json",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../exploratory_20261116/probe2_summary.json",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../exploratory_20261116/ANCHOR_COMPARISON.md",
+        "exists": true
+      },
+      {
+        "source": "results/low_dim_ar1/README.md",
+        "target": "../../docs/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/HJEPA_REFACTOR_REVIEW.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/DELETED_FILES.tsv",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/DELETED_FILES.tsv",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/FILES_BEFORE.jsonl",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/PRESERVATION_CHECK.jsonl",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/PRESERVATION_SUMMARY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/STATIC_CHECKS.json",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/20261116/HJEPA_REFACTOR_REVIEW.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "../results/theory_checks_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "../results/exploratory_20261116/probe2_summary.json",
+        "exists": true
+      },
+      {
+        "source": "docs/PROGRESS_SYNC_JEPA.md",
+        "target": "audit/report_integration_20261116/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "LITERATURE_GAPS_AND_POSITIONING_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../outputs/HCF_LOCAL_VALIDATION_20261021/HCF_JEPA_LOCAL_VALIDATION_FINAL_REPORT_20261022.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/LEARNING_GUIDE.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../outputs/HCF_RESEARCH_REPLAN_20261025/historical_audit.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/STEP7_FINAL_DECISION.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/round6/ROUND6_REPORT.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/SLOW_REPRESENTATIONS_CHAT_TEACHING_20261112.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/dose_window_20261109/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/finite_reference_20261111/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/dose_stage1_20261110/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/fine_scale_transfer_20261111/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/fine_reference_query_budget_20261111/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_slow_rank_20261112/training/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_slow_rank_20261112/THEORY.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_mechanisms_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_slow_rank_20261112/prospective/replication/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_direction_a1_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_direction_a1_window_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_natural_direction_repair_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_state_dependent_error_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_dynamic_transfer_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_dynamic_boundary_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a1_joint_20261115/reference/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a1_joint_20261115/THEORY.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a1_joint_20261115/local/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a4_20261115/PROTOCOL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a4_20261115/panel/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a4_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a3_gap_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a2_readout_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a2_readout_20261115/weak/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b_transfer_20261115/THEORY.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b_transfer_20261115/PROTOCOL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b2_lag_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b2_lag_20261115/PROTOCOL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../archive/releases/hjepa_slow_selection_20261115/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../archive/releases/hjepa_slow_selection_20261115/config.json",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../archive/releases/hjepa_slow_selection_20261115/VALIDATION.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "LITERATURE_GAPS_AND_POSITIONING_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/a1/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/b3/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/AUDIT.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "ICML_RESEARCH_TODO.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/LEARNING_GUIDE.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/SLOW_REPRESENTATIONS_CHAT_TEACHING_20261112.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/THEORY.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/stage_a_plus/STEP7_FINAL_DECISION.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_slow_rank_20261112/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_mechanisms_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_dynamic_transfer_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_natural_direction_repair_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_dynamic_boundary_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a1_joint_20261115/reference/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a1_joint_20261115/local/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_local_closeout_20261116/AUDIT.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a4_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a3_gap_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_a2_readout_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../reports/lejepa_b2_lag_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../archive/releases/hjepa_slow_selection_20261115/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../archive/releases/hjepa_slow_selection_20261115/VALIDATION.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../results/theory_checks_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../results/theory_checks_20261116/DELIVERY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../results/exploratory_20261116/DELIVERY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../results/exploratory_20261116/ANCHOR_COMPARISON.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "../results/exploratory_20261116/TMIN_FULL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/RESEARCH_RECORD.md",
+        "target": "audit/report_integration_20261116/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "RESEARCH_RECORD.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "LITERATURE_GAPS_AND_POSITIONING_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a2_readout_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b2_lag_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/stage_a_plus/SLOW_REPRESENTATIONS_CHAT_TEACHING_20261112.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_slow_rank_20261112/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_mechanisms_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_dynamic_transfer_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_slow_rank_20261112/prospective/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_local_closeout_20261116/a1/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a1_joint_20261115/reference/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a1_joint_20261115/local/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a1_joint_20261115/THEORY.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_direction_a1_window_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_natural_direction_repair_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_state_dependent_error_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_dynamic_boundary_20261113/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a2_readout_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a3_gap_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_a4_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b_transfer_20261115/PROTOCOL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b2_lag_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_b_transfer_20261115/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "../reports/lejepa_local_closeout_20261116/b3/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/ICML_RESEARCH_TODO.md",
+        "target": "README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/theory_checks_20261116/RESULTS.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/theory_checks_20261116/SUMMARY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/theory_checks_20261116/DELIVERY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/probe1_summary.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/probe2_summary.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/DELIVERY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/ANCHOR_COMPARISON.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/TMIN_FULL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/figures/harmonic_boundary.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/figures/subspace_phase.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/figures/phase_all_risk.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/figures/phase_own_cal_risk.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/figures/stress.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/phase_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/anchor_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/stress_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../scripts/low_dim_ar1/verify_theory_moments.py",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../scripts/exploratory_20261116/probe1_harmonic_and_subspace.py",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../scripts/exploratory_20261116/probe2_phase_diagram_alignment.py",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/theory_checks_20261116/VALIDATION.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "../results/exploratory_20261116/validation.json",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "PROGRESS_SYNC_JEPA.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "RESEARCH_RECORD.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "ICML_RESEARCH_TODO.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "audit/report_integration_20261116/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "audit/20261116/README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/audit/report_integration_20261116/README.md",
+        "target": "../../THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/audit/report_integration_20261116/README.md",
+        "target": "../../EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/audit/report_integration_20261116/README.md",
+        "target": "../../README.md",
+        "exists": true
+      },
+      {
+        "source": "docs/audit/report_integration_20261116/README.md",
+        "target": "BEFORE.json",
+        "exists": true
+      },
+      {
+        "source": "docs/audit/report_integration_20261116/README.md",
+        "target": "INTEGRATION.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../src/slowrepr/metrics.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../reports/lejepa_slow_rank_20261112/training/run.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "THEORY_FORMALIZATION_20261116.md",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/DESIGN.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/figures/harmonic_boundary.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/figures/subspace_phase.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/TMIN_FULL.md",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/figures/phase_all_risk.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/figures/phase_own_cal_risk.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/ANCHOR_COMPARISON.md",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/figures/stress.svg",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/validation.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/INTEGRITY.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/protected_before.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/protected_after.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/probe1_harmonic_and_subspace.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/probe1_summary.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/probe2_phase_diagram_alignment.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/probe2_summary.json",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/phase_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/anchor_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../results/exploratory_20261116/stress_cells.csv",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/render_figures.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/export_tables.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/verify_sandbox_alignment.py",
+        "exists": true
+      },
+      {
+        "source": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+        "target": "../scripts/exploratory_20261116/verify_integrity.py",
+        "exists": true
+      }
+    ]
+  },
+  "repository_check": {
+    "command": "python3 scripts/check_repository.py",
+    "python3_directory": "/opt/miniconda3/bin",
+    "seconds": 0.16860866686329246,
+    "returncode": 0,
+    "result": {
+      "checks": {
+        "python": 38,
+        "shell": 11,
+        "json": 26,
+        "links": 35
+      },
+      "sealed_sources": 232,
+      "unchanged_science_files": {
+        "src/slowrepr/metrics.py": true,
+        "configs/fourroom_hjepa/default.json": true
+      },
+      "failures": [],
+      "model_or_metric_execution": false
+    }
+  },
+  "git_diff_check_returncode": 0,
+  "preexisting_git_status_entries_preserved": true,
+  "new_git_status_entries": [
+    "?? docs/README.md"
+  ],
+  "execution": {
+    "training": false,
+    "model_inference": false,
+    "synthetic_sampling": false,
+    "old_metric_recalculation": false,
+    "packages_installed": false,
+    "git_commit_or_push": false
+  },
+  "documents_after": [
+    {
+      "path": "README.md",
+      "bytes": 6184,
+      "sha256": "a20cfeee73c2fbd679197e57bae0acb5ec8f6876dd20f966b1b68ff59833af68"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1480,
+      "sha256": "541d28ccd262b2b7c1971bfc7abf0af328121a33be7936283efdac74ea42c19e"
+    },
+    {
+      "path": "results/low_dim_ar1/README.md",
+      "bytes": 2100,
+      "sha256": "0fbe545288066a7fc718924c52de3fef9273bbd7b223827a86f03bc02134819f"
+    },
+    {
+      "path": "docs/PROGRESS_SYNC_JEPA.md",
+      "bytes": 46010,
+      "sha256": "ca1ccd0791561debf4fb25d00911455fde41871f9f1d7b16427a22ac6ef6ede7"
+    },
+    {
+      "path": "docs/RESEARCH_RECORD.md",
+      "bytes": 80540,
+      "sha256": "21184e2f8202a1c9fb955755b36d93b497b93174faac3f10b0a0bfe7cfc8c5b6"
+    },
+    {
+      "path": "docs/ICML_RESEARCH_TODO.md",
+      "bytes": 26641,
+      "sha256": "fced3a6efaeb6712b2256fe5392ca04ca345a08013b1e71d94bf194d0a298f6a"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 5520,
+      "sha256": "3550ee0ea9d71f9ce71c6285808ca950e7dad72673ba473c5ba09aa4c70c9d3d"
+    },
+    {
+      "path": "docs/audit/report_integration_20261116/README.md",
+      "bytes": 1778,
+      "sha256": "e8496b1378dbe3dfae47033177bd86473aba93757d914287f42e2b22cba7f49e"
+    }
+  ],
+  "elapsed_seconds": 27.644355958793312
+}

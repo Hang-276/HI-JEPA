@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "predictor_lag10_wsig0.0005_seed202",
+  "cell_thresholds_sha256": "571a9002a2e6cafe7cce548b008290361e2e17bb73299335513fd80c8cf67fcb",
+  "probe_sha256": "2e4f805111b93d5f1f740f58083094f924af380e0abd6a682de61939ede04d58",
+  "test_prediction_sha256": "5cd4cb87142c7d6e3876254c6004b39a19030c50fed3f39edced3eb3b37b04a5"
+}

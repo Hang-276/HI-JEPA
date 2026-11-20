@@ -1,0 +1,21 @@
+{
+  "arm": "long_horizon_pred",
+  "seed": 1901,
+  "trace": [
+    {
+      "total_loss": 0.6382629871368408,
+      "pair_loss": 0.6262034177780151,
+      "sigreg_loss": 12.059595108032227,
+      "step": 1,
+      "elapsed_seconds": 0.01851675007492304
+    },
+    {
+      "total_loss": 0.5301564335823059,
+      "pair_loss": 0.5160372257232666,
+      "sigreg_loss": 14.119195938110352,
+      "step": 3,
+      "elapsed_seconds": 0.049856957979500294
+    }
+  ],
+  "elapsed_seconds": 0.05303883412852883
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "locked_sources_match": true,
+  "archive_case_decomposition_verified": true,
+  "train_folds": 4,
+  "train_trajectories": 96,
+  "near_trajectories": 25,
+  "only_sign_rescue_same_with_mismatched_action": [
+    [
+      41,
+      0
+    ]
+  ],
+  "train_mechanism_gate_passed": false,
+  "new_cal_action_predictions": 0,
+  "new_cal_array_reads": 0,
+  "cal_case_information": "Phase 1 and 3 archived JSON only",
+  "numeric_threads": 1,
+  "fine_training": 0,
+  "fine_forwards": 0,
+  "new_trajectories": 0,
+  "server_connections": 0,
+  "gpu_jobs": 0
+}

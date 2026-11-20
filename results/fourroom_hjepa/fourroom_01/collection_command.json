@@ -1,0 +1,12 @@
+[
+  "/root/autodl-tmp/hjepa-slow-selection/.venv/bin/python",
+  "/root/autodl-tmp/hjepa-slow-selection/assets/H-JEPA/scripts/data/collect_fourroom_distractors.py",
+  "cache_dir=/root/autodl-tmp/hjepa-slow-selection/assets/data/fourroom_01",
+  "dataset_name=fourroom",
+  "seed=2026111541",
+  "num_traj=null",
+  "num_transitions=1510400",
+  "ego_policy.mixture.0.params.action_repeat_prob=0.0",
+  "hydra.run.dir=/root/autodl-tmp/hjepa-slow-selection/results/fourroom_01/collection",
+  "hydra.job.chdir=false"
+]

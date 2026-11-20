@@ -1,0 +1,65 @@
+{
+  "source_hashes": {
+    "lejepa_direction_a1_20261113/natural/run.py": "157a5491b0696c22323cf75e4f475eb659a9651b63001e36ee678285ca66fba8",
+    "lejepa_direction_a1_20261113/natural/PROTOCOL.md": "d5e4613a98b3d6d9aa3d2996314907e5c1886f6a97772b62b6c5497e1cc31ffc",
+    "lejepa_direction_a1_20261113/natural/protocol.json": "1321f246443f7dbf48e146c8009b0fe971fb3d5410d5d0085510d899f28d6ea6",
+    "lejepa_direction_a1_20261113/natural/score.py": "720fffd140d2b2c348623a75865694c6d5b8ffa0b77bc839a7fba6bbe74e4c65",
+    "lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "lejepa_slow_rank_20261112/prospective/pipeline_forecast_receipt.json": "a3a46b47092dc0359587f17d62bb1559f78be1987dc6316809575596ca7702ad"
+  },
+  "config": {
+    "master_primary": 2026111306,
+    "master_replication": 2026111307,
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ]
+    },
+    "n_axes": 16,
+    "n_fit": 48,
+    "n_validation": 32,
+    "n_conformal": 32,
+    "n_reference": 2048,
+    "n_test": 64,
+    "length": 193,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "ridge_alphas": [
+      0,
+      1e-06,
+      0.001,
+      0.1
+    ],
+    "conformal_alpha": 0.05,
+    "bootstrap_seed": 1320261113,
+    "bootstrap_repetitions": 4096,
+    "primary_minimum_gain": 0.01,
+    "diagnostic_coverages": [
+      0.2,
+      0.5
+    ]
+  },
+  "round": "primary",
+  "smoke": true,
+  "parameter_sha256": {
+    "separated_wide__separated_wide_1942.json": "237e3498af13c6a8fa548d6622c1188a5507450b90c86ea5d16a1035d6c6a021",
+    "separated_wide__crossed_wide_1942.json": "269f5a4ba34cadef8c7c66bc47e793a135afeb88112077180bbbd7c2e7290c36",
+    "separated_wide__separated_narrow_1942.json": "21e6efe68e26ef7bba7b7af447ea4b3fca6d9ba063402dc1881f90ac3f135ad3",
+    "separated_wide__crossed_narrow_1942.json": "eb00634cc7463634e2e06036468e3de5a5dac0a03231b5ded338d118a8370076"
+  },
+  "initial_receipt_sha256": null,
+  "prediction_sha256": {
+    "separated_wide__separated_wide_1942.npz": "89126359f110464395345424725f642f0e1713dbbe1d9630414f8f8a588ad299",
+    "separated_wide__crossed_wide_1942.npz": "2d38eebb07493e036517edbc9228c764fea1fa994c9b0de0ab9f074154a3b305",
+    "separated_wide__separated_narrow_1942.npz": "d5f54e1b799175b3c004d2da3c49ddd4b99f8dd4ac8cd27fba4f3ef49c02e05a",
+    "separated_wide__crossed_narrow_1942.npz": "ba20417ac0a33c452f21acb89880c931f6e6f880803f7013e3f428c55e3f60ac"
+  },
+  "elapsed_seconds": 0.10043045924976468
+}

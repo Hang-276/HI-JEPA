@@ -1,0 +1,19 @@
+{
+  "seed": 2026110721,
+  "pilot_seed": 1922026,
+  "design_reps_per_cell": 65536,
+  "validation_reps_per_cell": 32768,
+  "batch": 256,
+  "rho": 0.97,
+  "hidden_phi_deg": [41.0, 44.0],
+  "psi_deg": [11.25, 30.0],
+  "lags": [4, 16, 32],
+  "target_wrong_design": 0.042,
+  "wrong_budget": 0.05,
+  "family_alpha": 0.05,
+  "cells": [
+    {"name": "strong", "n": 192, "tau": 0.8, "distance_deg": 7.0},
+    {"name": "weak", "n": 192, "tau": 0.2, "distance_deg": 7.0},
+    {"name": "small_gap", "n": 192, "tau": 0.8, "distance_deg": 2.0}
+  ]
+}

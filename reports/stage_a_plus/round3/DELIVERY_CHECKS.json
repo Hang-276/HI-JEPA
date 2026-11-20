@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "artifact integrity, deterministic formulas, known-core finite-array bounds; not population/novelty certification",
+  "previous_manifests_verified_unchanged": [
+    {
+      "directory": "outputs/HCF_STAGE_A_20261104",
+      "unchanged_manifest_files": 38
+    },
+    {
+      "directory": "reports/stage_a_plus",
+      "unchanged_manifest_files": 20
+    },
+    {
+      "directory": "reports/stage_a_plus/round2",
+      "unchanged_manifest_files": 23
+    }
+  ],
+  "scripts_AST_parsed": [
+    "affine_geometry_audit.py",
+    "affine_local_checks.py",
+    "chained_score_audit.py",
+    "shear_barrier_audit.py",
+    "shear_barrier_checks.py",
+    "shear_independent_review.py"
+  ],
+  "JSON_files_parsed": [
+    "AFFINE_GEOMETRY_AUDIT.json",
+    "AFFINE_LOCAL_CHECKS.json",
+    "CHAINED_SCORE_AUDIT.json",
+    "SHEAR_BARRIER_AUDIT.json",
+    "SHEAR_BARRIER_CHECKS.json",
+    "SHEAR_INDEPENDENT_CHECKS.json"
+  ],
+  "recorded_script_scope_and_theory_hashes_match": true,
+  "unique_inputs_rehashed": 7,
+  "input_mismatches": [],
+  "local_markdown_links_checked": 54,
+  "missing_local_links": [],
+  "table_column_errors": [],
+  "preexisting_tracked_diff_unchanged_file_set_and_total": true,
+  "tracked_diff_numstat": "88\t0\tREADME.md\n21\t4\tSHA256SUMS\n3\t1\tscripts/_experiment.py\n11\t0\tsrc/hijepa/config.py\n40\t1\tsrc/hijepa/losses.py\n",
+  "affine_formula_checks": {
+    "positive_kappa_affine": true,
+    "explicit_radius_satisfies_condition": true,
+    "uniform_taylor_remainders": true,
+    "pointwise_taylor_remainders": true,
+    "finite_neighborhood_coercivity": true,
+    "normalized_score_remainders": true,
+    "target_dual_linear_coefficients": true,
+    "target_risk_gap_bounds": true,
+    "independent_ar_second_order_formula": true,
+    "independent_ar_nonzero_shift": true,
+    "single_shear_exact_formula": true
+  },
+  "shear_independent_checks": {
+    "all_96_rows_reviewed": true,
+    "negative_baseline_rows_are_zero": true,
+    "all_saved_general_coefficients": true,
+    "finite_array_general_score_identity": true,
+    "saved_roots_are_gap_ties": true,
+    "profile_risk_identity": true,
+    "all_eight_root_branch_fixtures": true,
+    "nonunit_sigma_score_fixture": true
+  },
+  "affine_geometry_summary": {
+    "parents_total": 12,
+    "parents_complete": 12,
+    "N_A_parents": 0,
+    "uniform_radius_r_ball_condition": 1,
+    "pointwise_min_kappa_condition": 12,
+    "pointwise_directional_quadratic_condition": 12,
+    "F_over_quadratic_range": [
+      0.9957355888233024,
+      1.0036718085666423
+    ],
+    "B_Fro_range": [
+      0.02976446812029075,
+      0.11217167510650557
+    ],
+    "finite_affine_all4_positive": {
+      "train": 12,
+      "cal": 9
+    }
+  },
+  "chained_score_summary": {
+    "train": {
+      "compatible": 12,
+      "all4_positive_affine_lower": 12,
+      "all4_positive_chained_CS": 9,
+      "all4_positive_chained_corr": 12,
+      "all4_positive_exact_actual_gap": 12,
+      "parent_split_denominator": 12,
+      "pair_denominator": 48,
+      "pair_positive_CS": 36,
+      "pair_positive_corr": 48
+    },
+    "cal": {
+      "compatible": 12,
+      "all4_positive_affine_lower": 9,
+      "all4_positive_chained_CS": 8,
+      "all4_positive_chained_corr": 9,
+      "all4_positive_exact_actual_gap": 9,
+      "parent_split_denominator": 12,
+      "pair_denominator": 48,
+      "pair_positive_CS": 35,
+      "pair_positive_corr": 36
+    }
+  },
+  "shear_diagnostic": {
+    "physical_instances": 4,
+    "supports_per_instance": 2,
+    "directed_shears": 96,
+    "valid_baseline_directions": 84,
+    "same_negative_baseline_directions": 12,
+    "checks": {
+      "max_score_formula_error": 5.551115123125783e-16,
+      "max_root_gap_error": 6.661338147750939e-16,
+      "all_inside_radius_samples_strict": true,
+      "all_risk_identities": true
+    },
+    "minimum_single_shear_is_general_affine_strict_failure_upper_bound": true
+  },
+  "cost": {
+    "unique_physical_members_read": 8,
+    "physical_member_read_calls_including_serialization_retry": 24,
+    "new_OLS_polar_fits": 0,
+    "neural_training": 0,
+    "model_forward": 0,
+    "checkpoint_load": 0,
+    "PRNG_calls": 0,
+    "new_physical_trajectories": 0,
+    "TEST_FINAL_array_reads": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0,
+    "chained_audit_new_array_reads": 0
+  },
+  "independent_reviews": {
+    "local_proof": "AFFINE_INDEPENDENT_REVIEW.md",
+    "shear_proof_and_96_records": "SHEAR_INDEPENDENT_REVIEW.md",
+    "affine_numerical_application_and_96_pair_join": "NUMERICAL_INDEPENDENT_REVIEW.md",
+    "synthesis": "passed; clarified physical versus native Fine indices"
+  },
+  "delivery_format_fixes": "escaped table absolute-value pipes and clarified physical axis labels; no scientific values changed",
+  "decision": "Retain conditional stability/failure-boundary research; actual-Fine population and independent-value claims unestablished; server/GPU stage deferred"
+}

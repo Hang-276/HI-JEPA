@@ -1,17 +1,1 @@
-{
-  "local_integration": "engineering coverage; no formal recovery or utility claim",
-  "formal": "held-out synthetic mechanism evidence on a single Linux CUDA environment; not natural/visual/causal validation",
-  "dataset_truth": "prediction sees observations; state map access for rank is declared and shared; labels are audit/evaluation only",
-  "spectral_access": "bounded deterministic simulator queries around declared known fixed point, shared across comparisons; not passive-only learning",
-  "not_proposal_mandates": [
-    "MLP sizes",
-    "trajectory and update counts",
-    "seeds of formal experiments",
-    "sweep grid",
-    "SIGReg slice count",
-    "scale objective",
-    "stop-gradient target",
-    "network norm bounds",
-    "monitor thresholds"
-  ]
-}
+legacy_hijepa/evidence_policy.json

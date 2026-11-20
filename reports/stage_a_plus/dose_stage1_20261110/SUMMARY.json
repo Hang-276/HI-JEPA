@@ -1,0 +1,221 @@
+{
+  "utc": "2026-11-10T07:17:45.258796+00:00",
+  "forecast": "9f485d296ef7185937427e08e773566ec0819e9dbf03f0da27184fa07837d74e",
+  "windows": 3072,
+  "panels": 24,
+  "results": {
+    "tanh": {
+      "noisy": {
+        "rules": {
+          "A": {
+            "accepted": 1519,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B_graph": {
+            "accepted": 1519,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B": {
+            "accepted": 1519,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "C": {
+            "accepted": 2473,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          }
+        },
+        "ci_miss_panels": 0,
+        "outside_B": 0,
+        "outside_C": 0,
+        "witness_pairs": 308,
+        "unresolved": 291,
+        "witness_fraction": 0.5141903171953256,
+        "solved_windows": 1553,
+        "graph_failures": 0,
+        "gain_ci": {
+          "B_minus_A": [
+            0.0,
+            0.0
+          ],
+          "C_minus_B": [
+            0.291015625,
+            0.3274739583333333
+          ],
+          "C_minus_A": [
+            0.291015625,
+            0.3274739583333333
+          ]
+        }
+      },
+      "exact": {
+        "rules": {
+          "A": {
+            "accepted": 2534,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B_graph": {
+            "accepted": 2545,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B": {
+            "accepted": 2555,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "C": {
+            "accepted": 2751,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          }
+        },
+        "ci_miss_panels": 0,
+        "outside_B": 0,
+        "outside_C": 0,
+        "witness_pairs": 0,
+        "unresolved": 321,
+        "witness_fraction": 0.0,
+        "solved_windows": 527,
+        "graph_failures": 0,
+        "gain_ci": {
+          "B_minus_A": [
+            0.00390625,
+            0.010091145833333334
+          ],
+          "C_minus_B": [
+            0.056966145833333336,
+            0.0712890625
+          ],
+          "C_minus_A": [
+            0.06380208333333333,
+            0.078125
+          ]
+        }
+      }
+    },
+    "sin": {
+      "noisy": {
+        "rules": {
+          "A": {
+            "accepted": 1542,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B_graph": {
+            "accepted": 1542,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B": {
+            "accepted": 1542,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "C": {
+            "accepted": 2484,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          }
+        },
+        "ci_miss_panels": 0,
+        "outside_B": 0,
+        "outside_C": 0,
+        "witness_pairs": 302,
+        "unresolved": 286,
+        "witness_fraction": 0.5136054421768708,
+        "solved_windows": 1530,
+        "graph_failures": 0,
+        "gain_ci": {
+          "B_minus_A": [
+            0.0,
+            0.0
+          ],
+          "C_minus_B": [
+            0.2867838541666667,
+            0.3251953125
+          ],
+          "C_minus_A": [
+            0.2867838541666667,
+            0.3251953125
+          ]
+        }
+      },
+      "exact": {
+        "rules": {
+          "A": {
+            "accepted": 2557,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B_graph": {
+            "accepted": 2560,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "B": {
+            "accepted": 2568,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          },
+          "C": {
+            "accepted": 2741,
+            "wrong": 0,
+            "unconditional_wrong": 0.0,
+            "conditional_wrong": 0.0
+          }
+        },
+        "ci_miss_panels": 0,
+        "outside_B": 0,
+        "outside_C": 0,
+        "witness_pairs": 0,
+        "unresolved": 331,
+        "witness_fraction": 0.0,
+        "solved_windows": 512,
+        "graph_failures": 0,
+        "gain_ci": {
+          "B_minus_A": [
+            0.0016276041666666667,
+            0.005859375
+          ],
+          "C_minus_B": [
+            0.048502604166666664,
+            0.064453125
+          ],
+          "C_minus_A": [
+            0.052083333333333336,
+            0.06803385416666667
+          ]
+        }
+      }
+    }
+  },
+  "gains": {
+    "tanh": 0.310546875,
+    "sin": 0.306640625
+  },
+  "gates": {
+    "coverage": true,
+    "half_remaining_witnessed": true,
+    "confidence_event_sound": true
+  }
+}

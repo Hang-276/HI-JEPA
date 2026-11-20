@@ -1,0 +1,1083 @@
+{
+  "forecast_receipt_sha256": "c5691ada2ac58ecd109bf586127506ccbc0f73a08eec797baa0c0aefa5c16a41",
+  "reveal_sha256": "1fefd67be8f1268625796e1090a9706b4d75e352d50e3406782d862c57a19bf1",
+  "gain_below_minimum_with_suppression_both_rounds": false,
+  "elapsed_seconds": 0.02335670916363597,
+  "results": {
+    "smoke": {
+      "all": {
+        "task_count": 1,
+        "active_count": 1,
+        "suppression_count": 0,
+        "suppression_share": 0.0,
+        "by_arm": {
+          "base": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "target": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "reverse": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "wrong_donor": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "joint_linear": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "oracle_diagnostic": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          }
+        },
+        "paired_target_minus": {
+          "base": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "reverse": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "wrong_donor": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "joint_linear": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "passes": false
+      },
+      "active": {
+        "task_count": 1,
+        "active_count": 1,
+        "suppression_count": 0,
+        "suppression_share": 0.0,
+        "by_arm": {
+          "base": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "target": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "reverse": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "wrong_donor": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "joint_linear": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          },
+          "oracle_diagnostic": {
+            "accuracy": 1.0,
+            "correct": 16.0,
+            "repairs": 0.0,
+            "new_errors": 0.0,
+            "net_change": 0.0
+          }
+        },
+        "paired_target_minus": {
+          "base": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "reverse": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "wrong_donor": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "joint_linear": {
+            "gain": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "passes": false
+      },
+      "process": {
+        "separated_wide": {
+          "task_count": 1,
+          "active_count": 1,
+          "suppression_count": 0,
+          "suppression_share": 0.0,
+          "by_arm": {
+            "base": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            },
+            "target": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            },
+            "reverse": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            },
+            "wrong_donor": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            },
+            "joint_linear": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            },
+            "oracle_diagnostic": {
+              "accuracy": 1.0,
+              "correct": 16.0,
+              "repairs": 0.0,
+              "new_errors": 0.0,
+              "net_change": 0.0
+            }
+          },
+          "paired_target_minus": {
+            "base": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "reverse": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "wrong_donor": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            },
+            "joint_linear": {
+              "gain": 0.0,
+              "interval_95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "passes": false
+        },
+        "separated_narrow": null
+      },
+      "gain_below_minimum_with_suppression": false,
+      "cells": {
+        "mlp__separated_wide__separated_wide_1942": {
+          "cell": {
+            "name": "separated_wide_1942",
+            "layer": "mlp",
+            "process": "separated_wide",
+            "provenance": {
+              "reports/lejepa_slow_rank_20261112/training/runs/separated_wide_1942.pt": "2a6d8fd603a91719647dff5a08412dcad45cfef043722424c567095917ffb98b",
+              "reports/lejepa_mechanisms_20261113/readout/runs/separated_wide_1942_readouts.pt": "d1c5cc2c4dc6250611433731d90105a327cdda32bcb7c48108386dc3b2929628"
+            }
+          },
+          "recipient": 1,
+          "donor": 2,
+          "wrong_donor": 0,
+          "active": true,
+          "coefficient": -0.008261065016563205,
+          "cal_state_mse": {
+            "base": [
+              0.003970874729011559,
+              0.0017231066452867926,
+              0.0015435430787627976,
+              0.0010633850116316442
+            ],
+            "target": [
+              0.003970874729011559,
+              0.0016557108207180494,
+              0.0015435430787627976,
+              0.0010633850116316442
+            ],
+            "reverse": [
+              0.003970874729011559,
+              0.0019199449317903584,
+              0.0015435430787627976,
+              0.0010633850116316442
+            ],
+            "wrong_donor": [
+              0.003970874729011559,
+              0.0018752294988990323,
+              0.0015435430787627976,
+              0.0010633850116316442
+            ],
+            "joint_linear": [
+              0.003315257590198867,
+              0.0016135546932941679,
+              0.0015283048373292327,
+              0.0010410634993870225
+            ]
+          },
+          "c_squared_over_audit_baseline_recipient_mse": 0.04414997629767898,
+          "audit_target_minus_base_other_donor_l2": 3.4049075844510765e-05,
+          "audit_target_minus_base_own_loading": 3.0570576625255086e-05,
+          "audit_by_arm": {
+            "base": {
+              "forward_loading_rows": [
+                [
+                  1.0017256487555237,
+                  -0.009011591550801001,
+                  0.011079064982893048,
+                  -0.014588265764964118
+                ],
+                [
+                  0.005663337021198781,
+                  1.0035030017783857,
+                  -0.0012704899323802094,
+                  -0.003649970799614558
+                ],
+                [
+                  0.001998393863420643,
+                  0.003700561194409483,
+                  0.9918620242878147,
+                  -0.004499355678783062
+                ],
+                [
+                  0.0010025478598890162,
+                  0.0022827523823151347,
+                  0.0005392401436422696,
+                  1.0022137247175975
+                ]
+              ],
+              "intended_donor_loading": -0.0012704899323802094,
+              "recipient_own_loading": 1.0035030017783857,
+              "other_donor_l2": 0.006737631115883357,
+              "physical_recovery": {
+                "mse": [
+                  0.0034520711668703788,
+                  0.0015457583657065785,
+                  0.0014365522643063854,
+                  0.0014337499480390312
+                ],
+                "r2": [
+                  0.9967584541617737,
+                  0.9984790979736519,
+                  0.9985795719846802,
+                  0.9987888401083748
+                ]
+              }
+            },
+            "target": {
+              "forward_loading_rows": [
+                [
+                  1.0017256487555237,
+                  -0.009011591550801001,
+                  0.011079064982893048,
+                  -0.014588265764964118
+                ],
+                [
+                  0.005679845882833177,
+                  1.003533572355011,
+                  0.006923346737721663,
+                  -0.003687140269409692
+                ],
+                [
+                  0.001998393863420643,
+                  0.003700561194409483,
+                  0.9918620242878147,
+                  -0.004499355678783062
+                ],
+                [
+                  0.0010025478598890162,
+                  0.0022827523823151347,
+                  0.0005392401436422696,
+                  1.0022137247175975
+                ]
+              ],
+              "intended_donor_loading": 0.006923346737721663,
+              "recipient_own_loading": 1.003533572355011,
+              "other_donor_l2": 0.0067716801917278675,
+              "physical_recovery": {
+                "mse": [
+                  0.0034520711668703788,
+                  0.0015725836628686057,
+                  0.0014365522643063854,
+                  0.0014337499480390312
+                ],
+                "r2": [
+                  0.9967584541617737,
+                  0.9984527040367235,
+                  0.9985795719846802,
+                  0.9987888401083748
+                ]
+              }
+            },
+            "reverse": {
+              "forward_loading_rows": [
+                [
+                  1.0017256487555237,
+                  -0.009011591550801001,
+                  0.011079064982893048,
+                  -0.014588265764964118
+                ],
+                [
+                  0.005646828159564534,
+                  1.003472431201761,
+                  -0.00946432660248151,
+                  -0.0036128013298195845
+                ],
+                [
+                  0.001998393863420643,
+                  0.003700561194409483,
+                  0.9918620242878147,
+                  -0.004499355678783062
+                ],
+                [
+                  0.0010025478598890162,
+                  0.0022827523823151347,
+                  0.0005392401436422696,
+                  1.0022137247175975
+                ]
+              ],
+              "intended_donor_loading": -0.00946432660248151,
+              "recipient_own_loading": 1.003472431201761,
+              "other_donor_l2": 0.006703655846804573,
+              "physical_recovery": {
+                "mse": [
+                  0.0034520711668703788,
+                  0.0016553091123143043,
+                  0.0014365522643063854,
+                  0.0014337499480390312
+                ],
+                "r2": [
+                  0.9967584541617737,
+                  0.9983713088416633,
+                  0.9985795719846802,
+                  0.9987888401083748
+                ]
+              }
+            },
+            "wrong_donor": {
+              "forward_loading_rows": [
+                [
+                  1.0017256487555237,
+                  -0.009011591550801001,
+                  0.011079064982893048,
+                  -0.014588265764964118
+                ],
+                [
+                  0.013553217680140598,
+                  1.003432023879426,
+                  -0.00118322801527095,
+                  -0.0037648721960694617
+                ],
+                [
+                  0.001998393863420643,
+                  0.003700561194409483,
+                  0.9918620242878147,
+                  -0.004499355678783062
+                ],
+                [
+                  0.0010025478598890162,
+                  0.0022827523823151347,
+                  0.0005392401436422696,
+                  1.0022137247175975
+                ]
+              ],
+              "intended_donor_loading": -0.00118322801527095,
+              "recipient_own_loading": 1.003432023879426,
+              "other_donor_l2": 0.014066412909409867,
+              "physical_recovery": {
+                "mse": [
+                  0.0034520711668703788,
+                  0.0017080302233019992,
+                  0.0014365522643063854,
+                  0.0014337499480390312
+                ],
+                "r2": [
+                  0.9967584541617737,
+                  0.998319435504723,
+                  0.9985795719846802,
+                  0.9987888401083748
+                ]
+              }
+            },
+            "joint_linear": {
+              "forward_loading_rows": [
+                [
+                  0.9984821458625381,
+                  0.012541683828951733,
+                  0.0035708201079029285,
+                  -0.003191987158950357
+                ],
+                [
+                  0.0002774694115776189,
+                  1.0017121995966385,
+                  0.006844909655892316,
+                  -0.000692900504997291
+                ],
+                [
+                  0.0033108535846815765,
+                  0.00020848977608037926,
+                  0.9902429031193676,
+                  -0.004142653903336788
+                ],
+                [
+                  -0.0034621245113161296,
+                  0.0027997260625411565,
+                  0.0008220072625169221,
+                  1.0012751607742978
+                ]
+              ],
+              "intended_donor_loading": 0.006844909655892316,
+              "recipient_own_loading": 1.0017121995966385,
+              "other_donor_l2": 0.0007463915756402473,
+              "physical_recovery": {
+                "mse": [
+                  0.003197938952085455,
+                  0.0015131793480276038,
+                  0.0014470101933619368,
+                  0.001442282933761852
+                ],
+                "r2": [
+                  0.9969970880668626,
+                  0.9985111531092434,
+                  0.9985692314382331,
+                  0.998781631870929
+                ]
+              }
+            },
+            "oracle_diagnostic": {
+              "forward_loading_rows": [
+                [
+                  1.0017256487555237,
+                  -0.009011591550801001,
+                  0.011079064982893048,
+                  -0.014588265764964118
+                ],
+                [
+                  0.005663337021198893,
+                  1.0035030017783861,
+                  0.006990575084183255,
+                  -0.0036499707996146885
+                ],
+                [
+                  0.001998393863420643,
+                  0.003700561194409483,
+                  0.9918620242878147,
+                  -0.004499355678783062
+                ],
+                [
+                  0.0010025478598890162,
+                  0.0022827523823151347,
+                  0.0005392401436422696,
+                  1.0022137247175975
+                ]
+              ],
+              "intended_donor_loading": 0.006990575084183255,
+              "recipient_own_loading": 1.0035030017783861,
+              "other_donor_l2": 0.006737631115883522,
+              "physical_recovery": {
+                "mse": [
+                  0.0034520711668703788,
+                  0.001577077034815327,
+                  0.0014365522643063854,
+                  0.0014337499480390312
+                ],
+                "r2": [
+                  0.9967584541617737,
+                  0.9984482829197814,
+                  0.9985795719846802,
+                  0.9987888401083748
+                ]
+              }
+            }
+          },
+          "audit_loading_suppression_fraction": -4.449351908480742,
+          "audit_loading_reduced_by_half": false,
+          "scores": {
+            "base": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.0031967519872250216,
+                  0.002037264940554089,
+                  0.002029345460128754,
+                  0.0009263908329167572
+                ],
+                "r2": [
+                  0.9965844340477596,
+                  0.997724340872373,
+                  0.9976453525663116,
+                  0.9990670786844286
+                ]
+              },
+              "dynamic_change": {
+                "recipient_numerator_change": 0.0,
+                "recipient_reference_variance_change": 0.0,
+                "recipient_score_change": 0.0,
+                "score_change_from_numerator": 0.0,
+                "score_change_from_reference": 0.0
+              }
+            },
+            "target": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.0031967519872250216,
+                  0.001978326233186745,
+                  0.002029345460128754,
+                  0.0009263908329167572
+                ],
+                "r2": [
+                  0.9965844340477596,
+                  0.9977901763976015,
+                  0.9976453525663116,
+                  0.9990670786844286
+                ]
+              },
+              "dynamic_change": {
+                "recipient_numerator_change": 0.0006085262904505923,
+                "recipient_reference_variance_change": -0.00033763426073762925,
+                "recipient_score_change": 0.000996591420239834,
+                "score_change_from_numerator": 0.000610775753956454,
+                "score_change_from_reference": 0.00038581566628337165
+              }
+            },
+            "reverse": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.0031967519872250216,
+                  0.0022145620921916295,
+                  0.002029345460128754,
+                  0.0009263908329167572
+                ],
+                "r2": [
+                  0.9965844340477596,
+                  0.9975262969786237,
+                  0.9976453525663116,
+                  0.9990670786844286
+                ]
+              },
+              "dynamic_change": {
+                "recipient_numerator_change": -0.00042399308752808645,
+                "recipient_reference_variance_change": 0.00047713566503060356,
+                "recipient_score_change": -0.0009699915014087304,
+                "score_change_from_numerator": -0.00042521267889449217,
+                "score_change_from_reference": -0.0005447788225142508
+              }
+            },
+            "wrong_donor": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.0031967519872250216,
+                  0.0021408764006403984,
+                  0.002029345460128754,
+                  0.0009263908329167572
+                ],
+                "r2": [
+                  0.9965844340477596,
+                  0.997608605132667,
+                  0.9976453525663116,
+                  0.9990670786844286
+                ]
+              },
+              "dynamic_change": {
+                "recipient_numerator_change": 0.000432763057238654,
+                "recipient_reference_variance_change": 0.00016758551471496297,
+                "recipient_score_change": 0.00024273924634330563,
+                "score_change_from_numerator": 0.00043414265039557994,
+                "score_change_from_reference": -0.00019140340405228722
+              }
+            },
+            "joint_linear": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.002769046622444942,
+                  0.0019376969876588723,
+                  0.002037075643811164,
+                  0.000919567454667919
+                ],
+                "r2": [
+                  0.9970414153485835,
+                  0.9978355599466892,
+                  0.9976363832421984,
+                  0.9990739501632757
+                ]
+              },
+              "dynamic_change": {
+                "recipient_numerator_change": -0.003813558435075172,
+                "recipient_reference_variance_change": -0.004090562985660129,
+                "recipient_score_change": 0.0008498440485933748,
+                "score_change_from_numerator": -0.0038421280771770293,
+                "score_change_from_reference": 0.004691972125770379
+              }
+            },
+            "oracle_diagnostic": {
+              "accuracy": 1.0,
+              "correct": 16,
+              "repairs": 0,
+              "new_errors": 0,
+              "net_change": 0,
+              "repair_fraction_of_base_wrong": null,
+              "damage_fraction_of_base_correct": 0.0,
+              "removed_added_pairs_on_repairs": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "removed_added_pairs_on_harms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "first_repair_row": null,
+              "first_new_error_row": null,
+              "test_state_recovery": {
+                "mse": [
+                  0.0031967519872250216,
+                  0.00197843338270038,
+                  0.002029345460128754,
+                  0.0009263908329167572
+                ],
+                "r2": [
+                  0.9965844340477596,
+                  0.9977900567097966,
+                  0.9976453525663116,
+                  0.9990670786844286
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

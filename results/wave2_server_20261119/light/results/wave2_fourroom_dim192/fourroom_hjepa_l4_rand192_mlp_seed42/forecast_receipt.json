@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "fourroom_hjepa_l4_rand192_mlp_seed42",
+  "thresholds_sha256": "4c47bae6f5b5c1959fa9ce75f35ffe5c9e3b51d8de36df4e9bd40955d6e779f4",
+  "probe_sha256": "8079dd964483bd87f1d7686391c44b9aba9f5c7a5dceb61555644cfb7571d86e",
+  "test_prediction_sha256": "554f461ef004b43ac58d0202e48421248d94e330f9b96057e1db5e96bd98a1bd"
+}

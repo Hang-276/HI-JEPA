@@ -1,0 +1,85 @@
+{
+  "scope": "Descriptive top 20% within each frozen checkpoint",
+  "groups": [
+    {
+      "case": "separated_wide",
+      "seed": 1942,
+      "windows": 513,
+      "accepted_per_rule": 102,
+      "errors": {
+        "gap_only": 4,
+        "joint": 1
+      }
+    },
+    {
+      "case": "separated_wide",
+      "seed": 3749,
+      "windows": 484,
+      "accepted_per_rule": 96,
+      "errors": {
+        "gap_only": 1,
+        "joint": 0
+      }
+    },
+    {
+      "case": "separated_wide",
+      "seed": 5817,
+      "windows": 521,
+      "accepted_per_rule": 104,
+      "errors": {
+        "gap_only": 3,
+        "joint": 0
+      }
+    },
+    {
+      "case": "separated_wide",
+      "seed": 7811,
+      "windows": 509,
+      "accepted_per_rule": 101,
+      "errors": {
+        "gap_only": 0,
+        "joint": 0
+      }
+    },
+    {
+      "case": "separated_narrow",
+      "seed": 1942,
+      "windows": 552,
+      "accepted_per_rule": 110,
+      "errors": {
+        "gap_only": 18,
+        "joint": 4
+      }
+    },
+    {
+      "case": "separated_narrow",
+      "seed": 3749,
+      "windows": 521,
+      "accepted_per_rule": 104,
+      "errors": {
+        "gap_only": 17,
+        "joint": 6
+      }
+    },
+    {
+      "case": "separated_narrow",
+      "seed": 5817,
+      "windows": 533,
+      "accepted_per_rule": 106,
+      "errors": {
+        "gap_only": 1,
+        "joint": 1
+      }
+    },
+    {
+      "case": "separated_narrow",
+      "seed": 7811,
+      "windows": 518,
+      "accepted_per_rule": 103,
+      "errors": {
+        "gap_only": 10,
+        "joint": 7
+      }
+    }
+  ]
+}

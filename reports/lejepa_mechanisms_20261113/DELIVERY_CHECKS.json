@@ -1,0 +1,56 @@
+{
+  "manifests": {
+    "factorial/SHA256SUMS": 12,
+    "readout/SHA256SUMS": 73,
+    "readout/replication/SHA256SUMS": 29,
+    "diagnostics/SHA256SUMS": 5
+  },
+  "links": {
+    "MECHANISM_ACCOUNTING.md": "passed",
+    "AUDIT.md": "passed",
+    "RESEARCH_PLAN.md": "passed",
+    "RESULTS.md": "passed",
+    "AUDIT_PLAN.md": "passed",
+    "factorial/RESULTS.md": "passed",
+    "factorial/PROTOCOL.md": "passed",
+    "readout/RESULTS.md": "passed",
+    "readout/PROTOCOL.md": "passed",
+    "diagnostics/RESULTS.md": "passed",
+    "readout/replication/RESULTS.md": "passed",
+    "readout/replication/PROTOCOL.md": "passed"
+  },
+  "exact_control_sets": [
+    {
+      "stage": "ORIGINAL",
+      "case": "separated_wide",
+      "matching_sets": 1024,
+      "n": 1024
+    },
+    {
+      "stage": "ORIGINAL",
+      "case": "crossed_wide",
+      "matching_sets": 1024,
+      "n": 1024
+    },
+    {
+      "stage": "ORIGINAL",
+      "case": "separated_narrow",
+      "matching_sets": 1024,
+      "n": 1024
+    },
+    {
+      "stage": "ORIGINAL",
+      "case": "crossed_narrow",
+      "matching_sets": 1024,
+      "n": 1024
+    }
+  ],
+  "independent_audit": {
+    "report": "AUDIT.md",
+    "module_a_bank_arm_cells": 512,
+    "module_b_replication_evaluation_probe_combinations": 132,
+    "exact_cubic_control_top2_set_matches_both_rounds": 8192,
+    "test_reference_crossing_checkpoints": 16,
+    "test_reference_cells_per_checkpoint": 4
+  }
+}

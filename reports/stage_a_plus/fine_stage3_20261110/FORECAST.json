@@ -1,0 +1,2014 @@
+{
+  "utc": "2026-11-10T07:49:29.497775+00:00",
+  "lock": "eee3bf01817829734b21b5c5b306359d7ca1a0d617a166ba29308c49b3209240",
+  "pilot": "1556767c68d23052a7a321691db20a129c6ed3df320ab901b5339a563abcb6a0",
+  "panels": [
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289100,
+        "role": "calibration",
+        "trajectory_seed": 4020515480211414822,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "c3ca82abb25ef4bd040c57e0c149df90bc6c4663a86dcfefb16ae0233c425be8"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "5a1ab40b4ce17a1069ec0b8bc36275f21b23ec20f0dabe4b79f595981efd48de"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "522be3f6d1eabf30cfe4e2f8db92ad7a2b1e0d9bf82b9ecafbf6d3859311ce42"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "b2fb12a456271bb50b533d7bd1840039c11fcbf3af695d95c40af78640f4d87b",
+          "actions_preburn_sha256": "0bc16c20d39115ae1d27e594cf736d6785aa9dbe36d8580d53de79e82ebbee07",
+          "regimes_preburn_sha256": "d68507b21d023c2770a7fbc647869231625d3290cebb1efc1240378bca1a5a7e",
+          "standard_innovations_preburn_sha256": "81e6bfc9027572416046c0bc0d9c37e873d271bb5bbcc29aafdb49ff847b1b02"
+        }
+      },
+      "active": {
+        "seed": 2026289200,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "30fdf62f3d975eaaf071ba8f5a207eb16757696ba3904342ce13cf472cb973b3"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "844df9ae337e3c89c83c0bc8be17fac7f9adf9f3784942301fa9e271ae5b1b6e"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3da7f6f511b32e621ee833ae9d4a47e9540199a811038f0daf8762f03c6a0404"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "44788b94699d13f098a8948fb85dbbdaa048856530e68592912d80e7d55636a7"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 0
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289101,
+        "role": "calibration",
+        "trajectory_seed": 2403747236642372173,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "7f5c69bee33322f4224d9d074ac2bd32138bb340829fa209ac176ce2dcd52fd4"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "fbf34ca67b695167e2e1bda7c1a6350a3dcc435da8fb497f98e8ea01180b4f54"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "8c49a38d28ceb67dd1228284f135f6bd18f5f09f9bff6cf9c6fc527f1f72d461"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "322f818fec0c387475bcbd0a5e41fc1a4750dd5ac4662152dd2951eb10770de3",
+          "actions_preburn_sha256": "bceb51d46b4e737104e335561525aaa0849567a25c2f73bef2955f22d67fc421",
+          "regimes_preburn_sha256": "1266cfc1d54d30bf579024ec091df50741b1ac851c183009c08c4061a79ede3f",
+          "standard_innovations_preburn_sha256": "305cca2e067b039e709bab44c8d4fe80be70a8053a3acc4c5a7fef6a1103fa6d"
+        }
+      },
+      "active": {
+        "seed": 2026289201,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "4947d3ae0813022c2d64ff977d549bf64d239c006d005059a5943a17c2618d71"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "cd3fc73d40f8a17d86e6745b738fb7ba084f765fb39109966c9f5a74568dd5e6"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "95f766d14ff574613c4f77309c2031578fc877c0cb211b01683bc92e9f3ed739"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3f13ade7583b9351dc29a4090dc8ff567a37124de1c8fe3b8e1f2065dbf910d1"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 1
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289102,
+        "role": "calibration",
+        "trajectory_seed": 1811109484049319290,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "d25fddcc500a54272e8bf29d6dc24c0cd7d1a11491ec16535a9a1d99cdbba403"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "b47f9548e18c13ff67cbc3ee368dbf511516fe8f9b63a0f4e314d2177a015fb6"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "650ecc458778b08ab64fc3978de39251eb3ac111ff5158b46ad4790182646a4f"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "35cc365fdd178626ef7adff7adbe53f23136c7ea81dde3edc38a61004df57b38",
+          "actions_preburn_sha256": "7fc36263526fd57f15d1e15904e47472b4b25e02130123b360395d72345a61b2",
+          "regimes_preburn_sha256": "1af481ead37b6d23fdec70e3cddc1399244cad2fc3a1b4cea54e027f40f7369e",
+          "standard_innovations_preburn_sha256": "0169e491eeb5f073f2d98d30e62752939c57bf85d6a7166d9c46ae2478ed1930"
+        }
+      },
+      "active": {
+        "seed": 2026289202,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "02084ed4e1d81d2aaf3320ca98d6569fe521d084c24bd9d6a71318e68cf99a9f"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "eacd88f4dd238d318524155818e161ad3a0f237a9e7f2b60be0b7d4e8cb952f5"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "2bef25fad34edd64c01dfffe9bd8efb8ce5cc0eaef173d8b6bcd8313f82c46bf"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "7c6c1e314c9d1b2a5650ccd0e3670e963868a2eba70cbc46e6df7bb5e12ec0d2"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 2
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289103,
+        "role": "calibration",
+        "trajectory_seed": 5961838851553664402,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "ceda47e00631f8a3943a6b1794c35412a12208475d2594a137daedf3d0aaf6da"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "658557e40a79ce4f49ccd31c21ce7a310c5a704d228a0138ed3220ecbfe86934"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "d4d77588364fa6a52e664853bc464eddc8151f1f33b4f90906644834d65e47b6"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "b8e4df5d4395a86b33302803da288eb60c9b253673a17d9a386cc0686e2cc1ef",
+          "actions_preburn_sha256": "de8e13e6cdf22e468f407d699c9d583283c65c0343a65825b7cd4480c13ec71f",
+          "regimes_preburn_sha256": "a0afb989f4bc127081a728a68331f8ff2f0e33e1e6f3824c233cc56a1dd87bef",
+          "standard_innovations_preburn_sha256": "b8a007592c4f8bbca9d8b0d14aa57b8572ce21f061b3eb84421fe05bf8cbb75d"
+        }
+      },
+      "active": {
+        "seed": 2026289203,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "16b290d4ca19a33bb34c7cd9a0834b0896a7ed617035d36a263ca3b83d1ac934"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "7cbeb8ed59c0417014e6430ca75661df5e44e278d71647137bbfa6694622d76e"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "822d0520c9778e4d251bd89a59a3f9647783c881d2ee0988948ac7e449440dd8"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "4a5cdf9665e0eaf2e7efc0ffa62912e28aeb6e93215cd06110cc0c8477b8e2c6"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 3
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289104,
+        "role": "calibration",
+        "trajectory_seed": 603632821722384635,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "7c8c6be7908c6ded2c1bc48114336deaac2e1b7c3f57b971ea63fc671a616f29"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "c39318ba75b1b864c0c03267d8d3b1b9f26ab21a1a4ba00af0995440d3fd706b"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "0808cda5f8ac72b6ba2d4924d9da2fbcf31525f65f980cdf69011187627e4f07"
+          }
+        },
+        "inverse_maxabs_fp64": 9.43689570931383e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "aa127b60821b4a74bd3c61cc595fb8fef282eccb92261fe625513429f858b397",
+          "actions_preburn_sha256": "4ee34ee112d91584b49c0a0d241fd692e762321fd3c5315d42953bbe23dd4666",
+          "regimes_preburn_sha256": "9e55b07ef234526036e62cff0c6539939500733e30e9d0010621c1b230f79caa",
+          "standard_innovations_preburn_sha256": "22cf29601ebb81cfc19035deedb3bc6470ae19f45c0fbb48dfadf49c11e5739b"
+        }
+      },
+      "active": {
+        "seed": 2026289204,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "4d5570ce81635eda3255058cd1bd7aa23447d5ad52587898413cfea8b56e236a"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "e445bc8d0684e1443fcc8f1a50ed082e9f7447fe9f6d2774d1d359debaab859b"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3888206d14bd5f57f3f68ec15f62eec8bc20530487768b2f00acc65f4c181624"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "02fc780240bae24dd508735323f96f9d21346ce18e9d0630e51af7c028262408"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 4
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289105,
+        "role": "calibration",
+        "trajectory_seed": 8555548943026752262,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "0cddf22d07c7e670db4635e51787becf2001f629e908d181622a9c6430a8a115"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "b05a4e0dd624380369e78b588e1f0169573b0477e605501e34671cb3388e65b3"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "90e652557e7a94341cfd20105705d9a8352b9d5d348c59a258a32ddd6b998bdd"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "904c6d68b7a8561a7d060f668f0728a8822e2af121e2b0235cce0dce82e63a56",
+          "actions_preburn_sha256": "6f3d95accc7bf383aa2996394020cd17d82efd751a0fdbcc6918e5842b76a98c",
+          "regimes_preburn_sha256": "b056b5985e17d7fbf4a3df781cc8a20f3d739e9c3554f9b6c7fd7cdc1d19fd47",
+          "standard_innovations_preburn_sha256": "bc65d12c31fdc713da38257fcba7496374e37dffff05aa7efa8502ef7b373d8b"
+        }
+      },
+      "active": {
+        "seed": 2026289205,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "4bc3064c18b6e24e17fd52333fc52f50e6f0cfd34fbb35a9cffd55ca12fe7db4"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "ec0f79edb3843d36c0e93d384ea276f7bbc3204d20065e05ac88b77c704d6fe3"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "f8e1318599714c921b5c414193f357d75f1ee3e257fff74a25f1ffe7e84ea5a4"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "22379eef3670875bdedc673bc1c30a14a750f964d113d92ef59a6040c8eacc96"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 5
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289106,
+        "role": "calibration",
+        "trajectory_seed": 822247817758604742,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "a88bc479afce33549d2e6a8489390b18519b6fc8e6cba4eef6ecf47e98117fb7"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "087f5fca253638d0a18c54df37ab94c2125bf45952f044d796ccf70e83808443"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "bd66451272e99cf9f0ad8f33db68d927388447a2f7ef8e54c710758f458dc775"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "4c5d6467f143b5eaeddb7bb68cb6937ddc89c84992f39034f423aac83fafea2d",
+          "actions_preburn_sha256": "c3478fb7e255b15420c543271c4565a10d3071f56eb561af8ae17cb40a8a0194",
+          "regimes_preburn_sha256": "b363e2d2fd17fbee1ac5838bc15542785e426028dfb01896efad342e12e6f366",
+          "standard_innovations_preburn_sha256": "8e08b6a6cdb9f2f0ab3600974fdf5126a708483fbf1c2333f215764657c29ed9"
+        }
+      },
+      "active": {
+        "seed": 2026289206,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "ea1b55389ef3239fbef1115b8eddee206c33eadc1311f993aa7f34788300fd57"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "e897a6aaef5a9db55fea3f17fb0df5c53a4428a828da9f7d1cc43c0fbc839b28"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "fcb7ec74856692ccbf6990a89689c4fc559761fd20b0541b581008310dcf50f4"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "b407eabfe6d75ee0ac4dc5e518a796da3bdef9f173620f3b364957fa14c8a7b2"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 6
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289107,
+        "role": "calibration",
+        "trajectory_seed": 2754495190217979251,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "9701592bd811b2fb824c6643db9b2f3a9fdfbddb6ef83f0a7c3db3bcbfbcc4dc"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "ac3edb6cc259409733204a371a38ea3f577da4172ebb63fd009c5e9289e7433c"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "d5a011f1a13e59b6b9e9572d2968663e184b7595ffb91b930152e57f27b2390e"
+          }
+        },
+        "inverse_maxabs_fp64": 9.992007221626409e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "c4f1b3e37c7a67bdb8c3837c3408ad28f237c0ad66ad0cfe782a6f5856be5627",
+          "actions_preburn_sha256": "2e04c6c39329ee9fed16f5ef864911d67d8167c0a2043f5ea4c3a904fe2f4527",
+          "regimes_preburn_sha256": "2730fe751e87e1c82c46a9f6588d1901103728e0550b29bd115d54811bf20695",
+          "standard_innovations_preburn_sha256": "448be7acf15506cec63a5a40eda7c7e51e9abf3efa73f7929a938fed705dfb3d"
+        }
+      },
+      "active": {
+        "seed": 2026289207,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "1fd759bbbb90864cc6f3b5cdf8b03571f369af84158a03325b64e6fec3ce9f9d"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "243ea8c1240f8d5881acb88adba750ebac3625fbbfc1b5c86534c8ef6de82bee"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "951b4d6bea86faf492184f5c0544e26eee54564e5638964760e4c4cc80075b3d"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "b213a0344f4f6dc91b1013ee4b5d64c936ba9619db56a71c493222d8e2c6bbec"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 7
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289108,
+        "role": "calibration",
+        "trajectory_seed": 4991093315667471242,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "7ba8ca13515fcfa6527ba586fc07096995fe2ba1b75bd7f01398825f51ca9953"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "0687ee15029636e6e57051aac2033cf577986e6c32b37f9e752d13de7d0a0097"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "3ddc7d7b880044ad62dc315b5ba628a65c8a9a221d33f1fd608b082b57690e74"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "8bb3331bfd784e45119aad7de2afe78b5c01986cf7dde67c772014d44e56fd76",
+          "actions_preburn_sha256": "c56d41b280f941c3f276375252bd1287da430861128fe7edbab5f4c92a785212",
+          "regimes_preburn_sha256": "2f100f052c7883587863fbb1c60a3576303e1c1908ed0b13396b41a26df1ac1d",
+          "standard_innovations_preburn_sha256": "0f5769563c8c98417204f3c760a0794416fb8a0cd024e547f9efa942d24f3b15"
+        }
+      },
+      "active": {
+        "seed": 2026289208,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "4250b29e6de4746c04089327fe313e3f838eed163112658064e60e1ef8824fbe"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3345d614282f535af78d3ebaf9e4d7c147a6fb1511535232fd605bec499d374f"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3797eaf566b8c3fe4c441b4c7e656ba828312b3ec28c7bd357bcda502a27f144"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "95d26e00f8907711f5209412b1fc8cc6960e5b40abf1756158f82ebe8dd3c0df"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 8
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289109,
+        "role": "calibration",
+        "trajectory_seed": 9176230026946661455,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "8060c11908aac2067a5b91bc65d9da57b1e7487c535970e42959168ac2ebf8fb"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "ca35b346809129ddff7f3e7b2fb05ed1370031d5459d981b09a1a244835d413e"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "f7c3651ae29e222e6d7886145bb5b6faf0c162fd959ee147ad0ad2f6183a8601"
+          }
+        },
+        "inverse_maxabs_fp64": 9.43689570931383e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "88af2d54320a1d2335a6b2a3d64d0f31e6f2f66dcc807a19b2a5d420b4b1abb3",
+          "actions_preburn_sha256": "9edcc354f7c3cebe5e1d0d7367fb7a297b3f2185af4317888f1d62fcfe79319a",
+          "regimes_preburn_sha256": "de55ebb18e49cee93c974af95b8f0a31b51b095b2a855f52d2c0b59d58c36750",
+          "standard_innovations_preburn_sha256": "2034c608b988e8cebb427f4cc948c8d951963bf4e9a05996c48b653f44a22f13"
+        }
+      },
+      "active": {
+        "seed": 2026289209,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "f7256d96396eae91b179cedb06157508b7de3549882ced77bde370c3b5dd3fbe"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "fa28da564bb6f70de70de02fb2934a039c51c7465210a7324b442d3d49033baf"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "e14aba3346faf996cdbc59b750fadd382ced2005ed6fcc312fc0d1581ca6aa0e"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "99be3403dd1131e56fae8a265d9f88a0da508e5d619e7f2d1e6af8a704227201"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 9
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289110,
+        "role": "calibration",
+        "trajectory_seed": 3430982947081702534,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "d1a5da59dfc5bb12a6ca820280cb6c7fa2b1eeaa6e56590e204f21c8b89b12e1"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "2a341e172cad441c685df35017ea77b481f0baf47710e85a8d1183ec7b0f99b5"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "e941ab93f710e7e414f19de25fb7e4a3739587ce790c57a3f2fc5463e7f19437"
+          }
+        },
+        "inverse_maxabs_fp64": 9.992007221626409e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "94be9e9f3119e6b583915e2b6fdf79b9108f1c1bd694b0150976335022af4994",
+          "actions_preburn_sha256": "7d3309d763d66917e87da0e89559fccfa6abc443194c711f9e00e96a9b3a1f8d",
+          "regimes_preburn_sha256": "1a9a3d59e08cebe33c975498fb2049b360207d8bca516b23674771f14c011308",
+          "standard_innovations_preburn_sha256": "8b5f57a077b4846d3472b93f12dabf8f72eb4b58c4be346d6ba125c58f3306ed"
+        }
+      },
+      "active": {
+        "seed": 2026289210,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "6e1d364db83776bf37245d0a97ad863629b2b3f2d08c0ea6af42ce3cc40c453d"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "8edc56562bed9ff4a33e2f6e501d5a0fe74a00fa5b0730e51fcd8cfcf30f2ac3"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "728f38eed4b2e8a4b4393f4cba8c04b1e4ef07ac7790a6e1f67d48cdafcf9cb1"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "ca224a6f4f329475484cb76e39e2ffd74e492daba19f9cbeba7f3d230ddbf1de"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 10
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289111,
+        "role": "calibration",
+        "trajectory_seed": 2402019744515890311,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "bb48e3313100d2ea651a03d38ca7534fdc7a1dc12c06074a4da00072182a0367"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "f0c8b8d416bbb6789b8ab08ff7a540237938a139a4b9aeef4746e9383c90be91"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "eb6f07a982ba218a453f635593678f42cbe8116203c031cbc3e02de261898e31"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "c486adb5e313f17ffc8fc4c2992b5d0ba6a30937d57fae2f1ce03f152c8e9d80",
+          "actions_preburn_sha256": "fbe82d46ec65f0216ff4c4fa21a16e43ed282e83cd440e7e6f3211727fac337f",
+          "regimes_preburn_sha256": "32ade93728a6a5569f6396b8ed45eddf9772adb2ed431db720b3b98ba1d2ce7b",
+          "standard_innovations_preburn_sha256": "2de9e22553f4a165c8985b58acf217e6eb36a2857e2bf17f352aa5dcf3b4c37f"
+        }
+      },
+      "active": {
+        "seed": 2026289211,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "5c924eeb8ba441c26f5f94f87ff41c4c51ee31afd51c89fb717a900a9bf23556"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3b93dde5e04b6c1a33aa425fc50546c22ccd014bfa51fc30a06df2b8a0a2cc77"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "6911407df03e44bff6ec88d7f73dffef42a516e1ae2d228718fcd71f4f016454"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "d3e494e73b06302e61364c4b4e8475d0f16ae15e7157f4b882ebacf3d13ba147"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 11
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289112,
+        "role": "calibration",
+        "trajectory_seed": 1933456303014345904,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "8af6ea9d0fa1a78830ddc5ae2c505ae427869697c79b8403c5329e588faf9580"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "fdfc3761bf54664e8a059f3720c9efdf42ee0b225768b04deaac679d4eeb0012"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "201fd2be2bc407e337c22583767e9a28a0a964cc4ab72de6938801c3910acbac"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "d9559fff1f382b03cdf579d2bece5b8cc1d8569f180d324122d7eba50c63c7aa",
+          "actions_preburn_sha256": "6c25add82feba611d30730d92c5c53b36cf81cda0b203282eff6e57bf5cd7eaa",
+          "regimes_preburn_sha256": "4868109df180bb0a3adf500774c1aac4019b704dd7f1ee34b559544e05d17fae",
+          "standard_innovations_preburn_sha256": "25fd7114e3c53c24e7b75dacfb2972555f2e2bc9c0e6bfe3f919c1bb165cab7f"
+        }
+      },
+      "active": {
+        "seed": 2026289212,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "77aed38b4ff45d717f94ae76a5b38339f42ceae2ca4bbd3b24f7cae49e99db6e"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "86bc9d9dec2c23c8d98ee677f074cd1458cdd61bb7ed9352d5601ba6175bc024"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "a9762af1cc87fe2809538373436834f66d6be6c611a5a693eb736f1a20a75523"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "718ea2947b0571b3cb8d0e37ecb18c6ebb09def65f0258614bad9dad21e05457"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 12
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289113,
+        "role": "calibration",
+        "trajectory_seed": 7681208476454520170,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "3b6b67269a2af3640bb6b69ab9013cd716275230171c333cbace41314396643f"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "9cdbdd682925b775a5fead8a3412360370d526e81794411ad36a12853bae23c3"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "f40b98af3947ff93f7b05999e1b10591e4ae82881258f73d759dc27a8d525802"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "94b2273a3d424c04714847e285a194cce6c08c3722040c73aa1b192ee72b33a4",
+          "actions_preburn_sha256": "fce67901c158733ea4dd258cf1e2e590c7258834c46d6023d5ef7bfbaed314f2",
+          "regimes_preburn_sha256": "54ade8d8e141e198e402f4514e051c42a5c3dc480c76dbc72ab08b4a29a91184",
+          "standard_innovations_preburn_sha256": "4f380b2f67620fe69b774757608eeceefd33e360022c38a4c4c4e07021b06c5c"
+        }
+      },
+      "active": {
+        "seed": 2026289213,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "d05d1078a9d6258afe30debb5a17a14fe612e980ad59f961ef9ee6e4eacfb5fc"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "8968f6d0cf926788596748cff43f383fdae5bfe6b059fb749e75fe4537a6e4f3"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "2c8cedf922d937af3d6d64d1ff803fb109b75fb81bc19e4d5922818cf7409424"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "3f4f4af83865354ef93b1acf4f88be5667707e246f27f97afe6af1b3f0745dfa"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 13
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289114,
+        "role": "calibration",
+        "trajectory_seed": 549090223073326737,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "640d4eaaaf8182c64cf111c4267d700fd841ae5e4e2ab241583d3dd13ea80050"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "7a6252e9c5bf7628482cf6b9e46567da53b1c6874e95139d4b8cc7bb31314937"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "cebafbb27213cfb47b8f8274ea468bfc4e0a89d0563f5a1ea4389f823cd7efe6"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "a82ef5602db5efabfe478f10b67ace19e6cbc416d77fb365c7b2ec48bd1296a1",
+          "actions_preburn_sha256": "1fe7545451b79680d4b3e1c46de3e285fb96581c92646e29935c113b2f5e98a2",
+          "regimes_preburn_sha256": "421923296c8021b13dc50bf3ac6adbb9a6424bcc9f94f5c592bddede7643649b",
+          "standard_innovations_preburn_sha256": "62eb32d14fcbba2e6a480706ff34d8d69f409851ac94591f87f313f96982e1db"
+        }
+      },
+      "active": {
+        "seed": 2026289214,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "488a93db79397532489b1008c3f560b3d0f69fb434b26d76c454de4dd6580b26"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "d1bc1ca5568df9364051169553560a31acdae8f2967d5c39dd731abe34df0b9b"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "851c0621d2e09a4b2128dbe36df8245e93b73bb90567197bffc1e6105b01bf41"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "ea284080072b2860a5eee0bcd0b9c9ac0aa585f082351e894844d916b59d3b30"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 14
+    },
+    {
+      "calibration": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 48,
+        "seed": 2026289115,
+        "role": "calibration",
+        "trajectory_seed": 1571354883521763781,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              48,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "226b639b69058d7cd92e295a6302f697de5ea8f117818a98969d9af3845a3795"
+          },
+          "actions": {
+            "shape": [
+              48,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "ce309fb0ea2437bc6a7d390d990e7ff0ecce2723a796e19988adb50ceb52de8c"
+          },
+          "regimes": {
+            "shape": [
+              48,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "b316e1bee04cbb9ab2c8c8a9f88d731deb6226aab2715bacb7813c131f51d9d3"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "625c5a8667951126e63b5d49e9b52db4e99dd5586586e67406b791ef2df75456",
+          "actions_preburn_sha256": "dfc38c19785c61a3cee78eb58c44c199e71680eda5ba6f2c65f0659517878221",
+          "regimes_preburn_sha256": "c9dbfc44c9d856e1dab994dfda366af71da1f863d16946afb24cf3779f4003ea",
+          "standard_innovations_preburn_sha256": "94866553ae5f04f2659de33f1c4e64e7847afa968565ef3e2dedc15792f07b97"
+        }
+      },
+      "active": {
+        "seed": 2026289215,
+        "contexts": [
+          8,
+          24,
+          40,
+          56,
+          72,
+          88,
+          104,
+          120
+        ],
+        "source_replay_maxabs": 0.0,
+        "hashes": {
+          "fit": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "cdf8caca4b9e8e6012e738917e76c23340e9f4ef7e20ad768c159200dae80c9d"
+            },
+            "branches": {
+              "shape": [
+                8,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "593e042bd1b7348aaa113817273871defddd008da60e30e02cdbf55524a8ebe2"
+            },
+            "shifts": {
+              "shape": [
+                8,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+            }
+          },
+          "check": {
+            "baseline": {
+              "shape": [
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "21287f22862a8dcb7132880e22ffe9a0cac87fc288facb8831522fa5952e7302"
+            },
+            "branches": {
+              "shape": [
+                4,
+                24,
+                8,
+                4
+              ],
+              "dtype": "float32",
+              "sha256": "1b8e90c19b778aff9a2215ae4572db15bf0c7494de39928f02e67c1cfe69f678"
+            },
+            "shifts": {
+              "shape": [
+                4,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+            }
+          }
+        }
+      },
+      "group": 15
+    }
+  ],
+  "duplicates": {
+    "fine": [
+      6.72774883664351e-07,
+      6.727748836921066e-07,
+      4.485165892020859e-07,
+      6.604119696662636e-07,
+      5.28329575644193e-07,
+      6.097022383078077e-07,
+      4.2982839788818783e-07,
+      8.222804133151129e-07,
+      5.28329575644193e-07,
+      5.28329575644193e-07,
+      5.9802211871407e-07,
+      8.222804133151129e-07,
+      5.793339275805831e-07,
+      6.604119699993305e-07,
+      5.9802211871407e-07,
+      6.604119699993305e-07
+    ],
+    "raw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "responses": "bdd1bcc29f7729375416c757c6170d5875befe7c59bbcd023c00555a9e40d57e"
+}

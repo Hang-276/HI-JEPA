@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "fourroom_hjepa_l2_rand192_ridge_seed42",
+  "thresholds_sha256": "e676f6f9200802cc7ed53dcf9d531b5ba5dfe52e31e2cc952c3f76d43f839347",
+  "probe_sha256": "126b37369f688f0a555f26a6bc2ac03847e3a9b45033dca67c69be9fd9b3dfbf",
+  "test_prediction_sha256": "a2bf9018de78ab63008282bf0f775f6c505a89007f4954382b7ba56025682750"
+}

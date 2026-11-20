@@ -1,0 +1,47 @@
+{
+  "evidence_tier": "formal_result_import_documentation_audit",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6184,
+      "sha256": "a20cfeee73c2fbd679197e57bae0acb5ec8f6876dd20f966b1b68ff59833af68",
+      "backup": "docs/audit/fourroom_return_20261116/before/README.md"
+    },
+    {
+      "path": "docs/FOURROOM_HJEPA.md",
+      "bytes": 7385,
+      "sha256": "b41fe5b4fc2b4b169840efab41189dec7c754140c691c7eff617f4551e827a69",
+      "backup": "docs/audit/fourroom_return_20261116/before/docs/FOURROOM_HJEPA.md"
+    },
+    {
+      "path": "docs/PROGRESS_SYNC_JEPA.md",
+      "bytes": 46010,
+      "sha256": "ca1ccd0791561debf4fb25d00911455fde41871f9f1d7b16427a22ac6ef6ede7",
+      "backup": "docs/audit/fourroom_return_20261116/before/docs/PROGRESS_SYNC_JEPA.md"
+    },
+    {
+      "path": "docs/RESEARCH_RECORD.md",
+      "bytes": 80540,
+      "sha256": "21184e2f8202a1c9fb955755b36d93b497b93174faac3f10b0a0bfe7cfc8c5b6",
+      "backup": "docs/audit/fourroom_return_20261116/before/docs/RESEARCH_RECORD.md"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 5520,
+      "sha256": "3550ee0ea9d71f9ce71c6285808ca950e7dad72673ba473c5ba09aa4c70c9d3d",
+      "backup": "docs/audit/fourroom_return_20261116/before/docs/README.md"
+    },
+    {
+      "path": "docs/ICML_RESEARCH_TODO.md",
+      "bytes": 26641,
+      "sha256": "fced3a6efaeb6712b2256fe5392ca04ca345a08013b1e71d94bf194d0a298f6a",
+      "backup": "docs/audit/fourroom_return_20261116/before/docs/ICML_RESEARCH_TODO.md"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1480,
+      "sha256": "541d28ccd262b2b7c1971bfc7abf0af328121a33be7936283efdac74ea42c19e",
+      "backup": "docs/audit/fourroom_return_20261116/before/results/README.md"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "utc": "2026-11-09T10:30:47.064511+00:00",
+  "receipt": "f20466914abdb00448db850b2e93e97d4eee0aa634605c17bff1fdae0c5c70d0",
+  "rows": [
+    {
+      "psi": 11.25,
+      "tau": 0.0,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.5,
+          "task_optimal_upper": 0.621480937885604,
+          "task_bayes_wrong": 0.25,
+          "exact_null_coverage_plugin": 0.6,
+          "task": {
+            "coverage": 0.56787109375,
+            "wrong": 275,
+            "wrong_upper": 0.04188791176205907,
+            "side_wrong": 2323
+          },
+          "side": {
+            "coverage": 0.0675048828125,
+            "wrong": 149,
+            "wrong_upper": 0.024534147726081368,
+            "side_wrong": 290
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.5,
+          "task_optimal_upper": 0.621480937885604,
+          "task_bayes_wrong": 0.25,
+          "exact_null_coverage_plugin": 0.6,
+          "task": {
+            "coverage": 0.56787109375,
+            "wrong": 275,
+            "wrong_upper": 0.04188791176205907,
+            "side_wrong": 2323
+          },
+          "side": {
+            "coverage": 0.0675048828125,
+            "wrong": 149,
+            "wrong_upper": 0.024534147726081368,
+            "side_wrong": 290
+          }
+        }
+      ],
+      "gain": 0.0,
+      "gain_lower": -0.04296187577120812,
+      "weak_gate": null
+    },
+    {
+      "psi": 11.25,
+      "tau": 0.12,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.4893798828125,
+          "task_optimal_upper": 0.6750729762259544,
+          "task_bayes_wrong": 0.20708529898593736,
+          "task": {
+            "coverage": 0.613037109375,
+            "wrong": 261,
+            "wrong_upper": 0.03998856790315991,
+            "side_wrong": 2022
+          },
+          "side": {
+            "coverage": 0.1083984375,
+            "wrong": 140,
+            "wrong_upper": 0.02326447327616115,
+            "side_wrong": 276
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.4893798828125,
+          "task_optimal_upper": 1.0,
+          "task_bayes_wrong": 0.048962714976878825,
+          "task": {
+            "coverage": 0.96435546875,
+            "wrong": 232,
+            "wrong_upper": 0.03603531965494176,
+            "side_wrong": 655
+          },
+          "side": {
+            "coverage": 0.8043212890625,
+            "wrong": 126,
+            "wrong_upper": 0.02127745461648322,
+            "side_wrong": 293
+          }
+        }
+      ],
+      "gain": 0.351318359375,
+      "gain_lower": 0.30835648360379186,
+      "weak_gate": true
+    },
+    {
+      "psi": 11.25,
+      "tau": 0.8,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.501708984375,
+          "task_optimal_upper": 1.0,
+          "task_bayes_wrong": 0.05873459456927679,
+          "task": {
+            "coverage": 0.9444580078125,
+            "wrong": 296,
+            "wrong_upper": 0.04472701849788305,
+            "side_wrong": 733
+          },
+          "side": {
+            "coverage": 0.7537841796875,
+            "wrong": 146,
+            "wrong_upper": 0.024111546245796964,
+            "side_wrong": 283
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.501708984375,
+          "task_optimal_upper": 1.0,
+          "task_bayes_wrong": 1.024419017191961e-30,
+          "task": {
+            "coverage": 1.0,
+            "wrong": 0,
+            "wrong_upper": 0.0009224356792891797,
+            "side_wrong": 0
+          },
+          "side": {
+            "coverage": 1.0,
+            "wrong": 0,
+            "wrong_upper": 0.0009224356792891797,
+            "side_wrong": 0
+          }
+        }
+      ],
+      "gain": 0.0555419921875,
+      "gain_lower": 0.012580116416291878,
+      "weak_gate": null
+    },
+    {
+      "psi": 30.0,
+      "tau": 0.0,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.8790283203125,
+          "task_optimal_upper": 0.24245261757310407,
+          "task_bayes_wrong": 0.43951416015625,
+          "exact_null_coverage_plugin": 0.2209716796875,
+          "task": {
+            "coverage": 0.190673828125,
+            "wrong": 291,
+            "wrong_upper": 0.04405206473481431,
+            "side_wrong": 799
+          },
+          "side": {
+            "coverage": 0.0689697265625,
+            "wrong": 245,
+            "wrong_upper": 0.03781080003522898,
+            "side_wrong": 287
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.8790283203125,
+          "task_optimal_upper": 0.24245261757310407,
+          "task_bayes_wrong": 0.43951416015625,
+          "exact_null_coverage_plugin": 0.2209716796875,
+          "task": {
+            "coverage": 0.190673828125,
+            "wrong": 291,
+            "wrong_upper": 0.04405206473481431,
+            "side_wrong": 799
+          },
+          "side": {
+            "coverage": 0.0689697265625,
+            "wrong": 245,
+            "wrong_upper": 0.03781080003522898,
+            "side_wrong": 287
+          }
+        }
+      ],
+      "gain": 0.0,
+      "gain_lower": -0.04296187577120812,
+      "weak_gate": null
+    },
+    {
+      "psi": 30.0,
+      "tau": 0.12,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.8758544921875,
+          "task_optimal_upper": 0.2972524539005627,
+          "task_bayes_wrong": 0.3711986569743929,
+          "task": {
+            "coverage": 0.2418212890625,
+            "wrong": 309,
+            "wrong_upper": 0.04647906577482312,
+            "side_wrong": 728
+          },
+          "side": {
+            "coverage": 0.11572265625,
+            "wrong": 261,
+            "wrong_upper": 0.03998856790315991,
+            "side_wrong": 295
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.8758544921875,
+          "task_optimal_upper": 0.9257597072394634,
+          "task_bayes_wrong": 0.09147600627330255,
+          "task": {
+            "coverage": 0.8409423828125,
+            "wrong": 273,
+            "wrong_upper": 0.04161691353015598,
+            "side_wrong": 397
+          },
+          "side": {
+            "coverage": 0.79541015625,
+            "wrong": 251,
+            "wrong_upper": 0.03862838943776001,
+            "side_wrong": 290
+          }
+        }
+      ],
+      "gain": 0.59912109375,
+      "gain_lower": 0.5561592179787919,
+      "weak_gate": true
+    },
+    {
+      "psi": 30.0,
+      "tau": 0.8,
+      "n": 8192,
+      "cells": [
+        {
+          "calibration": 0,
+          "disagreement": 0.8717041015625,
+          "task_optimal_upper": 0.8938124971176202,
+          "task_bayes_wrong": 0.10299704464129564,
+          "task": {
+            "coverage": 0.8046875,
+            "wrong": 282,
+            "wrong_upper": 0.0428355542169631,
+            "side_wrong": 419
+          },
+          "side": {
+            "coverage": 0.7503662109375,
+            "wrong": 238,
+            "wrong_upper": 0.036855476523383786,
+            "side_wrong": 282
+          }
+        },
+        {
+          "calibration": 8192,
+          "disagreement": 0.8717041015625,
+          "task_optimal_upper": 1.0,
+          "task_bayes_wrong": 4.212512657539936e-33,
+          "task": {
+            "coverage": 1.0,
+            "wrong": 0,
+            "wrong_upper": 0.0009224356792891797,
+            "side_wrong": 0
+          },
+          "side": {
+            "coverage": 1.0,
+            "wrong": 0,
+            "wrong_upper": 0.0009224356792891797,
+            "side_wrong": 0
+          }
+        }
+      ],
+      "gain": 0.1953125,
+      "gain_lower": 0.15235062422879186,
+      "weak_gate": null
+    }
+  ],
+  "risk_gate": true
+}

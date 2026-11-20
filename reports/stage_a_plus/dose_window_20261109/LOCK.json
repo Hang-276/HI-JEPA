@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-09T12:52:30.983250+00:00",
+  "sources": {
+    "run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521",
+    "PROTOCOL.md": "9e29b1f760a697d73c2fcb8d90a9aeca22bec6652b57415c412e82f4dc07681d",
+    "THEORY.md": "398f74e5bf01b134a3b8c8816705c6dd08f5803bdcae34e25557be5f01ae0b42",
+    "../DOSE_IDENTIFIABILITY_20261109.md": "381441e6d665e54dba67343c28ee624bb8ee6c46fb5ce734b697bb474b0f9651"
+  },
+  "pilot": 2026284001,
+  "formal": 2026284002,
+  "bootstrap": 2026284003
+}

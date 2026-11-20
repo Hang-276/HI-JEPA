@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-09T10:41:30.925123+00:00",
+  "sources": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/confirmation_v1/data_owner_engineering.py": "ead722272ccad5a2d18a2091ef25f0394ac8cda098b886b79e9471244a8677db",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/fine_stage.py": "2f798b44979aaa8dc52657ea50266ad074601d11494e1ff1e0268c79bd521ed6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261026/identifiability_core_v1/data_owner.py": "dec7ee699f842db3607b16b4b083aeddc1468eb0483873a042131373ea981e18",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/env_fhn.py": "b91bce0b2a801f498bb616b7584365a084c9842c4cc26db4d4e4262bb9e518c2",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_closure_pilot_20261024/env_fhn.py": "be0687fb348d517cb6814ddd8e08bceba12da877511773e83c2f2be60fc03e62",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/data.py": "81503f847039308e6ee32fc3fd931636311aa84c69beea42bdfd7e7fb405288c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/rng_namespace.py": "a4329f53453406618be8d717ad3ec5964d746e21b2767f47c6bf0ce5c5ec7f1e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/registration/INSTANCE_LOCK.json": "0800ba1873f3422b8b8f746702156faaf89f792081a4b210bdc6b06a77214065",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/data/DATA_PREPARED.json": "6c941bd733c35263e25b23b2abc448ccaab6df524b2648cc82c185112398290f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fresh_data.py": "77cc961a21fd75298143abb11ed88376f697f3beaa2e5a25778a29e634a63bb6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/extra_fresh_data.py": "d43ecba13acdb97d33fd43a433b71afe063bcce45847f714be61de38115eb4c1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/leap_transfer_20261109/run.py": "ea6c3e62b51664f7a5651a68f8da18b06153f10033c67bf75a58a3888f33c65f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/leap_transfer_20261109/PROTOCOL.md": "a5337d7fbcaf37961ba7e940bfa5270269216822212ed434cc1cb1ad98e4b0df",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/leap_transfer_20261109/leap_forward.py": "d94e0c82670ba45941e322ed618da6a420babe78e21d276e5af617e0d18aeecc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/extra_fine_forward.py": "4c6d30586cd80c825dbc65f10d93f3de7afe59ea236ab33e89d03b1034bedd67",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/equivariant.py": "e39116aa8df12b3e57aec30a0b0468f51df24ce1828bfe1734e85a4c734410ad",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/step6_fine_20261105/forecast_lock.json": "98b95e5da30ed4dee3e3644088fdd8aae171592b65260cf818f9c394a4dee547",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/run.py": "8558b882c697cf8dcf0a8181a3b9d6423afd29540c8d34720336de551648d704",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed0/COMPLETED.json": "d4e593b520e5e6057482e6cb0fb5731ded18800ecafe3fd35cf272491187259d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/LEAP_V2/ar_rich_fresh2/seed0/JOB.json": "6a4d76a77077d5c54cbddc959bfde45baf9c753b396071daf913061e4eec453e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed0/best.pt": "4d266937a33686d2bd0484f18bb8a2bf6eae6a7dd62deea934deef826df2f074",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed0/FEATURES_RECEIPT.json": "af899e8832d14d0242e5b7e825ac1fbc17625450084ecdcdead5389d4034ef18",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/evaluation_v2/CAL_maps/representation/LEAP_V2/ar_rich_fresh2/seed0/MAPS.json": "8b88f677a249749642e44acd2a5afcf1438eb7ab1357b57f5f66a42a2fb90739",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/evaluation_v2/CAL_MAPS_LOCK.json": "9c14eb2db2a8d0d9acd975d4bdc6bcf1bdeece77cb3ac413b1c63aa2c57dd0eb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/data/TRAIN_CAL/ar_rich_fresh2.npz": "bb77e4e546b2a931e43ccc0fdcdf421d85986374d9a12612a2ed55503e1192f2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/leap_controlled.py": "f4e1eaa74640335a4873f47483b689b5ff2209b84a330b48ab277f887931846c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/leap_adapter.py": "7e89ea6f14cb54bdaa7e19dd1ca0bca4b225452e2e9382083a7287744070182f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/leap_standardized_adapter.py": "c01cba1b2890f9b1982269a1b3fb89e1b818857e98db6f47bb00d428187b9bbd",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/mlp.py": "eea86b8726ada2570b204f15a677ffcdd094b3b905d2741c9563e8ada6884122",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/splines.py": "cdb0d11ecc61b19168d14c1ce2eefb169788dc148806d3cb29208f953d893cde",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/transforms.py": "2a6b745594c1c79c33c74818e4923ecca8f0a969bf0a55e394396eb79ad3c8f0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/tc.py": "79193c2a07a8ab99260da045912e60d1f182a19f87ac439d9a10a9f8e887692e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/COMPLETED.json": "0a7792650e7979da0c600d768f65590ebe63911df3c1d5eb4b335ca6077aa7ef",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed0/JOB.json": "fe20da14cea88bc525e1e4a839c09b0e02c2df57c1edca53313b7f1db4675984",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/Fine_latest.pt": "3208fa2d6c867f974a2ea521f60ccb82527d8f23b26fe0f9d227a9c2250720f5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/G0.json": "2648e789bc656cf2bd0b8fb4b3a79b9ea23560144f9375faa76cfc5b328ea61f",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fine_forward.py": "27033a86d79f138a32de5f2711912b86be7d758f54b7b5151ec0ae5331cf464a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed1/COMPLETED.json": "2082eac8f9623b29d3a7a5f53b243604365a5e5118858eb7165df1a1b591a1f2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/LEAP_V2/ar_rich_fresh2/seed1/JOB.json": "094b65fb9c2a78239a0ed9e4a5793cef055229c9ac62fa1205edf249db17d6e2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed1/best.pt": "45a22eb41e9f445a103227fad1397155214dc92fb7289a47282914bf411b182c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed1/FEATURES_RECEIPT.json": "5fbb480360159635add895ac0ae09d76da58af4921f54c0d97203b7c47b1920c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/evaluation_v2/CAL_maps/representation/LEAP_V2/ar_rich_fresh2/seed1/MAPS.json": "5e79c50b77e19dcfa6ffb268092bd55d636387e4479ea0bc5bd757efdc67340d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/COMPLETED.json": "56824928c62e66a8256984b777943ffca8d9c2835bc20565f1cc370dd950d970",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed1/JOB.json": "e4389378c9a8f8bb931418ecbc3b14f4c2ca4493c6a2bc44331a39354e8e7bb6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/Fine_latest.pt": "751aca61bec3f43236df75b5f88998c46ee90986a5dd595d3abe18b1bbdc7611",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/G0.json": "809247149db5e641d6ea5755eefe191c0b286eb3c2a87b9b78f357bb8e19cd41",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed2/COMPLETED.json": "92e264aaa8121776f367950c1a2eb918a8a791f4407aef43487b0c329944952d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/LEAP_V2/ar_rich_fresh2/seed2/JOB.json": "fa029ceaf06bc651d77ca88b34d0efdb74d9d19fa9c8b8bd993491c5325cbad8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed2/best.pt": "6c423e48fcdb7c4bd65c33521a2c3caf3971a547403de4731b541405f63b3f95",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/LEAP_V2/ar_rich_fresh2/seed2/FEATURES_RECEIPT.json": "62e3ef5b064a3271762306e54ff114d1c1a8157ee6f872f24992939105e1e47c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/evaluation_v2/CAL_maps/representation/LEAP_V2/ar_rich_fresh2/seed2/MAPS.json": "f7af89a81ff1cb32485ae0a93493ac09e8dd5f339de0f2892a7c0701a2276445",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/COMPLETED.json": "bc43f167e2f917631e3342c6a0b49a8c31ba86db2fb5ec68d3f5f098f486a9d3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed2/JOB.json": "285e5219d3422ce94bf7d0ff42d1a07822d3f7585505d1ab0f763a6e777067f8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/Fine_latest.pt": "9c22f055825fea2006bd8e1410d7f95c6c6bc5c3fbead241ebc517faa18afcc9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/G0.json": "de6da9c4a7d82d460c76796e22e670882c93821776aa53bc4d19bcc4b4a3a6ce"
+  },
+  "roots": {
+    "prior": 4314,
+    "checked_files": 22,
+    "fresh": 132,
+    "overlap": []
+  },
+  "permutations": {
+    "leap0": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "fine0": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "leap1": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "fine1": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "leap2": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "fine2": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

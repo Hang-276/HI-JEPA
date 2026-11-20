@@ -1,0 +1,12 @@
+{
+  "arm": "visual_lejepa",
+  "seed": 1901,
+  "r2": {
+    "agent_x": 0.9966911200084219,
+    "agent_y": 0.9963451969203828,
+    "distractor_x": 0.9824829096301596,
+    "distractor_y": 0.9814597106249726
+  },
+  "minimum_r2": 0.9814597106249726,
+  "eligible": true
+}

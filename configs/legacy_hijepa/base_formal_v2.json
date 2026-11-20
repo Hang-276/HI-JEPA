@@ -1,0 +1,10 @@
+{
+  "extends": "base_formal.json",
+  "name": "formal_v2_gcsb",
+  "losses": {
+    "coarse_floor_mode": "spectral_barrier",
+    "coarse_barrier_lambda_floor": 0.04,
+    "coarse_barrier_epsilon": 0.005,
+    "coarse_barrier_mu": 0.1
+  }
+}

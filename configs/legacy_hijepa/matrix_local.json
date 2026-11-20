@@ -1,0 +1,147 @@
+{
+  "base": "base_local.json",
+  "seeds": [
+    0,
+    1
+  ],
+  "purpose": "one complete engineering integration matrix, never formal evidence",
+  "jobs": [
+    {
+      "name": "e1_real",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_rotation",
+      "system": {
+        "family": "oscillatory"
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_near",
+      "system": {
+        "family": "near_repeated",
+        "eigenvalues": [
+          0.92,
+          0.918,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_near_resolved",
+      "system": {
+        "family": "near_repeated",
+        "eigenvalues": [
+          0.92,
+          0.908,
+          0.45,
+          0.3
+        ]
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_observation_noise",
+      "system": {
+        "family": "real",
+        "noise_std": 0.01
+      },
+      "model": {
+        "variant": "full"
+      }
+    },
+    {
+      "name": "e1_uncertified_access",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      },
+      "selection": {
+        "query_noise_bound": 0.002
+      }
+    },
+    {
+      "name": "e2_hierarchical",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "hierarchical"
+      }
+    },
+    {
+      "name": "e2_block_only",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "block_only"
+      }
+    },
+    {
+      "name": "e2_full",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      },
+      "reuse_from": "e1_real"
+    },
+    {
+      "name": "e3_direct",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "direct"
+      },
+      "transfer": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "e3_no_fine",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "no_fine"
+      },
+      "transfer": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "e3_full",
+      "system": {
+        "family": "coupled",
+        "coupling": 0.03
+      },
+      "model": {
+        "variant": "full"
+      },
+      "transfer": {
+        "enabled": true
+      }
+    }
+  ]
+}

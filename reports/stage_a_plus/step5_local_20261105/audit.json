@@ -1,0 +1,25 @@
+{
+  "unique_seed_keys": 960,
+  "per_configuration": {
+    "calibration": 64,
+    "independent_validation": 256
+  },
+  "total_episodes": 960,
+  "total_transitions": 1966080,
+  "largest_generator_residual": 6.938893903907228e-16,
+  "all_ranks": [
+    8,
+    8,
+    8
+  ],
+  "independent_algebraic_recheck_max_difference": 5.412337245047638e-16,
+  "preflight_to_analysis_seconds": 206.84676218032837,
+  "peak_simulation_RSS_bytes": 48857088,
+  "gate_passed": true,
+  "E1_resolved": true,
+  "E2_resolved": true,
+  "validation_generated_after_lock": true,
+  "extra_episodes": 0,
+  "GPU_jobs": 0,
+  "compute_server_connections": 0
+}

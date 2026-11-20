@@ -1,0 +1,29 @@
+{
+  "markdown_links": {
+    "THEORY.md": "passed",
+    "AUDIT.md": "passed",
+    "RESEARCH_PLAN.md": "passed",
+    "RESULTS.md": "passed",
+    "AUDIT_PLAN.md": "passed",
+    "analysis/RESULTS.md": "passed",
+    "analysis/PROTOCOL.md": "passed",
+    "analysis/replication/RESULTS.md": "passed",
+    "experiment/EXECUTION.md": "passed",
+    "experiment/PROTOCOL.md": "passed",
+    "experiment/replication/EXECUTION.md": "passed",
+    "experiment/replication/PROTOCOL.md": "passed"
+  },
+  "source_manifests": {
+    "analysis/REPLICATION_ANALYSIS_SHA256SUMS": 2,
+    "analysis/PRESCORE_SHA256SUMS": 4,
+    "analysis/SHA256SUMS": 9,
+    "analysis/REPLICATION_SHA256SUMS": 5,
+    "experiment/PRESCORE_SHA256SUMS": 3,
+    "experiment/SHA256SUMS": 10,
+    "experiment/replication/PRESCORE_SHA256SUMS": 3,
+    "experiment/replication/SHA256SUMS": 9
+  },
+  "scope": "local frozen encoder dynamic readout research; initial and replication kept separate",
+  "theory_check": "passed",
+  "audit_sha256": "f89617048afb71390296e23a2e911a9c8375499ad2412323831c5f9f5604fcf1"
+}

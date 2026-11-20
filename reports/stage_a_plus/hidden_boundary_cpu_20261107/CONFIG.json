@@ -1,0 +1,20 @@
+{
+  "seed": 2026110720,
+  "pilot_seed": 2031,
+  "rho": 0.97,
+  "hidden_phi_deg": [41.0, 44.0],
+  "psi_deg": [11.25, 30.0],
+  "lags": [4, 16, 32],
+  "replications_per_side": 512,
+  "batch": 32,
+  "calibration_pairs_per_replication": 16384,
+  "alpha_beta": 0.020,
+  "alpha_drift": 0.005,
+  "alpha_score": 0.025,
+  "familywise_scoring_alpha": 0.05,
+  "cells": [
+    {"name": "ref", "n": 4096, "tau": 0.8, "distance_deg": 7.0},
+    {"name": "long", "n": 8192, "tau": 0.8, "distance_deg": 7.0},
+    {"name": "weak", "n": 4096, "tau": 0.2, "distance_deg": 7.0}
+  ]
+}

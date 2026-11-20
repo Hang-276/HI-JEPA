@@ -1,0 +1,346 @@
+{
+  "kind": "deterministic_matrix_formula_checks_only",
+  "no_samples_or_trajectories_generated": true,
+  "no_model_fitting_training_or_forward": true,
+  "does_not_validate_actual_fine_population_assumptions": true,
+  "dimension": 4,
+  "variance_ratio_bound": 9.0,
+  "kappa_affine": 0.7901234567901234,
+  "sufficient_fro_radius": 0.06983770678385655,
+  "fixtures": [
+    {
+      "fro_radius": 0.017459426695964137,
+      "operator_norm": 0.013228672671713036,
+      "uniform_c": 0.012096064517720367,
+      "risk": 0.00021813622929875163,
+      "quadratic_term": 0.00021847821348894243,
+      "absolute_taylor_remainder": 3.419841901908e-07,
+      "uniform_remainder_budget": 3.6872624653925828e-06,
+      "pointwise_delta_log": 4.309101540878553e-08,
+      "pointwise_delta_det_bound": 1.3621923970430326e-06,
+      "uniform_neighborhood_condition": true,
+      "uniform_remainder_holds": true,
+      "pointwise_remainder_holds": true,
+      "coercivity_when_applicable": true,
+      "score_remainders": [
+        6.592319202419848e-05,
+        8.153214549318932e-05,
+        -3.291794473255709e-05,
+        -1.8475404732868966e-05
+      ],
+      "score_remainder_budgets": [
+        0.00019249480353032282,
+        0.00015148664608580526,
+        7.589909743312155e-05,
+        0.00010885590984194845
+      ],
+      "score_remainder_bounds_hold": true,
+      "target_gap_checks": [
+        {
+          "target_outsider": [
+            0,
+            2
+          ],
+          "gamma": 1.0,
+          "psi": 0.04736405558628319,
+          "exact_gap": 0.9979503793393512,
+          "risk_lower_bound": 0.9916162959588652,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            0,
+            3
+          ],
+          "gamma": 1.4,
+          "psi": 0.2079667159845133,
+          "exact_gap": 1.3991408632494686,
+          "risk_lower_bound": 1.3835810234658015,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            2
+          ],
+          "gamma": 0.7000000000000001,
+          "psi": 0.0334557328539823,
+          "exact_gap": 0.6984865623083545,
+          "risk_lower_bound": 0.6927983755703321,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            3
+          ],
+          "gamma": 1.1,
+          "psi": 0.1592684004424779,
+          "exact_gap": 1.099677046218472,
+          "risk_lower_bound": 1.0852632393167057,
+          "linear_coefficient_error": 5.421010862427522e-20,
+          "bound_holds_when_applicable": true
+        }
+      ]
+    },
+    {
+      "fro_radius": 0.034918853391928274,
+      "operator_norm": 0.026457345343426072,
+      "uniform_c": 0.0367521239387481,
+      "risk": 0.0008708661296660243,
+      "quadratic_term": 0.0008739128539557697,
+      "absolute_taylor_remainder": 3.0467242897454054e-06,
+      "uniform_remainder_budget": 4.4812832115528856e-05,
+      "pointwise_delta_log": 6.887781424280455e-07,
+      "pointwise_delta_det_bound": 1.104561689846716e-05,
+      "uniform_neighborhood_condition": true,
+      "uniform_remainder_holds": true,
+      "pointwise_remainder_holds": true,
+      "coercivity_when_applicable": true,
+      "score_remainders": [
+        0.0002626886797052492,
+        0.0003264231133136983,
+        -0.00013127057870214584,
+        -7.398367923559758e-05
+      ],
+      "score_remainder_budgets": [
+        0.0008032480753921041,
+        0.0006321428864984296,
+        0.00031709978967423176,
+        0.0004551834403237799
+      ],
+      "score_remainder_bounds_hold": true,
+      "target_gap_checks": [
+        {
+          "target_outsider": [
+            0,
+            2
+          ],
+          "gamma": 1.0,
+          "psi": 0.04736405558628319,
+          "exact_gap": 0.9957044816938083,
+          "risk_lower_bound": 0.979012616747178,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            0,
+            3
+          ],
+          "gamma": 1.4,
+          "psi": 0.2079667159845133,
+          "exact_gap": 1.3981138513335105,
+          "risk_lower_bound": 1.3607800090832611,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            2
+          ],
+          "gamma": 0.7000000000000001,
+          "psi": 0.0334557328539823,
+          "exact_gap": 0.6967443311051446,
+          "risk_lower_bound": 0.6817042062665383,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            3
+          ],
+          "gamma": 1.1,
+          "psi": 0.1592684004424779,
+          "exact_gap": 1.0991537007448469,
+          "risk_lower_bound": 1.0641412026220398,
+          "linear_coefficient_error": 1.0842021724855044e-19,
+          "bound_holds_when_applicable": true
+        }
+      ]
+    },
+    {
+      "fro_radius": 0.0628539361054709,
+      "operator_norm": 0.047623221618166935,
+      "uniform_c": 0.10235650646398589,
+      "risk": 0.0028108295204854927,
+      "quadratic_term": 0.002831477646816694,
+      "absolute_taylor_remainder": 2.0648126331201423e-05,
+      "uniform_remainder_budget": 0.0004043713835614258,
+      "pointwise_delta_log": 7.209368114423356e-06,
+      "pointwise_delta_det_bound": 6.584968145408736e-05,
+      "uniform_neighborhood_condition": true,
+      "uniform_remainder_holds": true,
+      "pointwise_remainder_holds": true,
+      "coercivity_when_applicable": true,
+      "score_remainders": [
+        0.0008455856302972656,
+        0.0010587308204129545,
+        -0.00042315112514345037,
+        -0.00024009783079301434
+      ],
+      "score_remainder_budgets": [
+        0.0027896725918952203,
+        0.002195508284511499,
+        0.00110341881758591,
+        0.0015860830276998687
+      ],
+      "score_remainder_bounds_hold": true,
+      "target_gap_checks": [
+        {
+          "target_outsider": [
+            0,
+            2
+          ],
+          "gamma": 1.0,
+          "psi": 0.04736405558628319,
+          "exact_gap": 0.9917084569585475,
+          "risk_lower_bound": 0.9487525899521321,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            0,
+            3
+          ],
+          "gamma": 1.4,
+          "psi": 0.2079667159845133,
+          "exact_gap": 1.3961252591853222,
+          "risk_lower_bound": 1.3089335806829157,
+          "linear_coefficient_error": 4.336808689942018e-19,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            2
+          ],
+          "gamma": 0.7000000000000001,
+          "psi": 0.0334557328539823,
+          "exact_gap": 0.6934817626893323,
+          "risk_lower_bound": 0.6546059210551829,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            3
+          ],
+          "gamma": 1.1,
+          "psi": 0.1592684004424779,
+          "exact_gap": 1.097898564916107,
+          "risk_lower_bound": 1.0149721641419294,
+          "linear_coefficient_error": 1.0842021724855044e-19,
+          "bound_holds_when_applicable": true
+        }
+      ]
+    },
+    {
+      "fro_radius": 0.15,
+      "operator_norm": 0.11365212245002525,
+      "uniform_c": 0.5144485294117647,
+      "risk": 0.01572772377579027,
+      "quadratic_term": 0.0161261500353857,
+      "absolute_taylor_remainder": 0.0003984262595954288,
+      "uniform_remainder_budget": 0.011575091911764705,
+      "pointwise_delta_log": 0.00022932619180850695,
+      "pointwise_delta_det_bound": 0.000961688903381087,
+      "uniform_neighborhood_condition": false,
+      "uniform_remainder_holds": true,
+      "pointwise_remainder_holds": true,
+      "coercivity_when_applicable": true,
+      "score_remainders": [
+        0.004704057245469949,
+        0.006031161985208158,
+        -0.002367798034826037,
+        -0.0013727945066600695
+      ],
+      "score_remainder_budgets": [
+        0.020040580512120116,
+        0.015774019947193466,
+        0.007974107827475015,
+        0.011510239076695518
+      ],
+      "score_remainder_bounds_hold": true,
+      "target_gap_checks": [
+        {
+          "target_outsider": [
+            0,
+            2
+          ],
+          "gamma": 1.0,
+          "psi": 0.04736405558628319,
+          "exact_gap": 0.976168320145884,
+          "risk_lower_bound": 0.7465885429309413,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            0,
+            3
+          ],
+          "gamma": 1.4,
+          "psi": 0.2079667159845133,
+          "exact_gap": 1.38726710363141,
+          "risk_lower_bound": 0.9810993430264444,
+          "linear_coefficient_error": 2.6020852139652106e-18,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            2
+          ],
+          "gamma": 0.7000000000000001,
+          "psi": 0.0334557328539823,
+          "exact_gap": 0.6795818514998835,
+          "risk_lower_bound": 0.4695280992002999,
+          "linear_coefficient_error": 0.0,
+          "bound_holds_when_applicable": true
+        },
+        {
+          "target_outsider": [
+            1,
+            3
+          ],
+          "gamma": 1.1,
+          "psi": 0.1592684004424779,
+          "exact_gap": 1.0906806349854095,
+          "risk_lower_bound": 0.6953833731227432,
+          "linear_coefficient_error": 6.505213034913027e-19,
+          "bound_holds_when_applicable": true
+        }
+      ]
+    }
+  ],
+  "independent_ar_scores": [
+    0.30297029702970296,
+    0.6,
+    1.3,
+    1.7
+  ],
+  "single_shear_risk": 0.10825331536015796,
+  "single_shear_closed_form": 0.10825331536015796,
+  "checks": {
+    "positive_kappa_affine": true,
+    "explicit_radius_satisfies_condition": true,
+    "uniform_taylor_remainders": true,
+    "pointwise_taylor_remainders": true,
+    "finite_neighborhood_coercivity": true,
+    "normalized_score_remainders": true,
+    "target_dual_linear_coefficients": true,
+    "target_risk_gap_bounds": true,
+    "independent_ar_second_order_formula": true,
+    "independent_ar_nonzero_shift": true,
+    "single_shear_exact_formula": true
+  },
+  "passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "arm": "visual_lejepa",
+  "seed": 1901,
+  "trace": [
+    {
+      "total_loss": 0.5041583776473999,
+      "pair_loss": 2.7830134058604017e-05,
+      "sigreg_loss": 25.206554412841797,
+      "step": 1,
+      "elapsed_seconds": 0.05431491695344448
+    },
+    {
+      "total_loss": 0.2784617841243744,
+      "pair_loss": 2.6413881641929038e-05,
+      "sigreg_loss": 13.921794891357422,
+      "step": 3,
+      "elapsed_seconds": 0.0884282081387937
+    }
+  ],
+  "elapsed_seconds": 0.6145279160700738
+}

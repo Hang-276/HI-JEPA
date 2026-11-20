@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-09T13:15:44.393183+00:00",
+  "lock": "0bd10558cd904acb0bf11f71f03f25d676e62f552dc5625e2be539ca46474b28",
+  "windows": 8,
+  "periods_per_band": 81,
+  "endpoint_parity": true,
+  "internal_bounds": true,
+  "matched_doses": true,
+  "calibration_equivariance": true
+}

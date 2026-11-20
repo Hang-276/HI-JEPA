@@ -1,0 +1,1 @@
+{"utc":"2026-11-07T15:44:57.262273+00:00","passed":true,"lock_sha256":"f35bebd762d7bbf95f6a0d78cecc62b1239de9bef895b64903d853a596907a96","generic_llr_errors":[3.0375701953744283e-13,1.580957587066223e-13],"checked":["passive fit shape","separate seeded side streams","population set","two Gaussian likelihoods"]}

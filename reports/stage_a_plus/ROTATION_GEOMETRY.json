@@ -1,0 +1,369 @@
+{
+  "scope": "physical TRAIN second moments; hypothetical pair rotation only",
+  "horizons": [
+    4,
+    16,
+    32
+  ],
+  "rows": [
+    {
+      "slot": "ar_rich_fresh1",
+      "physical_only": true,
+      "pairs": [
+        {
+          "target_axis_a": 0,
+          "other_axis_b": 2,
+          "rho_Q0": -0.03820995659288207,
+          "M_ab_per_h": [
+            -0.025225626517431807,
+            -0.05273938393201773,
+            -0.02686349899246794
+          ],
+          "M_ab": -0.03494283648063916,
+          "S_a": 1.0146354934938377,
+          "S_b": 2.0026040789668595,
+          "gamma_ab": 0.9879685854730218,
+          "chi_ab": 0.045402920132771,
+          "abs_chi_over_gamma": 0.04595583381938494,
+          "worst_sign_pair_order_critical_angle_radians": 0.7624364020047133,
+          "worst_sign_pair_order_critical_angle_degrees": 43.68438798200985,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 0,
+          "other_axis_b": 3,
+          "rho_Q0": -0.019834038379138448,
+          "M_ab_per_h": [
+            -0.015959654982305373,
+            -0.028743761059892067,
+            -0.026673421298714004
+          ],
+          "M_ab": -0.023792279113637144,
+          "S_a": 1.0146354934938377,
+          "S_b": 2.0062237461641264,
+          "gamma_ab": 0.9915882526702886,
+          "chi_ab": 0.012331279870076768,
+          "abs_chi_over_gamma": 0.012435887412814099,
+          "worst_sign_pair_order_critical_angle_radians": 0.7791805401989853,
+          "worst_sign_pair_order_critical_angle_degrees": 44.64375643212544,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 2,
+          "rho_Q0": -0.030083721558184312,
+          "M_ab_per_h": [
+            -0.03011421708417143,
+            -0.05988552046799694,
+            -0.05355869923488967
+          ],
+          "M_ab": -0.04785281226235268,
+          "S_a": 1.4375467916543105,
+          "S_b": 2.0026040789668595,
+          "gamma_ab": 0.565057287312549,
+          "chi_ab": 0.007786916385207246,
+          "abs_chi_over_gamma": 0.013780755615492283,
+          "worst_sign_pair_order_critical_angle_radians": 0.7785082217221118,
+          "worst_sign_pair_order_critical_angle_degrees": 44.605235420911924,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 3,
+          "rho_Q0": -0.0022002473751069496,
+          "M_ab_per_h": [
+            0.004070060357503743,
+            -0.014642788527849622,
+            0.0011875501153269879
+          ],
+          "M_ab": -0.003128392685006297,
+          "S_a": 1.4375467916543105,
+          "S_b": 2.0062237461641264,
+          "gamma_ab": 0.5686769545098158,
+          "chi_ab": 0.001320361716293069,
+          "abs_chi_over_gamma": 0.002321813299839423,
+          "worst_sign_pair_order_critical_angle_radians": 0.7842372588336003,
+          "worst_sign_pair_order_critical_angle_degrees": 44.933485068074035,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        }
+      ]
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "physical_only": true,
+      "pairs": [
+        {
+          "target_axis_a": 0,
+          "other_axis_b": 2,
+          "rho_Q0": -0.007279220686653314,
+          "M_ab_per_h": [
+            -0.014533807874934102,
+            -0.0033267465657782895,
+            -0.009364174818083345
+          ],
+          "M_ab": -0.009074909752931912,
+          "S_a": 0.9788632391312543,
+          "S_b": 1.9978122645683067,
+          "gamma_ab": 1.0189490254370526,
+          "chi_ab": 0.003518058398120194,
+          "abs_chi_over_gamma": 0.0034526343421460277,
+          "worst_sign_pair_order_critical_angle_radians": 0.7836718530859533,
+          "worst_sign_pair_order_critical_angle_degrees": 44.90108970502143,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 0,
+          "other_axis_b": 3,
+          "rho_Q0": -0.01427787887368722,
+          "M_ab_per_h": [
+            -0.018027723271788806,
+            -0.03094907930413813,
+            -0.02448544094185379
+          ],
+          "M_ab": -0.024487414505926907,
+          "S_a": 0.9788632391312543,
+          "S_b": 2.007827462713648,
+          "gamma_ab": 1.0289642235823937,
+          "chi_ab": -0.006331220937744422,
+          "abs_chi_over_gamma": 0.0061530039554747,
+          "worst_sign_pair_order_critical_angle_radians": 0.7823217002437278,
+          "worst_sign_pair_order_critical_angle_degrees": 44.82373164546431,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 2,
+          "rho_Q0": -0.01713488809940872,
+          "M_ab_per_h": [
+            -0.031064797119798242,
+            -0.03312866002432361,
+            -0.032938093023936806
+          ],
+          "M_ab": -0.03237718338935289,
+          "S_a": 1.392487461260589,
+          "S_b": 1.9978122645683067,
+          "gamma_ab": 0.6053248033077177,
+          "chi_ab": -0.006661960353171577,
+          "abs_chi_over_gamma": 0.011005596196898214,
+          "worst_sign_pair_order_critical_angle_radians": 0.77989558745493,
+          "worst_sign_pair_order_critical_angle_degrees": 44.68472562204348,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 3,
+          "rho_Q0": 0.0035374996488594947,
+          "M_ab_per_h": [
+            -0.003801329647098792,
+            0.028706772651351166,
+            0.021439003324093344
+          ],
+          "M_ab": 0.015448148776115242,
+          "S_a": 1.392487461260589,
+          "S_b": 2.007827462713648,
+          "gamma_ab": 0.615340001453059,
+          "chi_ab": 0.01886768470265992,
+          "abs_chi_over_gamma": 0.030662210579689143,
+          "worst_sign_pair_order_critical_angle_radians": 0.7700718600201256,
+          "worst_sign_pair_order_critical_angle_degrees": 44.121867500942315,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        }
+      ]
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "physical_only": true,
+      "pairs": [
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 0,
+          "rho_Q0": 0.25559688055940943,
+          "M_ab_per_h": [
+            0.008872793491333545,
+            0.13674824278745526,
+            0.4553262350633666
+          ],
+          "M_ab": 0.2003157571140518,
+          "S_a": 0.7990303561913099,
+          "S_b": 1.0348698636983527,
+          "gamma_ab": 0.23583950750704274,
+          "chi_ab": -0.06810766123290918,
+          "abs_chi_over_gamma": 0.2887881761323442,
+          "worst_sign_pair_order_critical_angle_radians": 0.6448285412004225,
+          "worst_sign_pair_order_critical_angle_degrees": 36.94595392036193,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 2,
+          "rho_Q0": 0.17095825013907626,
+          "M_ab_per_h": [
+            0.005239378609363792,
+            0.08536688751742905,
+            0.29356100635537274
+          ],
+          "M_ab": 0.1280557574940552,
+          "S_a": 0.7990303561913099,
+          "S_b": 1.0309850825162812,
+          "gamma_ab": 0.23195472632497127,
+          "chi_ab": -0.056744722140833315,
+          "abs_chi_over_gamma": 0.24463705930843288,
+          "worst_sign_pair_order_critical_angle_radians": 0.6654357357639934,
+          "worst_sign_pair_order_critical_angle_degrees": 38.12665919645948,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 3,
+          "other_axis_b": 0,
+          "rho_Q0": 0.19947765118824537,
+          "M_ab_per_h": [
+            0.006784521739451624,
+            0.10543214144749467,
+            0.3452947755979654
+          ],
+          "M_ab": 0.1525038129283039,
+          "S_a": 0.793776940805755,
+          "S_b": 1.0348698636983527,
+          "gamma_ab": 0.24109292289259765,
+          "chi_ab": -0.05976654355876215,
+          "abs_chi_over_gamma": 0.24789837396175674,
+          "worst_sign_pair_order_critical_angle_radians": 0.6638983203338151,
+          "worst_sign_pair_order_critical_angle_degrees": 38.03857178095197,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 3,
+          "other_axis_b": 2,
+          "rho_Q0": 0.25534951632430364,
+          "M_ab_per_h": [
+            0.009043112528748325,
+            0.13562950388683295,
+            0.4279699109642688
+          ],
+          "M_ab": 0.19088084245995005,
+          "S_a": 0.793776940805755,
+          "S_b": 1.0309850825162812,
+          "gamma_ab": 0.23720814171052618,
+          "chi_ab": -0.08419041514233949,
+          "abs_chi_over_gamma": 0.354922114119844,
+          "worst_sign_pair_order_critical_angle_radians": 0.6148716489587691,
+          "worst_sign_pair_order_critical_angle_degrees": 35.229550427586986,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        }
+      ]
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "physical_only": true,
+      "pairs": [
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 0,
+          "rho_Q0": 0.5694538268942677,
+          "M_ab_per_h": [
+            0.17238785947775234,
+            1.5829112319618273,
+            1.4165963145867402
+          ],
+          "M_ab": 1.0572984686754399,
+          "S_a": 1.8540089331202585,
+          "S_b": 1.8837071564657417,
+          "gamma_ab": 0.02969822334548322,
+          "chi_ab": -0.013859793708145496,
+          "abs_chi_over_gamma": 0.4666876380756097,
+          "worst_sign_pair_order_critical_angle_radians": 0.5670759730361314,
+          "worst_sign_pair_order_critical_angle_degrees": 32.4910599182448,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 1,
+          "other_axis_b": 2,
+          "rho_Q0": 0.21911917940463105,
+          "M_ab_per_h": [
+            0.05845079961412644,
+            0.6148438297738039,
+            0.5795183693500419
+          ],
+          "M_ab": 0.41760433291265747,
+          "S_a": 1.8540089331202585,
+          "S_b": 1.874658820165206,
+          "gamma_ab": 0.020649887044947413,
+          "chi_ab": 0.01818604745289465,
+          "abs_chi_over_gamma": 0.8806850813910088,
+          "worst_sign_pair_order_critical_angle_radians": 0.42437775761333335,
+          "worst_sign_pair_order_critical_angle_degrees": 24.31505443046984,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 3,
+          "other_axis_b": 0,
+          "rho_Q0": 0.1952979178253349,
+          "M_ab_per_h": [
+            0.053889678486141,
+            0.5566129285118031,
+            0.510898475049574
+          ],
+          "M_ab": 0.37380036068250605,
+          "S_a": 1.826298866247689,
+          "S_b": 1.8837071564657417,
+          "gamma_ab": 0.057408290218052827,
+          "chi_ab": 0.023044270009626944,
+          "abs_chi_over_gamma": 0.40141014341479825,
+          "worst_sign_pair_order_critical_angle_radians": 0.594537450115726,
+          "worst_sign_pair_order_critical_angle_degrees": 34.06448665410082,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        },
+        {
+          "target_axis_a": 3,
+          "other_axis_b": 2,
+          "rho_Q0": 0.5725683457830397,
+          "M_ab_per_h": [
+            0.1717335025740315,
+            1.556232125016863,
+            1.4316614539322876
+          ],
+          "M_ab": 1.053209027174394,
+          "S_a": 1.826298866247689,
+          "S_b": 1.874658820165206,
+          "gamma_ab": 0.04835995391751702,
+          "chi_ab": -0.012633165973669147,
+          "abs_chi_over_gamma": 0.26123196881486566,
+          "worst_sign_pair_order_critical_angle_radians": 0.6576373269121525,
+          "worst_sign_pair_order_critical_angle_degrees": 37.679843282331525,
+          "hypothetical_rotation_only_not_actual_Fine_fit": true
+        }
+      ]
+    }
+  ],
+  "formula": "chi=2*M_ab-rho*(S_a+S_b); theta_crit=0.5*atan2(gamma,abs(chi))",
+  "not_actual_Fine_rotation_model": true,
+  "not_full_four_axis_selection_certificate": true,
+  "physical_input_sources": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/private/TRAIN_CAL/ar_rich_fresh1.npz",
+      "sha256": "4f6fd8d87d48c46e97dea651305e47331dc35efc873ba42bbbdb92b6983cf933",
+      "member": "train__physical",
+      "read_only": true
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/private/TRAIN_CAL/ar_rich_fresh2.npz",
+      "sha256": "79880ee02764590e5ae3d2aec51e7935d6dd265984a3b931245f583a48036545",
+      "member": "train__physical",
+      "read_only": true
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/private/TRAIN_CAL/fhn_fresh_eps008.npz",
+      "sha256": "ce2af56270c30b7f529449712dc8eb2d951de5201140d7122e96b93d673ff3a2",
+      "member": "train__physical",
+      "read_only": true
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/private/TRAIN_CAL/fhn_fresh_eps05.npz",
+      "sha256": "527304657595581982be3f4025bd8ffa34d3ea2f56011ed83e5cfa20b859e3f8",
+      "member": "train__physical",
+      "read_only": true
+    }
+  ],
+  "code_sha256": "be90ee8271d24434e2694c6b0e548617baafd5cd65e03f0f6cdaddc15fb43007",
+  "new_randomness_or_training": 0
+}

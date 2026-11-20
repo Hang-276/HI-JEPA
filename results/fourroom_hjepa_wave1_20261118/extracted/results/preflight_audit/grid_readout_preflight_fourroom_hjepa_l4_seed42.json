@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "model_tag": "fourroom_hjepa_l4",
+  "dataset": "dev_preflight",
+  "features": {
+    "grid4x4": {
+      "audit_r2": {
+        "agent_x": 0.9998666754066223,
+        "agent_y": 0.9997252715451881,
+        "distractor_x": 0.9740865409429706,
+        "distractor_y": 0.9618560116778496
+      },
+      "minimum_audit_r2": 0.9618560116778496,
+      "distractor_r2_min": 0.9618560116778496
+    }
+  }
+}

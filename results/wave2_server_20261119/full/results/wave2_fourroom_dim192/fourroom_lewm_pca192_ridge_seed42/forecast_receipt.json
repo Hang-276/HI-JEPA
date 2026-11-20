@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "fourroom_lewm_pca192_ridge_seed42",
+  "thresholds_sha256": "346cbd57fc9b59fa7d5dee6bf308286a58360cfdcd90946a31d6a363d1fc5cfa",
+  "probe_sha256": "e3faf5f4bae5a87d25468790339c68df5a5d6c6f8ac399548a1dc2ffea645116",
+  "test_prediction_sha256": "6f13d5bd1b29175641ea04e64b5beee777791157735dc8336314128926db038a"
+}

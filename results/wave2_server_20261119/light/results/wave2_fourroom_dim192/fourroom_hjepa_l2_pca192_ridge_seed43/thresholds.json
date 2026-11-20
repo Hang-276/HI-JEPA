@@ -1,0 +1,7 @@
+{
+  "cell": "fourroom_hjepa_l2_pca192_ridge_seed43",
+  "own_cal": 0.3965327011567187,
+  "family_size": 36,
+  "per_claim_alpha": 0.001388888888888889,
+  "frozen_before_test_encoding": true
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-10T06:43:54.660929+00:00",
+  "sources": {
+    "run.py": "fe804dcd00630de2f03e77decc5df3ed58107708f5b0d410e18c927a30e39d97",
+    "PROTOCOL.md": "ee29820bf2a166c931ff6e63d04b38fffab4021d235ae3ae0499f507ef608489",
+    "METHOD.md": "ebb8430c98a2cc9cabf70e15022f71e295e5e4c182cc48787f6dc84eaff6b4d6",
+    "../dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521"
+  },
+  "pilot": 2026286101,
+  "formal": 2026286102,
+  "bootstrap": 2026286103
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "Round2 delivery, frozen-input integrity, deterministic mathematical checks and recorded finite-array audit assertions; no population or novelty certification",
+  "scripts_AST_parsed": [
+    "correlation_risk_checks.py",
+    "fine_value_audit.py",
+    "innovation_budget_audit.py",
+    "innovation_correlation_budget.py",
+    "nonlinear_formula_checks.py",
+    "nonlinear_remainder_audit.py"
+  ],
+  "recorded_script_and_prerun_scope_hashes_match": true,
+  "unique_inputs_rehashed": 111,
+  "input_mismatches": [],
+  "round1_manifest_files_verified_unchanged": 20,
+  "preexisting_tracked_dirty_stat_unchanged": true,
+  "nonlinear_formula_checks": {
+    "score_identity": true,
+    "polar_identity": true,
+    "telescope_identity": true,
+    "all_covariance_bounds": true,
+    "oscillatory_remainder_decreases": true,
+    "oscillatory_nonzero_risk_limit": true
+  },
+  "correlation_counterexample_and_Hessian_checks": {
+    "all_normalized_vector_bounds": true,
+    "all_pair_correlation_bounds": true,
+    "all_core_formulas": true,
+    "all_jensen_risk_bounds": true,
+    "all_risk_bridges": true,
+    "all_angle_bridges": true,
+    "all_full_pair_information_bounds": true,
+    "c7_threshold_inversion": true,
+    "persistent_shear_wrong_selection": true,
+    "persistent_shear_nll_formula": true,
+    "persistent_shear_n1_formula": true,
+    "persistent_shear_nonvanishing_score_error": true,
+    "nine_regime_fullrank": true,
+    "nine_regime_stationary_covariance": true,
+    "nine_regime_nu_formula": true,
+    "nine_regime_wrong_selection_positive_margin": true,
+    "nine_regime_epsilon_001_std_within_clamp": true,
+    "affine_hessian_ratio_formula": true,
+    "affine_hessian_factor_two": true,
+    "affine_hessian_positive_minimum": true,
+    "affine_hessian_asymptotic": true
+  },
+  "remainder_audit": {
+    "physical_instances": 4,
+    "Fine_optimization_parents": 12,
+    "TRAIN_OLS": 12,
+    "polar_SVD": 12,
+    "CAL_fits": 0,
+    "pair_records": 288,
+    "affine_TRAIN_Cauchy_parent_coverage": 9,
+    "polar_TRAIN_truth_bound_parent_coverage": 9,
+    "FHN_eps05_CAL_physical_margin": -0.020989269202945193,
+    "CAL_negative_margin_is_not_deployed_G0_failure": true
+  },
+  "Fine_value_audit": {
+    "underlying_roots": 4,
+    "matched_cohorts": 10,
+    "Fine_optimization_parents": 30,
+    "raw_deterministic_parents": 10,
+    "CAL_array_members": 50,
+    "CAL_affine_projection_diagnostics": 50,
+    "stronger_observation_roots_are_reused": true,
+    "raw_saved_metric_gates_pass": 10,
+    "formal_new_confirmation": false
+  },
+  "innovation_budget": {
+    "A_all9_empirical_nu_below_one": 7,
+    "Q_all9_empirical_nu_below_one": 6,
+    "N10_plugin_not_population_or_actual_conditional_residual": true,
+    "correlation_budget_saturation_preserved": true
+  },
+  "markdown_local_links_checked": 47,
+  "missing_local_links": [],
+  "table_column_errors": [],
+  "independent_reviews": {
+    "nonlinear_entropy_proofs": "passed; explicit integrability/diffeomorphism assumptions included",
+    "correlation_to_actual_selection": "passed after explicitly adding multihorizon score remainder to core guarantee",
+    "nine_regime_counterexample_and_affine_Hessian": "passed; profile/clamp and fixed-epsilon boundaries explicit",
+    "experimental_counts_and_evidence_scope": "passed"
+  },
+  "scope_zeros": {
+    "NN_training": 0,
+    "model_forward": 0,
+    "checkpoint_load": 0,
+    "PRNG": 0,
+    "new_physical_trajectories": 0,
+    "TEST_FINAL_array_reads": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  },
+  "decision": "CONDITIONAL GO for constrained mechanism research; server stage remains deferred",
+  "open_scientific_requirements": [
+    "actual conditional innovation remainder population bounds",
+    "actual state/multihorizon score remainder and target-margin uncertainty",
+    "correct population observation-NLL excess bound",
+    "novelty beyond classical nonorthogonal joint diagonalization",
+    "independent confirmation of any revised mechanism claim"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sealed": true,
+  "thresholds_sha256": "7006e233c46744fdb00919be56b10b8ca25638803ab17c36e3dba98745eb2e36",
+  "run_script_sha256": "3235492d0c36c5dbd270d4a8b2223c024e134a2421b3583c288888af858b78bd",
+  "metrics_sha256": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+  "config_sha256": "6a190fb1111b3fc97ba784e65b7a98ce89fbf8c37ba03c8cb9214d22b593fb29",
+  "config_snapshot_sha256": "6a190fb1111b3fc97ba784e65b7a98ce89fbf8c37ba03c8cb9214d22b593fb29",
+  "config_path": "/home/kemove/yuzihang/hjepa-slow-selection/configs/fourroom_probe_v2.json",
+  "data_receipt_sha256": "c32880fa3e5dd59dfbdbb1248b76f81623bcd7d6f45f4d06bc6f1ddd58b269ae",
+  "prediction_sha256": {
+    "cls_160k_official_seed42_level1": "713b4dd9686d8c3efb7210a682412c14da561af33a447ac425a476a34b78f37f",
+    "cls_160k_official_seed42_level2": "0b49b963166e08466a97191b077e6e3b8730f88d3b8731c3a2288246b7dc8074",
+    "cls_160k_official_seed43_level1": "4fa47f79c75c94ac216d20ac4163bfbab708448f87391dec0964197c150da245",
+    "cls_160k_official_seed43_level2": "82c86f92a926d1085eb12540e215c56af2acc12d4465894668a1b24665cfce8b",
+    "cls_160k_official_seed44_level1": "d4dada0937259f7c0db39c0f465c2675fa1085d927f496a175d5fa8372716d7b",
+    "cls_160k_official_seed44_level2": "bd88876baf071699720a0ea8a0f68462eb1c88d358bd207e54953c382eb8970f",
+    "cls_8k_small_seed42_level1": "5fa80a22c7cfaf9a5b93fa1275cbad7a933d2e063c5740bb92f56b14bc0ddcc1",
+    "cls_8k_small_seed42_level2": "6d6bd7b4472385b62cc8d0a659b9a43b9efb28b9d53de966f9ab38afb5b485fb",
+    "cls_8k_small_seed43_level1": "ad0798db179c6493ac384923086bdc397c657759bff6985ceac108b77dfbb422",
+    "cls_8k_small_seed43_level2": "0cae0784bcbff78798dfdaa3e4bf4ee50adc4d034880225ca935575b1e9dc4b2",
+    "cls_8k_small_seed44_level1": "7749f6d5c125155412ae939dab36b4a34e498907ce9fbd01deb0f2f5afbecc50",
+    "cls_8k_small_seed44_level2": "f10bc2ecdb8d3b6560d3e72cfacb8f406be3a7c7b319e7f2edfa1fccc80c5c71",
+    "grid4x4_160k_official_seed42_level1": "d89567294a1f658c87e33942a0aaeffe7cc6f0d7cb91e78abd2d6e2094bad546",
+    "grid4x4_160k_official_seed43_level1": "5f8c3c7473b3b4fd6c39bada2bf4c224869deb15bc898dce1a014c889fb73fd1",
+    "grid4x4_160k_official_seed44_level1": "e8cd5b0e1d68df0290e609912c8577768816153e837ba740e581e946724bc38a",
+    "grid4x4_160k_ridge_seed42_level1": "f8d90af741aedf6ef0733875c06e47f8093a914b221ef5d4a5b42175d980cae6",
+    "grid4x4_160k_ridge_seed43_level1": "43bc798ea189fe3dffbf416cc5078999216f5f3a263ab1ec8139d20de44ae29a",
+    "grid4x4_160k_ridge_seed44_level1": "91d995fdc4515b62f4e27f21f5a7e77c4cef3b55106f1b617c66be46645c73d3"
+  }
+}

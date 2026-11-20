@@ -1,0 +1,200 @@
+{
+  "sources": {
+    "lejepa_direction_a1_20261113/controlled/controlled.py": "bc4441e2c3ced2d6ff87cf485a1504804b2bc79ce82b07557bc681cb2ca201b9",
+    "lejepa_direction_a1_20261113/controlled/score.py": "c0837c126c3bb475142e76ba656f31915d01b1569a7801e4879d9aa074325a5b",
+    "lejepa_direction_a1_20261113/controlled/PROTOCOL.md": "4800c6f120ade159eddfd95aae1d25e1cc7a54d1b89477d25aceeb3db5651196",
+    "lejepa_direction_a1_20261113/controlled/protocol.json": "cee9e110bf8261742dd9618dbe3c44fc51912936556e9fdfa5dad8059071c4c5",
+    "lejepa_direction_a1_20261113/natural/run.py": "157a5491b0696c22323cf75e4f475eb659a9651b63001e36ee678285ca66fba8",
+    "lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "lejepa_mechanisms_20261113/readout/run.py": "99791a7db74f019b616bfdd64beac445b3bbf27d9819e00750ff98fdb2126a37",
+    "lejepa_mechanisms_20261113/readout/protocol.json": "63e8169473084599913a24296df97e9b70eed9b0d51050d6b467ac8eac7b5ced",
+    "lejepa_mechanisms_20261113/readout/replication/FORECAST_RECEIPT.json": "d3cd0a364ccc699a08a807e43484b559f51255d26472149c079c95e326ef5ac3",
+    "lejepa_mechanisms_20261113/readout/replication/RESULTS.json": "2b829aeb505db5b84634281c4ea71e35722263e055ff212917109e43fa7c08ed",
+    "lejepa_dynamic_transfer_20261113/analysis/HISTORICAL_GROUPS.json": "7fe3c3ddb3a5bc25d8473e1a8928892a2d2e3aeeb35b868ca375bb973aab2bfc",
+    "lejepa_slow_rank_20261112/prospective/pipeline_forecast_receipt.json": "a3a46b47092dc0359587f17d62bb1559f78be1987dc6316809575596ca7702ad"
+  },
+  "fit_files": {
+    "separated_wide_1942_fit.json": "1be7e6991247ba15d55c35b570dab8280e584b141d9780902d53b9f2f4279d37",
+    "separated_wide_3749_fit.json": "f2ddbc77594dd5f0a0b913fa0bcfcbd0850137517091cc42fa020d997b9daecf",
+    "separated_wide_5817_fit.json": "066cc71539cba107e3945ea22e6ace5cbf559d694abc2f97736db9deb3bc3018",
+    "separated_wide_7811_fit.json": "49dcd0b30190dc139083d1f465a19a5719db4bf7222c93c41a015696f96e4427",
+    "crossed_wide_1942_fit.json": "764127f9369085b03bc8781033e01a030eb0c0bba8ea148e0ac2abca0e943896",
+    "crossed_wide_3749_fit.json": "53cdb6c54871023d76e142fbb0ccffeaf74fc59fe37fdd44117188866be5f5ec",
+    "crossed_wide_5817_fit.json": "e7c693b96dc09d183774b2694c6176f02f772296ee40c77340de63ce9fef8126",
+    "separated_narrow_1942_fit.json": "614366b3276d4e16e4a6a6cf4c04e36a513f907fad42c6b3c4f87aad01107320",
+    "separated_narrow_3749_fit.json": "0ca3d360e77f204af8c1177b4ad59ac685c4a05cd6e3a2a9214d47bcc8980443",
+    "separated_narrow_5817_fit.json": "3cfe52b7fbeb963fc2a6468796aedfe0d8aff787f57e3ef406133adcfa026067",
+    "separated_narrow_7811_fit.json": "25b72d14b05db5cb9ff910ec7bc1a4a672016970064f0a5d7ec3085c4635f9be",
+    "crossed_narrow_1942_fit.json": "421682a80b1b7e4605b7d0ccb945b68d089e5acc4f708eb9d8cad893a0265d27",
+    "crossed_narrow_3749_fit.json": "fd39a11ef18a661cd9d60376610898d0f5ac6241848a8cd13abdc0325b07122c",
+    "crossed_narrow_5817_fit.json": "58d6e5e31e7b692d0def7e610c448956e08a7ab6c785efa82b47dd7511c70c8e"
+  },
+  "forecast_files": {
+    "primary_separated_wide_1942_separated_wide.npz": "53bf51eee4a8f5d71684a20a6c12fb91d8f6849ffe7c79107f3b60218054d055",
+    "primary_separated_wide_1942_separated_narrow.npz": "65f7decee3fc5c4235fa36f42b2268c9aa663380b659c74531870aa18a24cdd0",
+    "replication_separated_wide_1942_separated_wide.npz": "ae98f7a366653f4cf22dd6ce36839f2c31ec9812420fa52f5a6f519e818dec97",
+    "replication_separated_wide_1942_separated_narrow.npz": "991c8e06e3874d700a400e5499c39131acba7182bf4184ec42db61d2e12302f6",
+    "primary_separated_wide_3749_separated_wide.npz": "7e45756266adfcd60abcca22bf197b0c4dfbddff10b33a6e14d45fcc4e2a7bfe",
+    "primary_separated_wide_3749_separated_narrow.npz": "0189b452d36b877124aeaba45efbcd87fdc91a88289b1c410c662d57d2ad3938",
+    "replication_separated_wide_3749_separated_wide.npz": "f84bb54ad985712bdf209685dee955bb80b4d2ea26424ca9d563ab4964964858",
+    "replication_separated_wide_3749_separated_narrow.npz": "106d8bcf88e90b38e776f21a50484527b6b0ba8d71296076dea9909194889279",
+    "primary_separated_wide_5817_separated_wide.npz": "56811e416f41a66b251ec5031aa29cd968beb52e380e4bfc9551aa094e391c3f",
+    "primary_separated_wide_5817_separated_narrow.npz": "897e527f200e541d7bcc56614335d096b147176fe07a992064697d1b07ca8219",
+    "replication_separated_wide_5817_separated_wide.npz": "b485389b8f0ec71dcd1cdfcf92d1461f743acd25c0fb08189b222e56d35766b8",
+    "replication_separated_wide_5817_separated_narrow.npz": "3dbf37fb06ea81e5c981e3da6fea8e02956e0b24601e7c6bfbd0ce61333d8042",
+    "primary_separated_wide_7811_separated_wide.npz": "b17bd445761f1bd4d364967ab11b1b01e21a68ee5fcc78b0c54405c59e067c84",
+    "primary_separated_wide_7811_separated_narrow.npz": "ac3eb3764a89b4045fcd25d0d3aecd98c31b15ee080ad826dcc1bb33d9f201d8",
+    "replication_separated_wide_7811_separated_wide.npz": "33454a74a78130deb3ef4d6512cdc8fa9ef856791d5557075648b7b972e54a16",
+    "replication_separated_wide_7811_separated_narrow.npz": "dafb0b942b46db1348b6e307cdf1655603a6533d88b0213e61641a7d37f16ccb",
+    "primary_crossed_wide_1942_separated_wide.npz": "ea20b717cdc51dcf9817165826849f7c66455b92e946a271169237939bace665",
+    "primary_crossed_wide_1942_separated_narrow.npz": "89080cc088ad881959030e734edf99dd892d35126eb4350e5aa9aeaa0171eb8f",
+    "replication_crossed_wide_1942_separated_wide.npz": "237229847cbfbc31c2a34b31f38c3488b06ff43ffc9b9de927617ec21ddb07b7",
+    "replication_crossed_wide_1942_separated_narrow.npz": "8f40f2c024f36b6becefaa33352dea5659f4fe2e49d83ee1a17eedb1fb3316f4",
+    "primary_crossed_wide_3749_separated_wide.npz": "af9014ff0aebe29f7b780f8b9e0dc3984a1aeb0ed4b10392874aed04ad5d8cc9",
+    "primary_crossed_wide_3749_separated_narrow.npz": "e1e38a8dcf45f04909c26462d9d8420f089f0a2a7682664072caa61dc62aa3d4",
+    "replication_crossed_wide_3749_separated_wide.npz": "70a757f13719bd43da5c98e0fa0e1021c332da498a740cbf5fb3c5d0931fcd4b",
+    "replication_crossed_wide_3749_separated_narrow.npz": "e4d47288001b041fe16ca48a155c987c384bfeda94e0e62f69d48e258bb10c2d",
+    "primary_crossed_wide_5817_separated_wide.npz": "3b6c5737ab90e313ff87b72bf96d577771e2ec8d961c8deeeb3dbddb847ef0bb",
+    "primary_crossed_wide_5817_separated_narrow.npz": "ef950a419a98b95ce088124fb87c582f7562572ed224ff3aa5395ef2a070a3e0",
+    "replication_crossed_wide_5817_separated_wide.npz": "90c4eff8038fc482cbe1e55496a440b048fd767e7f70ca901a0890b9b993fb97",
+    "replication_crossed_wide_5817_separated_narrow.npz": "1616cdf869157740ffba17060c8f01cea8d56a2f0fbb7899202f02b1e12baa11",
+    "primary_separated_narrow_1942_separated_wide.npz": "63e7fd0b41c33b42d7cf720ddbaf78eb31e61d54eae1f44cd56ddccb6bd594d9",
+    "primary_separated_narrow_1942_separated_narrow.npz": "37711eac5867c5de16df3b57d10f0787afa0e697fc04988104036c1441c550a3",
+    "replication_separated_narrow_1942_separated_wide.npz": "fd1e3076bc6d45115acad3cd5b2f90409103aa0c658c03f21953b3f9c4d70c0e",
+    "replication_separated_narrow_1942_separated_narrow.npz": "20134e0802a627c9c588ee5948f9d247fdf1e11149abbb23fcdfedbfcec30821",
+    "primary_separated_narrow_3749_separated_wide.npz": "ddce206ca3bc3e4673dfca5e3b97ac9e57a076ee66afa2f00b611e7baca285f3",
+    "primary_separated_narrow_3749_separated_narrow.npz": "9cb2be3feb7d8a49c9176af5411068f2427d7e7a1fdea42cddd6489837fb39b1",
+    "replication_separated_narrow_3749_separated_wide.npz": "a710d3cce19b76bf0d149df07139169eca9aae8ebb91d7d772b75637a6728b88",
+    "replication_separated_narrow_3749_separated_narrow.npz": "218909e5c310091cc0a9641e8c9e694e28917b9b3675b2c8760c520d83cc1f6b",
+    "primary_separated_narrow_5817_separated_wide.npz": "2dc676e00d85467cf19b315ddb0d8dfa20a7d13db88604233b5c566f8167b26a",
+    "primary_separated_narrow_5817_separated_narrow.npz": "46ca9a6b17d299891e3755d3148953e7284152a6eb9f0b478c812e40a3da27e0",
+    "replication_separated_narrow_5817_separated_wide.npz": "b91dc59d19f46aa6f928c5d56e8a1f3f100646089c4a0d05fa7409272366f96f",
+    "replication_separated_narrow_5817_separated_narrow.npz": "d293e939c24c32029326b803351ee4fdce0c77bd2d00aa88ccff378a31ec182b",
+    "primary_separated_narrow_7811_separated_wide.npz": "6d349eea066052e8d1e3055521edd337cf71e6135c323e4300333fc36fdfbf68",
+    "primary_separated_narrow_7811_separated_narrow.npz": "b86ff0dc5c96919cd8b50317b17d8ede9330cdf8eab83be8efba744c628404d6",
+    "replication_separated_narrow_7811_separated_wide.npz": "055e85a2b41809d75252baaf5b9092f8432f00078d52e16e8658ef146401dfae",
+    "replication_separated_narrow_7811_separated_narrow.npz": "b548971593ffaa4c9d4ce82802f18761e5e69c405addd47c5d9e4135e0c8b85c",
+    "primary_crossed_narrow_1942_separated_wide.npz": "a72958169ddd5c83c82b23a91dd9bde7e22a12dbbfc010e61cc02156d6a13e08",
+    "primary_crossed_narrow_1942_separated_narrow.npz": "65300d7362301573b1ae79a4419d83f9eda16c797bc85e953363083afb3276fd",
+    "replication_crossed_narrow_1942_separated_wide.npz": "6c7be2be4f5284d438c7b0a0f408e3c464a9ddbf69088db827e9baa3d7f2ede8",
+    "replication_crossed_narrow_1942_separated_narrow.npz": "04658688968bbcfd2f377e774329a538e8855ff5992b7586056e7d8a23331ce8",
+    "primary_crossed_narrow_3749_separated_wide.npz": "e4bb605c39bc665b5fb8f0e36eadb828056d9fb392089c84195eb1bf5970a3c5",
+    "primary_crossed_narrow_3749_separated_narrow.npz": "9c4189f9b58de857150a53a3a498f72be48b05a90bd8e45bd6e9bbf28e89aa77",
+    "replication_crossed_narrow_3749_separated_wide.npz": "9d8b050eb211671408bb65ed3de8694bfdcc9b9af45da10e3cb7f815b1b4ab14",
+    "replication_crossed_narrow_3749_separated_narrow.npz": "779c6c0bc2cbf612064d0fd7cce4066a76bdd3790ba27340196f20ac08d1f2c3",
+    "primary_crossed_narrow_5817_separated_wide.npz": "c373fbb502fb8684d0c90f2021a670285995500ca5abc807edcd8f5e393d24dc",
+    "primary_crossed_narrow_5817_separated_narrow.npz": "f77cd9f0f0c8e85f8dec87034316b5f2a55fc6471c2780bd109c701fe50820d5",
+    "replication_crossed_narrow_5817_separated_wide.npz": "ae46e5a12ed123a2714ca8fc80fb594f145fc719885959a785029d4adf5f08ec",
+    "replication_crossed_narrow_5817_separated_narrow.npz": "9e41b92ec1cbdf4b87ef230fd2ed69f6e6b724e1e48f158d7f4286e3b1d813b9"
+  },
+  "model_names": [
+    "separated_wide_1942",
+    "separated_wide_3749",
+    "separated_wide_5817",
+    "separated_wide_7811",
+    "crossed_wide_1942",
+    "crossed_wide_3749",
+    "crossed_wide_5817",
+    "separated_narrow_1942",
+    "separated_narrow_3749",
+    "separated_narrow_5817",
+    "separated_narrow_7811",
+    "crossed_narrow_1942",
+    "crossed_narrow_3749",
+    "crossed_narrow_5817"
+  ],
+  "process_names": [
+    "separated_wide",
+    "separated_narrow"
+  ],
+  "methods": [
+    "diag",
+    "full"
+  ],
+  "arm_design": [
+    {
+      "name": "base",
+      "delta": 0,
+      "donor": null
+    },
+    {
+      "name": "slow_0.01",
+      "delta": 0.01,
+      "donor": 0
+    },
+    {
+      "name": "fast_0.01",
+      "delta": 0.01,
+      "donor": 3
+    },
+    {
+      "name": "slow_0.04",
+      "delta": 0.04,
+      "donor": 0
+    },
+    {
+      "name": "fast_0.04",
+      "delta": 0.04,
+      "donor": 3
+    }
+  ],
+  "round_rng": {
+    "primary": 2026111308,
+    "replication": 2026111309
+  },
+  "config": {
+    "master_primary": 2026111308,
+    "master_replication": 2026111309,
+    "smoke_master": 2026111398,
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ],
+      "separated_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.88
+      ]
+    },
+    "n_state_cal": 32768,
+    "n_fit": 256,
+    "n_validation": 128,
+    "n_reference": 32768,
+    "n_test": 2048,
+    "length": 193,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "deltas": [
+      0.01,
+      0.04
+    ],
+    "ridge_alphas": [
+      0,
+      1e-06,
+      0.001,
+      0.1
+    ],
+    "r2_match_tolerance": 0.005,
+    "primary_minimum_gain": 0.01,
+    "cal_direction_identifiable_min_difference": 0.01,
+    "bootstrap_seed": 2026111328,
+    "bootstrap_draws": 4096
+  },
+  "roles": {
+    "state_cal": 1,
+    "fit": 2,
+    "validation": 3,
+    "reference": 4,
+    "test": 5,
+    "cal_reference": 6
+  },
+  "seconds": 26.375650709029287
+}

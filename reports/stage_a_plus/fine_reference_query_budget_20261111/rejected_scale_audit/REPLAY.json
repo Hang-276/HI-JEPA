@@ -1,0 +1,3464 @@
+{
+  "lock_sha": "2e2c8acb50b8c7087c64f5ae3c3aeb5750a439665ac8c2e189bb7cb8ee165fae",
+  "elapsed_seconds": 22.635274040978402,
+  "original_forecast_sha": "6cc22dc51f978f4d08a4fd96bf57e9a00a22f77fe7ecf71fb76cb2984c09fc26",
+  "labels_read": false,
+  "panels": [
+    {
+      "index": 0,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345000,
+        "role": "evaluation",
+        "trajectory_seed": 5317425386648687797,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "82fbf764129a820580a1fbd17af84e1ad2fe5364dd8491ec0251b63efc9963ce"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "655854b88005abd34113a82957d231644f43745a0b6b16aef9133de0a8df3959"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "14dfc60d0a32488d11528f4e41ce2dd3812d9e810f195b02ec4e5aeca0d25d58"
+          }
+        },
+        "inverse_maxabs_fp64": 9.43689570931383e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "db9dd2428ace3284f98440f4cf2ec64091a31b014a89a02f9952455e9841cc26",
+          "actions_preburn_sha256": "e5aafb06050820531627e39ae499007db58ac197239a7ff02621986c81f5de84",
+          "regimes_preburn_sha256": "5a61f9c83277b6face080b6438d50fc8e92c5157e0f759caf9bf87562552b334",
+          "standard_innovations_preburn_sha256": "9e6d452e9adbdc9c72d39805ce50493308c61b2fa2bc8e5f1ab729b964b7c9c0"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "339f798c9436f588a5f634a411a4012b90a9086e395d4ac478709902adaafe02",
+        "branch_sha256": {
+          "plus": "50bf89e26890e0f829b522e6014a999b739d88ea7bd5134473dfe9c207c076b0",
+          "minus": "a499aa88b1d904fd60731fe7f809baec5a0050ba25356ec14433b65a9ade90bd"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3153695156202003,
+            0.519146918298015,
+            1.3137953893029657,
+            0.5173300462688906
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3153695156202003,
+            0.519146918298015,
+            1.3137953893029657,
+            0.5173300462688906
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9348145011265038,
+            "maximum_condition": 1.1420379903672062,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184611,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 37,
+            "maximum_edge_length_standardized": 1.048743233140319,
+            "maximum_edge_length_visible": 1.2999506451834666,
+            "maximum_edge_target_length": 1.3032616482740225,
+            "iterations": [
+              150,
+              153,
+              153,
+              156
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.71511972492883e-10,
+              9.819827128502547e-10,
+              9.160660158546015e-10,
+              8.859420800157175e-10
+            ],
+            "edge_rms": 0.001455789177352632,
+            "target_edge_rms": 0.12016243179169403,
+            "relative_edge_rms": 0.012115177394847467,
+            "per_axis_edge_rms": [
+              0.000989481042868799,
+              0.0010220797131636602,
+              0.002023000489410114,
+              0.0015365669074847565
+            ],
+            "reference_scale": [
+              1.3153695156202003,
+              0.519146918298015,
+              1.3137953893029657,
+              0.5173300462688906
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "893d34e9c2a1aa701b361fa72a7db3948f23b17d0ed371d5ba55a9a14d06f1d4",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.3786013073948458,
+            "mean_nearest_standardized_distance": 0.5763239970023669
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3056623165701566,
+            0.5082168972667152,
+            1.3184979945193491,
+            0.5078536588067691
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8793928987196127,
+            "maximum_condition": 1.2796396233692826,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184573,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 38,
+            "maximum_edge_length_standardized": 1.109412762919909,
+            "maximum_edge_length_visible": 1.3103694102880734,
+            "maximum_edge_target_length": 1.326160643611479,
+            "iterations": [
+              157,
+              159,
+              155,
+              162
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.924312131792291e-10,
+              9.96215213698765e-10,
+              8.998617853471962e-10,
+              9.3942764831669e-10
+            ],
+            "edge_rms": 0.0034185473004718233,
+            "target_edge_rms": 0.1216946327445167,
+            "relative_edge_rms": 0.02809119205485959,
+            "per_axis_edge_rms": [
+              0.003739521754918648,
+              0.003610421267333401,
+              0.003048578676312179,
+              0.0032299947296341174
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "893d34e9c2a1aa701b361fa72a7db3948f23b17d0ed371d5ba55a9a14d06f1d4",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.415116243100135,
+            "mean_nearest_standardized_distance": 0.5952370997988883
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 1,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345001,
+        "role": "evaluation",
+        "trajectory_seed": 1778847977553804478,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "df48cd295e9bd3f83a057c21f038823e005aa4973804613ad0026a085dcd079a"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "1843bcb8d240ad53e6c6fd4d4d5a2d53c0e273531d198f3d0a4e939db1037fed"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "4a451fa8a563983b72ed420a743a6d81a9b46c2446ae62d707149c171caf16d4"
+          }
+        },
+        "inverse_maxabs_fp64": 9.43689570931383e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "d234368abeee8b51ac00ae6dc910bb46b1cf8e5500f224211f3cad91b4b80ff8",
+          "actions_preburn_sha256": "aa91be95c94a395e5de8f16350e41ffade7db7cf2f42f45c8c99e0c1437c517c",
+          "regimes_preburn_sha256": "a743a7b97127a4e57f9b9f32c9050ea5e0e3cbfab908aaf49ca5fa70a8e5377e",
+          "standard_innovations_preburn_sha256": "814ebd435d95338a65cf3911f98452326dafc93e8031c36da2a12801a47ef279"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "b12e8d88490c0dd83c5f75b54896c84268adb9dbfa0074fa4b47f603c37751f5",
+        "branch_sha256": {
+          "plus": "8b0bd5790161a85ba17863ae4e02f1dee8c5fdebfa4f3ae4782b8dadfaee82fd",
+          "minus": "c4f6536b7795d096e8400043d821ce6cf7235c52d4bf4790040b437f36a49228"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3290834205933186,
+            0.5152524093317178,
+            1.30311788559415,
+            0.5147165666978516
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3290834205933186,
+            0.5152524093317178,
+            1.30311788559415,
+            0.5147165666978516
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9372446693970816,
+            "maximum_condition": 1.1157271937708302,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185298,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 37,
+            "maximum_edge_length_standardized": 1.0595070777506062,
+            "maximum_edge_length_visible": 1.2724925278311578,
+            "maximum_edge_target_length": 1.3091214033187668,
+            "iterations": [
+              149,
+              158,
+              148,
+              159
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.515967144779422e-10,
+              8.94733437229049e-10,
+              9.731033521667865e-10,
+              9.850039934206245e-10
+            ],
+            "edge_rms": 0.001610451727658035,
+            "target_edge_rms": 0.12128752213236564,
+            "relative_edge_rms": 0.013277967092942078,
+            "per_axis_edge_rms": [
+              0.0009604740773834415,
+              0.000974226110938664,
+              0.0023692628662718195,
+              0.0016997604450075367
+            ],
+            "reference_scale": [
+              1.3290834205933186,
+              0.5152524093317178,
+              1.30311788559415,
+              0.5147165666978516
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "af4f1ac4499471d52f67da09fde3bbf7120fef2402944dd332f2187562601105",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2031024447900083,
+            "mean_nearest_standardized_distance": 0.5971017542697418
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3069115365129969,
+            0.5029000609210887,
+            1.3024705760495752,
+            0.5046601935632615
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9038708991024762,
+            "maximum_condition": 1.2063576861686238,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185267,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 1.1528185357329104,
+            "maximum_edge_length_visible": 1.353485946781108,
+            "maximum_edge_target_length": 1.338859230154517,
+            "iterations": [
+              158,
+              162,
+              155,
+              164
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.523296947194414e-10,
+              9.78729497778344e-10,
+              8.846042541048852e-10,
+              9.9698682070029e-10
+            ],
+            "edge_rms": 0.0031854358445513537,
+            "target_edge_rms": 0.1222552938063336,
+            "relative_edge_rms": 0.026055606635713047,
+            "per_axis_edge_rms": [
+              0.0036756037842265023,
+              0.0025373922063939777,
+              0.0029102753658270682,
+              0.0034885356507252862
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "af4f1ac4499471d52f67da09fde3bbf7120fef2402944dd332f2187562601105",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2815951959542353,
+            "mean_nearest_standardized_distance": 0.6114441145255485
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 2,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345002,
+        "role": "evaluation",
+        "trajectory_seed": 3405959436614154619,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "9ba0fde2c9dd619fa8a135af4b9c9149397449f55c6d048ad6224e812aa2506d"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "db925ab8b1d98546b967fae15e53035b3ccf81cdc3382d1e0667d21674d2dd8c"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "743f0fbb2d91a06c01d2c325abb9a7bd9dd895ebdfd7590ab8200b30e2286fd1"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "c4e73ca4d77c776f65ccf64d0e9bf9c5b000d80251e4e4ef49ffe714fb3d4443",
+          "actions_preburn_sha256": "eb20cbc5d7d81a2e61a57ddf9f6a0bd375c7646dbdc30d1fbd90ee9180e2032c",
+          "regimes_preburn_sha256": "c3189f528066f2d8b32af6b86293c0d5b00ee981d68e176136e03ef2c3239c40",
+          "standard_innovations_preburn_sha256": "129c1d5f201c71d3439a5a658eabc8ad1a5e2f68609dee95e2a54d4106561fbf"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "0783efb2bfb98b6a08c3202db3c725977306743ca9c523a6e31b21c0bf8c7e4e",
+        "branch_sha256": {
+          "plus": "276a653fed6a89c3ff3641320287dd37963263d5f15e441829df39442ea0100c",
+          "minus": "a1a0208b4e9c291de7c3881ea6505103c69c42c949aa94c626624fa1bd824e49"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3094975395309914,
+            0.5200713019197085,
+            1.3158279881048829,
+            0.5082311276524142
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3094975395309914,
+            0.5200713019197085,
+            1.3158279881048829,
+            0.5082311276524142
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9369351506235203,
+            "maximum_condition": 1.1384107033835495,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185183,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 0.9820528212521933,
+            "maximum_edge_length_visible": 1.1161728831010846,
+            "maximum_edge_target_length": 1.1214221846773456,
+            "iterations": [
+              150,
+              156,
+              156,
+              159
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.914812135241041e-10,
+              9.361467495351496e-10,
+              9.9192883194841e-10,
+              8.90824344200149e-10
+            ],
+            "edge_rms": 0.0015232593954880478,
+            "target_edge_rms": 0.12105211390565696,
+            "relative_edge_rms": 0.012583500992599052,
+            "per_axis_edge_rms": [
+              0.0010589040981196513,
+              0.0009336282869544253,
+              0.001994044573482676,
+              0.0018199239861924894
+            ],
+            "reference_scale": [
+              1.3094975395309914,
+              0.5200713019197085,
+              1.3158279881048829,
+              0.5082311276524142
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "f3d521648cf206f3db981c4f4d829e532c5f283fd799d5c01ad977580980f414",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 1.9005072612453744,
+            "mean_nearest_standardized_distance": 0.5406095852279118
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3051541755572245,
+            0.5115861799608763,
+            1.3147803644422449,
+            0.5024170982855677
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8451290191298325,
+            "maximum_condition": 1.324719738952161,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185201,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 37,
+            "maximum_edge_length_standardized": 1.0088777559824642,
+            "maximum_edge_length_visible": 1.1332216033591798,
+            "maximum_edge_target_length": 1.1345940649924418,
+            "iterations": [
+              158,
+              163,
+              155,
+              159
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.267362832817718e-10,
+              9.393405282117735e-10,
+              9.408579448335897e-10,
+              8.073937866090364e-10
+            ],
+            "edge_rms": 0.0033528678601996522,
+            "target_edge_rms": 0.12249682783592955,
+            "relative_edge_rms": 0.027371058658681627,
+            "per_axis_edge_rms": [
+              0.0033102623481259435,
+              0.00370698795047798,
+              0.0025040235565473566,
+              0.0037412780037957526
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "f3d521648cf206f3db981c4f4d829e532c5f283fd799d5c01ad977580980f414",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.1631267440997397,
+            "mean_nearest_standardized_distance": 0.5563018103637024
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 3,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345003,
+        "role": "evaluation",
+        "trajectory_seed": 4218252453797615545,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "2ca55ea3c53fe8bdfaa503c62ecd89cc55c99751ac4d2090c44a7a0199270465"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "1eaf0c109d94ba511aa4973a499dfd347e80298da7736145afe2cf8afd11787b"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "d315c6e5bfe1ad1e354d7cc8defc7eeab61f67782b8f55153631f78b31cb63c1"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "52083d51a147631bf554a8e717565dde694838e00f65fe991e7af3f19b35c5c7",
+          "actions_preburn_sha256": "8923734ab7eb2f33998fe786ebb092f030283b565a80255a5ae773b975f715c6",
+          "regimes_preburn_sha256": "03b1cb14d9317d53e858f6183949741711a7c3b9da664d33d420dd03a07997c0",
+          "standard_innovations_preburn_sha256": "447b77b277883100282cbfe5cba1db51b289af6bcae9d1214463ee15efda3584"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "f1bb5ab18af7b73cdb445c618158635ca87e1abe71533a577af14b302039de1a",
+        "branch_sha256": {
+          "plus": "7e12f3ca91737f171ba8d7330c84528bc3e22561ce561ad72a5103094994287d",
+          "minus": "db19839e47cbbbb2703a95825d9f0276a829e52a89bfdd424a817ab39b4dfde7"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3047010067590117,
+            0.5090562871700656,
+            1.3195349047970013,
+            0.5225064708260672
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3047010067590117,
+            0.5090562871700656,
+            1.3195349047970013,
+            0.5225064708260672
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9374989819638404,
+            "maximum_condition": 1.1055840179487475,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185252,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 37,
+            "maximum_edge_length_standardized": 1.0084389318674012,
+            "maximum_edge_length_visible": 1.231913403972673,
+            "maximum_edge_target_length": 1.237269360108186,
+            "iterations": [
+              153,
+              162,
+              161,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.239955907710112e-10,
+              8.619947016862234e-10,
+              8.97593268261164e-10,
+              9.182236716959453e-10
+            ],
+            "edge_rms": 0.0013623077546047063,
+            "target_edge_rms": 0.11736294171274775,
+            "relative_edge_rms": 0.01160764833194987,
+            "per_axis_edge_rms": [
+              0.0010755085722179225,
+              0.0008598609741651154,
+              0.0018657503065579234,
+              0.0014305334259628738
+            ],
+            "reference_scale": [
+              1.3047010067590117,
+              0.5090562871700656,
+              1.3195349047970013,
+              0.5225064708260672
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "84d6e5edfa13aa3c4435afb875900917717b6e48f3357b58b914d34f33bf3479",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.5018273572375858,
+            "mean_nearest_standardized_distance": 0.5631682701627776
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3002725252750382,
+            0.5002198162103613,
+            1.3235719372236276,
+            0.5152127619754533
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8823679691881303,
+            "maximum_condition": 1.244939141489752,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185290,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.0352051805604985,
+            "maximum_edge_length_visible": 1.2323338571749447,
+            "maximum_edge_target_length": 1.232537269686644,
+            "iterations": [
+              163,
+              167,
+              157,
+              167
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.974632247617437e-10,
+              9.393939717938825e-10,
+              8.424950300841067e-10,
+              7.509251805926046e-10
+            ],
+            "edge_rms": 0.0029934089027966793,
+            "target_edge_rms": 0.11879723420233824,
+            "relative_edge_rms": 0.025197631265541375,
+            "per_axis_edge_rms": [
+              0.0033426128187715016,
+              0.0033039382019512,
+              0.0023475038422050842,
+              0.0028709136262998055
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "84d6e5edfa13aa3c4435afb875900917717b6e48f3357b58b914d34f33bf3479",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.446778905726446,
+            "mean_nearest_standardized_distance": 0.5791064511121645
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 4,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345004,
+        "role": "evaluation",
+        "trajectory_seed": 5508733857806238818,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "59562e9d8fc54f7cb09803dbc7163b3c118df8b62f7f74489170dc513aa181a1"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "b982b200accce85b491796e0104327f9a13273f52ba02b60dec0caf928865bf9"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "e7390f05f9f97227416ee8c405cb3fecc148ca6f2e7eb4aaa458825e58cabe34"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "ee73cd8625f6c422471c1f3efef1c92b6e4b44615470c9b857d707da918134c2",
+          "actions_preburn_sha256": "b2d57bbdca01e4402c3e98e6fcd30f38d5e2b9a235c1973036f6447d506ad2c4",
+          "regimes_preburn_sha256": "b85c80e2b6989f7845dbaa8ab7a1079785b731e94ee148377e3f4e7335b2fa9e",
+          "standard_innovations_preburn_sha256": "334ff36d09e0b8eb247965e2518adcb1ce9f2ae11f36c52b7e7cfa469361a44c"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "a14ea5abc2b2a3bef6799770c19afec5fd42dbd4cd56f457cb37bffc828284c7",
+        "branch_sha256": {
+          "plus": "1331387a160fb841d1e4782827a860098899e02f99be1a9c62bde6fd6a5e25ce",
+          "minus": "c36abebe9fd50e4f4d825710129c2e748d561ad3db0e11efe2cc65647e17fb2f"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3023275288546894,
+            0.5169201283276141,
+            1.3106128846285285,
+            0.5159562484763447
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3023275288546894,
+            0.5169201283276141,
+            1.3106128846285285,
+            0.5159562484763447
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9400794085596784,
+            "maximum_condition": 1.1090478931445256,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185205,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.0139831000668396,
+            "maximum_edge_length_visible": 1.1848454205808834,
+            "maximum_edge_target_length": 1.2180539577043574,
+            "iterations": [
+              146,
+              157,
+              158,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.289171719641157e-10,
+              8.969374623195271e-10,
+              9.933845601702592e-10,
+              9.63105622026277e-10
+            ],
+            "edge_rms": 0.0015508884191916788,
+            "target_edge_rms": 0.11957491360232259,
+            "relative_edge_rms": 0.012970014967767911,
+            "per_axis_edge_rms": [
+              0.000985820184205887,
+              0.0008930368272210891,
+              0.002069962164408393,
+              0.0018886291278830624
+            ],
+            "reference_scale": [
+              1.3023275288546894,
+              0.5169201283276141,
+              1.3106128846285285,
+              0.5159562484763447
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "5f77b15e27ba44c73b6fccc0dcc9ddbdc9decb5f03ac0b752f7506e683f8479a",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2237047268852304,
+            "mean_nearest_standardized_distance": 0.5504005158891125
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3018688155040854,
+            0.5043853072917114,
+            1.3162871989243548,
+            0.5067310214118643
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8468062804499966,
+            "maximum_condition": 1.3192056347241325,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185082,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.036531488015573,
+            "maximum_edge_length_visible": 1.1951313439381477,
+            "maximum_edge_target_length": 1.2059066517208346,
+            "iterations": [
+              155,
+              158,
+              160,
+              164
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.014816611066754e-10,
+              9.360282448651272e-10,
+              9.87200431014419e-10,
+              9.811095211714756e-10
+            ],
+            "edge_rms": 0.003361097080832977,
+            "target_edge_rms": 0.12110415477704407,
+            "relative_edge_rms": 0.027753771842269532,
+            "per_axis_edge_rms": [
+              0.0031710894803492176,
+              0.0038165424258806515,
+              0.0024969220987811555,
+              0.003785692776603243
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "5f77b15e27ba44c73b6fccc0dcc9ddbdc9decb5f03ac0b752f7506e683f8479a",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.309789291155698,
+            "mean_nearest_standardized_distance": 0.5630583255798519
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 5,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345005,
+        "role": "evaluation",
+        "trajectory_seed": 2043218397183151880,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "325ebf52d3c406d75e592584021b0d0d03d185855fc160464a426d043b794e6c"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "550aa9ed413574ab0bee4737fe6d64ecdb801d112e433c55592f494bfe086a27"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "6af7c6c7d14d2758f5d9099787c0c248d3ffa5e01eb560a4903bba8c6749d61c"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "0752ebda4602d443cb9b7bc4b3aceb216dc7695677b387be3a38323df72e149d",
+          "actions_preburn_sha256": "0670842bbad912068aafe98ad45a3617f4f4a9b4320cb56faec9b114a7849c4f",
+          "regimes_preburn_sha256": "88a94d14aad847040f9aa63957f17facc0cec36a98b78fa5c5dfbc974f8fd98b",
+          "standard_innovations_preburn_sha256": "8537bb303a83325167d7a03cb4a6ba7383cf25bc9be51d81717c2a270c773409"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "90a69462ec24588b6bd7ac4906f9b6d591a3fd7569733b479fa4d8495ff768a5",
+        "branch_sha256": {
+          "plus": "6096ff4741dd0ce73ab4291b7d8e0015ebbc3b5707fb7f0b8d43d3c0962dfbb0",
+          "minus": "9b397ffa5529bc4ea44f8d5692c63a15e7bf8432a2f8ea78b14b6b812b00863f"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3415767176754205,
+            0.5215316651102605,
+            1.3276493272921959,
+            0.5162057685310251
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3415767176754205,
+            0.5215316651102605,
+            1.3276493272921959,
+            0.5162057685310251
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.936343598780792,
+            "maximum_condition": 1.1406084757921702,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184770,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 34,
+            "maximum_edge_length_standardized": 1.3390429069154366,
+            "maximum_edge_length_visible": 1.6281151498742612,
+            "maximum_edge_target_length": 1.650351401664657,
+            "iterations": [
+              154,
+              159,
+              156,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.687408170731267e-10,
+              9.275648072945023e-10,
+              9.532559607982784e-10,
+              9.643719697809197e-10
+            ],
+            "edge_rms": 0.0017297600146813721,
+            "target_edge_rms": 0.12107928121281669,
+            "relative_edge_rms": 0.014286176770747715,
+            "per_axis_edge_rms": [
+              0.0011981925992924306,
+              0.0010589374505240738,
+              0.0022093189364179775,
+              0.002128420691880597
+            ],
+            "reference_scale": [
+              1.3415767176754205,
+              0.5215316651102605,
+              1.3276493272921959,
+              0.5162057685310251
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "12a773450cae15dacb52db18e21d885ba8561060ac4511476961eb25d00f15ee",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2751990802086772,
+            "mean_nearest_standardized_distance": 0.5607886072431276
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3312284522372952,
+            0.5123038576416208,
+            1.3235036231268178,
+            0.512011143934707
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8495512020729712,
+            "maximum_condition": 1.321105694604209,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184856,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.4124912392275042,
+            "maximum_edge_length_visible": 1.6948197314325837,
+            "maximum_edge_target_length": 1.6935171597453913,
+            "iterations": [
+              163,
+              167,
+              162,
+              167
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.53746166948085e-10,
+              7.918539337835017e-10,
+              9.851023459972415e-10,
+              9.77826379408361e-10
+            ],
+            "edge_rms": 0.003218462944759603,
+            "target_edge_rms": 0.12247614057184911,
+            "relative_edge_rms": 0.026278285139721004,
+            "per_axis_edge_rms": [
+              0.002842317933235736,
+              0.0037074786707849195,
+              0.00245556779766438,
+              0.003685109546583026
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "12a773450cae15dacb52db18e21d885ba8561060ac4511476961eb25d00f15ee",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.306794063562491,
+            "mean_nearest_standardized_distance": 0.575237000959568
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 6,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345006,
+        "role": "evaluation",
+        "trajectory_seed": 5670235131294678636,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "1f7954c377c0bc7c5bd93f2dc0777a6ac8f3e48a6a3bd80c919b8cd8b67fc7c3"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "dc99c88c290168c6a47bd7c54bcd03a083e7f1ec2f9282fc34dad778fe70859d"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "e161691b22fce5412d0fb0df81bb565a314ee7d56c2086c51cf48672390c1289"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "86d332da3b71e3ea7473aa232dc27393e0f3cae47141a2fe5156a93fcc1f8487",
+          "actions_preburn_sha256": "f375a03f5b86eefdf1d1ffc8e58679b41064bd72dda27a7322ff1cc1b1511d7d",
+          "regimes_preburn_sha256": "598ce1227aa90468387b6584ca922f484d3731506db166bf7d9c03749ebdf59b",
+          "standard_innovations_preburn_sha256": "71afdbd82c62a06b19b420dbf4913a43b9c29d9fdacef1b118fb49cffcfcd842"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "8977d1267333c772af4fd8a490e2c1264448cd7dc0dc53fa7fe945f25d687660",
+        "branch_sha256": {
+          "plus": "b313a6c8c6e48efe21b00c7305ef3b6d00f6f63286668f082a7a21d8a56a9bb1",
+          "minus": "f429ea828990057f1d4f9140deb1963320754d58bfdf8fd17f37ffb7773da1ab"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3418057322072245,
+            0.5185419712873518,
+            1.3436780375608826,
+            0.5160081333250222
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3418057322072245,
+            0.5185419712873518,
+            1.3436780375608826,
+            0.5160081333250222
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9349008298691314,
+            "maximum_condition": 1.1157305468915393,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185100,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.112425024891789,
+            "maximum_edge_length_visible": 1.291680249559072,
+            "maximum_edge_target_length": 1.3384697571445798,
+            "iterations": [
+              155,
+              159,
+              159,
+              161
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.21213028659187e-10,
+              8.696511460030552e-10,
+              9.957377503717945e-10,
+              8.669894206821122e-10
+            ],
+            "edge_rms": 0.0017850267399563682,
+            "target_edge_rms": 0.12071481078515589,
+            "relative_edge_rms": 0.014787139443338879,
+            "per_axis_edge_rms": [
+              0.0010843532640959776,
+              0.0009729890750989012,
+              0.0026361489390544614,
+              0.0019166300840124666
+            ],
+            "reference_scale": [
+              1.3418057322072245,
+              0.5185419712873518,
+              1.3436780375608826,
+              0.5160081333250222
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "69fd04ea0f00596afc9c5bd36c7c1a3e7cb06c8c5dcb5223e53ae028dc8a9754",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.5408869545889545,
+            "mean_nearest_standardized_distance": 0.5942036705250113
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3493582649341604,
+            0.5119202279431587,
+            1.3462520776256097,
+            0.5083235007859843
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8733469085273297,
+            "maximum_condition": 1.285851706490519,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185045,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 38,
+            "maximum_edge_length_standardized": 1.1101001391631478,
+            "maximum_edge_length_visible": 1.3218892026143931,
+            "maximum_edge_target_length": 1.3071127364466482,
+            "iterations": [
+              165,
+              171,
+              162,
+              172
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.831561174637007e-10,
+              8.865907577078833e-10,
+              9.525798003927166e-10,
+              8.371948406518468e-10
+            ],
+            "edge_rms": 0.0037114285690052705,
+            "target_edge_rms": 0.1222842523929275,
+            "relative_edge_rms": 0.030350830105904354,
+            "per_axis_edge_rms": [
+              0.0037092996077990577,
+              0.0042272876448451995,
+              0.002884994638820361,
+              0.003891882528110626
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "69fd04ea0f00596afc9c5bd36c7c1a3e7cb06c8c5dcb5223e53ae028dc8a9754",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.637223064901944,
+            "mean_nearest_standardized_distance": 0.6086844770239164
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 7,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345007,
+        "role": "evaluation",
+        "trajectory_seed": 5737841742074304191,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "02c7a59e1ac3edad9f70c26045e7cd37371c6563aadc2c3dec5478405d048e11"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "530f0a14f1cbaba5bc8e9cba9aebfa7b4ae5dcc0b853b24c1883a8313460b02b"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "73e87b372499f2aa4a77b6aad6cd9a4bb8e306f097353b481aa6b8bce39d75e6"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "fc54bf8081487dee6099de8479d9d603de656b8634aaeca4b0f5f085a7b7717f",
+          "actions_preburn_sha256": "11a08be6aa26583bbb184ee94d46f697a02fd2cbe42b65983b40d82206a13848",
+          "regimes_preburn_sha256": "e919aa604118b63948b8f244440309aa19ca593f84ab884ba3c318805609813b",
+          "standard_innovations_preburn_sha256": "656c347ac9974d045c4f124c78d8962e8e4319b9e0d55a057a6531c276063333"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "a2ddda45a4936cfac22c43e17f0ec62e7d8b7872a3947f9b7849c85020b18ed7",
+        "branch_sha256": {
+          "plus": "ae3e77cc408e066af02db44157e93d1155220f7023cf34454f76fbe34a0f1a4b",
+          "minus": "b1d6c3353de5a0ae1018666c51fc510138be60ada6ff5ceae076079c9629c829"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.330265502549379,
+            0.5255775937984136,
+            1.293122232152704,
+            0.5182511055496749
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.330265502549379,
+            0.5255775937984136,
+            1.293122232152704,
+            0.5182511055496749
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.931720737570569,
+            "maximum_condition": 1.114358188833536,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184862,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 33,
+            "maximum_edge_length_standardized": 1.109981231253122,
+            "maximum_edge_length_visible": 1.344025127784628,
+            "maximum_edge_target_length": 1.3703086282533892,
+            "iterations": [
+              151,
+              157,
+              153,
+              159
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.005351675298295e-10,
+              9.757069495960312e-10,
+              7.878549045012122e-10,
+              9.81969213660157e-10
+            ],
+            "edge_rms": 0.0015789719081662132,
+            "target_edge_rms": 0.11750348497182665,
+            "relative_edge_rms": 0.013437660240841342,
+            "per_axis_edge_rms": [
+              0.0009535755233918892,
+              0.0009429737411072377,
+              0.002084015319353746,
+              0.001957289845827934
+            ],
+            "reference_scale": [
+              1.330265502549379,
+              0.5255775937984136,
+              1.293122232152704,
+              0.5182511055496749
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "c908f09f62f9e8dc991b070e020b8a616089e1717e9329d424b91388f6babe4d",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.064175362632734,
+            "mean_nearest_standardized_distance": 0.5408907206404786
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.318667355631454,
+            0.5163032479286015,
+            1.2905247341324118,
+            0.5140192053829141
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8498395444587548,
+            "maximum_condition": 1.3138468194638897,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184852,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 34,
+            "maximum_edge_length_standardized": 1.075026624663409,
+            "maximum_edge_length_visible": 1.3314947542632767,
+            "maximum_edge_target_length": 1.5173872107665078,
+            "iterations": [
+              159,
+              167,
+              157,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.499579682598744e-10,
+              9.357270102810126e-10,
+              9.56138261010079e-10,
+              9.702227863334547e-10
+            ],
+            "edge_rms": 0.0035495060254466413,
+            "target_edge_rms": 0.11888792097218916,
+            "relative_edge_rms": 0.029855901225465616,
+            "per_axis_edge_rms": [
+              0.0036380317859537065,
+              0.003931345689276217,
+              0.0030178181349650025,
+              0.003549364957116182
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "c908f09f62f9e8dc991b070e020b8a616089e1717e9329d424b91388f6babe4d",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.1229816037684515,
+            "mean_nearest_standardized_distance": 0.5553760310458227
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 8,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345008,
+        "role": "evaluation",
+        "trajectory_seed": 6902725481024716528,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "2b0bd57fd075e401fa3cc40b16978e3a32315f95766ffbbc4f1f75796100d145"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "257e93b92422f8b3b9d4a643c3ce66ffe5a4c97c68659efd4fba5bf9e4dd3568"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "9d39db8566abf5aff376e1cd539ee93b027bf3c1b78a12200e05d7fe5770321d"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "1e18b7aed95e147334a58d58131e34fb3e608ced45545671177aeb27fb0449a5",
+          "actions_preburn_sha256": "fc3c2e301daf14ca2fca80d8917bdd62b7525202b5f314f3bbec0752b442d4c9",
+          "regimes_preburn_sha256": "80ee7ed2700bf5f6a8de70917cfbdc78e137daee3375b8d1ec8d266ba916e254",
+          "standard_innovations_preburn_sha256": "d81fc2529ce18f008c017fa0281d6bbe012a30700848dc4a0cf800eaa333aa11"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "b118a60e28f9325abe1314609f2d829dccc3504aa1cbe0e234fc9236cfa1d980",
+        "branch_sha256": {
+          "plus": "6c28c869442bbfb8005cc96b82df45b187682a2d33584698cffda042da135b95",
+          "minus": "2a7a1f1b436c96402fcd90251728c10ce16eca05fa1ce767e0debb28c310eae5"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3315897832493753,
+            0.526782188019182,
+            1.3187613770635511,
+            0.5062905859036155
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3315897832493753,
+            0.526782188019182,
+            1.3187613770635511,
+            0.5062905859036155
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9358198739816138,
+            "maximum_condition": 1.1215288079244312,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185058,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.1535316508359779,
+            "maximum_edge_length_visible": 1.4135341793273888,
+            "maximum_edge_target_length": 1.448721918767449,
+            "iterations": [
+              152,
+              158,
+              155,
+              159
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.318011600296158e-10,
+              9.358704768261366e-10,
+              9.799988609738207e-10,
+              9.785485880975301e-10
+            ],
+            "edge_rms": 0.0014783798803150532,
+            "target_edge_rms": 0.12178574260248283,
+            "relative_edge_rms": 0.012139186810566064,
+            "per_axis_edge_rms": [
+              0.0010940202072948733,
+              0.0010189467098560706,
+              0.001951367865520094,
+              0.0016430030809468977
+            ],
+            "reference_scale": [
+              1.3315897832493753,
+              0.526782188019182,
+              1.3187613770635511,
+              0.5062905859036155
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "f5c43b3a9965e719fe1730efc6bedbdfb21d5d7c2bdc19bedc134b3c462850ad",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 1.9505666352981037,
+            "mean_nearest_standardized_distance": 0.5800100720557678
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3235379869830604,
+            0.5195619779851279,
+            1.3166989372482198,
+            0.5027188566173586
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8873066157011167,
+            "maximum_condition": 1.2578650463932497,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185199,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 1.210680229592172,
+            "maximum_edge_length_visible": 1.5461831170711464,
+            "maximum_edge_target_length": 1.6160463671973437,
+            "iterations": [
+              160,
+              166,
+              161,
+              168
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.367355071500273e-10,
+              8.407747596581999e-10,
+              9.379579814432823e-10,
+              9.5823145163537e-10
+            ],
+            "edge_rms": 0.003535533883853028,
+            "target_edge_rms": 0.12326088422425041,
+            "relative_edge_rms": 0.02868334026730473,
+            "per_axis_edge_rms": [
+              0.0038316999932180283,
+              0.003802542537762102,
+              0.0025845173165278948,
+              0.0037655032899390328
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "f5c43b3a9965e719fe1730efc6bedbdfb21d5d7c2bdc19bedc134b3c462850ad",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.0587210466888117,
+            "mean_nearest_standardized_distance": 0.5976493866459535
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 9,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345009,
+        "role": "evaluation",
+        "trajectory_seed": 5330509767531880122,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "f7f072b8863d22cb92e6edd9e94b9763e98da06e3e039e0d373dad6674342c3b"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "9dad2b67e761bab98954536cab72af74efa0d3cc743e98a0bdfc648214e60b33"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "cbed46dcac99d30741b7c4ded11760a1097abaa8e959ccc18bf1f4b1a64404fe"
+          }
+        },
+        "inverse_maxabs_fp64": 9.992007221626409e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "8507ef6b5b5a9da303791c337ec225d5ddae9dd43919741f739f6c30e43b5c0a",
+          "actions_preburn_sha256": "f703716ac8b076a2fe908a76db51f89ec815ef75c6901b6d1e2fd29c76b82607",
+          "regimes_preburn_sha256": "2a725715f885cbb664c2e235ae21c20776eb38281be7200355304b8dd1e3b898",
+          "standard_innovations_preburn_sha256": "89adf44b6160d5a5386eb4e0ce3d69ef1302be4b97ea92c467a29df77190ba2c"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "5d27c7ffacbe5f22db13bc0928e2f736a219269fb4223633793a220210c79140",
+        "branch_sha256": {
+          "plus": "5dbd984b6bc527d6e237a35dc4472927c984f57711e68b42a204d15dd7aa9324",
+          "minus": "3d6552a0abb53b308f35c5a9396ce5e89a6bec3e3f8a50210a9dd78f2a7a3c35"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3171757764972918,
+            0.511282006905832,
+            1.3086320207075977,
+            0.5112173782977179
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3171757764972918,
+            0.511282006905832,
+            1.3086320207075977,
+            0.5112173782977179
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9380163375581896,
+            "maximum_condition": 1.1256605283328978,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185239,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 1.0099894727807308,
+            "maximum_edge_length_visible": 1.2629958257186262,
+            "maximum_edge_target_length": 1.2864519495510371,
+            "iterations": [
+              151,
+              155,
+              154,
+              158
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.277730222879874e-10,
+              8.660172119407436e-10,
+              9.979671140365882e-10,
+              8.925754721057606e-10
+            ],
+            "edge_rms": 0.0016872414321503014,
+            "target_edge_rms": 0.11989682077028267,
+            "relative_edge_rms": 0.014072445134996414,
+            "per_axis_edge_rms": [
+              0.0011217797823065568,
+              0.0009742022929183765,
+              0.002362628622271558,
+              0.0018967500117734312
+            ],
+            "reference_scale": [
+              1.3171757764972918,
+              0.511282006905832,
+              1.3086320207075977,
+              0.5112173782977179
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "cc8a4ebacb8d4849170e490fbeef1e573dc13fa285d289ff53e40743af7f044e",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2338806459561447,
+            "mean_nearest_standardized_distance": 0.5741280316279838
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3102534639629997,
+            0.5085190832838508,
+            1.302725988613822,
+            0.5120965565436687
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8642159171049894,
+            "maximum_condition": 1.270508733862894,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185235,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.0461383687159014,
+            "maximum_edge_length_visible": 1.2765082716064293,
+            "maximum_edge_target_length": 1.2903964754559842,
+            "iterations": [
+              155,
+              161,
+              157,
+              160
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.898513752967979e-10,
+              9.08860356373681e-10,
+              8.458180794790333e-10,
+              9.449494918940785e-10
+            ],
+            "edge_rms": 0.0033315693694308136,
+            "target_edge_rms": 0.12138114323656377,
+            "relative_edge_rms": 0.02744717408813498,
+            "per_axis_edge_rms": [
+              0.0032349014260478824,
+              0.0036430505902016116,
+              0.0030529099602752247,
+              0.0033676035676361363
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "cc8a4ebacb8d4849170e490fbeef1e573dc13fa285d289ff53e40743af7f044e",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.2967831950446143,
+            "mean_nearest_standardized_distance": 0.5894930961119353
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 10,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345010,
+        "role": "evaluation",
+        "trajectory_seed": 6271757624411838930,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "1f0d8a31dae6dde8884a0bd393f6e281bd8dad42d2c2c3308ea8df42e114189c"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "3d11e23f4682898691c6fa83245766f04c2e0a88e47bd144e251c41c7fde6906"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "3cee91912857005fcab47b088e11b934703e6e0a40d5936f3c2717bd7ec9730d"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "f95a766abf9bb3f4a72b29f2001bd0f327440527df9601b59248134626c74e9a",
+          "actions_preburn_sha256": "d020344405ae419804c8c190fe4c0c5b29f97b754e78572db85c401af4c7dc00",
+          "regimes_preburn_sha256": "022b52401d6565577e214ae07eb4d9629d19b8a63e978a34d4d28c10f7fc5004",
+          "standard_innovations_preburn_sha256": "aefd51050e12c7f4bc0b1bba96423f045baad929ea431bc876950601b9ae54cf"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "8d8fcefdeb3d672ee3c2ba1eebffe86bc6620cd419e30ceafee79a05402f7891",
+        "branch_sha256": {
+          "plus": "67d3b4809ff418cf38dfde14c3e5b73464557d7c4a4604b736960473ca1ad0a8",
+          "minus": "2ead20027a1d51351bfea028d7ae805f8823e4a4776355cc76f11c01946d272b"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3118448165139482,
+            0.529016764935663,
+            1.296142816675789,
+            0.5116270837258696
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3118448165139482,
+            0.529016764935663,
+            1.296142816675789,
+            0.5116270837258696
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.93570376324654,
+            "maximum_condition": 1.1306760779589111,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184496,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.3936435189098153,
+            "maximum_edge_length_visible": 1.6913795727224612,
+            "maximum_edge_target_length": 1.7010549479252592,
+            "iterations": [
+              149,
+              155,
+              156,
+              156
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.100544245085077e-10,
+              9.514409111175951e-10,
+              8.937910952152299e-10,
+              8.409096890148935e-10
+            ],
+            "edge_rms": 0.0016998603660347536,
+            "target_edge_rms": 0.11984865394448287,
+            "relative_edge_rms": 0.014183391386457914,
+            "per_axis_edge_rms": [
+              0.001404148243845951,
+              0.0008899406937451159,
+              0.0023437252148426546,
+              0.0018169827859104608
+            ],
+            "reference_scale": [
+              1.3118448165139482,
+              0.529016764935663,
+              1.296142816675789,
+              0.5116270837258696
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "ab4030332100796149b5417b2e38e9863914d003aa0aa1f78cdba2ef78161a57",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.301110310471045,
+            "mean_nearest_standardized_distance": 0.5677195832372128
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.2965237775776246,
+            0.5199889514726913,
+            1.2906244544244276,
+            0.5090592369082215
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8506969485274983,
+            "maximum_condition": 1.305871144133329,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184476,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 34,
+            "maximum_edge_length_standardized": 1.4534836353275111,
+            "maximum_edge_length_visible": 1.7488601905075192,
+            "maximum_edge_target_length": 1.7461712919178562,
+            "iterations": [
+              154,
+              161,
+              155,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.705718202591482e-10,
+              9.6036908309963e-10,
+              8.483140508107272e-10,
+              9.283245431083142e-10
+            ],
+            "edge_rms": 0.0036646304623490548,
+            "target_edge_rms": 0.1209189900137909,
+            "relative_edge_rms": 0.03030649248667311,
+            "per_axis_edge_rms": [
+              0.0038479774015044706,
+              0.003932016709634145,
+              0.002881790989592554,
+              0.003891742656866989
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "ab4030332100796149b5417b2e38e9863914d003aa0aa1f78cdba2ef78161a57",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.44338514114692,
+            "mean_nearest_standardized_distance": 0.5861657312785522
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 11,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345011,
+        "role": "evaluation",
+        "trajectory_seed": 8308354681950682562,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "c2c66cb697b8037d3206f2af552859c9f3f9b64cba86465d78571eb61eefab38"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "1935b47dfebc90309e9d0a0b328c42cf492d4fb3f14193df004a3dd4ef065393"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "668d04a77988e1add2aefa0ded840af8fbe5968a2baac44ce2c8c08890e0562b"
+          }
+        },
+        "inverse_maxabs_fp64": 9.992007221626409e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "7fcb26d48996428311ac2b22ad14a3fe0bc86c668637790d9c89cf6c2e64fc8f",
+          "actions_preburn_sha256": "843bce450783c6cdd655b295544b7271feae1a23dc4b278910612093ddfd5359",
+          "regimes_preburn_sha256": "847f48cd8192163300c54dc1c289f73dcb6fc0a94c28f85f83ad4c8a0be1bfc6",
+          "standard_innovations_preburn_sha256": "89da81a9ec918bc132f1bc719bf51bc1bc5f5a5f8a70a6c40da21a74b7aa87e1"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "d27e66e3d6f79a7682393650c61bfaf0396c0129629722cbe29d37afbad50c23",
+        "branch_sha256": {
+          "plus": "6ec3974bfdb6751e125d1e00e5143eefeccd9da83a9c62d91202f78179578538",
+          "minus": "aac803a3e0cb29e291d47cefdcf526b670d3a0b7298ba4fcef1c079696a5725c"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3387637215938932,
+            0.5106448190485227,
+            1.3180929296542716,
+            0.5212527260033633
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3387637215938932,
+            0.5106448190485227,
+            1.3180929296542716,
+            0.5212527260033633
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9366249170716938,
+            "maximum_condition": 1.1104534870386318,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185332,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.1252659350634182,
+            "maximum_edge_length_visible": 1.3382958798163969,
+            "maximum_edge_target_length": 1.3334530229625006,
+            "iterations": [
+              151,
+              158,
+              160,
+              158
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.532861949544106e-10,
+              9.746671331455143e-10,
+              9.342146295426466e-10,
+              9.380439117114431e-10
+            ],
+            "edge_rms": 0.001465571637699588,
+            "target_edge_rms": 0.11831587034252954,
+            "relative_edge_rms": 0.012386940428673643,
+            "per_axis_edge_rms": [
+              0.0009309523632891989,
+              0.0008817701040110377,
+              0.002022924134767812,
+              0.0016897301639168167
+            ],
+            "reference_scale": [
+              1.3387637215938932,
+              0.5106448190485227,
+              1.3180929296542716,
+              0.5212527260033633
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "4d36a920afc57e6404de7654ff81c0c889ce9aaec258ceb70cf9c9fb3bb41824",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.0814747991836944,
+            "mean_nearest_standardized_distance": 0.5256332376130407
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3251445233800554,
+            0.5010185725531242,
+            1.3163181319012114,
+            0.5148468552917401
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8700335425363024,
+            "maximum_condition": 1.2990734924824516,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185370,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.1251565144195177,
+            "maximum_edge_length_visible": 1.3287656685516596,
+            "maximum_edge_target_length": 1.3283129574151045,
+            "iterations": [
+              157,
+              166,
+              156,
+              169
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.751205899788661e-10,
+              9.883593275002604e-10,
+              9.574884723035445e-10,
+              8.579325673281946e-10
+            ],
+            "edge_rms": 0.0031259602402792966,
+            "target_edge_rms": 0.11971514723873174,
+            "relative_edge_rms": 0.0261116518033062,
+            "per_axis_edge_rms": [
+              0.0034682093122923403,
+              0.002887205394368417,
+              0.0027952825190639694,
+              0.0033027979821209108
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "4d36a920afc57e6404de7654ff81c0c889ce9aaec258ceb70cf9c9fb3bb41824",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.1610417716099524,
+            "mean_nearest_standardized_distance": 0.539854715615139
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 12,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345012,
+        "role": "evaluation",
+        "trajectory_seed": 6825510812100828219,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "3969f459ee16718a6cde042ebb9a77f09672881b3dc88959a6ef2c11dc396330"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "c30d0e78616c38815667681b273709b74b92f2c5a91a05a16a903285b7e80d12"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "d3890d1fdff25a9c313b9e4974666e31641ca8825c326fb9e002bcbc6c82d7ef"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "cb6786ef909737e5168741c75080d7e5ad870ed1e3b971015ab849086b38e66e",
+          "actions_preburn_sha256": "a6df1fa387f97830e82f8ac610d51a97fd717901ae5ecadec78d3b5358e47be5",
+          "regimes_preburn_sha256": "2b6a00ff86352305f5382d23c518e846862d5d2d8d430930c3e2c13bc23032da",
+          "standard_innovations_preburn_sha256": "c166e50525765a68c3adf1e668bb9c9cef19e1dda5b50cc720d2f56a6ee2c7cc"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "6503f26c8a5223d59104c74049dd2800141f6f50b262f4da0a0716f704303373",
+        "branch_sha256": {
+          "plus": "fed07342277b86db06a634ec7dceb6578dd2534ffc0edd470b12111bbb654f2a",
+          "minus": "1de3733a72ee52ae2110f4c9f26083619dd083e6ca34ee6a76eb00b36aa94801"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.331456688516188,
+            0.5237897938413075,
+            1.304390384835736,
+            0.5139547832149782
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.331456688516188,
+            0.5237897938413075,
+            1.304390384835736,
+            0.5139547832149782
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9344869533232436,
+            "maximum_condition": 1.131574040967227,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185042,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.095202351160049,
+            "maximum_edge_length_visible": 1.390688553880693,
+            "maximum_edge_target_length": 1.4039995103118215,
+            "iterations": [
+              155,
+              158,
+              160,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.211508483520377e-10,
+              8.789899307935414e-10,
+              9.15180051095278e-10,
+              8.640993908438124e-10
+            ],
+            "edge_rms": 0.0015526263874679589,
+            "target_edge_rms": 0.12000270219057288,
+            "relative_edge_rms": 0.01293826188182227,
+            "per_axis_edge_rms": [
+              0.0011607819974014423,
+              0.0009584772663690771,
+              0.0020540865630039695,
+              0.0017768594970610746
+            ],
+            "reference_scale": [
+              1.331456688516188,
+              0.5237897938413075,
+              1.304390384835736,
+              0.5139547832149782
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "ca9e9de0a7941e99d30746de9f5ba59177f518de25332d1f3614df2e3e9398e7",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 1.994083019117503,
+            "mean_nearest_standardized_distance": 0.5491875738859547
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3201353756841303,
+            0.5138381056179065,
+            1.3017732425889905,
+            0.5096933188898585
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8492945661135725,
+            "maximum_condition": 1.3115305396045467,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184949,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 1.1349911552420766,
+            "maximum_edge_length_visible": 1.3943983885911742,
+            "maximum_edge_target_length": 1.4037944462570398,
+            "iterations": [
+              161,
+              167,
+              160,
+              166
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.20356286574217e-10,
+              9.209506910257205e-10,
+              8.954932711148668e-10,
+              9.775602969889755e-10
+            ],
+            "edge_rms": 0.0033145051822791485,
+            "target_edge_rms": 0.12133814021750275,
+            "relative_edge_rms": 0.0273162682099609,
+            "per_axis_edge_rms": [
+              0.003193163461036703,
+              0.003938558915326204,
+              0.0024811863307734163,
+              0.003475478900383253
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "ca9e9de0a7941e99d30746de9f5ba59177f518de25332d1f3614df2e3e9398e7",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.1033840029978954,
+            "mean_nearest_standardized_distance": 0.5655173567963987
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 13,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345013,
+        "role": "evaluation",
+        "trajectory_seed": 3148076768509758624,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "acefbc3556b63527fa5972fdd4aa24c692ed449a4fd23a539e2311af607fd54b"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "1e466a30ee4bb30c61b94dcad3409211dc0a869e9370e268e72927002a01bdf7"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "35d1ad08c3a733ff9f19cd26b25019d810f2e5401525cebbebee338fcb5e4f15"
+          }
+        },
+        "inverse_maxabs_fp64": 8.881784197001252e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "e0cc3b8bb51b6a9a897bf561033d45d658811f515c1797ddebfbd74707f7a6ff",
+          "actions_preburn_sha256": "4a0c5ce36c1e28ff43569803d7dfc8d9086dcf5d291d17a4fb60e4faadbae00d",
+          "regimes_preburn_sha256": "6680f9ded15ee473da8aa38ebc08f135dacf76a09e3f0dcf4302725b072f3a9a",
+          "standard_innovations_preburn_sha256": "ecb23192b70bff8b7e3827d4e2b723144b1d96a9fddb36eafed3099ef9029a22"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "3fd7fc14844ffdcc52d49a1334f022f1149112e8059b967a815e4f2d0c46acbd",
+        "branch_sha256": {
+          "plus": "a4bb1f8aec4cea591b97798217b629fcd860cd76ba7267dee25122c17203a28b",
+          "minus": "911505142e87787b3bfa69ee2bc4849adbd389f3e7516e6315ea8a024dfc86ee"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.308484229756665,
+            0.5200726216794316,
+            1.3033014883137832,
+            0.5122919438625405
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.308484229756665,
+            0.5200726216794316,
+            1.3033014883137832,
+            0.5122919438625405
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9310205643823851,
+            "maximum_condition": 1.1351119978550424,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185279,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 0.9620256411117564,
+            "maximum_edge_length_visible": 1.1870287502104786,
+            "maximum_edge_target_length": 1.1901126053865965,
+            "iterations": [
+              151,
+              159,
+              158,
+              157
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.43345317438142e-10,
+              9.066198461401758e-10,
+              9.464037360732035e-10,
+              8.677353242646509e-10
+            ],
+            "edge_rms": 0.001607916717707767,
+            "target_edge_rms": 0.1184620455316711,
+            "relative_edge_rms": 0.013573264841842417,
+            "per_axis_edge_rms": [
+              0.000994531262556309,
+              0.0009629619378910227,
+              0.002202617159002269,
+              0.0018904164115814766
+            ],
+            "reference_scale": [
+              1.308484229756665,
+              0.5200726216794316,
+              1.3033014883137832,
+              0.5122919438625405
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "74f51fae89d36b10a34cf145ba6fd49f56782154c6550627a9afacf775593e45",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.164473441287441,
+            "mean_nearest_standardized_distance": 0.551415307804936
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.2996569243098741,
+            0.5047743065199475,
+            1.305311338048262,
+            0.5023389629066563
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8864900066400241,
+            "maximum_condition": 1.259295194824483,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185313,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 36,
+            "maximum_edge_length_standardized": 1.0094805602561658,
+            "maximum_edge_length_visible": 1.1581752509389311,
+            "maximum_edge_target_length": 1.1756266512371296,
+            "iterations": [
+              158,
+              161,
+              156,
+              165
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.987686833629975e-10,
+              9.505308843543451e-10,
+              8.595637255548399e-10,
+              7.854477497136984e-10
+            ],
+            "edge_rms": 0.0032187794270019977,
+            "target_edge_rms": 0.11983907789150404,
+            "relative_edge_rms": 0.026859180524704224,
+            "per_axis_edge_rms": [
+              0.00322441888884223,
+              0.003566105302962825,
+              0.002707748677156705,
+              0.0033160634640457664
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "74f51fae89d36b10a34cf145ba6fd49f56782154c6550627a9afacf775593e45",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.241005634407667,
+            "mean_nearest_standardized_distance": 0.5664179705786346
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 14,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345014,
+        "role": "evaluation",
+        "trajectory_seed": 4912402747672419936,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "2d0c71a79aa1677ec6c86a03e97c368e0f7bc8bcc2de6d38aa0ba58505e39a4e"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "bf0d9fdfdf6f4c41242027e5483af5563255c4fa297fd37d87ac8ad10cfe4eb9"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "59b6618c8cd2f64d74ca13c5223a9f9cb5c2abc4d33d4c3520f27dd2206bfd02"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "7b72c2f81a6b6b193be571a3aa66371a596fd61e51c5d093b98b1fbf43e6d22b",
+          "actions_preburn_sha256": "223dd9fd7eac09aeaea7f0fe2729f4e810d7f8c79993a18a50a482c498ea7f17",
+          "regimes_preburn_sha256": "1cb73a4e43aeb847da1d2adc0d761324fff85197e22d1ec6eda382ed2cb18ca8",
+          "standard_innovations_preburn_sha256": "1a9bfafc13b9a7f049b55de36ee0152acf3ca06df66d018b9c477b5455185fe4"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "fe11b1c76bf1ac4e88f7fc72283ef5592076860d1dfb749e93df33b11fdd5b40",
+        "branch_sha256": {
+          "plus": "f1033c7af1950b5493b8ee8aed7c22760b5fac667bb9a3b7814df3772e1317fa",
+          "minus": "010ecb8aad1e703da71b76644800a2ace8065278305e7d5554af4d9ad68c490a"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3322850497538243,
+            0.522430341105696,
+            1.3286405906157863,
+            0.5176004797683265
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3322850497538243,
+            0.522430341105696,
+            1.3286405906157863,
+            0.5176004797683265
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9390861037147806,
+            "maximum_condition": 1.1251114781435734,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184249,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 34,
+            "maximum_edge_length_standardized": 1.0738578497522306,
+            "maximum_edge_length_visible": 1.321298395089275,
+            "maximum_edge_target_length": 1.3449406615061097,
+            "iterations": [
+              148,
+              158,
+              157,
+              162
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.690425235467615e-10,
+              9.746553299856818e-10,
+              8.32797553082067e-10,
+              9.447293304601085e-10
+            ],
+            "edge_rms": 0.0014587150001676022,
+            "target_edge_rms": 0.11885851995444292,
+            "relative_edge_rms": 0.012272700356076372,
+            "per_axis_edge_rms": [
+              0.0010238182517178813,
+              0.000875639459348972,
+              0.0020610482134366397,
+              0.001564777873509804
+            ],
+            "reference_scale": [
+              1.3322850497538243,
+              0.522430341105696,
+              1.3286405906157863,
+              0.5176004797683265
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "c0965fc606f91cada666c67031c451385fda9d4e2fea4e4aa55e195d58f35009",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.0414098495648667,
+            "mean_nearest_standardized_distance": 0.5376862038348734
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3238435571711873,
+            0.5156003493171692,
+            1.3313471216261499,
+            0.5122556110445939
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.868033889052621,
+            "maximum_condition": 1.2619131155465562,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 184175,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 34,
+            "maximum_edge_length_standardized": 1.0839893099564912,
+            "maximum_edge_length_visible": 1.3502817440581205,
+            "maximum_edge_target_length": 1.3742729695000213,
+            "iterations": [
+              158,
+              163,
+              160,
+              165
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              8.434009058978649e-10,
+              9.371328255227458e-10,
+              9.053784948793493e-10,
+              9.937389629372545e-10
+            ],
+            "edge_rms": 0.003189913132319808,
+            "target_edge_rms": 0.12006202501549687,
+            "relative_edge_rms": 0.026568876644451678,
+            "per_axis_edge_rms": [
+              0.0031495061468840685,
+              0.003786081538098909,
+              0.0024596096495925522,
+              0.0032247017158526492
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "c0965fc606f91cada666c67031c451385fda9d4e2fea4e4aa55e195d58f35009",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.0753805145355777,
+            "mean_nearest_standardized_distance": 0.5529362542724817
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    },
+    {
+      "index": 15,
+      "receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 96,
+        "seed": 2026345015,
+        "role": "evaluation",
+        "trajectory_seed": 4395758741719458435,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "698de4090263fb4d273b050953945ac2d2839f9d1276fe407343184db2bac427"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "83dce5b9dcda2d9d8e73ca7d56047ff2d33a6fd9dfce85291f6c83338ae31e71"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "2202f9c841905302c7b362017986a02c263945eee4358220e277539506443bc0"
+          }
+        },
+        "inverse_maxabs_fp64": 1.1102230246251565e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "9159eddadcd333dca48a17ee59bb507fd61d923197064cc4cbdd67a720577ff7",
+          "actions_preburn_sha256": "82b068bc80d800530e83bd63357e417a573952fbe5680db6d68ae5787353474f",
+          "regimes_preburn_sha256": "169bd7c332accca87aeaee57dd2973559ad5e7b44b65626d1790faba7a886fea",
+          "standard_innovations_preburn_sha256": "42799e8557e6c4bdad30a0b9179a43fd42273976b05e04f64882ca05479e9507"
+        }
+      },
+      "query": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "90b585fd3aec2a9ba15479e0e89289e373a26e2f76866441c05c07b265cce907",
+        "branch_sha256": {
+          "plus": "87f51ae05cf99d9690f50fc0e168b2d91d578441b0cad837a601a5458c98825b",
+          "minus": "8338dc78bdab75fb3b2847612e1b89e05243d3c9e964fd7495ea102129235688"
+        }
+      },
+      "replay_exact": true,
+      "captures": {
+        "fine": {
+          "solution_scale": [
+            1.3141907655347709,
+            0.5177477351433677,
+            1.2937955789305489,
+            0.4997367861208108
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": [
+            1.3141907655347709,
+            0.5177477351433677,
+            1.2937955789305489,
+            0.4997367861208108
+          ],
+          "diagnostics": {
+            "available": true,
+            "reason": null,
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.9298558579310944,
+            "maximum_condition": 1.1272247875482644,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185006,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 37,
+            "maximum_edge_length_standardized": 1.094363637952019,
+            "maximum_edge_length_visible": 1.394516678433432,
+            "maximum_edge_target_length": 1.4041071791615356,
+            "iterations": [
+              150,
+              154,
+              159,
+              163
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              9.583796990191262e-10,
+              9.963616256574768e-10,
+              9.35803595060935e-10,
+              9.31920734145048e-10
+            ],
+            "edge_rms": 0.0016284394633696647,
+            "target_edge_rms": 0.1200409021959554,
+            "relative_edge_rms": 0.013565704968723008,
+            "per_axis_edge_rms": [
+              0.0010837091915092414,
+              0.0010978492494345563,
+              0.0020658096681930747,
+              0.00198997290735155
+            ],
+            "reference_scale": [
+              1.3141907655347709,
+              0.5177477351433677,
+              1.2937955789305489,
+              0.4997367861208108
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "75068f77d48b2a59fb5490653863e5a5e36f2b24def667f8483df9fd2fc1df8e",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.127233629188687,
+            "mean_nearest_standardized_distance": 0.581286530948041
+          },
+          "accepted_scale_exact_parity": true
+        },
+        "raw": {
+          "solution_scale": [
+            1.3056134684946494,
+            0.5035933276088077,
+            1.2946245122639677,
+            0.49102170245852705
+          ],
+          "solution_finite": true,
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "returned_scale": null,
+          "diagnostics": {
+            "available": false,
+            "reason": "inconsistent_local_displacements",
+            "points": 18528,
+            "neighbors": 16,
+            "minimum_singular": 0.8781536014065265,
+            "maximum_condition": 1.2460245754783583,
+            "solver_rtol": 1e-09,
+            "solver_maxiter": 5000,
+            "edge_residual_threshold": 0.02,
+            "edges": 185092,
+            "component_count": 1,
+            "minimum_degree": 16,
+            "maximum_degree": 35,
+            "maximum_edge_length_standardized": 1.1162369991054302,
+            "maximum_edge_length_visible": 1.39291334610374,
+            "maximum_edge_target_length": 1.3997642501163077,
+            "iterations": [
+              156,
+              162,
+              155,
+              166
+            ],
+            "solver_status": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "solver_relative_residual": [
+              7.962567739290149e-10,
+              9.796740596767871e-10,
+              9.425203690338549e-10,
+              8.443274246148839e-10
+            ],
+            "edge_rms": 0.0033514747381673897,
+            "target_edge_rms": 0.121372063365051,
+            "relative_edge_rms": 0.027613230303971618,
+            "per_axis_edge_rms": [
+              0.0036408342860861924,
+              0.0036743876587707323,
+              0.002900944692263304,
+              0.0031236601302092153
+            ],
+            "queried_count": 64,
+            "nodecount": 18528,
+            "anchor_ids_sha256": "75068f77d48b2a59fb5490653863e5a5e36f2b24def667f8483df9fd2fc1df8e",
+            "response_assignment": "nearest_queried_anchor",
+            "queried_nodes_retain_own_response": true,
+            "max_nearest_standardized_distance": 2.0902708696502508,
+            "mean_nearest_standardized_distance": 0.5959569032756493
+          },
+          "accepted_scale_exact_parity": null
+        }
+      }
+    }
+  ]
+}

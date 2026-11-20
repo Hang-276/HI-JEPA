@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-07T10:40:30.014758+00:00",
+  "passed": true,
+  "checks": [
+    "Locked script, protocol, eight source JSON hashes unchanged",
+    "336 records, 112 physical trajectories, 12 fixed offsets",
+    "Both matching gates fail; candidate 9 true warnings and 1 false warning",
+    "Eight discordant pair verdicts unchanged by current correction",
+    "Same TRAIN offset preserves current-minus-fixed axis contrast",
+    "All four cross-boundary residual identities included for each failure case"
+  ],
+  "max_current_fixed_contrast_difference": 2.220446049250313e-16,
+  "max_reported_pair_residual_identity_error": 1.6962342988535717e-15,
+  "failure_diagnostic_rows": 13,
+  "artifacts_sha256": {
+    "PROTOCOL.md": "132ace3230a4cb2367b0112d1e9c51131b91cd01bd3b4f419e9a3e963b431329",
+    "run_ablation.py": "872a6ecc8fabc45b921ba98a1b61404cd8f83d0170936961c730e1621eb9fd3b",
+    "METHOD_LOCK.json": "013a05260186c6345eddcc788148ccfe2b6542f6d88476e5a6798f39cc6fc592",
+    "RESULTS.json": "0d7e546ce308904f14220bc166fb4a6c3e6119ee6b6a5041f77f7728c15cde88",
+    "RESULTS.md": "62f7d61317f8a2e5084b258de40416f5c93e0638226d95b837526e5b219aa97e"
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "scope": "known finite TRAIN scores; conditional same-support normalized-axis-error budget; no physical truth or actual error estimated",
+  "scope_sha256": "c333a3aeae8f6e9bdb99e92136fd7ba3cce855c6ccc2b25036a477bd1e31385e",
+  "script_sha256": "a88909e41f35950ba742ae2145384b6e39780eb48b3c8a9c1412fc21f67fde66",
+  "rows": [
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 0,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        2,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        2.0032606190924187,
+        2.0042134999816597,
+        1.4380561393297775,
+        1.0151415746121557
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.5652044797626412,
+          "linear_eta_coefficient": 11.30180187104329,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.04809775300971767
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.5661573606518822,
+          "linear_eta_coefficient": 11.303256787490474,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.0481701063495408
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.988119044480263,
+          "linear_eta_coefficient": 10.4733775922343,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.08751395066282705
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.989071925369504,
+          "linear_eta_coefficient": 10.474832508681484,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.08758211814702077
+        }
+      ],
+      "strict_common_eta_threshold": 0.04809775300971767,
+      "minimum_FP64_gap": 0.5652044797626412,
+      "FP32_rounding_max": 7.15668022621685e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 1,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        0,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.4381084759868834,
+        2.004740163175105,
+        2.004118630035111,
+        1.0155335691508722
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.5666316871882215,
+          "linear_eta_coefficient": 11.304155106993639,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.04820542548416396
+        },
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.5660101540482274,
+          "linear_eta_coefficient": 11.303206276336697,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.04815824275116382
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.9892065940242327,
+          "linear_eta_coefficient": 10.476477305294624,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.08758134326527241
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.9885850608842386,
+          "linear_eta_coefficient": 10.475528474637683,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.08753688724792283
+        }
+      ],
+      "strict_common_eta_threshold": 0.04815824275116382,
+      "minimum_FP64_gap": 0.5660101540482274,
+      "FP32_rounding_max": 7.501459231562535e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 2,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        2,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        2.004391362962662,
+        2.004662886136979,
+        1.4372390842808034,
+        1.01412685765304
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.5671522786818588,
+          "linear_eta_coefficient": 11.3020555173863,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.04825637932201666
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.5674238018561757,
+          "linear_eta_coefficient": 11.302470013757283,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.04827698846161922
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.9902645053096222,
+          "linear_eta_coefficient": 10.472926783959817,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.0876943753208997
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.9905360284839391,
+          "linear_eta_coefficient": 10.473341280330802,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.08771379176003888
+        }
+      ],
+      "strict_common_eta_threshold": 0.04825637932201666,
+      "minimum_FP64_gap": 0.5671522786818588,
+      "FP32_rounding_max": 1.0443308928742567e-07,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 0,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        0,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        0.9788388907911898,
+        2.006122230170401,
+        1.9986625199426344,
+        1.391197845122304
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 1.0272833393792111,
+          "linear_eta_coefficient": 10.399162386736188,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.09129689936304394
+        },
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 1.0198236291514446,
+          "linear_eta_coefficient": 10.387768619229306,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.09076586737511676
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.614924385048097,
+          "linear_eta_coefficient": 11.221017065227269,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.05250576451515378
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.6074646748203305,
+          "linear_eta_coefficient": 11.209623297720386,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.05194267712843924
+        }
+      ],
+      "strict_common_eta_threshold": 0.05194267712843924,
+      "minimum_FP64_gap": 0.6074646748203305,
+      "FP32_rounding_max": 1.1789623100000313e-07,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 1,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        0,
+        1
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        0.9793496563992515,
+        1.3920395169631625,
+        1.9974894915917594,
+        2.005494757708731
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 1.0181398351925077,
+          "linear_eta_coefficient": 10.387090685942452,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.0906315945158674
+        },
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 1.0261451013094796,
+          "linear_eta_coefficient": 10.39932047163168,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.09120167146615572
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.6054499746285968,
+          "linear_eta_coefficient": 11.209371775564765,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.051778317646374854
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 0.6134552407455685,
+          "linear_eta_coefficient": 11.221601561253996,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.05238284282185107
+        }
+      ],
+      "strict_common_eta_threshold": 0.051778317646374854,
+      "minimum_FP64_gap": 0.6054499746285968,
+      "FP32_rounding_max": 7.528382273136458e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 2,
+      "TRAIN_shape": [
+        128,
+        129,
+        4
+      ],
+      "native_selected_axes": [
+        0,
+        1
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        0.9792417475054241,
+        1.391768252264347,
+        1.9984265581139569,
+        2.0056008372480014
+      ],
+      "finite_Q0_Qh_coverage_K": 4.6713197700939695,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 1.0191848106085328,
+          "linear_eta_coefficient": 10.388287845207433,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.0907091013105296
+        },
+        {
+          "selected_native_axis": 0,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 1.0263590897425772,
+          "linear_eta_coefficient": 10.399246688601695,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.09121990724379045
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.6066583058496098,
+          "linear_eta_coefficient": 11.210307668261464,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.0518735554999411
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 0.6138325849836543,
+          "linear_eta_coefficient": 11.221266511655728,
+          "quadratic_eta_coefficient": 9.342639540187939,
+          "strict_eta_threshold": 0.05241521032472448
+        }
+      ],
+      "strict_common_eta_threshold": 0.0518735554999411,
+      "minimum_FP64_gap": 0.6066583058496098,
+      "FP32_rounding_max": 9.201225248389733e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 0,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        1,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.0253992880253475,
+        0.7916700448207256,
+        1.040315008398919,
+        0.81299033723046
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.23372924320462196,
+          "linear_eta_coefficient": 7.993391546221341,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.028352557388230802
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.24864496357819343,
+          "linear_eta_coefficient": 8.024225634505243,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.029996894159120418
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.21240895079488753,
+          "linear_eta_coefficient": 8.043398494399879,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.025683891428349703
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.227324671168459,
+          "linear_eta_coefficient": 8.07423258268378,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.027337288970564644
+        }
+      ],
+      "strict_common_eta_threshold": 0.025683891428349703,
+      "minimum_FP64_gap": 0.21240895079488753,
+      "FP32_rounding_max": 3.9252789685306766e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 1,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        1,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.0255751285103993,
+        0.7932909481190259,
+        1.0400055301869264,
+        0.8119886029278455
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.23228418039137344,
+          "linear_eta_coefficient": 7.997581662465746,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.028168498154958258
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.24671458206790053,
+          "linear_eta_coefficient": 8.027413442366091,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.02976007065551815
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.21358652558255387,
+          "linear_eta_coefficient": 8.041428506738486,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.02582844762266421
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.22801692725908096,
+          "linear_eta_coefficient": 8.071260286638832,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.02742770835373984
+        }
+      ],
+      "strict_common_eta_threshold": 0.02582844762266421,
+      "minimum_FP64_gap": 0.21358652558255387,
+      "FP32_rounding_max": 3.450270980032144e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 2,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        1,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.0236932679438098,
+        0.7920429853498266,
+        1.0418736335088548,
+        0.8102635875301423
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.23165028259398313,
+          "linear_eta_coefficient": 7.9907310557052185,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.028116548591383836
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.2498306481590281,
+          "linear_eta_coefficient": 8.028315346536592,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.030121091492267788
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.2134296804136675,
+          "linear_eta_coefficient": 8.033498777355302,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.02583409779587969
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 2,
+          "FP64_finite_gap": 0.2316100459787125,
+          "linear_eta_coefficient": 8.071083068186676,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.027848080648285343
+        }
+      ],
+      "strict_common_eta_threshold": 0.02583409779587969,
+      "minimum_FP64_gap": 0.2134296804136675,
+      "FP32_rounding_max": 5.92519577846673e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 0,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        1,
+        2
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.883545678522119,
+        1.827237286915781,
+        1.8533111674366463,
+        1.8759222712861199
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.05630839160633805,
+          "linear_eta_coefficient": 11.446413942012708,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.004900781649589536
+        },
+        {
+          "selected_native_axis": 1,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 0.04868498437033897,
+          "linear_eta_coefficient": 11.43473226146652,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.004243737923552412
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.030234511085472704,
+          "linear_eta_coefficient": 11.486794405692866,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.002626807717934099
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 3,
+          "FP64_finite_gap": 0.022611103849473624,
+          "linear_eta_coefficient": 11.475112725146676,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.0019674693970355324
+        }
+      ],
+      "strict_common_eta_threshold": 0.0019674693970355324,
+      "minimum_FP64_gap": 0.022611103849473624,
+      "FP32_rounding_max": 5.0987134514457466e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 1,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        2,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.8832917956912638,
+        1.8769116637084633,
+        1.8522276369358,
+        1.8278943263899645
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.031064158755463867,
+          "linear_eta_coefficient": 11.484733372122607,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.0026992218514150673
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.024684026772663348,
+          "linear_eta_coefficient": 11.474957774377282,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.0021475733626886064
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.055397469301299296,
+          "linear_eta_coefficient": 11.447046365680617,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.004821528032645776
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.04901733731849878,
+          "linear_eta_coefficient": 11.437270767935294,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.0042716712004100725
+        }
+      ],
+      "strict_common_eta_threshold": 0.0021475733626886064,
+      "minimum_FP64_gap": 0.024684026772663348,
+      "FP32_rounding_max": 5.0899893411227026e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 2,
+      "TRAIN_shape": [
+        96,
+        193,
+        4
+      ],
+      "native_selected_axes": [
+        2,
+        3
+      ],
+      "physical_axis_mapping_used": false,
+      "speed_FP64": [
+        1.8756813305462874,
+        1.8842379633137252,
+        1.8536922850310755,
+        1.827997980702279
+      ],
+      "finite_Q0_Qh_coverage_K": 4.4137563538202205,
+      "all_four_pairs": [
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.021989045515211858,
+          "linear_eta_coefficient": 11.47533125551424,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.0019133850803454513
+        },
+        {
+          "selected_native_axis": 2,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.030545678282649646,
+          "linear_eta_coefficient": 11.488442173139873,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.002653408273623087
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 0,
+          "FP64_finite_gap": 0.04768334984400835,
+          "linear_eta_coefficient": 11.435544817557757,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.004156413054880215
+        },
+        {
+          "selected_native_axis": 3,
+          "unselected_native_axis": 1,
+          "FP64_finite_gap": 0.05623998261144614,
+          "linear_eta_coefficient": 11.44865573518339,
+          "quadratic_eta_coefficient": 8.827512707640441,
+          "strict_eta_threshold": 0.004893898709079674
+        }
+      ],
+      "strict_common_eta_threshold": 0.0019133850803454513,
+      "minimum_FP64_gap": 0.021989045515211858,
+      "FP32_rounding_max": 5.780494016782711e-08,
+      "actual_representation_error_bound_available": false,
+      "actual_certificate_status": "UNESTABLISHED; threshold inversion only"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/G0.json",
+      "sha256": "6960ac760d70b351702baf144e38dc6c800dda5f3626697337aa2c51d9dd23c1"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/G0.json",
+      "sha256": "18f24bd439b8c540ff4d46818064cc060e4b6eebd9353c7778ac5befecbe7496"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/G0.json",
+      "sha256": "408c08642c585c008200f6db8df47d7988ae8e339fc74fe9ff22e83737ba6e2d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/G0.json",
+      "sha256": "2648e789bc656cf2bd0b8fb4b3a79b9ea23560144f9375faa76cfc5b328ea61f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/G0.json",
+      "sha256": "809247149db5e641d6ea5755eefe191c0b286eb3c2a87b9b78f357bb8e19cd41"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/G0.json",
+      "sha256": "de6da9c4a7d82d460c76796e22e670882c93821776aa53bc4d19bcc4b4a3a6ce"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/G0.json",
+      "sha256": "88f9df6a025932388cda50f23f233b840d4146a93bc7b7f083ee45c714e116ab"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/G0.json",
+      "sha256": "08204e0713d957febd756754f3e2ad3e96ce05ba73739b0866f2b94ffb115336"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/G0.json",
+      "sha256": "04eaf32458da397c64afb46178e2aa78304dd9d24feea985d5e3f3c602ae19e8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/G0.json",
+      "sha256": "4efb02009d3d620f304cd2061ea4b0a3afe71e4a1e5a724a14a5dac31b15221d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/G0.json",
+      "sha256": "fe97a29428105913d0cf0683c9d5a3eee4a9fa3b4cf5c6b23f49556df71628e8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/G0.json",
+      "sha256": "dcc606db41fc1b6636b8053a43cb81d940c02c9d70d220fda08f2e6dd913c573"
+    }
+  ],
+  "summary_by_slot": {
+    "ar_rich_fresh1": {
+      "eta_threshold_range": [
+        0.04809775300971767,
+        0.04825637932201666
+      ],
+      "gap_range": [
+        0.5652044797626412,
+        0.5671522786818588
+      ]
+    },
+    "ar_rich_fresh2": {
+      "eta_threshold_range": [
+        0.051778317646374854,
+        0.05194267712843924
+      ],
+      "gap_range": [
+        0.6054499746285968,
+        0.6074646748203305
+      ]
+    },
+    "fhn_fresh_eps008": {
+      "eta_threshold_range": [
+        0.025683891428349703,
+        0.02583409779587969
+      ],
+      "gap_range": [
+        0.21240895079488753,
+        0.21358652558255387
+      ]
+    },
+    "fhn_fresh_eps05": {
+      "eta_threshold_range": [
+        0.0019133850803454513,
+        0.0021475733626886064
+      ],
+      "gap_range": [
+        0.021989045515211858,
+        0.024684026772663348
+      ]
+    }
+  },
+  "independent_episode_witness_design_only": {
+    "24": {
+      "delta": 0.05,
+      "M": 1,
+      "K": 9,
+      "simultaneous_absolute_mean_error": 0.7003632409596559
+    },
+    "32": {
+      "delta": 0.05,
+      "M": 1,
+      "K": 9,
+      "simultaneous_absolute_mean_error": 0.606532358547864
+    }
+  },
+  "cost": {
+    "metadata_JSON_read": 12,
+    "scientific_array_reads": 0,
+    "model_load_or_forward": 0,
+    "fitting": 0,
+    "PRNG": 0,
+    "training": 0,
+    "server_GPU": 0
+  }
+}

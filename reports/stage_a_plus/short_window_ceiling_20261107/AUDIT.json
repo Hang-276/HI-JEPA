@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "all_source_hashes_verified": true,
+  "lock_pilot_threshold_prediction_scoring_order": true,
+  "generic_path_llr_pilot_error": 4.668487818548783e-14,
+  "design_reps_total": 196608,
+  "independent_evaluation_trajectories": 196608,
+  "evaluation_transitions": 37748736,
+  "independently_recounted_all_decisions_and_errors": true,
+  "recalculated_dual_upper": true,
+  "strong_passive_stage_eligibility": {
+    "psi_11.25": true,
+    "psi_30": true
+  },
+  "other_coverage_upper": {
+    "psi_11.25:weak": 0.17486505006492825,
+    "psi_11.25:small_gap": 0.1840510553019113,
+    "psi_30:weak": 0.1757338707761648,
+    "psi_30:small_gap": 0.18400712037475345
+  },
+  "passive_stage_run": false,
+  "numeric_threads": 1,
+  "fine_training": 0,
+  "real_cache_reads": 0,
+  "server_connections": 0,
+  "gpu_jobs": 0
+}

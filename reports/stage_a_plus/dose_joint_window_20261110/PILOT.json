@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T09:04:12.555839+00:00",
+  "lock_sha": "ea14d4a300285eb730433dbd3a2a4e07ba4687190beb60ea6b467187c4525ce4",
+  "passed": true,
+  "trajectories": 8,
+  "length": 257,
+  "innovation_hash": "22288c51f258ed62a9b21ddadc8205c2bc43b998024f6f6e99160d54ad9a35c4",
+  "checks": {
+    "phase_outer_max_violation": 0.0,
+    "two_dose": 1.509903313490213e-14,
+    "lag_score": 5.551115123125783e-17,
+    "phase_extrema": 1.734723475976807e-17,
+    "reference_variance": 1.1102230246251565e-15
+  }
+}

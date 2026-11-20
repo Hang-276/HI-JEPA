@@ -1,0 +1,88 @@
+{
+  "status": "complete_with_mathematically_necessary_corrections",
+  "new_repository_paths": [
+    "docs/THEORY_FORMALIZATION_20261116.md",
+    "scripts/low_dim_ar1/verify_theory_moments.py",
+    "results/theory_checks_20261116/"
+  ],
+  "preexisting_git_status_entries_preserved": true,
+  "files": {
+    "docs/THEORY_FORMALIZATION_20261116.md": {
+      "bytes": 98160,
+      "sha256": "687b5d1c635bde8494ab4e92fe1abf0edfc4c04ed80067781601b0641db61574"
+    },
+    "scripts/low_dim_ar1/verify_theory_moments.py": {
+      "bytes": 21071,
+      "sha256": "69ed2ed49a2b0923f2a15e80a2bcc793feb965f1a7532a92071e70f4aeb3cdfb"
+    },
+    "results/theory_checks_20261116/GIT_STATUS_AFTER.txt": {
+      "bytes": 1837,
+      "sha256": "f0d8ec9bb926cf723b2943f6ded0462070e01eb0d788faefe91208906f65fc30"
+    },
+    "results/theory_checks_20261116/GIT_STATUS_BEFORE.txt": {
+      "bytes": 1796,
+      "sha256": "c718ec76a1bfea534fc99981a36ff700137a672638881601605d519f54279575"
+    },
+    "results/theory_checks_20261116/GIT_STATUS_TASK_FILES.txt": {
+      "bytes": 124,
+      "sha256": "4cb897f1fc6421a77eecb247486dfaa055799fcbc20b9acbc214b62d04e17a3a"
+    },
+    "results/theory_checks_20261116/INTEGRITY.json": {
+      "bytes": 543,
+      "sha256": "51db6435d78f7d3af798276d6c1961dc2d5b34f1c18f315933f53612ce598f51"
+    },
+    "results/theory_checks_20261116/RESULTS.md": {
+      "bytes": 3478,
+      "sha256": "9dd121e6d55b6b65fa62f849c82d14a917dd0310f7f62a61ce8a3f019741f608"
+    },
+    "results/theory_checks_20261116/SEALED_MANIFEST_BEFORE.json": {
+      "bytes": 11851876,
+      "sha256": "5812da112d5424c0d01e1b5e2fea793a2094b10a21fa21d0b09a88c1cd81841b"
+    },
+    "results/theory_checks_20261116/SUMMARY.json": {
+      "bytes": 60377,
+      "sha256": "60872e0192a4d0897d28bea4bf6ca9118afd4554863ae744543be66539bb2b27"
+    },
+    "results/theory_checks_20261116/VALIDATION.json": {
+      "bytes": 585,
+      "sha256": "638f2aa270caf7634ecec6cb75214950f45e0aa5b4c1cdde90c9d75ec1e5f399"
+    }
+  },
+  "document_checks": {
+    "lines": 1411,
+    "unique_formula_tags": 70,
+    "inline_display_delimiters_balanced": true,
+    "proof_sections": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6",
+      "3.7",
+      "3.8"
+    ]
+  },
+  "validation": {
+    "analytic_script": "passed",
+    "help": "passed",
+    "python_311_grammar": "passed",
+    "cross_review": "three reviewers; identified assumptions/symbol/tie corrections applied",
+    "sealed_files_unchanged": 47772
+  },
+  "execution_scope": {
+    "trained": false,
+    "model_inference": false,
+    "trajectory_sampling": false,
+    "evaluation_rerun": false,
+    "packages_installed": false
+  },
+  "principal_corrections": [
+    "Perfect reconstruction with matched denominators has zero same-window error; population rank inversion is a different target.",
+    "Slower dynamics increases the specified population boundary SNR in these configurations.",
+    "Triangular coupling leaves marginal score variance unchanged and decreases boundary difference variance.",
+    "Equal-lag averaging degradation requires noise direction/covariance conditions.",
+    "Small net accuracy change can coexist with many repairs and harms; A4 correction is pair dependent.",
+    "CP requires conditional iid/binomial structure, not exchangeability alone."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "cell": "fourroom_hjepa_l2_rand192_mlp_seed44",
+  "own_cal": 0.3747350566311071,
+  "family_size": 36,
+  "per_claim_alpha": 0.001388888888888889,
+  "frozen_before_test_encoding": true
+}

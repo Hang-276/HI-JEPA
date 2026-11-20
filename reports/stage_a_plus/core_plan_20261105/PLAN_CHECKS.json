@@ -1,0 +1,143 @@
+{
+  "status": "STEPS_1_TO_4_COMPLETE_DESIGN_ONLY",
+  "generated_at": "2026-11-05T12:04:54.914363+08:00",
+  "title": "When Does Factor Identifiability Yield Reliable Slow Representations?",
+  "scope": "Claim definition, targeted primary-source review, author proof audit, prospective local CPU protocol. No scientific execution or posterior extension.",
+  "deliverables": {
+    "1": "CORE_CLAIM.md",
+    "2": "NOVELTY_REVIEW.md",
+    "3": "PROOF_AUDIT.md",
+    "4": "LOCAL_VALIDATION_PROTOCOL.md"
+  },
+  "decisions": {
+    "mechanism_research": "CONDITIONAL_GO_FOR_BOUNDED_LOCAL_MECHANISM_VALIDATION_ONLY",
+    "strong_theory_novelty": "NOT_ESTABLISHED",
+    "experimental_discrimination": "Yes for direction-versus-scalar explanation within declared error classes; NO separation from full classical Rayleigh geometry or proof of learning generality",
+    "statistical_power": "UNKNOWN_BEFORE_DATA; prespecified calibration-only precision gate before validation",
+    "automatic_execution": "NO"
+  },
+  "protocol": {
+    "dimensions": 4,
+    "top_k": 2,
+    "regimes": 9,
+    "regime_mean_shift_alpha": 0.02,
+    "variance_modulation_tau": 0.2,
+    "baseline_variance_v": 0.1,
+    "physical_gap": 0.04,
+    "horizons": [
+      4,
+      16,
+      32
+    ],
+    "phi_degrees": [
+      0,
+      60,
+      80
+    ],
+    "candidate_signed_magnitudes_deg": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      9,
+      12,
+      15,
+      18,
+      30,
+      45
+    ],
+    "primary": "phi=80; cross-boundary rotation -9 versus +9 on identical episodes",
+    "negative_control": "within-slow-block (1,3), +9 degrees, phi=80",
+    "secondary_transfer": "single shear on row 1, t=+/-0.22; no new episodes",
+    "primary_ids_one_based": true,
+    "population_target": [
+      1,
+      3
+    ],
+    "axis_gate_min_affine_R2": 0.95,
+    "calibration_episodes": 64,
+    "validation_episodes": 256,
+    "descriptive_prefixes": [
+      32,
+      128,
+      256
+    ],
+    "transitions_per_episode": 2048,
+    "primary_two_sided_CI_each": 0.975,
+    "calibration_projected_half_width_limit_fraction": 0.8,
+    "resource_caps": {
+      "wall_minutes": 15,
+      "memory_GB": 1,
+      "threads": 2
+    },
+    "all_outcomes": "Prospective predictions, not measurements"
+  },
+  "review": {
+    "current": "Author proof audit only",
+    "prior_independent_reviews": "Cited where applicable; no independent review claimed for new protocol",
+    "new_agents": 0,
+    "waiting_for_subtasks": 0
+  },
+  "primary_source_urls": [
+    "https://arxiv.org/html/2001.04872v1",
+    "https://arxiv.org/pdf/1207.3240",
+    "https://isr.umd.edu/Labs/ISL/ICA2006/Sensitivity_Final.pdf",
+    "https://jmlr.org/papers/volume15/sprekeler14a/sprekeler14a.pdf",
+    "https://proceedings.mlr.press/v162/lyu22a/lyu22a.pdf",
+    "https://www.preprints.org/manuscript/202607.2043"
+  ],
+  "source_documents_verified_against_manifests": [
+    {
+      "path": "reports/stage_a_plus/NEAREST_WORK_REVIEW.md",
+      "sha256": "83a6f51c053a73a5560563f3c376bf2a20904c3bb9f6c5c5d9fde6f4ca28101e"
+    },
+    {
+      "path": "reports/stage_a_plus/THEORY.md",
+      "sha256": "93ed18ba9276e1d78a4ab24969d9205c8a4e0035d541e5d210a7ba3870563aed"
+    },
+    {
+      "path": "reports/stage_a_plus/round3/AFFINE_INDEPENDENT_REVIEW.md",
+      "sha256": "0cb551d353a09b05564de5c3998c268af34b2df3cd1117a992a1e9cacf01b06c"
+    },
+    {
+      "path": "reports/stage_a_plus/round3/AFFINE_LOCAL_THEORY.md",
+      "sha256": "6f618fa8485e90dac0760cfdc251c8b490ff804357bf3aa4e1b65158b78891fa"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/UNLABELED_LIMITS.md",
+      "sha256": "ec5e7c8a97ce0d557ef9e4467afd845ffa33f4ed5929d79af86af8e6a352d901"
+    },
+    {
+      "path": "reports/stage_a_plus/round6/DIRICHLET_INDEPENDENT_REVIEW.md",
+      "sha256": "6e8a25b02c572dbf85cd08f436d8fcf658a8966d88f1d880d11aeee3a7dd3d5d"
+    },
+    {
+      "path": "reports/stage_a_plus/round6/DIRICHLET_SELECTION.md",
+      "sha256": "f3c4e5607285366b11792e0418824304ddf49ae1057aa7d86680c049ead6e278"
+    }
+  ],
+  "prior_round6_manifest_entries_verified": 24,
+  "preexisting_tracked_diff_unchanged": true,
+  "integrity": {
+    "markdown_documents": 6,
+    "local_file_links_checked": 18,
+    "missing_local_files": 0,
+    "malformed_tables": 0,
+    "display_math_delimiters_balanced": true
+  },
+  "cost": {
+    "scientific_experiment_runs": 0,
+    "scientific_formula_script_runs": 0,
+    "new_trajectories": 0,
+    "random_draws": 0,
+    "scientific_array_reads": 0,
+    "model_loads": 0,
+    "model_forwards": 0,
+    "fits": 0,
+    "training_runs": 0,
+    "compute_server_connections": 0,
+    "GPU_jobs": 0,
+    "posterior_chain_extensions": 0
+  }
+}

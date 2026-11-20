@@ -1,0 +1,17 @@
+{
+  "master_rng": 2026111301,
+  "smoke_rng": 2026111391,
+  "roles": {"calibration": 1, "anchors": 2, "reference_trajectory": 3, "reference_iid": 4, "test": 5, "bank_bootstrap": 6},
+  "banks_per_checkpoint": 4,
+  "test_windows_per_bank": 256,
+  "trajectory_length": 193,
+  "calibration_trajectories": [128, 1024],
+  "named_anchor_bases": [16, 256],
+  "reference_trajectories": 128,
+  "reference_iid_states": 32768,
+  "lags": [4, 16, 32],
+  "true_margin_bins": [0.01, 0.03],
+  "bank_bootstrap_draws": 4096,
+  "anchor_dose": 0.15,
+  "primary_conditions": ["separated_narrow", "crossed_narrow"]
+}

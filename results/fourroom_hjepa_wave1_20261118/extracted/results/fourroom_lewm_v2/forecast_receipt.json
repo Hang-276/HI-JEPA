@@ -1,0 +1,21 @@
+{
+  "sealed": true,
+  "thresholds_sha256": "e737f27abd3049158bb2025949f4394b04d8d0eddda9bb5a254ce64859934277",
+  "run_script_sha256": "3235492d0c36c5dbd270d4a8b2223c024e134a2421b3583c288888af858b78bd",
+  "metrics_sha256": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+  "config_sha256": "823dbc6aa946af0d8091abb2f1761a747294f2c0607f0ecbe50617aa914222dc",
+  "config_snapshot_sha256": "823dbc6aa946af0d8091abb2f1761a747294f2c0607f0ecbe50617aa914222dc",
+  "config_path": "/home/kemove/yuzihang/hjepa-slow-selection/configs/fourroom_lewm_v2.json",
+  "data_receipt_sha256": "c32880fa3e5dd59dfbdbb1248b76f81623bcd7d6f45f4d06bc6f1ddd58b269ae",
+  "prediction_sha256": {
+    "cls_160k_official_seed42_level1": "01aa63eb58df5a36cf7028216d1d9b43dfe7e5154cc3c2c8ca5c5557b2be6d37",
+    "cls_160k_official_seed43_level1": "e2dc5d11bb4164f10e344c4a8468c824fefb42a8df87fcde852fdb38459ce7ce",
+    "cls_160k_official_seed44_level1": "3cc782273608cc2e807d6ecb37786948ff844009a5eb51c5f4412156c618f927",
+    "grid4x4_160k_official_seed42_level1": "5b864e51bb31c1e914d05d8fb51bf5dd8b6323b6de9054b1714d1b5b29efca75",
+    "grid4x4_160k_official_seed43_level1": "f6180b32515c4838d54d89141357ab91b2961a9b7f36fa781f910a0beec2e521",
+    "grid4x4_160k_official_seed44_level1": "4a117be3e660cd3b7fe0b423e88c4282fd85cfebe95e55ac664dc3c6dfe985d3",
+    "grid4x4_160k_ridge_seed42_level1": "9a4bc8dbca35cb04ee8b63ef94ea09f81c7d7f909b42992c13b95f65e05e8310",
+    "grid4x4_160k_ridge_seed43_level1": "2fb02ac1e0ae23fe78154f8c645a1fd14b14b08cd30c8a710dd2aaeea928af0d",
+    "grid4x4_160k_ridge_seed44_level1": "a664c96b77f17b096132c1d2a56a412a0f5646f18128a9a5f0b81c2073a7048b"
+  }
+}

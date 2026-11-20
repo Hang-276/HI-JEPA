@@ -1,0 +1,1701 @@
+{
+  "config": {
+    "seeds": [
+      20151,
+      20152,
+      20153,
+      20154
+    ],
+    "training_cases": [
+      "separated_wide",
+      "crossed_wide"
+    ],
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ],
+      "separated_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.88
+      ]
+    },
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "length": 193,
+    "n_reference": 32768,
+    "n_cal": 2048,
+    "n_test": 2048,
+    "reference_role": 401,
+    "cal_role": 402,
+    "test_role": 406,
+    "old_master": 2026111551,
+    "new_master_base": 2026120000,
+    "coverage": 0.2,
+    "quantile": 0.9,
+    "minimum_pair_cal": 64,
+    "minimum_audit_r2": 0.85,
+    "bootstrap_draws": 4096,
+    "bootstrap_seed": 2026111561,
+    "minimum_gain": 0.01,
+    "minimum_eligible_models": 4,
+    "minimum_eligible_seeds": 3,
+    "minimum_positive_seed_fraction": 0.75
+  },
+  "cells": [
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "training_case": "separated_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9957925210297259,
+        0.9980126960836277,
+        0.9986047332188888,
+        0.9986947800257462
+      ],
+      "path": "new_forecast/separated_wide_20151__separated_wide.npz",
+      "sha256": "e8b18fb9e57e80e580158c9be47c3218eaa654e34117450d821ef40cbd796308",
+      "test_master": 2026321510,
+      "reference_variance": [
+        0.9782182043949276,
+        1.0033386407815763,
+        1.0016415649887753,
+        1.0175670506617818
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.043450486651330555,
+          0.03778177564250362,
+          0.018510990820401085
+        ],
+        [
+          0.04401521175911638,
+          0.0,
+          0.030424360172239595,
+          0.01107784973392656
+        ],
+        [
+          0.04723517866371629,
+          0.036210932760363024,
+          0.0,
+          0.009684413421005456
+        ],
+        [
+          0.06916636044745794,
+          0.0482691569305187,
+          0.04332181512819444,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          695,
+          994,
+          1011
+        ],
+        [
+          553,
+          0,
+          909,
+          954
+        ],
+        [
+          444,
+          501,
+          0,
+          655
+        ],
+        [
+          399,
+          484,
+          593,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "training_case": "crossed_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9968425520554882,
+        0.9979428815998425,
+        0.9989264206160774,
+        0.9952045683490404
+      ],
+      "path": "new_forecast/crossed_wide_20151__separated_wide.npz",
+      "sha256": "b5258b8707541e7aa580bdbbc1209b1d48b4916de6299a093d919d8079d7cbed",
+      "test_master": 2026321510,
+      "reference_variance": [
+        0.9727074932816855,
+        1.0045195001061398,
+        0.9906248088434803,
+        1.0148291669910152
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.036242974478995715,
+          0.032383990443295985,
+          0.03503840359153232
+        ],
+        [
+          0.0399048022438675,
+          0.0,
+          0.02633295571889338,
+          0.0324942942663583
+        ],
+        [
+          0.03888795912175058,
+          0.034766124422074496,
+          0.0,
+          0.02944681074968658
+        ],
+        [
+          0.07941066495546334,
+          0.061956422745138795,
+          0.06327046466609576,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          694,
+          1004,
+          1020
+        ],
+        [
+          546,
+          0,
+          916,
+          960
+        ],
+        [
+          438,
+          498,
+          0,
+          650
+        ],
+        [
+          394,
+          482,
+          590,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "training_case": "separated_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9957925210297259,
+        0.9980126960836277,
+        0.9986047332188888,
+        0.9986947800257462
+      ],
+      "path": "new_forecast/separated_wide_20151__separated_narrow.npz",
+      "sha256": "0886e1920550349664acce9f197f494b717f965bb759584a47b27250ab99a148",
+      "test_master": 2026321511,
+      "reference_variance": [
+        0.9842624676108833,
+        0.9954569219539959,
+        1.0045802258531011,
+        1.0044649370644514
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.06024252225240456,
+          0.03646990884057366,
+          0.041489269647212446
+        ],
+        [
+          0.027590849219089275,
+          0.0,
+          0.014577672989899426,
+          0.02199547075788122
+        ],
+        [
+          0.03995643490212375,
+          0.05878325798561046,
+          0.0,
+          0.03547413898174756
+        ],
+        [
+          0.03338642120451274,
+          0.045243663022831226,
+          0.022542866905346015,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          839,
+          848,
+          1053
+        ],
+        [
+          495,
+          0,
+          728,
+          829
+        ],
+        [
+          481,
+          705,
+          0,
+          820
+        ],
+        [
+          380,
+          500,
+          514,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "training_case": "crossed_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9968425520554882,
+        0.9979428815998425,
+        0.9989264206160774,
+        0.9952045683490404
+      ],
+      "path": "new_forecast/crossed_wide_20151__separated_narrow.npz",
+      "sha256": "a4c44bfebfa9b7380ba3402a24c8ea94c6584b5713bd8850fbe35894094cfcf7",
+      "test_master": 2026321511,
+      "reference_variance": [
+        0.9791097848879073,
+        0.9968003634031078,
+        0.9938745773238234,
+        0.9995442836451187
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.0565825535788842,
+          0.031221816509725553,
+          0.0639511335220595
+        ],
+        [
+          0.02326740666749383,
+          0.0,
+          0.013400084737731688,
+          0.04723870420392684
+        ],
+        [
+          0.03354263579770622,
+          0.05048116806191172,
+          0.0,
+          0.06037973015298359
+        ],
+        [
+          0.038911114550696846,
+          0.0543436860257247,
+          0.034519300846129974,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          841,
+          844,
+          1065
+        ],
+        [
+          493,
+          0,
+          726,
+          835
+        ],
+        [
+          481,
+          711,
+          0,
+          832
+        ],
+        [
+          372,
+          490,
+          502,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "training_case": "separated_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9954885451916439,
+        0.9977558590471667,
+        0.9977787390471083,
+        0.9987081905931597
+      ],
+      "path": "new_forecast/separated_wide_20152__separated_wide.npz",
+      "sha256": "3158a30be17822d0cad17250e167996ee647c6fc097f35bd23e81d98ba47e35a",
+      "test_master": 2026321520,
+      "reference_variance": [
+        1.006282881712863,
+        1.029715101881401,
+        1.0175039533751238,
+        1.017697091960588
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.010444782276014308,
+          0.033292103072382395,
+          0.027730200477720235
+        ],
+        [
+          0.06294721316794005,
+          0.0,
+          0.04167959238071384,
+          0.04208950544236689
+        ],
+        [
+          0.0487132130153054,
+          0.012989498176067205,
+          0.0,
+          0.02850270912094066
+        ],
+        [
+          0.044179224048352284,
+          0.008732719563253166,
+          0.023104246983321808,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          647,
+          1000,
+          1065
+        ],
+        [
+          577,
+          0,
+          975,
+          1020
+        ],
+        [
+          426,
+          471,
+          0,
+          667
+        ],
+        [
+          381,
+          406,
+          557,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "training_case": "crossed_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9969928857329379,
+        0.9984730860089208,
+        0.998721000719983,
+        0.9962035796575144
+      ],
+      "path": "new_forecast/crossed_wide_20152__separated_wide.npz",
+      "sha256": "89fc6141acd75baea1a770dd5fda4bd9a80559be80289182b412f4dd6c86ddd9",
+      "test_master": 2026321520,
+      "reference_variance": [
+        0.9975514915093886,
+        1.0241612803257973,
+        1.0193907652777423,
+        1.0042645405440092
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.008785137187155456,
+          0.02375653771957742,
+          0.04396993069352528
+        ],
+        [
+          0.0597116867468408,
+          0.0,
+          0.04027812816729659,
+          0.059966320829639486
+        ],
+        [
+          0.04232778942631832,
+          0.008776081387889878,
+          0.0,
+          0.03807173390779783
+        ],
+        [
+          0.04805188962137796,
+          0.0192034312185696,
+          0.03479409407291434,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          657,
+          1007,
+          1068
+        ],
+        [
+          565,
+          0,
+          974,
+          1009
+        ],
+        [
+          417,
+          476,
+          0,
+          659
+        ],
+        [
+          382,
+          415,
+          563,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "training_case": "separated_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9954885451916439,
+        0.9977558590471667,
+        0.9977787390471083,
+        0.9987081905931597
+      ],
+      "path": "new_forecast/separated_wide_20152__separated_narrow.npz",
+      "sha256": "8f5dea819ef4ac71f7c22818a8b0a2fb83b419154e707ab819a541383b6c528f",
+      "test_master": 2026321521,
+      "reference_variance": [
+        0.9971116039603305,
+        1.0081939436932668,
+        1.0079608429590632,
+        1.0018407514523302
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.03272484332702219,
+          0.033072931748663326,
+          0.04311492119371718
+        ],
+        [
+          0.05074038954140203,
+          0.0,
+          0.0349990341121198,
+          0.04263937653114913
+        ],
+        [
+          0.052314483293594005,
+          0.03191074052047771,
+          0.0,
+          0.040137801498694614
+        ],
+        [
+          0.03923627602638757,
+          0.023234587655212025,
+          0.023319675852953137,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          822,
+          885,
+          1043
+        ],
+        [
+          489,
+          0,
+          755,
+          840
+        ],
+        [
+          471,
+          674,
+          0,
+          777
+        ],
+        [
+          386,
+          516,
+          534,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "training_case": "crossed_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9969928857329379,
+        0.9984730860089208,
+        0.998721000719983,
+        0.9962035796575144
+      ],
+      "path": "new_forecast/crossed_wide_20152__separated_narrow.npz",
+      "sha256": "6cee360db871adf9ff8c7d7701eb552d82ce117842a3df51a9e335a503a674e6",
+      "test_master": 2026321521,
+      "reference_variance": [
+        0.9886941035984773,
+        1.0034216238227234,
+        1.0100513703963532,
+        0.9892719185746686
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.031928927765018544,
+          0.03124394275706055,
+          0.060690250348072405
+        ],
+        [
+          0.047537399399391944,
+          0.0,
+          0.031418360893824104,
+          0.05849533941931995
+        ],
+        [
+          0.045457856721442313,
+          0.027807895313500475,
+          0.0,
+          0.05272584024232141
+        ],
+        [
+          0.047568650778775146,
+          0.03539352670396356,
+          0.030406393180211433,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          827,
+          894,
+          1037
+        ],
+        [
+          480,
+          0,
+          746,
+          838
+        ],
+        [
+          475,
+          674,
+          0,
+          771
+        ],
+        [
+          383,
+          531,
+          536,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "training_case": "separated_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9963637632483042,
+        0.9978121810691982,
+        0.9976949444555552,
+        0.9985647217331273
+      ],
+      "path": "new_forecast/separated_wide_20153__separated_wide.npz",
+      "sha256": "6cecc6e0ff58760e877078ce6ac6fc6050a4a5224843e096130c4e20b6b2b4fb",
+      "test_master": 2026321530,
+      "reference_variance": [
+        1.005075947335992,
+        1.0089076199284546,
+        0.9977228654308733,
+        0.9899766850794736
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.029566706571600987,
+          0.03698589834418842,
+          0.03271622348662562
+        ],
+        [
+          0.05126012401974145,
+          0.0,
+          0.03570220642460176,
+          0.029726737840338302
+        ],
+        [
+          0.04419109041000846,
+          0.021915087314563597,
+          0.0,
+          0.027421014013962686
+        ],
+        [
+          0.055205115326268483,
+          0.0306376831598838,
+          0.03990462181539001,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          713,
+          980,
+          1053
+        ],
+        [
+          536,
+          0,
+          915,
+          941
+        ],
+        [
+          420,
+          532,
+          0,
+          674
+        ],
+        [
+          394,
+          459,
+          575,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "training_case": "crossed_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9972721295551977,
+        0.9984580184856894,
+        0.9988258622412203,
+        0.9952011702307183
+      ],
+      "path": "new_forecast/crossed_wide_20153__separated_wide.npz",
+      "sha256": "14de36598a1d9e060273aeebf8ff2d8bf6ad9dae6710d7b7368b0a337fb354a1",
+      "test_master": 2026321530,
+      "reference_variance": [
+        0.9720326895425365,
+        1.0073265419265716,
+        0.9882307896157384,
+        0.9936034656098999
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.032260006960320387,
+          0.03514579065926737,
+          0.04900506322184972
+        ],
+        [
+          0.05256278949981952,
+          0.0,
+          0.034259378265869334,
+          0.053613912851356194
+        ],
+        [
+          0.03943449667154475,
+          0.021964066707594654,
+          0.0,
+          0.049808405043106685
+        ],
+        [
+          0.06604097287617994,
+          0.05044101892460806,
+          0.05366973733595759,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          718,
+          990,
+          1062
+        ],
+        [
+          531,
+          0,
+          923,
+          942
+        ],
+        [
+          407,
+          527,
+          0,
+          670
+        ],
+        [
+          388,
+          455,
+          579,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "training_case": "separated_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9963637632483042,
+        0.9978121810691982,
+        0.9976949444555552,
+        0.9985647217331273
+      ],
+      "path": "new_forecast/separated_wide_20153__separated_narrow.npz",
+      "sha256": "a6e0a8e6edb95d699c0b9f87d285c7e3f5c872503585ea8b376edd4f64d4be59",
+      "test_master": 2026321531,
+      "reference_variance": [
+        1.0027911468619,
+        0.9960986468173958,
+        1.0137291256491652,
+        1.0042979259240432
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.050167910902135016,
+          0.009126200064157208,
+          0.0042473789559267505
+        ],
+        [
+          0.03910649343357453,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.06688141919830581,
+          0.06615213009039844,
+          0.0,
+          0.019159285816892968
+        ],
+        [
+          0.07112624209915719,
+          0.07054741321187019,
+          0.028649940196777912,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          866,
+          882,
+          1040
+        ],
+        [
+          455,
+          0,
+          724,
+          787
+        ],
+        [
+          458,
+          711,
+          0,
+          771
+        ],
+        [
+          395,
+          553,
+          550,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "training_case": "crossed_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9972721295551977,
+        0.9984580184856894,
+        0.9988258622412203,
+        0.9952011702307183
+      ],
+      "path": "new_forecast/crossed_wide_20153__separated_narrow.npz",
+      "sha256": "065007341f625fefc3c15aa95f5fc158685617fe9b3c766bd9f2403adae9a63c",
+      "test_master": 2026321531,
+      "reference_variance": [
+        0.9710052803732886,
+        0.9947392964115725,
+        1.0045819986690998,
+        1.0073631603511062
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.04599982978717998,
+          0.0039487312126058605,
+          0.02705871784606606
+        ],
+        [
+          0.04452861660800522,
+          0.0,
+          0.0,
+          0.019921804180699887
+        ],
+        [
+          0.06681972941648073,
+          0.0622401457315549,
+          0.0,
+          0.047303750629333896
+        ],
+        [
+          0.08241654563889345,
+          0.08637914393051793,
+          0.039113462410789834,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          878,
+          870,
+          1042
+        ],
+        [
+          461,
+          0,
+          721,
+          774
+        ],
+        [
+          449,
+          717,
+          0,
+          782
+        ],
+        [
+          396,
+          545,
+          557,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "training_case": "separated_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9954726529377999,
+        0.998098582316241,
+        0.9984941662960227,
+        0.9985900142368416
+      ],
+      "path": "new_forecast/separated_wide_20154__separated_wide.npz",
+      "sha256": "240e4b2b9abf9f55d5966b06c54f312357d30ef49cb3f9d453d06bb082c6d74e",
+      "test_master": 2026321540,
+      "reference_variance": [
+        1.003420166633406,
+        1.0026867529805874,
+        0.9892596675944002,
+        0.9979261221143191
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.03301743103128296,
+          0.04010487146367203,
+          0.033970362801711396
+        ],
+        [
+          0.038654790796329386,
+          0.0,
+          0.04272966287211122,
+          0.03183640778117658
+        ],
+        [
+          0.030136757697126093,
+          0.02072255935219336,
+          0.0,
+          0.022494342929319733
+        ],
+        [
+          0.0371841412162941,
+          0.034215838648382624,
+          0.03706572682237508,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          715,
+          1025,
+          1046
+        ],
+        [
+          501,
+          0,
+          921,
+          936
+        ],
+        [
+          412,
+          522,
+          0,
+          626
+        ],
+        [
+          397,
+          501,
+          590,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "training_case": "crossed_wide",
+      "process": "separated_wide",
+      "eligible": true,
+      "state_r2": [
+        0.9970676450997576,
+        0.9985145513848257,
+        0.9987716097000163,
+        0.9956056687051857
+      ],
+      "path": "new_forecast/crossed_wide_20154__separated_wide.npz",
+      "sha256": "e734418355fe21a1e3f498b8300b4db07f52466be00bbc74c0a3c4a91a6fc02c",
+      "test_master": 2026321540,
+      "reference_variance": [
+        0.9949414782117391,
+        1.0011705569781018,
+        0.9895597349872226,
+        0.994361259981967
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.032394366730891466,
+          0.03901547985671239,
+          0.054744690278438535
+        ],
+        [
+          0.03421603413392571,
+          0.0,
+          0.033609997773439426,
+          0.04913104128683443
+        ],
+        [
+          0.03070727694852904,
+          0.017121338742319137,
+          0.0,
+          0.047255548150725746
+        ],
+        [
+          0.05344501503816179,
+          0.043352214300282244,
+          0.04553332931697418,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          720,
+          1031,
+          1051
+        ],
+        [
+          489,
+          0,
+          923,
+          928
+        ],
+        [
+          405,
+          528,
+          0,
+          617
+        ],
+        [
+          400,
+          508,
+          592,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "training_case": "separated_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9954726529377999,
+        0.998098582316241,
+        0.9984941662960227,
+        0.9985900142368416
+      ],
+      "path": "new_forecast/separated_wide_20154__separated_narrow.npz",
+      "sha256": "22469b39a39151213850288caa544b5f3f15056aea995fb73a73e16c3870fbbd",
+      "test_master": 2026321541,
+      "reference_variance": [
+        1.0118711227029908,
+        1.0114359612891073,
+        0.9930933558735565,
+        0.9996391062537977
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.029171386163704183,
+          0.044111882671784786,
+          0.0402188072722649
+        ],
+        [
+          0.04006203377266959,
+          0.0,
+          0.04691859822155431,
+          0.0377657360690512
+        ],
+        [
+          0.031691164916350045,
+          0.014251307490743326,
+          0.0,
+          0.024572994928732106
+        ],
+        [
+          0.029663316160144504,
+          0.021387352885238853,
+          0.03366426598803485,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          831,
+          920,
+          1097
+        ],
+        [
+          462,
+          0,
+          780,
+          868
+        ],
+        [
+          437,
+          666,
+          0,
+          779
+        ],
+        [
+          349,
+          489,
+          514,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "training_case": "crossed_wide",
+      "process": "separated_narrow",
+      "eligible": true,
+      "state_r2": [
+        0.9970676450997576,
+        0.9985145513848257,
+        0.9987716097000163,
+        0.9956056687051857
+      ],
+      "path": "new_forecast/crossed_wide_20154__separated_narrow.npz",
+      "sha256": "e62672c55c100aa514cdeedb053edb99af9cf7df9246d33a2b06904b9fb2a0f0",
+      "test_master": 2026321541,
+      "reference_variance": [
+        1.0027303794271598,
+        1.0092929064154865,
+        0.9927815358487566,
+        0.9948572441492954
+      ],
+      "allowance": [
+        [
+          0.0,
+          0.02741668890728577,
+          0.04599112307838882,
+          0.059992010968605514
+        ],
+        [
+          0.03311497428994192,
+          0.0,
+          0.04042960697626374,
+          0.05522210077987966
+        ],
+        [
+          0.02655099488217716,
+          0.007727700557734973,
+          0.0,
+          0.04438267415521224
+        ],
+        [
+          0.03729317705471957,
+          0.03013433083718442,
+          0.042168778021818065,
+          0.0
+        ]
+      ],
+      "cal_pair_counts": [
+        [
+          0,
+          847,
+          919,
+          1094
+        ],
+        [
+          458,
+          0,
+          762,
+          862
+        ],
+        [
+          439,
+          671,
+          0,
+          790
+        ],
+        [
+          339,
+          496,
+          515,
+          0
+        ]
+      ],
+      "fallback": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  ],
+  "sources": {
+    "panel/run.py": "b603c5d3c7ab6444b3b13a528456e2c44ea362d06d5c9782854cf8f3cbf6bfdc",
+    "panel/protocol.json": "e5353c401373d7e70043ffccecf96d2e1109be2662825c33148d47e0be86b90b",
+    "panel/PROTOCOL.md": "d114b05550eb8cbae40a76b3e6e79c618ae72637a9b50b094f7f9704b2b9578d",
+    "../lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "../lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "../lejepa_mechanisms_20261113/readout/run.py": "99791a7db74f019b616bfdd64beac445b3bbf27d9819e00750ff98fdb2126a37",
+    "../lejepa_mechanisms_20261113/readout/protocol.json": "63e8169473084599913a24296df97e9b70eed9b0d51050d6b467ac8eac7b5ced",
+    "../lejepa_slow_rank_20261112/training/runs/results.json": "d4ac590bf4838754fff75559733135afb670543e8ed09ce1679c5c24278afba3",
+    "../lejepa_mechanisms_20261113/readout/runs/results.json": "2699160372fc6a10918e16905425dfff0215a547a7dde089414262dc76c41e29",
+    "../../work/hcf_stable_id_20261027/v1/LEJEPA_SOURCE_LOCK.json": "2934b6aaea96d5ba6b68e42f068f400f5b61ca09c58beeca4ce405e6386d4a36",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb",
+    "panel/RECEIPT.json": "6a19ccf92e28ca1dd9dee1a05b18e9ea572adc0d0d1bddb52e2255c7522a50c8",
+    "panel/DESIGN_LOCK.json": "040b051cf6b3ed2c506d952a87d8f28e4f77375bdf8dbf73db1b0de3c5958635",
+    "panel/runs/separated_wide_20151_readout.pt": "821b31fc6ca7b35ee2c1d4455d2e8f306c7ec51c142805083284914b36013037",
+    "panel/runs/separated_wide_20153.pt": "3f976f7c1c05f662c948f95e6b8ce45f50e36c199b3222187105fa02faa13edc",
+    "panel/runs/separated_wide_20151.json": "2ce0c68377ad6ebabd1ca902091e91076eb9b4fb92bc7a9b55038d2e2d94ecfe",
+    "panel/runs/crossed_wide_20151.json": "e9016f104353017b9aec732444ff890147bc1c1d2755be8bf782f091814b9359",
+    "panel/runs/crossed_wide_20153_readout.pt": "5c3107a7abd40e328ffdb13013d6a5a87bae26f9342fd152e5ba748754bbca41",
+    "panel/runs/separated_wide_20152.pt": "d6fe512df95da9a39a5fb11f7c7b9298246f52c65b6633ba5edab5b51b7eeb5e",
+    "panel/runs/separated_wide_20154_readout.pt": "65bc4e9e5fb4e0eab3e02586ef44303f485d887455b3ca706248ed91d1a78212",
+    "panel/runs/separated_wide_20153_readout.pt": "ae0f8f36a401267837ac73aac53b27fb1d04d014b5e7322f7a234a82ba8baf8c",
+    "panel/runs/crossed_wide_20151_readout.pt": "1adc4ee68f54b4fe71c28efa8d1661a784d0b6cbd1b4b33e9a4b6bc9f512726c",
+    "panel/runs/crossed_wide_20153.pt": "9c5ae369b3a958ba1d74d7bf14d22cad0fa5c5e28200e8215fa606bbb08ac87b",
+    "panel/runs/crossed_wide_20154_readout.pt": "4d2cfa142be7d1df5d3ab06266934136f1108e96ae09025905d38d2601d125b4",
+    "panel/runs/crossed_wide_20152.pt": "560da2da15f9f846b50aa0873490f0370b0fda265bff66159dd1f3bec461513d",
+    "panel/runs/crossed_wide_20151.pt": "6463ee114e747baf7d4f9a2bc29e9db4f9de6e7b93327e2c352e065cf339490b",
+    "panel/runs/crossed_wide_20154.pt": "e6a2b4609800e24c471b65d1c6571a0fd71948c8697383f64f64855b0c1798b8",
+    "panel/runs/crossed_wide_20152_readout.pt": "c627e048ce4d387aad529331a197e9e01d887696ab10f6abe6be0f3de29f657e",
+    "panel/runs/crossed_wide_20154.json": "430d84787e5ca15aa23b17ad70415c30bc82f23a07d25e499a1571d38755143f",
+    "panel/runs/separated_wide_20154.json": "cfb50bae4ab9ddec15b342c031ffb4bda9489968576813209a2a36bc899aa386",
+    "panel/runs/separated_wide_20151.pt": "2ab0eb335f8db036fd5276c6425d66dacb9a080669d10b1232a9e2af7f716253",
+    "panel/runs/separated_wide_20153.json": "a9db1d10606092c3a638fc3369c2f138417fd9aa2fdca42a57795fa21f5704b4",
+    "panel/runs/crossed_wide_20153.json": "a1e12122dcebd533884ccc8545d5e0a85d981a97b6fa760f044318ff4402702c",
+    "panel/runs/separated_wide_20152.json": "d250a9964afe52a103accb5d0393c912f18483b3f138b2907f3c44df57887979",
+    "panel/runs/crossed_wide_20152.json": "c9395b7626ac349f7b817f49dc85ddf88dab021378f4419bf71cebb077e24a6a",
+    "panel/runs/separated_wide_20152_readout.pt": "32c88f24d1680f435495c85dc77547863095e00ea1115d03adbd21ff741e98f5",
+    "panel/runs/separated_wide_20154.pt": "66cd2f8ba73d2eabf4db2461380f198c3eedb2373a0ac71a6cedf0a17f206e8c",
+    "forecast.py": "5f75b20caa10e5e58375b357094e797a3eea940ba8c34ba45c41d6cda5f08438",
+    "config.json": "868e79d231b58d2ac0ebdbaa4ee58775557048b9f00f3690462e74db38ddcf33",
+    "PROTOCOL.md": "b8f99ad8da80a5a96363aba819e6d7efb15ffe576cbb8da2ad83c3f043aac0d8",
+    "score.py": "b4f0e2acd1b621f027c3d0319fef145dff9d1a18cd4b2486a2f37ffc00fefdc4",
+    "OLD_DEV.json": "6531bb86d43a698c2fa4d981c609262bdc2b5fe9fa797bdea1ca4531b69d09b4",
+    "FORECAST_LOCK.json": "3a8bfe99f5d62b409d0881a2563d82986d906b11ad6bd864a07c8cfc92026d56"
+  }
+}

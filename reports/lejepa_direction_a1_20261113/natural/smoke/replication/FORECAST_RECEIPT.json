@@ -1,0 +1,60 @@
+{
+  "source_hashes": {
+    "lejepa_direction_a1_20261113/natural/run.py": "157a5491b0696c22323cf75e4f475eb659a9651b63001e36ee678285ca66fba8",
+    "lejepa_direction_a1_20261113/natural/PROTOCOL.md": "d5e4613a98b3d6d9aa3d2996314907e5c1886f6a97772b62b6c5497e1cc31ffc",
+    "lejepa_direction_a1_20261113/natural/protocol.json": "1321f246443f7dbf48e146c8009b0fe971fb3d5410d5d0085510d899f28d6ea6",
+    "lejepa_direction_a1_20261113/natural/score.py": "720fffd140d2b2c348623a75865694c6d5b8ffa0b77bc839a7fba6bbe74e4c65",
+    "lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "lejepa_slow_rank_20261112/prospective/pipeline_forecast_receipt.json": "a3a46b47092dc0359587f17d62bb1559f78be1987dc6316809575596ca7702ad"
+  },
+  "config": {
+    "master_primary": 2026111306,
+    "master_replication": 2026111307,
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ]
+    },
+    "n_axes": 16,
+    "n_fit": 48,
+    "n_validation": 32,
+    "n_conformal": 32,
+    "n_reference": 2048,
+    "n_test": 64,
+    "length": 193,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "ridge_alphas": [
+      0,
+      1e-06,
+      0.001,
+      0.1
+    ],
+    "conformal_alpha": 0.05,
+    "bootstrap_seed": 1320261113,
+    "bootstrap_repetitions": 4096,
+    "primary_minimum_gain": 0.01,
+    "diagnostic_coverages": [
+      0.2,
+      0.5
+    ]
+  },
+  "round": "replication",
+  "smoke": true,
+  "parameter_sha256": {},
+  "initial_receipt_sha256": "4d12d936e43f9101db6f3dee9703aea9d5f1259f111996de297fff74685c82a2",
+  "prediction_sha256": {
+    "separated_wide__separated_wide_1942.npz": "fd9da58bd1d074ccf3e47195cb4cc8dad370b55a511aa1e3186a17c40d880d48",
+    "separated_wide__crossed_wide_1942.npz": "420dda3118ffea1d9a971bcc632492052b91146c7345a8228145b232dcd40311",
+    "separated_wide__separated_narrow_1942.npz": "2072189057efef521b29be033fa48b42c5b5258b8b04dc155fac51056b832730",
+    "separated_wide__crossed_narrow_1942.npz": "c6dde57a87ee905273146612496aebef5a849c7151c8350b4cd8db4b75e6d94e"
+  },
+  "elapsed_seconds": 0.03386554215103388
+}

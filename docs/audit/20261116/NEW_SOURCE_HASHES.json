@@ -1,0 +1,18 @@
+{
+  "README.md": "84bceebc9e7ee40cde3c34e4a15dfb715c20defe5de128d79d416af8c848a521",
+  "pyproject.toml": "ad6631168a00c75e1cf7365e83bc2ca273d5b8aed7f40583c4005fc68919fedd",
+  "requirements.txt": "16ce84e5a39c10696ed3b234ad2b4c5c08c6f70973eeac7f5292ccdfd49ea0b2",
+  ".gitignore": "9bc5b23607cb2441d50b69514a6644f4be66fdb383361bb7c4adab29f4e55b97",
+  "src/slowrepr/__init__.py": "3e17a7478e05b9faecec75dbaeb96602eee2898450e2e14a946bef2802009cf8",
+  "src/slowrepr/fourroom_hjepa.py": "4f964fff7d4e60a3eb77f5ecbbea13823064003fd314a4f51865074e15ae5503",
+  "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+  "scripts/fourroom_hjepa/run.py": "69dddff42ac95429da425027d10e686dd6b46876b652d1e7ed03bdca792249ea",
+  "scripts/fourroom_hjepa/setup.sh": "960e07f783ffa479065996ea3823a211f5bd03a9fa08dedd87261b36885ae479",
+  "scripts/low_dim_ar1/prepare_a4.py": "101d6973e1f6f48736bd74c83e32d426555302b5f1bd3a4a16b6aeacb156bb14",
+  "scripts/check_repository.py": "354cbcef837d46c7ae2745540964ac5782b66ef20222cb697ccf07b093884bb6",
+  "configs/fourroom_hjepa/default.json": "a35678c9ce7ac22add97b476adec604d5f9a2a791e497d649a89c5b9d2acb761",
+  "tests/test_fourroom_metrics.py": "75f7df03227e7e2eba744bc5151c885c38d71288a3ab0de03df32e7dbe74bbba",
+  "docs/FOURROOM_HJEPA.md": "b41fe5b4fc2b4b169840efab41189dec7c754140c691c7eff617f4551e827a69",
+  "docs/LOW_DIM_REPRODUCTION.md": "c1d418acb8dca259fb0e304245794c26db7233983c4be5839116d0e39be77dcc",
+  "docs/PROGRESS_SYNC_JEPA.md": "0ea76ca3daf0626fdde572f4d08ca998cb20b3ee037711956439af84e1f30a59"
+}

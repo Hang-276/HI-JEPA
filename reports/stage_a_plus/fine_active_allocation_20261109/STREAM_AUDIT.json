@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-09T09:51:12.704474+00:00",
+  "forecast_sha": "c29e2392c0282ba03037ee3cac74efa4edfde49186f9e2f88918f3a28355243c",
+  "within_round_distinct": 130,
+  "archive_unique_roots": 2002,
+  "archive_root_occurrences": {
+    "fine_drift_budget_20261109": 194,
+    "fine_regime_noise_20261109": 0,
+    "fine_drift_moment_20261109": 194,
+    "fine_active_shift_20261109": 130,
+    "fine_affine_control_20261109": 0,
+    "fine_passive_mean_20261109": 130,
+    "fine_equal_alarm_20261109": 0,
+    "fine_drift_factorial_20261109": 386,
+    "fine_context_balance_20261109": 194,
+    "fine_calibration_budget_20261109": 0,
+    "fine_calibration_shift_20261109": 512,
+    "fine_marginal_transport_20261109": 130,
+    "fine_active_dose_20261109": 130,
+    "fine_calibration_replication_20261109": 0,
+    "fine_active_noise_20261109": 130,
+    "fine_paired_readout_20261109": 194,
+    "fine_replication_extension_20261109": 0,
+    "fine_independent_validation_20261109": 0,
+    "fine_target_reference_20261109": 386
+  },
+  "intersections": []
+}

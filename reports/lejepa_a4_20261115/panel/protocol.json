@@ -1,0 +1,7 @@
+{
+  "panel_master": 2026111520,
+  "seeds": [20151, 20152, 20153, 20154],
+  "cases": ["separated_wide", "crossed_wide"],
+  "n_independent_audit": 16384,
+  "cpu_threads": 2
+}

@@ -1,0 +1,863 @@
+{
+  "utc": "2026-11-11T05:57:42.608077+00:00",
+  "lock_sha": "7525195be023f86b810b6fd64eea90ec313ea7840ea87aafd3661b2aa07db651",
+  "passed": true,
+  "elapsed_seconds": 3.0183898746035993,
+  "reference": {
+    "receipt": {
+      "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+      "slot": "fhn_fresh_eps05",
+      "epsilon": 0.08,
+      "count": 8,
+      "seed": 2026344900,
+      "role": "evaluation",
+      "trajectory_seed": 8933566894990023008,
+      "trajectory_tag": 3109,
+      "observation_mix_seed": 521893490175562283,
+      "public_arrays": {
+        "x": {
+          "shape": [
+            8,
+            193,
+            4
+          ],
+          "dtype": "float32",
+          "sha256": "ccde17881afd9eeba2c52ae0a82f9f05813d6f7693ca7c852ee8426c39c7bb52"
+        },
+        "actions": {
+          "shape": [
+            8,
+            192,
+            2
+          ],
+          "dtype": "float32",
+          "sha256": "82351916b1e0950836d19820871fddf5b2ac61616d9f1bea04049e34611e9229"
+        },
+        "regimes": {
+          "shape": [
+            8,
+            192
+          ],
+          "dtype": "int64",
+          "sha256": "55aed47fe61e4c6065e433e6156ed4a9fc5e3a61fff63f2d3c7b11dcaf1875ab"
+        }
+      },
+      "inverse_maxabs_fp64": 8.326672684688674e-16,
+      "physical_rng_stream_hashes": {
+        "initial_preburn_sha256": "38fc80388c796c73f8054f586ced08fac995cf0adc703508fa66ad961ac9211c",
+        "actions_preburn_sha256": "1854014cfffbfd0d6cf12e80b599bef339967fbec3692fe6736b301a82143589",
+        "regimes_preburn_sha256": "ddd5bf9c449739404d66cc4478e115d594e3c968c4ffc21d1940acb761c851c7",
+        "standard_innovations_preburn_sha256": "ebee7b53d319ea24ee7141b40417ab1025f3f2e0447aad52612a5706464afc3b"
+      }
+    },
+    "anchor_seed": 2026344902,
+    "node_count": 1544,
+    "permutation_sha256": "bbff2a1bc12200948723d86de494a9f6f62ba6775feed6c83485c9d8dccc4d0b",
+    "queries": {
+      "1": {
+        "public_parity": true,
+        "query_nodes": 1,
+        "physical_branches": 8,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "node_ids_sha256": "d3569390fcaa6a083964cf3fd684c0f9e8ebb9e0340a9318d05026f977117464",
+        "branch_sha256": {
+          "plus": "d18405ceb978e463b26e607fc07af95fa80a9667f4bbff91d14b7eabe1f8798e",
+          "minus": "db35e2eaaa26eb41529c5fda54eb3cb91b573ff15b3de5e40c515e6c18bfe1b3"
+        }
+      },
+      "64": {
+        "public_parity": true,
+        "query_nodes": 64,
+        "physical_branches": 512,
+        "query_shape": [
+          64,
+          4,
+          4
+        ],
+        "node_ids_sha256": "b0ab7b3a40115dc44417f9a2f8b17ef6afacf243fd024bbbf44c7d8902c8d2a9",
+        "branch_sha256": {
+          "plus": "54f0dcceb79098c7bdf95f04cb11d10bb5e946141b894bc646c0586eb28d17df",
+          "minus": "14831aafae7411784573f6ed932ac1565906471edabb4ea1619ee830dda3f963"
+        }
+      },
+      "512": {
+        "public_parity": true,
+        "query_nodes": 512,
+        "physical_branches": 4096,
+        "query_shape": [
+          512,
+          4,
+          4
+        ],
+        "node_ids_sha256": "7305ffe1908da041446057124f7f5be9bcbf8e539500f8eed323f7e8e8872296",
+        "branch_sha256": {
+          "plus": "2d9f2cffb929e8a920765756d8609ca5fb77650ea382741a4be5465c0d84754e",
+          "minus": "b73e5fe26be5d0ded9c06503f554ae6ec27945ca27b857b6ced529139d51833b"
+        }
+      },
+      "all": {
+        "public_parity": true,
+        "query_nodes": 1544,
+        "physical_branches": 12352,
+        "query_shape": [
+          1544,
+          4,
+          4
+        ],
+        "node_ids_sha256": "56aca3dc1b7498a701e353e9d3b1396274443cf39597b5ce6dbec8e906277d02",
+        "branch_sha256": {
+          "plus": "d43a5931fa9ce7cbfce97a57d41b41d4153c7c39068cea4c838851a391b27615",
+          "minus": "7f157e1a3dbe9df01e64fb138d1d06627c6384ed8d88d1582bae74d4bcd651e4"
+        }
+      }
+    },
+    "graphs": {
+      "fine": {
+        "1": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.9896387514478282,
+          "maximum_condition": 1.0338077390163862,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15285,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 34,
+          "maximum_edge_length_standardized": 1.6094342774477002,
+          "maximum_edge_length_visible": 1.7871098483396761,
+          "maximum_edge_target_length": 1.770856856632693,
+          "iterations": [
+            90,
+            90,
+            90,
+            94
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            9.988983449286136e-10,
+            7.523041669725271e-10,
+            9.265127711157073e-10,
+            8.913441957965398e-10
+          ],
+          "edge_rms": 2.368085015401132e-10,
+          "target_edge_rms": 0.19832357766907238,
+          "relative_edge_rms": 1.1940511779958794e-09,
+          "per_axis_edge_rms": [
+            3.240708424053781e-10,
+            1.1419083631057827e-10,
+            3.0531027192050247e-10,
+            1.1418075788803465e-10
+          ],
+          "reference_scale": [
+            1.315792753225261,
+            0.519907666435306,
+            1.2700614040252447,
+            0.48955015154905285
+          ],
+          "queried_count": 1,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "8f6c5e3f97dac30229e34665e8a76933efc8e640baa13f24f33296c4eb8a5f7d",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 4.788398283579655,
+          "mean_nearest_standardized_distance": 2.149950672347382
+        },
+        "64": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.9344586791701519,
+          "maximum_condition": 1.1103584412951741,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15285,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 34,
+          "maximum_edge_length_standardized": 1.6094342774477002,
+          "maximum_edge_length_visible": 1.7871098483396761,
+          "maximum_edge_target_length": 1.8255948154324046,
+          "iterations": [
+            91,
+            94,
+            94,
+            94
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            7.042478956614067e-10,
+            7.64315145516612e-10,
+            7.927120596384897e-10,
+            8.501413329553901e-10
+          ],
+          "edge_rms": 0.0021527471887349673,
+          "target_edge_rms": 0.20160136420639987,
+          "relative_edge_rms": 0.01067823720940192,
+          "per_axis_edge_rms": [
+            0.0016071245796551502,
+            0.0013493673490147168,
+            0.0028032707623505625,
+            0.0025050575263368662
+          ],
+          "reference_scale": [
+            1.3251181873760298,
+            0.507521618098587,
+            1.3237101905641688,
+            0.48627380366138745
+          ],
+          "queried_count": 64,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "d5a921a1cbbabd7fc07327c7e040ea8fbb52c892adf631e98e8e3a24d65dbfa5",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 2.369641378573834,
+          "mean_nearest_standardized_distance": 0.4457116169261723
+        },
+        "512": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.9344609897243826,
+          "maximum_condition": 1.113441145353657,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15285,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 34,
+          "maximum_edge_length_standardized": 1.6094342774477002,
+          "maximum_edge_length_visible": 1.7871098483396761,
+          "maximum_edge_target_length": 1.817171265129312,
+          "iterations": [
+            91,
+            93,
+            92,
+            96
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            6.996905392348024e-10,
+            9.182176142844825e-10,
+            7.390629113999956e-10,
+            6.873780957602168e-10
+          ],
+          "edge_rms": 0.0011887835235063577,
+          "target_edge_rms": 0.20187864864292887,
+          "relative_edge_rms": 0.005888604523051907,
+          "per_axis_edge_rms": [
+            0.0010148580707363593,
+            0.0007302123071115229,
+            0.0014784255261722729,
+            0.0013798319134616154
+          ],
+          "reference_scale": [
+            1.3287653898481806,
+            0.5068571387709795,
+            1.3296362129894839,
+            0.4902950102075075
+          ],
+          "queried_count": 512,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "b1b0b3bd0f4f64986808a36533118642c6e8d2514113d423e261b78a6019d249",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 0.7635060056702537,
+          "mean_nearest_standardized_distance": 0.12793647593945523
+        },
+        "all": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.9288938103529113,
+          "maximum_condition": 1.1297047399775637,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15285,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 34,
+          "maximum_edge_length_standardized": 1.6094342774477002,
+          "maximum_edge_length_visible": 1.7871098483396761,
+          "maximum_edge_target_length": 1.8205315253839165,
+          "iterations": [
+            90,
+            93,
+            92,
+            96
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            9.031976661806401e-10,
+            9.795655283411295e-10,
+            7.991085006399897e-10,
+            7.368528396221202e-10
+          ],
+          "edge_rms": 0.0005343114557575687,
+          "target_edge_rms": 0.20189582959321947,
+          "relative_edge_rms": 0.0026464709886979913,
+          "per_axis_edge_rms": [
+            0.0007052411513769278,
+            0.00037706187323708446,
+            0.0004699556518691703,
+            0.00053061838871905
+          ],
+          "reference_scale": [
+            1.3279077225729998,
+            0.5068276955025239,
+            1.3298267425090013,
+            0.49019186564916045
+          ],
+          "queried_count": 1544,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "bbff2a1bc12200948723d86de494a9f6f62ba6775feed6c83485c9d8dccc4d0b",
+          "response_assignment": "direct_all_nodes",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 0.0,
+          "mean_nearest_standardized_distance": 0.0
+        }
+      },
+      "raw": {
+        "1": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.9501550001075069,
+          "maximum_condition": 1.1093652931960631,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15249,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 35,
+          "maximum_edge_length_standardized": 1.6791608122654265,
+          "maximum_edge_length_visible": 1.7637041132634952,
+          "maximum_edge_target_length": 1.782423439063763,
+          "iterations": [
+            94,
+            94,
+            94,
+            96
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            8.226191059622255e-10,
+            8.102829601163352e-10,
+            6.671375182666099e-10,
+            8.403112857272173e-10
+          ],
+          "edge_rms": 1.7312048249082982e-10,
+          "target_edge_rms": 0.20020563726490573,
+          "relative_edge_rms": 8.647133260376795e-10,
+          "per_axis_edge_rms": [
+            2.460592016853736e-10,
+            1.206360780869481e-10,
+            1.8886865083729724e-10,
+            9.54633149020465e-11
+          ],
+          "reference_scale": [
+            1.2453141418740028,
+            0.46654656374522413,
+            1.272461904012079,
+            0.4895244150289882
+          ],
+          "queried_count": 1,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "8f6c5e3f97dac30229e34665e8a76933efc8e640baa13f24f33296c4eb8a5f7d",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 4.616994206002509,
+          "mean_nearest_standardized_distance": 2.13239469074018
+        },
+        "64": {
+          "available": false,
+          "reason": "inconsistent_local_displacements",
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.8859509768118439,
+          "maximum_condition": 1.2723051893487418,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15249,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 35,
+          "maximum_edge_length_standardized": 1.6791608122654265,
+          "maximum_edge_length_visible": 1.7637041132634952,
+          "maximum_edge_target_length": 1.8257981024226149,
+          "iterations": [
+            92,
+            97,
+            94,
+            95
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            7.539890621880503e-10,
+            6.260122413225046e-10,
+            7.655202986811973e-10,
+            7.036574173335869e-10
+          ],
+          "edge_rms": 0.004687514138329984,
+          "target_edge_rms": 0.20474943953542743,
+          "relative_edge_rms": 0.022893904613198766,
+          "per_axis_edge_rms": [
+            0.005630915885746701,
+            0.004648709591641807,
+            0.004152067752018046,
+            0.004163384919875694
+          ],
+          "queried_count": 64,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "d5a921a1cbbabd7fc07327c7e040ea8fbb52c892adf631e98e8e3a24d65dbfa5",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 2.4119887677681464,
+          "mean_nearest_standardized_distance": 0.4638145089605794
+        },
+        "512": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.8529535454171091,
+          "maximum_condition": 1.3089793381479824,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15249,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 35,
+          "maximum_edge_length_standardized": 1.6791608122654265,
+          "maximum_edge_length_visible": 1.7637041132634952,
+          "maximum_edge_target_length": 1.8080255084548873,
+          "iterations": [
+            92,
+            97,
+            94,
+            96
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            8.700688460325739e-10,
+            7.925344773289345e-10,
+            8.926085314539185e-10,
+            9.158124286788161e-10
+          ],
+          "edge_rms": 0.0021971171002507965,
+          "target_edge_rms": 0.20479844249357337,
+          "relative_edge_rms": 0.010728192429098882,
+          "per_axis_edge_rms": [
+            0.002247369242143341,
+            0.002438066399756056,
+            0.0019177146392186932,
+            0.0021533296290240297
+          ],
+          "reference_scale": [
+            1.3243247916640084,
+            0.5025526687082653,
+            1.329340480417466,
+            0.48829277302631346
+          ],
+          "queried_count": 512,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "b1b0b3bd0f4f64986808a36533118642c6e8d2514113d423e261b78a6019d249",
+          "response_assignment": "nearest_queried_anchor",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 0.8545978368643772,
+          "mean_nearest_standardized_distance": 0.1320666376276344
+        },
+        "all": {
+          "available": true,
+          "reason": null,
+          "points": 1544,
+          "neighbors": 16,
+          "minimum_singular": 0.8469993489858199,
+          "maximum_condition": 1.3199160612276362,
+          "solver_rtol": 1e-09,
+          "solver_maxiter": 5000,
+          "edge_residual_threshold": 0.02,
+          "edges": 15249,
+          "component_count": 1,
+          "minimum_degree": 16,
+          "maximum_degree": 35,
+          "maximum_edge_length_standardized": 1.6791608122654265,
+          "maximum_edge_length_visible": 1.7637041132634952,
+          "maximum_edge_target_length": 1.8068409020236782,
+          "iterations": [
+            94,
+            97,
+            94,
+            96
+          ],
+          "solver_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "solver_relative_residual": [
+            8.730491032179129e-10,
+            8.517189146853187e-10,
+            9.689132662652824e-10,
+            9.542399416068955e-10
+          ],
+          "edge_rms": 0.0006550173794671282,
+          "target_edge_rms": 0.2048663320157477,
+          "relative_edge_rms": 0.003197291487684654,
+          "per_axis_edge_rms": [
+            0.0006641830887682625,
+            0.0007627136916473344,
+            0.00047492970159800215,
+            0.0006839309156076461
+          ],
+          "reference_scale": [
+            1.3268111683684538,
+            0.5045288187871514,
+            1.3295841587043755,
+            0.4891727023992493
+          ],
+          "queried_count": 1544,
+          "nodecount": 1544,
+          "anchor_ids_sha256": "bbff2a1bc12200948723d86de494a9f6f62ba6775feed6c83485c9d8dccc4d0b",
+          "response_assignment": "direct_all_nodes",
+          "queried_nodes_retain_own_response": true,
+          "max_nearest_standardized_distance": 0.0,
+          "mean_nearest_standardized_distance": 0.0
+        }
+      }
+    },
+    "scales": {
+      "fine": {
+        "1": [
+          1.315792753225261,
+          0.519907666435306,
+          1.2700614040252447,
+          0.48955015154905285
+        ],
+        "64": [
+          1.3251181873760298,
+          0.507521618098587,
+          1.3237101905641688,
+          0.48627380366138745
+        ],
+        "512": [
+          1.3287653898481806,
+          0.5068571387709795,
+          1.3296362129894839,
+          0.4902950102075075
+        ],
+        "all": [
+          1.3279077225729998,
+          0.5068276955025239,
+          1.3298267425090013,
+          0.49019186564916045
+        ]
+      },
+      "raw": {
+        "1": [
+          1.2453141418740028,
+          0.46654656374522413,
+          1.272461904012079,
+          0.4895244150289882
+        ],
+        "64": null,
+        "512": [
+          1.3243247916640084,
+          0.5025526687082653,
+          1.329340480417466,
+          0.48829277302631346
+        ],
+        "all": [
+          1.3268111683684538,
+          0.5045288187871514,
+          1.3295841587043755,
+          0.4891727023992493
+        ]
+      }
+    },
+    "native_sd": {
+      "fine": [
+        1.341417521020367,
+        0.7128635239944459,
+        1.3896981562098436,
+        0.7020561895437212
+      ],
+      "raw": [
+        0.8196852612798222,
+        1.5960822419176561,
+        1.0646503061986219,
+        0.9541077151373585
+      ]
+    },
+    "affine_sd": {
+      "fine": [
+        1.3196858931559603,
+        0.5118201667604856,
+        1.2993853218864817,
+        0.48418228996259194
+      ],
+      "raw": [
+        1.2847560174132395,
+        0.4709586265890685,
+        1.2960146528901906,
+        0.4742381776049698
+      ]
+    }
+  },
+  "panel": {
+    "index": -1,
+    "evaluation": {
+      "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+      "slot": "fhn_fresh_eps05",
+      "epsilon": 0.08,
+      "count": 8,
+      "seed": 2026344901,
+      "role": "evaluation",
+      "trajectory_seed": 3620776497690593929,
+      "trajectory_tag": 3109,
+      "observation_mix_seed": 521893490175562283,
+      "public_arrays": {
+        "x": {
+          "shape": [
+            8,
+            193,
+            4
+          ],
+          "dtype": "float32",
+          "sha256": "6336aa27c513010914381779afc5170bfa97a8bc011ce43c791b63ed569b7311"
+        },
+        "actions": {
+          "shape": [
+            8,
+            192,
+            2
+          ],
+          "dtype": "float32",
+          "sha256": "9351d365ee4849e2bf6ef32b35c1ef8729eca821cae8850a59ad35c7cddb3dd0"
+        },
+        "regimes": {
+          "shape": [
+            8,
+            192
+          ],
+          "dtype": "int64",
+          "sha256": "8394fc55d5950c736e2b8bc1bfb60a9dd29872ea4164f305f8804d499381c5f9"
+        }
+      },
+      "inverse_maxabs_fp64": 8.881784197001252e-16,
+      "physical_rng_stream_hashes": {
+        "initial_preburn_sha256": "d9e0a69d0eed88a9f2e7252e4b42a6118d4f55eea3350205153f160be880f3ce",
+        "actions_preburn_sha256": "542ba190268f58818cc3c2775b21341cc41d3ad3eab2b0f7d7e58069a5e40398",
+        "regimes_preburn_sha256": "995471b3bc7cfc12d2ccb602bef507ef8b4c54faf599b24b98092be685241137",
+        "standard_innovations_preburn_sha256": "0998d20dbdcb13f42f176c2eb4d1de5c147a207cfc06dab23751e140afbd7c32"
+      }
+    },
+    "candidates": [
+      4,
+      5
+    ],
+    "native_set": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "gaps": {
+      "native": [
+        0.01590204729587852,
+        0.022095932631275406
+      ],
+      "affine_fine": [
+        -0.0004032029584811747,
+        0.028514677212379214
+      ],
+      "fine_1": [
+        -0.06043891380375377,
+        0.05684938132175743
+      ],
+      "fine_64": [
+        0.0005323897394275967,
+        0.021296167111163777
+      ],
+      "fine_512": [
+        0.008592184519422674,
+        0.016518578062325484
+      ],
+      "fine_all": [
+        0.007430477908507149,
+        0.017217893001892248
+      ],
+      "affine_raw": [
+        0.02005502927531111,
+        0.029651339657659204
+      ],
+      "raw_1": [
+        -0.016283961161930094,
+        -0.004570315943847936
+      ],
+      "raw_64": [
+        0.02005502927531111,
+        0.029651339657659204
+      ],
+      "raw_512": [
+        0.01933866653480898,
+        0.011165338913954326
+      ],
+      "raw_all": [
+        0.01513694200495208,
+        0.013507399507175388
+      ]
+    },
+    "flags": {
+      "native": [
+        4
+      ],
+      "affine_fine": [
+        4
+      ],
+      "fine_1": [
+        4
+      ],
+      "fine_64": [
+        4
+      ],
+      "fine_512": [
+        4
+      ],
+      "fine_all": [
+        4
+      ],
+      "affine_raw": [
+        4
+      ],
+      "raw_1": [
+        4
+      ],
+      "raw_64": [
+        4
+      ],
+      "raw_512": [
+        5
+      ],
+      "raw_all": [
+        5
+      ]
+    },
+    "audit": {
+      "public_parity": true,
+      "query_shape": [
+        2,
+        193,
+        4,
+        4
+      ],
+      "branch_sha256": {
+        "plus": "92fdafd67eda58a0aeec526ec34eb2769457208430c7697ed1544be21517b76e",
+        "minus": "7cce6f23223af860aafd5fa2a7440af1c1a8214c4c4ed89382f938895c199f56"
+      },
+      "fine_safe_count": 2,
+      "fine_max_condition": 1.11032810932427,
+      "fine_rescaling_algebra_error": 7.771561172376096e-16,
+      "raw_safe_count": 2,
+      "raw_max_condition": 1.2690297253140321,
+      "raw_rescaling_algebra_error": 7.771561172376096e-16,
+      "historical_score_error": 2.220446049250313e-16,
+      "duplicate_error": 0.0
+    },
+    "fallback": {
+      "fine": {
+        "1": false,
+        "64": false,
+        "512": false,
+        "all": false
+      },
+      "raw": {
+        "1": false,
+        "64": true,
+        "512": false,
+        "all": false
+      }
+    }
+  }
+}

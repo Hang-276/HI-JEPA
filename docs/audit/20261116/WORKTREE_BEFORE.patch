@@ -1,0 +1,301 @@
+diff --git a/README.md b/README.md
+index 35b257c..c25c0ca 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,15 @@
+ # HI-JEPA 代码与实验配置
+ 
++> **当前方法已固定并停止本轮实验（2026-10-27）：[定型报告与 baseline 比较](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FINALIZE_20261027/V1/FINAL_REPORT.md)、[固定 workflow](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FINALIZE_20261027/V1/REPORT_V2/CURRENT_WORKFLOW.md)、[模型配置](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FINALIZE_20261027/V1/REPORT_V2/METHOD_CONFIG_FROZEN.json)。采用 C1L：冻结 Fine＋显式 G＋完整 Fine 三成员共识预测；移除 learned G/ST、ND、旧 Q 与 native 目标微调。FHN 匹配 Raw NMSE 改善 2.17%，高维负结果保留；裁剪评分诊断 0/4 确认，仅作诊断。未修改飞书。下方交接与实验说明保留历史时点。**
++
++> **Coarse 唯一性边界实验已完成并停止（2026-10-26）：见 [正式结果报告](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FREEZE_20261026/COARSE_BOUNDARY_V1/RESULTS.md)。18个Fine均通过；大间隔6/6确认单例，近并列原G仅3/6选对且全部保留歧义，完全并列全部保留6个候选。独立复算通过，无后续训练排队。**
++
++> **稳定辨识新轮已完成（2026-10-26）：见 [Fine/G新混合与训练替换结果](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FREEZE_20261026/IDENTIFIABILITY_CORE_V1/RESULTS.md)。新24组Fine/G与旧18组复评均通过原轴门；本轮已停止。**
++
++> **最新完成结果（2026-10-26）：本轮训练与复评见 [FlowDirect多任务报告](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FREEZE_20261026/LATEST_OURS_BENCHMARKS_20261026.md)。本轮队列已全部完成。下方DeepSeek入口为此前交接历史。**
++
++> **当前HCF-JEPA / FlowDirect实验交接（2026-10-26）：先读 [DEEPSEEK_START_HERE.md](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/DEEPSEEK_START_HERE.md)，再用 [DeepSeek启动提示词](/Users/yuzihang/Documents/ChatGPT/HI-JEPA/DEEPSEEK_PROMPT.md)。下方正文是原HI-JEPA谱模态工程说明，不是本次FlowDirect实验启动入口。**
++
+ 本项目实现 proposal 的三组低维机制实验：目标模态恢复与扰动稳定性、联合约束与伪解、部分模态恢复与分层价值。代码在 Mac CPU 完成集成验证；正式主结果、对照和多种子实验统一留在 Linux＋CUDA 执行。
+ 
+ 本机集成结果仅说明代码路径可以执行，不构成模态恢复成功、分层有收益或完整学习定理的验证。CUDA 可迁移接口已经实现，实际 CUDA 执行与跨设备数值对齐须在目标机器完成。
+@@ -34,6 +44,9 @@ python run.py doctor --device cpu --output doctor_cpu.json
+ | `scripts/run_all.sh` | 三组实验的完整矩阵 | `bash scripts/run_all.sh formal runs/formal` |
+ | `scripts/run_formal.sh` | 正式全量入口，固定 Linux CUDA | `bash scripts/run_formal.sh runs/formal` |
+ | `scripts/run_local.sh` | 本机完整集成入口，固定 CPU | `bash scripts/run_local.sh runs/local` |
++| `scripts/run_baseline_v2.sh` | v2 GCSB 双 seed baseline 验收（本轮只跑 seed 0/1） | `bash scripts/run_baseline_v2.sh runs/formal_v2` |
++| `scripts/run_formal_v2.sh` | v2 完整矩阵入口（本轮不启动 57 条） | `bash scripts/run_formal_v2.sh runs/formal_v2_full` |
++| `scripts/run_v3_spectral.sh` | v3 局部模态约束读出：冻结 v2 特征，已授权同步后尝试正式 seed0／1 各 20k | `bash scripts/run_v3_spectral.sh runs/formal_v3_spectral runs/formal_v2 --force` |
+ 
+ 单组实验的通用语法为 `bash scripts/run_experimentN.sh [formal|local] [OUTPUT] [--manifest-only]`，其中 N 为 1、2 或 3。`run_all.sh` 使用相同参数格式；`run_formal.sh` 和 `run_local.sh` 已固定 profile，只接受 `[OUTPUT] [--manifest-only]`。省略 OUTPUT 时使用项目 `runs/` 下的对应目录。脚本可从任意工作目录调用；显式相对 OUTPUT 按调用者的当前目录解析。
+ 
+@@ -85,6 +98,77 @@ python run.py matrix --config configs/matrix_formal.json --output runs/formal --
+ 
+ `base_formal.json` 明确列出正式执行预算，`matrix_formal.json` 列出所有因素和对照。正式预算是本次实施选定的配置，并非 proposal 原文规定的数值。
+ 
++## v2：GCSB 修订（本轮 baseline 验收）
++
++v2 只替换 v1 的 hinge covariance floor，其他损失、模型、K 谱块、数据、训练预算和评估协议不变。新损失是**批次协方差软谱惩罚**：
++
++```text
++L_GCSB(c) = (mu/m) * sum_j max(0, log((lambda0 + eps) / (lambda_j(S) + eps)))
++```
++
++其中 `S` 是当前 train 批次的 coarse 表示 `c = G(E(x))` 的无偏协方差，`lambda_j` 是其升序特征值；固定 `lambda0=0.04`、`eps=0.005`、`mu=0.10`。它在特征值低于 `lambda0` 时给出梯度，在健康方向为零；不旋转、不白化、不改变 K 的 block 划分或推理路径，也不使用真实模态标签。
++
++**它是软惩罚，不提供硬性防坍塌保证。** 正式门禁、阈值和主指标不变；v2 必须重新通过 `e1_baseline` 双 seed 验收，失败即保留结果并停止，不通过调参或放宽阈值“救回”。
++
++v2 使用独立配置和输出目录：
++
++- `configs/base_formal_v2.json`：在 `base_formal.json` 上只覆盖 barrier 键；
++- `configs/matrix_baseline_v2.json`：本轮 seed 0/1 的 `e1_baseline` 验收矩阵；
++- `configs/matrix_formal_v2.json`：与 v1 相同的 57 条完整矩阵，本轮不启动；
++- `python scripts/make_v2_parity_bundle.py`：用新源码的初始化 checkpoint 和固定输入生成近共线、GCSB 激活的 parity bundle（无训练）；
++- `bash scripts/run_baseline_v2.sh runs/formal_v2`：先执行 CUDA doctor、新源码的 CPU→CUDA parity，再从头训练 baseline seed 0/1（各 20,000 步）；
++- `bash scripts/run_formal_v2.sh runs/formal_v2_full`：完整 v2 矩阵入口，仅在未来显式调用时运行。
++
++由于 v2 修改了 `src/hijepa`，v1 随仓库提供的 parity bundle 的源码摘要会失配；v2 必须使用新源码下导出的 bundle（`HIJEPA_PARITY_BUNDLE` 可覆盖路径）。v1 的 `runs/formal` 原产物和配置保留，不与 v2 输出混用。
++
++本轮 v2 baseline seed 0/1 均完成 20,000 步，四项防坍塌门禁均通过；但 coarse recovery 仍未达到 0.25 阈值，detail 的线性/二次探针仍在均值基线（NMSE≈1），fine 的长程预测较 v1 变差。门禁通过与恢复成功是两件事，详细数字见 `runs/formal_v2/BASELINE_REPORT.md`。
++
++## v3：局部模态一致性的受约束非线性读出
++
++已完成的服务器 V3 直接受约束拟合中，两个 seed 各运行新增 20,000 步，原结构约束和防坍塌门禁通过，但 coarse sin² 为 **0.493493／0.457402**，仍超过 0.25，`both_met=false`。二维函数子空间诊断已明显改善，但第二单轴模态仍未正确分离。原结果与 checkpoint 保留，不能把预测残差降低当作辨识成功。
++
++随后已完成逐 block 局部模态约束实验：seed0 的两个实 block 局部残差分别为 **0.005997／0.006855**，FP64 与实际 FP32 结果近似一致，未满足约束；seed1 两个残差为 **0.000104817／0.000020862**，满足局部约束，但 coarse sin² 为 **0.335402**，仍未达到 0.25。两个 seed 均实际执行 200 次 AL 更新，21 是外层损失日志条数；罚参数在第 600 步达到上限。随后按 AL 改变重置 Adam 的完整运行发生了 **199 次重置，仍失败**，未支持“仅清空历史状态即可解决”的原假说；也没有证据将失败归因于 GPU 并行。
++
++`exact_nullspace_projection_v1` 随后的服务器 seed0 已核验完整 20k，但 **accepted=0**，累计 499,449 次内部恢复和 3,332,776 次回溯；初末固定批次目标同为 **0.3370691679477298**。其 spec 指标相对 raw 的改善来自 query 初始化，不能称为训练收益。seed1 被用户中止，仅保留 partial 产物。
++
++**本轮默认修订为 `solver_revision="feasible_block_sqp_v1"`。用户停止旧实验后的本地修复阶段已完成；最新授权为原位同步并尝试启动 seed0／1 各 20k 的正式 baseline，完成或失败后停止，不扩展 57 条矩阵。当前说明授权和待执行流程，不表示已上传或已启动。** 源训练继续复用 v2 双 seed checkpoint，E、F 和 G 隐藏层冻结。完整定义见 `docs/V3_RECOVERY_PLAN.md`：
++
++- 保留非线性字典 `φ(x)=[1; E(x); U(E(x))]`、全 train 共同起点的 FP64 配对矩残差、原 K 块和参数域、原 rank/κ、batch scale 与 GCSB。`length=64` 有 65 个观测，三个训练跨度共同使用起点 0–56；不求 `C00` 逆，不截断字典。
++- 固定点 `x*=observe(0)` 的 bias 由非 bias 权重派生，使 `c(x*)=0`；实际 FP32 固定点输出再次检查，bias 预算仍保留。
++- 新模态残差使用观测 Jacobian `C=D_x c(x*)` 和 selector 的 observed-space `Jhat`，逐 block 约束 `C_i Jhat−K_i C_i`。原 rank 仍使用状态复合 Jacobian，二者不可混用。query center 和误差证书必须匹配。
++- block 内 Cholesky 左预条件化只用于局部残差的谱范数度量，不改变模型前向、不跨 block 白化。query 的 induced∞ 误差乘 `sqrt(d)` 转为保守谱范数预算；数值容差单独记录，不按 test 调整阈值或新损失权重。
++- W 的当前／未来两端和原参数化 K 接收梯度；默认额外 **每 seed 20,000 步**，继承源学习率、batch 和 seed，取末迭代，无重启、早停或测试选点。特征提取／拟合为 CPU FP64，`--device` 只选择端点评价设备。
++- 将非 bias 读出精确写成 `M=C A⁺+Z Nᵀ`，`A=D_x φ_nonbias(x*)`，`N` 为完整 SVD 给出的 `Aᵀ` 零空间，`Z` 全部保留为自由参数。满列 rank 检查失败即停止，不截断字典。实际优化使用正交坐标，避免直接乘 `A⁺` 造成梯度预条件失衡，K 的原域参数继续可训练。
++- 每个 outer step 仍采样一次原 train batch，依次更新 Z 和局部 `(T,Kraw)`，两块各有独立 Adam。只接受满足原约束且通过同 batch 原目标 Armijo 检查的步；拒绝时回滚该块参数及 Adam state，局部块失败不再撤销先前已接纳的 Z 更新。C／K／Z 始终可变，原目标和阈值不变，不添加损失。
++- 局部方向模型线性化完整条件化残差矩阵 F，结合谱范数球、原联合权重／bias 预算和 state-rank 的 PSD 局部内近似；固定 ADMM 最多 64 次、rho=10。有限内迭代只产生候选方向，不声称精确投影或全局最优，最终依靠原非线性约束与原目标检查接纳。
++- 真实源 C／K 的直接 25 次恢复未收敛，因此初始化改为确定性 selector-query 局部谱构造：按原 block 顺序匹配 `Jhat` 左特征行，统一缩放 C 使原 state-rank 最小奇异值为 `1.01κ`，K 初始化为同一 query 谱且必须处于原域，保留源全部 Z 系数。两个真实源 seed 的构造均已联合可行，无需缩小 Z；这只证明初值可行，不是训练成功。后续 C／K／T／Z 均可变，不固定特征向量或 K。记录初值投影范数、源 Z 保留情况及约束审计；匹配／原域或可行性检查失败即明确停止，不承诺一般可行保证。这是数值初始化变化，不使用全局 `Px` 或真模态标签。
++- 循环中在 step1、原 checkpoint interval、间隔达到 30 秒及末步实时更新简表 stdout、`progress.json`／`progress.jsonl` 和原子 `readout_latest.pt`。checkpoint 包含双 Adam、完整坐标基、RNG、参数、统计及身份哈希。fresh 新 fit 显式清除自身旧 latest，避免误继承旧运行；resume 绝不删除 checkpoint／进度。`--resume` 仅适用于新 solver，须存在匹配 checkpoint、沿用原 planned budget，不重新初始化；已有 progress 却丢 checkpoint 会拒绝。未开始的 seed 可以按原预算首次启动。
++- 旧 `exact_nullspace_projection_v1` 配置仍可复现旧 solver；缺少 revision 的旧保存配置继续走 AL／Adam 路径。新 runtime 集中在唯一新增文件 `diagnostics/readout_runtime.py`，不增加第三方依赖。聚合报告只纳入本轮 active seed 目录，并在每 seed 完成时更新。
++- 最终实际 FP32 端点重查原 K／预算／state-rank 和新增局部约束。结构／方法合法性、防坍塌门禁、原科学恢复阈值独立报告；无效端点标为 diagnostic，默认加载器拒绝。端点保存冻结 source provenance 和新增 readout method config。local query 的 Jacobian 此次明确用于读出训练，属于方法修订。
++
++最新授权的正式入口如下；先将旧 exact 的完整 seed0 和 partial seed1 合并为单个归档，再原位同步并 fresh 启动新 solver：
++
++```bash
++python -m unittest discover -s tests -p test_v3_spectral.py -v
++# 默认新配置 configs/base_formal_v3_modal.json：
++bash scripts/run_v3_spectral.sh runs/formal_v3_spectral runs/formal_v2 --force
++# 仅新 solver 的后续同 revision 恢复，不用于旧 exact 产物，不与 --force 混用：
++bash scripts/run_v3_spectral.sh runs/formal_v3_spectral runs/formal_v2 --resume
++# 复现此前无局部模态约束的 V3（旧配置不改）：
++HIJEPA_V3_CONFIG=configs/base_formal_v3.json \
++  bash scripts/run_v3_spectral.sh runs/formal_v3_spectral runs/formal_v2 --force
++# CPU 端点评价：
++# HIJEPA_V3_DEVICE=cpu bash scripts/run_v3_spectral.sh runs/formal_v3_spectral runs/formal_v2 --force
++```
++
++脚本保持 `[OUTPUT] [SOURCE_ROOT] [CLI flags ...]` 接口；`HIJEPA_V3_CONFIG` 可显式选配置，相对路径按调用者工作目录解析。默认新配置继承 `configs/base_formal_v3.json`，旧配置继续保留原方法；入口复用 `diagnostics/spectral_readout.py`，约束计算集中在一个 `diagnostics/local_modal.py` 模块，源训练 `src/hijepa/*.py` 和 v1/v2 配置不改。当前只接纳 `full` baseline，不自动扩展其他 variant 或 57 条矩阵。`--force` 可替换输出目录的生成结果，执行前须保留冻结归档；v1/v2 源目录受保护。
++
++本轮完整测试 **102 项，101 项通过、1 项因无 CUDA 跳过，耗时 8.717 秒**，无失败。覆盖 same-batch 原目标实际下降、零伪接纳、防无效训练报告、连续／断点累计 8 步逐位一致，以及 fresh 同身份旧 latest 清理边界。
++
++真实 checkpoint 工程回归使用每 seed **64 条 train 轨迹、各 65 个观测时刻、8 个 outer steps**，运行于 Mac CPU、2 线程：seed0 接纳 8 个 outer／8 个 Z／4 个 local 更新，固定批次目标 **0.219797→0.185914**；seed1 接纳 8／8／8，目标 **1.174036→1.012891**。FP64 和实际 FP32 的 modal／rank／预算检查均通过。wall time 约 0.391／0.0857 秒，包含 moments／checkpoint，只是此规模与线程设置的工程耗时。局部 ADMM 模型可行检查均通过，但收敛标志为 0，不能将后验接纳等同于内层精确求解，也不能外推正式速度或恢复。
++
++上述检查表明本轮代码发生了有效可行更新，不能说明正式模态恢复成功或外推正式速度；服务器 CUDA parity 和完整预算结果尚未测量。每 seed 总 20k outer budget 不变，每 outer 两个块的内部计算量与旧 solver 不同，分别审计。固定点一阶身份与轨迹残差仍不构成完整全局辨识证明。本轮不使用真模态标签、全局 `Px` 或 HCF 机制，不改阈值／cluster，不覆盖 v1／v2 旧结果。已获授权的下一阶段为归档旧 exact 结果、原位同步、fresh 启动双 seed 正式 baseline；不 resume 旧 exact、不干扰 HCF／已有 tmux，也不启动 57 条矩阵。正式启动状态及科学结论须以实际服务器产物为准。
++
+ ## 跨设备对齐
+ 
+ 从本机一个有效 checkpoint 导出固定输入、权重和投影 RNG：
+@@ -113,6 +197,8 @@ python run.py parity-check --bundle parity_bundle/bundle.pt --device cuda --outp
+ | `diagnostics.py` | u³／重复编码／共振审计、局部导数残差、动态信息与跨种子统计 |
+ | `runner.py` | 冻结协议、数据缓存、断点恢复、源训练、冻结 G/K 的迁移与矩阵汇总 |
+ | `parity.py` | 一次固定输入的跨设备前向／损失／梯度对齐 |
++| `diagnostics/spectral_readout.py` | v3 读出：FP64 配对矩、原 K／预算／rank、可选局部模态约束与增广拉格朗日、raw/spec 评价、端点及 parity；保留旧方法复现 |
++| `diagnostics/local_modal.py` | 观测坐标局部模态约束、固定点 bias 消元、误差预算与数值控制；不改变前向表示 |
+ 
+ `full` 使用所有约束；`block_only` 去掉 rank；`hierarchical` 用一般非线性高层预测器且无 rank，保留相同目标选择、定标和防坍塌配置。`direct` 是相同 E→G 深度及参数预算的直接 m 维输出网络，保留内部 z 的共同 SIGReg，去掉细粒度预测支路。`no_fine` 保留与 full 相同 E/G/F 参数，只在源预训练去掉细粒度预测损失。
+ 
+@@ -132,6 +218,8 @@ python run.py parity-check --bundle parity_bundle/bundle.pt --device cuda --outp
+ 
+ 每个训练任务保存 config、environment、data_reference、selection、compatibility、initial checkpoint、带 RNG／optimizer 的恢复 checkpoint、训练日志、评价和 seed 输出。源训练与迁移分别保存。
+ 
++v3 复用 `runs/formal_v3_spectral`，保存 `REPORT.md`、`report.json`、聚合与逐 seed 的 CPU/CUDA parity、`seedN/source.json`、`optimization.json`（新增预算、初始／最终约束与训练日志）、`moment_diagnostics.json`、`spectral_readout.json`、`raw_endpoint.pt`、`spec_endpoint.pt`，以及 `raw/`、`spec/` 的原评价、多跨度残差和 train-only 门禁记录。它不写回 `runs/formal` 或 `runs/formal_v2`；当前 `candidates.json` 只声明未枚举 EDMD 候选，历史 EDMD 路径才保存候选列表。
++
+ GitHub 仓库包含源码、配置、脚本、验证汇总和必需的 parity bundle。完整本机轨迹、优化器 checkpoint、缓存及新生成的 `runs/` 不入 Git，继续保留在本地；克隆后可直接启动正式流程。
+ 
+ `SHA256SUMS` 校验入库文件；本地轨迹缓存由各自的数据 manifest 单独校验。
+diff --git a/SHA256SUMS b/SHA256SUMS
+index ff6e9c8..25436aa 100644
+--- a/SHA256SUMS
++++ b/SHA256SUMS
+@@ -1,32 +1,47 @@
+ c6bf11229a556277dcf4ca78bb6dc7ca3c33ce72deead35f54badda9558a34be  .dockerignore
+ 07117f2e19577c4be0473f83199fc4afd0d4e4bcec06aecba2b44b1817cb8760  .gitignore
+ a92753d5bb6c6b3099fb5b255522239cdb22a49e28c0cef155b1b5871e17209b  Dockerfile
+-765a40c5b2495ac203acf995b44a2a7a1e49a05e166662ca09082bd8bea2f626  README.md
++b323649a67549fc183a8ac2ce0192d49fda6bd7ed80eb79c0f337b085e3af93b  README.md
+ 263aeee47af4911364eab61f36b37edec4e1fccbdb6bd1985eca63b9c7ff6214  configs/base_formal.json
++d0607a81a7799acd44e9909f0ab9db98eebd916eb01e3e2f63e69b217285f84d  configs/base_formal_v2.json
++5b168aa4e2b0eb44d66d70e909f1d47cc1b30365b56c0e3eebdbc0b17beeb589  configs/base_formal_v3.json
++a8fdd9a9c2727b5d36e3234c16ba68414f5e2d481b2aef04c0006e87e35640ff  configs/base_formal_v3_modal.json
+ c9e52016153db4dd403372e4268b63462101b210169f5a26dd316d930778bc8b  configs/base_local.json
+ b1443b53792b45699d622489e40dc05b672556a53e8046012c1faf6158022a66  configs/evidence_policy.json
++b93575fe65e382cf7e02de2b33b9731e8f9b610e604c42b69c798cccaa83962e  configs/matrix_baseline_v2.json
+ 478d897d96580947ae2713a2bccde8860058b88baf6263d7e144c7f1fa4e09d7  configs/matrix_formal.json
++b1e7050b2ae356bdbca599573b51ed73d55c5045304414fb79620a70b4bb79f7  configs/matrix_formal_v2.json
+ ad0a78764e3c5d790bcc5a856962392d5b7d0a4892f2cf2faac5f8f49c468078  configs/matrix_local.json
++e9adbedd295ca3aa9104328a4f49e80d80bfdc793c9aa2c900a227bc99b9d56d  diagnostics/local_modal.py
++5db1bbe42b0562845f543fb54059e618c79d0a4158b353f389b15a2013ae3118  diagnostics/readout_runtime.py
++11ecae0e7ae31405b6c6c80b6b325f00fcccbc659307582d777b38253cfd124b  diagnostics/spectral_readout.py
+ 12ae00d6ca95a2609a7166cc97a8c67fd40338ae360b1fa74e4d4540ddb215a5  docs/PROTOCOL.md
++25a6e6686babf63ec3b99c889bf1c50984a45849c118a785435ecc39f42b3e67  docs/V2_REVISION_PLAN.md
++c78ba471d3041272ff83e7e0bfe3717f5129e7f90fe4a1bb8b198362379a5c7f  docs/V3_RECOVERY_PLAN.md
+ cff86c073e9c8f11ad65c456ee204391a2d3e9d09f9628ec745a3438b73f795f  pyproject.toml
+ 5950f891ea746be6058af5fae4c414ac0aca872bec064a7d28c383f795e2fa79  requirements.txt
+ c3c0ac5c802b460c3964803469af776f57d3d231e106caa298bdb593685f0e24  run.py
+-659e74dfa718820b9d97c2b98d470605a2532457652fa7e139bb6f0498dd4e14  scripts/_experiment.py
++ac05340ae02eca370c581987aec167e2e0620deed7ed18b161f7c2e0dc22042a  scripts/_experiment.py
++167fb5077fa21436c99c1048cd54e6914e19faba54a7e7bd19927f5d07ba95a8  scripts/make_v2_parity_bundle.py
++24425037f797ec88d74062dbfc1681ae8ceeefc674944884e7377f58e8674ea5  scripts/report_baseline_v2.py
+ ef604ea7ca0542218d725c4a56f79497f9c866dd7cceb16ba03bd7f03674dd52  scripts/run_all.sh
++861ee8e36ed057e37db4653853264afa7b7c830857be9908f147d6ad9177d189  scripts/run_baseline_v2.sh
+ 646c47c49aa2c87e9fcc09db28b00ad2c5f34b66f0ee76915eccb7263d4fc3c0  scripts/run_experiment.sh
+ eb5cdbbf39cee52063ac1dbfd552b074270720b661858a71eb6925eee54e4011  scripts/run_experiment1.sh
+ 6848eee4466c5b5390dff2ca4edbea6b2a4b295c36888094f06f0e17e1d38e4a  scripts/run_experiment2.sh
+ 1515c1cc60ffd725e55b08f35f80cbefa8f05a68de23b8fa59239d8029495066  scripts/run_experiment3.sh
+ 7b38c1c9729f44361f932a450d9b60dd5e12c623ce714720154196ba27793b17  scripts/run_formal.sh
++be061f50e2389e21df11c675e41873f86ac97a05719c8432e6cb3a846d240a95  scripts/run_formal_v2.sh
+ 308a2fff2d53872240836cf4293b011d51d5c1311301baddec0d197344778b29  scripts/run_local.sh
++6a46fbe41eda458ceb4149d4c570452db67ff66d3f11db656b62c972eb6f4c3f  scripts/run_v3_spectral.sh
+ f3b56f4b73b8d643ecaca37725a24d692f3f1a84ed87c2461535210491fe9130  src/hijepa/__init__.py
+ a43566825287f7365e1ec06eb4f0848d45bceaab5163b3635a9b9630452b0e48  src/hijepa/cli.py
+-4bfdfb0b7ca5c7a24fe882c66450b26a801be0430ca3f946d72a6b7172fc39a0  src/hijepa/config.py
++e920349f03e241a3065f4fd412bb463f7538b18ef8ca5d470f4eab1bdd8b94ae  src/hijepa/config.py
+ 868f619e5067f3990060139acc6abd5b06b1cf94a1aa809c72750950e09b517a  src/hijepa/data.py
+ 5e8a164566d33f09d3fa13b627a61f33661496c5ca02afc06443ba95a2259a53  src/hijepa/diagnostics.py
+ b7e792732a521c69b67682489779a4e179a36286032dcd0eac929a6aa5251803  src/hijepa/evaluation.py
+ 764b4fd49cc9a9dc979aee4688fa09959c430e2e6ddb7f0b87bf38273b6bdb4a  src/hijepa/io.py
+-42e8d1e5829511e2e98c7efd09a7ed089b94905202a974f21afb9e26589445f4  src/hijepa/losses.py
++8e20084a5bf02409c779b653d09dd94b9bdc82715b61110bb01ff5beffa4c56c  src/hijepa/losses.py
+ 75d26f7bbd22894e7f5be5b2e7912d9b8058691f9229d3187270fde5640b0beb  src/hijepa/models.py
+ c76ae590d72983b7ee01a69ff343f451993cb1eab4461842e83fcf647aece5c4  src/hijepa/parity.py
+ ad88f5180da373640dfddaee15e1ab56817d4d2ed0b0100f7e287e5485b22bae  src/hijepa/runner.py
+@@ -35,6 +50,8 @@ dfd9153096d42638e4a4ea3101b8d63e59a78feed43cefc7fe2efa23d527dc3d  src/hijepa/spe
+ f0f52d9ce50f0ef78a7a4ae9df5b54532f086eca898bc285c925fe7d5e4ca11d  src/hijepa/verification.py
+ 888a5d48cb2c4962f9e56c03c830311b379af7dd2ae00704389568536519e2d7  tests/test_protocol.py
+ 829003cc090e1f77b9d69e1db4a2fe6e42f26c7d815485ca2b1bb2bf65245473  tests/test_scripts.py
++2ea85abd2c6c0c37fdb9cd8241908921d77a26261a3caf16925e83c75867dc1a  tests/test_v2_barrier.py
++a8202806e209b740a53fd46a7cd8e4f8fc1b1b3e6a2865c6cbf9881da392ee07  tests/test_v3_spectral.py
+ 969ca000897016d71bfc8c5c46f2c973b7e3033dd77dcdc1c048839622ee0627  validation/doctor_cpu.json
+ 94e0e097aefb2d35c0668ba947581c354a54ed0c430d3558fdc9077db4e9e68a  validation/formal_manifest.json
+ a47580c6472e2c2656d0520c3484183e0b115870218fe9b5170fe4ec0aa802be  validation/formal_preflight.json
+diff --git a/scripts/_experiment.py b/scripts/_experiment.py
+index b262828..3fa2169 100644
+--- a/scripts/_experiment.py
++++ b/scripts/_experiment.py
+@@ -42,7 +42,9 @@ def cli(*arguments, log: Path | None = None):
+ 
+ 
+ def select_matrix(experiment: str, profile: str):
+-    source = REPO_ROOT / "configs" / f"matrix_{profile}.json"
++    override = os.environ.get("HIJEPA_MATRIX")
++    source = (Path(override).expanduser().resolve() if override
++              else REPO_ROOT / "configs" / f"matrix_{profile}.json")
+     canonical = read_json(source)
+     by_name = {job["name"]: job for job in canonical["jobs"]}
+     requested = [job["name"] for job in canonical["jobs"]
+diff --git a/src/hijepa/config.py b/src/hijepa/config.py
+index 31a19a8..eb9ed51 100644
+--- a/src/hijepa/config.py
++++ b/src/hijepa/config.py
+@@ -2,6 +2,7 @@
+ from __future__ import annotations
+ 
+ import copy
++import math
+ from pathlib import Path
+ 
+ from .io import read_json
+@@ -75,6 +76,16 @@ def validate(config: dict) -> dict:
+         raise ValueError("Matched transfer comparison is defined for full and no_fine")
+     if cfg["system"]["noise_std"] < 0:
+         raise ValueError("Observation noise must be nonnegative")
++    floor_mode = cfg["losses"].get("coarse_floor_mode", "hinge")
++    if floor_mode not in ("hinge", "spectral_barrier"):
++        raise ValueError("losses.coarse_floor_mode must be 'hinge' or 'spectral_barrier'")
++    if floor_mode == "spectral_barrier":
++        for key in ("coarse_barrier_mu", "coarse_barrier_epsilon", "coarse_barrier_lambda_floor"):
++            if key not in cfg["losses"]:
++                raise ValueError(f"losses.{key} is required for spectral_barrier")
++            value = cfg["losses"][key]
++            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(float(value)) or float(value) <= 0:
++                raise ValueError(f"losses.{key} must be a finite positive number")
+     return cfg
+ 
+ 
+diff --git a/src/hijepa/losses.py b/src/hijepa/losses.py
+index 5069e97..1c1e75d 100644
+--- a/src/hijepa/losses.py
++++ b/src/hijepa/losses.py
+@@ -11,6 +11,7 @@ standardization, whitening, or variance-only surrogate is applied to z.
+ """
+ from __future__ import annotations
+ 
++import math
+ from typing import Any
+ 
+ import torch
+@@ -52,6 +53,33 @@ def covariance_floor(c: torch.Tensor) -> torch.Tensor:
+     return functional.relu(0.2 - std).square().mean()
+ 
+ 
++def coarse_spectral_barrier(c: torch.Tensor, mu: float = 0.10, epsilon: float = 0.005,
++                            lambda_floor: float = 0.04) -> torch.Tensor:
++    """Batch-covariance one-sided spectral barrier on the coarse code.
++
++    This is a *soft* training penalty, not a hard anti-collapse guarantee.  For
++    the current train batch it computes the unbiased covariance S of c, its
++    eigenvalues lambda_j, and
++
++        (mu / m) * sum_j max(0, log((lambda_floor + epsilon) / (lambda_j + epsilon))).
++
++    The term is zero when every eigenvalue is at least lambda_floor and grows as
++    any eigenvalue approaches zero.  It does not rotate or whiten c, does not
++    impose cross-modal zero covariance, and does not change the K block
++    structure or the model function used at inference.
++    """
++    if c.ndim != 2 or c.shape[0] < 2 or c.shape[1] < 1:
++        raise ValueError("Coarse spectral barrier requires [B,m] with B >= 2 and m >= 1")
++    mu, epsilon, lambda_floor = float(mu), float(epsilon), float(lambda_floor)
++    if not all(math.isfinite(value) and value > 0 for value in (mu, epsilon, lambda_floor)):
++        raise ValueError("Coarse spectral barrier parameters must be finite and positive")
++    centered = c - c.mean(dim=0, keepdim=True)
++    covariance = centered.T @ centered / (c.shape[0] - 1)
++    eigenvalues = torch.linalg.eigvalsh(covariance).clamp_min(0.0)
++    log_ratio = torch.log((lambda_floor + epsilon) / (eigenvalues + epsilon))
++    return (mu / c.shape[1]) * torch.clamp(log_ratio, min=0.0).sum()
++
++
+ def block_scale(c: torch.Tensor, blocks: list[list[int]]) -> torch.Tensor:
+     """Implementation choice: zero means and unit variance per real mode;
+     zero block mean and total variance two per rotation block.  In particular
+@@ -113,7 +141,18 @@ def compute_losses(model, batch: dict[str, Any], system, config: dict[str, Any],
+     rank = functional.relu(float(settings["kappa"]) - sigma_min).square() if model.rank_enabled else zero
+     scale = block_scale(c, model.coarse_blocks)
+     gaussian = sigreg(z, int(settings["sigreg_slices"]), int(settings["sigreg_points"]), generator)
+-    floor = covariance_floor(c)
++    floor_mode = str(settings.get("coarse_floor_mode", "hinge"))
++    if floor_mode == "hinge":
++        floor = covariance_floor(c)
++    elif floor_mode == "spectral_barrier":
++        floor = coarse_spectral_barrier(
++            c,
++            mu=float(settings.get("coarse_barrier_mu", 0.10)),
++            epsilon=float(settings.get("coarse_barrier_epsilon", 0.005)),
++            lambda_floor=float(settings.get("coarse_barrier_lambda_floor", 0.04)),
++        )
++    else:
++        raise ValueError(f"Unknown coarse_floor_mode: {floor_mode}")
+     total = (fine_weight * fine + float(settings["alpha"]) * coarse
+              + float(settings["beta"]) * rank + float(settings["gamma"]) * scale
+              + 0.1 * gaussian + floor)

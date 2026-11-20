@@ -1,0 +1,37 @@
+{
+  "status": "PASSED",
+  "verified_local": "2026-11-19T21:03:12+0800",
+  "baseline_sha256": "86f8a951bfd8a4bf992e3ce7d90cd8369d4c3d110c9a5b4bd39f7210f2288263",
+  "protected_files": 48889,
+  "protected_bytes": 34367708773,
+  "changed": [],
+  "missing": [],
+  "added": [],
+  "hash_scan_seconds": 24.6923725833185,
+  "python311_syntax_checked": [
+    "scripts/closeout_20261117/l1_visual_sprites_closeout.py",
+    "scripts/closeout_20261117/l2_real_encoder_spectrum.py",
+    "scripts/closeout_20261117/l3_ref_vs_horizon_decoupling.py",
+    "scripts/closeout_20261117/l5_ltt_sgr_selective_comparison.py",
+    "scripts/closeout_20261117/snapshot_and_verify.py",
+    "scripts/closeout_20261117/verify_prop4_identities.py"
+  ],
+  "repository_check": {
+    "seconds": 0.19343037530779839,
+    "result": {
+      "checks": {
+        "python": 56,
+        "shell": 12,
+        "json": 29,
+        "links": 35
+      },
+      "sealed_sources": 232,
+      "unchanged_science_files": {
+        "src/slowrepr/metrics.py": true,
+        "configs/fourroom_hjepa/default.json": true
+      },
+      "failures": [],
+      "model_or_metric_execution": false
+    }
+  }
+}

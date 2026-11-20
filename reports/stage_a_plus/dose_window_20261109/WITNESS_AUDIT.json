@@ -1,0 +1,97 @@
+{
+  "utc": "2026-11-09T12:56:42.463845+00:00",
+  "forecast": "aa2063998fa64adf3b238d37a540366b4c7a03550fcfa4ad5f51a778c8596854",
+  "script": "7ad716f695aeb83d62363bdd970e59e3791faceeb69221af8c78d28d4f928304",
+  "runs": {
+    "65": [
+      {
+        "ell": 0.16,
+        "n": 16384,
+        "witnessed_ambiguous": 615,
+        "outer_uncertified": 924,
+        "unresolved_difference": 309
+      },
+      {
+        "ell": 0.08,
+        "n": 16384,
+        "witnessed_ambiguous": 328,
+        "outer_uncertified": 396,
+        "unresolved_difference": 68
+      },
+      {
+        "ell": 0.04,
+        "n": 16384,
+        "witnessed_ambiguous": 153,
+        "outer_uncertified": 173,
+        "unresolved_difference": 20
+      },
+      {
+        "ell": 0.02,
+        "n": 16384,
+        "witnessed_ambiguous": 68,
+        "outer_uncertified": 71,
+        "unresolved_difference": 3
+      }
+    ],
+    "193": [
+      {
+        "ell": 0.16,
+        "n": 65536,
+        "witnessed_ambiguous": 2189,
+        "outer_uncertified": 4058,
+        "unresolved_difference": 1869
+      },
+      {
+        "ell": 0.08,
+        "n": 65536,
+        "witnessed_ambiguous": 1091,
+        "outer_uncertified": 1594,
+        "unresolved_difference": 503
+      },
+      {
+        "ell": 0.04,
+        "n": 65536,
+        "witnessed_ambiguous": 535,
+        "outer_uncertified": 673,
+        "unresolved_difference": 138
+      },
+      {
+        "ell": 0.02,
+        "n": 65536,
+        "witnessed_ambiguous": 267,
+        "outer_uncertified": 294,
+        "unresolved_difference": 27
+      }
+    ],
+    "769": [
+      {
+        "ell": 0.16,
+        "n": 16384,
+        "witnessed_ambiguous": 507,
+        "outer_uncertified": 1432,
+        "unresolved_difference": 925
+      },
+      {
+        "ell": 0.08,
+        "n": 16384,
+        "witnessed_ambiguous": 251,
+        "outer_uncertified": 459,
+        "unresolved_difference": 208
+      },
+      {
+        "ell": 0.04,
+        "n": 16384,
+        "witnessed_ambiguous": 119,
+        "outer_uncertified": 182,
+        "unresolved_difference": 63
+      },
+      {
+        "ell": 0.02,
+        "n": 16384,
+        "witnessed_ambiguous": 62,
+        "outer_uncertified": 79,
+        "unresolved_difference": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "delivery_integrity_and_frozen_source_check",
+  "studies": [
+    {
+      "study": "fine_denominator_audit_20261111",
+      "manifest_files": 5
+    },
+    {
+      "study": "fine_reference_graph_20261111",
+      "manifest_files": 12
+    },
+    {
+      "study": "finite_reference_20261111",
+      "manifest_files": 10
+    },
+    {
+      "study": "fine_reference_query_budget_20261111",
+      "manifest_files": 14
+    },
+    {
+      "study": "rejected_scale_audit",
+      "manifest_files": 8
+    }
+  ],
+  "unique_frozen_sources_checked": 148,
+  "report_links_checked": 17,
+  "failures": [],
+  "research_decision": "primary_gain_passed_retention_not_established; no_transfer_trigger",
+  "report_sha256": "d9dcbfa9811526269f2ae90de0f399cae2abb221a2f21010201bd1b1555570a0",
+  "plot_sha256": "fb3f2492a8b3c07e9dee3b17601d28b0f260a1a87fd785885d6649e2c9ccdd6d"
+}

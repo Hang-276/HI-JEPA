@@ -1,0 +1,55 @@
+{
+  "cells": {
+    "cls_160k_official_seed42_level1": 0.3307146363405,
+    "grid4x4_160k_official_seed42_level1": 0.3234939013795627,
+    "grid4x4_160k_ridge_seed42_level1": 0.3287640237296636,
+    "cls_160k_official_seed43_level1": 0.34037481391967916,
+    "grid4x4_160k_official_seed43_level1": 0.33144468930196663,
+    "grid4x4_160k_ridge_seed43_level1": 0.3348438691085981,
+    "cls_160k_official_seed44_level1": 0.338152786409149,
+    "grid4x4_160k_official_seed44_level1": 0.3413760820219049,
+    "grid4x4_160k_ridge_seed44_level1": 0.330512411111645
+  },
+  "level1_cal": {
+    "grid4x4_160k_official/seed42": 0.3234939013795627,
+    "grid4x4_160k_official/seed43": 0.33144468930196663,
+    "grid4x4_160k_official/seed44": 0.3413760820219049,
+    "grid4x4_160k_ridge/seed42": 0.3287640237296636,
+    "grid4x4_160k_ridge/seed43": 0.3348438691085981,
+    "grid4x4_160k_ridge/seed44": 0.330512411111645,
+    "cls_160k_official/seed42": 0.3307146363405,
+    "cls_160k_official/seed43": 0.34037481391967916,
+    "cls_160k_official/seed44": 0.338152786409149
+  },
+  "grid_level1_cal": {
+    "seed42": 0.3234939013795627,
+    "seed43": 0.33144468930196663,
+    "seed44": 0.3413760820219049
+  },
+  "rule_policy": {
+    "level_1": [
+      "own_cal"
+    ],
+    "level_ge_2": [
+      "own_cal",
+      "level1_cal"
+    ],
+    "level1_cal_source": "same readout at Level 1"
+  },
+  "family_alpha": 0.05,
+  "family_size": 51,
+  "per_claim_alpha": 0.000980392156862745,
+  "diagnostic_family_sizes": [
+    9
+  ],
+  "audit_min_r2": 0.85,
+  "cal_gap_quantile": 0.5,
+  "minimum_coverage": 0.35,
+  "maximum_selective_error": 0.01,
+  "lags": [
+    4,
+    16,
+    32
+  ],
+  "frozen_before_test_encoding": true
+}

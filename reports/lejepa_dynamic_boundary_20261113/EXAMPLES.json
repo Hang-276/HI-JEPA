@@ -1,0 +1,52 @@
+{
+  "repair": {
+    "stage": "primary",
+    "cell": "mlp__separated_narrow__separated_wide_1942",
+    "row_index": 42,
+    "true_slow_axis": 3,
+    "true_fast_axis": 4,
+    "truth_top2": [
+      2,
+      3
+    ],
+    "base_top2": [
+      2,
+      4
+    ],
+    "oracle_cross_top2": [
+      2,
+      3
+    ],
+    "physical_gap": 0.0020252600723351666,
+    "cross_gap": -0.05020525597669988,
+    "energy_gap": -0.00030444754583414417,
+    "reference_gap": 0.016027730036444976,
+    "base_gap": -0.03245671341375411,
+    "after_gap": 0.01774854256294578
+  },
+  "new_error": {
+    "stage": "primary",
+    "cell": "mlp__separated_narrow__separated_wide_1942",
+    "row_index": 18,
+    "true_slow_axis": 2,
+    "true_fast_axis": 1,
+    "truth_top2": [
+      2,
+      3
+    ],
+    "base_top2": [
+      2,
+      3
+    ],
+    "oracle_cross_top2": [
+      1,
+      3
+    ],
+    "physical_gap": 0.0019526511218441733,
+    "cross_gap": 0.10534566157275738,
+    "energy_gap": 0.0049340961978798295,
+    "reference_gap": -0.03286600828213094,
+    "base_gap": 0.07936640061035138,
+    "after_gap": -0.02597926096240588
+  }
+}

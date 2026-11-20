@@ -1,0 +1,41 @@
+{
+  "model_tag": "fourroom_lewm",
+  "seed": 42,
+  "dataset": "dev_preflight",
+  "levels": {
+    "1": {
+      "audit_r2": {
+        "agent_x": 0.9999026230685869,
+        "agent_y": 0.9999012299632813,
+        "distractor_x": 0.9794719631080081,
+        "distractor_y": 0.982805363425878
+      },
+      "minimum_audit_r2": 0.9794719631080081,
+      "distractor_r2_min": 0.9794719631080081
+    }
+  },
+  "grid_mlp": null,
+  "grid_ridge": {
+    "audit_r2": {
+      "agent_x": 0.998391949817385,
+      "agent_y": 0.9983839078198915,
+      "distractor_x": 0.9931459730304268,
+      "distractor_y": 0.9935830612090666
+    },
+    "minimum_audit_r2": 0.9931459730304268,
+    "distractor_r2_min": 0.9931459730304268,
+    "selected_lambdas": {
+      "agent_xy": 10.0,
+      "distractor_xy": 10.0
+    },
+    "validation_mse": {
+      "agent_xy": 0.0018128156661987305,
+      "distractor_xy": 0.009761765599250793
+    }
+  },
+  "skipped": {
+    "cls": false,
+    "grid_mlp": true,
+    "ridge": false
+  }
+}

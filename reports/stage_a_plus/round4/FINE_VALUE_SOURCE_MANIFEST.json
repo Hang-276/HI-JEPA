@@ -1,0 +1,151 @@
+{
+  "audit_date": "2026-11-04",
+  "local_sources_read": [
+    {
+      "path": "reports/stage_a_plus/round2/FINE_VALUE_AUDIT.md",
+      "bytes": 17163,
+      "sha256": "86dd142b8a9da34d14cb781367ca3cdd525ffd2a74247f436ea760cb77ecfa02"
+    },
+    {
+      "path": "reports/stage_a_plus/round3/ROUND3_REPORT.md",
+      "bytes": 10064,
+      "sha256": "91aa0f7dd44e3192f232c21ebc058d4f19961a1db1c02b5df89e73dc137782d9"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/UNLABELED_LIMITS.md",
+      "bytes": 16096,
+      "sha256": "ec5e7c8a97ce0d557ef9e4467afd845ffa33f4ed5929d79af86af8e6a352d901"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/ROUND4_REPORT.md",
+      "bytes": 12457,
+      "sha256": "2cb399c2ba173289d4ca7c9369cd134dd0c08e60b434c36541d967864d149862"
+    }
+  ],
+  "owned_deliverables": [
+    {
+      "path": "reports/stage_a_plus/round4/FINE_VALUE_SCOPE.md",
+      "bytes": 2401,
+      "sha256": "29d7ed6fbf7899a4829fec41f92ddb3fa629f5c6c5a1e6d1ffc295ba7fafa045"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/FINE_VALUE_ROUTE.md",
+      "bytes": 13983,
+      "sha256": "b4b1054ec6207cdaa4de1ec3a52d494526954ecb75b7b8ffbdaf434b76231c31"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/PRIMARY_NEIGHBORS.md",
+      "bytes": 12433,
+      "sha256": "25be9274a35cad170fd9145e2d564e3f8fd95507d6a3cd6691402ef157a5e84c"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/APPROXIMATE_POSTERIOR_BRIDGE.md",
+      "bytes": 10185,
+      "sha256": "d890e45441df36a2e9d53726c9f0b75a046510d8a4af5f24bbd85467d1132c0c"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/approximate_posterior_checks.py",
+      "bytes": 5562,
+      "sha256": "6a7bb7f391ec80d58931834ec94e54c5080348995c7e3c9ee4c081084fd7a561"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/APPROXIMATE_POSTERIOR_CHECKS.json",
+      "bytes": 7534,
+      "sha256": "9ada15e26aa2b7bbe53a103503a47d95115aaa77fb75aeca246363305d18b7fe"
+    },
+    {
+      "path": "reports/stage_a_plus/round4/POSTERIOR_AND_LIMITS_REVIEW.md",
+      "bytes": 3347,
+      "sha256": "b2b710e038b9ae44711ac195d470e3445ed2bdbf1f8f013d8dc5670c8c66e721"
+    }
+  ],
+  "web_read_records": [
+    {
+      "title": "Lyu and Fu 2022",
+      "url": "https://proceedings.mlr.press/v162/lyu22a/lyu22a.pdf",
+      "sections": "Assumptions 3.2/3.6; Lemma 3.7; Theorem 3.8",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Khemakhem et al. 2020",
+      "url": "https://proceedings.mlr.press/v108/khemakhem20a/khemakhem20a.pdf",
+      "sections": "Theorems 1-4, especially consistency Theorem 4",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Sorrenson et al. 2020 GIN",
+      "url": "https://arxiv.org/html/2001.04872v1",
+      "sections": "Section 3; Appendix A/B",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Blaschke et al. 2007 ISFA",
+      "url": "https://www.ini.rub.de/PEOPLE/wiskott/Publications/BlasZitoWisk2007-ISFA-NeurComp.pdf",
+      "sections": "Author full text; abstract; second-order-independence limitation",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Sprekeler et al. 2014 xSFA",
+      "url": "https://jmlr.org/papers/volume15/sprekeler14a/sprekeler14a.pdf",
+      "sections": "Section 3, especially 3.1.2/3.2; stationarity/differentiability; Gaussian-source scope",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Nelson et al. 2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/f67e5f99b23b108a3a6665f410034bcd-Paper-Conference.pdf",
+      "sections": "Theorems 1/3; Appendix local bi-Lipschitz assumptions",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Dheur and Ben Taieb 2025",
+      "url": "https://papers.neurips.cc/paper_files/paper/2025/file/079923016ab82f373c0a4a080b2f3ee6-Paper-Conference.pdf",
+      "sections": "Sections 3.1/3.3; Eq.15-16; radial transform",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Yuwen Jiang 2026 preprint v1",
+      "url": "https://arxiv.org/html/2604.08850v1",
+      "sections": "Sections 3.3-3.4, 4.2-4.3, 4.7; not accepted as verified theorem",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Hyvarinen and Morioka 2016 TCL",
+      "url": "https://proceedings.neurips.cc/paper/2016/file/d305281faf947ca7acade9ad5c8c818c-Paper.pdf",
+      "sections": "Section 3 Eq.3; posterior-to-log-density-ratio",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    },
+    {
+      "title": "Hyvarinen et al. 2019 GCL",
+      "url": "https://proceedings.mlr.press/v89/hyvarinen19a/hyvarinen19a.pdf",
+      "sections": "Theorem 3; Sections 5.2/5.4; general Theorem1 Gaussian caveat",
+      "status": "primary text inspected through web tool; no local snapshot hash"
+    }
+  ],
+  "prior_round_pointers_not_rereviewed": [
+    "https://www.preprints.org/manuscript/202607.2043",
+    "https://isr.umd.edu/Labs/ISL/ICA2006/Sensitivity_Final.pdf",
+    "https://arxiv.org/html/2603.22886v2"
+  ],
+  "new_ivdfm_proceedings_arxiv_correspondence_verified": false,
+  "execution_counts": {
+    "model_loads": 0,
+    "model_forwards": 0,
+    "array_members_read": 0,
+    "training_jobs": 0,
+    "random_sampling": 0,
+    "new_physical_trajectories": 0,
+    "server_connections": 0,
+    "gpu_jobs": 0
+  },
+  "scope": "Only analysis, text-source reads, fixed deterministic probability-vector arithmetic, and owned round4 writes; no historical report mutations.",
+  "additional_checks": {
+    "script": "reports/stage_a_plus/round4/approximate_posterior_checks.py",
+    "runs": 1,
+    "fixed_probability_vector_cases": 6,
+    "all_checks_pass": true,
+    "context_average_and_omega_normalization_checked": true,
+    "not_scientific_data_or_model_validation": true
+  },
+  "final_read_confirmation": "ROUND4_REPORT sections 4/6/7 checked after author revisions: conditional-Omega norm, true Gaussian/common bijection assumptions, gauge/tails, KL<=CE, and general class-inclusion wording confirmed; no additional argument or retrieval.",
+  "final_source_refresh_note": "Final Round4 source hashes recorded after reviewed clarifications: conditional Omega norm, affine class special case, Gaussian/valid-context assumptions, and explicit NLL population excess wording. Prior-round identities unchanged."
+}

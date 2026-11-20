@@ -1,0 +1,111 @@
+{
+  "sources": {
+    "reports/lejepa_a4_20261115/panel/run.py": "b603c5d3c7ab6444b3b13a528456e2c44ea362d06d5c9782854cf8f3cbf6bfdc",
+    "reports/lejepa_a4_20261115/panel/protocol.json": "e5353c401373d7e70043ffccecf96d2e1109be2662825c33148d47e0be86b90b",
+    "reports/lejepa_a4_20261115/panel/PROTOCOL.md": "d114b05550eb8cbae40a76b3e6e79c618ae72637a9b50b094f7f9704b2b9578d",
+    "reports/lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "reports/lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "reports/lejepa_mechanisms_20261113/readout/run.py": "99791a7db74f019b616bfdd64beac445b3bbf27d9819e00750ff98fdb2126a37",
+    "reports/lejepa_mechanisms_20261113/readout/protocol.json": "63e8169473084599913a24296df97e9b70eed9b0d51050d6b467ac8eac7b5ced",
+    "reports/lejepa_slow_rank_20261112/training/runs/results.json": "d4ac590bf4838754fff75559733135afb670543e8ed09ce1679c5c24278afba3",
+    "reports/lejepa_mechanisms_20261113/readout/runs/results.json": "2699160372fc6a10918e16905425dfff0215a547a7dde089414262dc76c41e29",
+    "work/hcf_stable_id_20261027/v1/LEJEPA_SOURCE_LOCK.json": "2934b6aaea96d5ba6b68e42f068f400f5b61ca09c58beeca4ce405e6386d4a36",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb"
+  },
+  "config": {
+    "panel_master": 2026111520,
+    "seeds": [
+      20151,
+      20152,
+      20153,
+      20154
+    ],
+    "cases": [
+      "separated_wide",
+      "crossed_wide"
+    ],
+    "n_independent_audit": 16384,
+    "cpu_threads": 2
+  },
+  "original_encoder_config": {
+    "cases": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ],
+      "crossed_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.76
+      ],
+      "separated_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.88
+      ],
+      "crossed_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.76
+      ]
+    },
+    "seeds": [
+      1942,
+      3749,
+      5817,
+      7811
+    ],
+    "batch": 256,
+    "steps": 3200,
+    "hidden": 64,
+    "layers": 3,
+    "lr": 0.003,
+    "sigreg_weight": 0.001,
+    "sigreg_slices": 24,
+    "cal_trajectories": 128,
+    "ref_trajectories": 128,
+    "test_trajectories": 384,
+    "trajectory_length": 193,
+    "named_anchor_bases": 16,
+    "named_anchor_dose": 0.15,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "margin_bins": [
+      0.01,
+      0.03
+    ]
+  },
+  "original_probe_config": {
+    "master": 2026111302,
+    "n_calibration": 8192,
+    "n_validation": 4096,
+    "n_reference": 32768,
+    "n_test": 1024,
+    "trajectory_length": 193,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "ridge_alphas": [
+      1e-06,
+      0.001,
+      0.1
+    ],
+    "mlp_width": 128,
+    "mlp_steps": 3000,
+    "mlp_batch_size": 256,
+    "mlp_eval_interval": 250,
+    "mlp_lr": 0.001
+  }
+}

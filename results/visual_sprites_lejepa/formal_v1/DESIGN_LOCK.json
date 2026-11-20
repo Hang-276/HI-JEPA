@@ -1,0 +1,203 @@
+{
+  "mode": "formal",
+  "evidence_tier": "formal_visual_sprites",
+  "created_utc": "2026-11-17T06:24:22.238449+00:00",
+  "device": "cpu",
+  "config": {
+    "schema_version": 1,
+    "axes": [
+      "agent_x",
+      "agent_y",
+      "distractor_x",
+      "distractor_y"
+    ],
+    "rho": [
+      0.964,
+      0.961,
+      0.78,
+      0.76
+    ],
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "seeds": [
+      101,
+      102,
+      103
+    ],
+    "data_seed": 2026111601,
+    "development_seed": 2026111701,
+    "development_model_seed": 1901,
+    "development_min_r2": 0.9,
+    "roles": {
+      "pretrain": {
+        "episodes": 1024,
+        "frames": 128
+      },
+      "train": {
+        "episodes": 256,
+        "frames": 193,
+        "sample_frames": 32
+      },
+      "val": {
+        "episodes": 64,
+        "frames": 193,
+        "sample_frames": 32
+      },
+      "audit": {
+        "episodes": 128,
+        "frames": 193
+      },
+      "ref": {
+        "episodes": 256,
+        "frames": 193
+      },
+      "cal": {
+        "episodes": 1024,
+        "frames": 193
+      },
+      "test": {
+        "episodes": 2048,
+        "frames": 193
+      }
+    },
+    "renderer": {
+      "image_size": 32,
+      "coordinate_bounds": [
+        5.0,
+        27.0
+      ],
+      "tanh_scale": 0.45,
+      "sprite_sigma": 2.2,
+      "sprite_amplitude": 0.86,
+      "pixel_noise_sigma": 0.01
+    },
+    "encoder": {
+      "latent_dim": 8,
+      "steps": 6000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "short_lag": 1,
+      "long_lag": 10,
+      "lejepa_sigreg_weight": 0.05,
+      "predictor_sigreg_weight": 0.004,
+      "log_every": 100
+    },
+    "probe": {
+      "steps": 3000,
+      "batch_size": 256,
+      "hidden_dim": 128,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "log_every": 100
+    },
+    "runtime": {
+      "cpu_threads": 4,
+      "encode_batch_size": 512
+    },
+    "audit_min_r2": 0.85,
+    "cal_gap_quantile": 0.5,
+    "family_alpha": 0.05,
+    "minimum_coverage": 0.35,
+    "maximum_selective_error": 0.01,
+    "development_flip_rate_range": [
+      0.08,
+      0.12
+    ],
+    "development_flip_check_windows": 16384
+  },
+  "config_path": "configs/visual_sprites_lejepa/joint_v1_retry.json",
+  "source_sha256": {
+    "configs/visual_sprites_lejepa/joint_v1_retry.json": "d31015d5e184f1ef1b76a9cb37fd30c378ff32966e66ccc1a6ed6bdfc97c4b0d",
+    "src/slowrepr/metrics.py": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "scripts/visual_sprites_lejepa/models.py": "dc867eb77ef6e414c94ce0247481eedb6d561f9beb6f733afb3735d779ea9a5a",
+    "scripts/visual_sprites_lejepa/render.py": "2e0970e081f72bff5e9e9f730c7b02abf6e0f66e84e43ddc60d43d316ec498ff",
+    "scripts/visual_sprites_lejepa/run.py": "57084f17194ec44f686a168d7c81aee215e264bddec213be170c6d7896e4451f",
+    "scripts/visual_sprites_lejepa/run_joint.py": "966deb93a4a72b5d9ef0754d89067ad8e97c2179b7d2923a842cc506ad62fba0"
+  },
+  "development_preflight": {
+    "development_seed": 2026111701,
+    "rho": [
+      0.964,
+      0.961,
+      0.78,
+      0.76
+    ],
+    "windows": 16384,
+    "reference_episodes": 256,
+    "reference_variance": [
+      0.9756764774318131,
+      1.0120183344508342,
+      1.0197632226246163,
+      0.9995207401721852
+    ],
+    "population_scores": [
+      0.8472308597782533,
+      0.8919805136775482,
+      1.7404832754011894,
+      1.7692242010462902
+    ],
+    "mean_window_scores": [
+      0.8678220421883924,
+      0.8843137635433355,
+      1.7019030352061426,
+      1.7696871548843593
+    ],
+    "flip_windows": 1682,
+    "flip_rate": 0.1026611328125,
+    "pass": true
+  },
+  "development_receipt": {
+    "path": "results/visual_sprites_lejepa/development_joint_v1_attempt2/DEVELOPMENT_RECEIPT.json",
+    "sha256": "6917b7857d90d0c69f1725a983cf2042644527c9447a22467fb296c1e1046fa8"
+  },
+  "development_audit": {
+    "visual_lejepa_seed1901": {
+      "arm": "visual_lejepa",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.9956246500142516,
+        "agent_y": 0.9967335218475845,
+        "distractor_x": 0.9820489333871588,
+        "distractor_y": 0.9822625406775928
+      },
+      "minimum_r2": 0.9820489333871588,
+      "eligible": true
+    },
+    "long_horizon_pred_seed1901": {
+      "arm": "long_horizon_pred",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.9975824512032632,
+        "agent_y": 0.9976847737249575,
+        "distractor_x": 0.002121346786111644,
+        "distractor_y": 0.03476170489069563
+      },
+      "minimum_r2": 0.002121346786111644,
+      "eligible": false
+    }
+  },
+  "correlation_times": {
+    "pred_lag": 10,
+    "slow_correlation_times": [
+      27.27472251419665,
+      25.137710655957346
+    ],
+    "fast_correlation_times": [
+      4.024770704078003,
+      3.643825585602064
+    ],
+    "lag_over_longest_fast_time": 2.484613592984996,
+    "rho_to_pred_lag": [
+      0.6930592097301767,
+      0.6717905288190821,
+      0.08335775831236203,
+      0.06428888932339942
+    ]
+  },
+  "test_seal_protocol": "A separate renderer uses transient TEST coordinates and supplies the inference process only images. The scorer regenerates TEST coordinates after the forecast receipt has been persisted and verified."
+}

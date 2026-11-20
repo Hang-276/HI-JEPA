@@ -1,0 +1,95 @@
+{
+  "cell": "predictor_lag4_wsig0.02_seed203",
+  "audit_r2": {
+    "z0": 0.9944151639938354,
+    "z1": 0.9946672320365906,
+    "z2": 0.9315835237503052,
+    "z3": 0.931638240814209
+  },
+  "test_r2": {
+    "z0": 0.9944651126861572,
+    "z1": 0.9954808354377747,
+    "z2": 0.9384271502494812,
+    "z3": 0.9385516047477722
+  },
+  "predicted_ref_variance": [
+    0.9915596842765808,
+    1.000424861907959,
+    0.9800485968589783,
+    0.9528527855873108
+  ],
+  "physical_ref_variance": [
+    1.0052129030227661,
+    1.0171624422073364,
+    1.010008454322815,
+    0.9995209574699402
+  ],
+  "predicted_over_physical_variance": [
+    0.9864175915718079,
+    0.9835448265075684,
+    0.9703370332717896,
+    0.9533094763755798
+  ],
+  "decomposition": {
+    "axes": {
+      "2": {
+        "pred_over_phys_ref_var": 0.9703396382870506,
+        "true_fast_frac": 0.9377762606771085,
+        "linear_slow_frac": 0.0007098703091067444,
+        "harmonic_slow_frac": 0.005762468268455493,
+        "total_slow_frac": 0.006472338577562237,
+        "residual_frac": 0.055751400745329256,
+        "mean_score_shift": 0.012012494040071011,
+        "residual_lag1_autocorr": 0.355175860238247
+      },
+      "3": {
+        "pred_over_phys_ref_var": 0.9533092741493071,
+        "true_fast_frac": 0.9389943017355885,
+        "linear_slow_frac": 0.0004621578901185731,
+        "harmonic_slow_frac": 0.002560289830331023,
+        "total_slow_frac": 0.003022447720449596,
+        "residual_frac": 0.05798325054396189,
+        "mean_score_shift": 0.01156683899939958,
+        "residual_lag1_autocorr": 0.33095303209501914
+      }
+    },
+    "mean_pred_over_phys_ref_var": 0.9618244562181788,
+    "mean_true_fast_frac": 0.9383852812063485,
+    "mean_linear_slow_frac": 0.0005860140996126588,
+    "mean_harmonic_slow_frac": 0.004161379049393258,
+    "mean_total_slow_frac": 0.004747393149005916,
+    "mean_residual_frac": 0.05686732564464557,
+    "mean_mean_score_shift": 0.011789666519735295,
+    "mean_residual_lag1_autocorr": 0.34306444616663306
+  },
+  "regime": "Normal Recovery",
+  "window_groups": {
+    "regular_agent_slow": {
+      "windows": 1859,
+      "full_accuracy": 0.9806347498655191,
+      "accepted": 1008,
+      "errors": 0,
+      "selective_error": 0.0
+    },
+    "local_flip": {
+      "windows": 189,
+      "full_accuracy": 0.6772486772486772,
+      "accepted": 4,
+      "errors": 0,
+      "selective_error": 0.0
+    }
+  },
+  "threshold": 0.5852192912907399,
+  "risk": {
+    "windows": 2048,
+    "accepted": 1012,
+    "errors": 0,
+    "coverage": 0.494140625,
+    "selective_error": 0.0,
+    "error_upper": 0.00680260197123369,
+    "passes_coverage": true,
+    "passes_error_bound": true,
+    "passes": true
+  },
+  "meta": {}
+}

@@ -1,0 +1,1283 @@
+{
+  "checks": {
+    "eps05_seed1_to008": {
+      "train_cpu_smoke": {
+        "completion": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/COMPLETED.json",
+          "sha256": "0f94337293197e75a5186511fb379a80f6da8d87265a0b12e19284f1f3ebf51d"
+        },
+        "job": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps05/seed1/JOB.json",
+          "sha256": "c222547a35bf5167144d0303b591dc666ce47968167ce5890d3f601aef78af36"
+        },
+        "checkpoint": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/Fine_latest.pt",
+          "sha256": "aad5b421ecb2360233c9b8c3447714617ccaa116b47863e96a841d098e8e3d3d"
+        },
+        "selected_step": 12000,
+        "g0": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/G0.json",
+          "sha256": "fe97a29428105913d0cf0683c9d5a3eee4a9fa3b4cf5c6b23f49556df71628e8"
+        },
+        "sources": [
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py",
+            "sha256": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py",
+            "sha256": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py",
+            "sha256": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py",
+            "sha256": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py",
+            "sha256": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32"
+          }
+        ],
+        "torch": "2.14.0",
+        "numpy": "2.5.3",
+        "device": "cpu",
+        "intraop_threads": 1,
+        "base_adapter": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fine_forward.py",
+          "sha256": "27033a86d79f138a32de5f2711912b86be7d758f54b7b5151ec0ae5331cf464a"
+        },
+        "slot": "fhn_fresh_eps05",
+        "rep": 1,
+        "train_episode": 0,
+        "shape": [
+          1,
+          193,
+          4
+        ],
+        "train_x_sha256": "bec4f251ab11bba0b1347508f5b46b12600087532936b909ac53fe6c16127e3f",
+        "train_features_sha256": "e33e4e6a154502da1e78d770a6925ec69978dfe579e869b7b03c2b1ca6545282",
+        "exact": false,
+        "max_abs_by_axis": [
+          1.430511474609375e-06,
+          1.430511474609375e-06,
+          1.430511474609375e-06,
+          1.9073486328125e-06
+        ],
+        "max_abs_in_g0_units_by_axis": [
+          3.9985806290187054e-07,
+          3.754905232549876e-07,
+          4.6244374484729985e-07,
+          6.060095302742083e-07
+        ],
+        "smoke_atol_g0_units": 2e-05
+      },
+      "provenance": {
+        "key": "eps05_seed1_to008",
+        "slot": "fhn_fresh_eps05",
+        "rep": 1,
+        "source_epsilon": 0.5,
+        "target_epsilon": 0.08,
+        "calibration_seed": 2026160000,
+        "query_seed": 2026175000,
+        "checkpoint": {
+          "completion": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/COMPLETED.json",
+            "sha256": "0f94337293197e75a5186511fb379a80f6da8d87265a0b12e19284f1f3ebf51d"
+          },
+          "job": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps05/seed1/JOB.json",
+            "sha256": "c222547a35bf5167144d0303b591dc666ce47968167ce5890d3f601aef78af36"
+          },
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/Fine_latest.pt",
+            "sha256": "aad5b421ecb2360233c9b8c3447714617ccaa116b47863e96a841d098e8e3d3d"
+          },
+          "selected_step": 12000,
+          "g0": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/G0.json",
+            "sha256": "fe97a29428105913d0cf0683c9d5a3eee4a9fa3b4cf5c6b23f49556df71628e8"
+          },
+          "sources": [
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py",
+              "sha256": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py",
+              "sha256": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py",
+              "sha256": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py",
+              "sha256": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py",
+              "sha256": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32"
+            }
+          ],
+          "torch": "2.14.0",
+          "numpy": "2.5.3",
+          "device": "cpu",
+          "intraop_threads": 1,
+          "base_adapter": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fine_forward.py",
+            "sha256": "27033a86d79f138a32de5f2711912b86be7d758f54b7b5151ec0ae5331cf464a"
+          }
+        },
+        "normalization": "archived Fine TRAIN G0 and raw public TRAIN moments",
+        "historical_axis_correspondence": {
+          "perm": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "source": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/step6_fine_20261105/forecast_lock.json",
+          "sha256": "98b95e5da30ed4dee3e3644088fdd8aae171592b65260cf818f9c394a4dee547",
+          "assignment_objective_lead": 1.3535041946460429,
+          "physical_matching_was_preexisting": true,
+          "new_target_truth_used": false
+        },
+        "calibration": {
+          "calibration": {
+            "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+            "slot": "fhn_fresh_eps05",
+            "epsilon": 0.08,
+            "count": 96,
+            "seed": 2026160000,
+            "role": "calibration",
+            "trajectory_seed": 1168353165203852194,
+            "trajectory_tag": 3109,
+            "observation_mix_seed": 521893490175562283,
+            "public_arrays": {
+              "x": {
+                "shape": [
+                  96,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "18ad7ff83711742bc3e29915da69e9d52cc6ba574d04208f054e10fe7ee0b35f"
+              },
+              "actions": {
+                "shape": [
+                  96,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "1dccedd3013515ddef050fecea14668bd4a012c022bc75139098301f5885ef8e"
+              },
+              "regimes": {
+                "shape": [
+                  96,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "85ec48c7b6894773fec1a511829bac6fcee10266823c825bb17b9cb28eb66e59"
+              }
+            },
+            "inverse_maxabs_fp64": 9.08995101411847e-16,
+            "physical_rng_stream_hashes": {
+              "initial_preburn_sha256": "9ae285fbca8f210f43e19fa259f054590c6806310e6a7e9a9069a307fb0cd020",
+              "actions_preburn_sha256": "2692e38d6c8f71649408815268b609f2cf9175630cec6ab6aeefe942b1fc3a4b",
+              "regimes_preburn_sha256": "db5890d7cb3bb027798acb9f095093cf15380de40d8dd124341272ed1fa38424",
+              "standard_innovations_preburn_sha256": "55694bda4b519eda7b6d679f78df17ad6b76c7ae405e18bb2d1b1ce6a5578da7"
+            }
+          },
+          "active": {
+            "seed": 2026175000,
+            "contexts": [
+              8,
+              24,
+              40,
+              56,
+              72,
+              88,
+              104,
+              120
+            ],
+            "source_replay_maxabs": 0.0,
+            "hashes": {
+              "fit": {
+                "baseline": {
+                  "shape": [
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "2359db557384da1d7f8be3b8f93d937fe9425e13f55313ddd82ac0b6d5d239c0"
+                },
+                "branches": {
+                  "shape": [
+                    8,
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "dd4dd16817b631d1739498f993745615f01c8940f9d9b8afcc0a9ddb7e66e942"
+                },
+                "shifts": {
+                  "shape": [
+                    8,
+                    4
+                  ],
+                  "dtype": "float64",
+                  "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+                }
+              },
+              "check": {
+                "baseline": {
+                  "shape": [
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "e7b908f935c08efc2c2bea843a80045c7601b67b85f3a1a32850ed9667e5b660"
+                },
+                "branches": {
+                  "shape": [
+                    4,
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "0d860b93577d46004b3fbfdb7024304e7535fd53e223b7335bae3b40339f4996"
+                },
+                "shifts": {
+                  "shape": [
+                    4,
+                    4
+                  ],
+                  "dtype": "float64",
+                  "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+                }
+              }
+            }
+          },
+          "original_forecast_sha": "4ccacefd8b2680a178f9482bdec19b28d34cc8a71bcca91e649a5978b8d840d4",
+          "fit_trajectory_indices": [
+            0,
+            4,
+            8,
+            12,
+            16,
+            20,
+            24,
+            28,
+            32,
+            36,
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            84,
+            88,
+            92
+          ],
+          "check_trajectory_indices": [
+            1,
+            5,
+            9,
+            13,
+            17,
+            21,
+            25,
+            29,
+            33,
+            37,
+            41,
+            45,
+            49,
+            53,
+            57,
+            61,
+            65,
+            69,
+            73,
+            77,
+            81,
+            85,
+            89,
+            93
+          ],
+          "fit_dose": 0.035,
+          "check_dose": -0.0175,
+          "fit_contexts": [
+            8,
+            24,
+            40,
+            56,
+            72,
+            88,
+            104,
+            120
+          ],
+          "unused_fit_branch_dose": 0.04949747468305833,
+          "physical_levels_used": false,
+          "original_query_hashes_match": true
+        },
+        "fine_readout": {
+          "available": true,
+          "rank": 4,
+          "condition": 1.0304592343762946,
+          "duplicate_error": 7.50981046682142e-07,
+          "beta": [
+            [
+              0.9724264586542504,
+              0.004310968337911474,
+              -0.0358896697477531,
+              0.0016218267441631788
+            ],
+            [
+              -0.0013270411815848795,
+              -0.7125077321690747,
+              -0.0033521766901908655,
+              -0.009267491156395212
+            ],
+            [
+              -0.013440163442333663,
+              -0.010472868037507256,
+              -0.9434908858150333,
+              0.015161412813968893
+            ],
+            [
+              0.0028305179108511847,
+              -0.0027139518812906572,
+              0.018850545472356033,
+              0.7024023493246668
+            ]
+          ],
+          "fit_relative_rmse": 0.03518392760796892,
+          "check_relative_rmse": 0.03684180538185247,
+          "fitting_rule": "positive_0.035_named_dose_OLS_with_column_RMS_scaling",
+          "check_used_for_fitting": false
+        },
+        "raw_readout": {
+          "available": true,
+          "rank": 4,
+          "condition": 1.2491212615647995,
+          "duplicate_error": 0.0,
+          "beta": [
+            [
+              0.4886761973056374,
+              0.4019952000568729,
+              -0.4049553408988532,
+              0.4957655573974364
+            ],
+            [
+              -0.6131829727536098,
+              0.09963610298612378,
+              -0.41177959889641164,
+              0.4558665645305093
+            ],
+            [
+              0.1421976980007415,
+              -0.5213952667754819,
+              -0.3221727103350782,
+              0.02448877575325257
+            ],
+            [
+              0.15868735628479264,
+              -0.18931953655781467,
+              0.6172748993169361,
+              0.6691591115323193
+            ]
+          ],
+          "fit_relative_rmse": 0.06461668612995224,
+          "check_relative_rmse": 0.06957673170453897,
+          "fitting_rule": "positive_0.035_named_dose_OLS_with_column_RMS_scaling",
+          "check_used_for_fitting": false
+        },
+        "physical_levels_used_for_fit": false
+      },
+      "existing_evaluation_receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps05",
+        "epsilon": 0.08,
+        "count": 128,
+        "seed": 2026160001,
+        "role": "evaluation",
+        "trajectory_seed": 99926666265837324,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 521893490175562283,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              128,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "95b02eb3ad469ad074600ba53b18022ba97094b5c43eccfb2c5b21cc6a6b7c40"
+          },
+          "actions": {
+            "shape": [
+              128,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "56a21f2c59b5eb3851610ee1584d9798fe89f9bdcf44c5bf2bfa2f1de14d05f8"
+          },
+          "regimes": {
+            "shape": [
+              128,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "bf120983b06ff6ae88e96fee651b6095b4151ae3fbee37f787e352a2e7e88213"
+          }
+        },
+        "inverse_maxabs_fp64": 9.992007221626409e-16,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "cab7d83d97e3c868b7ce6ee2f36f8a9a0f0e544afd6167f0b6488aac73820a54",
+          "actions_preburn_sha256": "51f2858c51e541e2c501335053a54fb24034fd155d361afba69280afba91e0fb",
+          "regimes_preburn_sha256": "885a89f7e2bf1a92f71d45418c2c830cca1012febb537f6ed617ba1d32877f49",
+          "standard_innovations_preburn_sha256": "eef010804cc8060fa0daa0b2c57c96e345041f5f0d9c11b0c34786d290dadadb"
+        }
+      },
+      "endpoint_query": {
+        "public_parity": true,
+        "query_nodes": 386,
+        "physical_branches": 3088,
+        "query_shape": [
+          2,
+          193,
+          4,
+          4
+        ],
+        "node_ids_sha256": "63ef6998c5cae58f7fe8835c099d445223c4d1d8ef5a930eb4cc60660c27208e",
+        "branch_sha256": {
+          "plus": "1c175b9ea6bbfeb5931bcf980ed017df59b8a5778f30deb5f7702ee4e1d0e12f",
+          "minus": "1bd61a3bb10bb2a80110b43fb2f5863119b8cf20d2d0d4ed4fb0cc6c15f49c47"
+        }
+      },
+      "restricted_query": {
+        "public_parity": true,
+        "query_nodes": 3,
+        "physical_branches": 24,
+        "query_shape": [
+          3,
+          4,
+          4
+        ],
+        "node_ids_sha256": "c77f135b88c265f9f3b22e557a37e20516577bc89375d0e0067228ef0cf38456",
+        "branch_sha256": {
+          "plus": "54b4451fdcc8270fecb58a1317ec35eed5090404dba37192834c0d97a987195c",
+          "minus": "67f0981849e39584ce07e1a055c6e5cb0ba11de816f3532bc7f6742f93e17ba2"
+        }
+      },
+      "restricted_node_parity": true,
+      "old_endpoint_exact_parity": true,
+      "newly_generated_samples": 0,
+      "physical_levels_read_by_predictor": false
+    },
+    "eps008_seed0_to05": {
+      "train_cpu_smoke": {
+        "completion": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/COMPLETED.json",
+          "sha256": "c872a0f060d7fd027e4064c7da58d480186507f7431342382feb7e5a588b84c8"
+        },
+        "job": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps008/seed0/JOB.json",
+          "sha256": "4bd2ef6959ae7fe26ee57e46673a303c2a32b87b475c27da1d2be0560c60842e"
+        },
+        "checkpoint": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/Fine_latest.pt",
+          "sha256": "c710eae8fcfca391b8928064787e41ee4cdbd31ce658dd7e225422e16204f7f4"
+        },
+        "selected_step": 18000,
+        "g0": {
+          "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/G0.json",
+          "sha256": "88f9df6a025932388cda50f23f233b840d4146a93bc7b7f083ee45c714e116ab"
+        },
+        "sources": [
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py",
+            "sha256": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py",
+            "sha256": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py",
+            "sha256": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py",
+            "sha256": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3"
+          },
+          {
+            "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py",
+            "sha256": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32"
+          }
+        ],
+        "torch": "2.14.0",
+        "numpy": "2.5.3",
+        "device": "cpu",
+        "intraop_threads": 1,
+        "slot": "fhn_fresh_eps008",
+        "rep": 0,
+        "train_episode": 0,
+        "shape": [
+          1,
+          193,
+          4
+        ],
+        "train_x_sha256": "696a8bf079a2645caa71630be86dc3931adfd85070a1fb75a9e546cc80407488",
+        "train_features_sha256": "4f95609aa3dfd753a6bcd3898ca8379a4e422d5d0f3d8443ed94c8990452513e",
+        "exact": false,
+        "max_abs_by_axis": [
+          1.9073486328125e-06,
+          1.1920928955078125e-06,
+          1.430511474609375e-06,
+          1.1920928955078125e-06
+        ],
+        "max_abs_in_g0_units_by_axis": [
+          3.6077481876214773e-07,
+          4.5920002174344506e-07,
+          2.988914768755943e-07,
+          4.492971613770608e-07
+        ],
+        "smoke_atol_g0_units": 2e-05
+      },
+      "provenance": {
+        "key": "eps008_seed0_to05",
+        "slot": "fhn_fresh_eps008",
+        "rep": 0,
+        "source_epsilon": 0.08,
+        "target_epsilon": 0.5,
+        "calibration_seed": 2026159000,
+        "query_seed": 2026174000,
+        "checkpoint": {
+          "completion": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/COMPLETED.json",
+            "sha256": "c872a0f060d7fd027e4064c7da58d480186507f7431342382feb7e5a588b84c8"
+          },
+          "job": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps008/seed0/JOB.json",
+            "sha256": "4bd2ef6959ae7fe26ee57e46673a303c2a32b87b475c27da1d2be0560c60842e"
+          },
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/Fine_latest.pt",
+            "sha256": "c710eae8fcfca391b8928064787e41ee4cdbd31ce658dd7e225422e16204f7f4"
+          },
+          "selected_step": 18000,
+          "g0": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/G0.json",
+            "sha256": "88f9df6a025932388cda50f23f233b840d4146a93bc7b7f083ee45c714e116ab"
+          },
+          "sources": [
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py",
+              "sha256": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py",
+              "sha256": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py",
+              "sha256": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py",
+              "sha256": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3"
+            },
+            {
+              "path": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py",
+              "sha256": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32"
+            }
+          ],
+          "torch": "2.14.0",
+          "numpy": "2.5.3",
+          "device": "cpu",
+          "intraop_threads": 1
+        },
+        "normalization": "archived Fine TRAIN G0 and raw public TRAIN moments",
+        "historical_axis_correspondence": {
+          "perm": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "source": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/step6_fine_20261105/forecast_lock.json",
+          "sha256": "98b95e5da30ed4dee3e3644088fdd8aae171592b65260cf818f9c394a4dee547",
+          "assignment_objective_lead": 1.2169901085675399,
+          "physical_matching_was_preexisting": true,
+          "new_target_truth_used": false
+        },
+        "calibration": {
+          "calibration": {
+            "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+            "slot": "fhn_fresh_eps008",
+            "epsilon": 0.5,
+            "count": 96,
+            "seed": 2026159000,
+            "role": "calibration",
+            "trajectory_seed": 1392250349665516967,
+            "trajectory_tag": 3109,
+            "observation_mix_seed": 7993506282300423453,
+            "public_arrays": {
+              "x": {
+                "shape": [
+                  96,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "b35c8075c31cf5138f24aa676d7c9fbc3bc8c799c0c61197c1fdd98d9cb45017"
+              },
+              "actions": {
+                "shape": [
+                  96,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "6b57b4188576f35e933f76ecf6d1c46d6d296411becf6daf2ebbc842f8d09f35"
+              },
+              "regimes": {
+                "shape": [
+                  96,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "d44dfa1e9c7eebb056abf548a1472bd4980c940358d3520d1c2c8a23b28aadcb"
+              }
+            },
+            "inverse_maxabs_fp64": 1.7763568394002505e-15,
+            "physical_rng_stream_hashes": {
+              "initial_preburn_sha256": "376615e75cc3516d21df4ea507fc4a89799146d1253a2d464abf5dcc5436f4d8",
+              "actions_preburn_sha256": "15e182fd4637ac1d632519d2671fe5521c004cc90f5ef1236a1e88180f908a90",
+              "regimes_preburn_sha256": "d36e076bd4805a9569ab6abefbd89a65881bea1a2d5d707fa780db404594353b",
+              "standard_innovations_preburn_sha256": "d72409756201f5ac8b55c33ddf505856d7c69d0088a25ce15fc44a1eda0547dd"
+            }
+          },
+          "active": {
+            "seed": 2026174000,
+            "contexts": [
+              8,
+              24,
+              40,
+              56,
+              72,
+              88,
+              104,
+              120
+            ],
+            "source_replay_maxabs": 0.0,
+            "hashes": {
+              "fit": {
+                "baseline": {
+                  "shape": [
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "32e72f035fafcd12db12063f8cecb12f54e47c4071583a76a4792095068d659d"
+                },
+                "branches": {
+                  "shape": [
+                    8,
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "0c396147b7247d156fc1f09cddf9fb38647a9067aa0b3cb575c23372bfbca8ce"
+                },
+                "shifts": {
+                  "shape": [
+                    8,
+                    4
+                  ],
+                  "dtype": "float64",
+                  "sha256": "42f9ad89e91c209efe72e530d4f3e2bcf0661f29088625b57e31c0b2f1005ab7"
+                }
+              },
+              "check": {
+                "baseline": {
+                  "shape": [
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "c098ebf781ac8e7a05aa85cd77ed893b08aaa0bcd8f85bc83434a6643aeffb06"
+                },
+                "branches": {
+                  "shape": [
+                    4,
+                    24,
+                    8,
+                    4
+                  ],
+                  "dtype": "float32",
+                  "sha256": "1b6f2a14a29e03734b0364bcc5cb87d15aed6becd6cfd823b58b363089cac2e1"
+                },
+                "shifts": {
+                  "shape": [
+                    4,
+                    4
+                  ],
+                  "dtype": "float64",
+                  "sha256": "2028edc39ae60689a1840caed5c415cb39c53c310c6dcdbd17c0cb4b1c79c948"
+                }
+              }
+            }
+          },
+          "original_forecast_sha": "4ccacefd8b2680a178f9482bdec19b28d34cc8a71bcca91e649a5978b8d840d4",
+          "fit_trajectory_indices": [
+            0,
+            4,
+            8,
+            12,
+            16,
+            20,
+            24,
+            28,
+            32,
+            36,
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            84,
+            88,
+            92
+          ],
+          "check_trajectory_indices": [
+            1,
+            5,
+            9,
+            13,
+            17,
+            21,
+            25,
+            29,
+            33,
+            37,
+            41,
+            45,
+            49,
+            53,
+            57,
+            61,
+            65,
+            69,
+            73,
+            77,
+            81,
+            85,
+            89,
+            93
+          ],
+          "fit_dose": 0.035,
+          "check_dose": -0.0175,
+          "fit_contexts": [
+            8,
+            24,
+            40,
+            56,
+            72,
+            88,
+            104,
+            120
+          ],
+          "unused_fit_branch_dose": 0.04949747468305833,
+          "physical_levels_used": false,
+          "original_query_hashes_match": true
+        },
+        "fine_readout": {
+          "available": true,
+          "rank": 4,
+          "condition": 1.0277997533890584,
+          "duplicate_error": 5.510400262753734e-07,
+          "beta": [
+            [
+              1.3080543487829286,
+              0.049685444616985326,
+              -0.03270880347276887,
+              0.011648469609024182
+            ],
+            [
+              -0.010854510935474447,
+              0.4964499436266121,
+              -0.003068186057703754,
+              0.01659177396371688
+            ],
+            [
+              -0.025650825268330516,
+              -0.006714274402652868,
+              -1.3393011048257564,
+              0.00910802677185697
+            ],
+            [
+              -0.002773579843889094,
+              0.00711511756349409,
+              -0.004930777008438702,
+              -0.5232670699056645
+            ]
+          ],
+          "fit_relative_rmse": 0.057830327356147807,
+          "check_relative_rmse": 0.06404310718335253,
+          "fitting_rule": "positive_0.035_named_dose_OLS_with_column_RMS_scaling",
+          "check_used_for_fitting": false
+        },
+        "raw_readout": {
+          "available": true,
+          "rank": 4,
+          "condition": 1.5309955826297283,
+          "duplicate_error": 0.0,
+          "beta": [
+            [
+              -0.9663467411331409,
+              -0.3483268070816744,
+              -1.2765414609423322,
+              -0.05797042623652904
+            ],
+            [
+              0.3433921732470219,
+              0.2019631411492524,
+              -0.13369891369374617,
+              -0.5191861638149131
+            ],
+            [
+              0.5209580209782454,
+              -0.2671880665348646,
+              -0.3330459811637596,
+              0.34519339661790555
+            ],
+            [
+              -0.025421931260111125,
+              0.4438378554151783,
+              -0.13498223914875568,
+              0.4739827272772242
+            ]
+          ],
+          "fit_relative_rmse": 0.08082629277417878,
+          "check_relative_rmse": 0.08778265263239349,
+          "fitting_rule": "positive_0.035_named_dose_OLS_with_column_RMS_scaling",
+          "check_used_for_fitting": false
+        },
+        "physical_levels_used_for_fit": false
+      },
+      "existing_evaluation_receipt": {
+        "namespace": "HCF_FINE_CALIBRATION_SHIFT_20261109_V1",
+        "slot": "fhn_fresh_eps008",
+        "epsilon": 0.5,
+        "count": 128,
+        "seed": 2026159001,
+        "role": "evaluation",
+        "trajectory_seed": 1964423951856071778,
+        "trajectory_tag": 3109,
+        "observation_mix_seed": 7993506282300423453,
+        "public_arrays": {
+          "x": {
+            "shape": [
+              128,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "d0bad29ffa256c8e7c33f74d58d6f670721da58a15bdd6559ae85e1b1e46f4ad"
+          },
+          "actions": {
+            "shape": [
+              128,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "fc4a1d8b33c34a39bafef3dd869ca0a3e909bf46aef409cdb6ff4d04b11b2290"
+          },
+          "regimes": {
+            "shape": [
+              128,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "5231afe11376aa482d993839fa8dcb14daabb2059c9014efd9fc414060bd0d20"
+          }
+        },
+        "inverse_maxabs_fp64": 1.9984014443252818e-15,
+        "physical_rng_stream_hashes": {
+          "initial_preburn_sha256": "9529aa517641e783b65cdeed42ab17d3c2b04d5a2a77cd1839548456b1f41074",
+          "actions_preburn_sha256": "3ac50fdfc0cf9c488cd3004f5e5204a3ed605806939f52b5757b6d1ceafa29f2",
+          "regimes_preburn_sha256": "bce8824d8084822ff87ce9ec6e05ba2c4b04bf620ce2e89b27ea3249bf199038",
+          "standard_innovations_preburn_sha256": "7a7d7b44f861e30f672de13cc1fb43e3de4148bcf600503f03530e2f968e2c6d"
+        }
+      },
+      "endpoint_query": {
+        "public_parity": true,
+        "query_nodes": 386,
+        "physical_branches": 3088,
+        "query_shape": [
+          2,
+          193,
+          4,
+          4
+        ],
+        "node_ids_sha256": "63ef6998c5cae58f7fe8835c099d445223c4d1d8ef5a930eb4cc60660c27208e",
+        "branch_sha256": {
+          "plus": "0e2c5015d74a9543287787b270d26c0901ca69328be765ef366476c5676e80b4",
+          "minus": "5becc14dc0cda954d9b22b79cc734e4009cadde77be64bc47c372c1de4c9acf2"
+        }
+      },
+      "restricted_query": {
+        "public_parity": true,
+        "query_nodes": 3,
+        "physical_branches": 24,
+        "query_shape": [
+          3,
+          4,
+          4
+        ],
+        "node_ids_sha256": "c77f135b88c265f9f3b22e557a37e20516577bc89375d0e0067228ef0cf38456",
+        "branch_sha256": {
+          "plus": "572da64879ca00208ec02782697aa321286c6de98522625eb5d88050c0795ab8",
+          "minus": "ef0ef3db3e3b82f6be5173412a62766d3b6679e77fc182e6fedc882a3f13d3f3"
+        }
+      },
+      "restricted_node_parity": true,
+      "old_endpoint_exact_parity": null,
+      "newly_generated_samples": 0,
+      "physical_levels_read_by_predictor": false
+    }
+  },
+  "sources": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/PROTOCOL.md": "1e18b8dacff6c1ae1ded090ed77188dd054ee7eb6fdce64a1cdc298b9402c387",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/run.py": "8558b882c697cf8dcf0a8181a3b9d6423afd29540c8d34720336de551648d704",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fresh_data.py": "77cc961a21fd75298143abb11ed88376f697f3beaa2e5a25778a29e634a63bb6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/fine_forward.py": "27033a86d79f138a32de5f2711912b86be7d758f54b7b5151ec0ae5331cf464a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_boundary_observability_20261108/LOCK.json": "850bb3529a6b721e05416e82bc9f05d4eafb5a9bcd1e83f96b138f030e20046d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_boundary_observability_20261108/run.py": "42e9924e8b7736b032b92ebd01fba72e128536c67d2a850ee3198184df7aad69",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/step6_fine_20261105/forecast_lock.json": "98b95e5da30ed4dee3e3644088fdd8aae171592b65260cf818f9c394a4dee547",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/data/DATA_PREPARED.json": "6c941bd733c35263e25b23b2abc448ccaab6df524b2648cc82c185112398290f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_independent_validation_20261109/ENGINEERING.json": "04d02b53557a329cc4c0c805a6549e7fc179ab9726715cca4e7ee02425d33dc9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/confirmation_v1/data_owner_engineering.py": "ead722272ccad5a2d18a2091ef25f0394ac8cda098b886b79e9471244a8677db",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/fine_stage.py": "2f798b44979aaa8dc52657ea50266ad074601d11494e1ff1e0268c79bd521ed6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261026/identifiability_core_v1/data_owner.py": "dec7ee699f842db3607b16b4b083aeddc1468eb0483873a042131373ea981e18",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/env_fhn.py": "b91bce0b2a801f498bb616b7584365a084c9842c4cc26db4d4e4262bb9e518c2",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_closure_pilot_20261024/env_fhn.py": "be0687fb348d517cb6814ddd8e08bceba12da877511773e83c2f2be60fc03e62",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/data.py": "81503f847039308e6ee32fc3fd931636311aa84c69beea42bdfd7e7fb405288c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/rng_namespace.py": "a4329f53453406618be8d717ad3ec5964d746e21b2767f47c6bf0ce5c5ec7f1e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/registration/INSTANCE_LOCK.json": "0800ba1873f3422b8b8f746702156faaf89f792081a4b210bdc6b06a77214065",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/COMPLETED.json": "b785f4ea89a0a37ae4c807a85631317986d1f5e4efd110f6335822dc8c6021a9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh1/seed0/JOB.json": "e6d439141f389fb16d5a8e2ef22dd028eb09f0895d047e752fd6681a7f94cea5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/Fine_latest.pt": "9ba2f594a03645f2563c340e673e126cbfde3612a8e91734f36c656b51120d49",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/G0.json": "6960ac760d70b351702baf144e38dc6c800dda5f3626697337aa2c51d9dd23c1",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/core.py": "f92f00c8805a4513bd0d6ad8ee94847f696efd2286d71fe56166a73bb1706272",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/models.py": "c14cc1d247e70b247872acc95e6334b422e2b045a1952db662a70e393a1bc474",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_published_baselines_20261024/neural_baselines.py": "36bd92bf36c856350a40f3423f25527b026849dfae9503d504a09db5eff415a5",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/evaluation.py": "991ddf9ddda8a228429db5672ad2c808cc9056d6145e4fd299bbb92b44d744a3",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_20261024/code/local_validation/eight_hour_structure.py": "402ef1d5a40aeaa8a797e6aca552aeda59f770a773b054c47c03444ff6737d32",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/COMPLETED.json": "fec77320b791600081d3f7399ba9bc1e017516fb4b7af7f49a7781e857338992",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh1/seed1/JOB.json": "a6b47152cdcca1fceea387aa8f9175b7e0b554cb8c613babf3c5c19963d29ecf",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/Fine_latest.pt": "8af3af916e830ac5223394f2437164976197a21bc729d89c064ba8f7a9b1ad4b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/G0.json": "18f24bd439b8c540ff4d46818064cc060e4b6eebd9353c7778ac5befecbe7496",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/COMPLETED.json": "117eb450bc2a64881873f72bfa047548dbdadd52c229d895391c919169733bc1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh1/seed2/JOB.json": "fdb2e8e5192bc1922d02450bdeb93b858f741ea2200067d077b572fdd5134c50",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/Fine_latest.pt": "ca8cfbfd571856b64bb9f777ef46c748a623bba4a6b51d521380399a8588c815",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/G0.json": "408c08642c585c008200f6db8df47d7988ae8e339fc74fe9ff22e83737ba6e2d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/COMPLETED.json": "c872a0f060d7fd027e4064c7da58d480186507f7431342382feb7e5a588b84c8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps008/seed0/JOB.json": "4bd2ef6959ae7fe26ee57e46673a303c2a32b87b475c27da1d2be0560c60842e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/Fine_latest.pt": "c710eae8fcfca391b8928064787e41ee4cdbd31ce658dd7e225422e16204f7f4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/G0.json": "88f9df6a025932388cda50f23f233b840d4146a93bc7b7f083ee45c714e116ab",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/COMPLETED.json": "d2f889b9df4f19ce1975b7a562e79fb19323a406ecd08bf429c565315c0ba6ed",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps008/seed1/JOB.json": "4c3ae2d1164c632ac6c3b3b63f0e25202aed8924a8870ad3bded5e58ab20c236",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/Fine_latest.pt": "ed9289eb2ee2b155a88241bcb596254e538ec5be3c9790a61d8a2d6a5f8ede77",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/G0.json": "08204e0713d957febd756754f3e2ad3e96ce05ba73739b0866f2b94ffb115336",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/COMPLETED.json": "189e2ed29b61f714d0c8f75ebada400c9e0429ec6035c787e0fececab1f4ce50",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps008/seed2/JOB.json": "d75ce7d39dab8827520a17aea976ed1a1e0ca4d8a055097d715bc3277732e181",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/Fine_latest.pt": "5304b2028484e4adaaaf98b59a80e3cf8958744859fd0e8ba400df0e7ee58abc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/G0.json": "04eaf32458da397c64afb46178e2aa78304dd9d24feea985d5e3f3c602ae19e8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/extra_fresh_data.py": "d43ecba13acdb97d33fd43a433b71afe063bcce45847f714be61de38115eb4c1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_equal_alarm_20261109/PROTOCOL.md": "3eb69f8891295fdbb917a13a4315b243558a83ca25c86147d4aee17801a1ccee",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_equal_alarm_20261109/run.py": "099dcbc616ece0d9de153c6b065368d1ad1083f0928d7e80b9c9d7564000f953",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_replication_20261109/run.py": "f229b5cf82bf8799dc0620a190f482af147965fbcf6859b8e86c40d0ae3ced67",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_replication_20261109/LOCK.json": "979fc32b9cded3a2996ce473aadabe51f3b41d907de33f731893c365a2a8fb5d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_replication_20261109/SUMMARY.json": "482b5b989d434f15ef0c11a2e61957e3ac0e95c3d87199285d440e548f6dc8dc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/extra_fine_forward.py": "4c6d30586cd80c825dbc65f10d93f3de7afe59ea236ab33e89d03b1034bedd67",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/LOCK.json": "480face55396a15fdd03534ff4af3e7db20f2cc6c7ce6e8ee1e98bb2edc4feee",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_replication_extension_20261109/SUMMARY.json": "5383efeea16456ea279778c5bc32734b5160ae75e0fec2af9b0c8159cb688608",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_anchor_bias_20261109/run.py": "a97052b23f57c5c745c9a1ee3ecbc86f1b7820bbdd873e5c7bb609406807fb7d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/COMPLETED.json": "0a7792650e7979da0c600d768f65590ebe63911df3c1d5eb4b335ca6077aa7ef",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed0/JOB.json": "fe20da14cea88bc525e1e4a839c09b0e02c2df57c1edca53313b7f1db4675984",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/Fine_latest.pt": "3208fa2d6c867f974a2ea521f60ccb82527d8f23b26fe0f9d227a9c2250720f5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/G0.json": "2648e789bc656cf2bd0b8fb4b3a79b9ea23560144f9375faa76cfc5b328ea61f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/COMPLETED.json": "56824928c62e66a8256984b777943ffca8d9c2835bc20565f1cc370dd950d970",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed1/JOB.json": "e4389378c9a8f8bb931418ecbc3b14f4c2ca4493c6a2bc44331a39354e8e7bb6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/Fine_latest.pt": "751aca61bec3f43236df75b5f88998c46ee90986a5dd595d3abe18b1bbdc7611",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/G0.json": "809247149db5e641d6ea5755eefe191c0b286eb3c2a87b9b78f357bb8e19cd41",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/COMPLETED.json": "bc43f167e2f917631e3342c6a0b49a8c31ba86db2fb5ec68d3f5f098f486a9d3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/ar_rich_fresh2/seed2/JOB.json": "285e5219d3422ce94bf7d0ff42d1a07822d3f7585505d1ab0f763a6e777067f8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/Fine_latest.pt": "9c22f055825fea2006bd8e1410d7f95c6c6bc5c3fbead241ebc517faa18afcc9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/G0.json": "de6da9c4a7d82d460c76796e22e670882c93821776aa53bc4d19bcc4b4a3a6ce",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/COMPLETED.json": "51dfc9b382c8ad7548d560fd78f1f7e1c2583788c2ed3f003c0ca4a2ae02caf8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps05/seed0/JOB.json": "4a017f53e09efe2989d1c82d749d25a36fff6dd67681603b227a5624e9ce85c2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/Fine_latest.pt": "dcbfe05cc9b6a48952a464276be0567673bb4a5a6a925fedcf2768c59d439018",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/G0.json": "4efb02009d3d620f304cd2061ea4b0a3afe71e4a1e5a724a14a5dac31b15221d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/COMPLETED.json": "0f94337293197e75a5186511fb379a80f6da8d87265a0b12e19284f1f3ebf51d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps05/seed1/JOB.json": "c222547a35bf5167144d0303b591dc666ce47968167ce5890d3f601aef78af36",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/Fine_latest.pt": "aad5b421ecb2360233c9b8c3447714617ccaa116b47863e96a841d098e8e3d3d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/G0.json": "fe97a29428105913d0cf0683c9d5a3eee4a9fa3b4cf5c6b23f49556df71628e8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/COMPLETED.json": "7b3671f159cb691287bde2d7b02ff675f4b1b5c60418fae4b480e9b45d540849",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/registration/representation/OursFine4/fhn_fresh_eps05/seed2/JOB.json": "94c794cad010675cf1c66d8ad444f2e4176ffb1226d3a364199f61fe796b81a2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/Fine_latest.pt": "a8e761ff1c7c6683003e1900ce18721f70d1f43067124104df393aabe7b18e60",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/G0.json": "dcc606db41fc1b6636b8053a43cb81d940c02c9d70d220fda08f2e6dd913c573",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/run.py": "c5d204607760cc7778651244ffbb6b06f5af4e1fc5013c6097a1f1b947bd6fad",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/PROTOCOL.md": "614378264d69d134193cb102b10480ba49c0ab70f08029454e1c9d7aa764f386",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/THEORY.md": "8e7659225633abb1134ceb64151fd0ced29121e0e58ac2ae987bd55328eada2a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/equivariant.py": "e39116aa8df12b3e57aec30a0b0468f51df24ce1828bfe1734e85a4c734410ad",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/ENGINEERING.json": "d48a21cdab7650940db7eeb2d61a4435c116e2de02642627b97acdcb72aa5986",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_equal_alarm_20261109/LOCK.json": "1341759510316dd47027dc8c0020be2747378b1c9481cea958396103b9d13fa8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_equal_alarm_20261109/SUMMARY.json": "942414b52b9bf761bb6470d038e91f2a378494396045469f8a4fc49dced969e1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/shift_data.py": "b0928c04b2d0bb9212f15c6fcb52ef3b9f986623751c4629f5435b42e537acdc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/run.py": "a833dcfdc93315a0450102e4119480c3658102305aeffa43a707e7b63cb86235",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/PROTOCOL.md": "a5098b6727cc0d7837a0eeb4d9b994314c6e485b4eed30ea2fba1abb70b424ca",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/ENGINEERING.json": "897cc368e4647be0ca49cfa45cb221d5c09fff5deeaf132d097252ab66145f3e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/LOCK.json": "4e502e92a2b95d9a59746bc33215663a74f2d817c60475f9d2c2c79bd04018d7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_affine_control_20261109/SUMMARY.json": "a577d6bb48ce4de073f7393c80ccbf4037ab225e7742c58cbf1e75842ad74435",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_target_reference_20261109/run.py": "7ab32b52383fc379a6e00520948acecc4398a114a9bc792057d3c4e395c53648",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_target_reference_20261109/PROTOCOL.md": "77983edfd76f32cb5b7a0f841992f788b64d92f091577223d3fe77248ff3a672",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/LOCK.json": "299fff94b468cb7ff5d093c1b3c406128b6ee6bd2b15070470a574eafcfe2cdb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/SUMMARY.json": "5fc6e086158a75dda6f39d7240e1eee696513e1f52a5dfca17f6ae103e00cc14",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_calibration_shift_20261109/REFERENCE_DIAGNOSTIC.json": "2b4cea4972a8de76527bd47453c3209918a4dd3b5bc5cdeab14218c17dca1fd6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_marginal_transport_20261109/run.py": "a19e7c09ab94c3e86ccc03b0ea9989d5fca74273bc0a0e18d20c0846bea75776",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_marginal_transport_20261109/PROTOCOL.md": "5a4d8823453df1cd4b064ad489d87aedddbd7e274865a7fa4b6cf8dc72ce851b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_marginal_transport_20261109/THEORY.md": "eb53c389328e5e2664f79e35d99d19e9205190ce60ec2f777bd4945ee2c4782e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_target_reference_20261109/SUMMARY.json": "4ca1f7bcb5bb376337c1c342ec541031a444f064db9470b73a9e26038835b25f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_paired_readout_20261109/run.py": "e859cfc51dccb06fd21fb4d970df87b9693b4adc27d0522ee7465523109b39d4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_paired_readout_20261109/PROTOCOL.md": "fe22eebc16fc79b26d2b2532b9016b992c0b6e5f20438c156d701a698401329e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_marginal_transport_20261109/LOCK.json": "a67f6f9df9da8698ba8681bbb5b24f472e0712ed7ec712e5a301d56ccaa2a910",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_marginal_transport_20261109/SUMMARY.json": "79441052ee1bcd586b93a64ba77417cd589e19f14b42addc0d6c9ce8feea8dab",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_anchor_bias_20261109/paired_innovations.py": "3190913f669b2e15821ac7d716d6447f430f0151caea68d995e94256da8e2c12",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_drift_moment_20261109/paired_shift.py": "654c8b011ec3a535b6beb1f465a09b3a1bee2b1f79f5f8dc5dd718977cb52ea3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/active_observations.py": "421d2d8da0d8024333fe34120b423a5642eeff54a59583e390d9b303d421daa2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/run.py": "7c2b595d63d8d10a47e14e4e768a9d74f27754199f43be05fb5b74618645cf54",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/PROTOCOL.md": "f505346e9b088d52348cb158f113e3bdf97bbff45ccd7d660018cba864f1d157",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/THEORY.md": "ae227692711a437ad8e5d2d820667f3dee4769e445911ed728db655cbed42839",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_paired_readout_20261109/LOCK.json": "5e47ad52b66b638ecd66eeb5a10d5f40ff4100ea5cf5eb564c2263d7f753eef9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_paired_readout_20261109/SUMMARY.json": "f8018ef6005b082b9142295794730005f06ad466fc0254f0a8b5cd3a8d1aed82",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_stage3_20261110/data_access.py": "c39877855616c8ade1e7375c298daf36a5fe2553598cb27008e06a1dbea02aa7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/FORECAST.json": "4ccacefd8b2680a178f9482bdec19b28d34cc8a71bcca91e649a5978b8d840d4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_active_shift_20261109/LOCK.json": "25db260998d02ee8166093db16e5edfc1cbe012b2d9408867648c96a290c9a90",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/Fine.json": "e1b9eb358a826c3d208f3e574e8b94fe2aa121e0476aa65dc2280e40ca631bfb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/fine_development.py": "bdd0b47afa875ae2aca3c697d8a54d022b46343015f34d767973827132686c1a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/data_metrics.py": "5cd34cccaaf9e7a14c0879704803cdef24e0e64aa494591e3f016d674f261255",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/data_owner.py": "96e34a65841fc6e14a23ffee4315be6b71055a869fbe8ddde2316da637c8b0cf",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/common.py": "0e9d0181841cb1a21fef685089dc32c1042e1b2d4a5f9f2377c9b261404a2f47",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/o2_v1/engine_v2.py": "58d604d91e6dca1628959949d96cf6883eb5bb7a3a4805b9f82b845559f8ba2d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_multibench_c1l_20261027/consensus_transfer.py": "fd6b1fc45dd8831ec4a83c3910ed999585e2d56cc2d9c649e8dfc41af4e5574c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261026/multibench/benchmark_runner.py": "a25d4e9bf0210067759b482e2d9c811a3758f32bac73921c0d383e2a216c5ef9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/o2_native_lambda/ROOT_SCOPE_AND_PRACTICAL_GATE.json": "e98f53a8e45d06d52e983e800fae7005cc3c01e67cb87ac1a5fdd3cc05ed0d15",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/o2_native_lambda/NATIVE_SUPPORT_NORMALIZER_CLARIFICATION.json": "96d43ae3b04b68bec346e59ca6766b1497d578b1c7a72563d86b64b32c0dc05e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/ours_O2_lambda_proposal_v1/SOURCE_REUSE_BUDGET.json": "e1881224ba1f64372df360fd5cc5841b02bfcc9f9e03e0f7aea0c59a5bcefc4e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/eval_v1/run_historical_evaluation.py": "4a4e84dfa265c6022b57093564b7c4886d9719679ecfe94b776b7b26d3555e95",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/historical_evaluation_v1/central/READY.json": "37c9e5ac74e4a133375784be981bcc6029d26ac26235b6fb8e777b421d57f7d8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/eval_v1/independent_saved_audit.py": "8ec257ea9a0e9426541504fec3d36cc4fa15c3de1dd821de24249f91072a2101",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/historical_evaluation_v1/independent_auditor/READY.json": "e5719016708bf09d96e376e079db3473af35bc447a4db8264e9dceaa5e0e0f00",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/historical_evaluation_v1/ROOT_EVALUATION_SCOPE_LOCK.json": "fd0a9e89214b9d8b2577eddb1c138caf3c4dc58cacf92103d676774326a96a42",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_finalize_20261027/v1/explicit_selector.py": "e39e988a6406d2f70b1755bbb6a456dcde9a2ab56f4caf6647d768463becd112",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/ours_bridge.py": "f7cd48b18f5e237d71d63c9962c02dc7123a3a62a9843d2d5fbc481129ace04f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/common_readout.py": "755c116ec270fab8d01cf9a66c14bc356bb137d342ceefd5ddf7069a3dc884f5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/lejepa_adapter.py": "7bdc1137a3c5efb14c203f15ced0405c55c8029cdcf5831ea4c2119a4fe15fda",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/aggregate.py": "1fdf198106313985d5e9186ab89b079d5587ddd3038316ad83754e427ae9df9e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/make_reacher_distributions.py": "f11e1d6955b6596fc2025ddc986811d24e9c08cbf1bb0af02593585aeb5b1189",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/make_reacher_figures.py": "60f2f4fd40eabde05ca36c489051bdf20319a21bbc56489c7ed706615abf1c37",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/make_table_ablation.py": "c9ae39f78e45516a594423831a3891fe918643dee568cfce4b6fee808becd4c5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/make_table_reacher.py": "bd1da38891eaa5426e83d3ced8056b9f5ab1dfecc46daf47b5ff2438293462cd",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/make_table_scaling.py": "4c52471182b26dbb9d684a4a06c2ecb5a395adfbcd49e2b32a4f754bd222e59b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_2d.py": "31bdd6be84c00bfb8cfb741efcbaf9238b3cc942f54acf66d48a992ad5c34a8d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_ablation.py": "f10fd58d0a7768bda1e099df041fe06d0d61b67ed0d9bb8c1bcd9bee677fa838",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_bound.py": "39bfbcd80ed1d2f000de32febb9f7484adcfe816ffc09be439e0fd8c80f9c7e2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_gennorm.py": "2df2a8b2a5b400c0b4859f5b34bc8af056a02f893f2f664794349191754179e2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_reacher.py": "3d0988fb777d7dcf006b8c3ee4804302102967ab89be4227f62deac88e6abd27",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_scaling.py": "71c560c1944bc6cb8c62b352d02804d4c734069728e45efc3515166bed83dfa4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/analysis/plot_scatter.py": "36f6b1ca3e6280956932887f4117c9f88360e5276f9d948683ee2e798bb720d6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/data.py": "450e79e7a7bb52bd10489d7fc1f226f351f5250c24d0825e513412937f791de1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/engine.py": "96c178b96d583b6797367f3e3ddd4d956dd92aff95f0c513ce8e7c6b416cf23e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/metrics.py": "11961971fe4ef6e45c95d373de55befe4f64537550f02dec0b25c25ea4cf9257",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/mixing.py": "fff1e08f5cfef8121499e6a85318c18559b016691e08319dee1e90e5c861790c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/reacher.py": "79f5597765599473fa2b110c5a94df9fee72fc48a58126cfe4360b357505bdeb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/prerender.py": "9206b77dcb9b0e6b73fd6d7368cf3d624d86e2057bb6e2c73f341ac93f951595",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/run.py": "cfd2153b14caa49fd994eadc8b84949d1c25583dfabe845af59c65f0a62ca4a9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/run_reacher.py": "3d17c45327f023d21c4c4ea98688d60729303ac7b02cf7b4f18203f8491a1a74",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/leap_controlled.py": "f4e1eaa74640335a4873f47483b689b5ff2209b84a330b48ab277f887931846c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/BetaVAE/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/BetaVAE/model.py": "cd83bcf8fc9f24abe46b576ded5364f37162475a0941b6cb5f8dc2bfd4b404d1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/BetaVAE/net.py": "22405317d9c5fdf5f37c2d642c4f4d06c1f9d30d4137f804c5c1f7ad18559b75",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/FactorVAE/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/FactorVAE/model.py": "9699e2a288601d1a0f15a6d0d51066f2f26b7c056dff21f1640912cf213be68f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/FactorVAE/net.py": "cdf299d2e400545670754dcd74f191f43508fd8b3337cef024e52d4011455ad5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/FactorVAE/ops.py": "c503f281c0b4c689c894443cea92d916b114953c1f5fd05cecba0f24dc366c56",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/PCL/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/PCL/mix.py": "93e239f1a074e26ac6740ff10e056904fcb09e03f1f9345d33856ee328c06941",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/PCL/model.py": "6705fb08b224a36bdae25a17e2cd9a03595da8b598c914eaee45efd8a14d3427",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/SlowVAE/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/SlowVAE/model.py": "dd9536bf7b923e67db3cc192bd0c8fe54c240c90102c4aef04646a09062f62d2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/SlowVAE/net.py": "d76c3c01d72738920ae67ee22340968e438e3193c2c4f8b9f2873bf3e3915ca2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/TCL/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/TCL/model.py": "93b1e1b230f728a76f910465ab318a4fc0b34f643d459a4fca4fffae6f140104",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/TCL/net.py": "5eb61059932e725f0e54f46c89da7a40d64d97d33b7b01da61ef51737c716613",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/iVAE/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/iVAE/model.py": "d44afdddb55ba6d7f7466bc77f769f40f78e3034a85dc0d7ab294682d90f56b6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/iVAE/net.py": "0db7bba3497c71157e67352a010d53281d68939b2ccd460742b4e39e485e939a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/metrics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/metrics/correlation.py": "733f8eda8771aa54fec40abb1cfb6095ec9daed91475b33508cd8a7e36b7d777",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/baselines/metrics/munkres.py": "45d4af09ca325330ea22920810363937871b8e038f4a6807461d50c402afb388",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/flow_dataset.py": "a08c4f010248b9696d7a8af926876f7aa21e8f6f8cadab738b9b96f425e8fa6e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/gen_dataset.py": "482a1676f102c5af5d5463add82256c7f8009f9c1c0bf972021812227c5c80fa",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/kitti.py": "46fabeb72ab60b624d4fba2d69b47d15fb9d03fc781ae486296cdf5d28468d98",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/kitti_sequence.py": "5afacfeb614eea3459994c4f3154285b0d54f183357f523011c3dea477c6ab77",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/mocap_dataset.py": "30b506c7e87b2290af34b55662a7113f5cf27385c6c0071adf15c1031c354ca3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/physics_dataset.py": "a0b31fd48f605a91bc9ace00b8521035f8947af4b95cc2ef12c1fd1d198cd535",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/datasets/sim_dataset.py": "03e2abdd23ff10cda8e6d42f0ca5113a36f46d6e434a6e3b997d0cbd4f4c3ee2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/__init__.py": "fb9ee17c836437d1d211e0d8095781ec7d54b2781a75246e45b621f345d408f0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/ablate_ri.py": "c31179d44c7d5a79b2168c23c92185da432c10fd521597d1c5cb62e571ce49e8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/ablate_trans.py": "9a2762e8e4dc4dc49929f082b6e326795d215a4148cc8396bf5dfbb7242c3afe",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/birnn.py": "ae53d2f90ccc595c5518b84a786776a13704556eea139b07db45d5e0e9598e8a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/__init__.py": "a8923b26832a040abe569852143fe40e064660c9ff0c6b0aeb93720867283b4a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/base.py": "88db3177d227b30dcf32528aa4f26a8ef3da917248145370a4d5acdef890136f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/beta.py": "cf2a4ef30f44c2ff3942a1d5ad1b88ee13418cbe86151ffa27afdc92bd40f29f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/beta_linear_video.py": "f786294e77b2f97c276beb0c7e77bd94f0617dc0d0fc606525ad3cc0e9c2cff1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/beta_v2.py": "3f7881a6dc1cf4b049c5ebe3f2c1b562ec738257ebd5bf6854a6938b18d4393a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/conv.py": "025ff67dee53029e7b4a1b6272bec853caf403792431f43628d4b59ea00fa63d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/glow.py": "e6e0375462f50459597dd0bd11db9370a6b9086c982773290b0f067d115a56d9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/graph.py": "b2468e0c3182ab2ed1f8252e4ff4d0dcaf1406fcf75d351ca2db3751e606bf1d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/hsic.py": "e5008eee45825a63d556f727434e7de2a1367931e31606d9d78a8476c4ba489f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/invertible_net_utils.py": "df15868d180af2e7d4c7cbe38d0cfbd8997b7f7485b8e5c73eb4b101edca072b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/keypoint.py": "74de605d370b97db0f6230f70166c153a16058524a9326e16f53efcb7d6c5654",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/linear.py": "77a620f3f93925ff599c327a10edc3bb3d05e74100ee63a2eb19d25ab420b2df",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/mlp.py": "eea86b8726ada2570b204f15a677ffcdd094b3b905d2741c9563e8ada6884122",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/process.py": "654ab9d43df690b8959acc7b5e9ddae81ba84098aa6f6d35a31504d2a25029e3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/__init__.py": "eb0ca5ac035ac1744c1b8373013fa2e54a1f95af59dc15feaeeddbf7fe2708d5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/interfaces.py": "b0be4545eef627a94707974ab72fa6a13a1a20498284041347e663a0e0c71697",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/model.py": "096264f3ce515e0039630bf69eea55c2921e97c5fb34a2c02d82d4c98cf0d83e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/prox.py": "65bfc2b90df408c68b9887423ad6450b672f99030d0419c0f7e64b276467050d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/r.py": "c7ee3d7edaa5524b0d1a1855f59efebf6452ef2204bc4c648b3e013caa4de4a9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/pruning/utils.py": "9de8827450ff2b04664a21398c5b66805f54ef36dff05c7474d35e9a2184bd29",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/resnet.py": "56576a716c6928a952b274a1a7b7b227fc8dcbb01dbec56a5aac901fdd20966c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/segmenter.py": "5d4fc5edc3240de9c7814e511cbdd2f375eac204ffed87b7a6ecffae9985c970",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/splines.py": "cdb0d11ecc61b19168d14c1ce2eefb169788dc148806d3cb29208f953d893cde",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/tc.py": "79193c2a07a8ab99260da045912e60d1f182a19f87ac439d9a10a9f8e887692e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/transforms.py": "2a6b745594c1c79c33c74818e4923ecca8f0a969bf0a55e394396eb79ad3c8f0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/transition.py": "ed6c70a6ba960560879029cd32e13cfdfd2828c603beaa775f5b69f94eed98fe",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/utils.py": "82233f48242116115974c2a63cf74fb6f8cdff38b1ab468aeddf7a1589bc8cbc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/components/vae.py": "e95e52ad8d4eae4cd533af6c04553613c858db2152a76426228e8d110ec7fcef",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/cond_linear_vae.py": "15a36e3d6a4ef18952fc2e2b1aee9a52d2e8623f5b949a9b69e6021025f29064",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/flow/dendrogram_flow.py": "54862e7533d078074fd4429be719eed94c2477a39b16cbed32aabec7825eb14d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/flow/linear_flow.py": "b5ef4c811ebed36e14d897800388b6725b90de09885fc9d91ad298803eae1252",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/flow/trainer.py": "06b100fdc7fef491c3ad768f28654e52bc95826a113ef1564931502cbca5f568",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/keypointer.py": "0012751b44b194bbd5e5de25fcb37a21ae050545b3edf057abc9f4d1b38c32cd",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/linear_vae.py": "130eea66ba53387d3dcf493291c76942fab47c1d1e7804e19ceb37b38149a686",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/linear_vae_deprecated.py": "48809856cacc82d335da67c9796ae4026c7812971af8da39833dabfd932abdad",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/lvae_linear_video.py": "d072e57dc0992fafe9f97098ea2a6ea8236177fb06932dee215f3424596e035b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/lvae_nonlinear.py": "48cbb4ac0fd723ed2b5444005621a1b92579431f7523824607745df6645ad5ff",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/metrics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/metrics/block.py": "edff2e1099dd93b7dc1a77b0e0665d83cba33ea99d5c7201c2762d702a2f591a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/metrics/correlation.py": "1b312424cb5f4a71916c17f8cdb9a05499f6e15b03a2c1becd22fc638ad2a595",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/metrics/munkres.py": "ae092ebaacddc497d888e9bdef91628f869413bb552bdfcbe98ab586f54872ba",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/physics_vae.py": "b67dc0773680d05eefaa6a54fb35556a406ff7857f2e3559485e6a25aa5c4799",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/pnl_vae.py": "5ae98c05976206180ea8dfcd6251b893277169fbb7e4b22669369706e74b0e62",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/pnl_vae_ts.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn.py": "dbf3f4f93fa2b0830f7cd7409f748f2f15fb576c602cf932e68024407e2b31ca",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn_cnn_ball.py": "1295af2d19a162d885bcf916d35a300870d520a257022c37c8db9a2bd9a9852c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn_cnn_kitti.py": "22e2e2620015d96732181c474dd35112996cfe9985729e0f03c22d018e3124a5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn_kp.py": "a47e622dacb59a9c4688e0cba1cbd41ef061224acd34f9df86c393c814d04d08",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn_mocap.py": "f3fc1b65aa15466194dd6a2a1c83e442b8f27677f2fc57f0727275d0b3aaba75",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/srnn_ns.py": "d6b3ffc90804f736baa988c1179e070d3f221dcc4bf44b6bfd03d74536fde7dc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/modules/sssa.py": "95d5b1308750c41ab5a8d1cfa57258de70263707d15fb5a74b31cb35ac38d740",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/__init__.py": "accd1c7c40baed8df76ba7e1e66d1434e98836999b471fdf3de419ee2e5ca576",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/create_rels.py": "dec647148952f4d49e5a4d19076bf04f6359516c5932870d1e3910e81d0fa081",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/gen_ball.py": "d6f56d2fc55053a4b2aeb1a3c1ca1de5de36be3cce9894412f197677a4b74a3d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/hsic.py": "390dc2390534190b9e1b244ada0361d0e42ae899beff890f8dec297af489bc63",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/mass_spring_engine.py": "8d9b8f7a857836b4a818c79b166fce0a080599469b318e7b0196138b72c1e1e6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/physics_engine.py": "28ef35868ef667f53f59d6527f7b67b951beeb82eb5c6e05b43ace1b34c84cf1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/simulation_flow.py": "bc2c4dd7efd8d4bcbac46fae7168c252e80e5281d8a06b7184220f2899edd701",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/simulation_vae.py": "a9e02ebc605ce0f6e80b35b88b4a592e820ec2db1709eb3811236563dee649ea",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/split.py": "44ed2586372b3f5afc4edf911ccdab98d54d38c34857b0cd6cf54391bce66dae",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/torchutils.py": "82233f48242116115974c2a63cf74fb6f8cdff38b1ab468aeddf7a1589bc8cbc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/typechecks.py": "002eb63da62697deb370af5abb47a792d289291cf9d97566e69c0ebd315dd7d3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/leap/tools/utils.py": "b8b39ada944f0127eb2615351d37b1fdd8747183844ecd5dac1637967946380a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ablations.py": "516550ca88763befacb17ba46ccc892a77b5bddd35abf62af5b0d83c05e01ce8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ball.py": "cd20e0c5b5ecc057233e097f869834da4858258ff3f23984742a31d5c57b3d1b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ball_cnn.py": "4fa48befbbf1014c181763eea95345659b20476edd549e4e4c0a79af2a18916d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ball_pcl.py": "7aaa624d6b3c883ca11b2e5fd3b99a26d5e12dcf3fa998d8469d155f5d2da2b0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ball_svae.py": "a0dcdc1707838853ead6e0bf7adf4174c503e6cce6a53c97ecf7b28d127bc1c4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_baselines.py": "d91bf34b5fb22a94bd55a4bb05f75890f38a65ddf483cb4be9e189e7f203f127",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_baselines_ball.py": "ea9680cc884d3a1b7bcf9d078203143956f18f4458528a7392f34d9282294251",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_baselines_kitti.py": "1c4998e61326d54369993a9afd448efbcbec774eb47a6e22e446925fe4a809d0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_baselines_mocap.py": "8f64126026eafe211265a661523731ed4f7e7aa55a1b200a777ca0475d7e687f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_cond_linear_synthetic.py": "62e05365c23210d808eac62e315238163db87ef10794f8e40503b54ed40d351f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_keypointer.py": "3c02005c99655a7b5fc71534d84a53317b4e5c6a64739a6babe40824ec1a697c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_kitti_mask.py": "3ca585c337e89634238df6dab3284eb219977a70ef1d25e8e354f3ddfd304445",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_kitti_mask_pcl.py": "3810a299293ef022a18de769b05682b0a9bb418dd4f54b3ba8a819b4bfe2930b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_kitti_mask_svae.py": "e0249fb6db2c1a93078d669c55c68cf1cf5f0adb5660964b2c0a3d8e8570d8ed",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_linear_nongau_ts.py": "5aebfbde9648ea3982efe0491b55e1f07dc7ff6bd92020589b0af73fe701e575",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_linear_pcl.py": "ab194f91adaef97c61fac4979b10714b669e11a2a2bf3c630ce1c514c87a4bcb",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_linear_synthetic.py": "4cb43fefe29c58dcafb07bd3d6837e72ce4f339f63936127e2a80bc67c5aab79",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_mocap.py": "2079614339405f677771d04bb365b4f7cd1ff4f22348d92ebdf86c1784849c8c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_mocap_pcl.py": "08f476a15a3f91d40133cef2cb148258698caf4fe041ee23ec29a7d87b83467e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_nonlinear_gau_ts.py": "803a876166d96c4ba9dce45ff637213cf01196114fe3cf9b307aab2821720970",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_nonlinear_ns.py": "97e1fed6c9d0457f73324f6561957c9d0e2b3e080ef3ee3a68eb878d07bacb8c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_nonlinear_pcl.py": "3aab0d5222e2b01fe2f9bb384b76f134ca87549ab68dca3c31466f02cd1f4630",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_nonlinear_vae.py": "9ce3791133af78b11a69a0b794594b308f769e6f82e90db862dffd94b48ccf16",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_spline.py": "022faa48fb282763a77e95e20481b7e4ec41236dd7f34ad49f970ea66b089e37",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/scripts/train_ssa.py": "1bac4ea0dba6df80f34f04d56aa5708cc1c95569bd350f5bc8f19c10f7053b2f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/flowdirect_branch_v1/vendor/leap_official/setup.py": "70789520582a9fc571b425c504a91cbf571dc257ccd83e75f4a6e28fcebb2c7d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/leap_adapter.py": "7e89ea6f14cb54bdaa7e19dd1ca0bca4b225452e2e9382083a7287744070182f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/leap_standardized_adapter.py": "c01cba1b2890f9b1982269a1b3fb89e1b818857e98db6f47bb00d428187b9bbd",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/v1/run_b4_baseline_fit.py": "adf185babeb26d526cb9a32d3f4c090a5fef40c6f17b45de09eb8986c2d2dddd",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/baseline_bridge.py": "78713d56ae28af9dd990ef4e8eab513efd047c1552cf8533d4dfe0c0a0e2544c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/confirmation_v1/baseline_fit_bridge_v2.py": "d75535760de87a13bce5bcd8da15bcb62b0d0ed3aab3d00f6fc7f0b3bca897c1",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/rng_role_templates.py": "530d8aaee94eacf1e34ccacbaa736768b0e22f1be78ddf92dc64287e1e9b7f23",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/check_baseline_bridge.py": "e1d19e04dbaf6144dbc915bc6247d5b543cf5f7e4cfb25e71b85d250cd2af8bc",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/finalize_baseline_engineering.py": "9642248dd658c94d8637a62461486ff60bffb17682e564b5c0a0abb10301f11f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/driver.py": "6b3a63c7fd9ef41f506af8012b02ff3555dbad3dcf53bdac0f93a5ff92b4c029",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_scale_transfer_20261111/adapter.py": "edcc240ae85c29731d57a80a91110cfd6f2152204b55caed4765a81e7438d92c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/fine_local_dose_window_20261110/query_data.py": "2d2c7b835d4820b5d63c61e40a2b4209be463b650bac50ebc505086474b518b0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/Fine.json": "24b33f78a19928c92ba7dd3875e9310f01817899ff9572eb91ec86feb67c2ed0",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/data/TRAIN_CAL/fhn_fresh_eps05.npz": "c3c3b33514c322de7af2d3eae23bdf7a4c3db228ba329a3382cc9400e98144d7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/FEATURES.npz": "a942c2f82c58f90f8a179d76e174ed2bad0745c6a5dabdc0a746807eb0b29fe9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/Fine.json": "2463ccc9c21f4acd46e7aeea0620511241c8efcc69335bb39f1df33de9e2a1a4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/data/TRAIN_CAL/fhn_fresh_eps008.npz": "9d6d95dbf0bdc9075908015c7b567e1f1313d6b5712d1b2eb76fff1ddaa401de",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/FEATURES.npz": "4a347bed54d8c2205b318fd710bedf6d805144c456829eb005dab6bf8dec244d"
+  }
+}

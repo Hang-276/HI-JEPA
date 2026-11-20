@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import copy
+import math
 from pathlib import Path
 
 from .io import read_json
@@ -75,6 +76,16 @@ def validate(config: dict) -> dict:
         raise ValueError("Matched transfer comparison is defined for full and no_fine")
     if cfg["system"]["noise_std"] < 0:
         raise ValueError("Observation noise must be nonnegative")
+    floor_mode = cfg["losses"].get("coarse_floor_mode", "hinge")
+    if floor_mode not in ("hinge", "spectral_barrier"):
+        raise ValueError("losses.coarse_floor_mode must be 'hinge' or 'spectral_barrier'")
+    if floor_mode == "spectral_barrier":
+        for key in ("coarse_barrier_mu", "coarse_barrier_epsilon", "coarse_barrier_lambda_floor"):
+            if key not in cfg["losses"]:
+                raise ValueError(f"losses.{key} is required for spectral_barrier")
+            value = cfg["losses"][key]
+            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(float(value)) or float(value) <= 0:
+                raise ValueError(f"losses.{key} must be a finite positive number")
     return cfg
 
 

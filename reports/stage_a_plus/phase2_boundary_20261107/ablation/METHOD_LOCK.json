@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-07T10:38:48.185066+00:00",
+  "script_sha256": "872a6ecc8fabc45b921ba98a1b61404cd8f83d0170936961c730e1621eb9fd3b",
+  "protocol_sha256": "132ace3230a4cb2367b0112d1e9c51131b91cd01bd3b4f419e9a3e963b431329",
+  "input_sha256": {
+    "freeze_ar_rich_fresh1.json": "7f57a260515ca4f5a37b68c677a7f9297a1a8acc41a28545a8926e6f2bae46c4",
+    "freeze_ar_rich_fresh2.json": "b0010de62ef4db5f928b436cf785d76889313b2b3303f02e391f7df76c347a3b",
+    "freeze_fhn_fresh_eps008.json": "b406641208e47591a472fd3d56aebe90dfdd13bf64c8165ca8d355bceab940dd",
+    "freeze_fhn_fresh_eps05.json": "d98ed793520ffcc3dd209f3ad6763a55ca683b8e4430268a94b78f9364f876a3",
+    "reveal_ar_rich_fresh1.json": "63b35ca58ae9fe70a0aee409f63053553ccc2cbfce90be30e7f8329fc273cd19",
+    "reveal_ar_rich_fresh2.json": "47d69546818c75cf2f32f5997066b065f0b5cac302fdd21c691775abd9ce5cba",
+    "reveal_fhn_fresh_eps008.json": "02e1f51cf023167ad553f229eeddaf898303a0630048a346ec782467ed3d3fc8",
+    "reveal_fhn_fresh_eps05.json": "15de58d9ae51dda5ec8c3c68deda9b5c00172f2e97265bedea87475bc9a1d536"
+  },
+  "new_methods": [
+    "b_fixed_plus_train_cross",
+    "b_current_plus_train_cross"
+  ],
+  "operation": "Add unweighted three-lag mean of stored TRAIN residual_cross; coefficient exactly 1",
+  "evidence": "post-hoc development; all CAL already exposed",
+  "fits": 0,
+  "new_samples": 0
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "model_tag": "fourroom_lewm",
+  "dataset": "dev_preflight",
+  "features": {
+    "grid4x4": {
+      "audit_r2": {
+        "agent_x": 0.999829368271458,
+        "agent_y": 0.9998086653794439,
+        "distractor_x": 0.9957543322502678,
+        "distractor_y": 0.9957052247391431
+      },
+      "minimum_audit_r2": 0.9957052247391431,
+      "distractor_r2_min": 0.9957052247391431
+    }
+  }
+}

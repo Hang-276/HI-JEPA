@@ -1,0 +1,26 @@
+{
+  "seed": 43,
+  "dataset": "dev_preflight",
+  "features": {
+    "cls": {
+      "audit_r2": {
+        "agent_x": 0.9999333781349011,
+        "agent_y": 0.9999424028194429,
+        "distractor_x": 0.4253627685923935,
+        "distractor_y": 0.48175347648047895
+      },
+      "minimum_audit_r2": 0.4253627685923935,
+      "distractor_r2_min": 0.4253627685923935
+    },
+    "grid4x4": {
+      "audit_r2": {
+        "agent_x": 0.9998297479093228,
+        "agent_y": 0.9996674677887842,
+        "distractor_x": 0.9239830656391833,
+        "distractor_y": 0.9793542261752952
+      },
+      "minimum_audit_r2": 0.9239830656391833,
+      "distractor_r2_min": 0.9239830656391833
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "lock_and_reveal_hashes": true,
+  "pilot_and_stage_order": true,
+  "unique_observation_batch_hashes": 160,
+  "distinct_evaluation_trajectories": 10240,
+  "evaluation_transitions": 42467328,
+  "ols_fit_transitions": 2621440,
+  "oracle": {
+    "judgments": 3826,
+    "wrong": 1
+  },
+  "ols": {
+    "judgments": 3816,
+    "wrong": 2
+  },
+  "cpu_threads_per_process": 1,
+  "gpu_jobs": 0,
+  "server_connections": 0,
+  "fine_training_runs": 0
+}

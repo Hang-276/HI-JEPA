@@ -1,0 +1,215 @@
+{
+  "fit_receipt_sha256": "6c3b84d1fc688f3bb6904cda33623b85cf1bbaefc960b711abc865d43addbcca",
+  "analysis_protocol_sha256": "6b6a61270f90f29fb55f3bf82e18904dd1a278820234e62b7af5a8723a9e5133",
+  "match_max_abs_r2_gap": 0.005,
+  "rows": {
+    "separated_wide_1942": [
+      {
+        "seed": "separated_wide_1942_13041",
+        "max_per_axis_abs_r2_gap": 9.173055162325916e-05,
+        "matched": true
+      },
+      {
+        "seed": "separated_wide_1942_13042",
+        "max_per_axis_abs_r2_gap": 7.821904824822923e-05,
+        "matched": true
+      }
+    ],
+    "separated_wide_3749": [
+      {
+        "seed": "separated_wide_3749_13041",
+        "max_per_axis_abs_r2_gap": 0.00011825141163568365,
+        "matched": true
+      },
+      {
+        "seed": "separated_wide_3749_13042",
+        "max_per_axis_abs_r2_gap": 0.0001317544472084764,
+        "matched": true
+      }
+    ],
+    "separated_wide_5817": [
+      {
+        "seed": "separated_wide_5817_13041",
+        "max_per_axis_abs_r2_gap": 0.00010123155090613345,
+        "matched": true
+      },
+      {
+        "seed": "separated_wide_5817_13042",
+        "max_per_axis_abs_r2_gap": 8.319292044112192e-05,
+        "matched": true
+      }
+    ],
+    "separated_wide_7811": [
+      {
+        "seed": "separated_wide_7811_13041",
+        "max_per_axis_abs_r2_gap": 7.698330988603619e-05,
+        "matched": true
+      },
+      {
+        "seed": "separated_wide_7811_13042",
+        "max_per_axis_abs_r2_gap": 6.973719285852109e-05,
+        "matched": true
+      }
+    ],
+    "crossed_wide_1942": [
+      {
+        "seed": "crossed_wide_1942_13041",
+        "max_per_axis_abs_r2_gap": 0.003253917487329394,
+        "matched": true
+      },
+      {
+        "seed": "crossed_wide_1942_13042",
+        "max_per_axis_abs_r2_gap": 0.004793409795633807,
+        "matched": true
+      }
+    ],
+    "crossed_wide_3749": [
+      {
+        "seed": "crossed_wide_3749_13041",
+        "max_per_axis_abs_r2_gap": 0.00022648969912208994,
+        "matched": true
+      },
+      {
+        "seed": "crossed_wide_3749_13042",
+        "max_per_axis_abs_r2_gap": 0.00020315873210374757,
+        "matched": true
+      }
+    ],
+    "crossed_wide_5817": [
+      {
+        "seed": "crossed_wide_5817_13041",
+        "max_per_axis_abs_r2_gap": 0.0024467722340509868,
+        "matched": true
+      },
+      {
+        "seed": "crossed_wide_5817_13042",
+        "max_per_axis_abs_r2_gap": 0.002219287389158664,
+        "matched": true
+      }
+    ],
+    "crossed_wide_7811": [
+      {
+        "seed": "crossed_wide_7811_13041",
+        "max_per_axis_abs_r2_gap": 0.009310332715451564,
+        "matched": false
+      },
+      {
+        "seed": "crossed_wide_7811_13042",
+        "max_per_axis_abs_r2_gap": 0.009373569316559083,
+        "matched": false
+      }
+    ],
+    "separated_narrow_1942": [
+      {
+        "seed": "separated_narrow_1942_13041",
+        "max_per_axis_abs_r2_gap": 0.00010074633878465189,
+        "matched": true
+      },
+      {
+        "seed": "separated_narrow_1942_13042",
+        "max_per_axis_abs_r2_gap": 9.304438650881153e-05,
+        "matched": true
+      }
+    ],
+    "separated_narrow_3749": [
+      {
+        "seed": "separated_narrow_3749_13041",
+        "max_per_axis_abs_r2_gap": 0.00011459002814939723,
+        "matched": true
+      },
+      {
+        "seed": "separated_narrow_3749_13042",
+        "max_per_axis_abs_r2_gap": 8.644455613937563e-05,
+        "matched": true
+      }
+    ],
+    "separated_narrow_5817": [
+      {
+        "seed": "separated_narrow_5817_13041",
+        "max_per_axis_abs_r2_gap": 9.891911989767799e-05,
+        "matched": true
+      },
+      {
+        "seed": "separated_narrow_5817_13042",
+        "max_per_axis_abs_r2_gap": 8.393770785308785e-05,
+        "matched": true
+      }
+    ],
+    "separated_narrow_7811": [
+      {
+        "seed": "separated_narrow_7811_13041",
+        "max_per_axis_abs_r2_gap": 6.149316671388849e-05,
+        "matched": true
+      },
+      {
+        "seed": "separated_narrow_7811_13042",
+        "max_per_axis_abs_r2_gap": 7.401599689116356e-05,
+        "matched": true
+      }
+    ],
+    "crossed_narrow_1942": [
+      {
+        "seed": "crossed_narrow_1942_13041",
+        "max_per_axis_abs_r2_gap": 0.004044001057415314,
+        "matched": true
+      },
+      {
+        "seed": "crossed_narrow_1942_13042",
+        "max_per_axis_abs_r2_gap": 0.0049444087592824815,
+        "matched": true
+      }
+    ],
+    "crossed_narrow_3749": [
+      {
+        "seed": "crossed_narrow_3749_13041",
+        "max_per_axis_abs_r2_gap": 0.00023166951432451732,
+        "matched": true
+      },
+      {
+        "seed": "crossed_narrow_3749_13042",
+        "max_per_axis_abs_r2_gap": 0.00025217755152107113,
+        "matched": true
+      }
+    ],
+    "crossed_narrow_5817": [
+      {
+        "seed": "crossed_narrow_5817_13041",
+        "max_per_axis_abs_r2_gap": 0.00031232580907336605,
+        "matched": true
+      },
+      {
+        "seed": "crossed_narrow_5817_13042",
+        "max_per_axis_abs_r2_gap": 0.0003252044403824206,
+        "matched": true
+      }
+    ],
+    "crossed_narrow_7811": [
+      {
+        "seed": "crossed_narrow_7811_13041",
+        "max_per_axis_abs_r2_gap": 0.008857088590940587,
+        "matched": false
+      },
+      {
+        "seed": "crossed_narrow_7811_13042",
+        "max_per_axis_abs_r2_gap": 0.011010881779408233,
+        "matched": false
+      }
+    ]
+  },
+  "matched_encoders": [
+    "separated_wide_1942",
+    "separated_wide_3749",
+    "separated_wide_5817",
+    "separated_wide_7811",
+    "crossed_wide_1942",
+    "crossed_wide_3749",
+    "crossed_wide_5817",
+    "separated_narrow_1942",
+    "separated_narrow_3749",
+    "separated_narrow_5817",
+    "separated_narrow_7811",
+    "crossed_narrow_1942",
+    "crossed_narrow_3749",
+    "crossed_narrow_5817"
+  ]
+}

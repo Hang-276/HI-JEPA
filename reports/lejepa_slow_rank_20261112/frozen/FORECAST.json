@@ -1,0 +1,1862 @@
+{
+  "protocol_sha256": "966e23ba701039d00953dc45b3a332a0ccc2ca6408b70b0445ca13a620f0a0d7",
+  "code_sha256": "4396cfe35d3f743b7bcd6fcdea2e09bb014f4628f3422eebe1b3b9671fe48476",
+  "original_math_sha256": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261027/confirmation_v1/data_owner_engineering.py": "ead722272ccad5a2d18a2091ef25f0394ac8cda098b886b79e9471244a8677db",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_identified_g_20261024/fine_stage.py": "2f798b44979aaa8dc52657ea50266ad074601d11494e1ff1e0268c79bd521ed6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261026/identifiability_core_v1/data_owner.py": "dec7ee699f842db3607b16b4b083aeddc1468eb0483873a042131373ea981e18",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_8h_extension_20261025/fhn/env_fhn.py": "b91bce0b2a801f498bb616b7584365a084c9842c4cc26db4d4e4262bb9e518c2",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_closure_pilot_20261024/env_fhn.py": "be0687fb348d517cb6814ddd8e08bceba12da877511773e83c2f2be60fc03e62",
+    "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/work/hcf_timescale_20261023/code/src/hcf_jepa/data.py": "81503f847039308e6ee32fc3fd931636311aa84c69beea42bdfd7e7fb405288c"
+  },
+  "forecast_arrays_sha256": "bbe447ffcee8aeb67caf566ecf841acc4a114966913b9586776d543eeadd3478",
+  "seconds": 5.139920082874596,
+  "torch_version": "2.14.0",
+  "numpy_version": "2.5.3",
+  "device": "cpu",
+  "optimizer_updates": 0,
+  "old_test_final_numeric_arrays_read": false,
+  "new_evaluation_truth_returned_to_predictor": false,
+  "units": {
+    "ar_caseA": {
+      "generator": {
+        "manifest": "/Users/yuzihang/Documents/Codex/2026-10-23/referenced-chatgpt-conversation-this-is-an-3/outputs/HCF_STABLE_BASELINES_20261024/caseA/data/DATA_MANIFEST.json",
+        "manifest_sha256": "869169076a0f167857976e7e165ffce5d42465720d032e14afbf195dab6f0cd6",
+        "physical_seed": 20261201,
+        "mix": {
+          "data": {
+            "dimension": 4,
+            "data_seed": 20261201,
+            "observation_layers": 4,
+            "observation_strength": 0.25
+          }
+        }
+      },
+      "historical_data_parity": "TRAIN and CAL observations/actions/regimes exact",
+      "calibration": {
+        "count": 96,
+        "rng_tag": 202611121,
+        "arrays": {
+          "x": {
+            "shape": [
+              96,
+              129,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "e652d533ce34ce7a5b3faa3d609195fb0df8637cfad969cc768fd5d9a9255e4e"
+          },
+          "actions": {
+            "shape": [
+              96,
+              128,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "0cedf3293f4308956f94cbf4cbb1cb04ddb5f1f81d4c9168798ba3dbce560060"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              128
+            ],
+            "dtype": "int64",
+            "sha256": "0498a73a620a4ddd6031c0213aae86155d3cd093b3fed9ec668d32f8069b47e8"
+          }
+        }
+      },
+      "panels": [
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611130,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "1110869da09761c4d6f13950370d58d7a5e1b171309c35c86afdf360261dd38f"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "6d6da859adcb8a12df10b8e0cfa6d162ca3c8defb343a4dde94d2f170d43c03d"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "992092d0181e2758f7676c39e00c5f2dc97a3c01dec223ffdb78f2836b15f4b4"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611140,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "ee890c0a854e7b2e3b8785955c45bd634c4aeb338217fe528419e21fdaf2ac87"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "3bff1aabe93eeb6f60ec56ef996875413752ca9ec17b69e8bebd1669b4681d81"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "3b92f3af5de5bfdf229b58385da01ed48a5b6fc631c29496fc7466f41dc829f5"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611131,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "c198c566d40bb15e18f496df374138ce55c1f51da9588b92914e7ab4673f0255"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "e364f1c56c2919ab519810127245ca77c0a435a583ee20da8fd2bea7009d4b1e"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "8abbdf07100d374077091ea2578c9cb8810254c4d3668b03fde735b31cad9588"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611141,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "f1ac0aa8bc87dffe79c16023b151fb1f0258911ef6068115f9b4bdfbc3d20788"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "2578014ce8f3e9857ac0845294641275e847915e09652582d86e442850e1c56f"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "8a1bb2c2f7716ce81558ea4c541ef054a3bb9830a78d486c075831975905b01d"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611132,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "d93359e7b067fe1ba6b7057b42ab9823ad1ffe95d63694aa50e681647d149c3b"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "e0c24314398cfe2e138d0ac7f1f6478eb5746aee06a235498fc79a672473cdc9"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "9761679932daf49a8cc87b6f61268b1081be1ef17ecd84338c5b3bc8fad81454"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611142,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "ae8835a01d3f75c617eb74ffee4fed64015fbe40469ba66a314d76b2f61276d6"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "ae72fb622f84ac61696e613150c278ad021d3fe5adc3e30504fbbf59168777fa"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "e17483e6e52749a6c4352383bee8acae193448fd9fd7385d34c780c0eb627f78"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611133,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "14ef010709ba78145373294d65f6150e2fc32894f844b5681c9921e0b6349fcd"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "6edb2aeca4512b779c7b6784c87c02089e69495251a80a760e2b05ecc29be20f"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "e43a9b270d702f910a4c4195903bac932a1e1b8c279570bfa05c060bcd555546"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611143,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "2fb0b48a797bec515c6d2e1590d72121b9d7e3e1f3de63f80cc56f0528205936"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "337ca8faf654b4e0e862e878191acd715a6a875d437e6461bb89daf43c7ac962"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "e8403932696a987c4127bb96f84e4647ab91b4107d2f88543442220b6e276936"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611134,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "8d8c38eb7468f5ea1dbc9acc1b88c50d4bd6e78e8108948b942c37dd1f531d71"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "e48c7819c54e4b370c8ad64a3d251d940aedfa3e7d95be793abdbbb3654c7314"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "22cfe6a86caeabf2b93d47a250ab9ffbb2e55a6733b89838ea4edc9fa348c951"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611144,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "2e4fed7652b036806f5b9884024816cef8bac1c1ce0e798f31ae228c45a091e2"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "f748fee14c489d6702d784a7dbfcce1bfcacb1b61405a73a2fc58d1bf4f57045"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "6bc08c35528d023b1d3ac9418c4c351619aa8c27dfe65a5404d174f43fe497c3"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611135,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "23e48d84e63f3cfe4f006e5780403fd061a2eb2cbd6ed9b36ba2deee6fc6bcb9"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "4e020aa2dfb50e36571d6fdf2930eb5ccc4d23da3c600b779b88096dfdfd7521"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "5b57fe8bdc0dd622c5fe2f2a3089a002057b0f2db94c82f2b13cbe6525b8e6e0"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611145,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "e8c008eb73687fd6efc2751a2e2482ea35bf582ea4254edecbba38125328cfa6"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "79f43e7698e3bc3316e5d68e53a84b2e83d61a211b5443bf9cfc4360116978c6"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "f1d64fff5ca5fe884ce37e16a387316328789f4e94b48125c8b52f52e2637b09"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611136,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "40d88779c502a2bed9bf6957cd16708389510a4d778025bf870e2566415e1f2c"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "153d2d7ea28a5e6bb1ada607dd1cf0658391328e5d4ae0d0945de065077667c2"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "ed071fbca239d3eefbd84e42c346d62206951614bcda497539ddf86f5ed88fd8"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611146,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "0766b81ab28b94b1bf9df980f721a1d3704847eeaf5cfda457802cd854c8f53b"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "93f22aff53be4e7a1526617863dfa4e4f22f5358c9c8cf219969167ee487eba2"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "48020d7ae673ed27a47f775394ade5624566fd628b3c5151bd6592cab304556f"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611137,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "8810390bdb517e1d53ea8d7e27b92b651c63f4f7e96cb0881128eef53410d148"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "4d38df413862128ccd9deb641c4a6a36939eade07bfb0a72f796da7f9148fd59"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "ffa606c3bc500e7acd2932e7cb6b75e022aed4a9845217c60c5a947913d46881"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611147,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  129,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "15823ebebadd46f703e889211ac386e6cb447ca5dcd04e4f57039664b9741d3a"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  128,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "96a790a413caa911a60cd2ad69e0a9cff3ce149232d20d07627ffbe1156497a0"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  128
+                ],
+                "dtype": "int64",
+                "sha256": "6a0ad051131af2a642f8bb9b26335a0bd84c43f5dce3dd5fb7af12f9ce121a18"
+              }
+            }
+          }
+        }
+      ],
+      "models": {
+        "lejepa0": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/ar_caseA/seed0/best.pt",
+            "sha256": "c90c4e31d8205892f2a71ab1895683ac1ee66060349c94cf21633590cb62a187"
+          },
+          "selected_step": 5000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  0.13275926591901024,
+                  -0.6206855912907239,
+                  0.004871870238643947,
+                  -0.007442082372155802
+                ],
+                [
+                  -0.6761881934776549,
+                  0.19393216805732916,
+                  0.00807631647227846,
+                  0.00938699075894784
+                ],
+                [
+                  0.3944979938110358,
+                  0.1907877724595974,
+                  -0.0006791029155460478,
+                  0.0005830316487042366
+                ],
+                [
+                  -0.3525682702165486,
+                  -0.18159318448899775,
+                  0.007293233898168166,
+                  0.0031310417557261876
+                ]
+              ],
+              "intercept": [
+                1.368057600822785,
+                0.6706208151494664,
+                0.09475052939445669,
+                0.07892069264007825
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  -0.6510726295996676,
+                  0.0,
+                  0.0
+                ],
+                [
+                  -0.7074998931717484,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  -0.00019407156243472936
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.007846241300499344,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                1.2967058057465997,
+                0.6360139012496439,
+                0.09470158573284701,
+                0.07942566576593846
+              ]
+            }
+          }
+        },
+        "lejepa1": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/ar_caseA/seed1/best.pt",
+            "sha256": "016f3a087f1d10b1d52411e2a502f86890ca05e105e8cc1a33f311f34eaadd18"
+          },
+          "selected_step": 5000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  -0.39808558038759545,
+                  0.1849883443121308,
+                  -0.0014458767212960312,
+                  0.0046971173191791985
+                ],
+                [
+                  0.2194569445386764,
+                  0.4498695057669654,
+                  -0.008258479752290422,
+                  -0.0014553077128760022
+                ],
+                [
+                  -0.19911311258799314,
+                  0.40557307349221927,
+                  0.006609684207957051,
+                  0.004860056078083019
+                ],
+                [
+                  -0.7226501524825423,
+                  -0.03765596565261491,
+                  0.010830800701367256,
+                  0.0051872418133427365
+                ]
+              ],
+              "intercept": [
+                1.356095562190473,
+                0.6446934838786713,
+                0.09516145931481869,
+                0.07877750524003746
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.005380121524131871
+                ],
+                [
+                  0.0,
+                  0.588370486050044,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.004643061801956533,
+                  0.0
+                ],
+                [
+                  -0.817438801747828,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                1.3083670645882517,
+                0.6730230152777036,
+                0.09566898851435802,
+                0.07895089625676727
+              ]
+            }
+          }
+        },
+        "lejepa2": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/ar_caseA/seed2/best.pt",
+            "sha256": "465cf5d8db32a2ad51ff4fdbea9def3316c4aadfe1adc6fd9f3d9c8269ced8ba"
+          },
+          "selected_step": 5000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  0.28148914463674457,
+                  0.07208524552371581,
+                  -0.0016931640296757747,
+                  -0.0054773558124384045
+                ],
+                [
+                  -0.28647644120769605,
+                  -0.3326938625746084,
+                  0.0009526081405830418,
+                  -0.0013719197048953522
+                ],
+                [
+                  0.4710990889106624,
+                  0.31702885627056987,
+                  -0.013327147570388274,
+                  -0.005085587956267653
+                ],
+                [
+                  -0.6273161371814815,
+                  0.5435297360068683,
+                  -0.0015205253083243758,
+                  0.007856438473447414
+                ]
+              ],
+              "intercept": [
+                1.3584797033068527,
+                0.7379069637883172,
+                0.09402470715088544,
+                0.07878797781048252
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  -0.00604269446028114
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.005612448637757145,
+                  0.0
+                ],
+                [
+                  0.5539237453781665,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.5613597500564208,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                1.349061082108682,
+                0.6759464694784765,
+                0.0953601380049403,
+                0.07869511621864987
+              ]
+            }
+          }
+        },
+        "raw": {
+          "checkpoint": null,
+          "matched_coordinates_by_physical_axis": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  0.3797859587756978,
+                  0.004395115346688484,
+                  -0.6805644795423891,
+                  -0.41338135297642836
+                ],
+                [
+                  0.12928104959902456,
+                  0.21532611729120155,
+                  0.4408496370106917,
+                  -1.036592980355656
+                ],
+                [
+                  0.1236146361403738,
+                  1.043123280660274,
+                  -0.2552600727183105,
+                  0.12447687823739013
+                ],
+                [
+                  1.103824013764665,
+                  -0.08249849524955667,
+                  0.32295205855664555,
+                  0.259414163163992
+                ]
+              ],
+              "intercept": [
+                0.12090046219249273,
+                -0.04820037875293404,
+                -0.01477231968508054,
+                0.016059643146220562
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  0.0,
+                  -0.33701754228283104,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  -0.7539955510641015
+                ],
+                [
+                  0.0,
+                  1.0813283380621967,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1.2813171944342883,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                0.12222551854434616,
+                -0.10730103485893439,
+                0.14211676939397921,
+                0.22726880155971468
+              ]
+            }
+          }
+        }
+      }
+    },
+    "fhn_caseA_eps008": {
+      "generator": {
+        "manifest": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_METHOD_FREEZE_20261025/fresh_confirmation_base_v3/data/base/caseA/eps008/DATA_MANIFEST.json",
+        "manifest_sha256": "11a7fd07a631400cdfb9eeb06d7397a75c43d1e495f451a962ca35f0010fde9b",
+        "physical_seed": 2026102541,
+        "mix": {
+          "data": {
+            "dimension": 4,
+            "data_seed": 2026102541,
+            "observation_layers": 4,
+            "observation_strength": 0.25
+          }
+        }
+      },
+      "historical_data_parity": "TRAIN and CAL observations/actions/regimes exact",
+      "calibration": {
+        "count": 96,
+        "rng_tag": 202611121,
+        "arrays": {
+          "x": {
+            "shape": [
+              96,
+              193,
+              4
+            ],
+            "dtype": "float32",
+            "sha256": "19caf5dfdb36d2ddbbebaad4fdccaefaef3934bf901f92169181dce6a4c1ee49"
+          },
+          "actions": {
+            "shape": [
+              96,
+              192,
+              2
+            ],
+            "dtype": "float32",
+            "sha256": "bc88674163478740dbd0ce77f455f1d5c244d8f4b43011300c59989cca42441f"
+          },
+          "regimes": {
+            "shape": [
+              96,
+              192
+            ],
+            "dtype": "int64",
+            "sha256": "37a3b0c5a4d2e8f75cc82e6e1ab25a2485ed03709dee4e721da12bf774acb8ec"
+          }
+        }
+      },
+      "panels": [
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611130,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "402ae9b56a97916a00ebc6146c0184701e26dff1975ef4a897f75ba1254d4122"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "4205af9e22e6552edcebb33c0e4f4636b43be12aba89ac5cbde6c13e24843d29"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "cb3b352d278d37d2bd077efd4de94f8a6e684ecc5eca09a919784b73ff656394"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611140,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "defb9f7e3c81feeb181ee64b2c63167b544c6dfe4af6ee554a22a24fe96b96c5"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "212591a101db916805ccc0ec91bf552a1e776cf3778b10d5fce8965f36281e37"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "717ed88c8d5c0b2d8fca1523bb294ad6a8ba85e3e8a45962169b2da34290714f"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611131,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "7237122fb3777d55109eec755ed102d18bc472a542a5abc2048542600f007ab7"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "2232e883aaf83792672c9d77ac28dc4c31aa1a5efed5a5921aef0e87726bb221"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "0cf2ef26b6086624a15ebe4de177055dac6ebf2a57d6801c7e3526230f6504d2"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611141,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "3a7c07df613ef30bd15e31f3e91f00909d05d190107efd7a5b6ec2f40f27797d"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "c62a3c6d913191410ae43662515728c3629887056753c0fa5cbbbe81a6ddc9ef"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "9a510a5d45190f1cdbe2c407056110ab0e9c87d836e0f308d9bcb02cc456cf65"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611132,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "8b36bf1dc2f6f96026f865f8779f7f65d87f4a6c2ecd30e76ef0c8dc3d2751fb"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "7a0f3d7a4b5d202156a09388a58b98950dec063943fdf573b5e42f447886576c"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "1138f125c55e248677fcfea4b876251abe20bf434028288e74b1dfcdf499bb95"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611142,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "fadf0cbddb44dc397faccf1a42841b25dcdda900d348881bf8ef5519878967a0"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "5c7e24dc971df76862bc5010aabf5446d25ee93bcce5667c0c206ca5136c3a8f"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "cfa05f6bcf92fdf5bd8e4b83d60d0747e1dcc55d2cb576f27854a91dcd455ce9"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611133,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "67fde50c7089163476396566d2c412da3ac2f6ec6c9682461bff4a2bffd58d8e"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "69fe7451e6269ce124fd351e453c5641c13da8549480abd0bf5721fb07483a55"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "c26007fc933bae464fbb7c7eab4e5bfdf8a24398f3de81477fd3b55bbe1d4be8"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611143,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "26c5157240600765517e006d1933a8003cd9290dfe491f5095269849b90d767b"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "3b7d56d37a5ef6ec86b9a1304765e4d72bef379c220c1006339d57b054cae305"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "440d49329b829eba64d07eb1ccb14bf1066e9e43e7956a6ffba2b30537585225"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611134,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "7476605c45c4694af263515b1077e6a9b08c5d3fad99a4242115e0bfa38f027b"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "37b0d74790e00962265f7e4c83f1b62c9ade1ad1ae03ce9587aa82f942e6dbff"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "405b8e678719b3b2f125ab6d2f58a16ed4af4c0940bc9137c08dcd9f3e4f443d"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611144,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "0a79ba4dd42e9c380354bceb73d7fe4243db148c299f1b6c85285772fbf77fc1"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "8cdc814e2d32fdec912cce1a46dbe2f843bcb87c26b5525ee91bc40944dabfa9"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "a1f7389470fd8ce4422781b10bccc591963ab52f1c63d4d40968f313e6baabc8"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611135,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "6ce20429fce2e1d9585e4b46868408a6e42e1587acbecb4a8f44bebef92c4a80"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "e58206c57d847605a651b3dabec9c3bd6221d2f81af4d86091e6246701607d20"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "1ef1e63b830b0f0144a8af030b77a36e4ed551eee692894451c2a66469c9e0eb"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611145,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "b567102dd46a1fbfd2a3ed5a05f925a9aa42301f9ac978f70be8327ac3a16a70"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "aa4c8358d6645935fbf32ac0ce4882cb7def3ac05774906ac87c45a25486679b"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "71292db19829f7118985dfc53b7f571e5bfaabd91a4880e3a698dfb460ae7ecb"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611136,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "8a1212e7483bb4c52d3b9bc380ffcbf2819a134c54763c18f0c33b002511463d"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "25b63b0c550eea0efcf45b33581c22802f0e1b361819105935334a4771cbcc9a"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "9616f372bfe87023f5b65b9ae6f7a7a7d8ee530ad6eaba0b7d99e43237573e3e"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611146,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "5d00ae4c2b0fdfb2b76400d5929ae7dde31c22eb87fb8af84b563bcb41fbfa41"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "986480b42b9039dcf2f606b899713c41fb0650df23154bb37a97284d14766f71"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "def1f47b8690d2fa84e580c7facc1cd0f5486b61342eacd4247512b659bd091d"
+              }
+            }
+          }
+        },
+        {
+          "reference": {
+            "count": 64,
+            "rng_tag": 202611137,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "aeb57977e44cf8d12f70a84cc76755d9acab3181e09ff305741ea4a91212af4c"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "490cafa292c071960fd23427d3b5574708b8236b09a2d8859009cb722b111d56"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "3f2626c3838ae58ace5cd46f3f2e2dfa36edc6d5a169deaf385e59e1f26b2415"
+              }
+            }
+          },
+          "evaluation": {
+            "count": 64,
+            "rng_tag": 202611147,
+            "arrays": {
+              "x": {
+                "shape": [
+                  64,
+                  193,
+                  4
+                ],
+                "dtype": "float32",
+                "sha256": "8c3a27d9cf759189d6d7c7c77a7c4a7e3f41beea1244b3911acabcebf23c6e90"
+              },
+              "actions": {
+                "shape": [
+                  64,
+                  192,
+                  2
+                ],
+                "dtype": "float32",
+                "sha256": "00ba4c3284171ebe15172f787d6609e81811a30208a02d313eafe89d4d2901c2"
+              },
+              "regimes": {
+                "shape": [
+                  64,
+                  192
+                ],
+                "dtype": "int64",
+                "sha256": "1b86cc3e7cc35b10144d79fa15c6d8c4d4024407082911978ff698220c10984f"
+              }
+            }
+          }
+        }
+      ],
+      "models": {
+        "lejepa0": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/fhn_caseA_eps008/seed0/best.pt",
+            "sha256": "0c74488eeb4da219c2214f84ce6ec21be8f7df117703e7733ad13910ce8ae039"
+          },
+          "selected_step": 10000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  -0.12397039780779623,
+                  0.41419786702170486,
+                  0.30297006452094366,
+                  0.1755979184784856
+                ],
+                [
+                  0.9945714190553395,
+                  0.026180704870281922,
+                  0.7926353954474507,
+                  -0.15042938013495594
+                ],
+                [
+                  0.34765978684245635,
+                  0.01711564701342134,
+                  0.6143360116773106,
+                  0.32293346537959516
+                ],
+                [
+                  -0.2724530633954546,
+                  -0.21763869965782282,
+                  0.5937521124046247,
+                  -0.18698655235706407
+                ]
+              ],
+              "intercept": [
+                -0.5880364218312799,
+                0.4231171206027189,
+                -0.643412543686457,
+                0.43811802691122875
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  0.39808738151888867,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.9915624175513952,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.3242725744526127
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.582926696315816,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                -0.5959380159898621,
+                0.41403029978378414,
+                -0.5655769390556045,
+                0.439977699811369
+              ]
+            }
+          }
+        },
+        "lejepa1": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/fhn_caseA_eps008/seed1/best.pt",
+            "sha256": "fd94a5bb4f935ae1512750f82643999c25c36731c1054bad62699a1d3031944a"
+          },
+          "selected_step": 20000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  0.14514861939657678,
+                  -0.04452442413262724,
+                  0.6336777849027087,
+                  -0.03210915154151303
+                ],
+                [
+                  0.7068861824324237,
+                  0.13150604312169825,
+                  0.9122836309817755,
+                  0.10296828419864455
+                ],
+                [
+                  -0.5647367764034747,
+                  -0.03797849100076621,
+                  -0.019178348175099825,
+                  0.17066811804491203
+                ],
+                [
+                  0.0883585035069833,
+                  -0.38189818434350337,
+                  0.2828135086500261,
+                  -0.23346817884908905
+                ]
+              ],
+              "intercept": [
+                -0.617204975176911,
+                0.45077124327910495,
+                -0.5884487989304455,
+                0.45701007744213584
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  0.0,
+                  0.5883081892446093,
+                  0.0
+                ],
+                [
+                  0.6633529998053457,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.16143849843563574
+                ],
+                [
+                  0.0,
+                  -0.39727504873228764,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                -0.6114704643271878,
+                0.4591513233526721,
+                -0.529390809508459,
+                0.45750468120639126
+              ]
+            }
+          }
+        },
+        "lejepa2": {
+          "checkpoint": {
+            "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261027_V1/lejepa/formal/lambda_001/fhn_caseA_eps008/seed2/best.pt",
+            "sha256": "48e39f494caf7de4ee09105e219a7d2ca86a18240db4907ca4baa71f3b3ccf3c"
+          },
+          "selected_step": 20000,
+          "historical_feature_maxabs": {
+            "train": 0.0,
+            "cal": 0.0
+          },
+          "matched_coordinates_by_physical_axis": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  -0.6634472701912003,
+                  0.033265125663445645,
+                  -0.513687916442927,
+                  0.1823570312138182
+                ],
+                [
+                  -0.17040734493123588,
+                  0.2958795871777672,
+                  0.1367365901331873,
+                  0.23733634728610972
+                ],
+                [
+                  -0.4685589967947398,
+                  -0.033061355246328174,
+                  -0.027347452965781435,
+                  -0.28932217691097695
+                ],
+                [
+                  0.20002129674414995,
+                  -0.11378408705562135,
+                  1.0218673504854277,
+                  0.09324986680436127
+                ]
+              ],
+              "intercept": [
+                -0.5398857787170398,
+                0.43876187952265233,
+                -0.5823324644176975,
+                0.4417096733893988
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  -0.631943887077206,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.2916660905569054,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  -0.3038182024915603
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.9939864972760113,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                -0.5545831257521038,
+                0.4325820908967602,
+                -0.5888879893460763,
+                0.4666271520202124
+              ]
+            }
+          }
+        },
+        "raw": {
+          "checkpoint": null,
+          "matched_coordinates_by_physical_axis": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "readouts": {
+            "dense": {
+              "beta": [
+                [
+                  -0.7271923201147351,
+                  -0.5258146832115135,
+                  -0.35864532193716614,
+                  -0.3103704729118525
+                ],
+                [
+                  0.16895481751743266,
+                  -0.6424363705396603,
+                  0.013076938976729915,
+                  0.7929763633108408
+                ],
+                [
+                  0.6939089109766579,
+                  -0.6641615145035918,
+                  0.45063012764242444,
+                  -0.6720510097714624
+                ],
+                [
+                  0.47781591993423117,
+                  -0.03925046673833163,
+                  -0.6458644686981413,
+                  -0.27012550923961354
+                ]
+              ],
+              "intercept": [
+                -0.044920869650188266,
+                -0.12507865452313793,
+                0.017144029099950164,
+                -0.18819115376881868
+              ]
+            },
+            "matched": {
+              "beta": [
+                [
+                  0.0,
+                  -0.20199206894342328,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.7981858718429825
+                ],
+                [
+                  1.1272891770175306,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  -0.9253248232972847,
+                  0.0
+                ]
+              ],
+              "intercept": [
+                0.4876105169206526,
+                0.4461599502695921,
+                -0.342004548865963,
+                0.393284331482627
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

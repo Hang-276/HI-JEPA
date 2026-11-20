@@ -1,0 +1,610 @@
+{
+  "config": {
+    "seeds": [
+      20151,
+      20152,
+      20153,
+      20154
+    ],
+    "training_cases": [
+      "separated_wide",
+      "crossed_wide"
+    ],
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ],
+      "separated_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.88
+      ]
+    },
+    "regimes": {
+      "baseline": {
+        "exponent": 1.0,
+        "coupling": 0.0
+      },
+      "coupled": {
+        "exponent": 1.0,
+        "coupling": 0.12
+      },
+      "slower": {
+        "exponent": 0.25,
+        "coupling": 0.0
+      },
+      "faster": {
+        "exponent": 4.0,
+        "coupling": 0.0
+      }
+    },
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "length": 193,
+    "n_cal": 2048,
+    "n_test": 4096,
+    "n_audit": 16384,
+    "master_base": 2027111500,
+    "cal_role": 811,
+    "test_role": 813,
+    "audit_role": 817,
+    "fixed_threshold": 0.17748381448816608,
+    "minimum_coverage": 0.35,
+    "maximum_error": 0.01,
+    "alpha": 0.05,
+    "gap_bins": [
+      0,
+      0.06,
+      0.12,
+      0.18,
+      0.25,
+      0.4,
+      1e+100
+    ]
+  },
+  "sources": {
+    "reports/lejepa_a4_20261115/panel/run.py": "b603c5d3c7ab6444b3b13a528456e2c44ea362d06d5c9782854cf8f3cbf6bfdc",
+    "reports/lejepa_a4_20261115/panel/protocol.json": "e5353c401373d7e70043ffccecf96d2e1109be2662825c33148d47e0be86b90b",
+    "reports/lejepa_a4_20261115/panel/PROTOCOL.md": "d114b05550eb8cbae40a76b3e6e79c618ae72637a9b50b094f7f9704b2b9578d",
+    "reports/lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "reports/lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "reports/lejepa_mechanisms_20261113/readout/run.py": "99791a7db74f019b616bfdd64beac445b3bbf27d9819e00750ff98fdb2126a37",
+    "reports/lejepa_mechanisms_20261113/readout/protocol.json": "63e8169473084599913a24296df97e9b70eed9b0d51050d6b467ac8eac7b5ced",
+    "reports/lejepa_slow_rank_20261112/training/runs/results.json": "d4ac590bf4838754fff75559733135afb670543e8ed09ce1679c5c24278afba3",
+    "reports/lejepa_mechanisms_20261113/readout/runs/results.json": "2699160372fc6a10918e16905425dfff0215a547a7dde089414262dc76c41e29",
+    "work/hcf_stable_id_20261027/v1/LEJEPA_SOURCE_LOCK.json": "2934b6aaea96d5ba6b68e42f068f400f5b61ca09c58beeca4ce405e6386d4a36",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb",
+    "reports/lejepa_a4_20261115/panel/RECEIPT.json": "6a19ccf92e28ca1dd9dee1a05b18e9ea572adc0d0d1bddb52e2255c7522a50c8",
+    "reports/lejepa_a4_20261115/panel/DESIGN_LOCK.json": "040b051cf6b3ed2c506d952a87d8f28e4f77375bdf8dbf73db1b0de3c5958635",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20151_readout.pt": "821b31fc6ca7b35ee2c1d4455d2e8f306c7ec51c142805083284914b36013037",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20153.pt": "3f976f7c1c05f662c948f95e6b8ce45f50e36c199b3222187105fa02faa13edc",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20151.json": "2ce0c68377ad6ebabd1ca902091e91076eb9b4fb92bc7a9b55038d2e2d94ecfe",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20151.json": "e9016f104353017b9aec732444ff890147bc1c1d2755be8bf782f091814b9359",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20153_readout.pt": "5c3107a7abd40e328ffdb13013d6a5a87bae26f9342fd152e5ba748754bbca41",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20152.pt": "d6fe512df95da9a39a5fb11f7c7b9298246f52c65b6633ba5edab5b51b7eeb5e",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20154_readout.pt": "65bc4e9e5fb4e0eab3e02586ef44303f485d887455b3ca706248ed91d1a78212",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20153_readout.pt": "ae0f8f36a401267837ac73aac53b27fb1d04d014b5e7322f7a234a82ba8baf8c",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20151_readout.pt": "1adc4ee68f54b4fe71c28efa8d1661a784d0b6cbd1b4b33e9a4b6bc9f512726c",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20153.pt": "9c5ae369b3a958ba1d74d7bf14d22cad0fa5c5e28200e8215fa606bbb08ac87b",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20154_readout.pt": "4d2cfa142be7d1df5d3ab06266934136f1108e96ae09025905d38d2601d125b4",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20152.pt": "560da2da15f9f846b50aa0873490f0370b0fda265bff66159dd1f3bec461513d",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20151.pt": "6463ee114e747baf7d4f9a2bc29e9db4f9de6e7b93327e2c352e065cf339490b",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20154.pt": "e6a2b4609800e24c471b65d1c6571a0fd71948c8697383f64f64855b0c1798b8",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20152_readout.pt": "c627e048ce4d387aad529331a197e9e01d887696ab10f6abe6be0f3de29f657e",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20154.json": "430d84787e5ca15aa23b17ad70415c30bc82f23a07d25e499a1571d38755143f",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20154.json": "cfb50bae4ab9ddec15b342c031ffb4bda9489968576813209a2a36bc899aa386",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20151.pt": "2ab0eb335f8db036fd5276c6425d66dacb9a080669d10b1232a9e2af7f716253",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20153.json": "a9db1d10606092c3a638fc3369c2f138417fd9aa2fdca42a57795fa21f5704b4",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20153.json": "a1e12122dcebd533884ccc8545d5e0a85d981a97b6fa760f044318ff4402702c",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20152.json": "d250a9964afe52a103accb5d0393c912f18483b3f138b2907f3c44df57887979",
+    "reports/lejepa_a4_20261115/panel/runs/crossed_wide_20152.json": "c9395b7626ac349f7b817f49dc85ddf88dab021378f4419bf71cebb077e24a6a",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20152_readout.pt": "32c88f24d1680f435495c85dc77547863095e00ea1115d03adbd21ff741e98f5",
+    "reports/lejepa_a4_20261115/panel/runs/separated_wide_20154.pt": "66cd2f8ba73d2eabf4db2461380f198c3eedb2373a0ac71a6cedf0a17f206e8c",
+    "reports/lejepa_b_transfer_20261115/run.py": "df6d018970b95f067a5120bd943d7a85981a5f676f8bcd18663354339a9cc24f",
+    "reports/lejepa_b_transfer_20261115/config.json": "99e0e96d335bc1e49b2638456f08a6f5fc33eb41442f25d735a3bbe70bab4a22",
+    "reports/lejepa_b_transfer_20261115/PROTOCOL.md": "f47382ad56dc7321efa0c29adfb63cdb4b04d9496ef66bce92c121edcab7a761",
+    "reports/lejepa_a4_20261115/forecast.py": "5f75b20caa10e5e58375b357094e797a3eea940ba8c34ba45c41d6cda5f08438",
+    "reports/lejepa_a4_20261115/NEW_FORECAST.json": "ff87d31c6d0b835e6af73b829dc067cfe0b217a4281393f8348b2614d82053ef",
+    "reports/lejepa_a3_gap_20261115/score.py": "6007b7bed0b186509e95045de3698e2ebbb71cfbfba0b6c1b37b6a72caa8ee7e",
+    "reports/lejepa_a3_gap_20261115/THRESHOLDS.json": "b4b33c65e22dc0c65b5c80aefa874d7c4a59b65fa1e846bfebc64fc26ec4c3d9"
+  },
+  "mathematical_checks": {
+    "separated_wide__baseline": {
+      "transition": [
+        [
+          0.93,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.918,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.892,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.88
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.1350999999999999,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.15727599999999997,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.20433599999999996,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.22560000000000002
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.1350999999999999,
+      "population_scores": [
+        1.227176442034066,
+        1.3138180878507784,
+        1.4536542809035602,
+        1.5028263941434628
+      ]
+    },
+    "separated_wide__coupled": {
+      "transition": [
+        [
+          0.93,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.918,
+          0.12,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.892,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.88
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.1350999999999999,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.142876,
+          -0.10704,
+          0.0
+        ],
+        [
+          0.0,
+          -0.10704,
+          0.20433599999999996,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.22560000000000002
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.06224220651217019,
+      "population_scores": [
+        1.227176442034066,
+        1.3138180878507784,
+        1.4536542809035602,
+        1.5028263941434628
+      ]
+    },
+    "separated_wide__slower": {
+      "transition": [
+        [
+          0.9820209142881304,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9788376603708496,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9718320411724485,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9685469281169012
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.03563492390070444,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.04187683463972125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.05554248375059245,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.061916848035314165
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.03563492390070444,
+      "population_scores": [
+        0.5082441202233056,
+        0.5783035433424184,
+        0.7160846614507195,
+        0.773780076796314
+      ]
+    },
+    "separated_wide__faster": {
+      "transition": [
+        [
+          0.7480520100000002,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7101837401760002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6330812008960001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.59969536
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.44041819033495955,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.4956390551896275,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5992081930720784,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.6403654751944704
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.44041819033495955,
+      "population_scores": [
+        1.784774443826878,
+        1.8276101519883208,
+        1.8924664490893468,
+        1.9135887349076335
+      ]
+    },
+    "separated_narrow__baseline": {
+      "transition": [
+        [
+          0.93,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.906,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.904,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.88
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.1350999999999999,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.179164,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.18278399999999995,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.22560000000000002
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.1350999999999999,
+      "population_scores": [
+        1.227176442034066,
+        1.3851126870314439,
+        1.395772212547232,
+        1.5028263941434628
+      ]
+    },
+    "separated_narrow__coupled": {
+      "transition": [
+        [
+          0.93,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.906,
+          0.12,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.904,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.88
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.1350999999999999,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.16476400000000002,
+          -0.10848,
+          0.0
+        ],
+        [
+          0.0,
+          -0.10848,
+          0.18278399999999995,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.22560000000000002
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.06492047226662793,
+      "population_scores": [
+        1.227176442034066,
+        1.3851126870314439,
+        1.395772212547232,
+        1.5028263941434628
+      ]
+    },
+    "separated_narrow__slower": {
+      "transition": [
+        [
+          0.9820209142881304,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9756230433642205,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9750841737616179,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9685469281169012
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.03563492390070444,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.04815967725673642,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.04921085407962289,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.061916848035314165
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.03563492390070444,
+      "population_scores": [
+        0.5082441202233056,
+        0.6441732699793729,
+        0.6547633899070866,
+        0.773780076796314
+      ]
+    },
+    "separated_narrow__faster": {
+      "transition": [
+        [
+          0.7480520100000002,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6737717388960001,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.667841990656,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.59969536
+        ]
+      ],
+      "innovation_covariance": [
+        [
+          0.44041819033495955,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5460316438650603,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5539870755166312,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.6403654751944704
+        ]
+      ],
+      "minimum_innovation_eigenvalue": 0.44041819033495955,
+      "population_scores": [
+        1.784774443826878,
+        1.8614037400787213,
+        1.8663360419951334,
+        1.9135887349076335
+      ]
+    }
+  }
+}

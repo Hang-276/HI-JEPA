@@ -1,0 +1,204 @@
+{
+  "scope": "Deterministic hand-specified polynomial Gaussian moments and formulas only.",
+  "prohibitions_observed": {
+    "scientific_arrays_read": false,
+    "checkpoint_or_model_loaded": false,
+    "NN_forward": false,
+    "fitting": false,
+    "PRNG": false,
+    "samples_or_trajectories_generated": false,
+    "server_or_GPU": false
+  },
+  "all_passed": true,
+  "check_count": 17,
+  "checks": [
+    {
+      "name": "bounded_tilt_identity_quartic",
+      "passed": true,
+      "max_absolute_error": 8.951173136040325e-16
+    },
+    {
+      "name": "bounded_tilt_identity_cross_linear",
+      "passed": true,
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "bounded_tilt_identity_cubic_same",
+      "passed": true,
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "bounded_tilt_identity_cubic_mixed",
+      "passed": true,
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "name": "witness_constants_and_d4_coefficient",
+      "passed": true,
+      "C4_exact": 0.8815024519228997,
+      "C4_theorem": 1,
+      "K3_same_upper": 1.9508739621390003,
+      "K3_mixed_upper": 1.390191547603561,
+      "K3_theorem": 2,
+      "K_cross": 1.4715177646857693,
+      "C_d4": 153.98437438142963
+    },
+    {
+      "name": "projection_and_finite_row_0",
+      "passed": true,
+      "row": 0,
+      "alpha": 0.0001224744758102704,
+      "beta": 0.0012493501067859009,
+      "epsilon": 0.0014942990584064417,
+      "L": 0.9880455925327513,
+      "dominant_source": 0,
+      "core_amplitude": 0.9999999075000129,
+      "amplitude_error2": 1.849999657750063e-07,
+      "E_bound": 0.00034801136958597555,
+      "signed_error2": 1.8499997433125393e-07,
+      "signed_bound2": 0.0003480416528340857,
+      "orthogonality_max_error": 3.0710026535651913e-17
+    },
+    {
+      "name": "projection_and_finite_row_1",
+      "passed": true,
+      "row": 1,
+      "alpha": 0.0001224744445792968,
+      "beta": 0.0023501434310771907,
+      "epsilon": 0.0025950923202357843,
+      "L": 0.9792392464381241,
+      "dominant_source": 1,
+      "core_amplitude": 0.9999996525001811,
+      "amplitude_error2": 6.949995169753357e-07,
+      "E_bound": 0.001059008920181282,
+      "signed_error2": 6.949996377314598e-07,
+      "signed_bound2": 0.0010592894437126965,
+      "orthogonality_max_error": 1.4690939437178585e-17
+    },
+    {
+      "name": "projection_and_finite_row_2",
+      "passed": true,
+      "row": 2,
+      "alpha": 0.00012247439252772725,
+      "beta": 0.003482382752430164,
+      "epsilon": 0.003727331537485619,
+      "L": 0.9701813327001383,
+      "dominant_source": 2,
+      "core_amplitude": 0.9999992275008952,
+      "amplitude_error2": 1.5449976129786882e-06,
+      "E_bound": 0.0022050718293354357,
+      "signed_error2": 1.5449982097335553e-06,
+      "signed_bound2": 0.002206288756855024,
+      "orthogonality_max_error": 1.6073297207097603e-17
+    },
+    {
+      "name": "projection_and_finite_row_3",
+      "passed": true,
+      "row": 3,
+      "alpha": 0.0001224743196556413,
+      "beta": 0.004623018412380952,
+      "epsilon": 0.004867967051692235,
+      "L": 0.9610562485865032,
+      "dominant_source": 3,
+      "core_amplitude": 0.999998632502805,
+      "amplitude_error2": 2.7349925197954573e-06,
+      "E_bound": 0.003796862082312763,
+      "signed_error2": 2.734994389844036e-06,
+      "signed_bound2": 0.0038004729810325877,
+      "orthogonality_max_error": 2.1250362580715887e-17
+    },
+    {
+      "name": "noncollapse_gate_and_permutation",
+      "passed": true,
+      "covariance": [
+        [
+          1.0000000000000002,
+          0.00029999986800006783,
+          0.0,
+          0.001199998248003533
+        ],
+        [
+          0.00029999986800006783,
+          0.9999999999999999,
+          0.0005999993280008068,
+          0.0
+        ],
+        [
+          0.0,
+          0.0005999993280008068,
+          1.0000000000000002,
+          0.0008999980740042809
+        ],
+        [
+          0.001199998248003533,
+          0.0,
+          0.0008999980740042809,
+          0.9999999999999998
+        ]
+      ],
+      "lambda_gershgorin": 0.9979000036779919,
+      "max_pair_E": 0.006001933911648199
+    },
+    {
+      "name": "invertible_not_quantitative_noncollapse_0.1",
+      "passed": true,
+      "t": 0.1,
+      "span_delta": 0.19801980198019808,
+      "lambda_min": 0.004962809790010736,
+      "row2_distance2_if_source2": 1.800992561958002
+    },
+    {
+      "name": "invertible_not_quantitative_noncollapse_0.01",
+      "passed": true,
+      "t": 0.01,
+      "span_delta": 0.019998000199980007,
+      "lambda_min": 4.999625031232302e-05,
+      "row2_distance2_if_source2": 1.9800009999250063
+    },
+    {
+      "name": "invertible_not_quantitative_noncollapse_0.001",
+      "passed": true,
+      "t": 0.001,
+      "span_delta": 0.001999998000002,
+      "lambda_min": 4.999996250365513e-07,
+      "row2_distance2_if_source2": 1.9980000009999992
+    },
+    {
+      "name": "O_delta_rate_rotation_0.01",
+      "passed": true,
+      "theta": 0.01,
+      "span_delta2": 0.0007998933390220598,
+      "axis_distance2": 0.00019999833333888889,
+      "distance_over_span_delta": 0.5000312514193301
+    },
+    {
+      "name": "O_delta_rate_rotation_0.001",
+      "passed": true,
+      "theta": 0.001,
+      "span_delta2": 7.999989333339021e-06,
+      "axis_distance2": 1.999999833333339e-06,
+      "distance_over_span_delta": 0.500000312500142
+    },
+    {
+      "name": "d4_nonempty_fixed_budget",
+      "passed": true,
+      "span_delta": 0.005,
+      "covariance_lambda_assumed": 0.5,
+      "L": 0.879975,
+      "E": 0.03939712333966496,
+      "signed_axis_eta": 0.1994818135348842,
+      "pair_E": 0.07879424667932992
+    },
+    {
+      "name": "output_gauge_error_budget",
+      "passed": true,
+      "mu": 1.7,
+      "sigma": 2.3000000000000003,
+      "alpha_Z": 0.00028169129436362195,
+      "beta_Z": 0.007384323593508536,
+      "alpha_Y": 0.0001224744758102704,
+      "beta_Y": 0.0012493501067859002,
+      "beta_Y_bound": 0.0015769516057362663
+    }
+  ]
+}

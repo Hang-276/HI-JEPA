@@ -1,0 +1,1050 @@
+{
+  "scope": "Specified confirmation_v2 Fine metadata schemas, owning logging source and old JSON-only oracle diagnostics; not an exhaustive repository absence claim or new scientific validation",
+  "scope_sha256": "eaf3414e54853741e31c559067edaff608cb89f4ba7e4c2ed17f92f70893831c",
+  "script_sha256": "90847f82689eb839106f3a60e1a17f33133a1d9e846390133ca98c6c0f4a481f",
+  "metadata_counts": {
+    "parents": 12,
+    "physical_instances": 4,
+    "diagnostics": 84,
+    "Fine_JSON": 12,
+    "G0_JSON": 12
+  },
+  "schema": {
+    "diagnostics_top": [
+      "CAL",
+      "TEST_arrays_materialized",
+      "TRAIN",
+      "bounds",
+      "factor_labels_used",
+      "projection_activity_cumulative",
+      "step"
+    ],
+    "split": [
+      "context_columns",
+      "interpretation",
+      "observation_NLL",
+      "pair_indices_sha256",
+      "pairs",
+      "pairwise_mean_observation_NLL",
+      "per_trajectory",
+      "residual_vs_currentFine_action_correlation",
+      "standardized_innovation_by_regime"
+    ],
+    "per_regime": [
+      "coordinate_correlation",
+      "mean",
+      "pairs",
+      "variance_ddof0"
+    ],
+    "bounds": [
+      "logstd_max",
+      "logstd_min",
+      "mixing_generator_norms",
+      "parameter_norms"
+    ],
+    "Fine_top": [
+      "IO_CPU_seconds",
+      "TEST_arrays_materialized",
+      "best",
+      "checkpoint",
+      "checkpoint_sha256",
+      "completed_steps",
+      "cost_scope",
+      "environment",
+      "evaluation_CPU_seconds",
+      "format",
+      "history",
+      "identity",
+      "initial_model_hash",
+      "last_model_hash",
+      "new_process_CPU_seconds",
+      "physical_labels_used",
+      "projection_activity",
+      "requested_steps",
+      "selected_model_hash",
+      "selection",
+      "setup_CPU_this_process",
+      "status",
+      "this_process_wall_seconds",
+      "training_CPU_seconds"
+    ],
+    "G0_top": [
+      "ST_temperature_or_ND",
+      "TRAIN_raw_Fine_sha256",
+      "TRAIN_shape",
+      "buffer_sha256",
+      "coordinate_boundary_gap_TRAIN_FP32",
+      "dimension",
+      "format",
+      "horizons",
+      "learned_parameters",
+      "mean_FP32",
+      "mean_FP64",
+      "normalization",
+      "optimizer_updates",
+      "pair_size",
+      "physical_labels_used",
+      "physical_uniqueness_claim",
+      "selected_pair",
+      "selection_estimand",
+      "speed_FP32",
+      "speed_FP64",
+      "std_FP32",
+      "std_FP64_ddof0",
+      "tie_break"
+    ]
+  },
+  "posterior_related_key_search": {
+    "terms": [
+      "posterior",
+      "logits",
+      "log_odds",
+      "calibration_bin",
+      "calibration_error",
+      "cross_entropy"
+    ],
+    "matches": [],
+    "interpretation": "Supported by complete schema enumeration and owner diagnostic/feature-source review; no full counterfactual-u posterior/logits saved in these reviewed artifacts"
+  },
+  "parents": [
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 0,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 1,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 2,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 0,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 1,
+      "selected_step": 18000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 2,
+      "selected_step": 18000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          128
+        ],
+        "CAL": [
+          32
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 0,
+      "selected_step": 18000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 1,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 2,
+      "selected_step": 24000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 0,
+      "selected_step": 12000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 1,
+      "selected_step": 12000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 2,
+      "selected_step": 12000,
+      "snapshots": 7,
+      "pair_indices_shared_across_snapshots": true,
+      "pair_count_per_split_snapshot": 2048,
+      "source_trajectories_per_split": {
+        "TRAIN": [
+          96
+        ],
+        "CAL": [
+          24
+        ]
+      },
+      "CAL_used_for_selection": true
+    }
+  ],
+  "existing_oracle_chain_recount": {
+    "train": {
+      "parents": 12,
+      "physical_instances": 4,
+      "parent_success": {
+        "CS": 9,
+        "corr": 12,
+        "exact": 12
+      },
+      "pair_success": {
+        "CS": 36,
+        "corr": 48
+      }
+    },
+    "cal": {
+      "parents": 12,
+      "physical_instances": 4,
+      "parent_success": {
+        "CS": 8,
+        "corr": 9,
+        "exact": 9
+      },
+      "pair_success": {
+        "CS": 35,
+        "corr": 36
+      }
+    }
+  },
+  "existing_oracle_chain_all_scenarios": [
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 0,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.3105029125807425,
+      "minimum_chained_corr_lower": 0.49112333266265573,
+      "minimum_exact_actual_gap_saved": 0.565204479762633,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 1,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.31652794638279835,
+      "minimum_chained_corr_lower": 0.5014269319440318,
+      "minimum_exact_actual_gap_saved": 0.5660101540482299,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 2,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.3401679020855186,
+      "minimum_chained_corr_lower": 0.5111483544392413,
+      "minimum_exact_actual_gap_saved": 0.5671522786818608,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 0,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.32584841359029815,
+      "minimum_chained_corr_lower": 0.49235253053484906,
+      "minimum_exact_actual_gap_saved": 0.6074646748203296,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 1,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.3488982631684102,
+      "minimum_chained_corr_lower": 0.5255163421257175,
+      "minimum_exact_actual_gap_saved": 0.6054499746285924,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 2,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.3744301721419315,
+      "minimum_chained_corr_lower": 0.5377199975387076,
+      "minimum_exact_actual_gap_saved": 0.6066583058496176,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 0,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.02894032941741914,
+      "minimum_chained_corr_lower": 0.12614510960940195,
+      "minimum_exact_actual_gap_saved": 0.21240895079488542,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 1,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.015373885373809043,
+      "minimum_chained_corr_lower": 0.10749681469382455,
+      "minimum_exact_actual_gap_saved": 0.2135865255825644,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 2,
+      "split": "train",
+      "minimum_chained_CS_lower": 0.03497461444526126,
+      "minimum_chained_corr_lower": 0.13140962073221477,
+      "minimum_exact_actual_gap_saved": 0.21342968041367605,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 0,
+      "split": "train",
+      "minimum_chained_CS_lower": -0.11057359366976473,
+      "minimum_chained_corr_lower": 0.00912112568315912,
+      "minimum_exact_actual_gap_saved": 0.02261110384947962,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 1,
+      "split": "train",
+      "minimum_chained_CS_lower": -0.09673929493984817,
+      "minimum_chained_corr_lower": 0.008626230661352376,
+      "minimum_exact_actual_gap_saved": 0.024684026772679557,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 2,
+      "split": "train",
+      "minimum_chained_CS_lower": -0.07261429514094543,
+      "minimum_chained_corr_lower": 0.014599479253070709,
+      "minimum_exact_actual_gap_saved": 0.021989045515231398,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 0,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.3278889901219708,
+      "minimum_chained_corr_lower": 0.4970037107313441,
+      "minimum_exact_actual_gap_saved": 0.5800088675116402,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 1,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.32989829669722365,
+      "minimum_chained_corr_lower": 0.5082518619797394,
+      "minimum_exact_actual_gap_saved": 0.5783584033667775,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh1",
+      "rep": 2,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.35590470257559026,
+      "minimum_chained_corr_lower": 0.520565632616002,
+      "minimum_exact_actual_gap_saved": 0.5794351524691252,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 0,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.2600492409573062,
+      "minimum_chained_corr_lower": 0.41352359543766576,
+      "minimum_exact_actual_gap_saved": 0.5592148562806996,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 1,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.2904325245676612,
+      "minimum_chained_corr_lower": 0.45597819053612365,
+      "minimum_exact_actual_gap_saved": 0.5546245794788913,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "ar_rich_fresh2",
+      "rep": 2,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.3170725427531236,
+      "minimum_chained_corr_lower": 0.46479578693043777,
+      "minimum_exact_actual_gap_saved": 0.5610293446637928,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 0,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.003938484443611362,
+      "minimum_chained_corr_lower": 0.09485273505401909,
+      "minimum_exact_actual_gap_saved": 0.1623940440456364,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 1,
+      "split": "cal",
+      "minimum_chained_CS_lower": -0.007832635739475555,
+      "minimum_chained_corr_lower": 0.0809751238939142,
+      "minimum_exact_actual_gap_saved": 0.16575153428233058,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps008",
+      "rep": 2,
+      "split": "cal",
+      "minimum_chained_CS_lower": 0.011780182916142024,
+      "minimum_chained_corr_lower": 0.09892802224314026,
+      "minimum_exact_actual_gap_saved": 0.16350809073157468,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 0,
+      "split": "cal",
+      "minimum_chained_CS_lower": -0.1781118708119086,
+      "minimum_chained_corr_lower": -0.06808306328859967,
+      "minimum_exact_actual_gap_saved": -0.02503639420046433,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 1,
+      "split": "cal",
+      "minimum_chained_CS_lower": -0.18222164063216323,
+      "minimum_chained_corr_lower": -0.07613857701734797,
+      "minimum_exact_actual_gap_saved": -0.019129255283397928,
+      "oracle_diagnostic_only": true
+    },
+    {
+      "slot": "fhn_fresh_eps05",
+      "rep": 2,
+      "split": "cal",
+      "minimum_chained_CS_lower": -0.14336200964940332,
+      "minimum_chained_corr_lower": -0.045861151795851034,
+      "minimum_exact_actual_gap_saved": -0.021774936693551572,
+      "oracle_diagnostic_only": true
+    }
+  ],
+  "round5_existing_norm_veto_summary": {
+    "parents": 12,
+    "common_eta_gate_numeric_oracle_veto_count": 6,
+    "axis_specific_same_bound_numeric_oracle_veto_count": 3,
+    "not_ruled_out_is_not_pass": true,
+    "does_not_rule_out_other_sharper_axis_specific_or_signed_pair_bounds": true
+  },
+  "current_actual_Fine_truth_free_certificates_from_reviewed_inputs": 0,
+  "unestablished_inputs": [
+    "full-regime posterior or loss-difference records",
+    "Bayes risk or certified posterior excess upper bound",
+    "conditional-bin approximation/regularity and coverage bound",
+    "fixed-context statistical coverage",
+    "learned contrast singular value",
+    "anchor head odds/tail/output covariance confidence bounds",
+    "Q0/anchor density-ratio moment and endpoint coverage bounds",
+    "truth-containing complete compatible class",
+    "uniform signed candidate-to-Fine score correction intervals",
+    "population G0 score and variance estimation bounds"
+  ],
+  "inputs": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/Fine.json",
+      "sha256": "705ceb016d21144302dc2ee6cb00366de3b133e4946ee95acf1d5da0e2ef1fb2"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/G0.json",
+      "sha256": "6960ac760d70b351702baf144e38dc6c800dda5f3626697337aa2c51d9dd23c1"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step001500.json",
+      "sha256": "0cd7313718e4e13747e59aa4e3a10a96f5e6220446e8a8135794a43fc06bc4f0"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step003000.json",
+      "sha256": "f709aec2efd9c3da919356bf3bad86f2a94410f037b0a6651e57fcfe5da3400d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step004500.json",
+      "sha256": "9c534d0b0e84de8ea8e4e7742fd6934772b9a05a3fc538741e4e893a68a49247"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step006000.json",
+      "sha256": "f34ef46588399a827ec29e73b81151755d9a647aca165ed05c8dd8d66ecc9745"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step012000.json",
+      "sha256": "8eb115b3a6a7434c668a614c5b28e7b18f8a09ce03952e54f5dac3fce007a4c0"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step018000.json",
+      "sha256": "a690d1c59c494ed9aa70b6c447d9cd77c8082cff97f2e27a2516ec2f67e04c0e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed0/model/diagnostics/step024000.json",
+      "sha256": "e7a22be114c0b7392697c9ae409c2cae65bd4711a66e4ad79b2c8886e89ef78b"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/Fine.json",
+      "sha256": "e0300cd87d03786f40ff59bbfc3b72089ab23624fbb15aeb2c5efb39a5e615fc"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/G0.json",
+      "sha256": "18f24bd439b8c540ff4d46818064cc060e4b6eebd9353c7778ac5befecbe7496"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step001500.json",
+      "sha256": "49fc3903d31ac67d95eba6ac015f136de40dbe8e99cdfa4a127296bca0043276"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step003000.json",
+      "sha256": "bb1e9ff31270318a1495a16cff98bfb3419b3bdcda9d2f0a642977e973737a7c"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step004500.json",
+      "sha256": "b4c60e958c4cb0fb325457361f8d51c92c7e94726ed636756e0f1e34bf83ebda"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step006000.json",
+      "sha256": "b491690fcaf15617d38cbab26f945a32c7f236c8c77959c8471ed320ada5cbe4"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step012000.json",
+      "sha256": "8dcac930e70af478e6ab35e0c5c58fd7e253d217d4b7063d2a87464d569d1587"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step018000.json",
+      "sha256": "d0673eb90270a89060d901ef263587205646871f6a5fa353e158c9ec797f6b72"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed1/model/diagnostics/step024000.json",
+      "sha256": "4e2c1f402da61d5c9ebc3ac60a3fbdafa10ccb7de876b044f5028aa595a65d02"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/Fine.json",
+      "sha256": "8df81764569d0a7234fb67cf0a80f3e29a401623c67e7f3a39eaafc771cf6431"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/G0.json",
+      "sha256": "408c08642c585c008200f6db8df47d7988ae8e339fc74fe9ff22e83737ba6e2d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step001500.json",
+      "sha256": "d1dc043634739c818b635790beb6c10f2de417932163bffa6e3f1bc6aac4ac3d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step003000.json",
+      "sha256": "2b2a9e6b880988cd713a38318dc4acfe0a8ac43b3c382deb85ea4335297c236e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step004500.json",
+      "sha256": "0d1e507cefcfe8428e4f17347ad82bb072633868253939aece0261cac97d33a4"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step006000.json",
+      "sha256": "373bf5ce941388f3ccad1b65d208b6bf783e3eee7d6489436b5f6da4581ec4da"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step012000.json",
+      "sha256": "0db06a4d37da4da8ad9585d5da30d2145f9b456fe86b928edfccd398f68b1a6e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step018000.json",
+      "sha256": "b9541609e2d45837fdd511c696dce584be76e767dac2905609b31327231652a8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh1/seed2/model/diagnostics/step024000.json",
+      "sha256": "16b1aac3891c699151e4d38b55f782c8cc79de10a04089d51d1f04c1d2ebb0ca"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/Fine.json",
+      "sha256": "d6d7c28b52e196cf92117cf1c610f3f6c367697278b39628453db00bf7eff5f8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/G0.json",
+      "sha256": "2648e789bc656cf2bd0b8fb4b3a79b9ea23560144f9375faa76cfc5b328ea61f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step001500.json",
+      "sha256": "71475721c96b445469e4d618d7976bb28ceed594b46e2309b506fae1debd9a54"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step003000.json",
+      "sha256": "2090e4ea6c465138ff066584bcdf77fd3953a86b0a36e459ba57e53e7f694646"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step004500.json",
+      "sha256": "30b29b491108d10ce042d17f584ed4ced93952ba9955aa680cd185eda48bef00"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step006000.json",
+      "sha256": "fd719aa2b37e7b0db007f65379b90e513af336b93e9f82875b509eafdbffe713"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step012000.json",
+      "sha256": "eae4bcb915a4d86e8870d834c97962b426e06180ec35935d70f1178167cf10de"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step018000.json",
+      "sha256": "c311a2172fc75092bd5780c96ada72f433df585be4615ed05eae9587e8fbe381"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed0/model/diagnostics/step024000.json",
+      "sha256": "72a99084e708cbb3bb5d7538581ed23e5b19c0739187419395f28f6fa87dcbd9"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/Fine.json",
+      "sha256": "ab789f8461af329b64cf909a4728c157af9224ca2ef09fe2ee660ea5ff8ef134"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/G0.json",
+      "sha256": "809247149db5e641d6ea5755eefe191c0b286eb3c2a87b9b78f357bb8e19cd41"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step001500.json",
+      "sha256": "9b52869a11d0d836b68122e77927859bdca6a965f01d8d428a8227a1e8e0cf21"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step003000.json",
+      "sha256": "f5cf0be41d9df76dc5addc2d8aa64de57332c5f5679af21d7d60a16298ddf144"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step004500.json",
+      "sha256": "a5e04271a873933b3768e010902d6773449c77ba2b7572923846a1b95ffe1fe1"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step006000.json",
+      "sha256": "38c1860b383d144fe45481db8a4f0ac84c19dae2dd0f8146b80ec33853fbd2cc"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step012000.json",
+      "sha256": "e5dd0d649451de14dc8e23a926d6c7b812eba203434996de037608c88317b42c"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step018000.json",
+      "sha256": "02ecdcfa181b0c436894ed89dbf46837ed50eb2bc55b2d7a84ee3810591f4753"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed1/model/diagnostics/step024000.json",
+      "sha256": "2ae65bff4ebd93b11b4cb7e3dab9d2fada3d9077fa88d5c7ad093642c3b0def3"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/Fine.json",
+      "sha256": "04a9cb0a3b22c9f4163063acef5bb1834e5768a6a1130db4d527b92c6d9a95c5"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/G0.json",
+      "sha256": "de6da9c4a7d82d460c76796e22e670882c93821776aa53bc4d19bcc4b4a3a6ce"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step001500.json",
+      "sha256": "d2dc27a9ab08b951103fc3c8ae8ab46901b737081f914d88f9d13ffc96d873ae"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step003000.json",
+      "sha256": "fb42a170e201c27390085c5182ae6c4030a96f1c9b1f7c283ba30635ada53e44"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step004500.json",
+      "sha256": "4b77dfd13b4862109721821abc276ac564621f600007ff09fd0c2e89ecdc02be"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step006000.json",
+      "sha256": "e2eee7ca21013c417ef50bf8a63da2a0dcf16c37845d234d9aaebc481bc61135"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step012000.json",
+      "sha256": "b46d895080533e8aebb9a87746857c12fada1b1acb2bcf86040b9b7de637e4e2"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step018000.json",
+      "sha256": "5cbccb4b762042ffcf70423212bbeb53b7a87268ffdca7b1f01080d171587e5f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/ar_rich_fresh2/seed2/model/diagnostics/step024000.json",
+      "sha256": "c13cea8d2c984c20571926df23d6386f77eb3415c5eac2c85177fd02b6547c56"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/Fine.json",
+      "sha256": "2463ccc9c21f4acd46e7aeea0620511241c8efcc69335bb39f1df33de9e2a1a4"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/G0.json",
+      "sha256": "88f9df6a025932388cda50f23f233b840d4146a93bc7b7f083ee45c714e116ab"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step001500.json",
+      "sha256": "7d3da14a1bbfb3dbf6743a17e4d94deb04db8f4bc53b3282ae86c2dbab62ffb1"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step003000.json",
+      "sha256": "7e5fb723e9440781375c0247440070ac7636586b32d168a9d88f78ff64f71493"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step004500.json",
+      "sha256": "7c74f71cf83d522d5a7a67cc190e76b15de8f1328ef546a7ee9f129d4273cee8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step006000.json",
+      "sha256": "57508cb1f39891af92092a5e96920f9a116b52045ea4afb6e0ebb6b3bfe231e6"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step012000.json",
+      "sha256": "28bb845cca8fd4c4aa282c155425cf2418f902ca4e6df58e4aa0308f90e3974f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step018000.json",
+      "sha256": "c2af8147be2bebca083c80427f642e8b1bc96e1eec3fc322a7c357650578d20e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed0/model/diagnostics/step024000.json",
+      "sha256": "307a43aa6189091492d32266b0073ca6597a480538267e75efa92b7fe8a458b1"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/Fine.json",
+      "sha256": "ab076c88be9f8f74604f8bccc4c57a59c8b1c1c59b7fa059f085345f1074e3a0"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/G0.json",
+      "sha256": "08204e0713d957febd756754f3e2ad3e96ce05ba73739b0866f2b94ffb115336"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step001500.json",
+      "sha256": "cbf9c3a6c94c038c8f5902f90adbc684dd7fa0ad4fd9f0e4399a6dfa3cf4b58e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step003000.json",
+      "sha256": "f1bb2ea484a56131bce0e059c59526c698336937fa14566db608392626a756fc"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step004500.json",
+      "sha256": "91e3fec64f15bf64c16200b580a11de64c35792fa9f3a951a444ba7486b27b3f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step006000.json",
+      "sha256": "c8fc00c06380fcead0ad853b2230b82e2e931ec7b4ac458f07a489267d90c0ea"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step012000.json",
+      "sha256": "58b5e12f64cff9ff8a5e61510dff18418131804c9f9621a85063194776e89c65"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step018000.json",
+      "sha256": "2de364c9e20b81fd2dc16f8eaa6c14022d708171aee55d55ff148e97e41a86fe"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed1/model/diagnostics/step024000.json",
+      "sha256": "1fbef2185cd86adc3acea90482cdb96d0b52cdaac7ea1931631c3f4b0ae1fe51"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/Fine.json",
+      "sha256": "f9c0ce7ecd74dc1602ba21c86b507c2e03a13ccf80a59f784b8da0aba5905394"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/G0.json",
+      "sha256": "04eaf32458da397c64afb46178e2aa78304dd9d24feea985d5e3f3c602ae19e8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step001500.json",
+      "sha256": "4041ac23580928aba758f8e45462173b1221b9c5f219695e53fb618fa16652af"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step003000.json",
+      "sha256": "fde7c3ebd738dbef85783a2dc777c69a4380ea9be6ce730ecfc6c2521a61a1d6"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step004500.json",
+      "sha256": "3fa6f5437980c5e41cf812cbe063c6b30ac9d095c0e0bd3d213162c80dd73af2"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step006000.json",
+      "sha256": "88d8afe823c040a87f0313e7e0e3595e10406d1cc8fde1fafb176ab03dcc4701"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step012000.json",
+      "sha256": "e8f37c6fa3da87a20aa4fe9ea1e597bae9280d3456ce55840cedaaa377fac97c"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step018000.json",
+      "sha256": "6c9ae63017c0ad950b8632dc1d1d0cba625798baddc72f6e725b73f1ca7982d3"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps008/seed2/model/diagnostics/step024000.json",
+      "sha256": "1cec8a307f17139ef9fc10fef76a48c6801978abb3518b133a0304f4afd11fab"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/Fine.json",
+      "sha256": "e1b9eb358a826c3d208f3e574e8b94fe2aa121e0476aa65dc2280e40ca631bfb"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/G0.json",
+      "sha256": "4efb02009d3d620f304cd2061ea4b0a3afe71e4a1e5a724a14a5dac31b15221d"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step001500.json",
+      "sha256": "c7e0c58de41e5998c7e25e30e52731879fd0ebdcb262800bb37f9fac4efbcb5f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step003000.json",
+      "sha256": "6435d9ed518cea8e29facd403a1e994901a302908b7f0b401b5b622b3562e3b4"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step004500.json",
+      "sha256": "8e5da0ce3c6656c1079b11b3a5d6301e73ee6bac9d9828093088f9ac8378370e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step006000.json",
+      "sha256": "1ed5012f974792a2f49a2c5b0e212ab289637ae4c55722a5fe4dd165f687c682"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step012000.json",
+      "sha256": "ff2370f878b34dce69b862324142bd3d89a522430aa7097bcc7e56053660b351"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step018000.json",
+      "sha256": "4e79d0bcdc9bce42e4dbe57dc9be4da3473c5512911e52d0832809a8f089c795"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed0/model/diagnostics/step024000.json",
+      "sha256": "9e28563653f64b6e8fdf43ede315cb0d09000298acf71d60cfb95809241d4ed2"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/Fine.json",
+      "sha256": "24b33f78a19928c92ba7dd3875e9310f01817899ff9572eb91ec86feb67c2ed0"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/G0.json",
+      "sha256": "fe97a29428105913d0cf0683c9d5a3eee4a9fa3b4cf5c6b23f49556df71628e8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step001500.json",
+      "sha256": "66b2ef11be000ad4ce091a17a89ce27494d63842a3954f910a5c8d238d6c3d9c"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step003000.json",
+      "sha256": "4f514d5f490b9105d419d1e06f470db02a338f033f44cb5cb4f9e08e17641882"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step004500.json",
+      "sha256": "60aacb978bda62dbb9590a69cb9ec7bb3211a26e2e8a55c18c48e3ce56dda28b"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step006000.json",
+      "sha256": "8bc52820b0b12bc19923b56741fc7eab858b7a88f87685e4a6e427cc5a1d5ac5"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step012000.json",
+      "sha256": "a75c7ba029f3f10af5faee04885ae90a85df5fcaa2c024ae8db1205dde1e9c2e"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step018000.json",
+      "sha256": "c181d77db48c3622019b3c42d048faa2863385db2aa69149249ceb0c1687ece8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed1/model/diagnostics/step024000.json",
+      "sha256": "b54491b9dd87c59eff461b7d91b7410fab9479f7df9eda1a8fc6bd6e0ef6f5b8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/Fine.json",
+      "sha256": "f4a70448ead1ed27aa036d941ab11d2eb19cf4b9064f28e3af6cedc74e7ccc00"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/G0.json",
+      "sha256": "dcc606db41fc1b6636b8053a43cb81d940c02c9d70d220fda08f2e6dd913c573"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step001500.json",
+      "sha256": "471c33dfd44713e72a7142c724ae517acb8be7913ed780594bb6ff2cd3563b74"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step003000.json",
+      "sha256": "914e2b0b6f000b45a9336a2b2945c2f3d32c86c8f6ebf78d6e17ce4170aa005b"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step004500.json",
+      "sha256": "92a7e34e8d1f314139b9a72198e05d833f2e973c177bd3c78150f5b6128457da"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step006000.json",
+      "sha256": "a6766f7b38308140b374b0dfef55c381771a60be8fefa06ac83c6c1f46f89246"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step012000.json",
+      "sha256": "e110c6ff8f56edb28a5272edb5df75de1b13edc79ed3d999027dc59840716ea2"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step018000.json",
+      "sha256": "cec81dad88aad9952c13f3af4ca040fc2b152064134cde40c64a64566d0dfbf6"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/confirmation_v2/execution/jobs/representation/OursFine4/fhn_fresh_eps05/seed2/model/diagnostics/step024000.json",
+      "sha256": "d7d20feb482e2ed3c22af264144956e80f5619d7ce145baa6140589bf73b08e8"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/round3/CHAINED_SCORE_AUDIT.json",
+      "sha256": "53dab44112e22c975fdda039fd5d4c2385c02a35b0a900d2b744221fc74c4ebe"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/reports/stage_a_plus/round5/ORACLE_GATE_FLOOR_AUDIT.json",
+      "sha256": "0a5c363d4018423201e60bc4610e3ee5ebba91d7bfd4e0931d845ec2beb44bd1"
+    }
+  ],
+  "owner_source_inputs": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_freeze_20261025/fine_development.py",
+      "sha256": "bdd0b47afa875ae2aca3c697d8a54d022b46343015f34d767973827132686c1a"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_stable_id_20261028/confirmation_v2/ours_bridge.py",
+      "sha256": "f7cd48b18f5e237d71d63c9962c02dc7123a3a62a9843d2d5fbc481129ace04f"
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/work/hcf_method_finalize_20261027/v1/explicit_selector.py",
+      "sha256": "e39e988a6406d2f70b1755bbb6a456dcde9a2ab56f4caf6647d768463becd112"
+    }
+  ],
+  "cost_per_execution": {
+    "metadata_or_existing_summary_JSON_files_read": 110,
+    "scientific_array_reads": 0,
+    "checkpoint_loads": 0,
+    "model_forwards": 0,
+    "new_fits": 0,
+    "random_draws": 0,
+    "new_physical_trajectories": 0,
+    "training": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  },
+  "all_checks_pass": true
+}

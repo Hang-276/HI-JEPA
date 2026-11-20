@@ -1,0 +1,256 @@
+{
+  "scope": "Hand-specified covariance/temporal-Gram matrices and exact formulas only.",
+  "scientific_execution": {
+    "scientific_arrays_read": false,
+    "model_or_checkpoint_load": false,
+    "NN_forward": false,
+    "fitting": false,
+    "PRNG": false,
+    "samples_or_trajectories_generated": false,
+    "server_or_GPU": false,
+    "SDP_solver_run": false
+  },
+  "input_markdown_sha256": [
+    {
+      "path": "reports/stage_a_plus/round6/ROUND6_SCOPE.md",
+      "sha256": "eb21a1a370e5b3770720742ba3c4302ae0c26b65294983f2178f54eb6add922d"
+    },
+    {
+      "path": "reports/stage_a_plus/round3/AFFINE_LOCAL_THEORY.md",
+      "sha256": "6f618fa8485e90dac0760cfdc251c8b490ff804357bf3aa4e1b65158b78891fa"
+    },
+    {
+      "path": "reports/stage_a_plus/round3/ROUND3_REPORT.md",
+      "sha256": "91aa0f7dd44e3192f232c21ebc058d4f19961a1db1c02b5df89e73dc137782d9"
+    },
+    {
+      "path": "reports/stage_a_plus/round2/NONLINEAR_THEORY_REVIEW.md",
+      "sha256": "6903ba940821a7a11c879d609cccce1ab02e9ae62d74738126ece4573a89dec9"
+    },
+    {
+      "path": "reports/stage_a_plus/round5/TRANSPORT_AND_SELECTION.md",
+      "sha256": "b031a58354c690e87813d1e50d4b9913ee34e014fa3a3e7cded2cce83bf1f3e8"
+    }
+  ],
+  "all_passed": true,
+  "check_count": 14,
+  "checks": [
+    {
+      "name": "scale_normalization_cancellation_-0.5",
+      "passed": true,
+      "t": -0.5,
+      "signed_numerator": 0.0,
+      "positive_variance_denominator": 0.425,
+      "score": 0.65
+    },
+    {
+      "name": "scale_normalization_cancellation_0.25",
+      "passed": true,
+      "t": 0.25,
+      "signed_numerator": 0.0,
+      "positive_variance_denominator": 2.65625,
+      "score": 0.65
+    },
+    {
+      "name": "scale_normalization_cancellation_2.0",
+      "passed": true,
+      "t": 2.0,
+      "signed_numerator": 0.0,
+      "positive_variance_denominator": 15.3,
+      "score": 0.65
+    },
+    {
+      "name": "signed_ambiguity_moments_are_stationary_realizable",
+      "passed": true,
+      "increment_eigenvalues": [
+        0.552786404500042,
+        0.85,
+        1.4472135954999579,
+        1.8
+      ],
+      "innovation_eigenvalues": [
+        0.47639320225002096,
+        0.669375,
+        0.9236067977499789,
+        0.99
+      ]
+    },
+    {
+      "name": "signed_identity_and_normalization_0.1",
+      "passed": true,
+      "theta": 0.1,
+      "state_axis_error2": [
+        0.009991669443948468,
+        0.009991669443948468,
+        0.0,
+        0.0
+      ],
+      "signed_dynamic_C": [
+        -0.03593669888115192,
+        0.04592836832510028,
+        0.0,
+        0.0
+      ],
+      "dynamic_R": [
+        0.011581018987472417,
+        0.008402319900424518,
+        0.0,
+        0.0
+      ],
+      "score": [
+        0.8834544167497763,
+        1.1165455832502238,
+        0.85,
+        1.8
+      ],
+      "pair_0_to_2_gap": -0.03345441674977634
+    },
+    {
+      "name": "signed_identity_and_normalization_-0.1",
+      "passed": true,
+      "theta": -0.1,
+      "state_axis_error2": [
+        0.009991669443948468,
+        0.009991669443948468,
+        0.0,
+        0.0
+      ],
+      "signed_dynamic_C": [
+        0.043930034436310605,
+        -0.03393836499236225,
+        0.0,
+        0.0
+      ],
+      "dynamic_R": [
+        0.01237902098634848,
+        0.007604317901548456,
+        0.0,
+        0.0
+      ],
+      "score": [
+        0.7245189521137273,
+        1.275481047886273,
+        0.85,
+        1.8
+      ],
+      "pair_0_to_2_gap": 0.12548104788627268
+    },
+    {
+      "name": "support_function_bounds_keep_both_signed_possibilities",
+      "passed": true,
+      "fine_pair_gap": 0.04999999999999993,
+      "robust_lower": -0.03345441674977634,
+      "robust_upper": 0.12548104788627268,
+      "note": "Moment ambiguity only, not a claim of two full-rank equivalent generative laws."
+    },
+    {
+      "name": "joint_state_temporal_PSD_and_linear_gap_objective",
+      "passed": true,
+      "state_eigenvalue_min": -1.6015471591702195e-16,
+      "temporal_eigenvalue_min": -3.060573843970651e-16,
+      "linear_pair_gap": -0.03345441674977612,
+      "direct_pair_gap": -0.03345441674977634
+    },
+    {
+      "name": "joint_ellipsoid_pair_cancellation",
+      "passed": true,
+      "correction_center": 0.0,
+      "joint_width": 0.0,
+      "coordinatewise_box_width": 0.08,
+      "note": "Abstract confidence-envelope identity; coverage is an independent assumption."
+    },
+    {
+      "name": "all_angle_block_invariance_algebra",
+      "passed": true,
+      "reason": "Any orthogonal block-diagonal T commutes with the block-scalar M."
+    },
+    {
+      "name": "block_rotation_fixed_fixture_(0.7853981633974483, 0.7853981633974483)",
+      "passed": true,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "correction": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R": [
+        0.11715728752538097,
+        0.11715728752538097,
+        0.9372583002030478,
+        0.9372583002030478
+      ],
+      "C": [
+        0.05857864376269049,
+        0.05857864376269049,
+        0.4686291501015239,
+        0.4686291501015239
+      ]
+    },
+    {
+      "name": "block_rotation_fixed_fixture_(0, 0.4)",
+      "passed": true,
+      "angles": [
+        0,
+        0.4
+      ],
+      "correction": [
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        2.220446049250313e-16
+      ],
+      "R": [
+        0.0,
+        0.0,
+        0.2526048191907678,
+        0.2526048191907678
+      ],
+      "C": [
+        0.0,
+        0.0,
+        0.12630240959538383,
+        0.12630240959538383
+      ]
+    },
+    {
+      "name": "block_rotation_fixed_fixture_(0.2, 0.7)",
+      "passed": true,
+      "angles": [
+        0.2,
+        0.7
+      ],
+      "correction": [
+        -2.7755575615628914e-17,
+        -2.7755575615628914e-17,
+        0.0,
+        0.0
+      ],
+      "R": [
+        0.007973368863503348,
+        0.007973368863503348,
+        0.7525050006896369,
+        0.7525050006896369
+      ],
+      "C": [
+        0.003986684431751675,
+        0.003986684431751675,
+        0.37625250034481844,
+        0.37625250034481844
+      ]
+    },
+    {
+      "name": "strict_gain_over_even_exact_R_Cauchy_bound",
+      "passed": true,
+      "axis_L2_eta": 0.7653668647301795,
+      "axis_L2_eta2": 0.5857864376269049,
+      "robust_signed_lower_gap": 1.4000000000000001,
+      "exact_R_CS_pair_budget": 3.809736300757075,
+      "norm_box_pair_budget": 9.92790543189627,
+      "note": "Conditional block-class selection, not individual-axis recovery or actual Fine evidence."
+    }
+  ]
+}

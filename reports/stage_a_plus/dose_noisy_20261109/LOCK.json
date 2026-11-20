@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-09T13:15:44.340977+00:00",
+  "sources": {
+    "run.py": "fddcfffceb409c56106b662b0726ee39091f41fc263fec28d0449c5955f95fe3",
+    "PROTOCOL.md": "b7a7ad51fcdec5fc388c38a78251e87afc11477799cb0a467319e1694ee22d31",
+    "THEORY.md": "c2e30beda9b7f315b5df9db5bb40cce525a1a87502b4316aa2f6d8b8487f7db8",
+    "../dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521",
+    "../dose_window_20261109/THEORY.md": "398f74e5bf01b134a3b8c8816705c6dd08f5803bdcae34e25557be5f01ae0b42"
+  },
+  "pilot": 2026285101,
+  "formal": 2026285102,
+  "bootstrap": 2026285103
+}

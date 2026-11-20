@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "conditional mathematical statements, independent proof review, existing metadata/source ledger and artifact integrity; no actual-Fine scientific certification",
+  "previous_manifests_verified_unchanged": [
+    {
+      "directory": "outputs/HCF_STAGE_A_20261104",
+      "unchanged_files": 38
+    },
+    {
+      "directory": "reports/stage_a_plus",
+      "unchanged_files": 20
+    },
+    {
+      "directory": "reports/stage_a_plus/round2",
+      "unchanged_files": 23
+    },
+    {
+      "directory": "reports/stage_a_plus/round3",
+      "unchanged_files": 27
+    }
+  ],
+  "scripts_AST_parsed": [
+    "approximate_posterior_checks.py",
+    "unlabeled_limits_checks.py",
+    "version_space_checks.py"
+  ],
+  "JSON_files_parsed": [
+    "APPROXIMATE_POSTERIOR_CHECKS.json",
+    "FINE_VALUE_SOURCE_MANIFEST.json",
+    "OBSERVABILITY_INPUT_HASHES.json",
+    "UNLABELED_LIMITS_CHECKS.json",
+    "VERSION_SPACE_CHECKS.json"
+  ],
+  "input_and_owned_artifact_hashes_match": true,
+  "distinct_input_files_rehashed": 19,
+  "input_mismatches": [],
+  "local_markdown_links_checked": 59,
+  "missing_local_links": [],
+  "table_column_errors": [],
+  "preexisting_tracked_file_set_and_diff_totals_unchanged": true,
+  "tracked_diff_numstat": "88\t0\tREADME.md\n21\t4\tSHA256SUMS\n3\t1\tscripts/_experiment.py\n11\t0\tsrc/hijepa/config.py\n40\t1\tsrc/hijepa/losses.py\n",
+  "deterministic_checks": {
+    "unlabeled_limits_13_categories": {
+      "all_positive_tau_models_rank8": true,
+      "innovation_variances_uniformly_nondegenerate": true,
+      "rotation_kl_formula": true,
+      "reference_kl_formula": true,
+      "reference_kl_quadratic_bound": true,
+      "latent_covariance_formula": true,
+      "identity_encoder_not_axis_recovered_in_rotated_model": true,
+      "twist_series_converged": true,
+      "twist_positive_best_affine_remainder": true,
+      "twist_projection_energy_formula": true,
+      "analytic_twist_determinant_one": true,
+      "analytic_twist_jacobian_uniform_bound": true,
+      "finite_data_nontrivial_lower_bounds": true
+    },
+    "version_space_5_categories": {
+      "all_24_loss_coverage_cases": true,
+      "poor_reference_still_preserves_truth_candidate": true,
+      "normalized_score_discrepancy_bound": true,
+      "nonempty_small_diameter_certificate": true,
+      "large_diameter_certificate_abstains": true
+    },
+    "version_space_coverage_cases": 24,
+    "approximate_posterior_probability_cases": 6,
+    "approximate_posterior_average_context_and_Omega_normalization": true
+  },
+  "metadata_ledger": {
+    "physical_instances": 4,
+    "Fine_parents": 12,
+    "existing_snapshot_metadata_count": 84,
+    "selected_snapshot_hashes_independently_verified": 12,
+    "owner_source_hashes_independently_verified": 3,
+    "actual_learned_head_rank": "unmeasured",
+    "actual_full_regime_posterior": "not recorded or evaluated",
+    "finite_moment_summaries_are_not_acceptance_certificates": true
+  },
+  "independent_reviews": {
+    "exact_posterior_and_head_rank": "EXACT_POSTERIOR_REVIEW.md; passed; context-specific sigma-algebra wording clarified",
+    "approximate_posterior_and_testing_bounds": "POSTERIOR_AND_LIMITS_REVIEW.md; passed; Omega normalization and nontrivial-power scope clarified",
+    "version_space": "UNLABELED_LIMITS.md section7; passed; TRAIN empirical support does not cover CAL by default",
+    "synthesis": "Reviewed by all three topic reviewers; real-Gaussian assumptions and NLL population-excess wording made explicit"
+  },
+  "cost": {
+    "scientific_data_array_reads": 0,
+    "checkpoint_loads": 0,
+    "model_forward": 0,
+    "new_fits": 0,
+    "neural_training": 0,
+    "PRNG_calls": 0,
+    "new_physical_trajectories": 0,
+    "TEST_FINAL_array_reads": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  },
+  "conclusions": {
+    "physical_truth_free_population_interface": "Conditional exact-posterior and full-version-space interfaces established",
+    "finite_actual_Fine_remainder_certificate": "NOT_ESTABLISHED",
+    "independent_Fine_value": "Conditional restricted-reader precision gain only; necessity and same-class advantage not established",
+    "route": "Retain quantitative stability/failure-boundary theory; do not expand Fine method training; server/GPU remains deferred"
+  },
+  "remaining_gap": "Approximate posterior to quantitative axis-affine closure with fixed gauge, controlled region, tail moments and valid statistical error; no constants supplied from hidden physical truth"
+}

@@ -1,0 +1,15 @@
+{
+  "master": 2026111302,
+  "n_calibration": 8192,
+  "n_validation": 4096,
+  "n_reference": 32768,
+  "n_test": 1024,
+  "trajectory_length": 193,
+  "lags": [4, 16, 32],
+  "ridge_alphas": [0.000001, 0.001, 0.1],
+  "mlp_width": 128,
+  "mlp_steps": 3000,
+  "mlp_batch_size": 256,
+  "mlp_eval_interval": 250,
+  "mlp_lr": 0.001
+}

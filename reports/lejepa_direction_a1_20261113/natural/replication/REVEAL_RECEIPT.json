@@ -1,0 +1,12 @@
+{
+  "forecast_receipt_sha256": "8668fd1eefa14be6b8b682886ac7ec4f465e34f4601f50f92796527d6692e912",
+  "labels_sha256": "f62510e6f54d8c48baa52bbc36c63949c29c7449186148976eba80270c2eafb9",
+  "process_names": [
+    "separated_wide",
+    "separated_narrow"
+  ],
+  "label_shape": [
+    2048,
+    4
+  ]
+}

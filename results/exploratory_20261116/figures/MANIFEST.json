@@ -1,0 +1,41 @@
+{
+  "evidence_tier": "exploratory_numerical_sandbox",
+  "renderer": "Python standard library SVG; no plotting packages",
+  "runtime_seconds": 0.037192458752542734,
+  "inputs": {
+    "results/exploratory_20261116/probe1_summary.json": "ef3947048b226c2026b92eb6789b2c240578af6af4f477741ee3d3fdb27d69fe",
+    "results/exploratory_20261116/probe2_summary.json": "a7ee334013d96e8dd33c2b37d6e36ce38e12b0361d8b48a530ea9949a9ee2cf9"
+  },
+  "figures": {
+    "phase_all_risk.svg": {
+      "sha256": "c8505e4f4b897a2f81c9bb75e932895f923f05518bc66e9894477439225b11cd",
+      "xml_validated": true,
+      "bytes": 136328
+    },
+    "phase_own_cal_risk.svg": {
+      "sha256": "6dc2c8587c56c7c5006a53ea948e5150c21323a188d38e459341b0c5e30b5662",
+      "xml_validated": true,
+      "bytes": 173899
+    },
+    "subspace_phase.svg": {
+      "sha256": "4b3437b65c771a4c5534f1ed38482bea49f525ef6fa2582cb77f29e2bcd381b5",
+      "xml_validated": true,
+      "bytes": 81611
+    },
+    "harmonic_boundary.svg": {
+      "sha256": "46d38f5ca7815365880d095e343125ebab99139dcb116ca7c535fb26cab57798",
+      "xml_validated": true,
+      "bytes": 17927
+    },
+    "stress.svg": {
+      "sha256": "4477da48a373046b625e0bdb991fe6b6245fdd6cc1c0f78b8189165b3cc5c6bb",
+      "xml_validated": true,
+      "bytes": 44524
+    }
+  },
+  "notes": [
+    "All figures are descriptive paired numerical sandboxes.",
+    "Below-1-percent marks use observed risk, not confidence bounds.",
+    "Harmonic oracle reference and subspace diagnostics use ground truth."
+  ]
+}

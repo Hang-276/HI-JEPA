@@ -1,0 +1,24 @@
+{
+  "seed": 2026110718,
+  "pilot_seed": 1919,
+  "reps_per_side": 512,
+  "batch": 64,
+  "alpha": 0.05,
+  "familywise_alpha": 0.01,
+  "phi_deg": 43,
+  "rho": 0.97,
+  "ols_fit_transitions_per_rep": 256,
+  "lags": [4, 16, 32],
+  "reference_windows": [64, 256, 1024],
+  "dynamics": [
+    {"name": "VAR_psi_11.25", "psi_deg": 11.25},
+    {"name": "VAR_psi_30", "psi_deg": 30}
+  ],
+  "cells": [
+    {"name": "ref", "n": 4096, "tau": 0.8, "d_deg": 7},
+    {"name": "weak", "n": 4096, "tau": 0.2, "d_deg": 7},
+    {"name": "small_gap", "n": 4096, "tau": 0.8, "d_deg": 2},
+    {"name": "short", "n": 256, "tau": 0.8, "d_deg": 7},
+    {"name": "long", "n": 8192, "tau": 0.8, "d_deg": 7}
+  ]
+}

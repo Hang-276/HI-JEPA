@@ -1,0 +1,11 @@
+{
+  "original_entries": 48449,
+  "retained_entries": 47410,
+  "retained_regular_bytes": 33709924671,
+  "deleted_cache_files": 1039,
+  "deleted_cache_bytes": 23468044,
+  "unexplained_missing_or_changed": [],
+  "elapsed_seconds": 22.86,
+  "git_metadata": "excluded from content manifest; preserved in place or whole-directory relocation",
+  "experiment_metrics_recomputed": false
+}

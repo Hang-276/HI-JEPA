@@ -1,0 +1,61 @@
+[
+  {
+    "receipt": "reports/lejepa_a4_20261115/NEW_FORECAST.json",
+    "forecast_files": 16,
+    "sha_mismatches": [],
+    "array_shapes": {
+      "predicted_scores.npy": [
+        "(2048, 4)"
+      ],
+      "gap.npy": [
+        "(2048,)"
+      ],
+      "adjusted_gap.npy": [
+        "(2048,)"
+      ],
+      "top2.npy": [
+        "(2048, 2)"
+      ]
+    }
+  },
+  {
+    "receipt": "reports/lejepa_a3_gap_20261115/FORECAST.json",
+    "forecast_files": 16,
+    "sha_mismatches": [],
+    "array_shapes": {
+      "predicted_scores.npy": [
+        "(4096, 4)"
+      ]
+    }
+  },
+  {
+    "receipt": "reports/lejepa_a2_readout_20261115/FORECAST.json",
+    "forecast_files": 32,
+    "sha_mismatches": [],
+    "array_shapes": {
+      "predicted_scores.npy": [
+        "(4096, 4)"
+      ]
+    }
+  },
+  {
+    "receipt": "reports/lejepa_b_transfer_20261115/FORECAST.json",
+    "forecast_files": 64,
+    "sha_mismatches": [],
+    "array_shapes": {
+      "predicted_scores.npy": [
+        "(4096, 4)"
+      ]
+    }
+  },
+  {
+    "receipt": "reports/lejepa_b2_lag_20261115/FORECAST.json",
+    "forecast_files": 16,
+    "sha_mismatches": [],
+    "array_shapes": {
+      "scores.npy": [
+        "(5, 4096, 4)"
+      ]
+    }
+  }
+]

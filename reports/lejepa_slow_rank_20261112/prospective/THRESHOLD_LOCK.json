@@ -1,0 +1,88 @@
+{
+  "forecasts_sha256": "457bd7addd8bf5fbc4f3899c9b2b68b771ab172fcd4a21dc0163284c3562a329",
+  "protocol_sha256": "8d24eced0ec4abb810b640b54cdadd765c0c73e6a2742233aa55a12d3dd083da",
+  "scorer_sha256": "1c58ef2c22f3b1f3bec006551b8eb992dc74841c114f2c3f4aeaeec2399a4ca1",
+  "dev_count": 8192,
+  "expected_test_count": 8192,
+  "expected_banks": 64,
+  "accepts_when": "score >= threshold",
+  "error_limit": 0.05,
+  "family_alpha": 0.05,
+  "per_rule_alpha": 0.0035714285714285718,
+  "rules": {
+    "gap_only": [
+      {
+        "dev_target_coverage": 0.025,
+        "threshold": 0.7324762811676377,
+        "dev_accepted_count": 205
+      },
+      {
+        "dev_target_coverage": 0.05,
+        "threshold": 0.6102134116157243,
+        "dev_accepted_count": 410
+      },
+      {
+        "dev_target_coverage": 0.1,
+        "threshold": 0.49684227428111205,
+        "dev_accepted_count": 820
+      },
+      {
+        "dev_target_coverage": 0.2,
+        "threshold": 0.3754406888981976,
+        "dev_accepted_count": 1639
+      },
+      {
+        "dev_target_coverage": 0.4,
+        "threshold": 0.23374266231948493,
+        "dev_accepted_count": 3277
+      },
+      {
+        "dev_target_coverage": 0.6,
+        "threshold": 0.13700687849486526,
+        "dev_accepted_count": 4916
+      },
+      {
+        "dev_target_coverage": 0.8,
+        "threshold": 0.06427615859135227,
+        "dev_accepted_count": 6554
+      }
+    ],
+    "uncertainty_aware": [
+      {
+        "dev_target_coverage": 0.025,
+        "threshold": 0.4339306144434765,
+        "dev_accepted_count": 205
+      },
+      {
+        "dev_target_coverage": 0.05,
+        "threshold": 0.33181692171200433,
+        "dev_accepted_count": 410
+      },
+      {
+        "dev_target_coverage": 0.1,
+        "threshold": 0.21855578176980062,
+        "dev_accepted_count": 820
+      },
+      {
+        "dev_target_coverage": 0.2,
+        "threshold": 0.09455588497612433,
+        "dev_accepted_count": 1639
+      },
+      {
+        "dev_target_coverage": 0.4,
+        "threshold": -0.04076134261878294,
+        "dev_accepted_count": 3277
+      },
+      {
+        "dev_target_coverage": 0.6,
+        "threshold": -0.1415211621654643,
+        "dev_accepted_count": 4916
+      },
+      {
+        "dev_target_coverage": 0.8,
+        "threshold": -0.3308138678769367,
+        "dev_accepted_count": 6554
+      }
+    ]
+  }
+}

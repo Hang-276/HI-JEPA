@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-10T09:04:12.050163+00:00",
+  "sources": {
+    "PROTOCOL.md": "33871e13225f850a1c1161412238c7a5aca29f47634edffb87f71e8a7f69b469",
+    "THEORY.md": "52a6de7ace278204c96decd1a6dd2fd8dac51f36f614936155ea6c2f451ab302",
+    "run.py": "18dca8ce71464edb40a6b838323a24f2c618b9bfa4102d0fb5e881114b0160e7",
+    "../dose_window_20261109/run.py": "f2583e993fc74bcbaf7e35d185dc148056a651b3de3beb0be443bbb01f6fe521",
+    "../dose_window_20261109/THEORY.md": "398f74e5bf01b134a3b8c8816705c6dd08f5803bdcae34e25557be5f01ae0b42",
+    "../dose_window_20261109/SHARP_CONSTANTS.md": "116c50451ace36cb88adb4b1a935d884f5ba6ca3c4430baa895c295bfed22b7b"
+  },
+  "design": [
+    {
+      "period": 0.35,
+      "population_shift": 0.017125165537593343,
+      "full_class_sharp_coefficient": 0.15304902689997682,
+      "reference_variance": 1.0094158416333334,
+      "reference_wrapping_error_bound": 4.2019527545152035e-70,
+      "competitors": {
+        "tie": {
+          "rho": 0.995,
+          "population_gap": 0.0,
+          "sqrt_T_gap_sd": 1.2319495190133907,
+          "normal_witness_benchmark": [
+            0.08817303315067276,
+            0.17185633558766894,
+            0.3132036993988369,
+            0.46241004473994457
+          ]
+        },
+        "fixed_gap": {
+          "rho": 0.99,
+          "population_gap": 0.1452322447645693,
+          "sqrt_T_gap_sd": 1.8366649485146072,
+          "normal_witness_benchmark": [
+            0.029284822616989836,
+            0.007094516042523535,
+            3.8040001743011587e-06,
+            0.0
+          ]
+        },
+        "interior_gap": {
+          "rho": 0.9947209336272143,
+          "population_gap": 0.00856258276759525,
+          "sqrt_T_gap_sd": 1.263998142273225,
+          "normal_witness_benchmark": [
+            0.08647926404314332,
+            0.17169843729246503,
+            0.33542255563419704,
+            0.6141263252427758
+          ]
+        }
+      }
+    },
+    {
+      "period": 0.2474873734152916,
+      "population_shift": 0.00860599056681842,
+      "full_class_sharp_coefficient": 0.15304902689997682,
+      "reference_variance": 1.0047079208166667,
+      "reference_wrapping_error_bound": 4.383124403439799e-140,
+      "competitors": {
+        "tie": {
+          "rho": 0.995,
+          "population_gap": 0.0,
+          "sqrt_T_gap_sd": 1.2319495190133907,
+          "normal_witness_benchmark": [
+            0.044583848725187336,
+            0.08848536978416077,
+            0.17261204866068258,
+            0.31439063225558317
+          ]
+        },
+        "fixed_gap": {
+          "rho": 0.99,
+          "population_gap": 0.1452322447645693,
+          "sqrt_T_gap_sd": 1.8366649485146072,
+          "normal_witness_benchmark": [
+            0.014064634642127705,
+            0.0029419711903657664,
+            7.529876115963674e-07,
+            0.0
+          ]
+        },
+        "interior_gap": {
+          "rho": 0.99485998896078,
+          "population_gap": 0.004302995283328004,
+          "sqrt_T_gap_sd": 1.2479656306111855,
+          "normal_witness_benchmark": [
+            0.044081235195478574,
+            0.0879000060968444,
+            0.1746735308652354,
+            0.3410464990195824
+          ]
+        }
+      }
+    }
+  ],
+  "seeds": {
+    "pilot": 2026335001,
+    "formal": 2026335002,
+    "bootstrap": 2026335003
+  },
+  "lengths": [
+    257,
+    1025,
+    4097,
+    16385
+  ],
+  "pilot_size": 8,
+  "panels": 16,
+  "trajectories_per_panel": 64
+}

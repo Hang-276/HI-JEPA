@@ -1,0 +1,7 @@
+{
+  "cell": "predictor_lag4_wsig0.004_seed202",
+  "own_cal": 0.18062112441867223,
+  "family_alpha": 0.05,
+  "per_claim_alpha": 0.001,
+  "frozen_before_test_encoding": true
+}

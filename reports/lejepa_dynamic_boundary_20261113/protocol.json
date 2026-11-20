@@ -1,0 +1,19 @@
+{
+  "rounds": {"primary": 2026111318, "replication": 2026111319},
+  "processes": {"separated_wide": [0.93, 0.918, 0.892, 0.88], "separated_narrow": [0.93, 0.906, 0.904, 0.88]},
+  "n_state_cal": 32768,
+  "n_reference": 32768,
+  "n_fit": 512,
+  "n_validation": 256,
+  "n_test": 2048,
+  "length": 193,
+  "lags": [4, 16, 32],
+  "ridge_alphas": [0, 0.001, 0.01, 0.1, 1, 10, 100],
+  "minimum_gain": 0.01,
+  "minimum_window_specific_gain": 0.005,
+  "minimum_pair_cross_r2": 0.1,
+  "bootstrap_draws": 4096,
+  "bootstrap_seed": 2026111342,
+  "arms": ["base", "cross_mean", "cross_diag", "cross_full", "cross_full_reverse", "total_full"],
+  "oracle_arms": ["oracle_cross", "oracle_energy", "oracle_reference", "oracle_cross_energy", "oracle_cross_abs", "oracle_cross_reverse"]
+}

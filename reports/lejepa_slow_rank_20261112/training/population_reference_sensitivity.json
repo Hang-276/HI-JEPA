@@ -1,0 +1,1351 @@
+{
+  "status": "supplemental sensitivity; frozen predictions verified against primary receipts",
+  "target": "known population physical reference variance one",
+  "prediction_change": "none; each predicted coordinate retains its original reference-panel variance",
+  "cases": {
+    "separated_wide": {
+      "physical_target_changes": 147,
+      "windows": 1536,
+      "mean_accuracy": {
+        "native_named": 0.3873697916666667,
+        "spectral_named": 0.7799479166666666,
+        "spectral_population_order": 0.7799479166666666,
+        "oracle_linear": 0.8509114583333334
+      },
+      "by_seed": {
+        "1942": {
+          "physical_target_changes": 54,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.515625,
+              "correct": 198,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 10,
+                  "windows": 18
+                },
+                {
+                  "correct": 5,
+                  "windows": 25
+                },
+                {
+                  "correct": 183,
+                  "windows": 341
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.7760416666666666,
+              "correct": 298,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 8,
+                  "windows": 18
+                },
+                {
+                  "correct": 10,
+                  "windows": 25
+                },
+                {
+                  "correct": 280,
+                  "windows": 341
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.7760416666666666,
+              "correct": 298,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 8,
+                  "windows": 18
+                },
+                {
+                  "correct": 10,
+                  "windows": 25
+                },
+                {
+                  "correct": 280,
+                  "windows": 341
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8385416666666666,
+              "correct": 322,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 9,
+                  "windows": 18
+                },
+                {
+                  "correct": 16,
+                  "windows": 25
+                },
+                {
+                  "correct": 297,
+                  "windows": 341
+                }
+              ]
+            }
+          }
+        },
+        "3749": {
+          "physical_target_changes": 34,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.3619791666666667,
+              "correct": 139,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 16
+                },
+                {
+                  "correct": 6,
+                  "windows": 19
+                },
+                {
+                  "correct": 129,
+                  "windows": 349
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.7734375,
+              "correct": 297,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 16
+                },
+                {
+                  "correct": 8,
+                  "windows": 19
+                },
+                {
+                  "correct": 284,
+                  "windows": 349
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.7734375,
+              "correct": 297,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 16
+                },
+                {
+                  "correct": 8,
+                  "windows": 19
+                },
+                {
+                  "correct": 284,
+                  "windows": 349
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8802083333333334,
+              "correct": 338,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 9,
+                  "windows": 16
+                },
+                {
+                  "correct": 10,
+                  "windows": 19
+                },
+                {
+                  "correct": 319,
+                  "windows": 349
+                }
+              ]
+            }
+          }
+        },
+        "5817": {
+          "physical_target_changes": 20,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.3177083333333333,
+              "correct": 122,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 15
+                },
+                {
+                  "correct": 8,
+                  "windows": 31
+                },
+                {
+                  "correct": 111,
+                  "windows": 338
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.8203125,
+              "correct": 315,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 15
+                },
+                {
+                  "correct": 13,
+                  "windows": 31
+                },
+                {
+                  "correct": 296,
+                  "windows": 338
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.8203125,
+              "correct": 315,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 15
+                },
+                {
+                  "correct": 13,
+                  "windows": 31
+                },
+                {
+                  "correct": 296,
+                  "windows": 338
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.859375,
+              "correct": 330,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 15
+                },
+                {
+                  "correct": 14,
+                  "windows": 31
+                },
+                {
+                  "correct": 311,
+                  "windows": 338
+                }
+              ]
+            }
+          }
+        },
+        "7811": {
+          "physical_target_changes": 39,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.3541666666666667,
+              "correct": 136,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 13
+                },
+                {
+                  "correct": 5,
+                  "windows": 28
+                },
+                {
+                  "correct": 129,
+                  "windows": 343
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.75,
+              "correct": 288,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 13
+                },
+                {
+                  "correct": 11,
+                  "windows": 28
+                },
+                {
+                  "correct": 274,
+                  "windows": 343
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.75,
+              "correct": 288,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 13
+                },
+                {
+                  "correct": 11,
+                  "windows": 28
+                },
+                {
+                  "correct": 274,
+                  "windows": 343
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8255208333333334,
+              "correct": 317,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 13
+                },
+                {
+                  "correct": 12,
+                  "windows": 28
+                },
+                {
+                  "correct": 302,
+                  "windows": 343
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "crossed_wide": {
+      "physical_target_changes": 119,
+      "windows": 1536,
+      "mean_accuracy": {
+        "native_named": 0.36783854166666663,
+        "spectral_named": 0.6263020833333334,
+        "spectral_population_order": 0.6263020833333334,
+        "oracle_linear": 0.6477864583333333
+      },
+      "by_seed": {
+        "1942": {
+          "physical_target_changes": 40,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.4635416666666667,
+              "correct": 178,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 17
+                },
+                {
+                  "correct": 6,
+                  "windows": 21
+                },
+                {
+                  "correct": 168,
+                  "windows": 346
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.5572916666666666,
+              "correct": 214,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 17
+                },
+                {
+                  "correct": 7,
+                  "windows": 21
+                },
+                {
+                  "correct": 201,
+                  "windows": 346
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.5572916666666666,
+              "correct": 214,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 17
+                },
+                {
+                  "correct": 7,
+                  "windows": 21
+                },
+                {
+                  "correct": 201,
+                  "windows": 346
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.5703125,
+              "correct": 219,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 17
+                },
+                {
+                  "correct": 6,
+                  "windows": 21
+                },
+                {
+                  "correct": 208,
+                  "windows": 346
+                }
+              ]
+            }
+          }
+        },
+        "3749": {
+          "physical_target_changes": 30,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.5338541666666666,
+              "correct": 205,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 1,
+                  "windows": 12
+                },
+                {
+                  "correct": 13,
+                  "windows": 22
+                },
+                {
+                  "correct": 191,
+                  "windows": 350
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.8671875,
+              "correct": 333,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 8,
+                  "windows": 12
+                },
+                {
+                  "correct": 12,
+                  "windows": 22
+                },
+                {
+                  "correct": 313,
+                  "windows": 350
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.8671875,
+              "correct": 333,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 8,
+                  "windows": 12
+                },
+                {
+                  "correct": 12,
+                  "windows": 22
+                },
+                {
+                  "correct": 313,
+                  "windows": 350
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8776041666666666,
+              "correct": 337,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 12
+                },
+                {
+                  "correct": 13,
+                  "windows": 22
+                },
+                {
+                  "correct": 317,
+                  "windows": 350
+                }
+              ]
+            }
+          }
+        },
+        "5817": {
+          "physical_target_changes": 13,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.20052083333333334,
+              "correct": 77,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 13
+                },
+                {
+                  "correct": 7,
+                  "windows": 19
+                },
+                {
+                  "correct": 68,
+                  "windows": 352
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.5989583333333334,
+              "correct": 230,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 13
+                },
+                {
+                  "correct": 7,
+                  "windows": 19
+                },
+                {
+                  "correct": 220,
+                  "windows": 352
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.5989583333333334,
+              "correct": 230,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 13
+                },
+                {
+                  "correct": 7,
+                  "windows": 19
+                },
+                {
+                  "correct": 220,
+                  "windows": 352
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.6171875,
+              "correct": 237,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 0,
+                  "windows": 13
+                },
+                {
+                  "correct": 10,
+                  "windows": 19
+                },
+                {
+                  "correct": 227,
+                  "windows": 352
+                }
+              ]
+            }
+          }
+        },
+        "7811": {
+          "physical_target_changes": 36,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.2734375,
+              "correct": 105,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 14
+                },
+                {
+                  "correct": 7,
+                  "windows": 23
+                },
+                {
+                  "correct": 93,
+                  "windows": 347
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.4817708333333333,
+              "correct": 185,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 14
+                },
+                {
+                  "correct": 5,
+                  "windows": 23
+                },
+                {
+                  "correct": 176,
+                  "windows": 347
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.4817708333333333,
+              "correct": 185,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 14
+                },
+                {
+                  "correct": 5,
+                  "windows": 23
+                },
+                {
+                  "correct": 176,
+                  "windows": 347
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.5260416666666666,
+              "correct": 202,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 14
+                },
+                {
+                  "correct": 8,
+                  "windows": 23
+                },
+                {
+                  "correct": 190,
+                  "windows": 347
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "separated_narrow": {
+      "physical_target_changes": 144,
+      "windows": 1536,
+      "mean_accuracy": {
+        "native_named": 0.39127604166666663,
+        "spectral_named": 0.6490885416666667,
+        "spectral_population_order": 0.6412760416666667,
+        "oracle_linear": 0.859375
+      },
+      "by_seed": {
+        "1942": {
+          "physical_target_changes": 51,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.4505208333333333,
+              "correct": 173,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 16
+                },
+                {
+                  "correct": 6,
+                  "windows": 20
+                },
+                {
+                  "correct": 164,
+                  "windows": 348
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.7005208333333334,
+              "correct": 269,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 16
+                },
+                {
+                  "correct": 9,
+                  "windows": 20
+                },
+                {
+                  "correct": 254,
+                  "windows": 348
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.7005208333333334,
+              "correct": 269,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 16
+                },
+                {
+                  "correct": 9,
+                  "windows": 20
+                },
+                {
+                  "correct": 254,
+                  "windows": 348
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8463541666666666,
+              "correct": 325,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 16
+                },
+                {
+                  "correct": 13,
+                  "windows": 20
+                },
+                {
+                  "correct": 308,
+                  "windows": 348
+                }
+              ]
+            }
+          }
+        },
+        "3749": {
+          "physical_target_changes": 37,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.4140625,
+              "correct": 159,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 21
+                },
+                {
+                  "correct": 7,
+                  "windows": 26
+                },
+                {
+                  "correct": 145,
+                  "windows": 337
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.6458333333333334,
+              "correct": 248,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 21
+                },
+                {
+                  "correct": 11,
+                  "windows": 26
+                },
+                {
+                  "correct": 230,
+                  "windows": 337
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.6458333333333334,
+              "correct": 248,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 21
+                },
+                {
+                  "correct": 11,
+                  "windows": 26
+                },
+                {
+                  "correct": 230,
+                  "windows": 337
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8671875,
+              "correct": 333,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 14,
+                  "windows": 21
+                },
+                {
+                  "correct": 12,
+                  "windows": 26
+                },
+                {
+                  "correct": 307,
+                  "windows": 337
+                }
+              ]
+            }
+          }
+        },
+        "5817": {
+          "physical_target_changes": 14,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.3567708333333333,
+              "correct": 137,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 13
+                },
+                {
+                  "correct": 10,
+                  "windows": 28
+                },
+                {
+                  "correct": 125,
+                  "windows": 343
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.75,
+              "correct": 288,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 13
+                },
+                {
+                  "correct": 13,
+                  "windows": 28
+                },
+                {
+                  "correct": 271,
+                  "windows": 343
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.75,
+              "correct": 288,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 13
+                },
+                {
+                  "correct": 13,
+                  "windows": 28
+                },
+                {
+                  "correct": 271,
+                  "windows": 343
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8802083333333334,
+              "correct": 338,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 13
+                },
+                {
+                  "correct": 13,
+                  "windows": 28
+                },
+                {
+                  "correct": 319,
+                  "windows": 343
+                }
+              ]
+            }
+          }
+        },
+        "7811": {
+          "physical_target_changes": 42,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.34375,
+              "correct": 132,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 1,
+                  "windows": 12
+                },
+                {
+                  "correct": 8,
+                  "windows": 25
+                },
+                {
+                  "correct": 123,
+                  "windows": 347
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.5,
+              "correct": 192,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 0,
+                  "windows": 12
+                },
+                {
+                  "correct": 9,
+                  "windows": 25
+                },
+                {
+                  "correct": 183,
+                  "windows": 347
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.46875,
+              "correct": 180,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 12
+                },
+                {
+                  "correct": 10,
+                  "windows": 25
+                },
+                {
+                  "correct": 166,
+                  "windows": 347
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.84375,
+              "correct": 324,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 12
+                },
+                {
+                  "correct": 11,
+                  "windows": 25
+                },
+                {
+                  "correct": 309,
+                  "windows": 347
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "crossed_narrow": {
+      "physical_target_changes": 110,
+      "windows": 1536,
+      "mean_accuracy": {
+        "native_named": 0.38606770833333337,
+        "spectral_named": 0.5481770833333334,
+        "spectral_population_order": 0.5514322916666666,
+        "oracle_linear": 0.7024739583333334
+      },
+      "by_seed": {
+        "1942": {
+          "physical_target_changes": 33,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.4348958333333333,
+              "correct": 167,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 6,
+                  "windows": 13
+                },
+                {
+                  "correct": 6,
+                  "windows": 12
+                },
+                {
+                  "correct": 155,
+                  "windows": 359
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.4869791666666667,
+              "correct": 187,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 1,
+                  "windows": 13
+                },
+                {
+                  "correct": 6,
+                  "windows": 12
+                },
+                {
+                  "correct": 180,
+                  "windows": 359
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.4869791666666667,
+              "correct": 187,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 1,
+                  "windows": 13
+                },
+                {
+                  "correct": 6,
+                  "windows": 12
+                },
+                {
+                  "correct": 180,
+                  "windows": 359
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.5703125,
+              "correct": 219,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 13
+                },
+                {
+                  "correct": 9,
+                  "windows": 12
+                },
+                {
+                  "correct": 208,
+                  "windows": 359
+                }
+              ]
+            }
+          }
+        },
+        "3749": {
+          "physical_target_changes": 34,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.5130208333333334,
+              "correct": 197,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 17
+                },
+                {
+                  "correct": 10,
+                  "windows": 27
+                },
+                {
+                  "correct": 183,
+                  "windows": 340
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.71875,
+              "correct": 276,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 17
+                },
+                {
+                  "correct": 11,
+                  "windows": 27
+                },
+                {
+                  "correct": 258,
+                  "windows": 340
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.71875,
+              "correct": 276,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 7,
+                  "windows": 17
+                },
+                {
+                  "correct": 11,
+                  "windows": 27
+                },
+                {
+                  "correct": 258,
+                  "windows": 340
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8828125,
+              "correct": 339,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 9,
+                  "windows": 17
+                },
+                {
+                  "correct": 15,
+                  "windows": 27
+                },
+                {
+                  "correct": 315,
+                  "windows": 340
+                }
+              ]
+            }
+          }
+        },
+        "5817": {
+          "physical_target_changes": 14,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.3203125,
+              "correct": 123,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 7
+                },
+                {
+                  "correct": 9,
+                  "windows": 27
+                },
+                {
+                  "correct": 112,
+                  "windows": 350
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.6692708333333334,
+              "correct": 257,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 7
+                },
+                {
+                  "correct": 10,
+                  "windows": 27
+                },
+                {
+                  "correct": 245,
+                  "windows": 350
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.6692708333333334,
+              "correct": 257,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 7
+                },
+                {
+                  "correct": 10,
+                  "windows": 27
+                },
+                {
+                  "correct": 245,
+                  "windows": 350
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.8098958333333334,
+              "correct": 311,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 3,
+                  "windows": 7
+                },
+                {
+                  "correct": 13,
+                  "windows": 27
+                },
+                {
+                  "correct": 295,
+                  "windows": 350
+                }
+              ]
+            }
+          }
+        },
+        "7811": {
+          "physical_target_changes": 29,
+          "top2": {
+            "native_named": {
+              "accuracy": 0.2760416666666667,
+              "correct": 106,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 11
+                },
+                {
+                  "correct": 4,
+                  "windows": 18
+                },
+                {
+                  "correct": 100,
+                  "windows": 355
+                }
+              ]
+            },
+            "spectral_named": {
+              "accuracy": 0.3177083333333333,
+              "correct": 122,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 2,
+                  "windows": 11
+                },
+                {
+                  "correct": 7,
+                  "windows": 18
+                },
+                {
+                  "correct": 113,
+                  "windows": 355
+                }
+              ]
+            },
+            "spectral_population_order": {
+              "accuracy": 0.3307291666666667,
+              "correct": 127,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 4,
+                  "windows": 11
+                },
+                {
+                  "correct": 6,
+                  "windows": 18
+                },
+                {
+                  "correct": 117,
+                  "windows": 355
+                }
+              ]
+            },
+            "oracle_linear": {
+              "accuracy": 0.546875,
+              "correct": 210,
+              "windows": 384,
+              "margin_bins": [
+                {
+                  "correct": 5,
+                  "windows": 11
+                },
+                {
+                  "correct": 9,
+                  "windows": 18
+                },
+                {
+                  "correct": 196,
+                  "windows": 355
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

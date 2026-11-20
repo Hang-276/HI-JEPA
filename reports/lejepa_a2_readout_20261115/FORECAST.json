@@ -1,0 +1,641 @@
+{
+  "config": {
+    "seeds": [
+      20151,
+      20152,
+      20153,
+      20154
+    ],
+    "training_cases": [
+      "separated_wide",
+      "crossed_wide"
+    ],
+    "processes": {
+      "separated_wide": [
+        0.93,
+        0.918,
+        0.892,
+        0.88
+      ],
+      "separated_narrow": [
+        0.93,
+        0.906,
+        0.904,
+        0.88
+      ]
+    },
+    "length": 193,
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "n_test": 4096,
+    "test_role": 731,
+    "threshold": 0.17748381448816608,
+    "alpha": 0.05,
+    "min_coverage": 0.35,
+    "max_error": 0.01,
+    "minimum_r2_drop": 0.01,
+    "minimum_weak_r2": 0.85,
+    "minimum_separated_encoders": 6,
+    "gap_edges": [
+      0.17748381448816608,
+      0.2524838144881661,
+      0.40248381448816606
+    ],
+    "matched_gap_max_difference": 0.02
+  },
+  "cells": [
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321510,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20151__separated_wide__strong.npz",
+      "sha256": "18c30f3660a2aa243ed58e0ba8e0ef42a80dae60514b8c7ec8078671d58dab51",
+      "reference_variance": [
+        0.9782182043949276,
+        1.0033386407815763,
+        1.0016415649887753,
+        1.0175670506617818
+      ]
+    },
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321510,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20151__separated_wide__weak.npz",
+      "sha256": "1a3b71cba8163ea55390addcb0177215176dd3002ade4799273e1c8d08d01879",
+      "reference_variance": [
+        0.9458454504540207,
+        0.9761956295746214,
+        0.9778070668375455,
+        0.9575976954064689
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321510,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20151__separated_wide__strong.npz",
+      "sha256": "ee5f1ecf48eedf499bb9a07a5c6801c4e351902ed32bae607e2c5fbcc859d7a5",
+      "reference_variance": [
+        0.9727074932816855,
+        1.0045195001061398,
+        0.9906248088434803,
+        1.0148291669910152
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321510,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20151__separated_wide__weak.npz",
+      "sha256": "21e908c44b245d930d98a117be02b52257d553fccb24d6c33032656d6d722729",
+      "reference_variance": [
+        0.9852076549844069,
+        0.9293409159713073,
+        0.9622131685396526,
+        0.9620732076487202
+      ]
+    },
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321511,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20151__separated_narrow__strong.npz",
+      "sha256": "7fdcb3e537f20921f1845d985c4747efaca36d93cecb56e5c1bd3a6a6cb1e6e6",
+      "reference_variance": [
+        0.9842624676108833,
+        0.9954569219539959,
+        1.0045802258531011,
+        1.0044649370644514
+      ]
+    },
+    {
+      "name": "separated_wide_20151",
+      "seed": 20151,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321511,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20151__separated_narrow__weak.npz",
+      "sha256": "eeb99f410701d4947e927d6b82a75ed8d88532c3c04ecbc2e0e7ce0da3fb359b",
+      "reference_variance": [
+        0.9508196450932102,
+        0.9691322414582588,
+        0.9810074279458215,
+        0.94486821261831
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321511,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20151__separated_narrow__strong.npz",
+      "sha256": "df589b5f637ebb2ee0af2985b7f279421af14b6559fd92114eb3f078a3211001",
+      "reference_variance": [
+        0.9791097848879073,
+        0.9968003634031078,
+        0.9938745773238234,
+        0.9995442836451187
+      ]
+    },
+    {
+      "name": "crossed_wide_20151",
+      "seed": 20151,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321511,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20151__separated_narrow__weak.npz",
+      "sha256": "2ad3cd77dc130fd3c64b67f13cafa76013042ec906215e1f5ae28070d73c332d",
+      "reference_variance": [
+        0.9918881677831877,
+        0.9205494690461958,
+        0.9640437292218723,
+        0.9442477390602758
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321520,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20152__separated_wide__strong.npz",
+      "sha256": "bcd264e474d547e496ca55b786b27baa3b7e625f9af319fe060145cbe80addbd",
+      "reference_variance": [
+        1.006282881712863,
+        1.029715101881401,
+        1.0175039533751238,
+        1.017697091960588
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321520,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20152__separated_wide__weak.npz",
+      "sha256": "be30066ef3a125bf6662843fdd392824d40d47c5e2890ab3b9432466de2aab72",
+      "reference_variance": [
+        0.9650642822838782,
+        0.9639938228390704,
+        0.9898734879048585,
+        0.9434064816962882
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321520,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20152__separated_wide__strong.npz",
+      "sha256": "1efe0733597aa7c05e3a246e1af8db0cab0047f268fe45138cf938204e5634e6",
+      "reference_variance": [
+        0.9975514915093886,
+        1.0241612803257973,
+        1.0193907652777423,
+        1.0042645405440092
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321520,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20152__separated_wide__weak.npz",
+      "sha256": "930beec8d1ca28886b67ae081802142f354ac4a54058def5167a81421ec46c9b",
+      "reference_variance": [
+        0.9581387332837756,
+        0.9891948641587848,
+        0.9791989558797928,
+        0.9506667724977058
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321521,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20152__separated_narrow__strong.npz",
+      "sha256": "b9eaeb44429de9b166f89229a7e2bd141e93f90dba58c257ea703ad832a497e5",
+      "reference_variance": [
+        0.9971116039603305,
+        1.0081939436932668,
+        1.0079608429590632,
+        1.0018407514523302
+      ]
+    },
+    {
+      "name": "separated_wide_20152",
+      "seed": 20152,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321521,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20152__separated_narrow__weak.npz",
+      "sha256": "3694094e3a5bff7700959eb1e1a343606252b6fcbb585714a23138ac0efed811",
+      "reference_variance": [
+        0.9571263304054483,
+        0.9450532945585369,
+        0.9814377955950924,
+        0.9313129631243947
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321521,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20152__separated_narrow__strong.npz",
+      "sha256": "10f18fe5e0fce2dead98dc5713dc14b89066d82f17bd9c467a5a3969cfe30663",
+      "reference_variance": [
+        0.9886941035984773,
+        1.0034216238227234,
+        1.0100513703963532,
+        0.9892719185746686
+      ]
+    },
+    {
+      "name": "crossed_wide_20152",
+      "seed": 20152,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321521,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20152__separated_narrow__weak.npz",
+      "sha256": "3b9bf8a1a53d3981c7cc2c3463c954cd1ef1e686209089aad5179f97fde9bd19",
+      "reference_variance": [
+        0.9512757955361284,
+        0.9712244574620792,
+        0.9717668747197438,
+        0.9393150195788295
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321530,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20153__separated_wide__strong.npz",
+      "sha256": "153edff796f39414322fcebb459b4106e265e7acc8a40620d71305c618fad699",
+      "reference_variance": [
+        1.005075947335992,
+        1.0089076199284546,
+        0.9977228654308733,
+        0.9899766850794736
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321530,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20153__separated_wide__weak.npz",
+      "sha256": "501952bb8f850dac5dd5257cfc45b42fe462eb0b26353801408d7bba9e4f3adc",
+      "reference_variance": [
+        0.9911014776111088,
+        0.9082310502224232,
+        0.9430239833031439,
+        0.9741366865211242
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321530,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20153__separated_wide__strong.npz",
+      "sha256": "dcc6ea29931a781cfdb70b3a4382c308bc15527a7957f485070dc9698dd671ca",
+      "reference_variance": [
+        0.9720326895425365,
+        1.0073265419265716,
+        0.9882307896157384,
+        0.9936034656098999
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321530,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20153__separated_wide__weak.npz",
+      "sha256": "758789535296fd417535d542eec6d9a1f90e554aa6fe7fe262553afd8fb92294",
+      "reference_variance": [
+        0.9679102163136145,
+        0.9608356329433626,
+        0.9747670081108829,
+        1.004275345624586
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321531,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20153__separated_narrow__strong.npz",
+      "sha256": "0e3da0343af5a9865f45a30623d2c123a2de6fcea586675fe78004247e742711",
+      "reference_variance": [
+        1.0027911468619,
+        0.9960986468173958,
+        1.0137291256491652,
+        1.0042979259240432
+      ]
+    },
+    {
+      "name": "separated_wide_20153",
+      "seed": 20153,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321531,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20153__separated_narrow__weak.npz",
+      "sha256": "bb363ca87104392efeaaa87786779090433f584b3afd8edcd076f2fd2d049170",
+      "reference_variance": [
+        0.9885425266185627,
+        0.8966446526591717,
+        0.9597989575572138,
+        0.9888588913070352
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321531,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20153__separated_narrow__strong.npz",
+      "sha256": "083bbdb2767449d4728a4c6c6193a9818429d84436298b20182cb21734a5f791",
+      "reference_variance": [
+        0.9710052803732886,
+        0.9947392964115725,
+        1.0045819986690998,
+        1.0073631603511062
+      ]
+    },
+    {
+      "name": "crossed_wide_20153",
+      "seed": 20153,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321531,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20153__separated_narrow__weak.npz",
+      "sha256": "5f2aa2f13656bae8d45cb1d5d988d9bcd1ed4f4a16d2779d7e617aab34fe60a8",
+      "reference_variance": [
+        0.9665439827570331,
+        0.9467828578833755,
+        0.9916827392612519,
+        1.023728008348702
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321540,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20154__separated_wide__strong.npz",
+      "sha256": "789da3deb542b5a75011877a26bb7001a5b3674388ed9fa0c1150d4483d2bed5",
+      "reference_variance": [
+        1.003420166633406,
+        1.0026867529805874,
+        0.9892596675944002,
+        0.9979261221143191
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "process": "separated_wide",
+      "training_case": "separated_wide",
+      "test_master": 2026321540,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20154__separated_wide__weak.npz",
+      "sha256": "5af9f15bfc76952041a4b35bd0bc813c8cfc2a6883febca60642377ac4bc022d",
+      "reference_variance": [
+        0.99685497211386,
+        0.9845570723933741,
+        0.9702640300034956,
+        0.956367814456305
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321540,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20154__separated_wide__strong.npz",
+      "sha256": "9bdf6b4342a6fcb8f8613d77a4a740b623d807bc43afcf8af622f0af416b8588",
+      "reference_variance": [
+        0.9949414782117391,
+        1.0011705569781018,
+        0.9895597349872226,
+        0.994361259981967
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "process": "separated_wide",
+      "training_case": "crossed_wide",
+      "test_master": 2026321540,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20154__separated_wide__weak.npz",
+      "sha256": "1100410586788ae5069a3b7b8d37dca26eb98487071d2d89d9f53e18e300284b",
+      "reference_variance": [
+        0.9606981500316046,
+        0.9749605780661219,
+        1.0146956379416052,
+        0.9318520340231884
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321541,
+      "arm": "strong",
+      "path": "forecast/separated_wide_20154__separated_narrow__strong.npz",
+      "sha256": "0d13f45580d1217b068a912e977fb2a0efc9c20afe8fd06560eba1dc57909904",
+      "reference_variance": [
+        1.0118711227029908,
+        1.0114359612891073,
+        0.9930933558735565,
+        0.9996391062537977
+      ]
+    },
+    {
+      "name": "separated_wide_20154",
+      "seed": 20154,
+      "process": "separated_narrow",
+      "training_case": "separated_wide",
+      "test_master": 2026321541,
+      "arm": "weak",
+      "path": "forecast/separated_wide_20154__separated_narrow__weak.npz",
+      "sha256": "f5f0bff4a66aadaf2ecc1b028c1293d41bef3c503220b8edc7fb299981f1e4d6",
+      "reference_variance": [
+        1.0047691651475088,
+        0.9939038514482466,
+        0.9737203010756522,
+        0.9565768588411646
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321541,
+      "arm": "strong",
+      "path": "forecast/crossed_wide_20154__separated_narrow__strong.npz",
+      "sha256": "909daba2f1abf97ac83a8c89649cca2089968a186975210d434bb1489454e5b9",
+      "reference_variance": [
+        1.0027303794271598,
+        1.0092929064154865,
+        0.9927815358487566,
+        0.9948572441492954
+      ]
+    },
+    {
+      "name": "crossed_wide_20154",
+      "seed": 20154,
+      "process": "separated_narrow",
+      "training_case": "crossed_wide",
+      "test_master": 2026321541,
+      "arm": "weak",
+      "path": "forecast/crossed_wide_20154__separated_narrow__weak.npz",
+      "sha256": "e334cae7f13f8bc4a81ce1f885fe208a4ee68a1dada068efe34fb8cf09d1391b",
+      "reference_variance": [
+        0.9683813272034454,
+        0.9828996750467593,
+        1.0185967144682926,
+        0.9288063141699184
+      ]
+    }
+  ],
+  "sources": {
+    "../lejepa_a4_20261115/panel/run.py": "b603c5d3c7ab6444b3b13a528456e2c44ea362d06d5c9782854cf8f3cbf6bfdc",
+    "../lejepa_a4_20261115/panel/protocol.json": "e5353c401373d7e70043ffccecf96d2e1109be2662825c33148d47e0be86b90b",
+    "../lejepa_a4_20261115/panel/PROTOCOL.md": "d114b05550eb8cbae40a76b3e6e79c618ae72637a9b50b094f7f9704b2b9578d",
+    "../lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "../lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "../lejepa_mechanisms_20261113/readout/run.py": "99791a7db74f019b616bfdd64beac445b3bbf27d9819e00750ff98fdb2126a37",
+    "../lejepa_mechanisms_20261113/readout/protocol.json": "63e8169473084599913a24296df97e9b70eed9b0d51050d6b467ac8eac7b5ced",
+    "../lejepa_slow_rank_20261112/training/runs/results.json": "d4ac590bf4838754fff75559733135afb670543e8ed09ce1679c5c24278afba3",
+    "../lejepa_mechanisms_20261113/readout/runs/results.json": "2699160372fc6a10918e16905425dfff0215a547a7dde089414262dc76c41e29",
+    "../../work/hcf_stable_id_20261027/v1/LEJEPA_SOURCE_LOCK.json": "2934b6aaea96d5ba6b68e42f068f400f5b61ca09c58beeca4ce405e6386d4a36",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+    "../../work/hcf_stable_id_20261027/v1/vendor/lejepa_identifiability/experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb",
+    "../lejepa_a4_20261115/panel/RECEIPT.json": "6a19ccf92e28ca1dd9dee1a05b18e9ea572adc0d0d1bddb52e2255c7522a50c8",
+    "../lejepa_a4_20261115/panel/DESIGN_LOCK.json": "040b051cf6b3ed2c506d952a87d8f28e4f77375bdf8dbf73db1b0de3c5958635",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20151_readout.pt": "821b31fc6ca7b35ee2c1d4455d2e8f306c7ec51c142805083284914b36013037",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20153.pt": "3f976f7c1c05f662c948f95e6b8ce45f50e36c199b3222187105fa02faa13edc",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20151.json": "2ce0c68377ad6ebabd1ca902091e91076eb9b4fb92bc7a9b55038d2e2d94ecfe",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20151.json": "e9016f104353017b9aec732444ff890147bc1c1d2755be8bf782f091814b9359",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20153_readout.pt": "5c3107a7abd40e328ffdb13013d6a5a87bae26f9342fd152e5ba748754bbca41",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20152.pt": "d6fe512df95da9a39a5fb11f7c7b9298246f52c65b6633ba5edab5b51b7eeb5e",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20154_readout.pt": "65bc4e9e5fb4e0eab3e02586ef44303f485d887455b3ca706248ed91d1a78212",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20153_readout.pt": "ae0f8f36a401267837ac73aac53b27fb1d04d014b5e7322f7a234a82ba8baf8c",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20151_readout.pt": "1adc4ee68f54b4fe71c28efa8d1661a784d0b6cbd1b4b33e9a4b6bc9f512726c",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20153.pt": "9c5ae369b3a958ba1d74d7bf14d22cad0fa5c5e28200e8215fa606bbb08ac87b",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20154_readout.pt": "4d2cfa142be7d1df5d3ab06266934136f1108e96ae09025905d38d2601d125b4",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20152.pt": "560da2da15f9f846b50aa0873490f0370b0fda265bff66159dd1f3bec461513d",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20151.pt": "6463ee114e747baf7d4f9a2bc29e9db4f9de6e7b93327e2c352e065cf339490b",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20154.pt": "e6a2b4609800e24c471b65d1c6571a0fd71948c8697383f64f64855b0c1798b8",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20152_readout.pt": "c627e048ce4d387aad529331a197e9e01d887696ab10f6abe6be0f3de29f657e",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20154.json": "430d84787e5ca15aa23b17ad70415c30bc82f23a07d25e499a1571d38755143f",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20154.json": "cfb50bae4ab9ddec15b342c031ffb4bda9489968576813209a2a36bc899aa386",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20151.pt": "2ab0eb335f8db036fd5276c6425d66dacb9a080669d10b1232a9e2af7f716253",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20153.json": "a9db1d10606092c3a638fc3369c2f138417fd9aa2fdca42a57795fa21f5704b4",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20153.json": "a1e12122dcebd533884ccc8545d5e0a85d981a97b6fa760f044318ff4402702c",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20152.json": "d250a9964afe52a103accb5d0393c912f18483b3f138b2907f3c44df57887979",
+    "../lejepa_a4_20261115/panel/runs/crossed_wide_20152.json": "c9395b7626ac349f7b817f49dc85ddf88dab021378f4419bf71cebb077e24a6a",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20152_readout.pt": "32c88f24d1680f435495c85dc77547863095e00ea1115d03adbd21ff741e98f5",
+    "../lejepa_a4_20261115/panel/runs/separated_wide_20154.pt": "66cd2f8ba73d2eabf4db2461380f198c3eedb2373a0ac71a6cedf0a17f206e8c",
+    "weak/run.py": "e3c8085342315dbb3171afcf4e67c1d4d4b81c8da76d449e1397784987eed76e",
+    "weak/protocol.json": "0f7cc23378cdd0f6aca64761b6a3a68c17bcde8871adfa27b8e6e5d0877bb52d",
+    "weak/PROTOCOL.md": "88ec67092c05c01bfc9a5e28887b0a6ef2222c2d9b42211b89374d5b0482c02e",
+    "weak/RECEIPT.json": "9933b446ce0a64ca59dce36a4728d5fb367271276262e77aee70e039e0836593",
+    "weak/DESIGN_LOCK.json": "8279d037ad41ca8e96e621ffbd27f2af580703067a019da21dd1c72d26e0eb20",
+    "weak/runs/separated_wide_20151_readout.pt": "f62839fa37efb3653594ef472d114d043d0625032fb612e1460e0fa4d7be469f",
+    "weak/runs/separated_wide_20151.json": "ae026722100cd23c86a64c64f9e613eb0d823f607766e96dbf2075b8dff7cd8b",
+    "weak/runs/crossed_wide_20151.json": "4f546008339de545b009ef24a92b01304767b7c0bff98bf10963b79b16f03d2d",
+    "weak/runs/crossed_wide_20153_readout.pt": "747e5ceef085f347cecf7cc86e73f232213c4add1b0caf7cbcb731f137f4f90c",
+    "weak/runs/separated_wide_20154_readout.pt": "df9ba0eba87dab46bf7394afb86c65beb741a8d7e533ec44bff95459327c56f8",
+    "weak/runs/separated_wide_20153_readout.pt": "bcfb8b12f114bd5c6fa61d80947990f355bf2faeccd90ebc910dd28adf97ed8b",
+    "weak/runs/crossed_wide_20151_readout.pt": "11d64acdfb6fc651452f27ed9de15fb24d94b286515ac3fa947d857b900e55c1",
+    "weak/runs/crossed_wide_20154_readout.pt": "c8f29eae02e2177fa7f1bde3bbadb4bad91845f75d53a463b780c9a8aeadd483",
+    "weak/runs/crossed_wide_20152_readout.pt": "8b22ebfa2f949237c53e9dbbebc4a402b79e7972d791be8197ff8485d955d63a",
+    "weak/runs/crossed_wide_20154.json": "2a1f91a88391d7c0a858aca55b450592b42a37498ec817340ec43070211c1e1c",
+    "weak/runs/separated_wide_20154.json": "da53c46f956559c5d181d92d802da539bc61bccc4ff6e3b8aaffb6aedf4d4060",
+    "weak/runs/separated_wide_20153.json": "1451af2a258cec93fd28e5dcd942845c735e00c743ee3ca604e4351b21dec56e",
+    "weak/runs/crossed_wide_20153.json": "814522e15b83d88b034aae17cbd5543eaac44c147e045fab6332a39cd5d0e6b5",
+    "weak/runs/separated_wide_20152.json": "53956e8aa4f62fd96cec843083170e8f32fb360840687b700b8f34e9f3f14e08",
+    "weak/runs/crossed_wide_20152.json": "f5f12c3dcb78fd3cfbeab06e130b5544442518ffb794eafd1a29658126f85d9d",
+    "weak/runs/separated_wide_20152_readout.pt": "9b9d28f464de47aeb9b1a79f67d1dcf754c077df1d96b5f11a77cee5262ba1b3",
+    "../lejepa_a4_20261115/forecast.py": "5f75b20caa10e5e58375b357094e797a3eea940ba8c34ba45c41d6cda5f08438",
+    "../lejepa_a4_20261115/config.json": "868e79d231b58d2ac0ebdbaa4ee58775557048b9f00f3690462e74db38ddcf33",
+    "../lejepa_a4_20261115/PROTOCOL.md": "b8f99ad8da80a5a96363aba819e6d7efb15ffe576cbb8da2ad83c3f043aac0d8",
+    "../lejepa_a4_20261115/score.py": "b4f0e2acd1b621f027c3d0319fef145dff9d1a18cd4b2486a2f37ffc00fefdc4",
+    "../lejepa_a4_20261115/OLD_DEV.json": "6531bb86d43a698c2fa4d981c609262bdc2b5fe9fa797bdea1ca4531b69d09b4",
+    "../lejepa_a4_20261115/FORECAST_LOCK.json": "3a8bfe99f5d62b409d0881a2563d82986d906b11ad6bd864a07c8cfc92026d56",
+    "config.json": "a10c0c24415f7a902f9c59969cf332eb7efb76f2c6d7d1b19520d67e74b37f58",
+    "PROTOCOL.md": "9fc39f752ff2f2281d5af6b8682908fdc36b61efb3a847b8a0e8167007b5a19e",
+    "forecast.py": "8c285ee7792d076df573cb69854287bd4f5506e9e75b0d3b67c7a54091405ee9",
+    "score.py": "3c3dab27452d7f868ce4961a3aa1947fdd8ac340d08d9bc8fa2501fe9f0a8576",
+    "../lejepa_a3_gap_20261115/THRESHOLDS.json": "b4b33c65e22dc0c65b5c80aefa874d7c4a59b65fa1e846bfebc64fc26ec4c3d9",
+    "../lejepa_a3_gap_20261115/score.py": "6007b7bed0b186509e95045de3698e2ebbb71cfbfba0b6c1b37b6a72caa8ee7e",
+    "../lejepa_a3_gap_20261115/config.json": "1c6454fee0148f8ef307e2fef41e831b5a005d8ab57d29db11bd689669b044f3",
+    "../lejepa_a4_20261115/NEW_FORECAST.json": "ff87d31c6d0b835e6af73b829dc067cfe0b217a4281393f8348b2614d82053ef",
+    "DESIGN_LOCK.json": "b3f079cc36fe75ee4e0593a3790acefc8c6b40314169ee91ea55e7338ce96bf5",
+    "AUDIT_GATE.json": "de3006157cffb6ac2936f955a3130684b1a58bdbd5f17d02192eecf1c0b1e3e7"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "old_environment": {
+    "cpu_arch": "arm64",
+    "torch": "2.14.0",
+    "numpy": "2.5.3"
+  },
+  "current_environment": {
+    "python": "3.13.15 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 17:19:34) [Clang 20.1.8 ]",
+    "executable": "/private/tmp/sevlm-internvl-smoke-env/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "cpu_count": 10,
+    "memory_bytes": 25769803776,
+    "mps_available": false,
+    "device": "cpu",
+    "torch_threads": 1
+  },
+  "author_source": {
+    "repository": "https://github.com/klindtlab/lejepa-identifiability",
+    "commit": "de7503f1b2291ba1e9fc03d9c433180794803440",
+    "sha256": {
+      "experiments/lejepa_id/losses.py": "c7f7df9e81a463643f610dd12e01e93589fecd91f5d7be637ce94448198a9342",
+      "experiments/lejepa_id/models.py": "9f6ab75192f150b0d83ebd7d0739ae6ecde3795f82b32ce8750c30124d6757fb"
+    }
+  },
+  "checks": [
+    {
+      "checkpoint": "separated_wide_1942.pt",
+      "sha256": "2a6d8fd603a91719647dff5a08412dcad45cfef043722424c567095917ffb98b",
+      "max_abs_statistic_delta": 9.150731425031089e-08,
+      "worst_field": "separated_wide/1942/spectral_named_normalized_responses/3/0",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_wide_3749.pt",
+      "sha256": "f68705eee3f787eed6eb0d34aac580bf39e9aebbeb0d2fe35342de69d432ae25",
+      "max_abs_statistic_delta": 9.385081722879107e-08,
+      "worst_field": "separated_wide/3749/spectral_named_normalized_responses/3/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_wide_5817.pt",
+      "sha256": "f9375697ac5ddd183ceff96db8027a0f94d8baa4aa405f914d6e892d643bf971",
+      "max_abs_statistic_delta": 1.7060666141627268e-07,
+      "worst_field": "separated_wide/5817/native_named_normalized_responses/3/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_wide_7811.pt",
+      "sha256": "4dc14f979dc03b385268dbc3cb3d16cdc227fb0cceb757100a15dda92a982bb9",
+      "max_abs_statistic_delta": 2.013165884551249e-07,
+      "worst_field": "separated_wide/7811/native_named_normalized_responses/3/0",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_wide_1942.pt",
+      "sha256": "384dc005911f5f4c2157b9709a62284d00903e616df0624790d2516e5965af73",
+      "max_abs_statistic_delta": 5.1325197758522734e-08,
+      "worst_field": "crossed_wide/1942/native_named_normalized_responses/3/0",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_wide_3749.pt",
+      "sha256": "16c15758dbd291e195c4283d6b23779d4af419bb6a56aa0151333600b18e0b5c",
+      "max_abs_statistic_delta": 9.212745868958372e-08,
+      "worst_field": "crossed_wide/3749/spectral_named_normalized_responses/0/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_wide_5817.pt",
+      "sha256": "0a69abbfa6e1fe16dc72615eef3b09322460905d292c6a17d826fba9d7995aa4",
+      "max_abs_statistic_delta": 2.132925837616817e-07,
+      "worst_field": "crossed_wide/5817/spectral_named_normalized_responses/0/3",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_wide_7811.pt",
+      "sha256": "585bae9388a2242627e18885d2b7f160b209e6fa87321bd6d928aab9f9f652b2",
+      "max_abs_statistic_delta": 3.2455588051122364e-07,
+      "worst_field": "crossed_wide/7811/spectral_named_normalized_responses/1/3",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_narrow_1942.pt",
+      "sha256": "6f56d9f24e758e2dbe7948216de1c37c5edf71ca2c97599663e4bb9fd82093cb",
+      "max_abs_statistic_delta": 6.183910516988078e-08,
+      "worst_field": "separated_narrow/1942/spectral_named_normalized_responses/1/2",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_narrow_3749.pt",
+      "sha256": "96a672fd6173fd75568fb395e8158479002e1df8d21d117ae9b999001c0ad9d4",
+      "max_abs_statistic_delta": 1.5859949391294759e-07,
+      "worst_field": "separated_narrow/3749/native_named_normalized_responses/0/3",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_narrow_5817.pt",
+      "sha256": "ea59b1e159225c16b6b7ea5f4232070c16fdfa8418f81eb12979bfb911456833",
+      "max_abs_statistic_delta": 1.558200143914057e-07,
+      "worst_field": "separated_narrow/5817/spectral_named_normalized_responses/0/2",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "separated_narrow_7811.pt",
+      "sha256": "56ee61d379eb9b7da365f0cc51e151e42af04060183515f12c0d1642a094a856",
+      "max_abs_statistic_delta": 7.161566559915622e-08,
+      "worst_field": "separated_narrow/7811/spectral_named_normalized_responses/3/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_narrow_1942.pt",
+      "sha256": "ce413f6db2f5b5dabe38e8290e1ff8d412bbbf0a9eccf331df70bfa13ec1d5c9",
+      "max_abs_statistic_delta": 9.336586748176501e-08,
+      "worst_field": "crossed_narrow/1942/spectral_named_normalized_responses/3/3",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_narrow_3749.pt",
+      "sha256": "b15c3a984d79d0ecb3bee008f5dce98a9e2001bb57b414e980ccb93a35320c75",
+      "max_abs_statistic_delta": 8.925392333113819e-08,
+      "worst_field": "crossed_narrow/3749/spectral_named_normalized_responses/3/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_narrow_5817.pt",
+      "sha256": "a82e1f8d32c23fc4b7393493781cbd4d0a4854054ec403c69ecf58f76a5ebee7",
+      "max_abs_statistic_delta": 2.0884018794159465e-07,
+      "worst_field": "crossed_narrow/5817/spectral_named_normalized_responses/0/1",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    },
+    {
+      "checkpoint": "crossed_narrow_7811.pt",
+      "sha256": "a62a13d96707310b9fa8e54d496977368ee72f02765ad11f85c165f850745b1e",
+      "max_abs_statistic_delta": 3.1655559287399604e-07,
+      "worst_field": "crossed_narrow/7811/spectral_named_normalized_responses/1/3",
+      "all_reported_top2_counts_and_named_permutations_exact": true
+    }
+  ],
+  "seconds": 1.3650589580647647,
+  "max_abs_statistic_delta": 3.2455588051122364e-07,
+  "status": "passed"
+}

@@ -1,0 +1,99 @@
+{
+  "kind": "independent_saved_moment_and_analytic_root_review",
+  "original_audit_script_main_executed": false,
+  "new_physical_array_reads": 0,
+  "new_model_forwards": 0,
+  "new_training": 0,
+  "valid_baseline_rows": 84,
+  "invalid_baseline_rows": 12,
+  "max_general_score_error": 5.689893001203927e-16,
+  "max_general_coefficient_error": 0.0,
+  "max_saved_root_gap": 5.4820569456628e-17,
+  "max_risk_error": 4.440892098500626e-16,
+  "nonunit_sigma_error": 2.220446049250313e-16,
+  "corner_cases": [
+    {
+      "g_beta_alpha": [
+        1,
+        0.4,
+        -1
+      ],
+      "classification": "crossing_tie",
+      "nearest_radius": 0.6770329614269008
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        0,
+        -1
+      ],
+      "classification": "crossing_tie",
+      "nearest_radius": 1.0
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        0.5,
+        0
+      ],
+      "classification": "crossing_tie",
+      "nearest_radius": 1.0
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        0,
+        0
+      ],
+      "classification": "no_finite_root_limiting_tie",
+      "nearest_radius": null
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        0,
+        1
+      ],
+      "classification": "no_finite_root_positive_limit",
+      "nearest_radius": null
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        1,
+        1
+      ],
+      "classification": "tangent_tie",
+      "nearest_radius": 1.0
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        2,
+        1
+      ],
+      "classification": "crossing_tie",
+      "nearest_radius": 0.2679491924311227
+    },
+    {
+      "g_beta_alpha": [
+        1,
+        -2,
+        1
+      ],
+      "classification": "crossing_tie",
+      "nearest_radius": 0.2679491924311227
+    }
+  ],
+  "checks": {
+    "all_96_rows_reviewed": true,
+    "negative_baseline_rows_are_zero": true,
+    "all_saved_general_coefficients": true,
+    "finite_array_general_score_identity": true,
+    "saved_roots_are_gap_ties": true,
+    "profile_risk_identity": true,
+    "all_eight_root_branch_fixtures": true,
+    "nonunit_sigma_score_fixture": true
+  },
+  "passed": true
+}

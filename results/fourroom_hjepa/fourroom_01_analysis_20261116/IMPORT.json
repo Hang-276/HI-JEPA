@@ -1,0 +1,781 @@
+{
+  "evidence_tier": "formal_result_integrity_verification",
+  "status": "complete_archive_import_verified",
+  "archive": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/archive/server_results/20261116/fourroom_01_results.tar.gz",
+  "archive_bytes": 128349975,
+  "archive_sha256": "0db3353e6dfe75c66c5627c7d8888eb5f04c475bf02dcb48b5192c33b0b82f84",
+  "target": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/results/fourroom_hjepa/fourroom_01",
+  "transfer_receipt": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/archive/server_results/20261116/fourroom_01_results.transfer.json",
+  "server_before_after_local_hash_match": true,
+  "archive_members": 86,
+  "regular_files": 76,
+  "directories": 10,
+  "unpacked_bytes": 138277083,
+  "unsafe_paths": [],
+  "special_files": [],
+  "existing_destination_overwritten": false,
+  "file_bytes_verified_against_archive": true,
+  "extracted_at_utc": "2026-11-16T14:28:57.044287+00:00",
+  "files": [
+    {
+      "archive_path": "fourroom_01/launch.log",
+      "relative_path": "launch.log",
+      "bytes": 17798,
+      "sha256": "4347136b9533a0d93ef796cc43fad2ae2b4866700f80c40239459a211ad57c6a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/config.json",
+      "relative_path": "config.json",
+      "bytes": 845,
+      "sha256": "df120d92ee3245c66d2f28e17fc6a798878b7a595581c974e63ae4b0207f5907",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817748,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/run.log",
+      "relative_path": "run.log",
+      "bytes": 17798,
+      "sha256": "4347136b9533a0d93ef796cc43fad2ae2b4866700f80c40239459a211ad57c6a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/run.py",
+      "relative_path": "scripts/run.py",
+      "bytes": 19377,
+      "sha256": "0e6abc8d92d2193d42c4471cf8790dd547a5448064399db683e9145b9758ac3d",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794812018,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/metrics.py",
+      "relative_path": "scripts/metrics.py",
+      "bytes": 4488,
+      "sha256": "ede7d23d218789f9ff66a362fed128d34a5290f4ace907bf7771fed51d219c8a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794812018,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/config.json",
+      "relative_path": "scripts/config.json",
+      "bytes": 669,
+      "sha256": "a35678c9ce7ac22add97b476adec604d5f9a2a791e497d649a89c5b9d2acb761",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794812018,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/README.md",
+      "relative_path": "scripts/README.md",
+      "bytes": 10921,
+      "sha256": "dcfcfafeb2b0afec0baea3ecb3c51407d4f13cea2612cbf6687f54663c390ea1",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794812018,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/VALIDATION.md",
+      "relative_path": "scripts/VALIDATION.md",
+      "bytes": 1882,
+      "sha256": "6ffbe7a5c499d1cc88d93709cf57f824744f1c8c908a4db6faf2e9528627c7ee",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794812018,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/scripts/setup.sh",
+      "relative_path": "scripts/setup.sh",
+      "bytes": 3712,
+      "sha256": "16752479319b52c74b54ed76b5377864ddbc318992ae2ece98db7f570fb643b4",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817215,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/status.json",
+      "relative_path": "status.json",
+      "bytes": 27,
+      "sha256": "70d280d031b88c16822d8b7e1769f9c43f1f09f428c249c42d9e34c4c0ed0392",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/provenance.json",
+      "relative_path": "provenance.json",
+      "bytes": 1394,
+      "sha256": "64310eb56df8f3526b66f3df426367c1f794434f2d3c518fc1e8e4ec33c1f47d",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817748,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/environment.txt",
+      "relative_path": "environment.txt",
+      "bytes": 1351,
+      "sha256": "a74dc6a008586855756f42ed9f48864aba1e27e11651e76d65e193e678a9f660",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817749,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection_command.json",
+      "relative_path": "collection_command.json",
+      "bytes": 509,
+      "sha256": "a6ca9812accf88b95c5ee4a55749ce427077c206371da9b8cbd84bab724db95e",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817749,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection.log",
+      "relative_path": "collection.log",
+      "bytes": 330758,
+      "sha256": "a918cc30e9de04bc4398a92249f30c0919435e9d3820f43439d25c17c8794647",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794824289,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection/collect_fourroom_distractors.log",
+      "relative_path": "collection/collect_fourroom_distractors.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817752,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection/.hydra/config.yaml",
+      "relative_path": "collection/.hydra/config.yaml",
+      "bytes": 1360,
+      "sha256": "74e8be479d990a7eaf0da448790a1ccd82e0387bdb0c5c4b6791b89b5248400f",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817752,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection/.hydra/hydra.yaml",
+      "relative_path": "collection/.hydra/hydra.yaml",
+      "bytes": 3935,
+      "sha256": "51d39b2479052fd60b698d9154cb8aa90cf6f8e22855aa933975ba1b70451a05",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817752,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection/.hydra/overrides.yaml",
+      "relative_path": "collection/.hydra/overrides.yaml",
+      "bytes": 211,
+      "sha256": "9fba25a0198813d4f485d5b7738f54bcdd538f00edb49759611daeb42dc69e56",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794817752,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/collection.yaml",
+      "relative_path": "collection.yaml",
+      "bytes": 1360,
+      "sha256": "74e8be479d990a7eaf0da448790a1ccd82e0387bdb0c5c4b6791b89b5248400f",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794824239,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/data.json",
+      "relative_path": "data.json",
+      "bytes": 170,
+      "sha256": "9a30302fcc7d79128ec00eee0f0f885de626e992166f4d231ca47266e226ae5a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794824301,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/splits.json",
+      "relative_path": "splits.json",
+      "bytes": 11123034,
+      "sha256": "f369d815da561692684a523ef87cf74e11590a301b00ac39b6eee82ddd07f1cc",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794824301,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/reference_truth.npz",
+      "relative_path": "reference_truth.npz",
+      "bytes": 544440,
+      "sha256": "a61c84220f546de785621ca513599279d9bb5f182872665d8b6e12f54f565c2e",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794824301,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/probe.pt",
+      "relative_path": "seed42_level1/probe.pt",
+      "bytes": 171877,
+      "sha256": "a531b90ce8b37f90ab569831c9b8193fcc13ddc4c6e823b884e419fd68c05e87",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826098,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/probe.json",
+      "relative_path": "seed42_level1/probe.json",
+      "bytes": 3521,
+      "sha256": "69207cd15cbf5d5d6a93578a79f044c63d3acebe72d3b3c7c05f578bd67a2b99",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826098,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/audit.json",
+      "relative_path": "seed42_level1/audit.json",
+      "bytes": 188,
+      "sha256": "aeb01b69e2d4a4bff4727813ae7a8546d5827dee888ee7e21268fca6d03bb1fb",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826099,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/audit.npz",
+      "relative_path": "seed42_level1/audit.npz",
+      "bytes": 1010485,
+      "sha256": "d54ae6878abe20886282f67ffff0c63ee44c0f31534e0c4e97d4aaa9ae748c80",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826099,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/reference.npz",
+      "relative_path": "seed42_level1/reference.npz",
+      "bytes": 1433573,
+      "sha256": "f73c34c968fbe726ba46c119def38f48aee830578435f513b153236467d4cbd9",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826099,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/calibration.npz",
+      "relative_path": "seed42_level1/calibration.npz",
+      "bytes": 5841342,
+      "sha256": "7fd74a360da4e67ca29416d7f80a246ccb84021efdc3f4a08db4a5b6d65b86bd",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826099,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/test_prediction.npz",
+      "relative_path": "seed42_level1/test_prediction.npz",
+      "bytes": 11612956,
+      "sha256": "b80e8f72003a11c7939d47bf65e3f01643c936b64aadea32d79cb22dbd877d37",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794832031,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level1/test_scores.npz",
+      "relative_path": "seed42_level1/test_scores.npz",
+      "bytes": 282293,
+      "sha256": "16ec9e1adc0286944997125f5cc95561091d0abab3075cc6ccfa760f8cb92aca",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836663,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/probe.pt",
+      "relative_path": "seed42_level2/probe.pt",
+      "bytes": 171877,
+      "sha256": "a67380491a550d2d6ab7c618a7cf95fb2c34c56fea14b24f736c83e1a5264cfe",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/probe.json",
+      "relative_path": "seed42_level2/probe.json",
+      "bytes": 3497,
+      "sha256": "8448ae52ee3d3f49d24da9f1e45845245e8b4707137028cb5ef12220eb05925e",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/audit.json",
+      "relative_path": "seed42_level2/audit.json",
+      "bytes": 188,
+      "sha256": "b3e54b44fe621d23fa19007fa13a05d143f0bcd3b6e68509ae749ab22afcb16a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/audit.npz",
+      "relative_path": "seed42_level2/audit.npz",
+      "bytes": 1009319,
+      "sha256": "25c3f200e5e4186838830904fb5125213a229d366e5b7da0e8f4e5b518d8f9a2",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/reference.npz",
+      "relative_path": "seed42_level2/reference.npz",
+      "bytes": 1431403,
+      "sha256": "83a6e3fb9580f12c47f00b869391f35a3223fd42079fd374571c31522908d58f",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/calibration.npz",
+      "relative_path": "seed42_level2/calibration.npz",
+      "bytes": 5834179,
+      "sha256": "5361a68ee43ae4fea35352f2159ac5b0549e26651321e3f93a6c72301f043e9d",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794826103,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/test_prediction.npz",
+      "relative_path": "seed42_level2/test_prediction.npz",
+      "bytes": 11598143,
+      "sha256": "27d253111112abc8d21836c373605f30ff94d871451c3efd86532b96e25e0215",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794832032,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed42_level2/test_scores.npz",
+      "relative_path": "seed42_level2/test_scores.npz",
+      "bytes": 282111,
+      "sha256": "465ce7e95ead87f563780deafb141856487998d92ec48978127f6e120ef7e9a4",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836663,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/probe.pt",
+      "relative_path": "seed43_level1/probe.pt",
+      "bytes": 171877,
+      "sha256": "95353a144de751dfa6671318d9ecdb99c2af44393bfcf0f49d9d485b0975427a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827902,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/probe.json",
+      "relative_path": "seed43_level1/probe.json",
+      "bytes": 3486,
+      "sha256": "24dc8f26ac4df46ab97bf68c1f7649686fbefe5f495eef362fb27b42bbc73416",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827902,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/audit.json",
+      "relative_path": "seed43_level1/audit.json",
+      "bytes": 191,
+      "sha256": "8e48f8201f7e0dde4514fd78df71d807e1ae1f2fade04a56a01a8f3356829b1b",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827902,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/audit.npz",
+      "relative_path": "seed43_level1/audit.npz",
+      "bytes": 1009763,
+      "sha256": "116a63c308be16680975102c51d691515a11aec053421b4a9bb18747d99e6bab",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827902,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/reference.npz",
+      "relative_path": "seed43_level1/reference.npz",
+      "bytes": 1431824,
+      "sha256": "bb0202ec7425041bb952c59e0f3db27ba6c797f461590446c2a3c2b2a0b5e2cd",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827902,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/calibration.npz",
+      "relative_path": "seed43_level1/calibration.npz",
+      "bytes": 5834329,
+      "sha256": "bbffe14148a5c408ab6ead7f2320884ea25ae2034c125626ac63913b9ec6dee3",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827903,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/test_prediction.npz",
+      "relative_path": "seed43_level1/test_prediction.npz",
+      "bytes": 11599394,
+      "sha256": "b04268bad85170feb7fc8d05c9815981475a9cac31bd9ce1bd989a1346c82681",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794834344,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level1/test_scores.npz",
+      "relative_path": "seed43_level1/test_scores.npz",
+      "bytes": 281965,
+      "sha256": "4471feec9bff3b7d868f32cadb61c1536e3535ef96064aed1e864e3793fb07c6",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/probe.pt",
+      "relative_path": "seed43_level2/probe.pt",
+      "bytes": 171877,
+      "sha256": "5d1a7cfa379db2d14bb3a3b4563516561c7cdc55a81dc8c8a299db6becb67df7",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827906,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/probe.json",
+      "relative_path": "seed43_level2/probe.json",
+      "bytes": 3480,
+      "sha256": "99db8976914b77db606fe961489b5b45df85500e2c5e161b189c245c01f5c02f",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827906,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/audit.json",
+      "relative_path": "seed43_level2/audit.json",
+      "bytes": 193,
+      "sha256": "0cefc6a9caa6e6e858f4cc7b0a76731a92fee306adc372f347e637b3fcefbd11",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827906,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/audit.npz",
+      "relative_path": "seed43_level2/audit.npz",
+      "bytes": 1005997,
+      "sha256": "0e89e148273fe0d99d9c17f3fad05bfb31edcf1ffc3430851ebec5d3c419a45e",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827906,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/reference.npz",
+      "relative_path": "seed43_level2/reference.npz",
+      "bytes": 1423001,
+      "sha256": "ec765c55b1c5725a60047fb3c79ff9c512f06cfbdbe1c20987007bfaefe69656",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827907,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/calibration.npz",
+      "relative_path": "seed43_level2/calibration.npz",
+      "bytes": 5802759,
+      "sha256": "6cd1e4824acd75942f0135f9906818e84c1238efad9d97b9c91b222df4d61119",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794827907,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/test_prediction.npz",
+      "relative_path": "seed43_level2/test_prediction.npz",
+      "bytes": 11533904,
+      "sha256": "26f15e89f895b28db09ebc0a8c599b47a47a69db14f0aa1f2e3a216e8965b622",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794834345,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed43_level2/test_scores.npz",
+      "relative_path": "seed43_level2/test_scores.npz",
+      "bytes": 282451,
+      "sha256": "e1dc04bbcb5ed4e364e6e281d49685bcf082636f5710ad6eaf5b0dfba852e784",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/probe.pt",
+      "relative_path": "seed44_level1/probe.pt",
+      "bytes": 171877,
+      "sha256": "c9b43246ad50fed28ac346e637c554a6461ef5525b17b1a60176742f320f55b4",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829699,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/probe.json",
+      "relative_path": "seed44_level1/probe.json",
+      "bytes": 3482,
+      "sha256": "a4d17d923078202129f51341dc8eef836723dd50f5ce83be64719bf8870ffd4a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829699,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/audit.json",
+      "relative_path": "seed44_level1/audit.json",
+      "bytes": 193,
+      "sha256": "0431b3484eefdd764ae62be202ed264b1ac7615a146105525d713f8b30fd6d6f",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829699,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/audit.npz",
+      "relative_path": "seed44_level1/audit.npz",
+      "bytes": 1006089,
+      "sha256": "58caa4347cb8410014e56040d7a6d26ef60fb30b8f80fb2ddda8ddc9b1e9887a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829700,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/reference.npz",
+      "relative_path": "seed44_level1/reference.npz",
+      "bytes": 1422856,
+      "sha256": "1bb1c3f1df8b0b8d592f13f0688aad80f6808749e7c4f545f6e70583f5aca0ab",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829700,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/calibration.npz",
+      "relative_path": "seed44_level1/calibration.npz",
+      "bytes": 5803410,
+      "sha256": "a0daee8e1da946250b7c44948c4c869a81a9857f2590c519a2b3cfcb45d87888",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829700,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/test_prediction.npz",
+      "relative_path": "seed44_level1/test_prediction.npz",
+      "bytes": 11535176,
+      "sha256": "4f5f20e544f0e3ba378331f521e85211b90fd59a7f152fe7c888d78127f972a6",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836660,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level1/test_scores.npz",
+      "relative_path": "seed44_level1/test_scores.npz",
+      "bytes": 282534,
+      "sha256": "9011e38415293faed6e968c929434a0fb7b43added8f6b0d7a651dfdc67bb216",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/probe.pt",
+      "relative_path": "seed44_level2/probe.pt",
+      "bytes": 171877,
+      "sha256": "4d29c9a2bbad30b6165b95d9a73a7d704a680bb190ce88a6db80a6587050de23",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829703,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/probe.json",
+      "relative_path": "seed44_level2/probe.json",
+      "bytes": 3481,
+      "sha256": "b889f797a0477130fd7b013a67330410b6125a7b620f35d3a6b19cf2cce64e5a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829703,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/audit.json",
+      "relative_path": "seed44_level2/audit.json",
+      "bytes": 191,
+      "sha256": "30220871032eeec05c7bda4cb907e0772ed625131e45cbffa32befc49af3ce6a",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829704,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/audit.npz",
+      "relative_path": "seed44_level2/audit.npz",
+      "bytes": 1006503,
+      "sha256": "0c9f0d8328a4d78233c46a44203ef7be6ee851e3e20777f07f140a3436ed0c72",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829704,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/reference.npz",
+      "relative_path": "seed44_level2/reference.npz",
+      "bytes": 1423342,
+      "sha256": "5d6a297776fec1fe7404444cc52e5ec3c37bfa8b68f397b1471dd552ed89a48d",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829704,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/calibration.npz",
+      "relative_path": "seed44_level2/calibration.npz",
+      "bytes": 5804711,
+      "sha256": "5dbaf061d688d78b04cb0de5a0608fffa23a203f1490a33f0a2ed5eddec85af4",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829704,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/test_prediction.npz",
+      "relative_path": "seed44_level2/test_prediction.npz",
+      "bytes": 11538471,
+      "sha256": "9004c0209e24440dcebdaa41305bc465bfda48641f4df4a0b50131e1bf0e591b",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836661,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/seed44_level2/test_scores.npz",
+      "relative_path": "seed44_level2/test_scores.npz",
+      "bytes": 282611,
+      "sha256": "960412b054386d9d9cae02fa47d2fbb61bb8c4691273cac37dedbf8890f35dd5",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/thresholds.json",
+      "relative_path": "thresholds.json",
+      "bytes": 454,
+      "sha256": "a9c8b7b35195081f622b9f06bd49b82207c8b6931c660f3d8f7ca1fd78c90770",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794829704,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/forecast_receipt.json",
+      "relative_path": "forecast_receipt.json",
+      "bytes": 657,
+      "sha256": "5f123b2099f6f6662637d7bf31f58ab82b1e2c2eba79269749562f66ec90ffc8",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836661,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/test_truth.npz",
+      "relative_path": "test_truth.npz",
+      "bytes": 4479549,
+      "sha256": "daf266f0c5a8a36fcdb49c02029a00c98e489cdfec12f3d860564e42549dcc93",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836663,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/summary.json",
+      "relative_path": "summary.json",
+      "bytes": 6042,
+      "sha256": "5a574a8c24ce1f703a96f0b9dd5f09dd6aaad0cbe2debc3dd48588b9684b5357",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/summary.csv",
+      "relative_path": "summary.csv",
+      "bytes": 2254,
+      "sha256": "52edb196a3a69949f263f80db0a3e5e6fd2a4fbcb04a44f032dc6bd4ab9e7238",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    },
+    {
+      "archive_path": "fourroom_01/RESULTS.md",
+      "relative_path": "RESULTS.md",
+      "bytes": 1841,
+      "sha256": "a7f8ba2128a0468655a9d88f386ea117c2e192fecd180e9061c6dbdeb180295e",
+      "original_tar_mode": 420,
+      "original_tar_mtime": 1794836664,
+      "original_tar_uid": 0,
+      "original_tar_gid": 0
+    }
+  ]
+}

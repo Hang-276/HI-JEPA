@@ -1,0 +1,23 @@
+{
+  "master_primary": 2026111308,
+  "master_replication": 2026111309,
+  "smoke_master": 2026111398,
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "n_state_cal": 32768,
+  "n_fit": 256,
+  "n_validation": 128,
+  "n_reference": 32768,
+  "n_test": 2048,
+  "length": 193,
+  "lags": [4, 16, 32],
+  "deltas": [0.01, 0.04],
+  "ridge_alphas": [0, 0.000001, 0.001, 0.1],
+  "r2_match_tolerance": 0.005,
+  "primary_minimum_gain": 0.01,
+  "cal_direction_identifiable_min_difference": 0.01,
+  "bootstrap_seed": 2026111328,
+  "bootstrap_draws": 4096
+}

@@ -1,0 +1,3 @@
+?? docs/THEORY_FORMALIZATION_20261116.md
+?? results/theory_checks_20261116/
+?? scripts/low_dim_ar1/verify_theory_moments.py

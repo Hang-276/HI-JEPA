@@ -1,0 +1,26 @@
+{
+  "runs": {
+    "wave2_sprites_factorial": {
+      "receipts": 50,
+      "npz_files": 250,
+      "problems": [],
+      "missing": false,
+      "summary_rows": 50
+    },
+    "wave2_sprites_regime_switch": {
+      "receipts": 15,
+      "npz_files": 75,
+      "problems": [],
+      "missing": false,
+      "summary_rows": 15
+    },
+    "wave2_fourroom_dim192": {
+      "receipts": 37,
+      "npz_files": 180,
+      "problems": [],
+      "missing": false,
+      "summary_rows": 36
+    }
+  },
+  "all_ok": true
+}

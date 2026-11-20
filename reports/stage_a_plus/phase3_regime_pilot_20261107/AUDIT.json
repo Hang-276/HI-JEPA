@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "input_and_method_hashes": true,
+  "predictions_sealed_before_scoring": true,
+  "physical_trajectories": 56,
+  "model_trajectory_rows": 168,
+  "discordant_pairs": 8,
+  "regime_warning_sign_changes_vs_pooled": 0,
+  "regime_warning_sign_changes_vs_mismatched": 0,
+  "regime_discordant_pair_verdict_changes_vs_pooled": 0,
+  "warning_counts": {
+    "b_fixed": {
+      "wrong_detected": 0,
+      "false_alarms": 1
+    },
+    "b_current": {
+      "wrong_detected": 4,
+      "false_alarms": 1
+    },
+    "direction": {
+      "wrong_detected": 1,
+      "false_alarms": 0
+    },
+    "pooled": {
+      "wrong_detected": 4,
+      "false_alarms": 1
+    },
+    "regime": {
+      "wrong_detected": 4,
+      "false_alarms": 1
+    },
+    "mismatched": {
+      "wrong_detected": 4,
+      "false_alarms": 1
+    }
+  },
+  "prelock_input_verification": "Observable owner identity uses dtype and shape as well as member bytes; matched after applying that original convention.",
+  "pilot_gate_passed": false,
+  "evaluated_calibration_slots": 2,
+  "inventory_slots": 4,
+  "inventory_fine_caches": 12,
+  "numeric_threads": 1,
+  "cal_physical_array_reads": 0,
+  "test_or_final_reads": 0,
+  "new_trajectories": 0,
+  "fine_training_runs": 0,
+  "fine_forwards": 0,
+  "compute_server_connections": 0,
+  "gpu_jobs": 0
+}

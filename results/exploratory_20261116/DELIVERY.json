@@ -1,0 +1,178 @@
+{
+  "evidence_tier": "exploratory_numerical_sandbox",
+  "status": "completed",
+  "report": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+  "artifact_files": 32,
+  "python311_syntax_files": 9,
+  "svg_xml_files": 5,
+  "report_local_links": 26,
+  "git_status_new_lines": [
+    "?? docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+    "?? scripts/exploratory_20261116/"
+  ],
+  "git_status_removed_lines": [],
+  "protected_integrity_receipt": "results/exploratory_20261116/INTEGRITY.json",
+  "manifest": [
+    {
+      "path": "scripts/exploratory_20261116/anchors_and_stress.py",
+      "bytes": 28872,
+      "sha256": "50a6b8c36626c24be84511cba5c35ab31d92575ae5d811560f7665328a1867ce"
+    },
+    {
+      "path": "scripts/exploratory_20261116/build_report.py",
+      "bytes": 32751,
+      "sha256": "e25828e035d94032608f390696ec1c8a05ce3aaef40bc7bf7c6c8010b1a335ba"
+    },
+    {
+      "path": "scripts/exploratory_20261116/export_tables.py",
+      "bytes": 19176,
+      "sha256": "9156cbfdb71be29804bce58656d661770e046a3fb0bbe9cf8a89f5001c0c20d0"
+    },
+    {
+      "path": "scripts/exploratory_20261116/phase_core.py",
+      "bytes": 17274,
+      "sha256": "80f73ca72375606c23ff7c76a98b90f769de0b85b89708f2c607e1e74d468763"
+    },
+    {
+      "path": "scripts/exploratory_20261116/probe1_harmonic_and_subspace.py",
+      "bytes": 21664,
+      "sha256": "f6c2a8526e226e182b8b89a46a15e577290528f3290880d9d2856b04957aac35"
+    },
+    {
+      "path": "scripts/exploratory_20261116/probe2_phase_diagram_alignment.py",
+      "bytes": 3655,
+      "sha256": "ec552f6db5969ca4ea30088c65684e2c6584fc872cddc5590bccb4d1304cafa0"
+    },
+    {
+      "path": "scripts/exploratory_20261116/render_figures.py",
+      "bytes": 17609,
+      "sha256": "499c8dbbe4c6d6637b7803b9774592e4d44603eb0c19131c948fd46e10cd250f"
+    },
+    {
+      "path": "scripts/exploratory_20261116/verify_integrity.py",
+      "bytes": 4507,
+      "sha256": "409da87582fd4f4204ad0eb6deec2d7413404210fcc7b508baf007eede1ac0e5"
+    },
+    {
+      "path": "scripts/exploratory_20261116/verify_sandbox_alignment.py",
+      "bytes": 11074,
+      "sha256": "857ee7cbbb2460f5e1063c12ad02fc0101c5070a9ad98c255e9056412be82af2"
+    },
+    {
+      "path": "docs/EXPLORATORY_MECHANISM_PROBES_20261116.md",
+      "bytes": 33185,
+      "sha256": "7f6342ea5cb54d4455b99719dada3beb3c331af38a7d28e8d2990a39efc4ae06"
+    },
+    {
+      "path": "results/exploratory_20261116/ANCHOR_COMPARISON.md",
+      "bytes": 77390,
+      "sha256": "a2be9763f68851c01666451da8e0a1dd48331bdc16a6cc257d1f775ec39b1ede"
+    },
+    {
+      "path": "results/exploratory_20261116/DESIGN.json",
+      "bytes": 3659,
+      "sha256": "f339b8f2f7dbf981a3c581826112a05f01feb2bce1ed7dfa41cbbb1c072840ba"
+    },
+    {
+      "path": "results/exploratory_20261116/INTEGRITY.json",
+      "bytes": 2668,
+      "sha256": "1cdc832f1ae6401fb80b6f119a705d183e095a33ca751bfb0eae28d75896d1b7"
+    },
+    {
+      "path": "results/exploratory_20261116/TMIN_FULL.md",
+      "bytes": 13050,
+      "sha256": "9cf6d8846a2fa0725f7af8cb02b65ff4879c4e9eba7278952de9f0d3fe5f87df"
+    },
+    {
+      "path": "results/exploratory_20261116/anchor_cells.csv",
+      "bytes": 383948,
+      "sha256": "9d41668fc6d98242552ed863088dc25981aafe7a2f61be628ca759e3b254629a"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/MANIFEST.json",
+      "bytes": 1523,
+      "sha256": "50aa93b710eb8ab7329c3da50018cd3a70f33cd9bee01b35e8b08eedf7146c12"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/harmonic_boundary.svg",
+      "bytes": 17927,
+      "sha256": "46d38f5ca7815365880d095e343125ebab99139dcb116ca7c535fb26cab57798"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/phase_all_risk.svg",
+      "bytes": 136328,
+      "sha256": "c8505e4f4b897a2f81c9bb75e932895f923f05518bc66e9894477439225b11cd"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/phase_own_cal_risk.svg",
+      "bytes": 173899,
+      "sha256": "6dc2c8587c56c7c5006a53ea948e5150c21323a188d38e459341b0c5e30b5662"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/stress.svg",
+      "bytes": 44524,
+      "sha256": "4477da48a373046b625e0bdb991fe6b6245fdd6cc1c0f78b8189165b3cc5c6bb"
+    },
+    {
+      "path": "results/exploratory_20261116/figures/subspace_phase.svg",
+      "bytes": 81611,
+      "sha256": "4b3437b65c771a4c5534f1ed38482bea49f525ef6fa2582cb77f29e2bcd381b5"
+    },
+    {
+      "path": "results/exploratory_20261116/phase_cells.csv",
+      "bytes": 1084088,
+      "sha256": "412b5923f071baa7d6448b334748626c2ee4cfe3922e37e8fc3d2bf73111b2ec"
+    },
+    {
+      "path": "results/exploratory_20261116/probe1_summary.json",
+      "bytes": 2935199,
+      "sha256": "ef3947048b226c2026b92eb6789b2c240578af6af4f477741ee3d3fdb27d69fe"
+    },
+    {
+      "path": "results/exploratory_20261116/probe2_summary.json",
+      "bytes": 5098889,
+      "sha256": "a7ee334013d96e8dd33c2b37d6e36ce38e12b0361d8b48a530ea9949a9ee2cf9"
+    },
+    {
+      "path": "results/exploratory_20261116/protected_after.json",
+      "bytes": 12380066,
+      "sha256": "6f46dcca75d116d1b7374056e3d788abab15b204897a7e1628db63cdd222623d"
+    },
+    {
+      "path": "results/exploratory_20261116/protected_before.json",
+      "bytes": 12380065,
+      "sha256": "d76173a9f81a6a5a3db549f3be65dea1c7b955097382ca14816f6702300e9db4"
+    },
+    {
+      "path": "results/exploratory_20261116/reproducibility_rerun/probe1_summary.json",
+      "bytes": 2935199,
+      "sha256": "c1bc2a1d52891ba8f358cc3a6c732fa002d5a11a2c047ac877a8768f496bbfaa"
+    },
+    {
+      "path": "results/exploratory_20261116/reproducibility_rerun/probe2_summary.json",
+      "bytes": 5098888,
+      "sha256": "5f624175ae709c2e1a3ed051e7f29443e160446d94b1e5e5875e9595ad909724"
+    },
+    {
+      "path": "results/exploratory_20261116/stress_cells.csv",
+      "bytes": 85173,
+      "sha256": "cfbf79395487322ee77986f1d39e273015a968f2655fdd3c83f44cec52b6e429"
+    },
+    {
+      "path": "results/exploratory_20261116/validation.json",
+      "bytes": 3740,
+      "sha256": "4e5d84ae10d3b3b210f89df4f146ed75c641713a7bcaea8337167c11ff14c9db"
+    },
+    {
+      "path": "results/exploratory_20261116/verified_reproduction_xeu925rw/probe1_summary.json",
+      "bytes": 2935198,
+      "sha256": "84cc11facfb89b00e50855ace79b7bf1e1a7ab12c96a86241d9dedc70e5ee472"
+    },
+    {
+      "path": "results/exploratory_20261116/verified_reproduction_xeu925rw/probe2_summary.json",
+      "bytes": 5098889,
+      "sha256": "d80da3964c6712df077103f97278eb1356a66305a646d823f26dff4397341380"
+    }
+  ],
+  "independent_math_and_report_review": "completed; no blocking numerical or mathematical issue; wording tightened on finite-N vs population claims and nonlinear averages"
+}

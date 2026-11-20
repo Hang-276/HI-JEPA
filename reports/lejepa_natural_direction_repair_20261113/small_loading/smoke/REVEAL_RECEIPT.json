@@ -1,0 +1,9 @@
+{
+  "forecast_receipt_sha256": "c5691ada2ac58ecd109bf586127506ccbc0f73a08eec797baa0c0aefa5c16a41",
+  "reveal_sha256": "1fefd67be8f1268625796e1090a9706b4d75e352d50e3406782d862c57a19bf1",
+  "design_sha256": "ce4dcbc05c579146103fa418bd2f375e44927677aca36108dff9037bc5cf3f3f",
+  "label_keys": [
+    "smoke__separated_narrow",
+    "smoke__separated_wide"
+  ]
+}

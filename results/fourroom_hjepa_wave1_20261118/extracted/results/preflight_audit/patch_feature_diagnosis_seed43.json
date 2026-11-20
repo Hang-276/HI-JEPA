@@ -1,0 +1,72 @@
+{
+  "seed": 43,
+  "dataset": "official fourroom_tp35_d1_probing{,_val}",
+  "dataset_sha256": {
+    "fourroom_tp35_d1_probing.h5": "43574c13934ed44a115cee2feb057d508153ce511321511f588b521e775edf13",
+    "fourroom_tp35_d1_probing_val.h5": "c0c19620e05fd0d87c5fd797584dfc1d654c768cfa6def7e55449487686bbe03"
+  },
+  "episodes": {
+    "train": 399,
+    "audit": 201,
+    "val": 100
+  },
+  "feature_dims": {
+    "cls": 192,
+    "patch_mean": 192,
+    "patch_max": 192,
+    "grid4x4": 3072,
+    "patch_mean_raw": 192
+  },
+  "variants": {
+    "cls": {
+      "audit_distractor_r2": [
+        0.42950511582456297,
+        0.49601993437542846
+      ],
+      "linear_ridge_distractor_r2": [
+        0.008934343100694297,
+        0.10375199781994304
+      ]
+    },
+    "patch_mean": {
+      "audit_distractor_r2": [
+        0.7507917714127845,
+        0.8603204772118053
+      ],
+      "linear_ridge_distractor_r2": [
+        0.762814937569743,
+        0.8132935155175246
+      ]
+    },
+    "patch_max": {
+      "audit_distractor_r2": [
+        0.44877938408438245,
+        0.4168806532097492
+      ],
+      "linear_ridge_distractor_r2": [
+        0.570357217550832,
+        0.5557958241072263
+      ]
+    },
+    "grid4x4": {
+      "audit_distractor_r2": [
+        0.9766953770440513,
+        0.9678795673867505
+      ],
+      "linear_ridge_distractor_r2": [
+        0.9942719926705202,
+        0.9950414461152571
+      ]
+    },
+    "patch_mean_raw": {
+      "audit_distractor_r2": [
+        0.7077089250653218,
+        0.8822226723899148
+      ],
+      "linear_ridge_distractor_r2": [
+        0.8550512983498574,
+        0.8739306357987187
+      ]
+    }
+  }
+}

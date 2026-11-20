@@ -1,0 +1,42 @@
+{
+  "seed": 43,
+  "dataset_revision": "main",
+  "files": {
+    "fourroom_tp35_d1_probing.h5": {
+      "sha256": "43574c13934ed44a115cee2feb057d508153ce511321511f588b521e775edf13",
+      "bytes": 648794116,
+      "path": "/home/kemove/yuzihang/hjepa-slow-selection/assets/cache/official_fourroom_probing/fourroom_tp35_d1_probing.h5"
+    },
+    "fourroom_tp35_d1_probing_val.h5": {
+      "sha256": "c0c19620e05fd0d87c5fd797584dfc1d654c768cfa6def7e55449487686bbe03",
+      "bytes": 162604262,
+      "path": "/home/kemove/yuzihang/hjepa-slow-selection/assets/cache/official_fourroom_probing/fourroom_tp35_d1_probing_val.h5"
+    }
+  },
+  "train_episodes": 399,
+  "audit_episodes": 201,
+  "val_episodes": 100,
+  "levels": {
+    "1": {
+      "audit_r2": {
+        "agent_x": 0.9999401941330158,
+        "agent_y": 0.9999477306685811,
+        "distractor_x": 0.4045149765966539,
+        "distractor_y": 0.4676445934818293
+      },
+      "minimum_audit_r2": 0.4045149765966539,
+      "distractor_r2_min": 0.4045149765966539
+    },
+    "2": {
+      "audit_r2": {
+        "agent_x": 0.999918396341959,
+        "agent_y": 0.9999093456884658,
+        "distractor_x": 0.07990903573535857,
+        "distractor_y": 0.2277926046396358
+      },
+      "minimum_audit_r2": 0.07990903573535857,
+      "distractor_r2_min": 0.07990903573535857
+    }
+  },
+  "note": "Official probing HDF5s, audited official 60-epoch two-head probe."
+}

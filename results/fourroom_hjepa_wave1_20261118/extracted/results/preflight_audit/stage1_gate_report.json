@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-17",
+  "stage": "Stage 1 dual-GPU preflight gate",
+  "gate_decision": "HARD_STOP_DISTRACTOR_R2_BELOW_0.50",
+  "gate_rule": "seed42 and seed43 Level-1 four-axis minimum AUDIT R2 must be >= 0.85 to auto-proceed; seed43 Level-1 distractor R2 < 0.50 is an explicit hard stop.",
+  "preflight_dataset": {
+    "name": "dev_preflight",
+    "collection_seed": 2026111800,
+    "split_seed": 20261117,
+    "episodes": {"train": 400, "val": 100, "audit": 64},
+    "h5_sha256": "e7158fcd2dd3c39f883f08beee99538a258e9265cc22bb262690b7dd1eaddbc7",
+    "splits_sha256": "c1536f89028bea8a695c819143a18fb1fd4f3d226116e211e5b1ec913d1e5e53"
+  },
+  "preflight_results": {
+    "seed42_level1": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.7650, "distractor_y": 0.7069, "min": 0.7069},
+    "seed42_level2": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.5872, "distractor_y": 0.4877, "min": 0.4877},
+    "seed43_level1": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.4254, "distractor_y": 0.4818, "min": 0.4254},
+    "seed43_level2": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.1273, "distractor_y": 0.2665, "min": 0.1273}
+  },
+  "wrapper_conformance": {
+    "verdict": "faithful; no missing official step found",
+    "matched": [
+      "Level-1 feature = embed_0 from model.get_level(1).encode({'pixels': ...}, key='pixels'), ImageNet mean/std after /255",
+      "Dense per-frame encoding; upper levels consume embed_{l-1} and return embed_0, matching _dense_encode_no_stride",
+      "temporal_window_size == 1 asserted at every level; 192-D embeddings",
+      "Probe = Linear(192,512) -> LayerNorm(512) -> GELU -> Linear(512,2), one hidden layer, raw 192-D input",
+      "Two independent 2-D heads (xy, distractor0_xy) concatenated to [agent_x, agent_y, distractor_x, distractor_y]",
+      "Targets z-scored with the checkpoint's normalizer.pt (same stats used by official probing eval)",
+      "AdamW lr=1e-3, weight_decay=1e-4, batch=128, shuffle, drop_last",
+      "60 epochs, no LR scheduler, no validation-based checkpoint selection; final-epoch weights",
+      "Official probing file SHA256 verified against the published SHA256SUMS"
+    ],
+    "deliberate_deviations": [
+      "New fourroom_v2/dev_preflight data use action_repeat_prob=0.0 instead of the official 0.05 (documented in README)",
+      "New collection/split seeds and 400/100 full-frame train/val episodes instead of the official 600/150",
+      "min_distractor_dist probe omitted; it has no shared parameters with the two used heads and cannot change their gradients",
+      "Decoders not trained; they have independent parameters and cannot change probe gradients"
+    ]
+  },
+  "diagnostics": {
+    "linear_ridge_seed43_level1_60k_train": {
+      "agent_xy_r2": [0.9981, 0.9965],
+      "distractor_xy_r2": [0.0048, 0.0725],
+      "interpretation": "Agent position is almost linearly decodable; distractor position is essentially not linearly decodable."
+    },
+    "readout_capacity_seed43_level1_60k_train": {
+      "official_60_raw_joint4d_audit": [0.9980, 0.9976, 0.2009, 0.2436],
+      "official_60_zscore_joint4d_audit": [0.9982, 0.9970, 0.1965, 0.2409],
+      "official_200_zscore_joint4d_audit": [0.9992, 0.9991, 0.2975, 0.4269],
+      "mlp2_512_60_zscore_audit": [0.9943, 0.9929, 0.4265, 0.5431],
+      "mlp2_512_60_zscore_train": [0.9959, 0.9960, 0.7937, 0.8253],
+      "interpretation": "More capacity/epochs raises distractor R2 toward ~0.54 but not 0.85; the reader is still underfitting on distractor even at train R2 ~0.83."
+    },
+    "official_data_replication_seed43": {
+      "source": "jepa-world-models/h-jepa dataset repo (resolved revision cc05cb8d2aaf9aec0d5364d073c6369ff760b60b), files verified against SHA256SUMS",
+      "train_episodes": 399,
+      "audit_episodes": 201,
+      "val_episodes": 100,
+      "level1_audit_r2": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.4045, "distractor_y": 0.4676},
+      "level2_audit_r2": {"agent_x": 0.9999, "agent_y": 0.9999, "distractor_x": 0.0799, "distractor_y": 0.2278},
+      "interpretation": "Running the audited official probe on the OFFICIAL probing HDF5s reproduces the same low distractor R2. The failure is not caused by the new data, seeds, or action_repeat_prob."
+    }
+  },
+  "readout_diagnosis": {
+    "official_data_seed43_level1": {
+      "cls": {"distractor_r2": [0.4295, 0.496], "linear_ridge": [0.0089, 0.1038]},
+      "patch_mean": {"distractor_r2": [0.7508, 0.8603], "linear_ridge": [0.7628, 0.8133]},
+      "patch_max": {"distractor_r2": [0.4488, 0.4169], "linear_ridge": [0.5704, 0.5558]},
+      "grid4x4": {"distractor_r2": [0.9767, 0.9679], "linear_ridge": [0.9943, 0.9950]},
+      "patch_mean_raw": {"distractor_r2": [0.7077, 0.8822], "linear_ridge": [0.8551, 0.8739]}
+    },
+    "preflight_cls_vs_grid_seed42": {"cls_min": 0.7069, "grid_min": 0.9744},
+    "preflight_cls_vs_grid_seed43": {"cls_min": 0.4254, "grid_min": 0.9240},
+    "preflight_grid_all_model_families_min_r2": {
+      "fourroom_lewm": {"seed42": 0.9957, "seed43": 0.9879},
+      "fourroom_hjepa_l2": {"seed42": 0.9744, "seed43": 0.9240},
+      "fourroom_hjepa_l4": {"seed42": 0.9619, "seed43": 0.9732}
+    },
+    "grid_validation_scope": "Level 1 only; upper levels are 192-D latents with no spatial tokens. All three model families pass the 0.85 audit with the same probe architecture and 60-epoch budget.",
+    "interpretation": "The distractor position IS present in the Level-1 patch tokens (4x4-grid linear ridge R2 0.994-0.995) but is discarded by the official CLS pooling. The same 60-epoch two-head probe architecture fed with a 4x4 spatial grid (3072-D) passes the 0.85 audit on both preflight seeds. The bottleneck is the readout, not the encoder or the data."
+  },
+  "proposed_protocol_revision_awaiting_authorization": {
+    "readout": "Add probe_grid4x4_official: identical audited two-head probe, but input is the projected 4x4 spatial grid (3072-D) instead of the CLS token (192-D). Level 1 only, because upper levels are 192-D latents without spatial tokens.",
+    "group_A_readout_ablation": "3 readouts (probe_8k, probe_160k_official, probe_grid4x4_official) x 3 seeds x Level 1 x 2 rules = 18 confirmatory rows; per-claim alpha 0.05/18.",
+    "group_B_depth_lineage": "LeWM L1 + H-JEPA L2 L1 + H-JEPA L4 L1 x 3 seeds x 2 rules = 18 confirmatory rows; per-claim alpha 0.05/18. The L2 L1 grid cells are shared by both families; the claims differ (readout vs depth).",
+    "upper_levels": "Levels 2+ keep the official CLS readout and are reported as exploratory RECOVERY_NOT_VERIFIED diagnostics; they are not counted in either confirmatory family.",
+    "why_this_is_a_protocol_change": "The original registration used family sizes 24 and 30 and only the 8k/official-CLS readouts. The Stage-1 gate proved those readouts cannot recover the distractor at Level 1, so the confirmatory families must be redefined before any TEST data exist.",
+    "status": "authorized 2026-11-17; implemented and superseded by the final Stage-1B gate"
+  },
+  "stage1b_supplement": {
+    "artifact": "results/preflight_audit/stage1b_preflight_supplement.json",
+    "gate": "PASS_AUTO_PROCEED",
+    "seed44_grid_min_r2": {
+      "fourroom_lewm": {"mlp": 0.9926, "ridge": 0.9909},
+      "fourroom_hjepa_l2": {"mlp": 0.9743, "ridge": 0.9953},
+      "fourroom_hjepa_l4": {"mlp": 0.9901, "ridge": 0.9969}
+    },
+    "cls_audit_min_r2_by_level": {
+      "fourroom_lewm": {"seed42_L1": 0.9795, "seed43_L1": 0.9771, "seed44_L1": 0.9733},
+      "fourroom_hjepa_l2": {"seed42_L1": 0.7069, "seed43_L1": 0.4254, "seed44_L1": 0.2396,
+                             "seed42_L2": 0.4877, "seed43_L2": 0.1273, "seed44_L2": -0.0381},
+      "fourroom_hjepa_l4": {"seed42_L1": 0.9219, "seed42_L2": 0.7176, "seed42_L3": 0.4336, "seed42_L4": 0.2024,
+                             "seed43_L1": 0.8039, "seed43_L2": 0.5263, "seed43_L3": 0.1910, "seed43_L4": 0.1138,
+                             "seed44_L1": 0.9439, "seed44_L2": 0.7762, "seed44_L3": 0.6275, "seed44_L4": 0.3380}
+    },
+    "interpretation": "LeWM's CLS retains the distractor at Level 1 (~0.97), while the hierarchical L=2/L=4 Level-1 CLS does not; the spatial grid recovers it in every family and seed."
+  },
+  "user_decision": {
+    "date": "2026-11-17",
+    "choice": "authorized revised readouts and pre-registration; proceed with Stage-1B and formal Wave 1",
+    "revised_families": {
+      "A_fourroom_probe_v2": {"family_size": 24, "rows": "L1 4 readouts x 3 seeds x 1 rule; L2 2 readouts x 3 seeds x 2 rules"},
+      "B_depth_lineage": {"family_size": 51, "rows": "LeWM 9 + L2 15 + L4 27"}
+    },
+    "formal_wave1_started": true,
+    "fourroom_v2_collection_started": "2026-11-17 23:10:46",
+    "report": "results/preflight_audit/STAGE1_METHODOLOGICAL_REPORT.md"
+  },
+  "conclusion": "The audited official CLS readout recovers the agent axes almost perfectly at both depths and on both datasets, but recovers the distractor axes only to R2 ~0.4-0.7 at Level 1 and less at Level 2. This is reproducible on the official probing data and is a property of the CLS readout, not the encoder: the distractor is linearly decodable (R2 ~0.99) from a 4x4 spatial grid of the same frozen patch tokens. Proceeding unchanged would make nearly every Wave-1 cell RECOVERY_NOT_VERIFIED; a spatial-grid Level-1 readout passes the audit on both preflight seeds.",
+  "not_started": {
+    "fourroom_v2_collection": true,
+    "stage3_three_arms": true,
+    "reason": "Protocol requires a pause and user report after a hard-stop."
+  },
+  "artifacts": [
+    "results/preflight_audit/upstream_probe_audit.json",
+    "results/preflight_audit/dev_preflight_seed42.json",
+    "results/preflight_audit/dev_preflight_seed43.json",
+    "results/preflight_audit/dev_preflight_summary.json",
+    "results/preflight_audit/distractor_ridge_seed43_level1.json",
+    "results/preflight_audit/distractor_diagnosis_seed43_level1.json",
+    "results/preflight_audit/official_probing_replication_seed43.json"
+  ]
+}

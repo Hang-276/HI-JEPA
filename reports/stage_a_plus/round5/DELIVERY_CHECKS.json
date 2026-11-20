@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "conditional mathematics, fixed analytic formula checks, previous JSON metadata/summary diagnostics and artifact integrity; no current-Fine scientific certification",
+  "previous_manifests_verified_unchanged": [
+    {
+      "directory": "outputs/HCF_STAGE_A_20261104",
+      "unchanged_files": 38
+    },
+    {
+      "directory": "reports/stage_a_plus",
+      "unchanged_files": 20
+    },
+    {
+      "directory": "reports/stage_a_plus/round2",
+      "unchanged_files": 23
+    },
+    {
+      "directory": "reports/stage_a_plus/round3",
+      "unchanged_files": 27
+    },
+    {
+      "directory": "reports/stage_a_plus/round4",
+      "unchanged_files": 24
+    }
+  ],
+  "previous_manifest_total": 132,
+  "scripts_AST_parsed": [
+    "chain_budget_checks.py",
+    "g0_error_budget_audit.py",
+    "oracle_gate_floor_audit.py",
+    "quantitative_closure_checks.py",
+    "tail_posterior_checks.py"
+  ],
+  "JSON_files_parsed": [
+    "CHAIN_BUDGET_CHECKS.json",
+    "G0_ERROR_BUDGET_AUDIT.json",
+    "ORACLE_GATE_FLOOR_AUDIT.json",
+    "QUANTITATIVE_CLOSURE_CHECKS.json",
+    "TAIL_POSTERIOR_CHECKS.json",
+    "TAIL_POSTERIOR_SOURCE_MANIFEST.json"
+  ],
+  "input_and_owned_artifact_hashes_match": true,
+  "distinct_current_inputs_rehashed": 28,
+  "same_round_reviewed_draft_source_versions": [],
+  "local_markdown_links_checked": 58,
+  "missing_local_links": [],
+  "table_column_errors": [],
+  "preexisting_tracked_diff_numstat_unchanged_from_round4": true,
+  "tracked_diff_numstat": "88\t0\tREADME.md\n21\t4\tSHA256SUMS\n3\t1\tscripts/_experiment.py\n11\t0\tsrc/hijepa/config.py\n40\t1\tsrc/hijepa/losses.py\n",
+  "scope_provenance": {
+    "initial_scope_reconstructed_exactly": true,
+    "initial_scope_matches_original_G0_hash": true,
+    "scope_appended_before_oracle_summary_connection": true,
+    "oracle_final_scope_hash_matches": true,
+    "final_oracle_scope_label_clarified_and_metadata_only_script_rerun": true
+  },
+  "deterministic_checks": {
+    "closure": {
+      "checks": 17,
+      "all_passed": true
+    },
+    "tail_all_checks_pass": true,
+    "chain_all_checks_pass": true,
+    "conditional_budget_examples_pass": [
+      false,
+      false,
+      true
+    ],
+    "complete_joint_dynamic_process_validated": false,
+    "actual_Fine_unlabeled_certificates_obtained": 0
+  },
+  "existing_evidence": {
+    "native_G0_metadata_parents": 12,
+    "physical_instances": 4,
+    "oracle_common_eta_numeric_veto": 6,
+    "oracle_axis_specific_same_bound_numeric_veto": 3,
+    "veto_scope": "FP64 existing-summary oracle veto of this sufficient norm bound on identical finite TRAIN support, with optimality correction and explicit sensitivity allowance; not interval proof, model failure or population impossibility",
+    "unvetoed_does_not_mean_pass": true
+  },
+  "independent_reviews": {
+    "closure_constants": "theory_review/closure_constant_check checked bounded witnesses, cubic and quartic identities, O(delta) constants and covariance noncollapse",
+    "tail_and_transport": "theory_review and identifiability_literature independently checked absorption, support, normalization, moments and joint limits; corrected Kq^2*d and transfer joint-limit wording",
+    "oracle": "independent reviewers caught numerical OLS residual direction; corrected via normal-equation residual and explicit 1e-10 sensitivity allowance; common vs axis-specific veto distinguished",
+    "final_synthesis": "identifiability_literature read-only review passed: analytic nonempty fixture, actual-input gaps, finite-support veto and route decision accurately limited"
+  },
+  "cost": {
+    "scientific_data_array_reads": 0,
+    "checkpoint_loads": 0,
+    "model_forwards": 0,
+    "new_fits": 0,
+    "neural_training": 0,
+    "PRNG_calls": 0,
+    "new_physical_trajectories": 0,
+    "TEST_FINAL_array_reads": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0,
+    "note": "Fixed-formula checks and JSON-only audits were executed; oracle metadata arithmetic rerun during draft repairs. Per-script JSON read counts are per invocation, not cumulative run counts."
+  },
+  "conclusions": {
+    "quantitative_conditional_interfaces": "ESTABLISHED_UNDER_EXPLICIT_ASSUMPTIONS",
+    "mathematical_budget_nonempty": "YES_WITH_STRONG_CONDITIONAL_INPUTS; not same-process or current-Fine validation",
+    "actual_Fine_truth_free_guarantee": "NOT_ESTABLISHED",
+    "independent_Fine_value": "Not strengthened; same-capacity advantage and necessity remain unestablished",
+    "route": "Retain conditional stability/failure-boundary theory; pause current norm certificate as practical Fine/G0 mainline; no server/GPU training"
+  },
+  "remaining_gap": "Valid observable posterior-excess, tail and covariance confidence budgets at a legal context; anchor-to-G0 coverage/statistics; a sharper target-related bound for the vetoed finite-support cases"
+}

@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-05",
+  "scope": "fixed rational/analytic arithmetic; no scientific data or simulation",
+  "script_sha256": "d80d6cdfdeae3dc9d075e74058b5f44b9e6fcd0bc98230412cabbb0a7cba6425",
+  "proof_sha256": "2a0f7a708f23fa4e3b48620549ea430d5a77e1a1b9114160fa02c0d662abe803",
+  "checks": [
+    {
+      "name": "conditional_pair_variance_identity_cell_0",
+      "passed": true
+    },
+    {
+      "name": "conditional_pair_variance_identity_cell_1",
+      "passed": true
+    },
+    {
+      "name": "empty_cell_continuous_extension",
+      "passed": true
+    },
+    {
+      "name": "restricted_Brier_identity_exact_rational",
+      "passed": true,
+      "A2": "53/2000",
+      "risk": "89/400",
+      "noise": "221/750",
+      "variation": "37/375"
+    },
+    {
+      "name": "Omega_mass_not_conditionally_renormalized",
+      "passed": true
+    },
+    {
+      "name": "noise_gradient_and_L1_constant_including_origin",
+      "passed": true,
+      "gradient_cases": 102,
+      "pair_cases": 1225
+    },
+    {
+      "name": "KL_chisquare_floor_direction_with_zero_true_probabilities",
+      "passed": true,
+      "cases": 20
+    },
+    {
+      "name": "coarse_calibration_counterexample_needs_variation",
+      "passed": true,
+      "bin_calibration_error": 0.0,
+      "risk": 0.5,
+      "bin_noise": 0.5,
+      "variation": 0.32,
+      "true_KL": 0.3680642071684971,
+      "scope": "generic coarsening, not full-rank Fine counterexample"
+    },
+    {
+      "name": "24_and_32_even_optimistic_constructor_is_trivial",
+      "passed": true,
+      "applies_to_all_eps_at_most_one_ninth": true,
+      "claim": "this construction only, not an information-theoretic impossibility"
+    },
+    {
+      "name": "fixed_hypothetical_finite_n_nonempty_budget",
+      "passed": true,
+      "n": 100000000,
+      "m": 2,
+      "bins": 1,
+      "epsilon": 0.5,
+      "delta": 0.05,
+      "indicator_radius": 0.00015929805107461024,
+      "risk_radius": 0.0002716203031481239,
+      "noise_penalty": 0.000637192204298441,
+      "risk_upper": 0.5002716203031481,
+      "noise_lower": 0.4993628077957016,
+      "mass_upper": 1.0,
+      "raw_KL_bound": 0.0018176250148930206,
+      "trivial_cap": 0.6931471805599453,
+      "final_bound": 0.0018176250148930206,
+      "scope": "scalar posterior theorem only; rank-zero q; not a Fine/ICA fixture"
+    },
+    {
+      "name": "Round5_optimistic_absorption_scale",
+      "passed": true,
+      "threshold": 3.469262612872834e-05,
+      "alpha": 0.5,
+      "epsilon": 0.1111111111111111,
+      "pi0": 0.1111111111111111,
+      "tail_mass": 0.0,
+      "scope": "constant budget comparison, not actual model parameters"
+    },
+    {
+      "name": "finite_sample_failure_probability_bookkeeping",
+      "passed": true
+    }
+  ],
+  "check_count": 12,
+  "all_passed": true,
+  "optimistic_small_n": [
+    {
+      "n": 24,
+      "m": 9,
+      "bins": 1,
+      "epsilon": 0.1111111111111111,
+      "delta": 0.05,
+      "indicator_radius": 0.3702265976176533,
+      "risk_radius": 0.5544426220774891,
+      "noise_penalty": 6.6640787571177595,
+      "risk_upper": 0.5544426220774891,
+      "noise_lower": 0.0,
+      "mass_upper": 1.0,
+      "raw_KL_bound": 4.9899835986974015,
+      "trivial_cap": 2.1972245773362196,
+      "final_bound": 2.1972245773362196,
+      "interpretation": "Optimistic arithmetic only: risk zero, maximal noise; not actual audit data"
+    },
+    {
+      "n": 32,
+      "m": 9,
+      "bins": 1,
+      "epsilon": 0.1111111111111111,
+      "delta": 0.05,
+      "indicator_radius": 0.3206256386935671,
+      "risk_radius": 0.48016139565996035,
+      "noise_penalty": 5.7712614964842075,
+      "risk_upper": 0.48016139565996035,
+      "noise_lower": 0.0,
+      "mass_upper": 1.0,
+      "raw_KL_bound": 4.321452560939643,
+      "trivial_cap": 2.1972245773362196,
+      "final_bound": 2.1972245773362196,
+      "interpretation": "Optimistic arithmetic only: risk zero, maximal noise; not actual audit data"
+    }
+  ],
+  "finite_nonempty_arithmetic_example": {
+    "n": 100000000,
+    "m": 2,
+    "bins": 1,
+    "epsilon": 0.5,
+    "delta": 0.05,
+    "indicator_radius": 0.00015929805107461024,
+    "risk_radius": 0.0002716203031481239,
+    "noise_penalty": 0.000637192204298441,
+    "risk_upper": 0.5002716203031481,
+    "noise_lower": 0.4993628077957016,
+    "mass_upper": 1.0,
+    "raw_KL_bound": 0.0018176250148930206,
+    "trivial_cap": 0.6931471805599453,
+    "final_bound": 0.0018176250148930206
+  },
+  "absorption_scale": 3.469262612872834e-05,
+  "independent_review_of_new_finite_sample_proof": false,
+  "cost": {
+    "scientific_array_reads": 0,
+    "model_execution": 0,
+    "new_fits": 0,
+    "PRNG_calls": 0,
+    "physical_sampling": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  }
+}

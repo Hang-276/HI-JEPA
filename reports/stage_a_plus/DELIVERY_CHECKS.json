@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "Delivery/provenance and recorded deterministic checks; not validation of neural learning guarantees or scientific novelty",
+  "required_files": [
+    "THEORY.md",
+    "NOVELTY.md",
+    "EVIDENCE_GAPS.md",
+    "DECISION.md"
+  ],
+  "python_AST_parsed": [
+    "analytic_bridge_checks.py",
+    "kappa_formula_checks.py",
+    "paired_score_audit.py"
+  ],
+  "recorded_paired_script_hash_matches": true,
+  "rehashed_frozen_sources": 189,
+  "frozen_source_mismatches": [],
+  "rehashed_stage_a_inputs": 6,
+  "stage_a_input_mismatches": [],
+  "rehashed_unique_paired_audit_inputs": 43,
+  "paired_audit_input_mismatches": [],
+  "checkpoint_inventory": {
+    "files": 12,
+    "total_bytes": 4675512,
+    "metadata_hash_matches": 12,
+    "scope": "File byte hashes recorded in CHECKPOINT_INVENTORY and independently rechecked by evidence reviewer; no deserialization or selected/last internal-state validation"
+  },
+  "paired_coverage": {
+    "old_global": {
+      "all12": 6,
+      "AR6": 6,
+      "FHN6": 0,
+      "pair_cells48": 24
+    },
+    "old_pair_specific": {
+      "all12": 6,
+      "AR6": 6,
+      "FHN6": 0,
+      "pair_cells48": 30
+    },
+    "polarization_Cauchy": {
+      "all12": 6,
+      "AR6": 6,
+      "FHN6": 0,
+      "pair_cells48": 30
+    },
+    "correlation_no_h_cancel": {
+      "all12": 12,
+      "AR6": 6,
+      "FHN6": 6,
+      "pair_cells48": 48
+    },
+    "correlation": {
+      "all12": 12,
+      "AR6": 6,
+      "FHN6": 6,
+      "pair_cells48": 48
+    },
+    "one_sided": {
+      "all12": 12,
+      "AR6": 6,
+      "FHN6": 6,
+      "pair_cells48": 48
+    },
+    "lag": {
+      "all12": 12,
+      "AR6": 6,
+      "FHN6": 6,
+      "pair_cells48": 48
+    }
+  },
+  "historical_oracle_counterexample_preserved": true,
+  "analytic_bridge_max_matrix_formula_error": 8.881784197001252e-16,
+  "analytic_counterexample_critical_angles_deg": [
+    45.0,
+    22.500000000000384,
+    7.499999999999848
+  ],
+  "same_gamma_and_kappa_checks": true,
+  "kappa_fixed_matrix_inequalities_verified": true,
+  "markdown_local_links_checked": 49,
+  "markdown_missing_local_links": [],
+  "markdown_table_column_errors": [],
+  "tracked_dirty_stat_matches_initial_inventory": true,
+  "review": {
+    "theory_review": "No substantive errors; explicit nondegeneracy and empirical-objective assumptions added before delivery",
+    "literature_review": "No substantive mathematical errors; publication novelty remains unresolved",
+    "evidence_review": "No substantive scope/count/provenance errors; all12 checkpoint and metadata hashes independently rechecked"
+  },
+  "cost_boundary": {
+    "neural_training": 0,
+    "model_forward": 0,
+    "new_physical_trajectories": 0,
+    "PRNG_draws": 0,
+    "new_FINAL_array_reads": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  },
+  "scientific_decision": "CONDITIONAL GO for focused mechanism research; formal 4090 experiment gate not passed",
+  "not_completed": [
+    "actual Fine nonlinear risk-to-axis guarantee",
+    "unlabeled or population FHN certificate",
+    "independent new-instance scientific confirmation",
+    "Fine independent method value",
+    "server migration",
+    "CUDA parity",
+    "formal baseline lock"
+  ]
+}

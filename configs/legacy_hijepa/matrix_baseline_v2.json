@@ -1,0 +1,19 @@
+{
+  "base": "base_formal_v2.json",
+  "seeds": [
+    0,
+    1
+  ],
+  "purpose": "v2 GCSB dual-seed baseline acceptance only; this round does not expand to the 57-record matrix",
+  "jobs": [
+    {
+      "name": "e1_baseline",
+      "system": {
+        "family": "real"
+      },
+      "model": {
+        "variant": "full"
+      }
+    }
+  ]
+}

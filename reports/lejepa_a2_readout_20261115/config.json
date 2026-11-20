@@ -1,0 +1,21 @@
+{
+  "seeds": [20151, 20152, 20153, 20154],
+  "training_cases": ["separated_wide", "crossed_wide"],
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "length": 193,
+  "lags": [4, 16, 32],
+  "n_test": 4096,
+  "test_role": 731,
+  "threshold": 0.17748381448816608,
+  "alpha": 0.05,
+  "min_coverage": 0.35,
+  "max_error": 0.01,
+  "minimum_r2_drop": 0.01,
+  "minimum_weak_r2": 0.85,
+  "minimum_separated_encoders": 6,
+  "gap_edges": [0.17748381448816608, 0.25248381448816608, 0.40248381448816608],
+  "matched_gap_max_difference": 0.02
+}

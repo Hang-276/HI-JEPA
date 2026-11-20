@@ -1,0 +1,1 @@
+docs/PROGRESS_SYNC_JEPA.md

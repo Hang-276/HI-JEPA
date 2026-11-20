@@ -1,0 +1,16 @@
+{
+  "python_311_grammar": true,
+  "M_nullity_at_1e_12": 4,
+  "independent_increment_covariance_variance_max_abs_error": 5.551115123125783e-17,
+  "slow_limit_C_min_eigenvalue_roundoff_allowed": -2.482311589669656e-14,
+  "slow_limit_trace_C": 34.66666666666664,
+  "separated_narrow_alpha_to_zero_snr_limit": {
+    "limit": 0.038077833021118036,
+    "alpha_1e_5": 0.03807768211381233
+  },
+  "separated_wide_alpha_to_zero_snr_limit": {
+    "limit": 0.48953465604709206,
+    "alpha_1e_5": 0.4895331252271252
+  },
+  "sealed_summary_count_consistency": "passed by main verification script"
+}

@@ -1,0 +1,25 @@
+{
+  "pilot_passed": true,
+  "pilot_scope": {
+    "slot": "ar_rich_fresh1",
+    "rep": 0,
+    "episode": 0
+  },
+  "pilot_elapsed_seconds": 0.0911019160412252,
+  "four_batch_seconds": 0.42202070727944374,
+  "peak_rss_bytes": 53477376,
+  "numerical_thread_limit": 1,
+  "prediction_locks_all_precede_full_cal_truth_reads": true,
+  "old_prediction_and_outcome_vectors_reproduced": true,
+  "old_aggregate_metrics_exactly_equal": true,
+  "old_paired_metrics_exactly_equal": true,
+  "unique_rows": 336,
+  "unique_cal_episodes": 112,
+  "available_rank_four_calibrators": 12,
+  "overall_status": "development_only_gate_not_passed",
+  "new_samples": 0,
+  "Fine_training_runs": 0,
+  "model_forwards": 0,
+  "compute_server_connections": 0,
+  "GPU_jobs": 0
+}

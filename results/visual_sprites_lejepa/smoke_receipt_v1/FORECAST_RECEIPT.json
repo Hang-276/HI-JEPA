@@ -1,0 +1,30 @@
+{
+  "evidence_tier": "development_smoke",
+  "sealed_utc": "2026-11-17T04:48:55.828446+00:00",
+  "test_image_inference_started_utc": "2026-11-17T04:48:54.716737+00:00",
+  "design_lock_sha256": "7625f3acc75ecd46d644f3aa06e3798bc72f779921abc917987a09d4a64689f7",
+  "test_image_stream": {
+    "frames": 1544,
+    "shape_chw": [
+      3,
+      32,
+      32
+    ],
+    "dtype": "float32",
+    "sha256_contiguous_chw_stream": "4a368bfbcbf61389731d074b9634a6151f603b75d1e6b58cbb9e42c5be42cfde"
+  },
+  "files_sha256": {
+    "thresholds.json": "b85ce6c905b4d403585a056e90362d8458f0ab04f6616f352601229885b89a14",
+    "reference_truth.npz": "03bcc30d6e79d6c428435ae181c5f4b81bfe8004b8b137bd8245d3ebf198b956",
+    "visual_lejepa_seed1901/thresholds.json": "7fb6460f52c5c74ff7e48e0072581bd9ae34e1c93b02c4e45cac4e4de768b152",
+    "visual_lejepa_seed1901/test_prediction.npz": "b224bb3a2b281b0a425cbba36c74d1e04a3cf2fddae4c39acc3c966abb653873",
+    "visual_lejepa_seed1901/reference.npz": "dd645ca1179d68d0d85ff59108676199503c4f4e2b4003716f669c43ebd4fd7d",
+    "visual_lejepa_seed1901/calibration.npz": "89ed06df0c9dbeb294dd378ce7911d87e14af2bf38f8ebfe6defec16296107f5",
+    "visual_lejepa_seed1901/audit.json": "041e9be3e6238802a4d0e8bfa5090707d39f2e8d423bbf44de800485ffa1f7b2",
+    "long_horizon_pred_seed1901/thresholds.json": "b9b2aada4e2f470535ff3c6853841ad1833899694b4376ab7dace2bf809a34d9",
+    "long_horizon_pred_seed1901/test_prediction.npz": "d1faec585e6f06460c458d55e5eaa3aada43e1c08c5c67c169b901ef907af64b",
+    "long_horizon_pred_seed1901/reference.npz": "53c980a43d1f9dae92a2d8004703a91d2015ef39d3461d92744fb42880f44258",
+    "long_horizon_pred_seed1901/calibration.npz": "fe8c581d1ad8896f06cafa766aaad1e46eec83f9205521c59267f04719704cc0",
+    "long_horizon_pred_seed1901/audit.json": "819a5c499ae3ac6deaa20b076647016aa8155846ac4a57c0233d810df26957ac"
+  }
+}

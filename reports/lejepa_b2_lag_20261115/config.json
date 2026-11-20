@@ -1,0 +1,27 @@
+{
+  "master": 2026111574,
+  "roles": {"cal": 821, "name": 822, "ref": 823, "audit": 824, "test": 825, "cal_bootstrap": 826, "window_bootstrap": 827},
+  "seeds": [20151, 20152, 20153, 20154],
+  "training_cases": ["separated_wide", "crossed_wide"],
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "length": 193,
+  "cal_windows": 1024,
+  "name_anchors": 256,
+  "name_dose": 0.15,
+  "reference_states": 32768,
+  "audit_states": 16384,
+  "test_windows": 4096,
+  "cal_lags": [1, 4, 16, 32],
+  "eval_lags": [4, 16, 32],
+  "arms": ["lag1", "lag4", "lag16", "lag32", "multi"],
+  "primary_process": "separated_narrow",
+  "primary_contrasts": ["lag16", "multi"],
+  "minimum_gain": 0.01,
+  "familywise_alpha": 0.05,
+  "cal_bootstrap_draws": 64,
+  "noise_quantile": 0.90,
+  "window_bootstrap_draws": 4096
+}

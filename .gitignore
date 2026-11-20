@@ -1,15 +1,51 @@
-.venv/
+# Environments and generated cache files.
+.venv*/
 __pycache__/
-*.pyc
-runs/
+*.py[cod]
 *.egg-info/
-# Keep the repository portable; full local trajectories/checkpoints stay local.
-validation/local/*/
-validation/local/data/
-validation/local/matrix_manifest.json
-validation/local/progress.json
-validation/parity_bundle/fixed_data/
-# Ad-hoc command outputs belong in an explicit runs directory.
+build/
+dist/
+.DS_Store
+*.swp
+*~
+# Binary scientific evidence remains on disk. Ignore never means delete.
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+assets/
+# Historical local artifacts and their compatibility links.
+/archive/**
+!/archive/README.md
+!/archive/legacy_protocols/
+!/archive/legacy_protocols/**
+!/archive/legacy_metadata_20261116/
+!/archive/legacy_metadata_20261116/**
+/outputs
+/runs
+/diagnostics
+/smoke
+/validation
+/HCF-JEPA-Next
+/experiments/hjepa_slow_selection
+/work/**
+!/work/hcf_stable_id_20261027/
+/work/hcf_stable_id_20261027/*
+!/work/hcf_stable_id_20261027/v1/
+/work/hcf_stable_id_20261027/v1/*
+!/work/hcf_stable_id_20261027/v1/LEJEPA_SOURCE_LOCK.json
+!/work/hcf_stable_id_20261027/v1/vendor/
+!/work/hcf_stable_id_20261027/v1/vendor/**/
+!/work/hcf_stable_id_20261027/v1/vendor/**/*.py
+!/work/hcf_stable_id_20261027/v1/vendor/**/LICENSE*
+!/work/hcf_stable_id_20261027/v1/vendor/**/LEJEPA_SOURCE_LOCK.json
 /doctor_cpu.json
 /doctor_cuda.json
 /environment-linux.lock.txt

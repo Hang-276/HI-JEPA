@@ -1,0 +1,66 @@
+{
+  "cell": "fourroom_hjepa_l2_pca192_mlp_seed42",
+  "model": "fourroom_hjepa_l2",
+  "seed": 42,
+  "projection": "pca192",
+  "readout": "mlp",
+  "audit_r2": {
+    "agent_x": 0.9999086090168151,
+    "agent_y": 0.9999221461583694,
+    "distractor_x": 0.995055898349709,
+    "distractor_y": 0.9950685532230047
+  },
+  "test_r2": {
+    "agent_x": 0.999918495687572,
+    "agent_y": 0.9999320454714005,
+    "distractor_x": 0.9951827931068473,
+    "distractor_y": 0.9951786777045363
+  },
+  "predicted_ref_variance": [
+    3076.6904296875,
+    3019.48388671875,
+    4106.02099609375,
+    4135.25634765625
+  ],
+  "physical_ref_variance": [
+    3078.7161573439457,
+    3029.089965875441,
+    4129.228008568391,
+    4186.1189774873355
+  ],
+  "predicted_over_physical_variance": [
+    0.9993420219491123,
+    0.9968287243809496,
+    0.9943798181097084,
+    0.987849693211153
+  ],
+  "window_groups": {
+    "regular_agent_slow": {
+      "windows": 1840,
+      "full_accuracy": 0.996195652173913,
+      "accepted": 1012,
+      "errors": 0,
+      "selective_error": 0.0
+    },
+    "local_flip": {
+      "windows": 208,
+      "full_accuracy": 0.9278846153846154,
+      "accepted": 0,
+      "errors": 0,
+      "selective_error": null
+    }
+  },
+  "test_residual_lag1_autocorr": 0.7514230333295429,
+  "diagnostic_error_upper": {
+    "9": {
+      "per_claim_alpha": 0.005555555555555556,
+      "error_upper": 0.005118237245871669,
+      "passes": true
+    },
+    "51": {
+      "per_claim_alpha": 0.000980392156862745,
+      "error_upper": 0.006822036482574485,
+      "passes": true
+    }
+  }
+}

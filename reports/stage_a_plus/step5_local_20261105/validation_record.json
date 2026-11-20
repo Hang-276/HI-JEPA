@@ -1,0 +1,35 @@
+{
+  "ended_utc": "2026-11-05T04:15:27.659668+00:00",
+  "calibration_lock_sha256": "d1c522c5f473a33b61dc810cd2dad5caa16e5fb910766e470b27da9238b1f6f6",
+  "episode_files": [
+    {
+      "phi": 0,
+      "split": "val",
+      "episodes": 256,
+      "file": "val_0.npz",
+      "sha256": "1fb5074d7e296ae7b759b1f65eb9d191a3c79848b3d4578ac57fe4f173fbaaee",
+      "elapsed_seconds": 0.11995937488973141,
+      "peak_rss_bytes": 48726016
+    },
+    {
+      "phi": 60,
+      "split": "val",
+      "episodes": 256,
+      "file": "val_60.npz",
+      "sha256": "d3ea8cf47153e0d6114dd3d1d638041bbe7ad8faec0a8b0f4e074d7642bd21a2",
+      "elapsed_seconds": 0.1013890418689698,
+      "peak_rss_bytes": 48775168
+    },
+    {
+      "phi": 80,
+      "split": "val",
+      "episodes": 256,
+      "file": "val_80.npz",
+      "sha256": "92104ab60a847539992f280e7bc7fa49a436b255b9fea6c4cd1f0e9c6e288889",
+      "elapsed_seconds": 0.10288429213687778,
+      "peak_rss_bytes": 48857088
+    }
+  ],
+  "total_validation_episodes": 768,
+  "elapsed_from_preflight_seconds": 67.99993300437927
+}

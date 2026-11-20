@@ -1,0 +1,25 @@
+{
+  "master": 2026111304,
+  "probe_seeds": [13041, 13042],
+  "n_calibration_trajectories": 128,
+  "n_validation_trajectories": 64,
+  "calibration_length": 193,
+  "n_reference_banks": 8,
+  "n_reference_states_per_bank": 32768,
+  "n_test_trajectories": 1024,
+  "test_lengths": [65, 193, 513],
+  "lags": [4, 16, 32],
+  "validation_match_max_abs_r2_gap": 0.005,
+  "mlp_width": 128,
+  "steps": 3000,
+  "batch_pairs": 256,
+  "val_interval": 250,
+  "adamw_lr": 0.001,
+  "adamw_weight_decay": 0.0001,
+  "arms": {
+    "state": {"lambda": 0, "shuffle": false},
+    "temporal_0p1": {"lambda": 0.1, "shuffle": false},
+    "temporal_1": {"lambda": 1, "shuffle": false},
+    "shuffled_1": {"lambda": 1, "shuffle": true}
+  }
+}

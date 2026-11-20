@@ -1,0 +1,28 @@
+{
+  "seeds": [20151, 20152, 20153, 20154],
+  "training_cases": ["separated_wide", "crossed_wide"],
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "regimes": {
+    "baseline": {"exponent": 1.0, "coupling": 0.0},
+    "coupled": {"exponent": 1.0, "coupling": 0.12},
+    "slower": {"exponent": 0.25, "coupling": 0.0},
+    "faster": {"exponent": 4.0, "coupling": 0.0}
+  },
+  "lags": [4, 16, 32],
+  "length": 193,
+  "n_cal": 2048,
+  "n_test": 4096,
+  "n_audit": 16384,
+  "master_base": 2027111500,
+  "cal_role": 811,
+  "test_role": 813,
+  "audit_role": 817,
+  "fixed_threshold": 0.17748381448816608,
+  "minimum_coverage": 0.35,
+  "maximum_error": 0.01,
+  "alpha": 0.05,
+  "gap_bins": [0, 0.06, 0.12, 0.18, 0.25, 0.4, 1e100]
+}

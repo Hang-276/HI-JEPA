@@ -1,0 +1,706 @@
+[
+  {
+    "bank": 0,
+    "same_full_mapping_fraction": 0.96875,
+    "same_axis_mapping_fraction": [
+      0.96875,
+      0.96875,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.4168528752941065
+  },
+  {
+    "bank": 1,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.6138896490159271
+  },
+  {
+    "bank": 2,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.598737893624969
+  },
+  {
+    "bank": 3,
+    "same_full_mapping_fraction": 0.984375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      0.984375,
+      0.984375
+    ],
+    "assignment_objective_gap": 1.4537364800274424
+  },
+  {
+    "bank": 4,
+    "same_full_mapping_fraction": 0.9375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      0.9375,
+      0.9375
+    ],
+    "assignment_objective_gap": 1.4818914594123886
+  },
+  {
+    "bank": 5,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.7161165980537452
+  },
+  {
+    "bank": 6,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.8065365016810442
+  },
+  {
+    "bank": 7,
+    "same_full_mapping_fraction": 0.875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      0.875,
+      0.875
+    ],
+    "assignment_objective_gap": 1.5390377110816074
+  },
+  {
+    "bank": 8,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.722859278328552
+  },
+  {
+    "bank": 9,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.5796615233838667
+  },
+  {
+    "bank": 10,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.6525818071195668
+  },
+  {
+    "bank": 11,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 0.9486767435052554
+  },
+  {
+    "bank": 12,
+    "same_full_mapping_fraction": 0.59375,
+    "same_axis_mapping_fraction": [
+      0.59375,
+      0.59375,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.344790481141859
+  },
+  {
+    "bank": 13,
+    "same_full_mapping_fraction": 0.96875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      0.96875,
+      0.96875
+    ],
+    "assignment_objective_gap": 1.6537039550906516
+  },
+  {
+    "bank": 14,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.6328545680703086
+  },
+  {
+    "bank": 15,
+    "same_full_mapping_fraction": 0.71875,
+    "same_axis_mapping_fraction": [
+      0.8125,
+      0.8125,
+      0.84375,
+      0.84375
+    ],
+    "assignment_objective_gap": 1.3499242339562434
+  },
+  {
+    "bank": 16,
+    "same_full_mapping_fraction": 0.78125,
+    "same_axis_mapping_fraction": [
+      0.78125,
+      0.78125,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.2582309943884376
+  },
+  {
+    "bank": 17,
+    "same_full_mapping_fraction": 0.90625,
+    "same_axis_mapping_fraction": [
+      0.90625,
+      0.9375,
+      1.0,
+      0.96875
+    ],
+    "assignment_objective_gap": 0.7664181315915486
+  },
+  {
+    "bank": 18,
+    "same_full_mapping_fraction": 0.96875,
+    "same_axis_mapping_fraction": [
+      0.96875,
+      0.96875,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.5897716032176894
+  },
+  {
+    "bank": 19,
+    "same_full_mapping_fraction": 0.59375,
+    "same_axis_mapping_fraction": [
+      0.59375,
+      0.59375,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 0.34443549196951206
+  },
+  {
+    "bank": 20,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.7616166783636258
+  },
+  {
+    "bank": 21,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.8951097362614355
+  },
+  {
+    "bank": 22,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.7027284277314
+  },
+  {
+    "bank": 23,
+    "same_full_mapping_fraction": 0.984375,
+    "same_axis_mapping_fraction": [
+      0.984375,
+      0.984375,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.0361068077270699
+  },
+  {
+    "bank": 24,
+    "same_full_mapping_fraction": 0.953125,
+    "same_axis_mapping_fraction": [
+      0.953125,
+      0.953125,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.2539538514223247
+  },
+  {
+    "bank": 25,
+    "same_full_mapping_fraction": 0.65625,
+    "same_axis_mapping_fraction": [
+      0.65625,
+      0.65625,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 0.23125250776258532
+  },
+  {
+    "bank": 26,
+    "same_full_mapping_fraction": 0.875,
+    "same_axis_mapping_fraction": [
+      0.875,
+      0.875,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.2371543306404664
+  },
+  {
+    "bank": 27,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.5745406579305188
+  },
+  {
+    "bank": 28,
+    "same_full_mapping_fraction": 0.40625,
+    "same_axis_mapping_fraction": [
+      0.671875,
+      0.65625,
+      1.0,
+      0.40625
+    ],
+    "assignment_objective_gap": 0.10099620350916494
+  },
+  {
+    "bank": 29,
+    "same_full_mapping_fraction": 0.8125,
+    "same_axis_mapping_fraction": [
+      0.921875,
+      0.84375,
+      1.0,
+      0.828125
+    ],
+    "assignment_objective_gap": 0.06263594116061455
+  },
+  {
+    "bank": 30,
+    "same_full_mapping_fraction": 0.9375,
+    "same_axis_mapping_fraction": [
+      0.9375,
+      0.984375,
+      1.0,
+      0.9375
+    ],
+    "assignment_objective_gap": 0.32143924227639964
+  },
+  {
+    "bank": 31,
+    "same_full_mapping_fraction": 0.53125,
+    "same_axis_mapping_fraction": [
+      0.640625,
+      0.765625,
+      1.0,
+      0.609375
+    ],
+    "assignment_objective_gap": 0.03800580117053354
+  },
+  {
+    "bank": 32,
+    "same_full_mapping_fraction": 0.609375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.609375,
+      0.609375,
+      1.0
+    ],
+    "assignment_objective_gap": 0.09618369541187821
+  },
+  {
+    "bank": 33,
+    "same_full_mapping_fraction": 0.6875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.6875,
+      0.6875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.0472334148949018
+  },
+  {
+    "bank": 34,
+    "same_full_mapping_fraction": 0.6875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.6875,
+      0.6875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.085929323465579
+  },
+  {
+    "bank": 35,
+    "same_full_mapping_fraction": 0.96875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.96875,
+      0.96875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.4129432118462595
+  },
+  {
+    "bank": 36,
+    "same_full_mapping_fraction": 0.78125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.78125,
+      0.78125,
+      1.0
+    ],
+    "assignment_objective_gap": 0.43838202243569047
+  },
+  {
+    "bank": 37,
+    "same_full_mapping_fraction": 0.59375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.59375,
+      0.59375,
+      1.0
+    ],
+    "assignment_objective_gap": 0.08249983556277352
+  },
+  {
+    "bank": 38,
+    "same_full_mapping_fraction": 0.9375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.9375,
+      0.9375,
+      1.0
+    ],
+    "assignment_objective_gap": 1.783631592410758
+  },
+  {
+    "bank": 39,
+    "same_full_mapping_fraction": 0.53125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.53125,
+      0.53125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.7229317233173873
+  },
+  {
+    "bank": 40,
+    "same_full_mapping_fraction": 0.875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.875,
+      0.875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.546731838298402
+  },
+  {
+    "bank": 41,
+    "same_full_mapping_fraction": 0.890625,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.890625,
+      0.890625,
+      1.0
+    ],
+    "assignment_objective_gap": 1.419325748703843
+  },
+  {
+    "bank": 42,
+    "same_full_mapping_fraction": 0.859375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.859375,
+      0.859375,
+      1.0
+    ],
+    "assignment_objective_gap": 1.726748997564997
+  },
+  {
+    "bank": 43,
+    "same_full_mapping_fraction": 0.828125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.828125,
+      0.828125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.7010376428042475
+  },
+  {
+    "bank": 44,
+    "same_full_mapping_fraction": 0.65625,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.65625,
+      0.65625,
+      1.0
+    ],
+    "assignment_objective_gap": 1.007994973279268
+  },
+  {
+    "bank": 45,
+    "same_full_mapping_fraction": 0.8125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.8125,
+      0.8125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.2811459394808358
+  },
+  {
+    "bank": 46,
+    "same_full_mapping_fraction": 0.96875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.96875,
+      0.96875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.1953054620675565
+  },
+  {
+    "bank": 47,
+    "same_full_mapping_fraction": 0.828125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.828125,
+      0.828125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.0571319814293694
+  },
+  {
+    "bank": 48,
+    "same_full_mapping_fraction": 0.796875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.796875,
+      0.796875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.660484958848929
+  },
+  {
+    "bank": 49,
+    "same_full_mapping_fraction": 0.625,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.625,
+      0.625,
+      1.0
+    ],
+    "assignment_objective_gap": 0.8752615019119032
+  },
+  {
+    "bank": 50,
+    "same_full_mapping_fraction": 0.78125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.78125,
+      0.78125,
+      1.0
+    ],
+    "assignment_objective_gap": 0.9711373780089647
+  },
+  {
+    "bank": 51,
+    "same_full_mapping_fraction": 0.859375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.859375,
+      0.859375,
+      1.0
+    ],
+    "assignment_objective_gap": 0.829649956949476
+  },
+  {
+    "bank": 52,
+    "same_full_mapping_fraction": 0.765625,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.765625,
+      0.765625,
+      1.0
+    ],
+    "assignment_objective_gap": 1.8687501970868095
+  },
+  {
+    "bank": 53,
+    "same_full_mapping_fraction": 0.921875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.921875,
+      0.921875,
+      1.0
+    ],
+    "assignment_objective_gap": 1.0503872659462452
+  },
+  {
+    "bank": 54,
+    "same_full_mapping_fraction": 0.84375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.84375,
+      0.84375,
+      1.0
+    ],
+    "assignment_objective_gap": 1.1261602922661225
+  },
+  {
+    "bank": 55,
+    "same_full_mapping_fraction": 0.609375,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.609375,
+      0.609375,
+      1.0
+    ],
+    "assignment_objective_gap": 0.27800734465873056
+  },
+  {
+    "bank": 56,
+    "same_full_mapping_fraction": 0.578125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.578125,
+      0.578125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.6528362710586366
+  },
+  {
+    "bank": 57,
+    "same_full_mapping_fraction": 0.828125,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.828125,
+      0.828125,
+      1.0
+    ],
+    "assignment_objective_gap": 1.4517267714244961
+  },
+  {
+    "bank": 58,
+    "same_full_mapping_fraction": 1.0,
+    "same_axis_mapping_fraction": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "assignment_objective_gap": 1.5924041919405951
+  },
+  {
+    "bank": 59,
+    "same_full_mapping_fraction": 0.546875,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.546875,
+      0.546875,
+      1.0
+    ],
+    "assignment_objective_gap": 0.8422103235516105
+  },
+  {
+    "bank": 60,
+    "same_full_mapping_fraction": 0.5625,
+    "same_axis_mapping_fraction": [
+      0.90625,
+      0.609375,
+      0.625,
+      0.890625
+    ],
+    "assignment_objective_gap": 0.1275590543615941
+  },
+  {
+    "bank": 61,
+    "same_full_mapping_fraction": 0.640625,
+    "same_axis_mapping_fraction": [
+      1.0,
+      0.65625,
+      0.640625,
+      0.984375
+    ],
+    "assignment_objective_gap": 0.10051131049695128
+  },
+  {
+    "bank": 62,
+    "same_full_mapping_fraction": 0.84375,
+    "same_axis_mapping_fraction": [
+      0.96875,
+      0.890625,
+      0.875,
+      0.953125
+    ],
+    "assignment_objective_gap": 0.7771522009390157
+  },
+  {
+    "bank": 63,
+    "same_full_mapping_fraction": 0.734375,
+    "same_axis_mapping_fraction": [
+      0.796875,
+      0.921875,
+      0.953125,
+      0.765625
+    ],
+    "assignment_objective_gap": 0.06070096770720079
+  }
+]

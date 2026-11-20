@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-09T10:26:01.627618+00:00",
+  "sources": {
+    "run.py": "3f86eee2d866db67a86cd34bac0f5456e508e9569ece1ef426f6aa4f4860bb9b",
+    "THEORY.md": "0cc94d2029ab9b703edf72ed5fa71cb7723a5dec2df408b95593f2fd31a135b3",
+    "PROTOCOL.md": "9f6afdf1c18d273e48d391f5c97f8b69f3f050c2912d492cc16ffa81a15a9616",
+    "../phase2_boundary_20261107/BOUNDARY.md": "2d8a238e2f5a63bdba5a6986854932c3a3d58e7f8a36e6a19fe07f2f58e5db20"
+  },
+  "pilot": 2026248001,
+  "formal": 2026248002
+}

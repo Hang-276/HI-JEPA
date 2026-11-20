@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-11-05T11:33:06.150116+08:00",
+  "status": "DELIVERY_COMPLETE_WITH_EXPLICIT_RESEARCH_LIMITATIONS",
+  "integrity_checks_pass": true,
+  "scope": "Conditional mathematics, fixed arithmetic and existing JSON/source audits; no actual-Fine certification",
+  "previous_manifests_verified_unchanged": [
+    {
+      "directory": "outputs/HCF_STAGE_A_20261104",
+      "unchanged_files": 38
+    },
+    {
+      "directory": "reports/stage_a_plus",
+      "unchanged_files": 20
+    },
+    {
+      "directory": "reports/stage_a_plus/round2",
+      "unchanged_files": 23
+    },
+    {
+      "directory": "reports/stage_a_plus/round3",
+      "unchanged_files": 27
+    },
+    {
+      "directory": "reports/stage_a_plus/round4",
+      "unchanged_files": 24
+    },
+    {
+      "directory": "reports/stage_a_plus/round5",
+      "unchanged_files": 24
+    }
+  ],
+  "previous_manifest_total": 156,
+  "audited_current_inputs_rehashed": 113,
+  "current_input_hashes_match": true,
+  "prior_Round6_artifacts_retained_byte_identical": [
+    "ROUND6_SCOPE.md",
+    "POSTERIOR_BOUND_SCOPE.md",
+    "CURRENT_INPUT_SCOPE.md",
+    "current_input_audit.py",
+    "CURRENT_INPUT_AUDIT.json",
+    "CORRELATION_AWARE_SCOPE.md",
+    "CURRENT_INPUT_AUDIT.md",
+    "DIRICHLET_SCOPE.md",
+    "CORRELATION_AWARE_SELECTION.md",
+    "dirichlet_checks.py",
+    "DIRICHLET_CHECKS.json",
+    "correlation_selection_checks.py",
+    "CORRELATION_SELECTION_CHECKS.json",
+    "DIRICHLET_SELECTION.md",
+    "DIRICHLET_INDEPENDENT_REVIEW.md",
+    "THEORY_INDEPENDENT_REVIEW.md"
+  ],
+  "scripts_AST_parsed": [
+    "correlation_selection_checks.py",
+    "current_input_audit.py",
+    "dirichlet_checks.py",
+    "posterior_bound_checks.py"
+  ],
+  "JSON_files_parsed_before_delivery": [
+    "CORRELATION_SELECTION_CHECKS.json",
+    "CURRENT_INPUT_AUDIT.json",
+    "DIRICHLET_CHECKS.json",
+    "EXECUTION_TIME_AUDIT_20261105.json",
+    "POSTERIOR_BOUND_CHECKS.json"
+  ],
+  "owned_source_hashes_match": true,
+  "local_markdown_links_checked": 59,
+  "missing_local_links": [],
+  "table_column_errors": [],
+  "preexisting_tracked_diff_numstat_unchanged": true,
+  "tracked_diff_numstat": "88\t0\tREADME.md\n21\t4\tSHA256SUMS\n3\t1\tscripts/_experiment.py\n11\t0\tsrc/hijepa/config.py\n40\t1\tsrc/hijepa/losses.py\n",
+  "deterministic_checks": {
+    "posterior_groups": 12,
+    "correlation_groups": 14,
+    "dirichlet_fixed_formula_cases": 48,
+    "all_passed": true,
+    "note": "New posterior arithmetic executed; unchanged earlier formula outputs inspected with their source/input hashes and historical snapshot. No rerun of old scientific diagnostics."
+  },
+  "reviews": {
+    "prior_independent_scope": "Brier population identity, full-q injectivity and selection theory; historical reviews retained",
+    "new_finite_sample_proof": "AUTHOR_SELF_REVIEW_ONLY; no new independent review",
+    "new_agents_spawned_during_finalization": 0,
+    "waits_for_subtasks_during_finalization": 0,
+    "review_limit": "User requested direct takeover without waiting; prior partial independent reviews do not cover new finite-sample details."
+  },
+  "existing_evidence": {
+    "parents": 12,
+    "physical_instances": 4,
+    "actual_Fine_new_truth_free_certificates": 0,
+    "old_oracle_TRAIN_correlation_chain_pass": 12,
+    "old_oracle_CAL_correlation_chain_pass": 9,
+    "note": "Oracle diagnostics do not constitute truth-free acceptance evidence."
+  },
+  "conclusions": {
+    "finite_sample_posterior_theorem": "PROVED_WITH_VALID_AUDIT_AND_TRUE_POSTERIOR_VARIATION_CONDITIONS",
+    "hypothetical_n24_n32": "THIS_CONSERVATIVE_CONSTRUCTOR_REDUCES_TO_TRIVIAL_CAP_FOR_M9_DELTA0_05",
+    "true_posterior_variation_budget": "NOT_ESTABLISHED_FROM_CURRENT_INPUTS",
+    "fixed_context_tails_transport_and_dynamic_residual_budgets": "NOT_ESTABLISHED",
+    "actual_Fine_truth_free_guarantee": "NOT_ESTABLISHED",
+    "independent_Fine_value": "NOT_STRENGTHENED; necessity and same-capacity advantage unestablished",
+    "route": "Retain conditional stability/failure boundaries and controlled mechanism diagnosis; stop expansion of current practical certification and unique-method-advantage claims"
+  },
+  "cost": {
+    "scientific_array_reads": 0,
+    "checkpoint_loads": 0,
+    "model_forwards": 0,
+    "new_fits": 0,
+    "neural_training": 0,
+    "PRNG_calls": 0,
+    "new_physical_trajectories": 0,
+    "server_connections": 0,
+    "GPU_jobs": 0
+  },
+  "historical_execution_audit": {
+    "file": "EXECUTION_TIME_AUDIT_20261105.json",
+    "note": "Historical snapshot retained; its saved old report hashes are not final version hashes."
+  },
+  "final_manifest": "SHA256SUMS covers every final Round6 regular file except itself"
+}

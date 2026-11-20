@@ -1,0 +1,19 @@
+{
+  "rounds": {"primary": 2026111314, "replication": 2026111315},
+  "processes": {"separated_wide": [0.93, 0.918, 0.892, 0.88], "separated_narrow": [0.93, 0.906, 0.904, 0.88]},
+  "n_state_cal": 32768,
+  "n_reference": 32768,
+  "n_audit_state": 32768,
+  "n_test": 2048,
+  "length": 193,
+  "lags": [4, 16, 32],
+  "recipients": [1, 2],
+  "minimum_loading": 0,
+  "minimum_diagonal_slope": 0.05,
+  "minimum_gain": 0.01,
+  "loading_suppression_fraction": 0.5,
+  "minimum_suppression_share": 0.8,
+  "bootstrap_draws": 4096,
+  "bootstrap_seed": 2026111340,
+  "arms": ["base", "target", "reverse", "wrong_donor", "joint_linear"]
+}

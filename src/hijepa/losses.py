@@ -11,6 +11,7 @@ standardization, whitening, or variance-only surrogate is applied to z.
 """
 from __future__ import annotations
 
+import math
 from typing import Any
 
 import torch
@@ -50,6 +51,33 @@ def covariance_floor(c: torch.Tensor) -> torch.Tensor:
     eigenvalues = torch.linalg.eigvalsh(covariance)
     std = (eigenvalues.clamp_min(0.0) + 1e-6).sqrt()
     return functional.relu(0.2 - std).square().mean()
+
+
+def coarse_spectral_barrier(c: torch.Tensor, mu: float = 0.10, epsilon: float = 0.005,
+                            lambda_floor: float = 0.04) -> torch.Tensor:
+    """Batch-covariance one-sided spectral barrier on the coarse code.
+
+    This is a *soft* training penalty, not a hard anti-collapse guarantee.  For
+    the current train batch it computes the unbiased covariance S of c, its
+    eigenvalues lambda_j, and
+
+        (mu / m) * sum_j max(0, log((lambda_floor + epsilon) / (lambda_j + epsilon))).
+
+    The term is zero when every eigenvalue is at least lambda_floor and grows as
+    any eigenvalue approaches zero.  It does not rotate or whiten c, does not
+    impose cross-modal zero covariance, and does not change the K block
+    structure or the model function used at inference.
+    """
+    if c.ndim != 2 or c.shape[0] < 2 or c.shape[1] < 1:
+        raise ValueError("Coarse spectral barrier requires [B,m] with B >= 2 and m >= 1")
+    mu, epsilon, lambda_floor = float(mu), float(epsilon), float(lambda_floor)
+    if not all(math.isfinite(value) and value > 0 for value in (mu, epsilon, lambda_floor)):
+        raise ValueError("Coarse spectral barrier parameters must be finite and positive")
+    centered = c - c.mean(dim=0, keepdim=True)
+    covariance = centered.T @ centered / (c.shape[0] - 1)
+    eigenvalues = torch.linalg.eigvalsh(covariance).clamp_min(0.0)
+    log_ratio = torch.log((lambda_floor + epsilon) / (eigenvalues + epsilon))
+    return (mu / c.shape[1]) * torch.clamp(log_ratio, min=0.0).sum()
 
 
 def block_scale(c: torch.Tensor, blocks: list[list[int]]) -> torch.Tensor:
@@ -113,7 +141,18 @@ def compute_losses(model, batch: dict[str, Any], system, config: dict[str, Any],
     rank = functional.relu(float(settings["kappa"]) - sigma_min).square() if model.rank_enabled else zero
     scale = block_scale(c, model.coarse_blocks)
     gaussian = sigreg(z, int(settings["sigreg_slices"]), int(settings["sigreg_points"]), generator)
-    floor = covariance_floor(c)
+    floor_mode = str(settings.get("coarse_floor_mode", "hinge"))
+    if floor_mode == "hinge":
+        floor = covariance_floor(c)
+    elif floor_mode == "spectral_barrier":
+        floor = coarse_spectral_barrier(
+            c,
+            mu=float(settings.get("coarse_barrier_mu", 0.10)),
+            epsilon=float(settings.get("coarse_barrier_epsilon", 0.005)),
+            lambda_floor=float(settings.get("coarse_barrier_lambda_floor", 0.04)),
+        )
+    else:
+        raise ValueError(f"Unknown coarse_floor_mode: {floor_mode}")
     total = (fine_weight * fine + float(settings["alpha"]) * coarse
              + float(settings["beta"]) * rank + float(settings["gamma"]) * scale
              + 0.1 * gaussian + floor)

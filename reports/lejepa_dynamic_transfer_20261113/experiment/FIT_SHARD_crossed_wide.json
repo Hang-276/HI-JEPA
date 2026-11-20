@@ -1,0 +1,130 @@
+{
+  "source_hashes": {
+    "lejepa_dynamic_transfer_20261113/experiment/run.py": "8f5d6aaea084be9b21b95ddb7d1bafe1de1f591bfc74f70aadd61c3fbba9ec95",
+    "lejepa_dynamic_transfer_20261113/experiment/protocol.json": "4296123152d6ecbe188e20f67efde7e001fc82c12e50bd181154d47e59e6db23",
+    "lejepa_dynamic_transfer_20261113/experiment/PROTOCOL.md": "ab9b54f62759201347302089443eaa07de30fc4dda3014ec86541b2a79099af3",
+    "lejepa_slow_rank_20261112/training/protocol.json": "4ea7fe267d245792f436fc6c0e208d56ce064d15c2577057339588de500b0eab",
+    "lejepa_slow_rank_20261112/training/run.py": "aaaf03234286994be48d137dda6f9e309b3dafb611903490c01b5e830cb7d783",
+    "lejepa_slow_rank_20261112/prospective/pipeline_forecast_receipt.json": "a3a46b47092dc0359587f17d62bb1559f78be1987dc6316809575596ca7702ad"
+  },
+  "config": {
+    "master": 2026111304,
+    "probe_seeds": [
+      13041,
+      13042
+    ],
+    "n_calibration_trajectories": 128,
+    "n_validation_trajectories": 64,
+    "calibration_length": 193,
+    "n_reference_banks": 8,
+    "n_reference_states_per_bank": 32768,
+    "n_test_trajectories": 1024,
+    "test_lengths": [
+      65,
+      193,
+      513
+    ],
+    "lags": [
+      4,
+      16,
+      32
+    ],
+    "validation_match_max_abs_r2_gap": 0.005,
+    "mlp_width": 128,
+    "steps": 3000,
+    "batch_pairs": 256,
+    "val_interval": 250,
+    "adamw_lr": 0.001,
+    "adamw_weight_decay": 0.0001,
+    "arms": {
+      "state": {
+        "lambda": 0,
+        "shuffle": false
+      },
+      "temporal_0p1": {
+        "lambda": 0.1,
+        "shuffle": false
+      },
+      "temporal_1": {
+        "lambda": 1,
+        "shuffle": false
+      },
+      "shuffled_1": {
+        "lambda": 1,
+        "shuffle": true
+      }
+    }
+  },
+  "fit_records_sha256": {
+    "crossed_wide_1942_13041_state.json": "5212ca56684d2b20fee8c3732c73437fc3e59726af6584ec9778c77efe33b5d2",
+    "crossed_wide_1942_13041_temporal_0p1.json": "1154c64d13c7c9e1f22d2db8d80dbed5b5d48e1adf6e30ed65d9cbc1a49ce5fa",
+    "crossed_wide_1942_13041_temporal_1.json": "b96ea8fe1a97d68dca72a6d9ff4024c16a1e055cf9080148fec254587be2881d",
+    "crossed_wide_1942_13041_shuffled_1.json": "9f0cf9214d89ad006cdd73877f57ab580aa56c3f39effff8ec3ea40a4ee61e52",
+    "crossed_wide_1942_13042_state.json": "aa5d048d20790e25cbdc407c110b9a1ea9888ff9b486e1f6edb6f0dd050f06fd",
+    "crossed_wide_1942_13042_temporal_0p1.json": "504fb6f016dff2400206fa65a814d3aa5329f8f3dadbdcbed67c5bb5bdd4f013",
+    "crossed_wide_1942_13042_temporal_1.json": "81582afc8c9103589812a4d2e4416c18faa2e3434fc312e0c1ad93723d36ca3a",
+    "crossed_wide_1942_13042_shuffled_1.json": "083178babb3436953caa9c467ddadc44f2c997158a3ec3bd6a1bb298ee2b698f",
+    "crossed_wide_3749_13041_state.json": "c1020caa9bc23a042e277bf875ad340c2567ef12c7457f4913e930ead85a5365",
+    "crossed_wide_3749_13041_temporal_0p1.json": "3758cbf8ff8c8c0ca7156fca5247e95e30547c749a33d5cf18eabfa7713dbda7",
+    "crossed_wide_3749_13041_temporal_1.json": "e368a7c8f77111d84e5a62ced493b994877842a7eccc5a765e7121c7dc19b3f6",
+    "crossed_wide_3749_13041_shuffled_1.json": "1c37a64c99edb2c2d06fdb968e1f4247fcaf0c097d111645d16398bfe2b0cdef",
+    "crossed_wide_3749_13042_state.json": "8c787818162635967706a3e04dc6f3462aa309f21f38e52a167fd803200da96a",
+    "crossed_wide_3749_13042_temporal_0p1.json": "9961e79965c3942eacbeae58167ef67fdc4605f8a061ec3b251e90325dfd04d6",
+    "crossed_wide_3749_13042_temporal_1.json": "d9f58dc58295a80ae08505623d4b370be643a89d68429acf2a09a32d36b6b483",
+    "crossed_wide_3749_13042_shuffled_1.json": "f1a9b530ef4f6f3f5006a9b5e17b2f6f57aa7c1979965bfa9842cbad43f0866a",
+    "crossed_wide_5817_13041_state.json": "f3e5690256b015f2016b24abd647eabc90e078117583c05e87eb56dc12296210",
+    "crossed_wide_5817_13041_temporal_0p1.json": "f8fe852f44f3734f0f509739b4c6cbebba2a629001fdd9a1166f3c36e23bcdb2",
+    "crossed_wide_5817_13041_temporal_1.json": "8a42b24e61fb654c792a064cce9437773e09702da44a4a80952517743fc92cf1",
+    "crossed_wide_5817_13041_shuffled_1.json": "ac0bb0543352f7969aff755ca5192e8c0982dd5a220a87ea169be34830778b59",
+    "crossed_wide_5817_13042_state.json": "054c0a753c865f1c329aec6e7029fabd9f846613d20f94602600c421422f4613",
+    "crossed_wide_5817_13042_temporal_0p1.json": "6a8bb9427ca8ae274e7b063d72492438d0700c2061f8f6c417bf00c507c67bbf",
+    "crossed_wide_5817_13042_temporal_1.json": "555f0f6833e9c48b8323cbf3d625072970914c04374e9fb8bee0dbbd4c28f706",
+    "crossed_wide_5817_13042_shuffled_1.json": "e8b44c44572fb1cbb82f8db20837d5fae1c32b1924c2770c25dd558b44b7029d",
+    "crossed_wide_7811_13041_state.json": "9c6d99f8687de7df8d20d68f3684886b9ed30f74dc50bac980225411daac8a4e",
+    "crossed_wide_7811_13041_temporal_0p1.json": "b20615339c22c5849c1cb3a514df1f80a266866223ed31e59dcdb959a35476f6",
+    "crossed_wide_7811_13041_temporal_1.json": "ec04791e0986f4dd8e1ed67eabc6ad9818b2fac8bd223df93b55a5930e4bc955",
+    "crossed_wide_7811_13041_shuffled_1.json": "a2c0f76b116f07850af2ada1ed39d537cccc7cc008bae74c0c1e1ce4c2329db1",
+    "crossed_wide_7811_13042_state.json": "9c143f9d256fd4cee8fa6459311f7eabe3098bb05333b8380faa10bacfb2de8e",
+    "crossed_wide_7811_13042_temporal_0p1.json": "a9a098d1f66047df018faef318baef327e93e2c4fef07756318d6a7cc6b2fc82",
+    "crossed_wide_7811_13042_temporal_1.json": "ff5f71ffdc6c4d1dd364173e6157b86fea50325023d774d651a670b74c4d3c0f",
+    "crossed_wide_7811_13042_shuffled_1.json": "b46f847a8ad8e2ecb163e63d12f2ec3f8f45b86239c98218a2249284f3f8ecac"
+  },
+  "fitted_readouts_sha256": {
+    "crossed_wide_1942_13041_state.pt": "7523d7f8596c2de4586b2600c463de3fbc4170a1804cbef6357edb8d5c8383a6",
+    "crossed_wide_1942_13041_temporal_0p1.pt": "f89510da90ea74b05e822aaeb5d9de78e443cbdc94851f52f6e3d80864697caf",
+    "crossed_wide_1942_13041_temporal_1.pt": "e5207f1246b4d08774ad18ae1ba35ef0fa133535177dea015c49a80a56828f9a",
+    "crossed_wide_1942_13041_shuffled_1.pt": "3935705ad43e3a80be1fdf657d4caf9e19dd03b56e634ed8c6fb6869ebcb09db",
+    "crossed_wide_1942_13042_state.pt": "f5ccd4e4f29e237439eecb8720e1518be5afeb5dd6ecf317b05b3645e57bd704",
+    "crossed_wide_1942_13042_temporal_0p1.pt": "0024649e265ce1ca4b7bceed1a1daac5e2d8e722978fcc3d84aac35f30142245",
+    "crossed_wide_1942_13042_temporal_1.pt": "be4a58d7994c2283ec4b05c64045f0517e4278dd0f4c1dda4fc4552eb420c316",
+    "crossed_wide_1942_13042_shuffled_1.pt": "2b4db7f2802a98134dee3bda49dd33c40993d9afceb8a1a2e272fb1b17004910",
+    "crossed_wide_3749_13041_state.pt": "4014242e6ce9e597dca711d5f3d3665c182b1304cd4cdc41aa697b26462844db",
+    "crossed_wide_3749_13041_temporal_0p1.pt": "0b993c842b32b9b7224a1b34e45aed436ee8f687f24cd97b1dbf0d7811c74355",
+    "crossed_wide_3749_13041_temporal_1.pt": "b5c842d35325f6268fad0e47f1a822bf21ae0e561bfd7f6785cda1da38901d1a",
+    "crossed_wide_3749_13041_shuffled_1.pt": "b4e05f54788ea128e768408b2cd49bb7edb4daec236d3cfd4eef62cfad04a0e3",
+    "crossed_wide_3749_13042_state.pt": "75c5b89200402c33a535b0464f50923dddb51dc8011e27bbb4a3f1f35473143d",
+    "crossed_wide_3749_13042_temporal_0p1.pt": "5d8e21542a566d6dd7be2ff10622270817182cf3f80fd4aee47e9c5d22b83d0f",
+    "crossed_wide_3749_13042_temporal_1.pt": "b1211abe444a714af181c8f6f3cd6d9cb65c2893c7db98fd424326d8bc2d7819",
+    "crossed_wide_3749_13042_shuffled_1.pt": "add3e39080e9887dac8b2737b4bad14638d40e099866d3b49e4afe1a42ef6351",
+    "crossed_wide_5817_13041_state.pt": "ef07278655de0ff111990ceece8f2a37f0615ea579145e8e46867c7526cd42f9",
+    "crossed_wide_5817_13041_temporal_0p1.pt": "dd7f6d0c205e7bdac7ee3a05f3a8b39c5d97eebce2f6907cac58afb5c80ef685",
+    "crossed_wide_5817_13041_temporal_1.pt": "6c81ae977a117c574bec0f0a420f6f88149a524d0af7f803acf325310011f469",
+    "crossed_wide_5817_13041_shuffled_1.pt": "cb811928c88e24538d3b947f21505704f8a117163cc6982ec4e3f44d02e3a420",
+    "crossed_wide_5817_13042_state.pt": "7f3772d4a6ba23629d4148349cf5bf6f583d3c1068fdb1fdda4564719058eaca",
+    "crossed_wide_5817_13042_temporal_0p1.pt": "4b3140d71fc7cd6853a8af7c2f1f207e5981b1a921a2e32c395dfb319f23d68b",
+    "crossed_wide_5817_13042_temporal_1.pt": "cd947b5cc659e5ebaf7e86b8af4173b456633cbdf14af591c78c2f90dc2d5b5a",
+    "crossed_wide_5817_13042_shuffled_1.pt": "44a47f74b8f8feb659e241b680a234cf0dd8979bdfe28edc05418f84812c24e4",
+    "crossed_wide_7811_13041_state.pt": "727c386da7f27eec13a7763e22fede8e69e7dc85c8cdd298757781ec192cf56a",
+    "crossed_wide_7811_13041_temporal_0p1.pt": "05107a2a98b3cfa61666f513cc50014cd9c0f397df014b6b49d5cf9836967dd9",
+    "crossed_wide_7811_13041_temporal_1.pt": "f6b1122ea99122c266fa022cafb4741aa972cda748af42e8719d7f70aee903e7",
+    "crossed_wide_7811_13041_shuffled_1.pt": "e70222905aad92fdc417b59803233a156160bc7f495662ddd701a9872dc6bd63",
+    "crossed_wide_7811_13042_state.pt": "c4aca3641f586534247de6c40917c9def7deac3819f5b1ff35876d22ce6b489a",
+    "crossed_wide_7811_13042_temporal_0p1.pt": "037ff27dd1979797758030d0f63bafd9dc798a99a51e63cdd199c8ae778f7f9d",
+    "crossed_wide_7811_13042_temporal_1.pt": "ba6f95055b14c8bfdffd6ad326e0b51ce7c04a8ed13f6fbe0393d6ffbc1e010d",
+    "crossed_wide_7811_13042_shuffled_1.pt": "9baabe812658c8a357de2860fee517601e2856cbc80a725c46b7ccbe7142c10d"
+  },
+  "fit_seconds_elapsed": 67.61522183287889,
+  "architecture": "arm64",
+  "torch": "2.15.0",
+  "numpy": "2.5.4"
+}

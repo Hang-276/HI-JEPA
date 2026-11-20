@@ -1,0 +1,19 @@
+{
+  "pilot_seed": 192962026,
+  "design_seed": 2026110722,
+  "validation_seed": 2026110723,
+  "design_reps_per_dynamics": 3072,
+  "validation_reps_per_dynamics": 8192,
+  "batch": 16,
+  "calibration_paths": 96,
+  "calibration_transitions_per_path": 192,
+  "rho": 0.97,
+  "hidden_phi_deg": [41.0, 44.0],
+  "psi_deg": [11.25, 30.0],
+  "lags": [4, 16, 32],
+  "strong": {"name": "strong", "n": 192, "tau": 0.8, "distance_deg": 7.0},
+  "design_wrong_target": 0.038,
+  "validation_wrong_budget": 0.05,
+  "family_alpha": 0.05,
+  "cluster_normal_multiplier": 1.985
+}

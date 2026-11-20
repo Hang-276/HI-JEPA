@@ -1,0 +1,3120 @@
+{
+  "date": "2026-11-04",
+  "status": "completed_saved_scalar_and_CAL_affine_span_audit",
+  "saved_paired_cohort_comparisons": [
+    {
+      "panel": "development_AR",
+      "observation_strength": 0.25,
+      "instance": "paired_ar_fresh1",
+      "condition": "strong",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9980930058167874,
+      "Fine_G4_seed_R2": [
+        0.998204522710645,
+        0.9979965536570025,
+        0.9980779410827146
+      ],
+      "Fine_G4_min_R2": 0.9979965536570025,
+      "Fine_G4_max_R2": 0.998204522710645,
+      "raw_G4_axis": {
+        "mean_R2": 0.9972381635426035,
+        "worst_R2": 0.9952070262333007,
+        "R2_by_coordinate": [
+          0.9988000945133422,
+          0.9964124323634368,
+          0.9985331010603343,
+          0.9952070262333007
+        ],
+        "target_variance_by_coordinate": [
+          0.6215708525183712,
+          0.32398920601745357,
+          0.070691742912169,
+          0.0663267588177188
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9985701440736339,
+        "worst_R2": 0.996072024337552,
+        "R2_by_coordinate": [
+          0.9995958996545856,
+          0.9994359909180969,
+          0.9991766613843007,
+          0.996072024337552
+        ],
+        "target_variance_by_coordinate": [
+          0.6215708525183712,
+          0.32398920601745357,
+          0.070691742912169,
+          0.0663267588177188
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.0008548422741838646,
+      "descriptive_error_reduction": 0.3095195126034752,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "development_AR",
+      "observation_strength": 0.25,
+      "instance": "paired_ar_fresh1",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9981683246934256,
+      "Fine_G4_seed_R2": [
+        0.998142708029297,
+        0.9985633518043064,
+        0.9977989142466734
+      ],
+      "Fine_G4_min_R2": 0.9977989142466734,
+      "Fine_G4_max_R2": 0.9985633518043064,
+      "raw_G4_axis": {
+        "mean_R2": 0.9989814008546021,
+        "worst_R2": 0.9977050193230136,
+        "R2_by_coordinate": [
+          0.9988477330779981,
+          0.9999448878764713,
+          0.999427963140925,
+          0.9977050193230136
+        ],
+        "target_variance_by_coordinate": [
+          0.17741329431574643,
+          0.11082127933073245,
+          0.01720988076078119,
+          0.018142776122033077
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9995374583662251,
+        "worst_R2": 0.9984830511852127,
+        "R2_by_coordinate": [
+          0.999965216115268,
+          0.9999721812661296,
+          0.9997293848982899,
+          0.9984830511852127
+        ],
+        "target_variance_by_coordinate": [
+          0.17741329431574643,
+          0.11082127933073245,
+          0.01720988076078119,
+          0.018142776122033077
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": -0.0008130761611764292,
+      "descriptive_error_reduction": -0.7982297696301264,
+      "Fine_seed_values_above_same_raw": 0,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "development_AR",
+      "observation_strength": 0.25,
+      "instance": "paired_ar_fresh2",
+      "condition": "strong",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9988973794798862,
+      "Fine_G4_seed_R2": [
+        0.9991473642492416,
+        0.9990019602379857,
+        0.9985428139524315
+      ],
+      "Fine_G4_min_R2": 0.9985428139524315,
+      "Fine_G4_max_R2": 0.9991473642492416,
+      "raw_G4_axis": {
+        "mean_R2": 0.9885353460981665,
+        "worst_R2": 0.9638954011920331,
+        "R2_by_coordinate": [
+          0.9979519312255586,
+          0.997498382110992,
+          0.9947956698640826,
+          0.9638954011920331
+        ],
+        "target_variance_by_coordinate": [
+          0.6719014819014348,
+          0.39510427838840073,
+          0.06638825824178146,
+          0.0659201850825788
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9892945274056542,
+        "worst_R2": 0.9640513532860391,
+        "R2_by_coordinate": [
+          0.9984214017008944,
+          0.9975106705227751,
+          0.9971946841129079,
+          0.9640513532860391
+        ],
+        "target_variance_by_coordinate": [
+          0.6719014819014348,
+          0.39510427838840073,
+          0.06638825824178146,
+          0.0659201850825788
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.010362033381719704,
+      "descriptive_error_reduction": 0.9038243518247466,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "development_AR",
+      "observation_strength": 0.25,
+      "instance": "paired_ar_fresh2",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9978685094256946,
+      "Fine_G4_seed_R2": [
+        0.9976796675296811,
+        0.9977080771153755,
+        0.9982177836320274
+      ],
+      "Fine_G4_min_R2": 0.9976796675296811,
+      "Fine_G4_max_R2": 0.9982177836320274,
+      "raw_G4_axis": {
+        "mean_R2": 0.9980016490624879,
+        "worst_R2": 0.9958428321764352,
+        "R2_by_coordinate": [
+          0.9994865338583077,
+          0.9987193791690785,
+          0.9979578510461304,
+          0.9958428321764352
+        ],
+        "target_variance_by_coordinate": [
+          0.13885567766111903,
+          0.13969971563654984,
+          0.016230985641371265,
+          0.01885348565452688
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9987526875156684,
+        "worst_R2": 0.996620135071333,
+        "R2_by_coordinate": [
+          0.999474094975752,
+          0.9997700064929661,
+          0.9991465135226225,
+          0.996620135071333
+        ],
+        "target_variance_by_coordinate": [
+          0.13885567766111903,
+          0.13969971563654984,
+          0.016230985641371265,
+          0.01885348565452688
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": -0.0001331396367932891,
+      "descriptive_error_reduction": -0.0666247525867727,
+      "Fine_seed_values_above_same_raw": 1,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "new_AR_confirmation",
+      "observation_strength": 0.25,
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "strong",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9991927417650951,
+      "Fine_G4_seed_R2": [
+        0.9991851210861992,
+        0.9992437236722261,
+        0.99914938053686
+      ],
+      "Fine_G4_min_R2": 0.99914938053686,
+      "Fine_G4_max_R2": 0.9992437236722261,
+      "raw_G4_axis": {
+        "mean_R2": 0.9976267512034571,
+        "worst_R2": 0.9964585227927485,
+        "R2_by_coordinate": [
+          0.9993476531546008,
+          0.9981032402047723,
+          0.9965975886617067,
+          0.9964585227927485
+        ],
+        "target_variance_by_coordinate": [
+          0.6983235517988768,
+          0.4097897123747697,
+          0.07029452357022087,
+          0.06833062500869828
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9980711472912152,
+        "worst_R2": 0.9964510626545462,
+        "R2_by_coordinate": [
+          0.9997369672059919,
+          0.9992748118147798,
+          0.9968217474895427,
+          0.9964510626545462
+        ],
+        "target_variance_by_coordinate": [
+          0.6983235517988768,
+          0.4097897123747697,
+          0.07029452357022087,
+          0.06833062500869828
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.0015659905616379755,
+      "descriptive_error_reduction": 0.6598509873550378,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "new_AR_confirmation",
+      "observation_strength": 0.25,
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9965942286340254,
+      "Fine_G4_seed_R2": [
+        0.9964214223237904,
+        0.9966758512772443,
+        0.996685412301041
+      ],
+      "Fine_G4_min_R2": 0.9964214223237904,
+      "Fine_G4_max_R2": 0.996685412301041,
+      "raw_G4_axis": {
+        "mean_R2": 0.9970850017625903,
+        "worst_R2": 0.9936905595662513,
+        "R2_by_coordinate": [
+          0.9994994961741032,
+          0.9998320260131787,
+          0.9953179252968283,
+          0.9936905595662513
+        ],
+        "target_variance_by_coordinate": [
+          0.14087419879443702,
+          0.12240581410511402,
+          0.01682255333797964,
+          0.01866162369145988
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9999088885257333,
+        "worst_R2": 0.9998292709141278,
+        "R2_by_coordinate": [
+          0.999988284123455,
+          0.9999773286680371,
+          0.9998292709141278,
+          0.9998406703973134
+        ],
+        "target_variance_by_coordinate": [
+          0.14087419879443702,
+          0.12240581410511402,
+          0.01682255333797964,
+          0.01866162369145988
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": -0.0004907731285649364,
+      "descriptive_error_reduction": -0.16836138089779507,
+      "Fine_seed_values_above_same_raw": 0,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "new_AR_confirmation",
+      "observation_strength": 0.25,
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "strong",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9988018883937052,
+      "Fine_G4_seed_R2": [
+        0.9988215196172913,
+        0.9987639412215984,
+        0.998820204342226
+      ],
+      "Fine_G4_min_R2": 0.9987639412215984,
+      "Fine_G4_max_R2": 0.9988215196172913,
+      "raw_G4_axis": {
+        "mean_R2": 0.9957315006317579,
+        "worst_R2": 0.9898888922727535,
+        "R2_by_coordinate": [
+          0.9977521126579216,
+          0.9983154087378596,
+          0.9969695888584965,
+          0.9898888922727535
+        ],
+        "target_variance_by_coordinate": [
+          0.6295176168565612,
+          0.35696808032489147,
+          0.06892947460278807,
+          0.06651709401038516
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9963981560351343,
+        "worst_R2": 0.9910833903973768,
+        "R2_by_coordinate": [
+          0.9986259759044631,
+          0.9989386608578578,
+          0.9969445969808396,
+          0.9910833903973768
+        ],
+        "target_variance_by_coordinate": [
+          0.6295176168565612,
+          0.35696808032489147,
+          0.06892947460278807,
+          0.06651709401038516
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.0030703877619473463,
+      "descriptive_error_reduction": 0.719313158341124,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "new_AR_confirmation",
+      "observation_strength": 0.25,
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9985769734789248,
+      "Fine_G4_seed_R2": [
+        0.9986790308356542,
+        0.9985098952836607,
+        0.9985419943174594
+      ],
+      "Fine_G4_min_R2": 0.9985098952836607,
+      "Fine_G4_max_R2": 0.9986790308356542,
+      "raw_G4_axis": {
+        "mean_R2": 0.9986071014053121,
+        "worst_R2": 0.9977213477010127,
+        "R2_by_coordinate": [
+          0.9996214387342575,
+          0.9977213477010127,
+          0.9983876308840239,
+          0.9986979883019541
+        ],
+        "target_variance_by_coordinate": [
+          0.13468447120194824,
+          0.11298554521452245,
+          0.016685225039707537,
+          0.018072127724374703
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9993800120809999,
+        "worst_R2": 0.9987771010926434,
+        "R2_by_coordinate": [
+          0.999748038167009,
+          0.9998103211771624,
+          0.999184587887185,
+          0.9987771010926434
+        ],
+        "target_variance_by_coordinate": [
+          0.13468447120194824,
+          0.11298554521452245,
+          0.016685225039707537,
+          0.018072127724374703
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": -3.0127926387235604e-05,
+      "descriptive_error_reduction": -0.021629662419169415,
+      "Fine_seed_values_above_same_raw": 1,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "stronger_observation_same_weak_roots",
+      "observation_strength": 1.0,
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9941029362543898,
+      "Fine_G4_seed_R2": [
+        0.9930582772457435,
+        0.9947043787606851,
+        0.9945461527567411
+      ],
+      "Fine_G4_min_R2": 0.9930582772457435,
+      "Fine_G4_max_R2": 0.9947043787606851,
+      "raw_G4_axis": {
+        "mean_R2": 0.9926649017214386,
+        "worst_R2": 0.9845094243784426,
+        "R2_by_coordinate": [
+          0.9976675656149834,
+          0.9978180775283069,
+          0.9845094243784426,
+          0.9906645393640214
+        ],
+        "target_variance_by_coordinate": [
+          0.14087419879443702,
+          0.12240581410511402,
+          0.01682255333797964,
+          0.01866162369145988
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9961722461778666,
+        "worst_R2": 0.9900432002700164,
+        "R2_by_coordinate": [
+          0.999042451780622,
+          0.998036232818398,
+          0.9900432002700164,
+          0.9975670998424297
+        ],
+        "target_variance_by_coordinate": [
+          0.14087419879443702,
+          0.12240581410511402,
+          0.01682255333797964,
+          0.01866162369145988
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.0014380345329512156,
+      "descriptive_error_reduction": 0.1960484343003588,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    },
+    {
+      "panel": "stronger_observation_same_weak_roots",
+      "observation_strength": 1.0,
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "weak",
+      "raw_parent_count": 1,
+      "Fine_optimization_parent_count": 3,
+      "Fine_G4_mean_R2": 0.9980112674850178,
+      "Fine_G4_seed_R2": [
+        0.9975757587914297,
+        0.9981532434303846,
+        0.9983048002332394
+      ],
+      "Fine_G4_min_R2": 0.9975757587914297,
+      "Fine_G4_max_R2": 0.9983048002332394,
+      "raw_G4_axis": {
+        "mean_R2": 0.976003154397305,
+        "worst_R2": 0.9443241042070986,
+        "R2_by_coordinate": [
+          0.9899060827223146,
+          0.9918940911914416,
+          0.9778883394683653,
+          0.9443241042070986
+        ],
+        "target_variance_by_coordinate": [
+          0.13468447120194824,
+          0.11298554521452245,
+          0.016685225039707537,
+          0.018072127724374703
+        ],
+        "mapping_kind": "axis_permutation_scalar_affine_CAL"
+      },
+      "raw_G4_dense": {
+        "mean_R2": 0.9787060262976934,
+        "worst_R2": 0.9493964208478,
+        "R2_by_coordinate": [
+          0.9931594931289649,
+          0.9919727728393838,
+          0.9802954183746252,
+          0.9493964208478
+        ],
+        "target_variance_by_coordinate": [
+          0.13468447120194824,
+          0.11298554521452245,
+          0.016685225039707537,
+          0.018072127724374703
+        ],
+        "mapping_kind": "dense_affine_OLS_CAL"
+      },
+      "delta_R2_Fine_minus_raw": 0.022008113087712777,
+      "descriptive_error_reduction": 0.9171252527140955,
+      "Fine_seed_values_above_same_raw": 3,
+      "inferential_status": "saved exposed TEST scalar comparison; no new TEST/FINAL arrays",
+      "paired_statistical_test_or_CI": false
+    }
+  ],
+  "CAL_span_diagnostics": [
+    {
+      "instance": "paired_ar_fresh1",
+      "condition": "strong",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9996378785101878,
+          0.9995286825668296,
+          0.9992296164235079,
+          0.9965444117525448
+        ],
+        "mean_R2": 0.9987351473132675,
+        "worst_R2": 0.9965444117525448,
+        "normalized_error_by_coordinate": [
+          0.0003621214898121769,
+          0.00047131743317038526,
+          0.0007703835764920729,
+          0.003455588247455214
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          97.63895053159514,
+          64.24951361683603,
+          62.697537047817484,
+          43.43419084221824,
+          34.07528801210724
+        ],
+        "normal_equation_residual_max": 1.0012716323587682e-15,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9975734729574669,
+          0.999602288893881,
+          0.9996537434931821,
+          0.9995457150804902
+        ],
+        "mean_R2": 0.9990938051062551,
+        "worst_R2": 0.9975734729574669,
+        "normalized_error_by_coordinate": [
+          0.0024265270425331267,
+          0.00039771110611894965,
+          0.00034625650681786586,
+          0.00045428491950987346
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          66.26942224268278,
+          65.56356310203084,
+          64.24951361683603,
+          63.4344077460879,
+          61.62677001831348
+        ],
+        "normal_equation_residual_max": 9.785185151389794e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9991455754100865,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9990990439204077,
+        0.9992375710655219
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998013811620607,
+              0.999805845103541,
+              0.999502098873006,
+              0.9978409591234798
+            ],
+            "mean_R2": 0.9992375710655219,
+            "worst_R2": 0.9978409591234798,
+            "normalized_error_by_coordinate": [
+              0.00019861883793928934,
+              0.00019415489645901248,
+              0.0004979011269939872,
+              0.00215904087652021
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              65.89242283552211,
+              64.93521264001973,
+              64.24951361683603,
+              63.449834208884454,
+              62.671567007098574
+            ],
+            "normal_equation_residual_max": 1.0793879786529486e-15,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0005024237522543995
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.999934092358779,
+              0.9998223516112265,
+              0.999642459922319,
+              0.9969972717893067
+            ],
+            "mean_R2": 0.9990990439204077,
+            "worst_R2": 0.9969972717893067,
+            "normalized_error_by_coordinate": [
+              6.590764122107373e-05,
+              0.0001776483887735581,
+              0.0003575400776809128,
+              0.0030027282106932585
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              67.02983291739245,
+              64.76996890791308,
+              64.24951361683603,
+              63.60043118570564,
+              61.4722521120444
+            ],
+            "normal_equation_residual_max": 1.0521434068519485e-15,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.00036389660714020167
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998608757834977,
+              0.9998557400359254,
+              0.9995849169794949,
+              0.9970989121784005
+            ],
+            "mean_R2": 0.9991001112443296,
+            "worst_R2": 0.9970989121784005,
+            "normalized_error_by_coordinate": [
+              0.00013912421650235564,
+              0.0001442599640745814,
+              0.00041508302050512165,
+              0.002901087821599442
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              67.08887845571931,
+              65.55783884906312,
+              64.24951361683603,
+              62.39555515263277,
+              61.80652756941424
+            ],
+            "normal_equation_residual_max": 1.0830456901681866e-15,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0003649639310621122
+        }
+      ],
+      "difference_mean": 0.0004104280968190155,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "paired_ar_fresh1",
+      "condition": "weak",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.999973610293524,
+          0.9999792134697196,
+          0.9998838271785822,
+          0.9993547803528363
+        ],
+        "mean_R2": 0.9997978578236656,
+        "worst_R2": 0.9993547803528363,
+        "normalized_error_by_coordinate": [
+          2.6389706475900927e-05,
+          2.078653028034517e-05,
+          0.00011617282141781509,
+          0.0006452196471637288
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          95.6357602579076,
+          66.04141111423121,
+          64.24951361683603,
+          40.7953664911959,
+          36.60698636574881
+        ],
+        "normal_equation_residual_max": 2.1099141317302092e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.999469819345405,
+          0.999971226222968,
+          0.999985214555031,
+          0.999971323105338
+        ],
+        "mean_R2": 0.9998493958071856,
+        "worst_R2": 0.999469819345405,
+        "normalized_error_by_coordinate": [
+          0.000530180654595022,
+          2.877377703198379e-05,
+          1.4785444969067746e-05,
+          2.867689466197507e-05
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          69.46567837239633,
+          64.59584626111511,
+          64.24951361683603,
+          62.776481366816654,
+          59.7746565132325
+        ],
+        "normal_equation_residual_max": 2.1279042665824442e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9991371700036208,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9987739019455841,
+        0.9995020098553135
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997786035013596,
+              0.9995109810859447,
+              0.9987373925100461,
+              0.9985154157425092
+            ],
+            "mean_R2": 0.9991355982099649,
+            "worst_R2": 0.9985154157425092,
+            "normalized_error_by_coordinate": [
+              0.0002213964986403837,
+              0.0004890189140552804,
+              0.001262607489953908,
+              0.0014845842574907142
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              81.98159161200125,
+              64.44943669797135,
+              64.24951361683603,
+              60.10411400630102,
+              44.99760244273914
+            ],
+            "normal_equation_residual_max": 1.8399018355383805e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.0006622596137006997
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999190884846433,
+              0.9999171107332945,
+              0.9993291585211335,
+              0.9988426816821825
+            ],
+            "mean_R2": 0.9995020098553135,
+            "worst_R2": 0.9988426816821825,
+            "normalized_error_by_coordinate": [
+              8.091151535673611e-05,
+              8.28892667055055e-05,
+              0.0006708414788665745,
+              0.0011573183178175258
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              89.25076677794408,
+              66.42088272633136,
+              64.24951361683603,
+              51.960478984975616,
+              37.87711170424534
+            ],
+            "normal_equation_residual_max": 1.9554437039675216e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.00029584796835213645
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997124498410428,
+              0.9996560773145444,
+              0.9973224249134087,
+              0.9984046557133406
+            ],
+            "mean_R2": 0.9987739019455841,
+            "worst_R2": 0.9973224249134087,
+            "normalized_error_by_coordinate": [
+              0.00028755015895726057,
+              0.0003439226854555702,
+              0.0026775750865913155,
+              0.00159534428665944
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              82.77332540674782,
+              69.11605138888368,
+              64.24951361683603,
+              59.51093088374622,
+              36.63327922624168
+            ],
+            "normal_equation_residual_max": 1.8008557558636203e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.0010239558780814617
+        }
+      ],
+      "difference_mean": -0.000660687820044803,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "paired_ar_fresh2",
+      "condition": "strong",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9986560388705251,
+          0.9969461631865958,
+          0.9972985884790994,
+          0.9659551178587685
+        ],
+        "mean_R2": 0.9897139770987472,
+        "worst_R2": 0.9659551178587685,
+        "normalized_error_by_coordinate": [
+          0.0013439611294748482,
+          0.0030538368134042306,
+          0.0027014115209006858,
+          0.03404488214123142
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          87.13482841988876,
+          73.13487817314831,
+          64.24951361683603,
+          50.903615965350475,
+          31.299091879596197
+        ],
+        "normal_equation_residual_max": 7.678773637614546e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9845717309546691,
+          0.9957440203411159,
+          0.9980446745533444,
+          0.9955740289267412
+        ],
+        "mean_R2": 0.9934836136939678,
+        "worst_R2": 0.9845717309546691,
+        "normalized_error_by_coordinate": [
+          0.01542826904533085,
+          0.004255979658884138,
+          0.0019553254466555545,
+          0.0044259710732588164
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          68.73046413942298,
+          65.83594190554045,
+          64.24951361683603,
+          62.88344763522502,
+          59.15593010085886
+        ],
+        "normal_equation_residual_max": 7.904691113555712e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9991870204300953,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9988052999590347,
+        0.9994729118127086
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999273783253128,
+              0.9998285216216987,
+              0.9989812181414459,
+              0.999154529162377
+            ],
+            "mean_R2": 0.9994729118127086,
+            "worst_R2": 0.9989812181414459,
+            "normalized_error_by_coordinate": [
+              7.26216746872992e-05,
+              0.00017147837830135566,
+              0.0010187818585540831,
+              0.0008454708376229938
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              68.42660458999116,
+              66.03159284636486,
+              64.24951361683603,
+              62.78993969704323,
+              59.38898890618164
+            ],
+            "normal_equation_residual_max": 1.0229623995428813e-15,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.009758934713961387
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998617161394777,
+              0.9998027000802872,
+              0.9982461505802575,
+              0.9992208312741465
+            ],
+            "mean_R2": 0.9992828495185423,
+            "worst_R2": 0.9982461505802575,
+            "normalized_error_by_coordinate": [
+              0.0001382838605223121,
+              0.00019729991971284918,
+              0.001753849419742595,
+              0.0007791687258534985
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              68.79792599304889,
+              66.20467792841197,
+              64.24951361683603,
+              62.55900173357833,
+              59.00980682520805
+            ],
+            "normal_equation_residual_max": 1.0548396243475559e-15,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.009568872419795094
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999584797547384,
+              0.9999018135047925,
+              0.9959789517697671,
+              0.9993819548068408
+            ],
+            "mean_R2": 0.9988052999590347,
+            "worst_R2": 0.9959789517697671,
+            "normalized_error_by_coordinate": [
+              4.1520245261608056e-05,
+              9.818649520755894e-05,
+              0.0040210482302329075,
+              0.000618045193159218
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              68.47607549475906,
+              65.75678260092518,
+              64.24951361683603,
+              63.51559113492924,
+              58.86291115457369
+            ],
+            "normal_equation_residual_max": 8.104251550637074e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.009091322860287465
+        }
+      ],
+      "difference_mean": 0.00947304333134813,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "paired_ar_fresh2",
+      "condition": "weak",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9997403078834213,
+          0.9996972523197298,
+          0.9992015643554427,
+          0.9956975732681133
+        ],
+        "mean_R2": 0.9985841744566768,
+        "worst_R2": 0.9956975732681133,
+        "normalized_error_by_coordinate": [
+          0.0002596921165786728,
+          0.00030274768027016113,
+          0.0007984356445572459,
+          0.004302426731886728
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          91.69543475953989,
+          69.10286560510708,
+          64.24951361683603,
+          46.9127343226033,
+          33.58476690105669
+        ],
+        "normal_equation_residual_max": 1.6488183423029833e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9977053088987595,
+          0.9995235971059017,
+          0.9996327618369097,
+          0.9995562020035103
+        ],
+        "mean_R2": 0.9991044674612704,
+        "worst_R2": 0.9977053088987595,
+        "normalized_error_by_coordinate": [
+          0.0022946911012404216,
+          0.00047640289409836784,
+          0.0003672381630902183,
+          0.00044379799648979477
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          69.3985304668376,
+          65.859034770398,
+          64.24951361683603,
+          62.869282180396084,
+          58.35995944375416
+        ],
+        "normal_equation_residual_max": 2.25652249476692e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9983785636832688,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9981929878916502,
+        0.9987373209311123
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998475245853814,
+              0.9994662743830961,
+              0.9977662609622506,
+              0.9956918916358726
+            ],
+            "mean_R2": 0.9981929878916502,
+            "worst_R2": 0.9956918916358726,
+            "normalized_error_by_coordinate": [
+              0.00015247541461856643,
+              0.0005337256169039376,
+              0.0022337390377493915,
+              0.004308108364127454
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              88.29868408655105,
+              67.42036183404197,
+              64.24951361683603,
+              55.015882986832395,
+              33.809611324732955
+            ],
+            "normal_equation_residual_max": 2.466622804737948e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.0003911865650265689
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997538355534514,
+              0.9991553812276381,
+              0.9975283185316205,
+              0.9963839935954663
+            ],
+            "mean_R2": 0.998205382227044,
+            "worst_R2": 0.9963839935954663,
+            "normalized_error_by_coordinate": [
+              0.0002461644465485909,
+              0.0008446187723618128,
+              0.0024716814683795416,
+              0.0036160064045337634
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              87.57993143869103,
+              73.64478018139323,
+              64.24951361683603,
+              49.50497920638218,
+              31.104002877509473
+            ],
+            "normal_equation_residual_max": 2.0371336845293428e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.0003787922296327739
+        },
+        {
+          "profile": {
+            "instance": "paired_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998127496702848,
+              0.9996574318365864,
+              0.9984749568850042,
+              0.9970041453325741
+            ],
+            "mean_R2": 0.9987373209311123,
+            "worst_R2": 0.9970041453325741,
+            "normalized_error_by_coordinate": [
+              0.0001872503297152195,
+              0.00034256816341360737,
+              0.0015250431149957423,
+              0.0029958546674259344
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              87.64736235640314,
+              74.58539478899901,
+              64.24951361683603,
+              46.80908870097883,
+              32.800426386229105
+            ],
+            "normal_equation_residual_max": 3.1636086645073504e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0001531464744355393
+        }
+      ],
+      "difference_mean": -0.00020561077340797151,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "strong",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9997335565339739,
+          0.999345786864555,
+          0.9974723272860292,
+          0.9968208245326808
+        ],
+        "mean_R2": 0.9983431238043097,
+        "worst_R2": 0.9968208245326808,
+        "normalized_error_by_coordinate": [
+          0.0002664434660261056,
+          0.0006542131354450184,
+          0.002527672713970792,
+          0.0031791754673191445
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          86.90691610639186,
+          78.27929590479022,
+          64.24951361683603,
+          44.499954141129805,
+          29.17694032903748
+        ],
+        "normal_equation_residual_max": 9.124645483638005e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9969923779796742,
+          0.9998766006213757,
+          0.9999160722068715,
+          0.9986017761173863
+        ],
+        "mean_R2": 0.9988467067313269,
+        "worst_R2": 0.9969923779796742,
+        "normalized_error_by_coordinate": [
+          0.0030076220203257347,
+          0.0001233993786242439,
+          8.392779312853283e-05,
+          0.001398223882613705
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          69.32496787706094,
+          65.08562707142427,
+          64.24951361683603,
+          63.80448248978183,
+          58.30006854005478
+        ],
+        "normal_equation_residual_max": 7.884657563310616e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9995223329719476,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9995159777690763,
+        0.9995268010248718
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997955496278272,
+              0.999910116404767,
+              0.9993118561814365,
+              0.9990463888622748
+            ],
+            "mean_R2": 0.9995159777690763,
+            "worst_R2": 0.9990463888622748,
+            "normalized_error_by_coordinate": [
+              0.00020445037217270564,
+              8.988359523296541e-05,
+              0.0006881438185635303,
+              0.0009536111377251668
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              69.76115779900024,
+              65.37005683691862,
+              64.24951361683603,
+              63.228104993080855,
+              58.08909769195029
+            ],
+            "normal_equation_residual_max": 8.502498339327409e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0011728539647666292
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998495109231822,
+              0.9998959515431238,
+              0.9993788334911065,
+              0.9989829081420747
+            ],
+            "mean_R2": 0.9995268010248718,
+            "worst_R2": 0.9989829081420747,
+            "normalized_error_by_coordinate": [
+              0.00015048907681785534,
+              0.00010404845687612369,
+              0.0006211665088935867,
+              0.0010170918579253234
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              69.80728186536524,
+              64.99310885564749,
+              64.24951361683603,
+              63.824640603786165,
+              57.803585110656584
+            ],
+            "normal_equation_residual_max": 8.815555413131595e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0011836772205621182
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "strong",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999245827855564,
+              0.9998186661037275,
+              0.9992896176305633,
+              0.9990640139677316
+            ],
+            "mean_R2": 0.9995242201218947,
+            "worst_R2": 0.9990640139677316,
+            "normalized_error_by_coordinate": [
+              7.541721444357253e-05,
+              0.00018133389627254156,
+              0.0007103823694366317,
+              0.0009359860322684073
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              70.222881646815,
+              65.78741362349702,
+              64.24951361683603,
+              62.94498540184985,
+              57.36455277180521
+            ],
+            "normal_equation_residual_max": 8.708009281355436e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0011810963175850064
+        }
+      ],
+      "difference_mean": 0.001179209167637918,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "weak",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9999907757713803,
+          0.9999787553123515,
+          0.9997906061032366,
+          0.9998475813775072
+        ],
+        "mean_R2": 0.9999019296411189,
+        "worst_R2": 0.9997906061032366,
+        "normalized_error_by_coordinate": [
+          9.224228619664897e-06,
+          2.1244687648563927e-05,
+          0.00020939389676342257,
+          0.0001524186224928197
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          85.50754108256827,
+          74.20771794110276,
+          64.24951361683603,
+          53.10535673449806,
+          29.554967468910423
+        ],
+        "normal_equation_residual_max": 2.4960456241132446e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9997581122753421,
+          0.9999903903462457,
+          0.9999895436417678,
+          0.9999685664272369
+        ],
+        "mean_R2": 0.9999266531726481,
+        "worst_R2": 0.9997581122753421,
+        "normalized_error_by_coordinate": [
+          0.00024188772465792214,
+          9.609653754327917e-06,
+          1.0456358232125942e-05,
+          3.143357276309686e-05
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          68.84863688993622,
+          64.58634300022025,
+          64.24951361683603,
+          63.42220113579472,
+          59.81717060632714
+        ],
+        "normal_equation_residual_max": 2.8021652710416585e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9994662946414402,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9993404917834037,
+        0.9995366433258189
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997836891336681,
+              0.9998269004605912,
+              0.9985505265297847,
+              0.9992008510095703
+            ],
+            "mean_R2": 0.9993404917834037,
+            "worst_R2": 0.9985505265297847,
+            "normalized_error_by_coordinate": [
+              0.00021631086633191562,
+              0.00017309953940879515,
+              0.0014494734702153206,
+              0.0007991489904296556
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              88.58267888406756,
+              79.80002809493233,
+              64.24951361683603,
+              39.401686229764984,
+              27.286840051961356
+            ],
+            "normal_equation_residual_max": 3.456213066690638e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.0005614378577152301
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.99977173570273,
+              0.9997944089597526,
+              0.9992902166229338,
+              0.9992902120178592
+            ],
+            "mean_R2": 0.9995366433258189,
+            "worst_R2": 0.9992902120178592,
+            "normalized_error_by_coordinate": [
+              0.00022826429726996916,
+              0.00020559104024739928,
+              0.0007097833770662217,
+              0.0007097879821408459
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              89.65192452160167,
+              79.92378359399106,
+              64.24951361683603,
+              35.7632903299382,
+              28.420209541283455
+            ],
+            "normal_equation_residual_max": 2.493830427679064e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.000365286315299973
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998343666367282,
+              0.9998540791414381,
+              0.9989970344471627,
+              0.9994015150350631
+            ],
+            "mean_R2": 0.999521748815098,
+            "worst_R2": 0.9989970344471627,
+            "normalized_error_by_coordinate": [
+              0.00016563336327185419,
+              0.0001459208585619525,
+              0.0010029655528373126,
+              0.0005984849649368934
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              88.28712435240546,
+              80.54933426567584,
+              64.24951361683603,
+              38.416078802707055,
+              27.44801108210767
+            ],
+            "normal_equation_residual_max": 1.436193466608993e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -0.00038018082602087055
+        }
+      ],
+      "difference_mean": -0.00043563499967869124,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "strong",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9986177201562892,
+          0.9988969529072081,
+          0.9970861179676457,
+          0.9909379909568649
+        ],
+        "mean_R2": 0.9963846954970019,
+        "worst_R2": 0.9909379909568649,
+        "normalized_error_by_coordinate": [
+          0.0013822798437107312,
+          0.0011030470927918617,
+          0.002913882032354336,
+          0.009062009043135193
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          92.26887936967552,
+          69.36645332331578,
+          64.24951361683603,
+          46.806019992510365,
+          31.55860493857811
+        ],
+        "normal_equation_residual_max": 5.090875503239688e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.997795340294113,
+          0.998540402345458,
+          0.9987134164270193,
+          0.9976715800868448
+        ],
+        "mean_R2": 0.9981801847883587,
+        "worst_R2": 0.9976715800868448,
+        "normalized_error_by_coordinate": [
+          0.002204659705887034,
+          0.0014595976545419664,
+          0.0012865835729807416,
+          0.002328419913155219
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          68.25835803407395,
+          65.57242391528578,
+          64.24951361683603,
+          63.124224530202106,
+          59.73596954789356
+        ],
+        "normal_equation_residual_max": 4.117547711059833e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.999328066601142,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9993139245527125,
+        0.9993415239327926
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999389747550279,
+              0.9998945028368601,
+              0.9988984318119212,
+              0.998634186327361
+            ],
+            "mean_R2": 0.9993415239327926,
+            "worst_R2": 0.998634186327361,
+            "normalized_error_by_coordinate": [
+              6.102524497205993e-05,
+              0.00010549716313985592,
+              0.0011015681880788366,
+              0.0013658136726389866
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              69.16548723026094,
+              64.83544910471635,
+              64.24951361683603,
+              63.88060875308217,
+              58.68362412910444
+            ],
+            "normal_equation_residual_max": 5.160281251614767e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0029568284357907038
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.999943882496139,
+              0.9997791642371695,
+              0.9989846353561795,
+              0.9985480161213621
+            ],
+            "mean_R2": 0.9993139245527125,
+            "worst_R2": 0.9985480161213621,
+            "normalized_error_by_coordinate": [
+              5.6117503861037296e-05,
+              0.00022083576283055085,
+              0.0010153646438204424,
+              0.0014519838786378834
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              68.49739653129659,
+              65.08416570726041,
+              64.24951361683603,
+              63.69311089592977,
+              59.39146122990231
+            ],
+            "normal_equation_residual_max": 5.274794853166047e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0029292290557105805
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "strong",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9999592443118699,
+              0.9998733916006516,
+              0.9988148079605594,
+              0.9986675613986035
+            ],
+            "mean_R2": 0.999328751317921,
+            "worst_R2": 0.9986675613986035,
+            "normalized_error_by_coordinate": [
+              4.075568813013672e-05,
+              0.00012660839934836108,
+              0.0011851920394405425,
+              0.0013324386013965266
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              68.76717628224823,
+              64.41200617586446,
+              64.24951361683603,
+              64.04666015757346,
+              59.43226606168475
+            ],
+            "normal_equation_residual_max": 4.855464578803402e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.002944055820919056
+        }
+      ],
+      "difference_mean": 0.0029433711041401134,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "weak",
+      "observation_strength": 0.25,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9996480797991685,
+          0.9998097716445155,
+          0.9990037207634662,
+          0.9981492877309055
+        ],
+        "mean_R2": 0.999152714984514,
+        "worst_R2": 0.9981492877309055,
+        "normalized_error_by_coordinate": [
+          0.00035192020083149036,
+          0.0001902283554845049,
+          0.0009962792365337775,
+          0.0018507122690944768
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          87.08621778853436,
+          77.53740952768118,
+          64.24951361683603,
+          47.06388235442295,
+          26.47511610463046
+        ],
+        "normal_equation_residual_max": 4.613904345521592e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9995323153201326,
+          0.9996837267566139,
+          0.9997427174413315,
+          0.999640717315778
+        ],
+        "mean_R2": 0.9996498692084641,
+        "worst_R2": 0.9995323153201326,
+        "normalized_error_by_coordinate": [
+          0.00046768467986739643,
+          0.0003162732433860733,
+          0.000257282558668568,
+          0.00035928268422197876
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          69.06943931005227,
+          64.24951361683603,
+          64.13447851222516,
+          63.41393857893662,
+          60.057086286855274
+        ],
+        "normal_equation_residual_max": 2.4806145623199195e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9991599237255522,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9990572404885003,
+        0.9993560365060261
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.999882740188383,
+              0.999732706456851,
+              0.9989750714721384,
+              0.9988336279067322
+            ],
+            "mean_R2": 0.9993560365060261,
+            "worst_R2": 0.9988336279067322,
+            "normalized_error_by_coordinate": [
+              0.00011725981161700217,
+              0.00026729354314897327,
+              0.0010249285278615711,
+              0.0011663720932677969
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              92.14123954468468,
+              76.74976577144726,
+              64.24951361683603,
+              37.164665200511905,
+              27.39074825065779
+            ],
+            "normal_equation_residual_max": 3.346284049356402e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.00020332152151214533
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998903819208457,
+              0.9997297592868155,
+              0.9982798627463735,
+              0.9983289579999663
+            ],
+            "mean_R2": 0.9990572404885003,
+            "worst_R2": 0.9982798627463735,
+            "normalized_error_by_coordinate": [
+              0.00010961807915433961,
+              0.00027024071318451577,
+              0.0017201372536265137,
+              0.0016710420000336167
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              91.66991169013953,
+              76.12737134630684,
+              64.24951361683603,
+              38.85308106818406,
+              28.349404123060857
+            ],
+            "normal_equation_residual_max": 1.133208432611501e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -9.547449601365887e-05
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9998809110417339,
+              0.9998342258048254,
+              0.9983016696243037,
+              0.9982491702576567
+            ],
+            "mean_R2": 0.99906649418213,
+            "worst_R2": 0.9982491702576567,
+            "normalized_error_by_coordinate": [
+              0.00011908895826604118,
+              0.0001657741951746088,
+              0.0016983303756963589,
+              0.0017508297423433575
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              88.46355058725449,
+              77.50458863079876,
+              64.24951361683603,
+              44.42914779705101,
+              26.55729249555984
+            ],
+            "normal_equation_residual_max": 1.3766597764130862e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": -8.622080238396279e-05
+        }
+      ],
+      "difference_mean": 7.2087410382115635e-06,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh1",
+      "condition": "weak",
+      "observation_strength": 1.0,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9992730331182559,
+          0.9983954427428187,
+          0.9889099574749444,
+          0.9976652693394485
+        ],
+        "mean_R2": 0.9960609256688668,
+        "worst_R2": 0.9889099574749444,
+        "normalized_error_by_coordinate": [
+          0.0007269668817440788,
+          0.0016045572571813326,
+          0.011090042525055646,
+          0.002334730660551505
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          87.58039326410979,
+          83.28491946924092,
+          64.24951361683603,
+          38.07586429386924,
+          21.343042495876784
+        ],
+        "normal_equation_residual_max": 4.775377608550542e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.9975715273059546,
+          0.9991870463019097,
+          0.998726399127115,
+          0.9948850155525183
+        ],
+        "mean_R2": 0.9975924970718744,
+        "worst_R2": 0.9948850155525183,
+        "normalized_error_by_coordinate": [
+          0.0024284726940454436,
+          0.0008129536980902822,
+          0.0012736008728849303,
+          0.00511498444748172
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          68.84863688993622,
+          64.58634300022025,
+          64.24951361683603,
+          63.42220113579472,
+          59.81717060632714
+        ],
+        "normal_equation_residual_max": 3.158923430580263e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9979003030355479,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9971578618367792,
+        0.9984151186250992
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9996575889844326,
+              0.9996564419986642,
+              0.9934353952828617,
+              0.9958820210811585
+            ],
+            "mean_R2": 0.9971578618367792,
+            "worst_R2": 0.9934353952828617,
+            "normalized_error_by_coordinate": [
+              0.00034241101556747107,
+              0.00034355800133579296,
+              0.006564604717138294,
+              0.004117978918841499
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              85.92655847597466,
+              80.12890509269025,
+              64.24951361683603,
+              44.26925465338858,
+              27.35357763721176
+            ],
+            "normal_equation_residual_max": 2.0232434688180347e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.001096936167912399
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9995676418778386,
+              0.9994962145250043,
+              0.9978035482559593,
+              0.9967930698415944
+            ],
+            "mean_R2": 0.9984151186250992,
+            "worst_R2": 0.9967930698415944,
+            "normalized_error_by_coordinate": [
+              0.00043235812216136494,
+              0.0005037854749957475,
+              0.002196451744040684,
+              0.003206930158405569
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              86.90549374678612,
+              81.57016829301998,
+              64.24951361683603,
+              39.58126855257018,
+              27.18576798703809
+            ],
+            "normal_equation_residual_max": 3.9940967269020144e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0023541929562324038
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh1",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9996686990416963,
+              0.9995514531389733,
+              0.9961323735627389,
+              0.9971591888356532
+            ],
+            "mean_R2": 0.9981279286447654,
+            "worst_R2": 0.9961323735627389,
+            "normalized_error_by_coordinate": [
+              0.0003313009583037405,
+              0.00044854686102667907,
+              0.0038676264372611365,
+              0.002840811164346779
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              86.45923873280515,
+              82.19044410894982,
+              64.24951361683603,
+              39.308224764771246,
+              27.136587861402596
+            ],
+            "normal_equation_residual_max": 1.5153202650576936e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.0020670029758985686
+        }
+      ],
+      "difference_mean": 0.0018393773666810498,
+      "confirms_population_Fine_necessity": false
+    },
+    {
+      "instance": "dmd_confirm_ar_fresh2",
+      "condition": "weak",
+      "observation_strength": 1.0,
+      "raw_CAL_affine_ceiling": {
+        "R2_by_coordinate": [
+          0.9915794569129632,
+          0.9924130448689018,
+          0.9762941487458893,
+          0.9379897958424023
+        ],
+        "mean_R2": 0.9745691115925391,
+        "worst_R2": 0.9379897958424023,
+        "normalized_error_by_coordinate": [
+          0.008420543087036738,
+          0.007586955131098228,
+          0.02370585125411072,
+          0.062010204157597774
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          109.6018017317383,
+          64.24951361683603,
+          50.319997005118424,
+          42.88110964701513,
+          11.338138912638092
+        ],
+        "normal_equation_residual_max": 2.341955063940551e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "physical_to_raw_CAL_affine_explained": {
+        "R2_by_coordinate": [
+          0.996691224248096,
+          0.9954365092177888,
+          0.9954476920753685,
+          0.9883150707767685
+        ],
+        "mean_R2": 0.9939726240795055,
+        "worst_R2": 0.9883150707767685,
+        "normalized_error_by_coordinate": [
+          0.003308775751903978,
+          0.004563490782211148,
+          0.004552307924631432,
+          0.0116849292232315
+        ],
+        "design_rank": 5,
+        "design_singular_values": [
+          69.06943931005227,
+          64.24951361683603,
+          64.13447851222516,
+          63.41393857893662,
+          60.057086286855274
+        ],
+        "normal_equation_residual_max": 2.528556410760058e-16,
+        "sample_count": 4128,
+        "fit_and_score": "same existing CAL; supervised oracle only",
+        "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+        "population_or_TEST_upper_bound": false
+      },
+      "Fine_CAL_affine_oracle_mean": 0.9984320679231559,
+      "Fine_CAL_affine_oracle_seed_range": [
+        0.9979199148645198,
+        0.9987968856081249
+      ],
+      "Fine_parent_rows": [
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 0
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9995783758264711,
+              0.9996134401524651,
+              0.9962333268612407,
+              0.9962545166179023
+            ],
+            "mean_R2": 0.9979199148645198,
+            "worst_R2": 0.9962333268612407,
+            "normalized_error_by_coordinate": [
+              0.00042162417352883464,
+              0.00038655984753484084,
+              0.0037666731387593338,
+              0.0037454833820976807
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              88.9051277944485,
+              80.5152552762144,
+              64.24951361683603,
+              36.7755168337119,
+              27.79808053215542
+            ],
+            "normal_equation_residual_max": 3.439613922365948e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.02335080327198069
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 1
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9996976446309632,
+              0.9997189549773627,
+              0.9972308675466429,
+              0.9976701460323245
+            ],
+            "mean_R2": 0.9985794032968234,
+            "worst_R2": 0.9972308675466429,
+            "normalized_error_by_coordinate": [
+              0.00030235536903679984,
+              0.0002810450226372902,
+              0.0027691324533571193,
+              0.002329853967675483
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              87.31458867213199,
+              82.13018559489257,
+              64.24951361683603,
+              37.39032795608594,
+              27.290265563039966
+            ],
+            "normal_equation_residual_max": 4.223391918713267e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.02401029170428426
+        },
+        {
+          "profile": {
+            "instance": "dmd_confirm_ar_fresh2",
+            "condition": "weak",
+            "logical_rep": 2
+          },
+          "Fine_CAL_dense_oracle": {
+            "R2_by_coordinate": [
+              0.9997163750091533,
+              0.9998604012665595,
+              0.9974982941378365,
+              0.9981124720189498
+            ],
+            "mean_R2": 0.9987968856081249,
+            "worst_R2": 0.9974982941378365,
+            "normalized_error_by_coordinate": [
+              0.00028362499084661803,
+              0.00013959873344050722,
+              0.0025017058621634508,
+              0.001887527981050162
+            ],
+            "design_rank": 5,
+            "design_singular_values": [
+              89.59136725337473,
+              78.52321338214824,
+              64.24951361683603,
+              39.205756041260464,
+              27.97142411543783
+            ],
+            "normal_equation_residual_max": 1.40258782402396e-16,
+            "sample_count": 4128,
+            "fit_and_score": "same existing CAL; supervised oracle only",
+            "mathematical_scope": "empirical upper R2 among pointwise affine functions on this CAL",
+            "population_or_TEST_upper_bound": false
+          },
+          "delta_mean_R2_over_raw_CAL_ceiling": 0.024227774015585735
+        }
+      ],
+      "difference_mean": 0.023862956330616747,
+      "confirms_population_Fine_necessity": false
+    }
+  ],
+  "unique_underlying_trajectory_mixing_roots": 4,
+  "strong_weak_conditions_paired_not_independent_roots": true,
+  "stronger_observation_reuses_two_confirmation_weak_roots": true,
+  "raw_deterministic_parents": 10,
+  "Fine_optimization_parents": 30,
+  "new_neural_training": 0,
+  "model_forward": 0,
+  "checkpoint_load": 0,
+  "new_physical_data": 0,
+  "PRNG_calls": 0,
+  "GPU_operations": 0,
+  "TEST_FINAL_array_members_decoded": 0,
+  "CAL_array_members_decoded": 50,
+  "CAL_array_access": [
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh1/strong/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "845594237623c8c7ee1bf232588f3d844b44b4fefc9b17b67653d9ae068ae285"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh1/strong/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "493f8a1a5fc09223f8998007d7864d453e90cc1e92c2865cfbcf0282d5f60c8d"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed0/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "ed94e8a3c5d746af319500311caca424a9b44334e11220d5fbd69b2dfd032fcf"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed1/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "d0aa971e69c45af6336fb1da005806bb8eb0c93edf1ccb0f3fa654c92cb4f7e8"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed2/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "c41a2682aeeea1171861622ffe39467dfebecd80b80d5a48633197f13b33610a"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh1/weak/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "7d67c080e328273797ddfcf785a4926dd7045f699ccf23c2c7a013079da6e1fd"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh1/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "90c8cfa05f97d42dd8513bd9a6c25d58dbb47a609b3dfc776376086c492c490f"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed0/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "5130b01b1e8e2bdfe7d53c19d65d0b64347c3dde5f3acad444a4f1aabf5eb7c5"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed1/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "4b2e9832b7f683396dcc9de0de4ef39e173e3f61cec15f9fdb1452cc01b403b2"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed2/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "e416569b134164c21f8299c5bd4b971aeeb1f372464ab00f67d3446713a83d6e"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh2/strong/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "2952aaaa4ed3e765f01abbe03772c42109861af87603f1c00b0a7b43827c64d5"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh2/strong/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "f01bc2be85b398ea8b20d075f6c8e6edfd65fbc6a4665e211cca30c09d3b0719"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed0/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "91c7fbeb179104b69ec9a7b7ccd39ca219f7eb349e91a720fe3fece287288cae"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed1/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "e209f3153e99dff7ff59e637652d30c7f7556076bd100934d95a488edbc1a04b"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed2/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "7647eb49763e2e416683aa318169ab74e4be768401799980e73c65c5a6c41efc"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh2/weak/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "cfbd225279cbec6953fed6891018b019ed93ac3ae31f2e78542f9763f5227b7d"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh2/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "095a2c3285942741c5781041f1e37f358b30184fcb57182cf2cd7ad08cc669f8"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed0/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "216564f2ea84477ae4fc6c4ef9b652e9849bd03a5a0d7402e5a127fb3931f3da"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed1/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "335e6adf5c79a6d9a60d2d0d8dea594cad88021aab6ee0ed03482fa5658a8e5e"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed2/TRAIN_CAL_FEATURES.npz",
+      "member": "cal",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "63f42cd02f98245b3d61258363e2b3d733d585c5efc0cc0cb826f1c7bd53376d"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh1/strong/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "974f83d499810a98b1ab247150fd9eae43f3c0db7f5525f3de8ad2bed3271825"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh1/strong/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "a387672a4db8078b7cdae9be934697b659b15a7dcf7a231d15959e024a54b1c2"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "9f29718da638a09fc78df19b3e745a2052303a2ec39dc4d5679083937e2fbfc1"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "19c671923d837fee63b50f74bff6dbcab74208611e2a8d516fdccd391fa00263"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "2a4630273d028d4b2f0fb8022af1bf315e4637b9b804f5913edaa1710023e6d4"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh1/weak/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "20c470a0170fcf9476bd3c0fe27ae0577c27caeb2dfd9f3c89ed31213eceb731"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh1/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "ade72f1a5091d7eaca36edb805460a1c53201cc6ffd32c8adbf817ac65f13c26"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "ea399f5e96e2a3732c6028551f6cce42e840fa6b5c527a0f6600747bd0904f30"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "29b3ed80b460d022ae6839d0f1accb3809ab5aafc149d59ba2984f8666253400"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "095e59e34e596ce7816fa849650d35ea0133a37d483829936ba34be7aa25ee28"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh2/strong/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "7dcdb130bc9064a99a1e23bdba88b08795f1562f7264465a817c0477d56d231f"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh2/strong/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "b02750881f2857642d741cee22522322caa97d87d73c047f792b65aae81173e6"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "08e71a48850a92c55d70b7f4443cc3a79155b628cf259bde9498eaffafc710c4"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "b40f24ea5ea713251575d5bddbf9719e0535bd6b26ce1ce3b72a91d7ac45faa6"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "58f728f1fecda3a9c6070f2c6cbe564874ee4cc090a9f3c3456d806251e46a1e"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh2/weak/learner.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "58dceadf92b39e3a2c2564e670567c231c760cd05713c44c73708cf88ff08892"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh2/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "4ffa084d525d1bcb3234cb18230412bb5f134266592fa375a490744118143628"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "e8f2769ed982d15ff434550a518af53cbc199c298f2f353b071a8628b02de774"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "21dabf1538c75d3bd5f4c2f46b136c2842c268fe670700014493f86470c9c333"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "cb99bcd30da1fdb9e5dea91b891655d48d9b04bb0b20614260d1a1d3b98415da"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_v1/data/dmd_confirm_ar_fresh1/TRAIN_CAL_LEARNER.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "e5761e24d5452020ab0b80c898dd0386208f83e14b95ae18440167e3458b8316"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh1/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "ade72f1a5091d7eaca36edb805460a1c53201cc6ffd32c8adbf817ac65f13c26"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "67b8514421cd6743da9675c1bbd9d55a023512d453e654127b1437b5c35a7455"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "de289a6755de436fdeb1fbb0a56dbf0ad7b53387df033804de5b83c1054370af"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "24f509e372e88b1bfc51a5913d0f2ad830ca37d1a522c4e65a1f288fbda1d040"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_v1/data/dmd_confirm_ar_fresh2/TRAIN_CAL_LEARNER.npz",
+      "member": "cal__x",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "beea133af3da1fb3c4576148be725e837bdf7455c936bd289838a0ac3fde80fb"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh2/weak/TRAIN_CAL.npz",
+      "member": "cal__physical",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "4ffa084d525d1bcb3234cb18230412bb5f134266592fa375a490744118143628"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed0/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "d3b3d2bd1a5ca429938b68a1e01a49f64b8b109214acab7195c0bb861f731bc1"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed1/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "8c9433ee70a091fa5ff2f53bd88ebf2cb8a61bab9b323fd6b5b71966157a16cb"
+      }
+    },
+    {
+      "path": "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed2/CAL_VIEWS.npz",
+      "member": "Fine4",
+      "identity": {
+        "shape": [
+          32,
+          129,
+          4
+        ],
+        "dtype": "float32",
+        "sha256": "77e68263b7e8ff36654a80bb6dec2dc3b860e166c7ef707001f125af864f7c2a"
+      }
+    }
+  ],
+  "original_sources_and_inputs_sha256": {
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/conditional_dmd_raw_obs_v1/RESULTS.json": "ab51165fd2391dc727c3b3170c697894595e91bc74b047c33bd979bd8d261294",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/conditional_dmd_eigenframe_v1/RESULTS.json": "6b7ff9b403ac7f702123d86f8ad4461d779e196bdf4408efd2a809d8a0e40b7c",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_fresh_raw_control_v1/RESULTS.json": "ce229ebccbf37c8d7eff045b02c007c3032cad5416ff3148a378a920666626d3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/RESULTS.json": "e62c1c60824170ea15615372a33622ada9887bdbcb6a6df27420f2629eba0337",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/RESULTS.json": "d01eb5ab722c34a34f37cd742d09178109f08311844359a4b584b010f21f952e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/conditional_dmd_raw_obs_v1/INPUTS.json": "598395426f950561f4b85c1c234663503ba27e6781a0c4cf88c5ce282d7899e8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_fresh_raw_control_v1/INPUTS.json": "2d5b154f760e93a9981466640e924dc47469bf01a5472e09eb390180321b4606",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/INPUTS.json": "af717a52fd0db2f840a360e0603fa1701dfb3b9b63cc8c25e228c0ce67247eba",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/conditional_dmd_eigenframe_v1/INPUTS.json": "69922ba0c3fa68bae468f37b0b4d4f3485f9fe6b4263a63b23e378dad9b14ee3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/ALL12_MODELS_AND24_CAL_VIEWS_LOCK.json": "aa7dbd8ea3341d7bb2abefe973910ecfa39f92fae20627dbaa2672b16743ff20",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/CAL_VIEWS_LOCK.json": "0e9eea6345f2a4a4c63a7b2978bf052d0f511495a488aea5d2cdc3dbac80c9ef",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh1/strong/learner.npz": "6ad9163cb1a4b68a5d89804f71b751a9f9a8e8254e24ee93750ac4783c3e7ab3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh1/strong/TRAIN_CAL.npz": "6fe8751c495f1177aed82a62b1bd1f03da7168cf712302afe9e50a322850761b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed0/TRAIN_CAL_FEATURES.npz": "fca27cacc97ea0087a05b6779115fe78a1877934b160696a830a92efbf9e65f7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed1/TRAIN_CAL_FEATURES.npz": "38448b225bf375bf060b734e1c7f1bdec670f7c4f69d71ca437f0091a1bad53b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/strong/seed2/TRAIN_CAL_FEATURES.npz": "4775da9bfd09489325c81d6a24c62c6dbb09c4a0667a7acceb6cb147ce4dd653",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh1/weak/learner.npz": "8af78cf6505ea862dfa9a37394cd9e8a56f53b0216c013e568e76f7698fc5bd3",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh1/weak/TRAIN_CAL.npz": "bc1498a33f4d7414c3f9431e0a20eaa9a8bf92ea2d5041cc2b372e6ce8419654",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed0/TRAIN_CAL_FEATURES.npz": "1a63ffd7c3a6e4771f15e47635d05f0d3b4b971b21626f434b9fe8aeb8f4580a",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed1/TRAIN_CAL_FEATURES.npz": "c1f9a13db7763f0d4a40e6637f19b201e6c37a850d04e2c2e01a5802e5708fab",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh1/weak/seed2/TRAIN_CAL_FEATURES.npz": "a54f939f376f41300ebbbc32ca1dac93727de42d93922c20179322f502b10690",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh2/strong/learner.npz": "63fe588dbabe6090bbf80290b269dbd56941688da5f65f3a4feb0d0847be73b2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh2/strong/TRAIN_CAL.npz": "767e7f6e8873f75a29665015444b74a92df144ab8e6bb5041d8b3bbf83997999",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed0/TRAIN_CAL_FEATURES.npz": "7749720225f2bf9788bbd6c96b6407295f93afdeb3e7f11f1e84e206643a7de4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed1/TRAIN_CAL_FEATURES.npz": "1e866468aaa4b378d8966d6cc5c6fb16c5e3bf8193151d5d1d9f6c66045d2210",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/strong/seed2/TRAIN_CAL_FEATURES.npz": "97044c5195aa7f381d91c162f65af6aaba56b080860d788f1eccb5b2280927fe",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/data/paired_ar_fresh2/weak/learner.npz": "de0a49aa30aa00c933bc5bdcf5c688ee33cb9a76bfc583ded861e9ee6c9e6b9e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/private/paired_ar_fresh2/weak/TRAIN_CAL.npz": "1d696948721ab904f69bf81e9053e7182f3121ade07c6d59fe5d0d43a95b6ff9",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed0/TRAIN_CAL_FEATURES.npz": "e043a64d391cd05fd37dd16fc9983bc493141a873b37a787b533ee8210d3f60d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed1/TRAIN_CAL_FEATURES.npz": "9f6e5709e879e7732329481d84bf3c7f05d9b15f7d7e3d13664d131bc213e1e4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/g_mechanism_v2/paired_AR_G_v1/fits/paired_ar_fresh2/weak/seed2/TRAIN_CAL_FEATURES.npz": "e9034db7b8ef2869603352c6896dc48c7b18e5b014ee7a102caa47ff2c17ce52",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh1/strong/learner.npz": "7770ea60ff6c7e61f9ae2f30020dfa0f23765894ece5b122c9ef36c1968f1721",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh1/strong/TRAIN_CAL.npz": "3e1ecb422d0024223732d4509901bc85eb837795116da61ab2370240deae78ac",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed0/CAL_VIEWS.npz": "e17b826ce76bc84affd6767546f482d73ca3c4bd446539317a47fc5966d209d8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed1/CAL_VIEWS.npz": "047f0a139d56fec0ad5fffb2e6c0ab02cc4dadeb0786b991ea122d9edd2cd86f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/strong/seed2/CAL_VIEWS.npz": "d0862bdb26f693d2eb21eea46b57f2180a2e82bcfe4168eafb0ab6692e1e86a6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh1/weak/learner.npz": "b39e57bb5e1b743a275028314c8711377ee717ab0f997c0d87f408092176ebda",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh1/weak/TRAIN_CAL.npz": "bb177e02dd7adb71906170fd54e861825dd4c591cf2f805f5f69f7726425b10f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed0/CAL_VIEWS.npz": "69582e9a88db5f0a7cb424614b3eb3443d087cfa418a18a0461ac1e29bf5afd7",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed1/CAL_VIEWS.npz": "a0c85f5ca4e3140c2240bccd979223b36332b8a4f2c0e4bcc04f302734e586e5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh1/weak/seed2/CAL_VIEWS.npz": "bb345386ae2f26ddbb67d9e0e977a74a24d33bd7bd7339cb1b6cb21e6b2867c4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh2/strong/learner.npz": "283407752c4b48b36e2dec38b4fdebb835b16027eddc256422858f80751a1b76",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh2/strong/TRAIN_CAL.npz": "83bc4adfa79c5f80f6acf31fb87f74a6c2f583e4787bfe5c107d397103597f3f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed0/CAL_VIEWS.npz": "5d8099223fad8123bda013d6aecd6637a36b4f31ec0061ed4bea3626f2a4cf3b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed1/CAL_VIEWS.npz": "6b1b7b1980594a27276a703b389001aa12eb11d1e8244dd6de38c2b030df8d5b",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/strong/seed2/CAL_VIEWS.npz": "d5bf154f88ecbe355405a6596d7a55e1fcea4f57155f4f7242405671a6777bd2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/data/dmd_confirm_ar_fresh2/weak/learner.npz": "1554e32f57bc783ecf05cd51adec3be104295976e4c9a89e2b7741ec118024d8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_v1/private/dmd_confirm_ar_fresh2/weak/TRAIN_CAL.npz": "6c619961c5a84b8d705a5c7525ff576406b6c329c88ef1521d5d8d5fb9d3958f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed0/CAL_VIEWS.npz": "88f8a305b28d48c039d247d102229a12909786318ad7c9f400beb8765123813e",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed1/CAL_VIEWS.npz": "64b2e4cdc60f02263fff805a0e7b96492ae2dd651d5b1b0464711897962103a4",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/dynamic_eigenframe_confirmation_eval_v1/parents/dmd_confirm_ar_fresh2/weak/seed2/CAL_VIEWS.npz": "80853f09a7ef078b7e645d0f7890b8d51f737b903c1cdfacfd0902bd819ae0a6",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_v1/data/dmd_confirm_ar_fresh1/TRAIN_CAL_LEARNER.npz": "4e712ff8e4e494a248248013d746ec20be93ba71898563be178f9243822f5b5d",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed0/CAL_VIEWS.npz": "787b20300bf6c609af6c20d80a35e5d4def7bf905b6535d30728bb73edbde6a8",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed1/CAL_VIEWS.npz": "816e163ec728ab072e90303cce2a61d3727b6b1f4b8a7160e180186f2b32f7d2",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh1/seed2/CAL_VIEWS.npz": "f4a494f0bbd5cd80332c5ff8e73a254b301501a6f727e3b2e965d5baf910360f",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_v1/data/dmd_confirm_ar_fresh2/TRAIN_CAL_LEARNER.npz": "d8e4b33c5bb2dd2eae87c5558a448d85d340a9927710f74c5f55e308a72b8da5",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed0/CAL_VIEWS.npz": "b03b44492af7909da8fad94a260739481cc32a9f7292faab27b5fb599877b652",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed1/CAL_VIEWS.npz": "2a6f93c27905f43171b4ca5ffd56cf18502a3cc5925ab8dd7768c9121b079776",
+    "/Users/yuzihang/Documents/ChatGPT/HI-JEPA/outputs/HCF_STABLE_ID_RUN_20261028_V2/weak_AR_observation_intervention_eval_v1/Fine/dmd_confirm_ar_fresh2/seed2/CAL_VIEWS.npz": "94de9949c909400b47e8e188bb1c6ffdd216f53c514357348a02f11f1c397e44"
+  },
+  "limitations": [
+    "CAL oracle fits use physical labels after model locking; no training feedback.",
+    "CAL in-sample upper bounds are only for those finite arrays and affine readers.",
+    "No learned-model or raw-rule hyperparameter search, gate modification, or source edits.",
+    "Saved exposed TEST scalars are reused without opening their arrays."
+  ]
+}

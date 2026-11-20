@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "symmetric_lejepa_lag1_seed301",
+  "cell_thresholds_sha256": "6daf27faacf5f3446bc5edd3d0f0a6df63932707d7b628ba65ba243d22423e1a",
+  "probe_sha256": "a3bd7e8e41ac1ca4a8fa21ac75924b12acbbffd9100f3814837ad3e2553f94e0",
+  "test_prediction_sha256": "60ccc3bb235b9e75ec09edd1040d5cc0300359657aae2e944e10df026ad8de27"
+}

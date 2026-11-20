@@ -1,0 +1,655 @@
+{
+  "utc": "2026-11-10T07:37:55.770954+00:00",
+  "forecast": "cb214683926a90d459a63d353a12d301ee69540061c87fb4bb239d6067d41c95",
+  "windows": 3072,
+  "panels": 24,
+  "results": {
+    "tanh": {
+      "grid": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1521,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1521,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1521,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2469,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2531,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2534,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2545,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2763,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.095703125,
+          "ci": [
+            0.08561197916666667,
+            0.10579427083333333
+          ]
+        }
+      },
+      "random": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1519,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1519,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1520,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2382,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2470,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2470,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2478,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2657,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.08951822916666667,
+          "ci": [
+            0.0810546875,
+            0.09765625
+          ]
+        }
+      },
+      "spread": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1578,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1578,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1580,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2472,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2616,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2617,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2632,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2747,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.08951822916666667,
+          "ci": [
+            0.080078125,
+            0.09895833333333333
+          ]
+        }
+      }
+    },
+    "sin": {
+      "grid": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1550,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1550,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1550,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2489,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2557,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2560,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2573,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2755,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.08658854166666667,
+          "ci": [
+            0.07779947916666667,
+            0.09602864583333333
+          ]
+        }
+      },
+      "random": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1562,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1562,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1564,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2417,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2505,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2506,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2511,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2668,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.08170572916666667,
+          "ci": [
+            0.07259114583333333,
+            0.091796875
+          ]
+        }
+      },
+      "spread": {
+        "noisy": {
+          "rules": {
+            "A": {
+              "accepted": 1627,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 1627,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 1629,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2499,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact": {
+          "rules": {
+            "A": {
+              "accepted": 2639,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B_graph": {
+              "accepted": 2640,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "B": {
+              "accepted": 2653,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            },
+            "C": {
+              "accepted": 2759,
+              "wrong": 0,
+              "unconditional_wrong": 0.0,
+              "conditional_wrong": 0.0
+            }
+          },
+          "audits": {
+            "ci_miss_panels": 0,
+            "outside_B": 0,
+            "outside_C": 0,
+            "outside_numerator": 0,
+            "outside_variance_panels": 0,
+            "graph_failure_panels": 0
+          }
+        },
+        "exact_minus_noisy_C": {
+          "difference": 0.08463541666666667,
+          "ci": [
+            0.0753173828125,
+            0.09505208333333333
+          ]
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "tanh": {
+      "noisy": {
+        "random_minus_grid": {
+          "difference": -0.0283203125,
+          "ci": [
+            -0.035481770833333336,
+            -0.021158854166666668
+          ]
+        },
+        "spread_minus_grid": {
+          "difference": 0.0009765625,
+          "ci": [
+            -0.001953125,
+            0.004231770833333333
+          ]
+        },
+        "spread_minus_random": {
+          "difference": 0.029296875,
+          "ci": [
+            0.022135416666666668,
+            0.0361328125
+          ]
+        }
+      },
+      "exact": {
+        "random_minus_grid": {
+          "difference": -0.034505208333333336,
+          "ci": [
+            -0.042643229166666664,
+            -0.027018229166666668
+          ]
+        },
+        "spread_minus_grid": {
+          "difference": -0.005208333333333333,
+          "ci": [
+            -0.008463541666666666,
+            -0.0026041666666666665
+          ]
+        },
+        "spread_minus_random": {
+          "difference": 0.029296875,
+          "ci": [
+            0.022135416666666668,
+            0.037109375
+          ]
+        }
+      },
+      "extra_noise_loss_relative_to_grid": {
+        "random": {
+          "difference": -0.006184895833333333,
+          "ci": [
+            -0.013671875,
+            0.0006510416666666666
+          ]
+        },
+        "spread": {
+          "difference": -0.006184895833333333,
+          "ci": [
+            -0.0107421875,
+            -0.001953125
+          ]
+        }
+      }
+    },
+    "sin": {
+      "noisy": {
+        "random_minus_grid": {
+          "difference": -0.0234375,
+          "ci": [
+            -0.0302734375,
+            -0.016927083333333332
+          ]
+        },
+        "spread_minus_grid": {
+          "difference": 0.0032552083333333335,
+          "ci": [
+            0.0006510416666666666,
+            0.005859375
+          ]
+        },
+        "spread_minus_random": {
+          "difference": 0.026692708333333332,
+          "ci": [
+            0.019205729166666668,
+            0.034383138020833336
+          ]
+        }
+      },
+      "exact": {
+        "random_minus_grid": {
+          "difference": -0.0283203125,
+          "ci": [
+            -0.0341796875,
+            -0.022135416666666668
+          ]
+        },
+        "spread_minus_grid": {
+          "difference": 0.0013020833333333333,
+          "ci": [
+            -0.0009765625,
+            0.0035807291666666665
+          ]
+        },
+        "spread_minus_random": {
+          "difference": 0.029622395833333332,
+          "ci": [
+            0.023111979166666668,
+            0.0361328125
+          ]
+        }
+      },
+      "extra_noise_loss_relative_to_grid": {
+        "random": {
+          "difference": -0.0048828125,
+          "ci": [
+            -0.0126953125,
+            0.0029296875
+          ]
+        },
+        "spread": {
+          "difference": -0.001953125,
+          "ci": [
+            -0.005208333333333333,
+            0.0016276041666666667
+          ]
+        }
+      }
+    }
+  },
+  "origins": {
+    "grid": {
+      "median_min": -4.0,
+      "median_max": 4.0,
+      "median_count_abs_ge_2p5": 38.0,
+      "median_max_grid_distance": 0.0
+    },
+    "random": {
+      "median_min": -2.4615885742558907,
+      "median_max": 2.299474651753202,
+      "median_count_abs_ge_2p5": 1.0,
+      "median_max_grid_distance": 1.835483445625922
+    },
+    "spread": {
+      "median_min": -2.9749594347233494,
+      "median_max": 2.828932829198572,
+      "median_count_abs_ge_2p5": 6.0,
+      "median_max_grid_distance": 1.253541354927263
+    }
+  },
+  "gates": {
+    "random_noninferior": true,
+    "spread_noninferior": true,
+    "random_loss": false,
+    "spread_rescue": false,
+    "confidence_event_sound": true
+  }
+}

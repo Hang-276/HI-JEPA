@@ -1,0 +1,17 @@
+{
+  "new_masters": [2026111501, 2026111502],
+  "new_iid_role": 61,
+  "new_states_per_panel": 131072,
+  "forward_chunk": 8192,
+  "cpu_threads": 2,
+  "original_reference_role": 2,
+  "original_calibration_role": 1,
+  "window": {
+    "stage": "primary",
+    "process": "separated_narrow",
+    "model": "separated_wide_1942",
+    "row": 18,
+    "fast_axis": 1,
+    "slow_axis": 2
+  }
+}

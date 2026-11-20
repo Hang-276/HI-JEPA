@@ -1,0 +1,130 @@
+{
+  "evidence_tier": "development_smoke",
+  "status": "SMOKE_COMPLETE",
+  "axes": [
+    "agent_x",
+    "agent_y",
+    "distractor_x",
+    "distractor_y"
+  ],
+  "rows": [
+    {
+      "cell": "visual_lejepa_seed1901",
+      "arm": "visual_lejepa",
+      "seed": 1901,
+      "r2": {
+        "agent_x": -0.006278941327921839,
+        "agent_y": 0.10221029508714663,
+        "distractor_x": -0.008276230208088098,
+        "distractor_y": 0.008487921542296162
+      },
+      "minimum_r2": -0.008276230208088098,
+      "eligible": false,
+      "threshold": 0.20608246088687876,
+      "own_cal": {
+        "windows": 8,
+        "accepted": 1,
+        "errors": 1,
+        "coverage": 0.125,
+        "selective_error": 1.0,
+        "error_upper": 1.0,
+        "passes_coverage": false,
+        "passes_error_bound": false,
+        "passes": false
+      },
+      "passes": false,
+      "status": "SMOKE_ONLY",
+      "regular": {
+        "windows": 4,
+        "all_answer": {
+          "accepted": 4,
+          "errors": 3,
+          "error_rate": 0.75
+        },
+        "own_cal": {
+          "accepted": 1,
+          "errors": 1,
+          "error_rate": 1.0,
+          "coverage": 0.25
+        }
+      },
+      "flip": {
+        "windows": 4,
+        "all_answer": {
+          "accepted": 4,
+          "errors": 3,
+          "error_rate": 0.75
+        },
+        "own_cal": {
+          "accepted": 0,
+          "errors": 0,
+          "error_rate": null,
+          "coverage": 0.0
+        }
+      }
+    },
+    {
+      "cell": "long_horizon_pred_seed1901",
+      "arm": "long_horizon_pred",
+      "seed": 1901,
+      "r2": {
+        "agent_x": 0.013185732004568962,
+        "agent_y": 0.1143225565239323,
+        "distractor_x": -0.010261115585554093,
+        "distractor_y": 0.004300565363223874
+      },
+      "minimum_r2": -0.010261115585554093,
+      "eligible": false,
+      "threshold": 0.1735104403006303,
+      "own_cal": {
+        "windows": 8,
+        "accepted": 1,
+        "errors": 0,
+        "coverage": 0.125,
+        "selective_error": 0.0,
+        "error_upper": 0.975,
+        "passes_coverage": false,
+        "passes_error_bound": false,
+        "passes": false
+      },
+      "passes": false,
+      "status": "SMOKE_ONLY",
+      "regular": {
+        "windows": 4,
+        "all_answer": {
+          "accepted": 4,
+          "errors": 2,
+          "error_rate": 0.5
+        },
+        "own_cal": {
+          "accepted": 1,
+          "errors": 0,
+          "error_rate": 0.0,
+          "coverage": 0.25
+        }
+      },
+      "flip": {
+        "windows": 4,
+        "all_answer": {
+          "accepted": 4,
+          "errors": 3,
+          "error_rate": 0.75
+        },
+        "own_cal": {
+          "accepted": 0,
+          "errors": 0,
+          "error_rate": null,
+          "coverage": 0.0
+        }
+      }
+    }
+  ],
+  "alpha": 0.025,
+  "family_size": 2,
+  "test_truth_opened_utc": "2026-11-17T04:48:55.829270+00:00",
+  "test_truth_sha256": "17ecf1fffc65238bb6d54e7ff1b7e502f6e44588e7a1660ebfd4f2a3404b8a36",
+  "forecast_receipt_sha256": "000b1ddcd66c532a24b73abac0458ef6be074c560c11a05a499086d802da4a20",
+  "forecast_hashes_verified": 12,
+  "elapsed_seconds": 7.218281917273998,
+  "finished_utc": "2026-11-17T04:48:55.832507+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-09T10:30:43.466035+00:00",
+  "lock": "ba609f17715b92aedc3f2a3f9032ca0eb1b89c7b4cdd978edcb0993feb689832",
+  "quadratic_spectrum_max_error": 3.0531133177191805e-16,
+  "mean_identity_max_error": 1.3877787807814457e-17,
+  "null_likelihood_identical": true
+}

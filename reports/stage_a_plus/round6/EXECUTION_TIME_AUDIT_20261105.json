@@ -1,0 +1,177 @@
+{
+  "audit_date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "purpose": "User-requested elapsed-time accountability; no research resumed",
+  "thread_id": "01a1a473-a71b-7170-890b-a1403854a497",
+  "turn_id": "01a1a5cf-9d28-7fa1-b5a2-2f1b3579b5a2",
+  "app_turn_record": {
+    "start": "2026-11-04T17:06:49+08:00",
+    "interrupted_at": "2026-11-04T23:53:55+08:00",
+    "duration_ms": 24425827
+  },
+  "event_evidence": {
+    "posterior_last_tool_return": "2026-11-04T17:19:52.666+08:00",
+    "root_last_tool_call": "2026-11-04T17:47:04+08:00",
+    "root_last_tool_return": "2026-11-04T17:47:14+08:00",
+    "root_last_tool": "wait_agent timeout_ms=10000, returned timed_out=true",
+    "latest_research_file_write": "2026-11-04T17:54:16+08:00",
+    "last_reviewer_complete": "2026-11-04T18:02:34.317+08:00",
+    "last_root_received_event": "2026-11-04T18:02:34.322+08:00",
+    "root_explicit_wait_calls": 3,
+    "root_requested_wait_seconds": 30,
+    "theory_reviewer_explicit_wait_calls": 19,
+    "theory_reviewer_requested_wait_seconds": 810,
+    "wait_counts_warning": "Concurrent agent intervals overlap; do not add them as wall time."
+  },
+  "unaccounted_observable_gap": {
+    "from": "2026-11-04T18:02:34.322+08:00",
+    "to": "2026-11-04T23:53:55+08:00",
+    "duration_seconds": 21080.678,
+    "finding": "No new tool/message/result events found in the four identified local agent rollouts in this interval; no pre-audit round6 file was modified after 17:54:16.",
+    "not_inferred": "Cannot determine whether the backend was stalled, waiting on a model request, or otherwise inactive; event absence does not prove exact CPU activity or a particular technical cause."
+  },
+  "file_snapshot_before_audit": [
+    {
+      "name": "ROUND6_SCOPE.md",
+      "created_at": "2026-11-04T17:08:42+08:00",
+      "modified_at": "2026-11-04T17:08:42+08:00",
+      "bytes": 1572,
+      "sha256": "eb21a1a370e5b3770720742ba3c4302ae0c26b65294983f2178f54eb6add922d"
+    },
+    {
+      "name": "POSTERIOR_BOUND_SCOPE.md",
+      "created_at": "2026-11-04T17:11:01+08:00",
+      "modified_at": "2026-11-04T17:11:01+08:00",
+      "bytes": 1208,
+      "sha256": "0f2358a7f60d7df37c74ebf7335f91faadecd5973c51fcf3e4220cfa805f752d"
+    },
+    {
+      "name": "CURRENT_INPUT_SCOPE.md",
+      "created_at": "2026-11-04T17:14:18+08:00",
+      "modified_at": "2026-11-04T17:14:18+08:00",
+      "bytes": 1064,
+      "sha256": "eaf3414e54853741e31c559067edaff608cb89f4ba7e4c2ed17f92f70893831c"
+    },
+    {
+      "name": "current_input_audit.py",
+      "created_at": "2026-11-04T17:14:18+08:00",
+      "modified_at": "2026-11-04T17:14:18+08:00",
+      "bytes": 9947,
+      "sha256": "90847f82689eb839106f3a60e1a17f33133a1d9e846390133ca98c6c0f4a481f"
+    },
+    {
+      "name": "CURRENT_INPUT_AUDIT.json",
+      "created_at": "2026-11-04T17:14:19+08:00",
+      "modified_at": "2026-11-04T17:14:19+08:00",
+      "bytes": 49856,
+      "sha256": "e2b46cda3baaf6ad53a223e602c1f9b344e42075a7c1257ebede603c6a4f2bd3"
+    },
+    {
+      "name": "CORRELATION_AWARE_SCOPE.md",
+      "created_at": "2026-11-04T17:16:33+08:00",
+      "modified_at": "2026-11-04T17:16:33+08:00",
+      "bytes": 1108,
+      "sha256": "61784268a3f73d78458cfadc4982b2ef5dd7af33ffc78c3ce0a5a8f97ab9d0cf"
+    },
+    {
+      "name": "CURRENT_INPUT_AUDIT.md",
+      "created_at": "2026-11-04T17:16:32+08:00",
+      "modified_at": "2026-11-04T17:17:04+08:00",
+      "bytes": 7898,
+      "sha256": "c829669e3f9b0bd7b1745b1dfe3812a83ceff9516c671ea8b9ed2c48ebd617cd"
+    },
+    {
+      "name": "DIRICHLET_SCOPE.md",
+      "created_at": "2026-11-04T17:22:58+08:00",
+      "modified_at": "2026-11-04T17:22:58+08:00",
+      "bytes": 1254,
+      "sha256": "edec609dfa23e0989f67588e9ace2e479ce4d4f78da0d211409ed14707cdb650"
+    },
+    {
+      "name": "CORRELATION_AWARE_SELECTION.md",
+      "created_at": "2026-11-04T17:23:44+08:00",
+      "modified_at": "2026-11-04T17:23:44+08:00",
+      "bytes": 16216,
+      "sha256": "9038612e02a1aedc0788f2c8bc3037ec2ccb0d06f6aff18d4fdc2621f0a3f6a9"
+    },
+    {
+      "name": "dirichlet_checks.py",
+      "created_at": "2026-11-04T17:26:09+08:00",
+      "modified_at": "2026-11-04T17:26:09+08:00",
+      "bytes": 6587,
+      "sha256": "551313f020179fd1044a0fec0071a7dfdb9801495f33f5fc6514bcd007420768"
+    },
+    {
+      "name": "DIRICHLET_CHECKS.json",
+      "created_at": "2026-11-04T17:26:09+08:00",
+      "modified_at": "2026-11-04T17:26:09+08:00",
+      "bytes": 41087,
+      "sha256": "665ed22dff4d146626e696c50fdd43d9dc2436b21d903ffd07c8b15ce1a50189"
+    },
+    {
+      "name": "correlation_selection_checks.py",
+      "created_at": "2026-11-04T17:26:25+08:00",
+      "modified_at": "2026-11-04T17:26:25+08:00",
+      "bytes": 8791,
+      "sha256": "d4ec8f38dd48974ac25496e1716d8cb8015b043d2dc21b245490fea48515a79e"
+    },
+    {
+      "name": "CORRELATION_SELECTION_CHECKS.json",
+      "created_at": "2026-11-04T17:26:26+08:00",
+      "modified_at": "2026-11-04T17:26:26+08:00",
+      "bytes": 6578,
+      "sha256": "7fa5d06c3fbce32ffcdf3bfc1acb35f7fbd89f53a55f73cc3974f4c59bbd3f2c"
+    },
+    {
+      "name": "DIRICHLET_SELECTION.md",
+      "created_at": "2026-11-04T17:25:08+08:00",
+      "modified_at": "2026-11-04T17:29:50+08:00",
+      "bytes": 6543,
+      "sha256": "f3c4e5607285366b11792e0418824304ddf49ae1057aa7d86680c049ead6e278"
+    },
+    {
+      "name": "DIRICHLET_INDEPENDENT_REVIEW.md",
+      "created_at": "2026-11-04T17:30:00+08:00",
+      "modified_at": "2026-11-04T17:30:00+08:00",
+      "bytes": 3399,
+      "sha256": "6e8a25b02c572dbf85cd08f436d8fcf658a8966d88f1d880d11aeee3a7dd3d5d"
+    },
+    {
+      "name": "README.md",
+      "created_at": "2026-11-04T17:37:21+08:00",
+      "modified_at": "2026-11-04T17:37:21+08:00",
+      "bytes": 2504,
+      "sha256": "4f350ef120aa33812ad2647940f784e73ab5dceb0f857215c1f464d5753d298e"
+    },
+    {
+      "name": "ROUND6_REPORT.md",
+      "created_at": "2026-11-04T17:35:18+08:00",
+      "modified_at": "2026-11-04T17:46:42+08:00",
+      "bytes": 10185,
+      "sha256": "e506edad192a7078f4a16b74539b0ecd43b64a6bdc978054ac3ad7f9c7a4f833"
+    },
+    {
+      "name": "THEORY_INDEPENDENT_REVIEW.md",
+      "created_at": "2026-11-04T17:54:16+08:00",
+      "modified_at": "2026-11-04T17:54:16+08:00",
+      "bytes": 2787,
+      "sha256": "b8869414c89d632c4a7389132edcb6087f36e1594bb8488793ca348ae13f81be"
+    }
+  ],
+  "missing_deliverables": [
+    "OBSERVABLE_POSTERIOR_BOUND.md",
+    "DELIVERY_CHECKS.json",
+    "SHA256SUMS"
+  ],
+  "sources": {
+    "app_api": "codex_app.read_thread: turn start/end/status/duration",
+    "local_rollouts": [
+      "/Users/yuzihang/.codex/sessions/2026/11/04/rollout-2026-11-04T10-46-50-01a1a473-a71b-7170-890b-a1403854a497.jsonl",
+      "/Users/yuzihang/.codex/sessions/2026/11/04/rollout-2026-11-04T11-38-27-01a1a4a2-fcbf-7321-8ec3-fa50a9ccd14a.jsonl",
+      "/Users/yuzihang/.codex/sessions/2026/11/04/rollout-2026-11-04T11-38-37-01a1a4a3-237f-7f72-9238-ea2d893aca32.jsonl",
+      "/Users/yuzihang/.codex/sessions/2026/11/04/rollout-2026-11-04T17-09-58-01a1a5d2-7f13-7b03-8b5a-cd2c18c72502.jsonl"
+    ],
+    "extraction_boundary": "Only event times, visible messages/tool metadata and usage-event timestamps were used. No private reasoning text is reproduced; inherited child history at fork creation was excluded from child activity conclusions."
+  },
+  "conclusion": "Elapsed turn duration was 6h47m, while recorded activity was concentrated before 18:03. Do not describe the later nearly six-hour gap as productive research, computation, or a six-hour tool wait."
+}

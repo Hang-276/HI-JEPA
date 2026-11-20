@@ -1,0 +1,251 @@
+{
+  "status": "completed_deterministic_shear_formula_checks",
+  "new_training": 0,
+  "PRNG_calls": 0,
+  "new_physical_samples": 0,
+  "model_forward": 0,
+  "scalar_polynomial_fixtures": [
+    {
+      "label": "concave_two_signs",
+      "g": 1.0,
+      "beta": 0.0,
+      "alpha": -1.0,
+      "radius": 1.0,
+      "roots": [
+        1.0,
+        -1.0
+      ],
+      "kind": "crossing_tie",
+      "discriminant": 1.0
+    },
+    {
+      "label": "concave_asymmetric",
+      "g": 1.0,
+      "beta": 2.0,
+      "alpha": -1.0,
+      "radius": 0.2360679774997897,
+      "roots": [
+        4.23606797749979,
+        -0.2360679774997898
+      ],
+      "kind": "crossing_tie",
+      "discriminant": 5.0
+    },
+    {
+      "label": "linear",
+      "g": 1.0,
+      "beta": 0.5,
+      "alpha": 0.0,
+      "radius": 1.0,
+      "roots": [
+        -1.0
+      ],
+      "kind": "crossing_tie",
+      "discriminant": 0.25
+    },
+    {
+      "label": "constant_limiting",
+      "g": 1.0,
+      "beta": 0.0,
+      "alpha": 0.0,
+      "radius": null,
+      "roots": [],
+      "kind": "limiting_tie_only",
+      "discriminant": 0.0
+    },
+    {
+      "label": "convex_no_tie",
+      "g": 1.0,
+      "beta": 0.0,
+      "alpha": 1.0,
+      "radius": null,
+      "roots": [],
+      "kind": "uniform_positive_gap",
+      "discriminant": -1.0
+    },
+    {
+      "label": "convex_tangent",
+      "g": 1.0,
+      "beta": 1.0,
+      "alpha": 1.0,
+      "radius": 1.0,
+      "roots": [
+        -1.0,
+        -1.0
+      ],
+      "kind": "tangential_tie",
+      "discriminant": 0.0
+    },
+    {
+      "label": "convex_two_same_sign_roots",
+      "g": 1.0,
+      "beta": 2.0,
+      "alpha": 1.0,
+      "radius": 0.2679491924311227,
+      "roots": [
+        -3.732050807568877,
+        -0.2679491924311228
+      ],
+      "kind": "crossing_tie",
+      "discriminant": 3.0
+    }
+  ],
+  "matrix_identity_max_error": 2.220446049250313e-16,
+  "persistent_four_dimensional_analytic_example": {
+    "epsilon": 0.01,
+    "rates": [
+      0.1,
+      0.9999499987499375,
+      0.9,
+      0.2
+    ],
+    "horizons": [
+      4,
+      16,
+      32
+    ],
+    "state_covariance": "identity",
+    "original_scores": [
+      1.9999333333333331,
+      0.0017323404105402996,
+      1.4161740952745936,
+      1.9989333333289643
+    ],
+    "target_zero_based": [
+      1,
+      2
+    ],
+    "original_physical_margin": 0.5827592380543707,
+    "shear_zero_based": {
+      "output_axis": 0,
+      "source_axis": 1
+    },
+    "critical_t_squared": 0.41271352181967125,
+    "critical_absolute_t": 0.6424278339390902,
+    "critical_profiled_risk": 3.730929541914622e-05,
+    "risk_at_t1": 9.038534536816551e-05,
+    "checks": [
+      {
+        "t": -1.0,
+        "risk": 9.038534536816551e-05,
+        "scores": [
+          1.0008328368719368,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          0,
+          1
+        ],
+        "changing_target_boundary_gap": -0.4153412584026568
+      },
+      {
+        "t": -0.6430702617730292,
+        "risk": 3.738394280434542e-05,
+        "scores": [
+          1.415347728307315,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          0,
+          1
+        ],
+        "changing_target_boundary_gap": -0.0008263669672785579
+      },
+      {
+        "t": -0.6417854061051511,
+        "risk": 3.723472261007729e-05,
+        "scores": [
+          1.417000601553729,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          1,
+          2
+        ],
+        "changing_target_boundary_gap": 0.0008265062791354971
+      },
+      {
+        "t": 0.0,
+        "risk": 0.0,
+        "scores": [
+          1.9999333333333331,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          1,
+          2
+        ],
+        "changing_target_boundary_gap": 0.5837592380587395
+      },
+      {
+        "t": 0.6417854061051511,
+        "risk": 3.723472261007729e-05,
+        "scores": [
+          1.417000601553729,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          1,
+          2
+        ],
+        "changing_target_boundary_gap": 0.0008265062791354971
+      },
+      {
+        "t": 0.6424278339390902,
+        "risk": 3.730929541914622e-05,
+        "scores": [
+          1.4161740952745938,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          1,
+          2
+        ],
+        "changing_target_boundary_gap": 2.220446049250313e-16
+      },
+      {
+        "t": 0.6430702617730292,
+        "risk": 3.738394280434542e-05,
+        "scores": [
+          1.415347728307315,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          0,
+          1
+        ],
+        "changing_target_boundary_gap": -0.0008263669672785579
+      },
+      {
+        "t": 1.0,
+        "risk": 9.038534536816551e-05,
+        "scores": [
+          1.0008328368719368,
+          0.0017323404105402996,
+          1.4161740952745936,
+          1.9989333333289643
+        ],
+        "selected_zero_based": [
+          0,
+          1
+        ],
+        "changing_target_boundary_gap": -0.4153412584026568
+      }
+    ]
+  },
+  "limits": "Analytic laws and fixed matrices, not arrays or scores from trained Fine models."
+}

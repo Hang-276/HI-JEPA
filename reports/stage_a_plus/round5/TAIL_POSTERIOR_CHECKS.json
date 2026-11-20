@@ -1,0 +1,274 @@
+{
+  "scope": "Fixed vectors and exact Gaussian moments only; no physical samples/model/data files.",
+  "scalar_good_set_checks": [
+    {
+      "alpha": 0.25,
+      "C_alpha": 4.763723963948018,
+      "fixed_z_count": 11,
+      "max_lhs_rhs": 1.0
+    },
+    {
+      "alpha": 0.5,
+      "C_alpha": 3.131488345421969,
+      "fixed_z_count": 11,
+      "max_lhs_rhs": 1.0
+    },
+    {
+      "alpha": 0.75,
+      "C_alpha": 2.4171942742139474,
+      "fixed_z_count": 11,
+      "max_lhs_rhs": 1.0
+    },
+    {
+      "alpha": 0.9,
+      "C_alpha": 2.1448674025462564,
+      "fixed_z_count": 11,
+      "max_lhs_rhs": 1.0
+    }
+  ],
+  "weighted_score_checks": [
+    {
+      "epsilon": 0.1111111111111111,
+      "D_epsilon": 3.6900283970543697,
+      "fixed_z_count": 11
+    },
+    {
+      "epsilon": 0.05,
+      "D_epsilon": 4.386894595558187,
+      "fixed_z_count": 11
+    },
+    {
+      "epsilon": 0.01,
+      "D_epsilon": 5.866277754809814,
+      "fixed_z_count": 11
+    },
+    {
+      "epsilon": 0.001,
+      "D_epsilon": 8.075657349364027,
+      "fixed_z_count": 11
+    }
+  ],
+  "fixed_probability_vectors": [
+    {
+      "name": "identical",
+      "epsilon": 0.1,
+      "true_p_min": 0.1111111111111111,
+      "q_min": 0.1111111111111111,
+      "posterior_kl": 0.0,
+      "good_set": true,
+      "odds_error_squared": 0.0,
+      "good_set_rhs_squared": 0.0,
+      "bad_event_KL_threshold": 0.015342640972002731,
+      "cross_entropy": 2.1972245773362196,
+      "cross_entropy_floor": 1.6094379124341005,
+      "CE_only_bad_mass_bound_saturates": true
+    },
+    {
+      "name": "small_pivot_transfer",
+      "epsilon": 0.1,
+      "true_p_min": 0.1111111111111111,
+      "q_min": 0.1101111111111111,
+      "posterior_kl": 9.000364519683862e-06,
+      "good_set": true,
+      "odds_error_squared": 0.0008859562551922233,
+      "good_set_rhs_squared": 0.0025366082938145474,
+      "bad_event_KL_threshold": 0.015342640972002731,
+      "cross_entropy": 2.197233577700739,
+      "cross_entropy_floor": 1.6094379124341005,
+      "CE_only_bad_mass_bound_saturates": true
+    },
+    {
+      "name": "true_rare_pivot",
+      "epsilon": 0.01,
+      "true_p_min": 0.001,
+      "q_min": 0.02,
+      "posterior_kl": 0.016187272503398107,
+      "good_set": false,
+      "odds_error_squared": 72.718639375492,
+      "good_set_rhs_squared": 45.621229669704604,
+      "bad_event_KL_threshold": 0.001534264097200273,
+      "cross_entropy": 2.101456627753786,
+      "cross_entropy_floor": 0.08338160893905106,
+      "CE_only_bad_mass_bound_saturates": true
+    },
+    {
+      "name": "opposite_peaks",
+      "epsilon": 0.05,
+      "true_p_min": 0.05,
+      "q_min": 0.05,
+      "posterior_kl": 1.3666986573834001,
+      "good_set": false,
+      "odds_error_squared": 67.92237163976687,
+      "good_set_rhs_squared": 770.3641651139947,
+      "bad_event_KL_threshold": 0.007671320486001366,
+      "cross_entropy": 2.8714869410645907,
+      "cross_entropy_floor": 0.5108256237659907,
+      "CE_only_bad_mass_bound_saturates": true
+    }
+  ],
+  "general_probability_counterexample": [
+    {
+      "rare_event_mass": 0.1,
+      "posterior_KL_expectation": 0.011737804395952602,
+      "odds_squared_expectation": 50.18762167344559,
+      "asymptotic_KL_over_eta": 0.11778303565638346,
+      "asymptotic_eta_times_odds_squared": 8
+    },
+    {
+      "rare_event_mass": 0.02,
+      "posterior_KL_expectation": 0.002355660713127669,
+      "odds_squared_expectation": 367.4207876731649,
+      "asymptotic_KL_over_eta": 0.11778303565638346,
+      "asymptotic_eta_times_odds_squared": 8
+    },
+    {
+      "rare_event_mass": 0.005,
+      "posterior_KL_expectation": 0.0005889151782819173,
+      "odds_squared_expectation": 1566.9018984181332,
+      "asymptotic_KL_over_eta": 0.11778303565638346,
+      "asymptotic_eta_times_odds_squared": 8
+    }
+  ],
+  "hypercontractive_threshold_checks": [
+    {
+      "delta": 0.1,
+      "k": 1.0,
+      "optimal_p": 2.0,
+      "absorption_allowed": false
+    },
+    {
+      "delta": 0.01831563888873418,
+      "k": 1.0,
+      "optimal_p": 2.0,
+      "absorption_allowed": false
+    },
+    {
+      "delta": 0.01,
+      "k": 0.9275905634371734,
+      "optimal_p": 3.137287389918108,
+      "absorption_allowed": true
+    },
+    {
+      "delta": 0.0001,
+      "k": 0.22135144368667808,
+      "optimal_p": 8.068875148876444,
+      "absorption_allowed": true
+    },
+    {
+      "delta": 1e-08,
+      "k": 0.004727295953671932,
+      "optimal_p": 17.359554384609673,
+      "absorption_allowed": true
+    },
+    {
+      "delta": 1e-14,
+      "k": 8.486427190984364e-06,
+      "optimal_p": 31.20308209813569,
+      "absorption_allowed": true
+    }
+  ],
+  "analytic_Gaussian_absorption_cases": [
+    {
+      "kind": "fixed analytic Gaussian formula, not data or a trained flow",
+      "dimension": 4,
+      "regimes": 9,
+      "tau": 0.1,
+      "anchor_weight": 0.1111111111111111,
+      "true_natural_rank": 8,
+      "head_natural_rank": 8,
+      "head_mean_relative_bias": 0.001,
+      "cube_radius": 4.0,
+      "head_epsilon_on_cube": 0.025089849315083408,
+      "Gaussian_anchor_tail_mass": 0.0002533458620601102,
+      "known_generative_joint_KL_upper_for_posterior_KL": 2.222222222222222e-09,
+      "bad_mass_from_posterior_KL_bound": 5.1955534883372365e-06,
+      "total_bad_mass_upper": 0.0002585414155484474,
+      "optimal_hypercontractive_exponent": 7.096424078267944,
+      "small_set_contraction": 0.3139585322548384,
+      "good_error_squared_bound": 2.2465973992003647e-05,
+      "head_odds_L2_squared": 0.05672873580369857,
+      "head_odds_tail_energy": 0.00020681080780803166,
+      "head_bad_energy_squared_upper": 0.0007047629594244531,
+      "head_contrast_sigma_min_fixed_basis": 0.045454545454545456,
+      "exact_odds_L2_error": 0.00020099850770590315,
+      "absorbed_odds_L2_bound": 0.15460464856315692,
+      "exact_statistic_span_L2_error": 0.002007977099959072,
+      "statistic_span_L2_bound": 3.4013022683894523,
+      "span_bound_below_predeclared_0_01": false,
+      "CE_only_bound_cannot_enter_absorption": true,
+      "scope": "Known true parameters provide A in this arithmetic example; not an observable current-Fine guarantee."
+    },
+    {
+      "kind": "fixed analytic Gaussian formula, not data or a trained flow",
+      "dimension": 4,
+      "regimes": 9,
+      "tau": 0.1,
+      "anchor_weight": 0.1111111111111111,
+      "true_natural_rank": 8,
+      "head_natural_rank": 8,
+      "head_mean_relative_bias": 1e-06,
+      "cube_radius": 6.0,
+      "head_epsilon_on_cube": 0.004209475589847045,
+      "Gaussian_anchor_tail_mass": 7.892701136941086e-09,
+      "known_generative_joint_KL_upper_for_posterior_KL": 2.222222222222222e-15,
+      "bad_mass_from_posterior_KL_bound": 3.0967195639581743e-11,
+      "total_bad_mass_upper": 7.923668332580668e-09,
+      "optimal_hypercontractive_exponent": 17.59314571690245,
+      "small_set_contraction": 0.0042644151598856695,
+      "good_error_squared_bound": 1.3390454229868468e-10,
+      "head_odds_L2_squared": 0.056648375603339074,
+      "head_odds_tail_energy": 2.560017032543662e-08,
+      "head_bad_energy_squared_upper": 3.292127362817292e-08,
+      "head_contrast_sigma_min_fixed_basis": 0.045454545454545456,
+      "exact_odds_L2_error": 2.0099751341745523e-07,
+      "absorbed_odds_L2_bound": 0.0012131573318840047,
+      "exact_statistic_span_L2_error": 2.0099731242014276e-06,
+      "statistic_span_L2_bound": 0.026689461301448104,
+      "span_bound_below_predeclared_0_01": false,
+      "CE_only_bound_cannot_enter_absorption": true,
+      "scope": "Known true parameters provide A in this arithmetic example; not an observable current-Fine guarantee."
+    },
+    {
+      "kind": "fixed analytic Gaussian formula, not data or a trained flow",
+      "dimension": 4,
+      "regimes": 9,
+      "tau": 0.1,
+      "anchor_weight": 0.1111111111111111,
+      "true_natural_rank": 8,
+      "head_natural_rank": 8,
+      "head_mean_relative_bias": 1e-09,
+      "cube_radius": 8.0,
+      "head_epsilon_on_cube": 0.00033566027629999476,
+      "Gaussian_anchor_tail_mass": 4.976768459417447e-15,
+      "known_generative_joint_KL_upper_for_posterior_KL": 2.222222222222223e-21,
+      "bad_mass_from_posterior_KL_bound": 3.8835591618929766e-16,
+      "total_bad_mass_upper": 5.365124375606744e-15,
+      "optimal_hypercontractive_exponent": 31.826417127354688,
+      "small_set_contraction": 6.340095745029448e-06,
+      "good_error_squared_bound": 1.679280933655012e-15,
+      "head_odds_L2_squared": 0.05664829528369847,
+      "head_odds_tail_energy": 4.687517260978573e-14,
+      "head_bad_energy_squared_upper": 2.4555049201761286e-13,
+      "head_contrast_sigma_min_fixed_basis": 0.045454545454545456,
+      "exact_odds_L2_error": 2.0099751242341288e-10,
+      "absorbed_odds_L2_bound": 2.04552251233806e-06,
+      "exact_statistic_span_L2_error": 2.0099751222241537e-09,
+      "statistic_span_L2_bound": 4.500149527143732e-05,
+      "span_bound_below_predeclared_0_01": true,
+      "CE_only_bound_cannot_enter_absorption": true,
+      "scope": "Known true parameters provide A in this arithmetic example; not an observable current-Fine guarantee."
+    }
+  ],
+  "all_checks_pass": true,
+  "script_sha256": "0eadc7f2ccbd3383a5686fe9bc3b2687e54036bf43442234470c2db178257025",
+  "execution_counts": {
+    "random_draws": 0,
+    "physical_trajectories_generated": 0,
+    "scientific_array_files_read": 0,
+    "model_loads": 0,
+    "model_forwards": 0,
+    "training_jobs": 0,
+    "server_connections": 0,
+    "gpu_jobs": 0
+  }
+}

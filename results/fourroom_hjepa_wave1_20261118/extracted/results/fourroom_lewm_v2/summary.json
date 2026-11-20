@@ -1,0 +1,278 @@
+{
+  "experiment": "fourroom_lewm_v2",
+  "axes": [
+    "agent_x",
+    "agent_y",
+    "distractor_x",
+    "distractor_y"
+  ],
+  "family_alpha": 0.05,
+  "family_size": 51,
+  "per_claim_alpha": 0.000980392156862745,
+  "diagnostic_family_sizes": [
+    9
+  ],
+  "rows": [
+    {
+      "cell": "cls_160k_official_seed42_level1",
+      "readout": "cls_160k_official",
+      "seed": 42,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.3307146363405,
+      "minimum_r2": 0.977992157663159,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1027,
+      "errors": 0,
+      "coverage": 0.50146484375,
+      "selective_error": 0.0,
+      "error_upper": 0.006722731908396431,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.0050436709170873055,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "cls_160k_official_seed43_level1",
+      "readout": "cls_160k_official",
+      "seed": 43,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.34037481391967916,
+      "minimum_r2": 0.9777532691603084,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1011,
+      "errors": 0,
+      "coverage": 0.49365234375,
+      "selective_error": 0.0,
+      "error_upper": 0.006828761200949573,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005123286804437562,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "cls_160k_official_seed44_level1",
+      "readout": "cls_160k_official",
+      "seed": 44,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.338152786409149,
+      "minimum_r2": 0.9761811995038485,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1000,
+      "errors": 0,
+      "coverage": 0.48828125,
+      "selective_error": 0.0,
+      "error_upper": 0.006903617691313977,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005179496759765912,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_official_seed42_level1",
+      "readout": "grid4x4_160k_official",
+      "seed": 42,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.3234939013795627,
+      "minimum_r2": 0.9940971546240968,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1030,
+      "errors": 0,
+      "coverage": 0.5029296875,
+      "selective_error": 0.0,
+      "error_upper": 0.00670321691027641,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005029017614512159,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_official_seed43_level1",
+      "readout": "grid4x4_160k_official",
+      "seed": 43,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.33144468930196663,
+      "minimum_r2": 0.9879866352635386,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1022,
+      "errors": 0,
+      "coverage": 0.4990234375,
+      "selective_error": 0.0,
+      "error_upper": 0.006755510641186372,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005068283773955925,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_official_seed44_level1",
+      "readout": "grid4x4_160k_official",
+      "seed": 44,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.3413760820219049,
+      "minimum_r2": 0.990343224163935,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1000,
+      "errors": 0,
+      "coverage": 0.48828125,
+      "selective_error": 0.0,
+      "error_upper": 0.006903617691313977,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005179496759765912,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_ridge_seed42_level1",
+      "readout": "grid4x4_160k_ridge",
+      "seed": 42,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.3287640237296636,
+      "minimum_r2": 0.9905656233309191,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1001,
+      "errors": 0,
+      "coverage": 0.48876953125,
+      "selective_error": 0.0,
+      "error_upper": 0.0068967448076965145,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.0051743358473304545,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_ridge_seed43_level1",
+      "readout": "grid4x4_160k_ridge",
+      "seed": 43,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.3348438691085981,
+      "minimum_r2": 0.993723552167433,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 995,
+      "errors": 0,
+      "coverage": 0.48583984375,
+      "selective_error": 0.0,
+      "error_upper": 0.006938188610651874,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005205456521290805,
+          "passes": true
+        }
+      }
+    },
+    {
+      "cell": "grid4x4_160k_ridge_seed44_level1",
+      "readout": "grid4x4_160k_ridge",
+      "seed": 44,
+      "level": 1,
+      "rule": "own_cal",
+      "threshold": 0.330512411111645,
+      "minimum_r2": 0.9873460007876053,
+      "eligible": true,
+      "windows": 2048,
+      "accepted": 1003,
+      "errors": 0,
+      "coverage": 0.48974609375,
+      "selective_error": 0.0,
+      "error_upper": 0.006883040012436878,
+      "passes_coverage": true,
+      "passes_error_bound": true,
+      "passes": true,
+      "family_size": 51,
+      "per_claim_alpha": 0.000980392156862745,
+      "status": "PASS",
+      "diagnostic_error_upper": {
+        "9": {
+          "per_claim_alpha": 0.005555555555555556,
+          "error_upper": 0.005164044815394296,
+          "passes": true
+        }
+      }
+    }
+  ]
+}

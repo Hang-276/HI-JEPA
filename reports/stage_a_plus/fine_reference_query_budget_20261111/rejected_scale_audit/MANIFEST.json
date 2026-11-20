@@ -1,0 +1,13 @@
+{
+  "scope": "post_hoc_same_query_scale_diagnostic_only",
+  "files": {
+    "LOCK.json": "2e2c8acb50b8c7087c64f5ae3c3aeb5750a439665ac8c2e189bb7cb8ee165fae",
+    "PROTOCOL.md": "a96dd23069a9d3ed202a3a623449539c655856fc71b5ccd835e623ee971673a2",
+    "REPLAY.json": "9cb0c7591b39917e2ff8c657513fec8dff6d95a0a85540b62b9082adb0323bd5",
+    "REPORT.md": "bf8134d3b9997fa839056b02d5d07daedf65d6dd1ba38a2f6e063f0f6a09fcd6",
+    "RESULT.json": "a6dd3f4135e6a97ee53fc36670bb6534b877fab8b7b3aeae9b2cfa019d6a8b80",
+    "SELF_CHECK.json": "3e64ae1f890569ed6578e0c493a2eb79eecc73971f7e561551408205e4040f6f",
+    "capture_worker.py": "9b68568dca3da6245dc8a6e4d7a24a510e45efdb0956d96a10787b786ad936d4",
+    "run.py": "d25981b02b9cfb32f735759febe7cfeb401e17364a81162d15a0d1eb857be35c"
+  }
+}

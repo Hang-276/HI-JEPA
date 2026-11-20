@@ -1,0 +1,12 @@
+{
+  "own_cal": {
+    "visual_lejepa_seed101": 0.5766711291786188,
+    "visual_lejepa_seed102": 0.568418206116388,
+    "visual_lejepa_seed103": 0.5719288983982498,
+    "long_horizon_pred_seed101": 0.45453330826760885,
+    "long_horizon_pred_seed102": 0.18823521432322185,
+    "long_horizon_pred_seed103": 0.5425166914690308
+  },
+  "quantile": 0.5,
+  "method": "linear"
+}

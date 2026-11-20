@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-09T10:02:44.398040+00:00",
+  "locked_sources": 105,
+  "phases": [
+    "lock",
+    "public TRAIN smoke",
+    "public forecast",
+    "physical score"
+  ],
+  "lock_sha": "c76b73d36381ea09cb5c84df56aef7de55d149f882d2df9547fcb2105674cf7b",
+  "forecast_sha": "b32f018b405a44d2090e942df2438f19f18e1aa9cac0b90c2f9af21a4677070b",
+  "summary_sha": "80d5ba637c81426d27085dba48e29c356a2eda3ace25c6bd2a4292873c002b2a",
+  "unique_new_trajectory_roots": 130,
+  "archived_roots_postcheck": 4252,
+  "cross_archive_overlap": [],
+  "slot_ids": [
+    "fhn_fresh_eps008",
+    "fhn_fresh_eps05"
+  ],
+  "all_arms_available": true,
+  "forecast_slots": 2,
+  "panels_per_slot": 32,
+  "alarms_per_method_per_panel": 6
+}

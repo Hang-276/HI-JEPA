@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-09T12:52:31.034826+00:00",
+  "lock": "6cdaaa796400908f805c8a79e18ee630f3f34795cff68760b694c8d4c77be37c",
+  "n": 64,
+  "bound_contains_sine": true,
+  "tail_extrema_parity": true,
+  "period_max_error": 1.0547118733938987e-15
+}

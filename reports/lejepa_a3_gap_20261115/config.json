@@ -1,0 +1,16 @@
+{
+  "seeds": [20151, 20152, 20153, 20154],
+  "training_cases": ["separated_wide", "crossed_wide"],
+  "processes": {
+    "separated_wide": [0.93, 0.918, 0.892, 0.88],
+    "separated_narrow": [0.93, 0.906, 0.904, 0.88]
+  },
+  "length": 193,
+  "lags": [4, 16, 32],
+  "quantiles": {"g20": 0.8, "g50": 0.5, "g80": 0.2},
+  "n_test": 4096,
+  "test_role": 613,
+  "minimum_coverage": 0.35,
+  "max_error": 0.01,
+  "alpha": 0.05
+}

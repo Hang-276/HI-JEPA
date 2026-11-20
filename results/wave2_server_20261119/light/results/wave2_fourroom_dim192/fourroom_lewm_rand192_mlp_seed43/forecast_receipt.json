@@ -1,0 +1,7 @@
+{
+  "sealed": true,
+  "cell": "fourroom_lewm_rand192_mlp_seed43",
+  "thresholds_sha256": "402c7fde07eb359c0ca906c2ceca7ae6ad947d108d2828b4b8813383a881fb36",
+  "probe_sha256": "a8500809aeffbd42b60ed347811d35c509b714382e81bc4eaaddc3e7b85884a5",
+  "test_prediction_sha256": "b70a4e4253974db9f61c012471a9e637d5e49763d3efe1437641a324ce66321c"
+}
